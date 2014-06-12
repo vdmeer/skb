@@ -1,5 +1,6 @@
 skb
 ===
 
-Wiki with collection of information: link:https://github.com/vdmeer/skb/wiki
+Wiki with collection of information: https://github.com/vdmeer/skb/wiki
+
 Resources in the repo here are of general nature for other SKB projects.

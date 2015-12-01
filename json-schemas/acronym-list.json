@@ -1,0 +1,13 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "id": "http://github.com/vdmeer/skb/json-schemas/acronym-list",
+    title: "SKB Acronym List",
+    "description": "A schema for an list of SKB acronym",
+    "type": "array",
+    "items": {
+        "$ref": "http://github.com/vdmeer/skb/json-schemas/acronym",
+        "minimum": 0,
+        "exclusiveMinimum": true,
+        "description": "An acronym in the list"
+    }
+}

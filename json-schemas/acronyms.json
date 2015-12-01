@@ -1,0 +1,15 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"id": "https://github.com/vdmeer/skb",
+	"description":	"A schema for SKB acronyms",
+	"type":"object",
+	"properties":{
+		"short":{"type": "string", "required": true, "description": "The short version of an acronym"},
+		"long":{"type": "string", "required": true, "description": "The long version of an acronym"},
+		"key":{"type": "string", "required": false, "description": "An optional key, if the auto-generated key is not sufficient"},
+
+		"links": {
+			{ "$ref":"http://github.com/vdmeer/skb/json-schemas/links"}
+		}
+	}
+}

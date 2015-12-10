@@ -1,0 +1,9 @@
+[
+	{"acronym":"skb://acronyms/time:dow:mon",		"#":1},
+	{"acronym":"skb://acronyms/time:dow:tue",		"#":2},
+	{"acronym":"skb://acronyms/time:dow:wed",		"#":3},
+	{"acronym":"skb://acronyms/time:dow:thu",		"#":4},
+	{"acronym":"skb://acronyms/time:dow:fri",		"#":5},
+	{"acronym":"skb://acronyms/time:dow:sat",		"#":6},
+	{"acronym":"skb://acronyms/time:dow:sun",		"#":7}
+]

@@ -1,0 +1,14 @@
+[
+	{"acronym":"skb://acronyms/time:moy:jan",		"#":1,		"bibtex":"jan"},
+	{"acronym":"skb://acronyms/time:moy:feb",		"#":2,		"bibtex":"feb"},
+	{"acronym":"skb://acronyms/time:moy:mar",		"#":3,		"bibtex":"mar"},
+	{"acronym":"skb://acronyms/time:moy:apr",		"#":4,		"bibtex":"apr"},
+	{"acronym":"skb://acronyms/time:moy:may",		"#":5,		"bibtex":"may"},
+	{"acronym":"skb://acronyms/time:moy:jun",		"#":6,		"bibtex":"jun"},
+	{"acronym":"skb://acronyms/time:moy:jul",		"#":7,		"bibtex":"jul"},
+	{"acronym":"skb://acronyms/time:moy:aug",		"#":8,		"bibtex":"aug"},
+	{"acronym":"skb://acronyms/time:moy:sep",		"#":9,		"bibtex":"sep"},
+	{"acronym":"skb://acronyms/time:moy:oct",		"#":10,		"bibtex":"oct"},
+	{"acronym":"skb://acronyms/time:moy:nov",		"#":11,		"bibtex":"nov"},
+	{"acronym":"skb://acronyms/time:moy:dec",		"#":12,		"bibtex":"dec"}
+]

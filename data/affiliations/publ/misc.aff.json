@@ -1,0 +1,21 @@
+[
+    {
+        "type": "skb://affiliation-types/publ",
+        "long": "Addison Wesley",
+        "short": "AW"
+    },
+    {
+        "type": "skb://affiliation-types/publ",
+        "long": "Wiley-Interscience",
+        "short": "WIS"
+    },
+    {
+        "type": "skb://affiliation-types/publ",
+        "long": "John Wiley &amp; Sons",
+        "short": "Wiley"
+    },
+    {
+        "type": "skb://affiliation-types/publ",
+        "acronym": "skb://acronyms/org:infoq"
+    }
+]

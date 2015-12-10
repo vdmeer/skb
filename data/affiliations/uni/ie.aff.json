@@ -1,0 +1,65 @@
+[
+    {
+        "type": "skb://affiliation-types/uni",
+        "acronym": "skb://acronyms/edu:ie:wit",
+        "geo": {
+            "city": "skb://cities/ie:waterford"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/uni",
+        "acronym": "skb://acronyms/edu:ie:dcu",
+        "geo": {
+            "city": "skb://cities/ie:dublin"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/uni",
+        "acronym": "skb://acronyms/edu:ie:cit",
+        "geo": {
+            "city": "skb://cities/ie:cork"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/uni",
+        "acronym": "skb://acronyms/edu:ie:tcd",
+        "geo": {
+            "city": "skb://cities/ie:dublin"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/uni",
+        "acronym": "skb://acronyms/edu:ie:ul",
+        "geo": {
+            "city": "skb://cities/ie:limerick"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/uni",
+        "acronym": "skb://acronyms/edu:ie:ucc",
+        "geo": {
+            "city": "skb://cities/ie:cork"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/uni",
+        "acronym": "skb://acronyms/edu:ie:ucd",
+        "geo": {
+            "city": "skb://cities/ie:dublin"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/uni",
+        "acronym": "skb://acronyms/edu:ie:erc",
+        "geo": {
+            "city": "skb://cities/ie:dublin"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/uni",
+        "acronym": "skb://acronyms/edu:ie:nuim",
+        "geo": {
+            "city": "skb://cities/ie:maynooth"
+        }
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "type": "skb://affiliation-types/museum",
+        "long": "Pushkin Museum",
+        "short": "Pushkin",
+        "geo": {
+            "city": "skb://cities/ru:moscow"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/museum",
+        "long": "The Hermitage",
+        "short": "Hermitage",
+        "geo": {
+            "city": "skb://cities/ru:st-petersburg"
+        }
+    }
+]

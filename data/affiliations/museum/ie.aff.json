@@ -1,0 +1,10 @@
+[
+    {
+        "type": "skb://affiliation-types/museum",
+        "long": "National Gallery of Ireland",
+        "short": "NGI",
+        "geo": {
+            "city": "skb://cities/ie:dublin"
+        }
+    }
+]

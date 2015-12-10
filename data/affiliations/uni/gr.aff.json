@@ -1,0 +1,26 @@
+[
+    {
+        "type": "skb://affiliation-types/uni",
+        "long": "University Patras",
+        "short": "UPatras",
+        "geo": {
+            "city": "skb://cities/gr:patras"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/uni",
+        "long": "Democritus University of Thrace",
+        "short": "DUTH",
+        "geo": {
+            "city": "skb://cities/gr:thrace"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/uni",
+        "long": "University of the Aegean",
+        "short": "Aegean",
+        "geo": {
+            "country": "skb://countries/gr"
+        }
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "type": "skb://affiliation-types/com",
+        "long": "Siemens",
+        "short": "Siemens",
+        "geo": {
+            "country": "skb://countries/at"
+        }
+    }
+]

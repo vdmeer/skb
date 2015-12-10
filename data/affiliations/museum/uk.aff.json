@@ -1,0 +1,42 @@
+[
+    {
+        "type": "skb://affiliation-types/museum",
+        "long": "National Gallery of Scotland",
+        "short": "NGS",
+        "geo": {
+            "city": "skb://cities/uk:edinburgh"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/museum",
+        "long": "Kenwood",
+        "short": "Ke",
+        "geo": {
+            "city": "skb://cities/uk:london"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/museum",
+        "long": "National Gallery",
+        "short": "NGL",
+        "geo": {
+            "city": "skb://cities/uk:london"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/museum",
+        "long": "Royal Collection",
+        "short": "RC",
+        "geo": {
+            "city": "skb://cities/uk:london"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/museum",
+        "long": "Wallace Collection",
+        "short": "WC",
+        "geo": {
+            "city": "skb://cities/uk:london"
+        }
+    }
+]

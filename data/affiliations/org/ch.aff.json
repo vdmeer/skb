@@ -1,0 +1,19 @@
+[
+    {
+        "type": "skb://affiliation-types/org",
+        "acronym": "skb://acronyms/org:iso",
+        "links": {
+            "u": "www.iso.org"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/org",
+        "acronym": "skb://acronyms/org:itu",
+        "geo": {
+            "city": "skb://cities/ch:geneva"
+        },
+        "links": {
+            "u": "www.itu.int"
+        }
+    }
+]

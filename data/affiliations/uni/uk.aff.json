@@ -1,0 +1,35 @@
+[
+    {
+        "type": "skb://affiliation-types/uni",
+        "acronym": "skb://acronyms/edu:uk:npl",
+        "addr": "Teddington, Middlesex",
+        "geo": {
+            "country": "skb://countries/uk"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/uni",
+        "long": "University of Manchester",
+        "short": "UoM",
+        "addr": "Manchester M13 9PL",
+        "geo": {
+            "city": "skb://cities/uk:manchester"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/uni",
+        "long": "University of Ulster",
+        "short": "UU",
+        "geo": {
+            "country": "skb://countries/uk"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/uni",
+        "long": "University of Leeds",
+        "short": "Leeds",
+        "geo": {
+            "city": "skb://cities/uk:leeds"
+        }
+    }
+]

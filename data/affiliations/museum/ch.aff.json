@@ -1,0 +1,10 @@
+[
+    {
+        "type": "skb://affiliation-types/museum",
+        "long": "Oskar Reinhart Collection",
+        "short": "Reinhart",
+        "geo": {
+            "city": "skb://cities/ch:winterthur"
+        }
+    }
+]

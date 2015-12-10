@@ -1,0 +1,10 @@
+[
+    {
+        "type": "skb://affiliation-types/museum",
+        "long": "Museo Nacional del Prado",
+        "short": "Prado",
+        "geo": {
+            "city": "skb://cities/es:madrid"
+        }
+    }
+]

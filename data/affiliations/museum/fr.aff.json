@@ -1,0 +1,26 @@
+[
+    {
+        "type": "skb://affiliation-types/museum",
+        "long": "Musée des Beaux-Arts",
+        "short": "MBA",
+        "geo": {
+            "city": "skb://cities/fr:lyon"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/museum",
+        "long": "Louvre",
+        "short": "Lou",
+        "geo": {
+            "city": "skb://cities/fr:paris"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/museum",
+        "long": "Musée d'Orsay",
+        "short": "Orsay",
+        "geo": {
+            "city": "skb://cities/fr:paris"
+        }
+    }
+]

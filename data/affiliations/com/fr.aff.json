@@ -1,0 +1,49 @@
+[
+    {
+        "type": "skb://affiliation-types/com",
+        "acronym": "skb://acronyms/com:fr:alu-r",
+        "geo": {
+            "country": "skb://countries/fr"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/com",
+        "long": "Hitachi Europe",
+        "short": "Hitachi",
+        "geo": {
+            "country": "skb://countries/fr"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/com",
+        "long": "ExaProtect",
+        "short": "ExaProtect",
+        "geo": {
+            "country": "skb://countries/fr"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/com",
+        "long": "Thales Communications",
+        "short": "Thales",
+        "geo": {
+            "country": "skb://countries/fr"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/com",
+        "acronym": "skb://acronyms/com:fr:ft",
+        "geo": {
+            "country": "skb://countries/fr"
+        }
+    },
+    {
+        "key": "Orange-Labs",
+        "type": "skb://affiliation-types/com",
+        "long": "Orange Labs",
+        "short": "Orange Labs",
+        "geo": {
+            "country": "skb://countries/fr"
+        }
+    }
+]

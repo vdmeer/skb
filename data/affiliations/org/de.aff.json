@@ -1,0 +1,10 @@
+[
+    {
+        "type": "skb://affiliation-types/org",
+        "long": "Eurescom",
+        "short": "Eurescom",
+        "geo": {
+            "city": "skb://cities/de:heidelberg"
+        }
+    }
+]

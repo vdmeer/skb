@@ -1,0 +1,9 @@
+[
+    {
+        "type": "skb://affiliation-types/org",
+        "acronym": "skb://acronyms/edu:de:gmd:fokus",
+        "geo": {
+            "city": "skb://cities/de:berlin"
+        }
+    }
+]

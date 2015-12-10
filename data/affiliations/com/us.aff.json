@@ -1,0 +1,109 @@
+[
+    {
+        "type": "skb://affiliation-types/com",
+        "long": "Pugh-Killeen Associates",
+        "short": "PKA"
+    },
+    {
+        "type": "skb://affiliation-types/com",
+        "long": "Cisco",
+        "short": "Cisco",
+        "geo": {
+            "country": "skb://countries/us"
+        }
+    },
+    {
+        "key": "IBM-T-J-Watson-RC",
+        "type": "skb://affiliation-types/com",
+        "long": "IBM, T. J. Watson Research Center",
+        "short": "IBM",
+        "geo": {
+            "country": "skb://countries/us"
+        }
+    },
+    {
+        "key": "Motorola-Labs",
+        "type": "skb://affiliation-types/com",
+        "long": "Motorola Labs",
+        "short": "Motorola",
+        "geo": {
+            "city": "skb://cities/us:il:schaumburg"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/com",
+        "long": "Intelliden Coorporation",
+        "short": "Intelliden",
+        "geo": {
+            "city": "skb://cities/us:co:colorado-springs"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/com",
+        "long": "Sun Microsystems, Inc.",
+        "short": "Sun",
+        "addr": "4150 Network Circle, Santa Clara, CA 95054",
+        "geo": {
+            "city": "skb://cities/us:ca:santa-clara"
+        },
+        "links": {
+            "u": "www.sun.com"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/com",
+        "long": "WildPackets Inc.",
+        "short": "WildPackets",
+        "geo": {
+            "city": "skb://cities/us:ca:walnut-creek"
+        },
+        "links": {
+            "u": "www.wildpackets.com"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/com",
+        "acronym": "skb://acronyms/com:us:hp",
+        "geo": {
+            "country": "skb://countries/us"
+        },
+        "addr": "Bridgewater, NJ"
+    },
+    {
+        "type": "skb://affiliation-types/com",
+        "long": "AutoMagic KB LLC",
+        "short": "AMKB",
+        "geo": {
+            "city": "skb://cities/us:co:denver"
+        },
+        "links": {
+            "u": "amkb-ngoss.com"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/com",
+        "acronym": "skb://acronyms/com:us:zifa",
+        "geo": {
+            "city": "skb://cities/us:mi:pinckney"
+        },
+        "links": {
+            "u": "www.zifa.com"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/com",
+        "long": "Intelligent Network Inc.",
+        "short": "IntNet",
+        "geo": {
+            "country": "skb://countries/us"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/com",
+        "long": "Telcordia Technologies",
+        "short": "Telcordia",
+        "geo": {
+            "country": "skb://countries/us"
+        }
+    }
+]

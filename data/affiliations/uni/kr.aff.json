@@ -1,0 +1,9 @@
+[
+    {
+        "type": "skb://affiliation-types/uni",
+        "acronym": "skb://acronyms/edu:kr:postech",
+        "geo": {
+            "city": "skb://cities/kr:pohang"
+        }
+    }
+]

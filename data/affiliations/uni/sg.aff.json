@@ -1,0 +1,24 @@
+[
+    {
+        "type": "skb://affiliation-types/uni",
+        "long": "Singapore Management University",
+        "short": "SMU",
+        "geo": {
+            "city": "skb://cities/sg:singapore"
+        },
+        "links": {
+            "u": "www.smu.edu.sg"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/uni",
+        "long": "U21 Global Graduate School",
+        "short": "U21",
+        "geo": {
+            "city": "skb://cities/sg:singapore"
+        },
+        "links": {
+            "u": "www.u21global.edu.sg"
+        }
+    }
+]

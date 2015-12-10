@@ -1,0 +1,13 @@
+[
+    {
+        "type": "skb://affiliation-types/uni",
+        "long": "University of Auckland",
+        "short": "UAuckland",
+        "geo": {
+            "city": "skb://cities/nz:auckland"
+        },
+        "links": {
+            "u": "www.auckland.ac.nz"
+        }
+    }
+]

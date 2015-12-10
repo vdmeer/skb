@@ -1,0 +1,40 @@
+[
+    {
+        "type": "skb://affiliation-types/org",
+        "acronym": "skb://acronyms/edu:ie:tssg",
+        "geo": {
+            "city": "skb://cities/ie:waterford"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/org",
+        "acronym": "skb://acronyms/org:iei",
+        "geo": {
+            "country": "skb://countries/ie"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/org",
+        "acronym": "skb://acronyms/org:ei",
+        "geo": {
+            "city": "skb://cities/ie:dublin"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/org",
+        "acronym": "skb://acronyms/org:hea",
+        "geo": {
+            "city": "skb://cities/ie:dublin"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/org",
+        "acronym": "skb://acronyms/org:sfi",
+        "geo": {
+            "city": "skb://cities/ie:dublin"
+        },
+        "links": {
+            "u": "www.sfi.ie"
+        }
+    }
+]

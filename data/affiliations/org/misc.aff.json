@@ -1,0 +1,17 @@
+[
+    {
+        "type": "skb://affiliation-types/org",
+        "acronym": "skb://acronyms/org:iaria",
+        "links": {
+            "u": "www.iaria.org"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/org",
+        "long": "IPv6 Forum",
+        "short": "IPv6F",
+        "links": {
+            "u": "www.ipv6forum.com"
+        }
+    }
+]

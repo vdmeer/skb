@@ -1,0 +1,51 @@
+[
+    {
+        "type": "skb://affiliation-types/publ",
+        "acronym": "skb://acronyms/org:iee",
+        "geo": {
+            "city": "skb://cities/uk:london"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/publ",
+        "long": "Springer",
+        "short": "Springer",
+        "addr": "London",
+        "geo": {
+            "city": "skb://cities/uk:london"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/publ",
+        "long": "SIWN Press",
+        "short": "SIWN",
+        "addr": "Glasgow",
+        "geo": {
+            "city": "skb://cities/uk:glasgow"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/publ",
+        "long": "Cambridge University Press",
+        "short": "CUP",
+        "geo": {
+            "city": "skb://cities/uk:cambridge"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/publ",
+        "long": "International Thomson Computer Press",
+        "short": "Thomson",
+        "addr": "London",
+        "geo": {
+            "city": "skb://cities/uk:london"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/publ",
+        "acronym": "skb://acronyms/org:fat",
+        "geo": {
+            "city": "skb://cities/uk:glasgow"
+        }
+    }
+]

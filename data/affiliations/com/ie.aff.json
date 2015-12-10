@@ -1,0 +1,18 @@
+[
+    {
+        "type": "skb://affiliation-types/com",
+        "long": "Aceno Mobile Services Ltd",
+        "short": "Aceno",
+        "geo": {
+            "country": "skb://countries/ie"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/com",
+        "long": "L.M. Ericsson",
+        "short": "LMI",
+        "geo": {
+            "country": "skb://countries/ie"
+        }
+    }
+]

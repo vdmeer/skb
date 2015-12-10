@@ -1,0 +1,26 @@
+[
+    {
+        "type": "skb://affiliation-types/com",
+        "acronym": "skb://acronyms/com:uk:bt",
+        "geo": {
+            "country": "skb://countries/uk"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/com",
+        "long": "QinetiQ",
+        "short": "QinetiQ",
+        "addr": "Hants",
+        "geo": {
+            "country": "skb://countries/uk"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/com",
+        "long": "Curbralan Limited",
+        "short": "Curbralan",
+        "geo": {
+            "city": "skb://cities/uk:bristol"
+        }
+    }
+]

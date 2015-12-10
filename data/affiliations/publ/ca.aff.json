@@ -1,0 +1,9 @@
+[
+    {
+        "type": "skb://affiliation-types/publ",
+        "acronym": "skb://acronyms/org:ieee",
+        "geo": {
+            "city": "skb://cities/ca:toronto"
+        }
+    }
+]

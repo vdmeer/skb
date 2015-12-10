@@ -1,0 +1,10 @@
+[
+    {
+        "type": "skb://affiliation-types/museum",
+        "long": "Galleria degli Uffizi",
+        "short": "Uffizi",
+        "geo": {
+            "city": "skb://cities/it:florence"
+        }
+    }
+]

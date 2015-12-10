@@ -1,0 +1,26 @@
+[
+    {
+        "type": "skb://affiliation-types/museum",
+        "long": "Rijksmuseum",
+        "short": "Rij",
+        "geo": {
+            "city": "skb://cities/nl:amsterdam"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/museum",
+        "long": "Mauritshuis",
+        "short": "MH",
+        "geo": {
+            "city": "skb://cities/nl:the-hague"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/museum",
+        "long": "Museum Boymans-van Beuningen",
+        "short": "Boymans",
+        "geo": {
+            "city": "skb://cities/nl:rotterdam"
+        }
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "type": "skb://affiliation-types/publ",
+        "long": "World Scientific",
+        "short": "WSP",
+        "geo": {
+            "city": "skb://cities/sg:singapore"
+        }
+    }
+]

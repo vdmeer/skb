@@ -1,0 +1,10 @@
+[
+    {
+        "type": "skb://affiliation-types/com",
+        "long": "Telenor",
+        "short": "Telenor",
+        "geo": {
+            "country": "skb://countries/no"
+        }
+    }
+]

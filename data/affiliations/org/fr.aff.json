@@ -1,0 +1,17 @@
+[
+    {
+        "type": "skb://affiliation-types/org",
+        "acronym": "skb://acronyms/org:uic",
+        "geo": {
+            "country": "skb://countries/fr"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/org",
+        "long": "INRIA-LORIA",
+        "short": "INRIA-LORIA",
+        "geo": {
+            "country": "skb://countries/fr"
+        }
+    }
+]

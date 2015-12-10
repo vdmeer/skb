@@ -1,0 +1,10 @@
+[
+    {
+        "type": "skb://affiliation-types/publ",
+        "long": "Birkhäuser Verlag",
+        "short": "Birkhäuser",
+        "geo": {
+            "city": "skb://cities/ch:zurich"
+        }
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "type": "skb://affiliation-types/uni",
+        "long": "Universidad Autónoma de Madrid",
+        "short": "UAM",
+        "geo": {
+            "city": "skb://cities/es:madrid"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/uni",
+        "long": "Universitat Politècnica de Catalunya",
+        "short": "UPC",
+        "geo": {
+            "city": "skb://cities/es:barcelona"
+        }
+    }
+]

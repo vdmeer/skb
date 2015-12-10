@@ -1,0 +1,10 @@
+[
+    {
+        "type": "skb://affiliation-types/org",
+        "long": "LORIA",
+        "short": "LORIA",
+        "geo": {
+            "country": "skb://countries/fr"
+        }
+    }
+]

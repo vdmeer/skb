@@ -1,0 +1,10 @@
+[
+    {
+        "type": "skb://affiliation-types/museum",
+        "long": "Museum of Fine Arts",
+        "short": "MOFA",
+        "geo": {
+            "city": "skb://cities/hu:budapest"
+        }
+    }
+]

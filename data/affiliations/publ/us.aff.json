@@ -1,0 +1,169 @@
+[
+    {
+        "type": "skb://affiliation-types/publ",
+        "acronym": "skb://acronyms/org:ieee:cs",
+        "geo": {
+            "country": "skb://countries/us"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/publ",
+        "long": "IEEE Computer Society Press",
+        "short": "IEEE-CSP",
+        "geo": {
+            "country": "skb://countries/us"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/publ",
+        "long": "The Pragmatic Bookshelf",
+        "short": "Pragmatic",
+        "geo": {
+            "country": "skb://countries/us"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/publ",
+        "long": "Prentice Hall Software",
+        "short": "PH-SW",
+        "addr": "Englewood Cliffs, N.J.",
+        "geo": {
+            "country": "skb://countries/us"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/publ",
+        "long": "Prentice Hall",
+        "short": "PH",
+        "addr": "Englewood Cliffs, N.J.",
+        "geo": {
+            "country": "skb://countries/us"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/publ",
+        "long": "MIT Press",
+        "short": "MIT-P",
+        "addr": "Cambridge, MA",
+        "geo": {
+            "city": "skb://cities/us:ma:cambridge"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/publ",
+        "long": "Springer Science + Business Media",
+        "short": "Springer-SBM",
+        "geo": {
+            "city": "skb://cities/us:ny:new-york"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/publ",
+        "long": "IDEA Group Publishing",
+        "short": "IDEA",
+        "addr": "Hershey, London, Melbourne, Singapore",
+        "geo": {
+            "country": "skb://countries/us"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/publ",
+        "long": "Apress",
+        "short": "Apress",
+        "geo": {
+            "city": "skb://cities/us:ca:berkeley"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/publ",
+        "long": "Peachpit Press",
+        "short": "Peachpit",
+        "geo": {
+            "city": "skb://cities/us:ca:berkeley"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/publ",
+        "long": "Kluwer Academic Publishers",
+        "short": "Kluwer",
+        "geo": {
+            "city": "skb://cities/us:ma:boston"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/publ",
+        "long": "Ó'Reilly Media Inc",
+        "short": "Reilly",
+        "geo": {
+            "city": "skb://cities/us:ca:sebastopol"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/publ",
+        "long": "IEEE Press",
+        "short": "IEEE-P",
+        "geo": {
+            "country": "skb://countries/us"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/publ",
+        "long": "Springer",
+        "short": "Spring-NY",
+        "geo": {
+            "city": "skb://cities/us:ny:new-york"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/publ",
+        "long": "Information Science Reference",
+        "short": "ISR",
+        "addr": "Hershey, New York",
+        "geo": {
+            "country": "skb://countries/us"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/publ",
+        "long": "Wiley Publishing Inc.",
+        "short": "Wiley-Inc",
+        "geo": {
+            "city": "skb://cities/us:in:indianapolis"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/publ",
+        "long": "Morgan Kaufmann",
+        "short": "MK",
+        "addr": "San Mateo",
+        "geo": {
+            "country": "skb://countries/us"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/publ",
+        "long": "Butterworth-Heinemann",
+        "short": "BH",
+        "geo": {
+            "country": "skb://countries/us"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/publ",
+        "long": "IEEE Computer Conference Publishing Services",
+        "short": "IEEE-CCPS",
+        "geo": {
+            "country": "skb://countries/us"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/publ",
+        "key": "springer-verlag:nbh:de",
+        "long": "Springer Verlag",
+        "short": "Springer",
+        "addr": "New York, Berlin, Heidelberg",
+        "geo": {
+            "city": "skb://cities/us:ny:new-york"
+        }
+    }
+]

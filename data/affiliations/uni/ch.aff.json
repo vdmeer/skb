@@ -1,0 +1,9 @@
+[
+    {
+        "type": "skb://affiliation-types/uni",
+        "acronym": "skb://acronyms/edu:ch:uzh",
+        "geo": {
+            "city": "skb://cities/ch:zurich"
+        }
+    }
+]

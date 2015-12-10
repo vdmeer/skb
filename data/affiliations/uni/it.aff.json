@@ -1,0 +1,35 @@
+[
+    {
+        "type": "skb://affiliation-types/uni",
+        "long": "Università di Urbino",
+        "short": "Urbino",
+        "geo": {
+            "country": "skb://countries/it"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/uni",
+        "long": "Université di Siena",
+        "short": "Siena",
+        "addr": "Pian dei Mantellini 44, 53100 Siena",
+        "geo": {
+            "city": "skb://cities/it:siena"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/uni",
+        "long": "Università Roma Tre",
+        "short": "Roma3",
+        "geo": {
+            "city": "skb://cities/it:rome"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/uni",
+        "long": "Trento University",
+        "short": "Trento",
+        "geo": {
+            "city": "skb://cities/it:trento"
+        }
+    }
+]

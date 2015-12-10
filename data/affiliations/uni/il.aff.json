@@ -1,0 +1,10 @@
+[
+    {
+        "type": "skb://affiliation-types/uni",
+        "long": "Hebrew University of Jerusalem",
+        "short": "HUJ",
+        "geo": {
+            "country": "skb://countries/il"
+        }
+    }
+]

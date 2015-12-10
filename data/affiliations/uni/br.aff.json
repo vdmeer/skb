@@ -1,0 +1,18 @@
+[
+    {
+        "type": "skb://affiliation-types/uni",
+        "long": "Federal University of Ceará",
+        "short": "FUC",
+        "geo": {
+            "country": "skb://countries/br"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/uni",
+        "long": "Universidade Federal do Rio Grande do Sul",
+        "short": "UFRGS",
+        "geo": {
+            "country": "skb://countries/br"
+        }
+    }
+]

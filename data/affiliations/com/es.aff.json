@@ -1,0 +1,9 @@
+[
+    {
+        "type": "skb://affiliation-types/com",
+        "acronym": "skb://acronyms/com:es:tid",
+        "geo": {
+            "country": "skb://countries/es"
+        }
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "type": "skb://affiliation-types/uni",
+        "long": "Institut d&rsquo;Informatique d&rsquo;Entreprise",
+        "short": "IIE",
+        "geo": {
+            "city": "skb://cities/fr:evry"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/uni",
+        "acronym": "skb://acronyms/edu:fr:lip6",
+        "geo": {
+            "city": "skb://cities/fr:paris"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/uni",
+        "long": "University of Evry",
+        "short": "Evry",
+        "geo": {
+            "city": "skb://cities/fr:evry"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/uni",
+        "long": "Université Paris1 Panthéon Sorbonne",
+        "short": "Sorbonne",
+        "addr": "90, rue de Tolbiac, 75013 Paris",
+        "geo": {
+            "city": "skb://cities/fr:paris"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/uni",
+        "long": "Université Paris 7",
+        "short": "Paris7",
+        "geo": {
+            "city": "skb://cities/fr:paris"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/uni",
+        "long": "Universit&eacute; Paris-Sud",
+        "short": "ParisSud",
+        "geo": {
+            "city": "skb://cities/fr:paris"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/uni",
+        "long": "INRIA-IRISA, Université de Rennes1",
+        "short": "IRISA",
+        "geo": {
+            "city": "skb://cities/fr:rennes"
+        }
+    }
+]

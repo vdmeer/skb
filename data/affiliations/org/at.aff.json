@@ -1,0 +1,22 @@
+[
+    {
+        "type": "skb://affiliation-types/org",
+        "acronym": "skb://acronyms/org:ifip",
+        "geo": {
+            "city": "skb://cities/at:laxenburg"
+        },
+        "links": {
+            "u": "www.ifip.or.at"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/org",
+        "acronym": "skb://acronyms/org:ifip:tc-6",
+        "geo": {
+            "city": "skb://cities/at:laxenburg"
+        },
+        "links": {
+            "u": "www.ifip.or.at"
+        }
+    }
+]

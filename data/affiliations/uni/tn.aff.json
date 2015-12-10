@@ -1,0 +1,11 @@
+[
+    {
+        "type": "skb://affiliation-types/uni",
+        "long": "Ecole Nationale des Sciences de l’Informatique",
+        "short": "ENSI",
+        "addr": "2035 Manouba",
+        "geo": {
+            "city": "skb://cities/tn:tunis"
+        }
+    }
+]

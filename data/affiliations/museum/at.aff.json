@@ -1,0 +1,26 @@
+[
+    {
+        "type": "skb://affiliation-types/museum",
+        "long": "Gemäldegalerie der Akademie der bildenden Künste",
+        "short": "GABK",
+        "geo": {
+            "city": "skb://cities/at:vienna"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/museum",
+        "long": "Graphische Sammlung Albertina",
+        "short": "Albertina",
+        "geo": {
+            "city": "skb://cities/at:vienna"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/museum",
+        "long": "Kunsthistorisches Museum",
+        "short": "KM",
+        "geo": {
+            "city": "skb://cities/at:vienna"
+        }
+    }
+]

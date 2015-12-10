@@ -1,0 +1,10 @@
+[
+    {
+        "type": "skb://affiliation-types/org",
+        "long": "European Commission",
+        "short": "EC",
+        "geo": {
+            "city": "skb://cities/be:brussels"
+        }
+    }
+]

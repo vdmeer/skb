@@ -1,0 +1,12 @@
+[
+    {
+        "type": "skb://affiliation-types/org",
+        "acronym": "skb://acronyms/org:uk-sim",
+        "geo": {
+            "country": "skb://countries/uk"
+        },
+        "links": {
+            "u": "www.uksim.info/"
+        }
+    }
+]

@@ -1,0 +1,55 @@
+[
+    {
+        "type": "skb://affiliation-types/uni",
+        "acronym": "skb://acronyms/edu:de:tub",
+        "geo": {
+            "city": "skb://cities/de:berlin"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/uni",
+        "long": "University Dortmund",
+        "short": "UDortmund",
+        "geo": {
+            "city": "skb://cities/de:dortmund"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/uni",
+        "long": "University of Passau",
+        "short": "UPassau",
+        "geo": {
+            "city": "skb://cities/de:passau"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/uni",
+        "long": "Fachhochschule Karlsruhe",
+        "short": "FHK",
+        "geo": {
+            "city": "skb://cities/de:karlsruhe"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/uni",
+        "acronym": "skb://acronyms/edu:de:tum",
+        "geo": {
+            "city": "skb://cities/de:münchen"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/uni",
+        "acronym": "skb://acronyms/edu:de:hub",
+        "geo": {
+            "city": "skb://cities/de:berlin"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/uni",
+        "long": "International University Germany",
+        "short": "IU",
+        "geo": {
+            "city": "skb://cities/de:bruchsal"
+        }
+    }
+]

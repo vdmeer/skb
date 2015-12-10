@@ -1,0 +1,10 @@
+[
+    {
+        "type": "skb://affiliation-types/uni",
+        "long": "University College of Borås",
+        "short": "UCB",
+        "geo": {
+            "city": "skb://cities/se:borås"
+        }
+    }
+]

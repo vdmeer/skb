@@ -1,0 +1,26 @@
+[
+    {
+        "type": "skb://affiliation-types/com",
+        "long": "Deutsche Telekom Berkom",
+        "short": "DTB",
+        "geo": {
+            "city": "skb://cities/de:berlin"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/com",
+        "long": "IKV++ Technologies AG",
+        "short": "IKV",
+        "geo": {
+            "city": "skb://cities/de:berlin"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/com",
+        "long": "Siemens AG",
+        "short": "Siemens",
+        "geo": {
+            "city": "skb://cities/de:münchen"
+        }
+    }
+]

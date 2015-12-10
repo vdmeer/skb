@@ -1,0 +1,40 @@
+[
+    {
+        "type": "skb://affiliation-types/uni",
+        "long": "University College Oslo",
+        "short": "UCO",
+        "geo": {
+            "city": "skb://cities/no:oslo"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/uni",
+        "long": "Norwegian University of Science &amp; Technology",
+        "short": "NTNU",
+        "geo": {
+            "city": "skb://cities/no:trondheim"
+        },
+        "links": {
+            "u": "www.ntnu.no"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/uni",
+        "long": "University of Bergen",
+        "short": "UIB",
+        "geo": {
+            "city": "skb://cities/no:bergen"
+        },
+        "links": {
+            "u": "www.uib.no"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/uni",
+        "long": "University of Oslo",
+        "short": "UIO",
+        "geo": {
+            "city": "skb://cities/no:oslo"
+        }
+    }
+]

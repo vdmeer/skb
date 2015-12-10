@@ -1,0 +1,9 @@
+[
+    {
+        "type": "skb://affiliation-types/uni",
+        "acronym": "skb://acronyms/edu:be:ughent",
+        "geo": {
+            "city": "skb://cities/be:ghent"
+        }
+    }
+]

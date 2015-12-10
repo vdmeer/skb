@@ -1,0 +1,164 @@
+[
+    {
+        "type": "skb://affiliation-types/uni",
+        "long": "Carnegie Mellon, Software Engineering Institute",
+        "short": "CMU-SEI",
+        "geo": {
+            "city": "skb://cities/us:pa:pittsburgh"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/uni",
+        "long": "University of San Francisco",
+        "short": "USF",
+        "geo": {
+            "city": "skb://cities/us:ca:san-francisco"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/uni",
+        "long": "Northeastern University",
+        "short": "NE",
+        "addr": "360 Huntington Ave., Boston, MA, 02115",
+        "geo": {
+            "city": "skb://cities/us:ma:boston"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/uni",
+        "long": "Boston University",
+        "short": "BostonU",
+        "geo": {
+            "city": "skb://cities/us:ma:boston"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/uni",
+        "long": "Cornell University",
+        "short": "Cornell",
+        "geo": {
+            "country": "skb://countries/us"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/uni",
+        "long": "Colorado State University",
+        "short": "Colorado-State",
+        "addr": "Colorado State University, Fort Collins, CO 80523",
+        "geo": {
+            "city": "skb://cities/us:co:colorado"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/uni",
+        "long": "University of California, Berkeley",
+        "short": "UCB",
+        "addr": "333 Cory Hall, Berkeley, CA 94720",
+        "geo": {
+            "city": "skb://cities/us:ca:berkeley"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/uni",
+        "long": "Vanderbilt University",
+        "short": "VU",
+        "addr": "2015 Terrace Place",
+        "geo": {
+            "city": "skb://cities/us:tn:nashville"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/uni",
+        "acronym": "skb://acronyms/edu:us:mit",
+        "geo": {
+            "city": "skb://cities/us:ma:cambridge"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/uni",
+        "long": "Georgia Institute of Technology",
+        "short": "GaTech",
+        "geo": {
+            "city": "skb://cities/us:ga:atlanta"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/uni",
+        "long": "Arizona State University",
+        "short": "ASU",
+        "geo": {
+            "city": "skb://cities/us:az:tempe"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/uni",
+        "long": "Carnegie Mellon, School of Computer Science",
+        "short": "CMU-CS",
+        "geo": {
+            "city": "skb://cities/us:pa:pittsburgh"
+        },
+        "links": {
+            "u": "www.cs.cmu.edu"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/uni",
+        "long": "Stanford University",
+        "short": "Stanford",
+        "geo": {
+            "city": "skb://cities/us:ca:palo-alto"
+        },
+        "links": {
+            "u": "www.stanford.edu"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/uni",
+        "long": "University of California, Irvine",
+        "short": "UCI",
+        "geo": {
+            "city": "skb://cities/us:ca:irvine"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/uni",
+        "long": "Columbia University",
+        "short": "Columbia",
+        "geo": {
+            "city": "skb://cities/us:ny:new-york"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/uni",
+        "long": "Langston University",
+        "short": "LU",
+        "geo": {
+            "city": "skb://cities/us:ok:langston"
+        },
+        "links": {
+            "u": "www.lunet.edu"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/uni",
+        "long": "University of Maryland",
+        "short": "UML",
+        "geo": {
+            "city": "skb://cities/us:md:college-park"
+        },
+        "links": {
+            "u": "www.umd.edu"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/uni",
+        "long": "American University",
+        "short": "AU",
+        "geo": {
+            "city": "skb://cities/us:dc:washington"
+        },
+        "links": {
+            "u": "www.american.edu"
+        }
+    }
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "type": "skb://affiliation-types/org",
+        "acronym": "skb://acronyms/edu:de:fhg:fokus",
+        "geo": {
+            "city": "skb://cities/de:berlin"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/org",
+        "acronym": "skb://acronyms/edu:de:fhg:iese",
+        "geo": {
+            "city": "skb://cities/de:karlsruhe"
+        }
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "type": "skb://affiliation-types/museum",
+        "long": "National Gallery of Art",
+        "short": "NGA",
+        "geo": {
+            "city": "skb://cities/us:dc:washington"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/museum",
+        "long": "Metropolitan Museum of Art",
+        "short": "MMA",
+        "geo": {
+            "city": "skb://cities/us:ny:new-york"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/museum",
+        "long": "Frick Collection",
+        "short": "FC",
+        "geo": {
+            "city": "skb://cities/us:ny:new-york"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/museum",
+        "long": "Detroit Institute of Arts",
+        "short": "DIA",
+        "geo": {
+            "city": "skb://cities/us:mi:detroit"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/museum",
+        "long": "Cincinnati Art Museum",
+        "short": "CAM",
+        "geo": {
+            "city": "skb://cities/us:mi:cincinnati"
+        }
+    },
+    {
+        "type": "skb://affiliation-types/museum",
+        "long": "Isabella Gardner Museum",
+        "short": "IG",
+        "geo": {
+            "city": "skb://cities/us:ma:boston"
+        }
+    }
+]

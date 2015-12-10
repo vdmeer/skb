@@ -1,0 +1,19 @@
+[
+	{"he":"<sup>",		"ltx":"$^{",					"ad":"^",		"descr":"html encoded sup script start"},
+	{"he":"</sup>",		"ltx":"}$",						"ad":"",		"descr":"html encoded sup script end"},
+	{"he":"<sub>",		"ltx":"$_{",					"ad":"_",		"descr":"html encoded sub script start"},
+	{"he":"</sub>",		"ltx":"}$",						"ad":"",		"descr":"html encoded sub script end"},
+	{"he":"<b>",		"ltx":"\\textbf{",				"ad":"*",		"descr":"html encoded bold start"},
+	{"he":"</b>",		"ltx":"}",						"ad":"*",		"descr":"html encoded bold end"},
+	{"he":"<i>",		"ltx":"\\textit{",				"ad":"_",		"descr":"html encoded italic start"},
+	{"he":"</i>",		"ltx":"}",						"ad":"_",		"descr":"html encoded italic end"},
+	{"he":"<br />",		"ltx":"\\",						"ad":"\n",		"descr":"html encoded br"},
+	{"he":"<br/>",		"ltx":"\\",						"ad":"\n",		"descr":"html encoded br no blank"},
+	{"he":"<br>",		"ltx":"\\",						"ad":"\n",		"descr":"html encoded br old"},
+	{"he":"<ol>",		"ltx":"\\begin{enumerate}",		"ad":"",		"descr":"html encoded ordered list start"},
+	{"he":"</ol>",		"ltx":"\\end{enumerate}",		"ad":"",		"descr":"html encoded ordered list end"},
+	{"he":"<ul>",		"ltx":"\\begin{itemize}",		"ad":"",		"descr":"html encoded u list start"},
+	{"he":"</ul>",		"ltx":"\\end{itemize}",			"ad":"",		"descr":"html encoded u list end"},
+	{"he":"<li>",		"ltx":"\\item",					"ad":"* ",		"descr":"html encoded list item start"},
+	{"he":"</li>",		"ltx":"",						"ad":"",		"descr":"html encoded list item end"}
+]

@@ -1,0 +1,55 @@
+﻿// Copyright 2015 Sven van der Meer <vdmeer.sven@mykolab.com>
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+// 
+//     http://www.apache.org/licenses/LICENSE-2.0
+// 
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+//
+
+//
+// UTF Characters for block "Currency Symbols" Range 20A0— 20CF
+//
+// @author     Sven van der Meer &lt;vdmeer.sven@mykolab.com&gt;
+// @version    v0.0.1 build 151209 (09-Dec-15)
+//
+//
+
+[
+	{"d":8352,	"c":"₠",										"b":"Currency Symbols",	"descr":"euro-currency sign"},
+	{"d":8353,	"c":"₡",										"b":"Currency Symbols",	"descr":"colon sign"},
+	{"d":8354,	"c":"₢",										"b":"Currency Symbols",	"descr":"cruzeiro sign"},
+	{"d":8355,	"c":"₣",										"b":"Currency Symbols",	"descr":"french franc sign"},
+	{"d":8356,	"c":"₤",										"b":"Currency Symbols",	"descr":"lira sign"},
+	{"d":8357,	"c":"₥",										"b":"Currency Symbols",	"descr":"mill sign"},
+	{"d":8358,	"c":"₦",										"b":"Currency Symbols",	"descr":"naira sign"},
+	{"d":8359,	"c":"₧",										"b":"Currency Symbols",	"descr":"peseta sign"},
+	{"d":8360,	"c":"₨",										"b":"Currency Symbols",	"descr":"rupee sign"},
+	{"d":8361,	"c":"₩",										"b":"Currency Symbols",	"descr":"won sign"},
+	{"d":8362,	"c":"₪",										"b":"Currency Symbols",	"descr":"new sheqel sign"},
+	{"d":8363,	"c":"₫",										"b":"Currency Symbols",	"descr":"dong sign"},
+	{"d":8364,	"c":"€",	"he":"&euro;",	"ltx":"{\\euro}",	"b":"Currency Symbols",	"descr":"euro sign"},
+	{"d":8365,	"c":"₭",										"b":"Currency Symbols",	"descr":"kip sign"},
+	{"d":8366,	"c":"₮",										"b":"Currency Symbols",	"descr":"tugrik sign"},
+	{"d":8367,	"c":"₯",										"b":"Currency Symbols",	"descr":"drachma sign"},
+	{"d":8368,	"c":"₰",										"b":"Currency Symbols",	"descr":"german penny symbol"},
+	{"d":8369,	"c":"₱",										"b":"Currency Symbols",	"descr":"peso sign"},
+	{"d":8370,	"c":"₲",										"b":"Currency Symbols",	"descr":"guarani sign"},
+	{"d":8371,	"c":"₳",										"b":"Currency Symbols",	"descr":"austral sign"},
+	{"d":8372,	"c":"₴",										"b":"Currency Symbols",	"descr":"hryvnia sign"},
+	{"d":8373,	"c":"₵",										"b":"Currency Symbols",	"descr":"cedi sign"},
+	{"d":8374,	"c":"₶",										"b":"Currency Symbols", "descr":"Livre Tournois Sign"},
+	{"d":8375,	"c":"₷",										"b":"Currency Symbols", "descr":"Spesmilo Sign"},
+	{"d":8376,	"c":"₸",										"b":"Currency Symbols", "descr":"Tenge Sign"},
+	{"d":8377,	"c":"₹",										"b":"Currency Symbols", "descr":"Indian Rupee Sign"},
+	{"d":8378,	"c":"₺",										"b":"Currency Symbols", "descr":"Turkish Lira Sign"},
+	{"d":8379,	"c":"₻",										"b":"Currency Symbols", "descr":"Nordic Mark Sign"},
+	{"d":8380,	"c":"₼",										"b":"Currency Symbols", "descr":"Manat Sign"},
+	{"d":8381,	"c":"₽",										"b":"Currency Symbols", "descr":"Russian Ruble Sign"}
+]

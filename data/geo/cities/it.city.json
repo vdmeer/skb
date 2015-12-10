@@ -1,0 +1,8 @@
+[
+	{"n":"Rome",		"country":"skb://countries/it",	"wac":"450"},
+	{"n":"Venice",		"country":"skb://countries/it",	"wac":"450"},
+	{"n":"Siena",		"country":"skb://countries/it"},
+	{"n":"Trento",		"country":"skb://countries/it"},
+	{"n":"Pisa",		"country":"skb://countries/it"},
+	{"n":"Florence",	"country":"skb://countries/it",	"wac":"450",	"iata":"FLR"}
+]

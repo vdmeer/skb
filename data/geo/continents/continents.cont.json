@@ -1,0 +1,8 @@
+[	{"key":"asia",			"n":"Asia"},
+	{"key":"africa",		"n":"Africa"},
+	{"key":"n_america",		"n":"North America"},
+	{"key":"s_america",		"n":"South America"},
+	{"key":"antarctica",	"n":"Antarctica"},
+	{"key":"europe",		"n":"Europe"},
+	{"key":"australia",		"n":"Australia and Oceania"}
+]

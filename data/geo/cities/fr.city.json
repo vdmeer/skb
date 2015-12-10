@@ -1,0 +1,9 @@
+[
+	{"n":"Lyon",			"country":"skb://countries/fr",	"wac":"427",	"iata":"LYN",	"icao":"LFKL"},
+	{"n":"Nice",			"country":"skb://countries/fr",	"wac":"427",	"iata":"NCE",	"icao":"LFMJ"},
+	{"n":"Paris",			"country":"skb://countries/fr",	"wac":"427",	"iata":"CDG",	"icao":"LFPS"},
+	{"n":"Guadeloupe",		"country":"skb://countries/fr"},
+	{"n":"Gosier",			"country":"skb://countries/fr"},
+	{"n":"Evry",			"country":"skb://countries/fr"},
+	{"n":"Rennes",			"country":"skb://countries/fr"}
+]

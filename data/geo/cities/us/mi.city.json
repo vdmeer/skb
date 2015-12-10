@@ -1,0 +1,5 @@
+[
+	{"n":"Cincinnati",		"country":"skb://countries/us",	"wac":"67",	"iata":"LUK",	"icao":"KDXO",	"s":"MI"},
+	{"n":"Detroit",			"country":"skb://countries/us",	"wac":"67",	"iata":"DET",					"s":"MI"},
+	{"n":"Pinckney",		"country":"skb://countries/us",	"wac":"67",									"s":"MI"}
+]

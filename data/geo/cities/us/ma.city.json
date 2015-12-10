@@ -1,0 +1,6 @@
+[
+	{"n":"Reading",		"country":"skb://countries/us",	"wac":"67",									"s":"MA"},
+	{"n":"Needham",		"country":"skb://countries/us",	"wac":"67",									"s":"MA"},
+	{"n":"Boston",		"country":"skb://countries/us",	"wac":"67",	"iata":"BOS",	"icao":"KBOS"	,"s":"MA"},
+	{"n":"Cambridge",	"country":"skb://countries/us",												"s":"MA"}
+]

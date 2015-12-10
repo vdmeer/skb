@@ -1,0 +1,5 @@
+[
+	{"n":"Geneva",		"country":"skb://countries/ch",	"wac":"486"},
+	{"n":"Zurich",		"country":"skb://countries/ch",	"wac":"486",	"iata":"ZRH",	"icao":"LSZH"},
+	{"n":"Winterthur",	"country":"skb://countries/ch",	"wac":"486"}
+]

@@ -1,0 +1,14 @@
+[
+	{"n":"Belfast",			"country":"skb://countries/uk"},
+	{"n":"Glasgow",			"country":"skb://countries/uk"},
+	{"n":"Brighton",		"country":"skb://countries/uk",	"wac":"493",	"iata":"BSH"},
+	{"n":"Colchester",		"country":"skb://countries/uk",	"wac":"493"},
+	{"n":"Edinburgh",		"country":"skb://countries/uk",	"wac":"493",	"iata":"EDI",	"icao":"EGPH",	"r":"Scottland"},
+	{"n":"London",			"country":"skb://countries/uk",	"wac":"493",	"iata":"LHR",	"icao":"EGGO"},
+	{"n":"Manchester",		"country":"skb://countries/uk"},
+	{"n":"Fishguard",		"country":"skb://countries/uk"},
+	{"n":"Torbay",			"country":"skb://countries/uk"},
+	{"n":"Leeds",			"country":"skb://countries/uk"},
+	{"n":"Bristol",			"country":"skb://countries/uk"},
+	{"n":"Cambridge",		"country":"skb://countries/uk"}
+]

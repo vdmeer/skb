@@ -1,0 +1,5 @@
+[
+	{"n":"Madrid",		"country":"skb://countries/es",	"wac":"482",	"iata":"MAD",	"icao":"LEGM"},
+	{"n":"Barcelona",	"country":"skb://countries/es",	"wac":"482",	"iata":"BCN",	"icao":"LEBL"},
+	{"n":"Teneriffa",	"country":"skb://countries/es"}
+]

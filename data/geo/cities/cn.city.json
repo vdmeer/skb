@@ -1,0 +1,5 @@
+[
+	{"n":"Hong Kong",	"country":"skb://countries/cn"},
+	{"n":"Chengdu",		"country":"skb://countries/cn",	"wac":"713",	"iata":"CTU",	"icao":"ZUDS"},
+	{"n":"Beijing",		"country":"skb://countries/cn"}
+]

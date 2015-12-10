@@ -1,0 +1,15 @@
+[
+	{"n":"The Hague",		"country":"skb://countries/nl",	"wac":"461",	"iata":"ZYH"},
+	{"n":"Amsterdam",		"country":"skb://countries/nl",	"wac":"461",	"iata":"AMS",	"icao":"EHXX"},
+	{"n":"Rotterdam",		"country":"skb://countries/nl"},
+	{"n":"Utrecht",			"country":"skb://countries/nl"},
+	{"n":"Delft",			"country":"skb://countries/nl"},
+	{"n":"Heemskerk",		"country":"skb://countries/nl"},
+	{"n":"Zaanse Schans",	"country":"skb://countries/nl"},
+	{"n":"Alkmaar",			"country":"skb://countries/nl"},
+	{"n":"Slot de Haar",	"country":"skb://countries/nl"},
+	{"n":"Hoek",			"country":"skb://countries/nl"},
+	{"n":"Twente",			"country":"skb://countries/nl"},
+	{"n":"Groningen",		"country":"skb://countries/nl"},
+	{"n":"Dortrecht",		"country":"skb://countries/nl"}
+]

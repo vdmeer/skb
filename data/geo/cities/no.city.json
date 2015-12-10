@@ -1,0 +1,5 @@
+[
+	{"n":"Bergen",			"country":"skb://countries/no"},
+	{"n":"Oslo",			"country":"skb://countries/no",	"wac":"465",	"iata":"OSL",	"icao":"ENOS"},
+	{"n":"Trondheim",		"country":"skb://countries/no"}
+]

@@ -1,0 +1,6 @@
+[
+	{"n":"Antarctica",							"continent":"skb://continents/antarctica",	"a2":"aq",	"a3":"ATA",		"nu":"010",		"t":"aq"},
+	{"n":"Bouvet Island",						"continent":"skb://continents/antarctica",	"a2":"bv",	"a3":"BVT",		"nu":"074",		"t":"bv"},
+	{"n":"French Southern Territories",			"continent":"skb://continents/antarctica",	"a2":"tf",	"a3":"ATF",		"nu":"260",		"t":"tf"},
+	{"n":"Heard Island and McDonald Islands",	"continent":"skb://continents/antarctica",	"a2":"hm",	"a3":"HMD",		"nu":"334",		"t":"hm"}
+]

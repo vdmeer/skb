@@ -1,0 +1,5 @@
+[
+	{"n":"Laxenburg",	"country":"skb://countries/at"},
+	{"n":"Vienna",		"country":"skb://countries/at",	"wac":"403",	"iata":"VIE",	"icao":"LOAN",	"s":"Wien",	"links":{"u":"info.wien.at/"}},
+	{"n":"Salzburg",	"country":"skb://countries/at",	"wac":"403",	"iata":"SZG",	"icao":"LOWS"}
+]

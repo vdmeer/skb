@@ -1,0 +1,8 @@
+[
+	{"n":"Tampa",				"country":"skb://countries/us",	"wac":"67",	"iata":"TPA",	"icao":"KTPA",	"s":"FL"},
+	{"n":"Miami",				"country":"skb://countries/us",	"wac":"67",	"iata":"MIA",	"icao":"KMIA",	"s":"FL"},
+	{"n":"Cape Canaveral",		"country":"skb://countries/us",												"s":"FL"},
+	{"n":"Orlando",				"country":"skb://countries/us",												"s":"FL"},
+	{"n":"Key West",			"country":"skb://countries/us",												"s":"FL"},
+	{"n":"Key Biscayne",		"country":"skb://countries/us",												"s":"FL"}
+]

@@ -1,0 +1,7 @@
+[
+	{"n":"Niagara Falls",	"country":"skb://countries/ca"},
+	{"n":"Vancouver",		"country":"skb://countries/ca",	"wac":"906",	"iata":"YVR",	"icao":"CYVR"},
+	{"n":"Toronto",			"country":"skb://countries/ca"},
+	{"n":"London",			"country":"skb://countries/ca",	"wac":"906",	"iata":"YXU",	"icao":"CYXU",	"r":"Ontario"},
+	{"n":"Montréal",		"country":"skb://countries/ca",	"r":"Ontario"}
+]

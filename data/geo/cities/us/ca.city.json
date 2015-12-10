@@ -1,0 +1,12 @@
+[
+	{"n":"San Francisco",		"country":"skb://countries/us",	"wac":"67",										"s":"CA"},
+	{"n":"San Jos&eacute;",		"country":"skb://countries/us",	"wac":"67",		"iata":"SJC",	"icao":"KSJC",	"s":"CA"},
+	{"n":"Fremont",				"country":"skb://countries/us",	"wac":"67",										"s":"CA"},
+	{"n":"Newport Beach",		"country":"skb://countries/us",	"wac":"67",										"s":"CA"},
+	{"n":"Berkeley",			"country":"skb://countries/us",	"wac":"67",										"s":"CA"},
+	{"n":"Palo Alto",			"country":"skb://countries/us",	"wac":"67",										"s":"CA"},
+	{"n":"Irvine",				"country":"skb://countries/us",	"wac":"67",										"s":"CA"},
+	{"n":"Santa Clara",			"country":"skb://countries/us",	"wac":"67",										"s":"CA"},
+	{"n":"Walnut Creek",		"country":"skb://countries/us",	"wac":"67",										"s":"CA"},
+	{"n":"Sebastopol",			"country":"skb://countries/us",													"s":"CA"}
+]

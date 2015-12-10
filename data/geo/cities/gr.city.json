@@ -1,0 +1,6 @@
+[
+	{"n":"Samos Island",	"country":"skb://countries/gr"},
+	{"n":"Athens",			"country":"skb://countries/gr",	"wac":"433",	"iata":"ATH"},
+	{"n":"Patras",			"country":"skb://countries/gr"},
+	{"n":"Thrace",			"country":"skb://countries/gr"}
+]

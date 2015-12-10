@@ -1,0 +1,22 @@
+[
+	{"n":"Berlin",					"country":"skb://countries/de",	"wac":"429",	"iata":"BER",	"icao":"EDDT",		"s":"Berlin",	"links":{"u":"www.berlin.de"}},
+	{"n":"Braunschweig",			"country":"skb://countries/de",	"wac":"429",	"iata":"BWE",	"icao":"EDVE"},
+	{"n":"Köln",					"country":"skb://countries/de",	"wac":"429",	"iata":"CGN",	"icao":"EDDK"},
+	{"n":"Dresden",					"country":"skb://countries/de",	"wac":"429",	"iata":"DRS",	"icao":"EDDC"},
+	{"n":"Frankfurt am Main",		"country":"skb://countries/de",	"wac":"429",	"iata":"FRA",	"icao":"EDDF",		"s":"Hessen"},
+	{"n":"Hamburg",					"country":"skb://countries/de",	"wac":"429",	"iata":"HAM",	"icao":"EDDH"},
+	{"n":"Heidelberg",				"country":"skb://countries/de",	"wac":"429",	"iata":"HDB",	"icao":"ETIE"},
+	{"n":"Karlsruhe",				"country":"skb://countries/de",	"wac":"429",	"iata":"FKB",	"icao":"EDSB"},
+	{"n":"Kassel",					"country":"skb://countries/de",	"wac":"429",	"iata":"KSF",	"icao":"EDVK"},
+	{"n":"Leipzig",					"country":"skb://countries/de",	"wac":"429",	"iata":"LEJ",	"icao":"EDDP"},
+	{"n":"München",					"country":"skb://countries/de",	"wac":"429",	"iata":"MUC",	"icao":"EDDM"},
+	{"n":"Schwerin",				"country":"skb://countries/de",	"wac":"429",	"iata":"SZW",	"icao":"EDOP"},
+	{"n":"Laxenburg",				"country":"skb://countries/at"},
+	{"n":"Dortmund",				"country":"skb://countries/de"},
+	{"n":"Passau",					"country":"skb://countries/de"},
+	{"n":"Cantnitz",				"country":"skb://countries/de"},
+	{"n":"Neubrandenburg",			"country":"skb://countries/de"},
+	{"n":"Woldeck",					"country":"skb://countries/de"},
+	{"n":"Bruchsal",				"country":"skb://countries/de",	"wac":"429"},
+	{"n":"Mannheim",				"country":"skb://countries/de",	"wac":"429"}
+]

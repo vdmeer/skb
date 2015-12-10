@@ -1,0 +1,22 @@
+[
+    {
+        "short": "com",
+        "long": "Company"
+    },
+    {
+        "short": "uni",
+        "long": "University"
+    },
+    {
+        "short": "org",
+        "long": "Organisation"
+    },
+    {
+        "short": "museum",
+        "long": "Museum"
+    },
+    {
+        "short": "publ",
+        "long": "Publisher"
+    }
+]

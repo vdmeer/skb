@@ -14,7 +14,7 @@
 //
 
 //
-// UTF Characters for block "Miscellaneous Symbols" Range 2600— 26FF
+// UTF Characters for block "Miscellaneous Symbols" Range 2600-26FF
 //
 // @author     Sven van der Meer &lt;vdmeer.sven@mykolab.com&gt;
 // @version    v0.0.1 build 151209 (09-Dec-15)
@@ -150,8 +150,6 @@
 	{"d":9853,	"c":"♽",							"b":"Miscellaneous Symbols",	"descr":"partially-recycled paper symbol"				},
 	{"d":9854,	"c":"♾",							"b":"Miscellaneous Symbols",	"descr":"Permanent Paper Sign"},
 	{"d":9855,	"c":"♿",							"b":"Miscellaneous Symbols",	"descr":"Wheelchair Symbol"},
-
-2680
 	{"d":9856,	"c":"⚀",							"b":"Miscellaneous Symbols",	"descr":"Die Face-1"},
 	{"d":9857,	"c":"⚁",							"b":"Miscellaneous Symbols",	"descr":"Die Face-2"},
 	{"d":9858,	"c":"⚂",							"b":"Miscellaneous Symbols",	"descr":"Die Face-3"},
@@ -168,7 +166,6 @@
 	{"d":9869,	"c":"⚍",							"b":"Miscellaneous Symbols",	"descr":"Digram for Lesser Yin"},
 	{"d":9870,	"c":"⚎",							"b":"Miscellaneous Symbols",	"descr":"Digram for Lesser Yang"},
 	{"d":9871,	"c":"⚏",							"b":"Miscellaneous Symbols",	"descr":"Digram for Greater Yin"},
-2690
 	{"d":9872,	"c":"⚐",							"b":"Miscellaneous Symbols",	"descr":"White Flag"},
 	{"d":9873,	"c":"⚑",							"b":"Miscellaneous Symbols",	"descr":"Black Flag"},
 	{"d":9874,	"c":"⚒",							"b":"Miscellaneous Symbols",	"descr":"Hammer and Pick"},
@@ -185,7 +182,6 @@
 	{"d":9885,	"c":"⚝",							"b":"Miscellaneous Symbols",	"descr":"Outlined White Star"},
 	{"d":9886,	"c":"⚞",							"b":"Miscellaneous Symbols",	"descr":"Three Lines Converging Right"},
 	{"d":9887,	"c":"⚟",							"b":"Miscellaneous Symbols",	"descr":"Three Lines Converging Left"},
-26A0
 	{"d":9888,	"c":"⚠",							"b":"Miscellaneous Symbols",	"descr":"Warning Sign"},
 	{"d":9889,	"c":"⚡",							"b":"Miscellaneous Symbols",	"descr":"High Voltage Sign"},
 	{"d":9890,	"c":"⚢",							"b":"Miscellaneous Symbols",	"descr":"Doubled Female Sign"},
@@ -202,7 +198,6 @@
 	{"d":9901,	"c":"⚭",							"b":"Miscellaneous Symbols",	"descr":"Marriage Symbol"},
 	{"d":9902,	"c":"⚮",							"b":"Miscellaneous Symbols",	"descr":"Divorce Symbol"},
 	{"d":9903,	"c":"⚯",							"b":"Miscellaneous Symbols",	"descr":"Unmarried Partnership Symbol"},
-26B0
 	{"d":9904,	"c":"⚰",							"b":"Miscellaneous Symbols",	"descr":"Coffin"},
 	{"d":9905,	"c":"⚱",							"b":"Miscellaneous Symbols",	"descr":"Funeral Urn"},
 	{"d":9906,	"c":"⚲",							"b":"Miscellaneous Symbols",	"descr":"Neuter"},
@@ -219,7 +214,6 @@
 	{"d":9917,	"c":"⚽",							"b":"Miscellaneous Symbols",	"descr":"Soccer Ball"},
 	{"d":9918,	"c":"⚾",							"b":"Miscellaneous Symbols",	"descr":"Baseball"},
 	{"d":9919,	"c":"⚿",							"b":"Miscellaneous Symbols",	"descr":"Squared Key"},
-26C0
 	{"d":9920,	"c":"⛀",							"b":"Miscellaneous Symbols",	"descr":"White Draughts Man"},
 	{"d":9921,	"c":"⛁",							"b":"Miscellaneous Symbols",	"descr":"White Draughts King"},
 	{"d":9922,	"c":"⛂",							"b":"Miscellaneous Symbols",	"descr":"Black Draughts Man"},
@@ -236,7 +230,6 @@
 	{"d":9933,	"c":"⛍",							"b":"Miscellaneous Symbols",	"descr":"Disabled Car"},
 	{"d":9934,	"c":"⛎",							"b":"Miscellaneous Symbols",	"descr":"Ophiuchus"},
 	{"d":9935,	"c":"⛏",							"b":"Miscellaneous Symbols",	"descr":"Pick"},
-26D0
 	{"d":9936,	"c":"⛐",							"b":"Miscellaneous Symbols",	"descr":"Car Sliding"},
 	{"d":9937,	"c":"⛑",							"b":"Miscellaneous Symbols",	"descr":"Helmet with White Cross"},
 	{"d":9938,	"c":"⛒",							"b":"Miscellaneous Symbols",	"descr":"Circled Crossing Lanes"},
@@ -253,7 +246,6 @@
 	{"d":9949,	"c":"⛝",							"b":"Miscellaneous Symbols",	"descr":"Squared Saltire"},
 	{"d":9950,	"c":"⛞",							"b":"Miscellaneous Symbols",	"descr":"Falling Diagonal In White Circle In Black Square"},
 	{"d":9951,	"c":"⛟",							"b":"Miscellaneous Symbols",	"descr":"Black Truck"},
-26E0
 	{"d":9952,	"c":"⛠",							"b":"Miscellaneous Symbols",	"descr":"Restricted Left Entry-1"},
 	{"d":9953,	"c":"⛡",							"b":"Miscellaneous Symbols",	"descr":"Restricted Left Entry-2"},
 	{"d":9954,	"c":"⛢",							"b":"Miscellaneous Symbols",	"descr":"Astronomical Symbol for Uranus"},
@@ -270,7 +262,6 @@
 	{"d":9965,	"c":"⛭",							"b":"Miscellaneous Symbols",	"descr":"Gear Without Hub"},
 	{"d":9966,	"c":"⛮",							"b":"Miscellaneous Symbols",	"descr":"Gear with Handles"},
 	{"d":9967,	"c":"⛯",							"b":"Miscellaneous Symbols",	"descr":"Map Symbol for Lighthouse"},
-26F0
 	{"d":9968,	"c":"⛰",							"b":"Miscellaneous Symbols",	"descr":"Mountain"},
 	{"d":9969,	"c":"⛱",							"b":"Miscellaneous Symbols",	"descr":"Umbrella On Ground"},
 	{"d":9970,	"c":"⛲",							"b":"Miscellaneous Symbols",	"descr":"Fountain"},

@@ -14,7 +14,7 @@
 //
 
 //
-// UTF Characters for block "Mathematical Operators" Range 2200— 22FF
+// UTF Characters for block "Mathematical Operators" Range 2200-22FF
 //
 // @author     Sven van der Meer &lt;vdmeer.sven@mykolab.com&gt;
 // @version    v0.0.1 build 151209 (09-Dec-15)
@@ -208,16 +208,16 @@
 	{"d":8887,	"c":"⊷",												"b":"Mathematical Operators",	"descr":"image of"},
 	{"d":8888,	"c":"⊸",												"b":"Mathematical Operators",	"descr":"multimap"},
 	{"d":8889,	"c":"⊹",												"b":"Mathematical Operators",	"descr":"hermitian conjugate matrix"},
-	{"d":8990,	"c":"⊺",												"b":"Mathematical Operators",	"descr":"intercalate"},
-	{"d":8991,	"c":"⊻",												"b":"Mathematical Operators",	"descr":"xor"},
-	{"d":8992,	"c":"⊼",												"b":"Mathematical Operators",	"descr":"nand"},
-	{"d":8993,	"c":"⊽",												"b":"Mathematical Operators",	"descr":"nor"},
-	{"d":8994,	"c":"⊾",												"b":"Mathematical Operators",	"descr":"right angle with arc"},
-	{"d":8995,	"c":"⊿",												"b":"Mathematical Operators",	"descr":"right triangle"},
-	{"d":8996,	"c":"⋀",												"b":"Mathematical Operators",	"descr":"n-ary logical and"},
-	{"d":8997,	"c":"⋁",												"b":"Mathematical Operators",	"descr":"n-ary logical or"},
-	{"d":8998,	"c":"⋂",												"b":"Mathematical Operators",	"descr":"n-ary intersection"},
-	{"d":8999,	"c":"⋃",												"b":"Mathematical Operators",	"descr":"n-ary union"},
+	{"d":8890,	"c":"⊺",												"b":"Mathematical Operators",	"descr":"intercalate"},
+	{"d":8891,	"c":"⊻",												"b":"Mathematical Operators",	"descr":"xor"},
+	{"d":8892,	"c":"⊼",												"b":"Mathematical Operators",	"descr":"nand"},
+	{"d":8893,	"c":"⊽",												"b":"Mathematical Operators",	"descr":"nor"},
+	{"d":8894,	"c":"⊾",												"b":"Mathematical Operators",	"descr":"right angle with arc"},
+	{"d":8895,	"c":"⊿",												"b":"Mathematical Operators",	"descr":"right triangle"},
+	{"d":8896,	"c":"⋀",												"b":"Mathematical Operators",	"descr":"n-ary logical and"},
+	{"d":8897,	"c":"⋁",												"b":"Mathematical Operators",	"descr":"n-ary logical or"},
+	{"d":8898,	"c":"⋂",												"b":"Mathematical Operators",	"descr":"n-ary intersection"},
+	{"d":8899,	"c":"⋃",												"b":"Mathematical Operators",	"descr":"n-ary union"},
 	{"d":8900,	"c":"⋄",												"b":"Mathematical Operators",	"descr":"diamond operator"},
 	{"d":8901,	"c":"⋅",	"he":"&sdot;",								"b":"Mathematical Operators",	"descr":"dot operator"},
 	{"d":8902,	"c":"⋆",												"b":"Mathematical Operators",	"descr":"star operator"},

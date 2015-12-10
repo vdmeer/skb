@@ -14,7 +14,7 @@
 //
 
 //
-// UTF Characters for block "Latin Extended Additional" Range 1E00— 1EFF
+// UTF Characters for block "Latin Extended Additional" Range 1E00-1EFF
 //
 // @author     Sven van der Meer &lt;vdmeer.sven@mykolab.com&gt;
 // @version    v0.0.1 build 151209 (09-Dec-15)
@@ -111,7 +111,7 @@
 	{"d":7766,	"c":"Ṗ",		"ltx":null,		"b":"Latin Extended Additional",	"descr":"Latin Capital Letter P with Dot Above"},
 	{"d":7767,	"c":"ṗ",		"ltx":null,		"b":"Latin Extended Additional",	"descr":"Latin Small Letter P with Dot Above"},
 	{"d":7768,	"c":"Ṙ",		"ltx":null,		"b":"Latin Extended Additional",	"descr":"Latin Capital Letter R with Dot Above"},
-	{"d":7779,	"c":"ṙ",		"ltx":null,		"b":"Latin Extended Additional",	"descr":"Latin Small Letter R with Dot Above"},
+	{"d":7769,	"c":"ṙ",		"ltx":null,		"b":"Latin Extended Additional",	"descr":"Latin Small Letter R with Dot Above"},
 	{"d":7770,	"c":"Ṛ",		"ltx":null,		"b":"Latin Extended Additional",	"descr":"Latin Capital Letter R with Dot Below"},
 	{"d":7771,	"c":"ṛ",		"ltx":null,		"b":"Latin Extended Additional",	"descr":"Latin Small Letter R with Dot Below"},
 	{"d":7772,	"c":"Ṝ",		"ltx":null,		"b":"Latin Extended Additional",	"descr":"Latin Capital Letter R with Dot Below and Macron"},

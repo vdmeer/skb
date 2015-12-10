@@ -14,7 +14,7 @@
 //
 
 //
-// UTF Characters for block "Miscellaneous Technical" Range 2300— 23FF
+// UTF Characters for block "Miscellaneous Technical" Range 2300-23FF
 //
 // @author     Sven van der Meer &lt;vdmeer.sven@mykolab.com&gt;
 // @version    v0.0.1 build 151209 (09-Dec-15)
@@ -30,8 +30,8 @@
 	{"d":8965,		"c":"⌅",											"b":"Miscellaneous Technical",	"descr":"projective"},
 	{"d":8966,		"c":"⌆",											"b":"Miscellaneous Technical",	"descr":"perspective"},
 	{"d":8967,		"c":"⌇",											"b":"Miscellaneous Technical",	"descr":"wavy line"},
-	{"d":8968,		"c":"⌈",	"he":"&lceil;"							"b":"Miscellaneous Technical",	"descr":"left ceiling"},
-	{"d":8969,		"c":"⌉",	"he":"&rceil;"							"b":"Miscellaneous Technical",	"descr":"right ceiling"},
+	{"d":8968,		"c":"⌈",	"he":"&lceil;",							"b":"Miscellaneous Technical",	"descr":"left ceiling"},
+	{"d":8969,		"c":"⌉",	"he":"&rceil;",							"b":"Miscellaneous Technical",	"descr":"right ceiling"},
 	{"d":8970,		"c":"⌊",	"he":"&lfloor;",						"b":"Miscellaneous Technical",	"descr":"left floor"},
 	{"d":8971,		"c":"⌋",	"he":"&rfloor;",						"b":"Miscellaneous Technical",	"descr":"right floor"},
 	{"d":8972,		"c":"⌌",											"b":"Miscellaneous Technical",	"descr":"bottom right crop"},

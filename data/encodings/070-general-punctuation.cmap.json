@@ -14,7 +14,7 @@
 //
 
 //
-// UTF Characters for block "General Punctuation" Range 2000— 206F
+// UTF Characters for block "General Punctuation" Range 2000-206F
 //
 // @author     Sven van der Meer &lt;vdmeer.sven@mykolab.com&gt;
 // @version    v0.0.1 build 151209 (09-Dec-15)
@@ -34,17 +34,17 @@
 	{"d":8217,	"c":"’",	"he":"&rsquo;",		"ltx":"'",			"b":"General Punctuation",	"descr":"Right Single Quotation Mark"},
 	{"d":8218,	"c":"‚",	"he":"&sbquo;",		"ltx":",",			"b":"General Punctuation",	"descr":"Single Low-9 Quotation Mark"},
 	{"d":8219,	"c":"‛",	"he":null,			"ltx":null,			"b":"General Punctuation",	"descr":"Single High-Reversed-9 Quotation Mark"},
-	{"d":8220,	"c":"“",	"he":"&ldquo;",		"ltx":"``,			"b":"General Punctuation",	"descr":"Left Double Quotation Mark"},
+	{"d":8220,	"c":"“",	"he":"&ldquo;",		"ltx":"``",			"b":"General Punctuation",	"descr":"Left Double Quotation Mark"},
 	{"d":8221,	"c":"”",	"he":"&rdquo;",		"ltx":"''",			"b":"General Punctuation",	"descr":"Right Double Quotation Mark"},
 	{"d":8222,	"c":"„",	"he":"&bdquo;",		"ltx":null,			"b":"General Punctuation",	"descr":"Double Low-9 Quotation Mark"},
 	{"d":8223,	"c":"‟",	"he":null,			"ltx":null,			"b":"General Punctuation",	"descr":"Double High-Reversed-9 Quotation Mark"},
 	{"d":8224,	"c":"†",	"he":"&dagger;",	"ltx":"\\dag",		"b":"General Punctuation",	"descr":"Dagger"},
-	{"d":8225,	"c":"‡",	"he":"&Dagger;",	"ltx":"\ddag",		"b":"General Punctuation",	"descr":"Double Dagger"},
+	{"d":8225,	"c":"‡",	"he":"&Dagger;",	"ltx":"\\ddag",		"b":"General Punctuation",	"descr":"Double Dagger"},
 	{"d":8226,	"c":"•",	"he":"&bull;",		"ltx":null,			"b":"General Punctuation",	"descr":"Bullet"},
 	{"d":8227,	"c":"‣",	"he":null,			"ltx":null,			"b":"General Punctuation",	"descr":"Triangular Bullet"},
 	{"d":8228,	"c":"․",	"he":null,			"ltx":null,			"b":"General Punctuation",	"descr":"One Dot Leader"},
 	{"d":8229,	"c":"‥",	"he":null,			"ltx":null,			"b":"General Punctuation",	"descr":"Two Dot Leader"},
-	{"d":8230,	"c":"…",	"he":""&hellip;"",	"ltx":"{\\dots}",	"b":"General Punctuation",	"descr":"Horizontal Ellipsis"},
+	{"d":8230,	"c":"…",	"he":"&hellip;",	"ltx":"{\\dots}",	"b":"General Punctuation",	"descr":"Horizontal Ellipsis"},
 	{"d":8231,	"c":"‧",	"he":null,			"ltx":null,			"b":"General Punctuation",	"descr":"Hyphenation Point"},
 	{"d":8232,	"c":" ",	"he":null,			"ltx":null,			"b":"General Punctuation",	"descr":"Line Separator"},
 	{"d":8240,	"c":"‰",	"he":"&permil;",	"ltx":null,			"b":"General Punctuation",	"descr":"Per Mille Sign"},
@@ -58,7 +58,7 @@
 	{"d":8248,	"c":"‸",	"he":null,			"ltx":null,			"b":"General Punctuation",	"descr":"Caret"},
 	{"d":8249,	"c":"‹",	"he":"&lsaquo;",	"ltx":null,			"b":"General Punctuation",	"descr":"Single Left-Pointing Angle Quotation Mark"},
 	{"d":8250,	"c":"›",	"he":"&rsaquo;",	"ltx":null,			"b":"General Punctuation",	"descr":"Single Right-Pointing Angle Quotation Mark"},
-	{"d":8251,	"c":"※",	"he":null,			"ltx":null,		"	b":"General Punctuation",	"descr":"Reference Mark"},
+	{"d":8251,	"c":"※",	"he":null,			"ltx":null,			"b":"General Punctuation",	"descr":"Reference Mark"},
 	{"d":8252,	"c":"‼",	"he":null,			"ltx":null,			"b":"General Punctuation",	"descr":"Double Exclamation Mark"},
 	{"d":8253,	"c":"‽",	"he":null,			"ltx":null,			"b":"General Punctuation",	"descr":"Interrobang"},
 	{"d":8254,	"c":"‾",	"he":"&oline;",		"ltx":null,			"b":"General Punctuation",	"descr":"Overline"},

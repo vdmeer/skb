@@ -14,7 +14,7 @@
 //
 
 //
-// UTF Characters for block "Letterlike Symbols" Range 2100— 214F
+// UTF Characters for block "Letterlike Symbols" Range 2100-214F
 //
 // @author     Sven van der Meer &lt;vdmeer.sven@mykolab.com&gt;
 // @version    v0.0.1 build 151209 (09-Dec-15)
@@ -39,14 +39,14 @@
 	{"d":8462,	"c":"ℎ",												"b":"Letterlike Symbols",	"descr":"planck constant"},
 	{"d":8463,	"c":"ℏ",												"b":"Letterlike Symbols",	"descr":"planck constant over two pi"},
 	{"d":8464,	"c":"ℐ",												"b":"Letterlike Symbols",	"descr":"script capital i"},
-	{"d":8465,	"c":"ℑ",	"h":"&image;",								"b":"Letterlike Symbols",	"descr":"black-letter capital i"},
+	{"d":8465,	"c":"ℑ",	"he":"&image;",								"b":"Letterlike Symbols",	"descr":"black-letter capital i"},
 	{"d":8466,	"c":"ℒ",												"b":"Letterlike Symbols",	"descr":"script capital l"},
 	{"d":8467,	"c":"ℓ",												"b":"Letterlike Symbols",	"descr":"script small l"},
 	{"d":8468,	"c":"℔",												"b":"Letterlike Symbols",	"descr":"l b bar symbol"},
 	{"d":8469,	"c":"ℕ",												"b":"Letterlike Symbols",	"descr":"double-struck capital n"},
 	{"d":8470,	"c":"№",												"b":"Letterlike Symbols",	"descr":"numero sign"},
 	{"d":8471,	"c":"℗",												"b":"Letterlike Symbols",	"descr":"sound recording copyright"},
-	{"d":8472,	"c":"℘",	"h":"&weierp;",								"b":"Letterlike Symbols",	"descr":"script capital p"},
+	{"d":8472,	"c":"℘",	"he":"&weierp;",							"b":"Letterlike Symbols",	"descr":"script capital p"},
 	{"d":8473,	"c":"ℙ",												"b":"Letterlike Symbols",	"descr":"double-struck capital p"},
 	{"d":8474,	"c":"ℚ",												"b":"Letterlike Symbols",	"descr":"double-struck capital q"},
 	{"d":8475,	"c":"ℛ",												"b":"Letterlike Symbols",	"descr":"script capital r"},
@@ -56,7 +56,7 @@
 	{"d":8479,	"c":"℟",												"b":"Letterlike Symbols",	"descr":"response"},
 	{"d":8480,	"c":"℠",												"b":"Letterlike Symbols",	"descr":"service mark"},
 	{"d":8481,	"c":"℡",												"b":"Letterlike Symbols",	"descr":"telephone sign"},
-	{"d":8482,	"c":"™",	"h":"&trade;",	"ltx":"{\\texttrademark}",	"b":"Letterlike Symbols",	"descr":"trade mark sign"},
+	{"d":8482,	"c":"™",	"he":"&trade;",	"ltx":"{\\texttrademark}",	"b":"Letterlike Symbols",	"descr":"trade mark sign"},
 	{"d":8483,	"c":"℣",												"b":"Letterlike Symbols",	"descr":"versicle"},
 	{"d":8484,	"c":"ℤ",												"b":"Letterlike Symbols",	"descr":"double-struck capital z"},
 	{"d":8485,	"c":"℥",												"b":"Letterlike Symbols",	"descr":"ounce sign"},
@@ -75,7 +75,7 @@
 	{"d":8498,	"c":"Ⅎ",												"b":"Letterlike Symbols",	"descr":"turned capital f"},
 	{"d":8499,	"c":"ℳ",												"b":"Letterlike Symbols",	"descr":"script capital m"},
 	{"d":8500,	"c":"ℴ",												"b":"Letterlike Symbols",	"descr":"script small o"},
-	{"d":8501,	"c":"ℵ",	"h":"&alefsym;",							"b":"Letterlike Symbols",	"descr":"alef symbol"},
+	{"d":8501,	"c":"ℵ",	"he":"&alefsym;",							"b":"Letterlike Symbols",	"descr":"alef symbol"},
 	{"d":8502,	"c":"ℶ",												"b":"Letterlike Symbols",	"descr":"bet symbol"},
 	{"d":8503,	"c":"ℷ",												"b":"Letterlike Symbols",	"descr":"gimel symbol"},
 	{"d":8504,	"c":"ℸ",												"b":"Letterlike Symbols",	"descr":"dalet symbol"},

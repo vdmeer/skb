@@ -14,7 +14,7 @@
 //
 
 //
-// UTF Characters for block "Greek and Coptic" Range 0370— 03FF
+// UTF Characters for block "Greek and Coptic" Range 0370-03FF
 //
 // @author     Sven van der Meer &lt;vdmeer.sven@mykolab.com&gt;
 // @version    v0.0.1 build 151209 (09-Dec-15)
@@ -42,7 +42,7 @@
 //no 897
 //no 898
 //no 899
-	{"d":900,	"c":"΄",		"he":null,			"ltx":null,			"b":"Greek and Coptic",	"descr":"Greek Tonos""},
+	{"d":900,	"c":"΄",		"he":null,			"ltx":null,			"b":"Greek and Coptic",	"descr":"Greek Tonos"},
 	{"d":901,	"c":"΅",		"he":null,			"ltx":null,			"b":"Greek and Coptic",	"descr":"Greek Dialytika Tonos"},
 	{"d":902,	"c":"Ά",		"he":null,			"ltx":null,			"b":"Greek and Coptic",	"descr":"Greek Capital Letter Alpha with Tonos"},
 	{"d":903,	"c":"·",		"he":null,			"ltx":null,			"b":"Greek and Coptic",	"descr":"Greek Ano Teleia"},

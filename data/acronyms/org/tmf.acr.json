@@ -1,0 +1,10 @@
+[
+  {"short":"CCV", "long":"Common Communication Vehicle"},
+  {"short":"DIOA", "long":"Distributed, Interface-oriented Architecture"},
+  {"short":"NGOSS", "long":"New Generation Operations Systems and Software"},
+  {"short":"TNA", "long":"Technology Neutral Architecture"},
+  {"short":"TOM", "long":"Telecom Operations Map"},
+  {"short":"eTOM", "long":"Enhanced Telecom Operations Map"},
+
+  {"short":"#dummy", "long":"#dummy"}
+]

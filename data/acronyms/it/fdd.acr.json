@@ -1,0 +1,14 @@
+[
+  {"short":"2S2D", "long":"Double Sided, Double Density"},
+  {"short":"DD", "long":"Double Density"},
+  {"short":"DMF", "long":"Distribution Media Format"},
+  {"short":"DS", "long":"Double Sided"},
+  {"short":"FDC", "long":"Floppy Disk Controller"},
+  {"short":"SS", "long":"Single Sided"},
+  {"short":"SSDD", "long":"Single-Sided, Double-Density"},
+  {"short":"SSSD", "long":"Single-Sided, Single-Density"},
+  {"short":"SS/DD", "long":"Single-Sided, Double-Density"},
+  {"short":"SS/SD", "long":"Single-Sided, Single-Density"},
+
+  {"short":"#dummy", "long":"#dummy"}
+]

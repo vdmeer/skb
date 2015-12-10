@@ -1,0 +1,10 @@
+[
+  {"short":"A<sup>3</sup>DS",	"long":"Architectural Artefacts for Autonomic Distributed Systems", "key":"A3DS"},
+  {"short":"COLA",				"long":"SKB Contract Language"},
+  {"short":"DEN-ng",			"long":"Directory Enabled Network - next generation"},
+  {"short":"FOCALE",			"long":"Foundation, Observation, Comparison, Action and Learning Environment"},
+  {"short":"MAMA",				"long":"Middleware and Application Management Architecture"},
+  {"short":"SKB",				"long":"Sven's Knowledge Base"},
+
+  {"short":"#dummy", "long":"#dummy"}
+]

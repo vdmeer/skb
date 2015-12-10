@@ -1,0 +1,9 @@
+[
+  {"short":"CIM", "long":"Common Information Model"},
+  {"short":"DEN", "long":"Directory Enabled Network"},
+  {"short":"DIM", "long":"Desktop Management Interface"},
+  {"short":"MOF", "long":"Managed Object Format"},
+  {"short":"WBEM", "long":"Web-Based Enterprise Management"},
+
+  {"short":"#dummy", "long":"#dummy"}
+]

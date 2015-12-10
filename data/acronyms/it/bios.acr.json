@@ -1,0 +1,28 @@
+[
+  {"short":"BPB", "long":"BIOS Parameter Block"},
+  {"short":"ACPI", "long":"Advanced Configuration and Power Interface"},
+  {"short":"AOL", "long":"Alert On LAN"},
+  {"short":"BDA", "long":"BIOS Data Area"},
+  {"short":"CBIOS", "long":"Compatibility Basic Input Output System"},
+  {"short":"CDS", "long":"Current Directory Structure"},
+  {"short":"CM", "long":" Configuration Manager"},
+  {"short":"DIB", "long":"DOS Info Block"},
+  {"short":"DMI", "long":"Desktop Management Interface"},
+  {"short":"EDD", "long":"Enhanced Disk Device"},
+  {"short":"ESCD", "long":"Extended System Configuration Data"},
+  {"short":"FWH", "long":"FirmWare Hub"},
+  {"short":"ICU", "long":"ISA Configuration Utility"},
+  {"short":"LWC", "long":"Last Working Configuration"},
+  {"short":"MAD", "long":"Memory Address Driver strength"},
+  {"short":"MPS", "long":"Multi Processor Specification"},
+  {"short":"MPT", "long":"Memory Performance Technology"},
+  {"short":"P2CC2P", "long":"PCI to CPU / CPU tp PCI"},
+  {"short":"P2C/C2P", "long":"PCI to CPU / CPU tp PCI"},
+  {"short":"PME", "long":"Power Management Event"},
+  {"short":"PNPBIOS", "long":"Plug and Play Basic Input Output System"},
+  {"short":"POR", "long":"Power-On Reset"},
+  {"short":"ROMBIOS", "long":"Read-Only Memory - Basic Input Output System"},
+  {"short":"SMIOS", "long":"System Management Basic Input Output System"},
+
+  {"short":"#dummy", "long":"#dummy"}
+]

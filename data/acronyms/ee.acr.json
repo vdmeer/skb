@@ -1,0 +1,11 @@
+[
+  {"short":"AC/DC", "long":"Alternating Current / Direct Current"},
+
+  {"short":"#dummy", "long":"#dummy"}
+]
+
+
+ACR          Attenuation to Crosstalk Ratio (Kabel)
+AD           Analog-to-Digital (D/A), "A/D"
+AM           Amplitude Modulation
+AMPSK        Amplitude Modulation with Phase Shift Keying, "AM/PSK"

@@ -1,0 +1,54 @@
+[
+  {"short":"1D2B", "long":"1 D-channel 2 B-channels"},
+  {"short":"2B1D", "long":"2 B-channels 1 D-channel"},
+  {"short":"AMI", "long":"Alternate Mark Inversion"},
+  {"short":"AODI", "long":"Always On / Dynamic ISDN"},
+  {"short":"B8ZS", "long":"Binary 8 Zero Suppression"},
+  {"short":"BAI", "long":"Basic Access Interface"},
+  {"short":"BRI", "long":"Basic Rate Interface"},
+  {"short":"CAPI", "long":"Communication Application Program Interface"},
+  {"short":"CDMS", "long":"Communication Driver Maintenance System"},
+  {"short":"CIP", "long":"Common ISDN Profile"},
+  {"short":"DACS", "long":"Digital Access Control System"},
+  {"short":"DS0", "long":"Digital Signal level 0"},
+  {"short":"DS1", "long":"Digital Signal level 1"},
+  {"short":"DS2", "long":"Digital Signal level 2"},
+  {"short":"DS3", "long":"Digital Signal level 3"},
+  {"short":"EAZ", "long":"Endgeräte Auswahl Ziffer"},
+  {"short":"EFT", "long":"Euro-FileTransfer"},
+  {"short":"ESF", "long":"Extended Super Frame"},
+  {"short":"FT1", "long":"Fractional T1"},
+  {"short":"HST", "long":"High Soft Tech"},
+  {"short":"I4L", "long":"ISDN for Linux"},
+  {"short":"IAE", "long":"ISDN Anschluß Einheit"},
+  {"short":"IDLC", "long":"ISDN Data Link Control"},
+  {"short":"IPU", "long":"ISDN-datex-P-Umsetzer"},
+  {"short":"ISPA", "long":"ISDN PAcket [driver]"},
+  {"short":"ISUP", "long":"Integrated Services User Part"},
+  {"short":"LAPD", "long":"Link Access Procedure on the D channel"},
+  {"short":"MSN", "long":"Multiple Subscriber Number"},
+  {"short":"NDI", "long":"Network Distributed ISDN [for windows NT]"},
+  {"short":"NFAS", "long":"Non Facilities-Associated Signaling"},
+  {"short":"NISDN", "long":"Narrowband Integrated-Services Digital Network"},
+  {"short":"NIU", "long":"North american ISDN Users"},
+  {"short":"NT", "long":"Netzwerk Terminator, Network Terminator"},
+  {"short":"NT1", "long":"Network Termination [unit] 1"},
+  {"short":"NTBA", "long":"Network Termination for Basic Access"},
+  {"short":"PRI", "long":"Primary Rate Interface"},
+  {"short":"SN", "long":"Subscriber Number"},
+  {"short":"SPID", "long":"Service Profile IDentifier"},
+  {"short":"TA", "long":"TerminalAdapter"},
+  {"short":"TBR", "long":"Technical Basis for Regulations"},
+  {"short":"TE", "long":"Terminal Endpoint"},
+  {"short":"TUP", "long":"Telephone User Path"},
+  {"short":"VAPI", "long":"Virtual [ISDN] Application Programming Interface"},
+
+  {"short":"#dummy", "long":"#dummy"}
+]
+
+//ISDNUP       ISDN User Part (ISDN, GSM, Mobile-Systems)
+//MSISDN       Mobile Station ISDN Number (PLMN, GSM, Mobile-Systems), "MS-ISDN"
+//MSRN         Mobile Station Roaming Number (MM, HLR, MS-ISDN, GSM, Mobile-Systems)
+//MTP          Message Transfer Part (ISDN, GSM, Mobile-Systems)
+//NDC          National Destination Code (MS-ISDN, GSM, Mobile-Systems)
+

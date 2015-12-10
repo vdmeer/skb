@@ -1,0 +1,15 @@
+[
+  {"short":"DCU",	"long":"Dublin City University"},
+  {"short":"NUIG",	"long":"National University Ireland Galway"},
+  {"short":"NUIM",	"long":"National University of Ireland, Maynooth"},
+  {"short":"TCD",	"long":"Trinity College Dublin"},
+  {"short":"UCD",	"long":"University College Dublin"},
+  {"short":"UL",	"long":"University of Limerick"},
+  {"short":"WIT",	"long":"Waterford Institute of Technology"},
+  {"short":"CIT",	"long":"Cork Institute of Technology"},
+  {"short":"UCC",	"long":"University College Cork"},
+  {"short":"TSSG",	"long":"Telecommunications Software & Systems Group", "links":{"u":"www.tssg.org"}},
+  {"short":"ERC",	"long":"Educational Research Centre"},
+
+  {"short":"#dummy", "long":"#dummy"}
+]

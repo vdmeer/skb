@@ -1,0 +1,7 @@
+[
+  {"short":"IPX", "long":"Internet Packet eXchange"},
+  {"short":"NDS", "long":"Novell Directory Service"},
+  {"short":"SPX", "long":"Sequenced Packet eXchange"},
+
+  {"short":"#dummy", "long":"#dummy"}
+]

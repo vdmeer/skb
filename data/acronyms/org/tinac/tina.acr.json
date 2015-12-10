@@ -1,0 +1,12 @@
+[
+  {"short":"CG", "long":"Connection Graph"},
+  {"short":"CM", "long":"Connection Management"},
+  {"short":"CMC", "long":"Computational Modelling"},
+  {"short":"EMC", "long":"Engineering Modelling Concepts"},
+  {"short":"IMC", "long":"Information Modelling Concepts"},
+  {"short":"NCCE", "long":"Native Computing and Communication Environment"},
+  {"short":"NRIM", "long":"Network Resource Information Model"},
+  {"short":"ODL", "long":"Object Definition Language"},
+
+  {"short":"#dummy", "long":"#dummy"}
+]

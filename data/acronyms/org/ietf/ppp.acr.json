@@ -1,0 +1,20 @@
+[
+  {"short":"BAP", "long":"Bandwidth Allocation Protocol", "descr":"RFC 2125"},
+  {"short":"BAPC", "long":"Bandwidth Allocation Control Protocol", "descr":"RFC 2125"},
+  {"short":"BCP", "long":"Bridging Control Protocol", "descr":"RFC 1638"},
+  {"short":"CCP", "long":"Compression Control Protocol", "descr":"RFC 1962"},
+  {"short":"CHAP", "long":"Challenge Handshake Authentication Protocol", "descr":"RFC 1334/1994"},
+  {"short":"DESE", "long":"Data Encryption Standard Encryption protocol", "descr":"RFC 1969"},
+  {"short":"DNCP", "long":"DECNet phase iv Control Protocol", "descr":"RFC 1762"},
+  {"short":"LCP", "long":"Link Control Protocol", "descr":"RFC 1570"},
+  {"short":"PPPOE", "long":"Point-to-Point Protocol Over Ethernet", "descr":"RFC 2516"},
+  {"short":"MVRCA", "long":"Magnalink Variable Resource Compression Algorithm", "descr":"RFC 1975"},
+  {"short":"SDTP", "long":"Serial Data Transport Protocol", "descr":"RFC 1963"},
+  {"short":"SNACP", "long":"Systems Network Architecture Control Protocol", "descr":"RFC 2043"},
+
+  {"short":"#dummy", "long":"#dummy"}
+]
+
+
+ACFC         Address and Control Field Compression (PPP)
+ACCM         Asynchronous Character Control Map (PPP)

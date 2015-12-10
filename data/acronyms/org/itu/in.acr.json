@@ -1,0 +1,58 @@
+[
+  {"short":"IN-NG", "long":"IN Next Generation"},
+  {"short":"INCM", "long":"Intelligent Networks Conceptual Model"},
+  {"short":"SCP", "long":"Service Control Point"},
+  {"short":"SIB", "long":"Service Independent Building Block"},
+  {"short":"SSP", "long":"Service Switching Point"},
+
+  {"short":"#dummy", "long":"#dummy"}
+]
+
+BCP          Basic Call Process
+BCSM         Basic Call State Model
+AIN          Advanced Intelligent Network
+CCAF         Call Control Agent Function
+CCF          Connection Control Function
+CCS          Common Channel Signaling
+WSF          Work Station Function
+IN           Intelligent Network (ITU-T, Q.1200)
+INA          Intelligent Network Architecture
+INAP         Intelligent Network Application Protocol
+IWU          InterWorking Unit
+IP           Intelligent Peripheral
+FE           Functional Entity
+FPLMTS       Future Public Land Mobile Telecommunications System (IN, Mobile-Systems)
+TMN          Telecommunication Management Network
+SSP          Service Switching Point
+SSF          Service Switching Function
+SSCP         Service Switching & Control Point
+SRF          Service Resource Function
+SMF          Service Management Function
+SMAF         Service Management Agent Function
+SLP          Service Logic Program
+SIB          Service Independent building Block
+SF           Service Feature
+SDP          Specialized Data Point
+SCAF         Service Control Agent Function
+SCF          Service Control Function
+GFP          Global Functional Plane
+IF           Information Flow
+NAP          Network Access Point
+OSF          Operations System Function
+PIC          Point in Call
+POI          Point Of Interaction
+POR          Point Of Return
+PP           Physical Plane
+PSPDN        Packet Switched Public Data Network
+PSTN         Public Switched Telephone Network
+SCEF         Service Creation Environment Function
+STP          Signaling Transfer Point
+CS-1          Capability Set 1
+CS-2          Capability Set 2
+CSPDN        Circuit Switched Public Data Network
+DAP          Directory Application Protocol
+DFP          Distributed Functional Plane
+DP           Detection Point
+DPE          Distributed Processing Environment
+DSL          Distributed Service Logic
+

@@ -1,0 +1,18 @@
+[
+  {"short":"DCC", "long":"Data Communication Channels"},
+
+  {"short":"#dummy", "long":"#dummy"}
+]
+
+
+STM          Synchronous Transfer Mode (ATM, SDH)
+STM1         Synchronous Transport Mode 1 [155,52 Mbps] (ATM, STM, SDH, OC-3), "STM-1"
+STM12        Synchronous Transport Mode 12 [1866,24 Mbps] (ATM, STM, SDH, OC-36), "STM-12"
+STM128       Synchronous Transport Mode 128 [39813,12 Mbps] (ATM, STM, SDH, OC-768), "STM-256"
+STM16        Synchronous Transport Mode 16 [2488,32 Mbps] (ATM, STM, SDH, OC-48), "STM-16"
+STM3         Synchronous Transport Mode 3 [466,56 Mbps] (ATM, STM, SDH, OC-9), "STM-3"
+STM32        Synchronous Transport Mode 32 [4976,64 Mbps] (ATM, STM, SDH, OC-96), "STM-32"
+STM4         Synchronous Transport Mode 4 [622,08 Mbps] (ATM, STM, SDH, OC-12), "STM-4"
+STM6         Synchronous Transport Mode 6 [933,12 Mbps] (ATM, STM, SDH, OC-18), "STM-6"
+STM64        Synchronous Transport Mode 64 [9953,28 Mbps] (ATM, STM, SDH, OC-192), "STM-64"
+STM8         Synchronous Transport Mode 8 [1244,16 Mbps] (ATM, STM, SDH, OC-24), "STM-8"

@@ -1,0 +1,11 @@
+[
+  {"short":"DA", "long":"destination address", "descr":"IEEE 802.3 Series, Ethernet, part of an Ethernet Frame"},
+  {"short":"FCS", "long":"frame check sequence", "descr":"IEEE 802.3 Series, Ethernet, part of an Ethernet Frame, usually CRC-32"},
+  {"short":"LEN", "long":"length", "descr":"IEEE 802.3 Series, Ethernet, part of an Ethernet Frame"},
+  {"short":"PAD", "long":"padding", "descr":"IEEE 802.3 Series, Ethernet, part of an Ethernet Frame"},
+  {"short":"PA", "long":"preamble", "descr":"IEEE 802.3 Series, Ethernet, part of an Ethernet Frame"},
+  {"short":"SA", "long":"source address", "descr":"IEEE 802.3 Series, Ethernet, part of an Ethernet Frame"},
+  {"short":"SFD", "long":"start frame delimiter", "descr":"IEEE 802.3 Series, Ethernet, part of an Ethernet Frame"},
+
+  {"short":"#dummy", "long":"#dummy"}
+]

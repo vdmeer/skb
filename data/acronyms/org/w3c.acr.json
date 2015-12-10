@@ -1,0 +1,19 @@
+[
+  {"short":"CC/PP", "long":"Composite Capabilities/Preference Profiles"},
+  {"short":"DOM", "long":"Document Object Model"},
+  {"short":"DTD", "long":"Document Type Definition"},
+  {"short":"HTML", "long":"Hyper Text Markup Language"},
+  {"short":"HTML5", "long":"Hyper Text Markup Language 5"},
+  {"short":"N3", "long":"Notation3"},
+  {"short":"RDF", "long":"Resource Description Framework"},
+  {"short":"SOAP", "long":"Simple Object Access Protocol"},
+  {"short":"SVG", "long":"Scalable Vector Graphics"},
+  {"short":"TURTLE", "long":"Terse RDF Triple Language"},
+  {"short":"XML", "long":"eXtensible Markup Language"},
+  {"short":"XSL", "long":"eXtensible Stylesheet Language"},
+  {"short":"XSD", "long":"XML Schema Definition"},
+  {"short":"XSLT", "long":"eXtensible Stylesheet Language Transformation"},
+  {"short":"XHTML", "long":"eXtended HyperText Markup Language"},
+
+  {"short":"#dummy", "long":"#dummy"}
+]

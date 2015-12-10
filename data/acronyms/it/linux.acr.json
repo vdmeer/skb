@@ -1,0 +1,18 @@
+[
+  {"short":"HCI", "long":"Host Controller InterfaceP"},
+  {"short":"KDE", "long":"K Destop EnvironmentP"},
+  {"short":"KDM", "long":"K Display ManagerP"},
+  {"short":"KFM", "long":"K File ManagerP"},
+  {"short":"KIO", "long":"K Input / OutputP"},
+  {"short":"KVM", "long":"Kernel-based Virtual MachineP"},
+  {"short":"KWM", "long":"K Window ManagerP"},
+  {"short":"LAMP", "long":"Linux, Apache, MySQL, and PHP"},
+  {"short":"LAMPP", "long":"Linux, Apache, MySQL, PHP and PERLP"},
+  {"short":"LDP", "long":"Linux Documentation ProjectP"},
+  {"short":"LILO", "long":"LInux [boot] LOaderP"},
+  {"short":"S.u.S.E.", "long":"Software Und SystemEntwicklung", "key":"SUSEdist"},
+  {"short":"SBF", "long":"Simple Boot FlagP"},
+
+  {"short":"#dummy", "long":"#dummy"}
+]
+

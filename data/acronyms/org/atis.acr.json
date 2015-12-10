@@ -1,0 +1,10 @@
+[
+  {"short":"AIDC", "long":"Automatic Identification & Data Capture"},
+  {"short":"ESIF", "long":"Emergency Services Interconnection Forum"},
+  {"short":"HAC", "long":"Hearing Aid Compatibility"},
+  {"short":"HNET", "long":"Home Networking Forum"},
+  {"short":"IIF", "long":"IPTV Interoperability Forum"},
+  {"short":"TMOC", "long":"Telecom Management and Operations Committee"},
+
+  {"short":"#dummy", "long":"#dummy"}
+]

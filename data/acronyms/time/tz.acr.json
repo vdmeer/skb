@@ -1,0 +1,18 @@
+[
+  {"short":"BST", "long":"British Summer Time", "key":"BSTold"},
+  {"short":"BST", "long":"British Standard Time", "key":"BST"},
+  {"short":"CST", "long":"Central Summer Time"},
+  {"short":"CET", "long":"Central European Time"},
+  {"short":"CST", "long":"China Standard Time", "key":"CSTcn"},
+  {"short":"CST", "long":"Central Standard Time", "key":"CSTus"},
+  {"short":"EET", "long":"Eastern European Time"},
+  {"short":"EST", "long":"Estern Standard Time"},
+  {"short":"ET", "long":"Eastern Time"},
+  {"short":"FET", "long":"Further Eastern European Time"},
+  {"short":"GMT", "long":"Greenwich Mean Time"},
+  {"short":"IST", "long":"Irish Standard Time"},
+  {"short":"MSK", "long":"Moscow Standard Time"},
+  {"short":"WET", "long":"Western European Time"},
+
+  {"short":"#dummy", "long":"#dummy"}
+]

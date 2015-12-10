@@ -1,0 +1,16 @@
+[
+  {"short":"ADG", "long":"Advanced Data Guarding"},
+  {"short":"DNA", "long":"Direct Network Attach"},
+  {"short":"DP", "long":"Double Parity"},
+  {"short":"EMRL", "long":"EMbedded RAID Logic"},
+  {"short":"ENF", "long":"Embedded NAS Firmware"},
+  {"short":"MROMB", "long":"Modular RAID On MotherBoard"},
+  {"short":"MRO-MB", "long":"Modular RAID On MotherBoard"},
+  {"short":"RAIDIOS", "long":"RAID I/O Steering"},
+  {"short":"RE", "long":"RAID Edition"},
+  {"short":"ROC", "long":"RAID On a Chip"},
+  {"short":"ROMB", "long":"RAID On MotherBoard"},
+  {"short":"TLER", "long":"Time Limited Error Recovery"},
+
+  {"short":"#dummy", "long":"#dummy"}
+]

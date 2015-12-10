@@ -1,0 +1,13 @@
+[
+  {"short":"ADSI", "long":"Active Directory Service Interface"},
+  {"short":"BDC", "long":"Backup Domain Controller"},
+  {"short":"DC", "long":"Domain Component"},
+  {"short":"GPO", "long":"Group Policy Object"},
+  {"short":"PDC", "long":"Primary Domain Controller"},
+  {"short":"PVN", "long":"Property Version Number"},
+  {"short":"SDC", "long":"Secondary Domain Controller"},
+  {"short":"UPN", "long":"User Principal Name"},
+  {"short":"USN", "long":"Update Sequence Number"},
+
+  {"short":"#dummy", "long":"#dummy"}
+]

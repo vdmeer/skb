@@ -1,0 +1,6 @@
+[
+  {"short":"UA", "long":"User Agent"},
+  {"short":"MTA", "long":"Message Transfer Agent"},
+
+  {"short":"#dummy", "long":"#dummy"}
+]

@@ -1,0 +1,16 @@
+[
+  {"short":"BMT", "long":"Biel Mean Time"},
+  {"short":"DOB", "long":"Day of Birth"},
+  {"short":"DOM", "long":"Day of Month"},
+  {"short":"DOW", "long":"Day of Week"},
+  {"short":"DOY", "long":"Day of Year"},
+  {"short":"DST", "long":"Daylight Saving Time"},
+  {"short":"IDL", "long":"The International Date Line"},
+  {"short":"MOY", "long":"Month of Year"},
+  {"short":"TAI", "long":"International Atomic Time"},
+  {"short":"TZ", "long":"Time Zone"},
+  {"short":"UT", "long":"Universal Time"},
+  {"short":"UTC", "long":"Coordinated Universal Time"},
+
+  {"short":"#dummy", "long":"#dummy"}
+]

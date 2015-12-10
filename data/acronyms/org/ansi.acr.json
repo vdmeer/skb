@@ -1,0 +1,6 @@
+[
+  {"short":"ASCII", "long":"American Standard Code for Information Interchange"},
+  {"short":"FDDI", "long":"Fiber Distributed Data Interface", "descr":"ANSI, ISO 8314"},
+
+  {"short":"#dummy", "long":"#dummy"}
+]

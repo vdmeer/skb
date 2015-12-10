@@ -1,0 +1,12 @@
+[
+  {"short":"AD", "long":"Active Directory"},
+  {"short":"DCOM", "long":"Distributed Component Object Model"},
+  {"short":"MSDN", "long":"MicroSoft Developer Network"},
+  {"short":"MSDOS", "long":"MicroSoft Disk Operating System"},
+  {"short":"MSI", "long":"MicroSoft Installer"},
+  {"short":"MSIE", "long":"MicroSoft Internet Explorer"},
+  {"short":"MSN", "long":"Microsoft Support Network"},
+  {"short":"MFC", "long":"Microsoft Foundation Classes"},
+
+  {"short":"#dummy", "long":"#dummy"}
+]

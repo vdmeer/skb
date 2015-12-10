@@ -1,0 +1,7 @@
+[
+  {"short":"FSC", "long":"Fujitsu Siemens Computer"},
+  {"short":"HDS", "long":"Hitachi Data Systems"},
+  {"short":"NEC", "long":"Nippon Electronic Corporation"},
+
+  {"short":"#dummy", "long":"#dummy"}
+]

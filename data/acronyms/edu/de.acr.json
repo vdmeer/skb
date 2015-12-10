@@ -1,0 +1,9 @@
+[
+  {"short":"HUB",		"long":"Humboldt-Universität zu Berlin"},
+  {"short":"TUB",		"long":"Technische Universität Berlin", "links":{"u":"www.tu-berlin.de"}},
+  {"short":"TUM",		"long":"Technische Universität München"},
+  {"short":"FhG",		"long":"Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V."},
+  {"short":"GMD",		"long":"Gesellschaft für Mathematik und Datenverarbeitung"},
+
+  {"short":"#dummy", "long":"#dummy"}
+]

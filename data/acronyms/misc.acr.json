@@ -1,0 +1,9 @@
+[
+  {"short":"ISBN", "long":"International Standard Book Number"},
+  {"short":"SDO", "long":"Standard Defining Organisation"},
+  {"short":"SIG", "long":"Special Interest Group"},
+  {"short":"WG", "long":"Working Group"},
+  {"short":"WWI", "long":"World War I"},
+
+  {"short":"#dummy", "long":"#dummy"}
+]

@@ -1,0 +1,13 @@
+[
+  {"short":"AML", "long":"ACPI Machine Language"},
+  {"short":"STD", "long":"Suspend To Disk"},
+  {"short":"DSDT", "long":"Differentiated System Description Table"},
+  {"short":"FACS", "long":"Firmware ACPI Control Structure"},
+  {"short":"FADT", "long":"Fixed ACPI Description Table"},
+  {"short":"MADT", "long":"Multiple APIC Description Table"},
+  {"short":"RSDP", "long":"Root System Description Pointer"},
+  {"short":"RSDT", "long":"Root System Description Table"},
+  {"short":"SRAT", "long":"Static Resource Affinity Table"},
+
+  {"short":"#dummy", "long":"#dummy"}
+]

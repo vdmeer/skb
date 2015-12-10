@@ -1,0 +1,14 @@
+[
+  {"short":"CLDR", "long":"Common Locale Data Repository"},
+  {"short":"UTF", "long":"UCS Transformation Format"},
+  {"short":"UTF-16", "long":"UCS Transformation Format - 16 bit"},
+  {"short":"UTF-8", "long":"UCS Transformation Format - 8 bit"},
+  {"short":"CES", "long":"Character Encoding Scheme"},
+  {"short":"BOM", "long":"Byte Order Mark"},
+  {"short":"CCS", "long":"Coded Character Set"},
+  {"short":"SCSU", "long":"Standard Compression Scheme for Unicode"},
+  {"short":"UCS", "long":"Universal [multiple-octet] coded Character Set"},
+
+  {"short":"#dummy", "long":"#dummy"}
+]
+

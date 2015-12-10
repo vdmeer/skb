@@ -1,0 +1,22 @@
+[
+  {"short":"AN", "long":"Alias Name"},
+  {"short":"CN", "long":"Common Name"},
+  {"short":"DAF", "long":"Directory Access Function"},
+  {"short":"DAP", "long":"Directory Access Protocol"},
+  {"short":"DIB", "long":"Directory Information Base"},
+  {"short":"DIT", "long":"Directory Information Tree"},
+  {"short":"DN", "long":"Distinguished Name"},
+  {"short":"DO", "long":"Directory Object"},
+  {"short":"DSA", "long":"Directory System Agent"},
+  {"short":"DSF", "long":"Directory System Function"},
+  {"short":"DS", "long":"Directory Service"},
+  {"short":"DSP", "long":"Directory System Protocol"},
+  {"short":"DUA", "long":"Directory User Agent"},
+  {"short":"OU", "long":"Organisational Unit"},
+  {"short":"RDN", "long":"Relative Distinguished Name"},
+  {"short":"CC", "long":"Country Code"},
+  {"short":"SOID", "long":"Object IDentifier"},
+
+  {"short":"#dummy", "long":"#dummy"}
+]
+

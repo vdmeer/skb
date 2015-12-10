@@ -1,0 +1,8 @@
+[
+  {"short":"AHCI", "long":"Advanced Host Controller Interface"},
+  {"short":"PM", "long":"Port Multiplier"},
+  {"short":"PS", "long":"Port Selector"},
+  {"short":"STP", "long":"SATA Tunneling Protocol"},
+
+  {"short":"#dummy", "long":"#dummy"}
+]

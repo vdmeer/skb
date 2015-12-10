@@ -1,0 +1,12 @@
+[
+  {"short":"XACML", "long":"eXtensible Access Control Markup Language"},
+  {"short":"AVDL", "long":"Application Vulnerability Description Language"},
+  {"short":"BPEL4WS", "long":"Business Process Execution Language for Web Services"},
+  {"short":"BTP", "long":"Business Transaction Protocol"},
+  {"short":"CAP", "long":"Common Alerting Protocol"},
+  {"short":"DSML", "long":"Directory Services Markup Language"},
+  {"short":"EBXML", "long":"Electronic Business eXtensible Markup Language"},
+  {"short":"SPML", "long":"Service Provisioning Markup Language"},
+
+  {"short":"#dummy", "long":"#dummy"}
+]

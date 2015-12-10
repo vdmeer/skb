@@ -1,0 +1,19 @@
+[
+  {"short":"ETR", "long":"ETSI Technical Report"},
+
+  {"short":"#dummy", "long":"#dummy"}
+]
+
+SVP          SerVice Provider (ETSI, ETSI 201 671), "SvP"
+WG           Working Group (SC, ISO, IEC, ETSI)
+BRAN         Broadband Radio Access Network (ETSI, WLAN)
+ES           European Standard (ETSI)
+IUR          International User Requirements (ETSI, TS 101331)
+HI1          Handover Interface 1 (ETSI, ES 201671)
+HI2          Handover Interface 2 (ETSI, ES 201671)
+HI3          Handover Interface 3 (ETSI, ES 201671)
+LI           Lawful Interception (ETSI)
+NWO          NetWork Operator (ETSI, ETSI 201 671)
+SOLSA        Support of Localized Service Areas (ETSI), "SoLSA"
+STC          Sub-Technical Committee (ETSI)
+STF          Specialist Task Forces (ETSI)

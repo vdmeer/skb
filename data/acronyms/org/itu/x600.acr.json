@@ -1,0 +1,7 @@
+[
+  {"short":"ASN1", "long":"Abstract Syntax Notation One", "descr":"was X.409, then X.208/9, finally X.680 and X.690 series"},
+  {"short":"BER", "long":"Basic Encoding Rules"},
+  {"short":"PER", "long":"Packed Encoding Rules"},
+
+  {"short":"#dummy", "long":"#dummy"}
+]

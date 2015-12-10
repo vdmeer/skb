@@ -1,0 +1,7 @@
+[
+  {"short":"LLC", "long":"Logical Link Control"},
+  {"short":"MAC", "long":"Media Access Control"},
+  {"short":"PHY", "long":"Physical Layer"},
+
+  {"short":"#dummy", "long":"#dummy"}
+]

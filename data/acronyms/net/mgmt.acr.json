@@ -1,0 +1,15 @@
+[
+  {"short":"BSS", "long":"Business Support System"},
+  {"short":"CM", "long":"Configuration Management"},
+  {"short":"ECA", "long":"Event Condition Action"},
+  {"short":"FCAPS", "long":"Fault, Configuration, Accounting, Performance, and Security"},
+  {"short":"FM", "long":"Fault Management"},
+  {"short":"LCMS", "long":"Lifecycle and Configuration Management Service"},
+  {"short":"MO", "long":"Managed Object"},
+  {"short":"NMS", "long":"Network Management System"},
+  {"short":"OSS", "long":"Operations Support System"},
+  {"short":"PM", "long":"Performance Management"},
+  {"short":"RMON", "long":"Remote MONitoring"},
+
+  {"short":"#dummy", "long":"#dummy"}
+]

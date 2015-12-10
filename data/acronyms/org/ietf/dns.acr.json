@@ -1,0 +1,6 @@
+[
+  {"short":"FQDN", "long":"Fully Qualified Domain Name"},
+  {"short":"TLD", "long":"Top Level Domain"},
+
+  {"short":"#dummy", "long":"#dummy"}
+]

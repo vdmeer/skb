@@ -1,0 +1,25 @@
+[
+  {"short":"AE", "long":"Application Entity"},
+  {"short":"CMOT", "long":"CMIP over TCP/IP", "descr":"RFC 1189"},
+  {"short":"DPI", "long":"Distributed Protocol Interface", "descr":"RFC 1228/1592"},
+  {"short":"HEMS", "long":"High-level Entity Management System"},
+  {"short":"HMP", "long":"Host Monitoring Protocol", "descr":"RFC 869"},
+  {"short":"PE", "long":"Protocol Entity"},
+  {"short":"SGMP", "long":"Simple Gateway Monitoring Protocol", "descr":"RFC 1028"},
+  {"short":"SMI", "long":"Structure of Management Information", "descr":"RFC 1155/1902"},
+  {"short":"SMIng", "long":"Structure of Management Information Next Generation", "descr":"RFC 3780"},
+  {"short":"SMIv2", "long":"Structure of Management Information, version 2"},
+  {"short":"SMUX", "long":"SNMP MUltipleXing protocol", "descr":"RFC 1227"},
+  {"short":"SNMPv1", "long":"SNMP version 1"},
+  {"short":"SNMPv2", "long":"SNMP version 2"},
+  {"short":"SNMPv2*", "long":"SNMP version 2 star"},
+  {"short":"SNMPv2c", "long":"SNMP version 2 community"},
+  {"short":"SNMPv2u", "long":"SNMP version 2 user"},
+  {"short":"SNMPv3", "long":"SNMP version 3"},
+  {"short":"USEC", "long":"USer SEcurity"},
+  {"short":"USM", "long":"User-based Security Model", "descr":"RFC 2574"},
+  {"short":"VACP", "long":"View-based Access Control Protoco", "descr":"RFC 2575"},
+  {"short":"v3MP", "long":"SNMPv3 Message Processing"},
+
+  {"short":"#dummy", "long":"#dummy"}
+]

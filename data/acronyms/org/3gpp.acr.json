@@ -1,0 +1,17 @@
+[
+  {"short":"2G", "long":"2<sup>nd</sup> Generation"},
+  {"short":"3G", "long":"3<sup>nd</sup> Generation"},
+  {"short":"EF3", "long":"European Friends of 3GPP"},
+  {"short":"GUP", "long":"Gemeric User Profile"},
+  {"short":"IRP", "long":"Integration Reference Point"},
+  {"short":"JF3", "long":"Japanese Friends of 3GPP"},
+  {"short":"NF3", "long":"North American Friends of 3GPP"},
+  {"short":"R99", "long":"Release 1999"},
+  {"short":"RAN", "long":"Radio Access Network"},
+  {"short":"RNC", "long":"Radio Network Controller"},
+  {"short":"RNL", "long":"Radio Network Layer"},
+  {"short":"Rel-4", "long":"Release 4"},
+  {"short":"Rel-5", "long":"Release 5"},
+
+  {"short":"#dummy", "long":"#dummy"}
+]

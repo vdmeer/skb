@@ -1,0 +1,8 @@
+[
+  {"short":"SBCS", "long":"Single Byte Character Set"},
+  {"short":"ATOB", "long":"ASCII TO Binary"},
+  {"short":"BTOA", "long":"Binary TO ASCII"},
+  {"short":"FIGLET", "long":"Frank, Ian and Glenn's LETters"},
+
+  {"short":"#dummy", "long":"#dummy"}
+]

@@ -1,0 +1,7 @@
+[
+  {"short":"APPN", "long":"Advanced Peer to Peer Networking"},
+  {"short":"NetBIOS", "long":"NETwork Basic Input Output System"},
+  {"short":"SNA", "long":"Systems Network Architecture"},
+
+  {"short":"#dummy", "long":"#dummy"}
+]

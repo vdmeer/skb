@@ -1,0 +1,21 @@
+[
+  {"short":"BOA", "long":"Basic Object Adapter"},
+  {"short":"CCM", "long":"CORBA Component Model"},
+  {"short":"CORBA", "long":"Common Object Request Broker Architecture"},
+  {"short":"DII", "long":"Dynamic Invocation Interface"},
+  {"short":"GIOP", "long":"The General Inter-ORB Protocol"},
+  {"short":"IDL", "long":"Interface Definition Language"},
+  {"short":"IIOP", "long":"Internet Inter-ORB Protocol"},
+  {"short":"IOR", "long":"Interoperable Object Reference"},
+  {"short":"JIDM", "long":"Joint Inter-Domain Management"},
+  {"short":"MDA", "long":"Model Driven Architecture"},
+  {"short":"MOF", "long":"Meta Object Facility"},
+  {"short":"OMA", "long":"Object Management Architecture"},
+  {"short":"ORB", "long":"Object Request Broker"},
+  {"short":"SBVR", "long":"Semantics of Business Vocabulary and Business Rules"},
+  {"short":"SII", "long":"Static Invocation Interface"},
+  {"short":"UML", "long":"Unified Modeling Language"},
+  {"short":"XMI", "long":"XML Metadata Interchange"},
+
+  {"short":"#dummy", "long":"#dummy"}
+]

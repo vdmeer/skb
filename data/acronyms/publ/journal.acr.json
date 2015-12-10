@@ -1,0 +1,19 @@
+[
+  {"short":"ComCom", "long":"Computer Communications"},
+  {"short":"ComMag", "long":"Communications Magazine"},
+  {"short":"IFE", "long":"Computer Science - Research and Development"},
+  {"short":"ITSSA", "long":"International Transactions on Systems Science and Applications"},
+  {"short":"JNSM", "long":"Journal for Network and Systems Management"},
+  {"short":"JVLC", "long":"Journal of Visual Languages & Computing"},
+  {"short":"PUC", "long":"Personal and Ubiquitous Computing"},
+  {"short":"SIWN", "long":"Systemics and Informatics World Network", "links":{"u":"fatech.org.uk/press/siwn/"}},
+  {"short":"SigSoft", "long":"ACM SIGSOFT Software Engineering Notes"},
+  {"short":"Sigplan Not.", "key":"Sigplan-Not", "long":"ACM SIGPLAN Notices"},
+  {"short":"TAC", "long":"Transactions on Computers"},
+  {"short":"TASE", "long":"Transactions on Software Engineering"},
+  {"short":"TCS", "long":"ACM Transaction in Computer Systems"},
+  {"short":"TIT", "long":"ACM Transactions on Internet Technology"},
+  {"short":"WIT-RM", "long":"Research Matters"},
+
+  {"short":"#dummy", "long":"#dummy"}
+]

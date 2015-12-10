@@ -1,0 +1,14 @@
+[
+  {"short":"BBC", "long":"Broadband Bearer Capability"},
+  {"short":"BCBDS", "long":"Broadband Connectionless Data Bearer Service"},
+  {"short":"BCOB", "long":"Broadband Class of Bearer"},
+  {"short":"BICI", "long":"Broadband InterCarrier Interface"},
+  {"short":"BISDN", "long":"Broadband Integrated Services Digital Network"},
+  {"short":"BISSI", "long":"Broadband Inter-Switching System Interface"},
+  {"short":"BISUP", "long":"Broadband ISDN User's Part"},
+  {"short":"BLLI", "long":"Broadband Low Layer Information"},
+  {"short":"BNT", "long":"Broadband Network Termination"},
+  {"short":"BTE", "long":"Broadband Terminal Equipment"},
+
+  {"short":"#dummy", "long":"#dummy"}
+]

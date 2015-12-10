@@ -1,0 +1,10 @@
+[
+  {"short":"AOE", "long":"Anywhere on Earth"},
+  {"short":"HSSG", "long":"Higher Speed Study Group"},
+  {"short":"ISTO", "long":"IEEE Industry Standards and Technology Organization"},
+  {"short":"LSMC", "long":"LAN MAN Standards Committee"},
+  {"short":"PAR", "long":"Project Authorisation Request"},
+  {"short":"CS", "long":"IEEE Computer Society"},
+
+  {"short":"#dummy", "long":"#dummy"}
+]

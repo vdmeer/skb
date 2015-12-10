@@ -1,0 +1,22 @@
+[
+  {"short":"CMIP", "long":"Common Management Information Protocol"},
+  {"short":"CMIPDU", "long":"Common Management Information Protocol Data Unit"},
+  {"short":"CMIS", "long":"Common Management Information Service"},
+  {"short":"CMISE", "long":"Common Management Information Service Element"},
+  {"short":"CNM", "long":"Customer Network Management"},
+  {"short":"GDMO", "long":"Guidelines for the Definition of Managed Objects"},
+  {"short":"MAPDU", "long":"Management Application Protocol Data Unit"},
+  {"short":"MIS", "long":"Management Information Service"},
+  {"short":"SMAE", "long":"Systems Management Application Entity"},
+  {"short":"SMASE", "long":"Systems Management Application Service Element"},
+  {"short":"MO", "long":"Management Object"},
+  {"short":"MSAP", "long":"Management Service Access Point"},
+  {"short":"SMAP", "long":"System Management Application Process"},
+  {"short":"SMFA", "long":"Special / System Management Functional Area"},
+  {"short":"MIB", "long":"Management Information Base"},
+  {"short":"LME", "long":"Layer Management Entity"},
+  {"short":"DMI", "long":"Definition of Management Information"},
+  {"short":"CMOL", "long":"CMIP Over LLC"},
+
+  {"short":"#dummy", "long":"#dummy"}
+]

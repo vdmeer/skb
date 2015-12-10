@@ -1,0 +1,13 @@
+[
+  {"short":"APACI", "long":"APache AutoConf-style Interface"},
+  {"short":"APR", "long":"Apache Portable Runtime"},
+  {"short":"AXIS", "long":"Apache eXtensible Interaction System"},
+  {"short":"DACS", "long":"Distributed Access Control System"},
+  {"short":"FOP", "long":"Formatting Object Processor"},
+  {"short":"MPM", "long":"Multi Processing Module"},
+  {"short":"PT", "long":"Pass Through"},
+  {"short":"QSA", "long":"Query String Append"},
+  {"short":"VTL", "long":"Velocity Template Language"},
+
+  {"short":"#dummy", "long":"#dummy"}
+]

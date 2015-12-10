@@ -1,0 +1,27 @@
+[
+  {"short":"BI", "long":"Business Intelligence"},
+  {"short":"BRMS", "long":"Business Rule Management System", "links":{"w":"en.wikipedia.org/wiki/Business_rule_management_system"}},
+  {"short":"CAGR", "long":"Compound Annual Growth Rate"},
+  {"short":"CAPEX", "long":"Capital Expenditure"},
+  {"short":"COB", "long":"Close Of Business", "descr":"the end of business today"},
+  {"short":"COTS", "long":"Commercial Off-The-Shelf"},
+  {"short":"CRM", "long":"Customer Relationship Management"},
+  {"short":"EDM", "long":"Enterprise Document Management"},
+  {"short":"EOB", "long":"End Of Business", "descr":"the end of business today"},
+  {"short":"MTDC", "long":"Modified Total Direct Cost"},
+  {"short":"MoU", "long":"Memorandum of Understanding"},
+  {"short":"NDA", "long":"Non-Disclosure Agreement"},
+  {"short":"OPEX", "long":"Operational Expenditure"},
+  {"short":"OTT", "long":"Over The Top"},
+  {"short":"PDM", "long":"Product Data Management"},
+  {"short":"TBD", "long":"To Be Defined"},
+  {"short":"TCO", "long":"Total Cost of Ownership"},
+  {"short":"TMI", "long":"Too Much Information"},
+  {"short":"TTM", "long":"Time To Market"},
+  {"short":"WS", "long":"Workshop"},
+  {"short":"B2B", "long":"Business to Business"},
+  {"short":"B2C", "long":"Business to Customer"},
+  {"short":"B2E", "long":"Business to Employee"},
+
+  {"short":"#dummy", "long":"#dummy"}
+]

@@ -1,0 +1,11 @@
+[
+  {"short":"HTTP", "long":"Hyper Text Transfer Protocol", "descr":"RFC 2068/2616"},
+  {"short":"URI", "long":"Uniform Resource Identifier", "descr":"RFC 1630/2396"},
+  {"short":"URL", "long":"Uniform Resource Locator", "descr":"RFC 1738"},
+  {"short":"URN", "long":"Uniform Resource Name", "descr":"RFC 1737"},
+  {"short":"HTML", "long":"HyperText Markup Language", "descr":"RFC 1866/1942"},
+  {"short":"WEBDAV", "long":"Web Distributed Authoring and Versioning", "descr":"RFC 2518"},
+  {"short":"MDA", "long":"Medicated Digest Authentication (HTTP)"},
+
+  {"short":"#dummy", "long":"#dummy"}
+]

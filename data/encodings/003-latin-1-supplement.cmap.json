@@ -136,12 +136,12 @@
 
 	{"d":248,	"he":"&oslash",		"c":"ø",	"ltx":"\\o",					"b":"Latin-1 Supplement",	"descr":"latin small letter o with stroke"},
 
-	{"d":249,	"he":"&ugrave",		"c":"ù",	"ltx":"\\`{u}",				"b":"Latin-1 Supplement",	"descr":"latin small letter u with grave"},
-	{"d":250,	"he":"&uacute",		"c":"ú",	"ltx":"\\'{u}",				"b":"Latin-1 Supplement",	"descr":"latin small letter u with acute"},
-	{"d":251,	"he":"&ucirc;",		"c":"û",	"ltx":"\\^{u}",				"b":"Latin-1 Supplement",	"descr":"latin small letter u with circumflex"},
+	{"d":249,	"he":"&ugrave",		"c":"ù",	"ltx":"\\`{u}",					"b":"Latin-1 Supplement",	"descr":"latin small letter u with grave"},
+	{"d":250,	"he":"&uacute",		"c":"ú",	"ltx":"\\'{u}",					"b":"Latin-1 Supplement",	"descr":"latin small letter u with acute"},
+	{"d":251,	"he":"&ucirc;",		"c":"û",	"ltx":"\\^{u}",					"b":"Latin-1 Supplement",	"descr":"latin small letter u with circumflex"},
 	{"d":252,	"he":"&uuml;",		"c":"ü",	"ltx":"\\\"{u}",				"b":"Latin-1 Supplement",	"descr":"latin small letter u with diaeresis"},
 
-	{"d":253,	"he":"&yacute;",	"c":"ý",	"ltx":"\\'{y}",				"b":"Latin-1 Supplement",	"descr":"latin small letter y with acute"},
+	{"d":253,	"he":"&yacute;",	"c":"ý",	"ltx":"\\'{y}",					"b":"Latin-1 Supplement",	"descr":"latin small letter y with acute"},
 
 	{"d":254,	"he":"&thorn;",		"c":"þ",	"ltx":"\\th",					"b":"Latin-1 Supplement",	"descr":"latin small letter thorn"},
 

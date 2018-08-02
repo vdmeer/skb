@@ -1,0 +1,8 @@
+*Mario Schuster, An Open Service Platform for Context and Location Aware Applications, 2001*
+
+* Institute: Technical University Berlin, OKS
+ifdef::local[]
+* Local links:
+    link:/library/masterthesis/schuster-mario-2001.pdf[PDF]
+endif::[]
+

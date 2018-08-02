@@ -1,0 +1,8 @@
+*Michael Fahner, Information Visualization for Distributed Systems, 2002*
+
+* Institute: Technical University Berlin, OKS
+ifdef::local[]
+* Local links:
+    link:/library/masterthesis/fahner-michael-2002.pdf[PDF]
+endif::[]
+

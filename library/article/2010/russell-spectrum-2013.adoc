@@ -1,0 +1,12 @@
+*Andrew L. Russell*: _OSI: The Internet That Wasn’t_, 2013
+
+* Reasons to read: OSI standardization history
+* Publisher: IEEE Spectrum (Volume: 50, Issue: 8, August 2013)
+* Links
+    link:https://doi.org/10.1109/MSPEC.2013.6565559[DOI] |
+    link:https://spectrum.ieee.org/tech-history/cyberspace/osi-the-internet-that-wasnt[online]
+ifdef::local[]
+* Local links:
+    link:/library/article/2010/russell-spectrum-2013.pdf[PDF]
+endif::[]
+

@@ -1,0 +1,8 @@
+*Markus Zell, Selection of Converter Chains by Means of Quality of Service Analysis, 1998*
+
+* Institute: Technical University Berlin, OKS
+ifdef::local[]
+* Local links:
+    link:/library/masterthesis/zell-markus-1998.pdf[PDF]
+endif::[]
+

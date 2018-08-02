@@ -1,0 +1,12 @@
+*Gary N. Stone, Bert Lundy, Geoffrey G. Xie,*: _Network Policy Languages: A Survey and a New Approach_, 2001
+
+* Reasons to read: survey of policy languages, and an approach for them
+* Published: IEEE Network (Volume: 15, Issue: 1, Jan/Feb 2001)
+* Links
+    link:https://doi.org/10.1109/65.898818[DOI] |
+    link:http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.183.3528&rep=rep1&type=pdf[PDF]
+ifdef::local[]
+* Local links:
+    link:/library/article/2000/stone-network-2001.pdf[PDF]
+endif::[]
+

@@ -1,0 +1,8 @@
+*Stefan Arbanowski, Generic Description of Telecommunication Services and Dynamic Resource Selection in Intelligent Communication Environments, 1996*
+
+* Institute: Technical University Berlin, OKS
+ifdef::local[]
+* Local links:
+    link:/library/masterthesis/arbanowski-stefan-1996.pdf[PDF]
+endif::[]
+

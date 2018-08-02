@@ -1,0 +1,8 @@
+*Keara Barrett, A Framework for the Semantic Translation of Policy Language Concepts, 2009*
+
+* Institute: Waterford Institute of Technology, TSSG
+ifdef::local[]
+* Local links:
+    link:/library/phdthesis/barret-keara-2009.pdf[PDF]
+endif::[]
+

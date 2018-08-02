@@ -1,0 +1,13 @@
+*Norbert Wiener, Cybernetic OR Control and Communication in the Animal and the Machine, 1965*
+
+* Reasons to read: the standard work on cybernetics (with definition) and control
+* Publisher: 
+* Links:
+    link:https://en.wikipedia.org/wiki/Cybernetics:_Or_Control_and_Communication_in_the_Animal_and_the_Machine[Wikipedia] |
+    link:https://www.goodreads.com/book/show/294941.Cybernetics?ac=1&from_search=true[Goodreads] |
+    link:http://www.uberty.org/wp-content/uploads/2015/07/Norbert_Wiener_Cybernetics.pdf[pdf: original typeset]
+ifdef::local[]
+* Local links:
+    link:/library/book/1960/wiener-norbert-cybernetics-1965.pdf[PDF]
+endif::[]
+

@@ -1,0 +1,12 @@
+*John Day*: _The Clamor Outside as INWG Debated: Economic War Comes to Networking_, 2016
+
+* Reasons to read: INWG history
+* Publisher: IEEE Annals of the History of Computing (Volume: 38, Issue: 3, July-Sept. 2016)
+* Links
+    link:https://doi.org/10.1109/MAHC.2015.70[DOI] |
+    link:http://arussell.org/INWG-Day.pdf[PDF]
+ifdef::local[]
+* Local links:
+    link:/library/article/2010/day-ieee-2016.pdf[PDF]
+endif::[]
+

@@ -1,0 +1,24 @@
+== In Proceedings (Papers)
+
+=== 1970
+include::inproceedings/1970/levin-sosp-1975.adoc[]
+
+=== 1980
+include::inproceedings/1980/robinson-ftdcs-1988.adoc[]
+include::inproceedings/1980/twidle-ftdcs-1988.adoc[]
+include::inproceedings/1980/dobson-ssp-1989.adoc[]
+
+=== 1990
+include::inproceedings/1990/sloman-ftdcs-1990.adoc[]
+
+=== 2000
+include::inproceedings/2000/damianou-ic-2002.adoc[]
+include::inproceedings/2000/barrett-giis-2007.adoc[]
+include::inproceedings/2000/barrett-mace-2007.adoc[]
+include::inproceedings/2000/phan-aswec-2008.adoc[]
+include::inproceedings/2000/mitola-icc-2009.adoc[]
+
+=== 2010
+include::inproceedings/2010/triantafyllopoulou-iswcs-2013.adoc[]
+
+

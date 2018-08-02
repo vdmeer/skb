@@ -1,0 +1,12 @@
+*Raouf Boutaba, Issam Aib*: _Policy-based Management: A Historical Perspective_, 2007
+
+* Reasons to read: history and evolution of policy in management, recursive models, good source for references on policy
+* Published: Journal of Network and Systems Management, December 2007, Volume 15, Issue 4, pp 447–480
+* Links
+    link:https://doi.org/10.1007/s10922-007-9083-8[DOI] |
+    link:http://nsm1.cs.uwaterloo.ca/rboutaba/Papers/Journals/2007/Boutaba07.pdf[PDF]
+ifdef::local[]
+* Local links:
+    link:/library/article/2000/boutaba-jnsm-2007.pdf[PDF]
+endif::[]
+

@@ -1,0 +1,20 @@
+== Sven van der Meer
+
+include::masterthesis/vandermeer-sven-1996.adoc[]
+include::phdthesis/vandermeer-sven-2002.adoc[]
+
+
+== Articles
+
+include::article/2010/brennan-commag-2010.adoc[]
+
+=== In Proceedings
+
+include::inproceedings/2000/barrett-giis-2007.adoc[]
+include::inproceedings/2000/barrett-mace-2007.adoc[]
+
+
+=== Standards
+
+include::standard/ietf/strassner-supa-2017.adoc[]
+

@@ -1,0 +1,8 @@
+*Manuela-Ionelia Dini, Temporal-Oriented Policy-Driven Network Management, 2000*
+
+* Institute: McGill University, Montreal
+ifdef::local[]
+* Local links:
+    link:/library/masterthesis/dini-manuela_ionelia-2000.pdf[PDF]
+endif::[]
+

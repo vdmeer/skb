@@ -1,0 +1,13 @@
+*Edwin A. Abbott, Flatland, 1884*
+
+* Publisher: Seeley & Co. of London
+* Links:
+    link:https://en.wikipedia.org/wiki/Flatland[Wikipedia] |
+    link:https://github.com/Ivesvdf/flatland[LaTeX by Ivesvdf] |
+    link:https://archive.org/details/flatlandromanceo00abbouoft[Internet Archive] |
+    link:http://www.gutenberg.org/ebooks/201[Gutenberg]
+ifdef::local[]
+* Local links:
+    link:/library/book/1800/abbott-edwin-a-flatland-1884.pdf[PDF]
+endif::[]
+

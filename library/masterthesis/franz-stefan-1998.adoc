@@ -1,0 +1,8 @@
+*Stefan Franz, Job and Stream Control in Heterogeneous Hardware and Software Architectures, 1998*
+
+* Institute: Technical University Berlin, OKS
+ifdef::local[]
+* Local links:
+    link:/library/masterthesis/franz-stefan-1998.pdf[PDF]
+endif::[]
+

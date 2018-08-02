@@ -1,0 +1,10 @@
+*John Day, Patterns in Network Architecture: A Return to Fundamentals, 2007*
+
+* Publisher: Pearson Edition
+* Links:
+    link:https://www.goodreads.com/book/show/8193269-patterns-in-network-architecture[Goodreads]
+ifdef::local[]
+* Local links:
+    link:/library/book/2000/day-john-pna-2007.pdf[PDF]
+endif::[]
+

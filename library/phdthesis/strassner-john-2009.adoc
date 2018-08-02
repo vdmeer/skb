@@ -1,0 +1,12 @@
+*John Strassner Barrett, Enabling Autonomic Network Management Decisions Using a Novel Semantic Representation and Reasoning Approach, 2009*
+
+* Institute: Waterford Institute of Technology, TSSG
+ifdef::local[]
+* Local links:
+    link:/library/phdthesis/strassner-john-2009.pdf[PDF] |
+    link:/library/phdthesis/strassner-john-2009.doc[DOC] |
+    link:/library/phdthesis/strassner-john-2009.pptx[PPTX] |
+    link:/library/phdthesis/strassner-john-2009-print.pdf[PDF-print] |
+    link:/library/phdthesis/strassner-john-2009-print.doc[DOC-print]
+endif::[]
+

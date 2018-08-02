@@ -1,0 +1,22 @@
+== Book
+
+=== 1800
+include::book/1800/abbott-edwin-a-flatland-1884.adoc[]
+
+=== 1920
+include::book/1920/wittgenstein-ludwig-tractatus-1922.adoc[]
+
+=== 1950
+include::book/1950//ashby-w-ross-intro_cybernetics-1956.adoc[]
+include::book/1950/popper-scientific-discovery-1959.adoc[]
+
+=== 1960
+include::book/1960//wiener-norbert-cybernetics-1965.adoc[]
+
+=== 2000
+include::book/2000/strassner-pbm-2004.adoc[]
+include::book/2000/day-john-pna-2007.adoc[]
+
+=== 2010
+include::book/2010/russell-sdos-2014.adoc[]
+

@@ -1,0 +1,12 @@
+*Jonathan Moffett, Morris Sloman, Kevin Twidle*: _Specifying Discretionary Access Control Policy for Distributed Systems_, 1990
+
+* Reasons to read: defines policy as a paradigm for network management
+* Published: Computer Communications, Volume 13, Issue 9, November 1990, Pages 571-580
+* Links
+    link:https://doi.org/10.1016/0140-3664(90)90008-5[DOI] |
+    link:https://s3.amazonaws.com/academia.edu.documents/30736613/10.1.1.41.6306.pdf?AWSAccessKeyId=AKIAIWOWYYGZ2Y53UL3A&Expires=1533210926&Signature=iw01kOQ6Q0RPnOXfgeRMVsiq2gc%3D&response-content-disposition=inline%3B%20filename%3DSpecifying_discretionary_access_control.pdf[PDF]
+ifdef::local[]
+* Local links:
+    link:/library/article/1990/moffet-comcom-1990.pdf[PDF]
+endif::[]
+

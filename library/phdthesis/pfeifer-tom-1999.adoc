@@ -1,0 +1,8 @@
+*Tom Pfeifer, Automatic Conversion of Communication Media, 1999*
+
+* Institute: Technical University Berlin, OKS
+ifdef::local[]
+* Local links:
+    link:/library/phdthesis/pfeifer-tom-1999.pdf[PDF]
+endif::[]
+

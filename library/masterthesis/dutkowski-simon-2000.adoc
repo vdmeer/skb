@@ -1,0 +1,8 @@
+*Simon Dutkowski, Design Patterns for Distributed Communication Systems, 2000*
+
+* Institute: Technical University Berlin, OKS
+ifdef::local[]
+* Local links:
+    link:/library/masterthesis/dutkowski-simon-2000.pdf[PDF]
+endif::[]
+

@@ -1,0 +1,8 @@
+*Wolfram Fritzsch, Integrated Management of Distributed Components, 2001*
+
+* Institute: Technical University Berlin, OKS
+ifdef::local[]
+* Local links:
+    link:/library/masterthesis/fritzsch-wolfram-2001.pdf[PDF]
+endif::[]
+

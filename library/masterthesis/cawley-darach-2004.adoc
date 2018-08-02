@@ -1,0 +1,8 @@
+*Darach Cawley, Development of Smart Services for Smart Spaces, 2004*
+
+* Institute: Waterford Institute of Technology, TSSG
+ifdef::local[]
+* Local links:
+    link:/library/masterthesis/cawley-darach-2004.pdf[PDF]
+endif::[]
+

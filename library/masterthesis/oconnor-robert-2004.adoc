@@ -1,0 +1,8 @@
+*Robert O'Connor, An Investigation into Management Functionality for Ubiquitous Computing Environments, 2004*
+
+* Institute: Waterford Institute of Technology, TSSG
+ifdef::local[]
+* Local links:
+    link:/library/masterthesis/oconnor-robert-2004.pdf[PDF]
+endif::[]
+

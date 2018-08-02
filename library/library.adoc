@@ -1,0 +1,17 @@
+= Library
+
+include::article.adoc[]
+
+include::book.adoc[]
+
+include::inproceedings.adoc[]
+
+include::misc.adoc[]
+
+include::masterthesis.adoc[]
+
+include::phdthesis.adoc[]
+
+include::report.adoc[]
+
+include::standard.adoc[]

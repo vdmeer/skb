@@ -1,0 +1,5 @@
+== Cybernetics
+
+include::book/1950/ashby-w-ross-intro_cybernetics-1956.adoc[]
+include::book/1960/wiener-norbert-cybernetics-1965.adoc[]
+

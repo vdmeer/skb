@@ -1,0 +1,8 @@
+*Declan O'Sullivan, The OISIN framework: Ontology Interoperability in support of Semantic Interoperability, 2006*
+
+* Institute: Trinity College Dublin
+ifdef::local[]
+* Local links:
+    link:/library/phdthesis/osullivan-declan-2006.pdf[PDF]
+endif::[]
+

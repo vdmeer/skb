@@ -22,13 +22,16 @@
 //
 
 [
-  {"short":"DMS", "long":"DIF Management System"},
-  {"short":"IPC", "long":"Inter-Process Communication"},
-  {"short":"DIF", "long":"Distributed IPC Facility"},
-  {"short":"DAF", "long":"Distributed Application Facility"},
-  {"short":"CDAP", "long":"Common Distributed Application Protocol"},
-  {"short":"CACE", "long":"Common Application Connection Establishment"},
-  {"short":"RIB", "long":"Resource Information Base"},
+	{"short":"LangEx",	"long":"Language Executor"},
+	{"short":"Ch",		"long":"Choreographer"},
+	{"short":"DSMEx",	"long":"Directed State Machine Executor"},
+	{"short":"LEx",		"long":"Logic Executor"},
+	{"short":"Or",		"long":"Orchestrator"},
+	{"short":"SSMEx",	"long":"Sequential State Machine Executor"},
+	{"short":"StExCh",	"long":"State Executor Choreographed"},
+	{"short":"StExOr",	"long":"State Executor Orchestrated"},
+	{"short":"TEx",		"long":"Task Executor"},
+	{"short":"SRu",		"long":"State Runner"},
 
   {"short":"#dummy", "long":"#dummy"}
 ]

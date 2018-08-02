@@ -22,13 +22,11 @@
 //
 
 [
-  {"short":"DMS", "long":"DIF Management System"},
-  {"short":"IPC", "long":"Inter-Process Communication"},
-  {"short":"DIF", "long":"Distributed IPC Facility"},
-  {"short":"DAF", "long":"Distributed Application Facility"},
-  {"short":"CDAP", "long":"Common Distributed Application Protocol"},
-  {"short":"CACE", "long":"Common Application Connection Establishment"},
-  {"short":"RIB", "long":"Resource Information Base"},
+	{"short":"AP-EN",	"long":"Adaptive Policy Engine"},
+	{"short":"AP-KB",	"long":"Adaptive Policy Knowledge Base"},
+	{"short":"AP-DEP",	"long":"Adaptive Policy Deployment"},
+	{"short":"AP-AUTH",	"long":"Adaptive Policy Authoring"},
+	{"short":"AP-CTX",	"long":"Adaptive Policy Context"},
 
-  {"short":"#dummy", "long":"#dummy"}
+	{"short":"#dummy", "long":"#dummy"}
 ]

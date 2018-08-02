@@ -22,6 +22,7 @@
 //
 
 [
+  {"short":"AMQP", "long":"Advanced Message Queuing Protocol"},
   {"short":"XACML", "long":"eXtensible Access Control Markup Language"},
   {"short":"AVDL", "long":"Application Vulnerability Description Language"},
   {"short":"BPEL4WS", "long":"Business Process Execution Language for Web Services"},

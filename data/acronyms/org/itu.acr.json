@@ -23,7 +23,6 @@
 
 [
   {"short":"ASE", "long":"Application Service Element"},
-  {"short":"ASN.1", "long":"Abstract Syntax Notation 1"},
   {"short":"ATM", "long":"Asynchronous Transfer Mode"},
   {"short":"B-ISDN", "long":"Broadband ISDN"},
   {"short":"DTE", "long":"Data Terminal Equipment"},

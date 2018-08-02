@@ -22,13 +22,11 @@
 //
 
 [
-  {"short":"DMS", "long":"DIF Management System"},
-  {"short":"IPC", "long":"Inter-Process Communication"},
-  {"short":"DIF", "long":"Distributed IPC Facility"},
-  {"short":"DAF", "long":"Distributed Application Facility"},
-  {"short":"CDAP", "long":"Common Distributed Application Protocol"},
-  {"short":"CACE", "long":"Common Application Connection Establishment"},
-  {"short":"RIB", "long":"Resource Information Base"},
+  {"short":"CS", "long":"Computer Science"},
+
+  {"short":"PFSM",	"long":"Probabilistic Finite State Machine"},
+  {"short":"DFA",	"long":"Deterministic Finite Automaton"},
+  {"short":"DAG",	"long":"Directed Acyclic Graph"},
 
   {"short":"#dummy", "long":"#dummy"}
 ]

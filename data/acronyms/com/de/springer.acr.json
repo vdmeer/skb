@@ -22,13 +22,7 @@
 //
 
 [
-  {"short":"DMS", "long":"DIF Management System"},
-  {"short":"IPC", "long":"Inter-Process Communication"},
-  {"short":"DIF", "long":"Distributed IPC Facility"},
-  {"short":"DAF", "long":"Distributed Application Facility"},
-  {"short":"CDAP", "long":"Common Distributed Application Protocol"},
-  {"short":"CACE", "long":"Common Application Connection Establishment"},
-  {"short":"RIB", "long":"Resource Information Base"},
+  {"short":"LNCS", "long":"Lecture Notes in Computer Science"},
 
   {"short":"#dummy", "long":"#dummy"}
 ]

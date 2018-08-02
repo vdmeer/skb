@@ -28,11 +28,15 @@
   {"short":"C++",	"long":"Programming Language", "descr":"originally “C with Classes”"},
   {"short":"CPP",	"long":"C Pre Processor"},
   {"short":"EBNF",	"long":"Extended Backus-Naur Form"},
+  {"short":"DSL",	"long":"Domain Specific Language"},
   {"short":"KQML",	"long":"Knowledge Query and Manipulation Language"},
   {"short":"PHP",	"long":"PHP Hypertext Preprocessor"},
   {"short":"SGML",	"long":"Standard Generalized Markup Language"},
   {"short":"STDL",	"long":"Standard Transaction Definition Language"},
   {"short":"EPL",	"long":"Event Processing Language"},
+  {"short":"UML",	"long":"Unified Modelling Language"},
+  {"short":"AOT",	"long":"Ahead Of Time Compilcation"},
+  {"short":"JIT",	"long":"Just In Time Compilcation"},
 
   {"short":"#dummy", "long":"#dummy"}
 ]

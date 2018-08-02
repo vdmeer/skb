@@ -1,0 +1,168 @@
+// Copyright 2015 Sven van der Meer <vdmeer.sven@mykolab.com>
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+// 
+//     http://www.apache.org/licenses/LICENSE-2.0
+// 
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+//
+
+//
+// UTF Characters for block "Greek and Coptic" Range 0370-03FF
+//
+// @author     Sven van der Meer &lt;vdmeer.sven@mykolab.com&gt;
+// @version    v0.0.1 build 151209 (09-Dec-15)
+//
+//
+
+[
+	{"d":880,	"c":"Ͱ",												"b":"Greek and Coptic",	"descr":"Greek Capital Letter Heta"},
+	{"d":881,	"c":"ͱ",												"b":"Greek and Coptic",	"descr":"Greek Small Letter Heta"},
+	{"d":882,	"c":"Ͳ",												"b":"Greek and Coptic",	"descr":"Greek Capital Letter Archaic Sampi"},
+	{"d":883,	"c":"ͳ",												"b":"Greek and Coptic",	"descr":"Greek Small Letter Archaic Sampi"},
+	{"d":884,	"c":"ʹ",												"b":"Greek and Coptic",	"descr":"Greek Numeral Sign"},
+	{"d":885,	"c":"͵",												"b":"Greek and Coptic",	"descr":"Greek Lower Numeral Sign"},
+	{"d":886,	"c":"Ͷ",												"b":"Greek and Coptic",	"descr":"Greek Capital Letter Pamphylian Digamma"},
+	{"d":887,	"c":"ͷ",												"b":"Greek and Coptic",	"descr":"Greek Small Letter Pamphylian Digamma"},
+// 888
+// 889
+	{"d":890,	"c":"ͺ",												"b":"Greek and Coptic",	"descr":"Greek Ypogegrammeni"},
+	{"d":891,	"c":"ͻ",												"b":"Greek and Coptic",	"descr":"Greek Small Reversed Lunate Sigma Symbol"},
+	{"d":892,	"c":"ͼ",												"b":"Greek and Coptic",	"descr":"Greek Small Dotted Lunate Sigma Symbol"},
+	{"d":893,	"c":"ͽ",												"b":"Greek and Coptic",	"descr":"Greek Small Reversed Dotted Lunate Sigma Symbol"},
+	{"d":894,	"c":";",												"b":"Greek and Coptic",	"descr":"Greek Question Mark"},
+	{"d":895,	"c":"Ϳ",												"b":"Greek and Coptic",	"descr":"Greek Capital Letter Yot"},
+//no 896
+//no 897
+//no 898
+//no 899
+	{"d":900,	"c":"΄",												"b":"Greek and Coptic",	"descr":"Greek Tonos"},
+	{"d":901,	"c":"΅",												"b":"Greek and Coptic",	"descr":"Greek Dialytika Tonos"},
+	{"d":902,	"c":"Ά",												"b":"Greek and Coptic",	"descr":"Greek Capital Letter Alpha with Tonos"},
+	{"d":903,	"c":"·",												"b":"Greek and Coptic",	"descr":"Greek Ano Teleia"},
+	{"d":904,	"c":"Έ",												"b":"Greek and Coptic",	"descr":"Greek Capital Letter Epsilon with Tonos"},
+	{"d":905,	"c":"Ή",												"b":"Greek and Coptic",	"descr":"Greek Capital Letter Eta with Tonos"},
+	{"d":906,	"c":"Ί",												"b":"Greek and Coptic",	"descr":"Greek Capital Letter Iota with Tonos"},
+//no 907
+	{"d":908,	"c":"Ό",												"b":"Greek and Coptic",	"descr":"Greek Capital Letter Omicron with Tonos"},
+//no 909
+	{"d":910,	"c":"Ύ",												"b":"Greek and Coptic",	"descr":"Greek Capital Letter Upsilon with Tonos"},
+	{"d":911,	"c":"Ώ",												"b":"Greek and Coptic",	"descr":"Greek Capital Letter Omega with Tonos"},
+	{"d":912,	"c":"ΐ",												"b":"Greek and Coptic",	"descr":"Greek Small Letter Iota with Dialytika and Tonos"},
+	{"d":913,	"c":"Α",		"he":"&Alpha;",		"ltx":"A",			"b":"Greek and Coptic",	"descr":"Greek Capital Letter alpha"},
+	{"d":914,	"c":"Β",		"he":"Beta;",		"ltx":"B",			"b":"Greek and Coptic",	"descr":"Greek Capital Letter beta"},
+	{"d":915,	"c":"Γ",		"he":"&Gamma;",		"ltx":"\\Gamma",	"b":"Greek and Coptic",	"descr":"Greek Capital Letter gamma"},
+	{"d":916,	"c":"Δ",		"he":"&Delta;",		"ltx":"\\Delta",	"b":"Greek and Coptic",	"descr":"Greek Capital Letter delta"},
+	{"d":917,	"c":"Ε",		"he":"&Epsilon;",	"ltx":"E",			"b":"Greek and Coptic",	"descr":"Greek Capital Letter epsilon"},
+	{"d":918,	"c":"Ζ",		"he":"&Zeta;",		"ltx":"Z",			"b":"Greek and Coptic",	"descr":"Greek Capital Letter zeta"},
+	{"d":919,	"c":"Η",		"he":"&Eta;",		"ltx":"H",			"b":"Greek and Coptic",	"descr":"Greek Capital Letter eta"},
+	{"d":920,	"c":"Θ",		"he":"&Theta;",		"ltx":"\\Theta",	"b":"Greek and Coptic",	"descr":"Greek Capital Letter theta"},
+	{"d":921,	"c":"Ι",		"he":"&Iota;",		"ltx":"I",			"b":"Greek and Coptic",	"descr":"Greek Capital Letter iota"},
+	{"d":922,	"c":"Κ",		"he":"&Kappa;",		"ltx":"K",			"b":"Greek and Coptic",	"descr":"Greek Capital Letter kappa"},
+	{"d":923,	"c":"Λ",		"he":"&Lambda;",	"ltx":"\\Lambda",	"b":"Greek and Coptic",	"descr":"Greek Capital Letter lamda"},
+	{"d":924,	"c":"Μ",		"he":"&Mu;",		"ltx":"M",			"b":"Greek and Coptic",	"descr":"Greek Capital Letter mu"},
+	{"d":925,	"c":"Ν",		"he":"&Nu;",		"ltx":"N",			"b":"Greek and Coptic",	"descr":"Greek Capital Letter nu"},
+	{"d":926,	"c":"Ξ",		"he":"&Xi;",		"ltx":"\\Xi",		"b":"Greek and Coptic",	"descr":"Greek Capital Letter xi"},
+	{"d":927,	"c":"Ο",		"he":"&Omicron;",	"ltx":"O",			"b":"Greek and Coptic",	"descr":"Greek Capital Letter omicron"},
+	{"d":928,	"c":"Π",		"he":"&Pi;",		"ltx":"\\Pi",		"b":"Greek and Coptic",	"descr":"Greek Capital Letter pi"},
+	{"d":929,	"c":"Ρ",		"he":"&Rho;",		"ltx":"P",			"b":"Greek and Coptic",	"descr":"Greek Capital Letter rho"},
+	{"d":931,	"c":"Σ",		"he":"&Sigma;",		"ltx":"\\Sigma",	"b":"Greek and Coptic",	"descr":"Greek Capital Letter sigma"},
+	{"d":932,	"c":"Τ",		"he":"&Tau;",		"ltx":"T",			"b":"Greek and Coptic",	"descr":"Greek Capital Letter tau"},
+	{"d":933,	"c":"Υ",		"he":"&Upsilon;",	"ltx":"\\Upsilon",	"b":"Greek and Coptic",	"descr":"Greek Capital Letter upsilon"},
+	{"d":934,	"c":"Φ",		"he":"&Phi;",		"ltx":"\\Phi",		"b":"Greek and Coptic",	"descr":"Greek Capital Letter phi"},
+	{"d":935,	"c":"Χ",		"he":"&Chi;",		"ltx":"X",			"b":"Greek and Coptic",	"descr":"Greek Capital Letter chi"},
+	{"d":936,	"c":"Ψ",		"he":"&Psi;",		"ltx":"\\Psi",		"b":"Greek and Coptic",	"descr":"Greek Capital Letter psi"},
+	{"d":937,	"c":"Ω",		"he":"&Omega;",		"ltx":"\\Omega",	"b":"Greek and Coptic",	"descr":"Greek Capital Letter omega"},
+	{"d":938,	"c":"Ϊ",												"b":"Greek and Coptic",	"descr":"Greek Capital Letter iota with dialytika"},
+	{"d":939,	"c":"Ϋ",												"b":"Greek and Coptic",	"descr":"Greek Capital Letter upsilon with dialytika"},
+	{"d":940,	"c":"ά",												"b":"Greek and Coptic",	"descr":"Greek Small Letter alpha with tonos"},
+	{"d":941,	"c":"έ",												"b":"Greek and Coptic",	"descr":"Greek Small Letter epsilon with tonos"},
+	{"d":942,	"c":"ή",												"b":"Greek and Coptic",	"descr":"Greek Small Letter eta with tonos"},
+	{"d":943,	"c":"ί",												"b":"Greek and Coptic",	"descr":"Greek Small Letter iota with tonos"},
+	{"d":944,	"c":"ΰ",												"b":"Greek and Coptic",	"descr":"Greek Small Letter upsilon with dialytika and tonos"},
+	{"d":945,	"c":"α",		"he":"&alpha;",		"ltx":"\\alpha",	"b":"Greek and Coptic",	"descr":"Greek Small Letter alpha"},
+	{"d":946,	"c":"β",		"he":"&beta;",		"ltx":"\\beta",		"b":"Greek and Coptic",	"descr":"Greek Small Letter beta"},
+	{"d":947,	"c":"γ",		"he":"&gamma;",		"ltx":"\\gamma",	"b":"Greek and Coptic",	"descr":"Greek Small Letter gamma"},
+	{"d":948,	"c":"δ",		"he":"&delta;",		"ltx":"\\delta",	"b":"Greek and Coptic",	"descr":"Greek Small Letter delta"},
+	{"d":949,	"c":"ε",		"he":"&epsilon;",	"ltx":"\\epsilon",	"b":"Greek and Coptic",	"descr":"Greek Small Letter epsilon"},
+	{"d":950,	"c":"ζ",		"he":"&zeta;",		"ltx":"\\zeta",		"b":"Greek and Coptic",	"descr":"Greek Small Letter zeta"},
+	{"d":951,	"c":"η",		"he":"&eta;",		"ltx":"\\eta",		"b":"Greek and Coptic",	"descr":"Greek Small Letter eta"},
+	{"d":952,	"c":"θ",		"he":"&theta;",		"ltx":"\\theta",	"b":"Greek and Coptic",	"descr":"Greek Small Letter theta"},
+	{"d":953,	"c":"ι",		"he":"&iota;",		"ltx":"\\iota",		"b":"Greek and Coptic",	"descr":"Greek Small Letter iota"},
+	{"d":954,	"c":"κ",		"he":"&kappa;",		"ltx":"\\kappa",	"b":"Greek and Coptic",	"descr":"Greek Small Letter kappa"},
+	{"d":955,	"c":"λ",		"he":"&lambda;",	"ltx":"\\lambda",	"b":"Greek and Coptic",	"descr":"Greek Small Letter lamda"},
+	{"d":956,	"c":"μ",		"he":"&mu;",		"ltx":"\\mu",		"b":"Greek and Coptic",	"descr":"Greek Small Letter mu"},
+	{"d":957,	"c":"ν",		"he":"&nu;",		"ltx":"\\nu",		"b":"Greek and Coptic",	"descr":"Greek Small Letter nu"},
+	{"d":958,	"c":"ξ",		"he":"&xi;",		"ltx":"\\xi",		"b":"Greek and Coptic",	"descr":"Greek Small Letter xi"},
+	{"d":959,	"c":"ο",		"he":"&omicron;",	"ltx":"o",			"b":"Greek and Coptic",	"descr":"Greek Small Letter omicron"},
+	{"d":960,	"c":"π",		"he":"&pi;",		"ltx":"\\pi",		"b":"Greek and Coptic",	"descr":"Greek Small Letter pi"},
+	{"d":961,	"c":"ρ",		"he":"&rho;",		"ltx":"\\rho",		"b":"Greek and Coptic",	"descr":"Greek Small Letter rho"},
+	{"d":962,	"c":"ς",		"he":"&sigmaf;",	"ltx":"\\varsigma",	"b":"Greek and Coptic",	"descr":"Greek Small Letter final sigma"},
+	{"d":963,	"c":"σ",		"he":"&sigma;",		"ltx":"\\sigma",	"b":"Greek and Coptic",	"descr":"Greek Small Letter sigma"},
+	{"d":964,	"c":"τ",		"he":"&tau;",		"ltx":"\\tau",		"b":"Greek and Coptic",	"descr":"Greek Small Letter tau"},
+	{"d":965,	"c":"υ",		"he":"&upsilon;",	"ltx":"\\upsilon",	"b":"Greek and Coptic",	"descr":"Greek Small Letter upsilon"},
+	{"d":966,	"c":"φ",		"he":"&phi;",		"ltx":"\\phi",		"b":"Greek and Coptic",	"descr":"Greek Small Letter phi"},
+	{"d":967,	"c":"χ",		"he":"&chi;",		"ltx":"\\chi",		"b":"Greek and Coptic",	"descr":"Greek Small Letter chi"},
+	{"d":968,	"c":"ψ",		"he":"&psi;",		"ltx":"\\psi",		"b":"Greek and Coptic",	"descr":"Greek Small Letter psi"},
+	{"d":969,	"c":"ω",		"he":"&omega;",		"ltx":"\\omega",	"b":"Greek and Coptic",	"descr":"Greek Small Letter omega"},
+	{"d":970,	"c":"ϊ",												"b":"Greek and Coptic",	"descr":"Greek Small Letter iota with dialytika"},
+	{"d":971,	"c":"ϋ",												"b":"Greek and Coptic",	"descr":"Greek Small Letter upsilon with dialytika"},
+	{"d":972,	"c":"ό",												"b":"Greek and Coptic",	"descr":"Greek Small Letter omicron with tonos"},
+	{"d":973,	"c":"ύ",												"b":"Greek and Coptic",	"descr":"Greek Small Letter upsilon with tonos"},
+	{"d":974,	"c":"ώ",												"b":"Greek and Coptic",	"descr":"Greek Small Letter omega with tonos"},
+	{"d":975,	"c":"Ϗ",												"b":"Greek and Coptic",	"descr":"Greek capital kai symbol"},
+	{"d":976,	"c":"ϐ",												"b":"Greek and Coptic",	"descr":"Greek beta symbol"},
+	{"d":977,	"c":"ϑ",		"he":"&thetasym;",	"ltx":"\\vartheta",	"b":"Greek and Coptic",	"descr":"Greek theta symbol"},
+	{"d":978,	"c":"ϒ",		"he":"&upsih;",							"b":"Greek and Coptic",	"descr":"Greek upsilon with hook symbol"},
+	{"d":979,	"c":"ϓ",												"b":"Greek and Coptic",	"descr":"Greek upsilon with acute and hook symbol"},
+	{"d":980,	"c":"ϔ",												"b":"Greek and Coptic",	"descr":"Greek upsilon with diaeresis and hook symbol"},
+	{"d":981,	"c":"ϕ",												"b":"Greek and Coptic",	"descr":"Greek phi Symbol"},
+	{"d":982,	"c":"ϖ",		"he":"&piv;",		"ltx":"\\varpi",	"b":"Greek and Coptic",	"descr":"Greek pi Symbol"},
+	{"d":983,	"c":"ϗ",												"b":"Greek and Coptic",	"descr":"Greek kai Symbol"},
+	{"d":984,	"c":"Ϙ",												"b":"Greek and Coptic",	"descr":"Greek Letter archaic koppa"},
+	{"d":985,	"c":"ϙ",												"b":"Greek and Coptic",	"descr":"Greek Small Letter archaic koppa"},
+	{"d":986,	"c":"Ϛ",												"b":"Greek and Coptic",	"descr":"Greek Letter stigma"},
+	{"d":987,	"c":"ϛ",												"b":"Greek and Coptic",	"descr":"Greek Small Letter stigma"},
+	{"d":988,	"c":"Ϝ",												"b":"Greek and Coptic",	"descr":"Greek Letter digamma"},
+	{"d":989,	"c":"ϝ",												"b":"Greek and Coptic",	"descr":"Greek Small Letter digamma"},
+	{"d":990,	"c":"Ϟ",												"b":"Greek and Coptic",	"descr":"Greek Letter koppa"},
+	{"d":991,	"c":"ϟ",												"b":"Greek and Coptic",	"descr":"Greek Small Letter koppa"},
+	{"d":992,	"c":"Ϡ",												"b":"Greek and Coptic",	"descr":"Greek Letter sampi"},
+	{"d":993,	"c":"ϡ",												"b":"Greek and Coptic",	"descr":"Greek Small Letter sampi"},
+	{"d":994,	"c":"Ϣ",												"b":"Greek and Coptic",	"descr":"Coptic Capital Letter Shei"},
+	{"d":995,	"c":"ϣ",												"b":"Greek and Coptic",	"descr":"Coptic Small Letter Shei"},
+	{"d":996,	"c":"Ϥ",												"b":"Greek and Coptic",	"descr":"Coptic Capital Letter Fei"},
+	{"d":997,	"c":"ϥ",												"b":"Greek and Coptic",	"descr":"Coptic Small Letter Fei"},
+	{"d":998,	"c":"Ϧ",												"b":"Greek and Coptic",	"descr":"Coptic Capital Letter Khei"},
+	{"d":999,	"c":"ϧ",												"b":"Greek and Coptic",	"descr":"Coptic Small Letter Khei"},
+	{"d":1000,	"c":"Ϩ",												"b":"Greek and Coptic",	"descr":"Coptic Capital Letter Hori"},
+	{"d":1001,	"c":"ϩ",												"b":"Greek and Coptic",	"descr":"Coptic Small Letter Hori"},
+	{"d":1002,	"c":"Ϫ",												"b":"Greek and Coptic",	"descr":"Coptic Capital Letter Gangia"},
+	{"d":1003,	"c":"ϫ",												"b":"Greek and Coptic",	"descr":"Coptic Small Letter Gangia"},
+	{"d":1004,	"c":"Ϭ",												"b":"Greek and Coptic",	"descr":"Coptic Capital Letter Shima"},
+	{"d":1005,	"c":"ϭ",												"b":"Greek and Coptic",	"descr":"Coptic Small Letter Shima"},
+	{"d":1006,	"c":"Ϯ",												"b":"Greek and Coptic",	"descr":"Coptic Capital Letter Dei"},
+	{"d":1007,	"c":"ϯ",												"b":"Greek and Coptic",	"descr":"Coptic Small Letter Dei"},
+	{"d":1008,	"c":"ϰ",												"b":"Greek and Coptic",	"descr":"Greek Kappa Symbol"},
+	{"d":1009,	"c":"ϱ",												"b":"Greek and Coptic",	"descr":"Greek Rho Symbol"},
+	{"d":1010,	"c":"ϲ",												"b":"Greek and Coptic",	"descr":"Greek Lunate Sigma Symbol"},
+	{"d":1011,	"c":"ϳ",												"b":"Greek and Coptic",	"descr":"Greek Letter Yot"},
+	{"d":1012,	"c":"ϴ",												"b":"Greek and Coptic",	"descr":"Greek Capital Theta Symbol"},
+	{"d":1013,	"c":"ϵ",												"b":"Greek and Coptic",	"descr":"Greek Lunate Epsilon Symbol"},
+	{"d":1014,	"c":"϶",												"b":"Greek and Coptic",	"descr":"Greek Reversed Lunate Epsilon Symbol"},
+	{"d":1015,	"c":"Ϸ",												"b":"Greek and Coptic",	"descr":"Greek Capital Letter Sho"},
+	{"d":1016,	"c":"ϸ",												"b":"Greek and Coptic",	"descr":"Greek Small Letter Sho"},
+	{"d":1017,	"c":"Ϲ",												"b":"Greek and Coptic",	"descr":"Greek Capital Lunate Sigma Symbol"},
+	{"d":1018,	"c":"Ϻ",												"b":"Greek and Coptic",	"descr":"Greek Capital Letter San"},
+	{"d":1019,	"c":"ϻ",												"b":"Greek and Coptic",	"descr":"Greek Small Letter San"},
+	{"d":1020,	"c":"ϼ",												"b":"Greek and Coptic",	"descr":"Greek Rho with Stroke Symbol"},
+	{"d":1021,	"c":"Ͻ",												"b":"Greek and Coptic",	"descr":"Greek Capital Reversed Lunate Sigma Symbol"},
+	{"d":1022,	"c":"Ͼ",												"b":"Greek and Coptic",	"descr":"Greek Capital Dotted Lunate Sigma Symbol"},
+	{"d":1023,	"c":"Ͽ",												"b":"Greek and Coptic",	"descr":"Greek Capital Reversed Dotted Lunate Sigma Symbol"}
+]

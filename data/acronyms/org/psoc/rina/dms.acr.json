@@ -23,8 +23,6 @@
 
 [
   {"short":"MA", "long":"Management Agent"},
-  {"short":"DMS-MS", "long":"DMS Messaging System"},
-  {"short":"DMS-ES", "long":"DMS Event System"},
   {"short":"OS-DMS", "long":"Operating System DMS"},
   {"short":"NM-DMS", "long":"Network Management DMS"},
   {"short":"AM-DMS", "long":"Application Management DMS"},

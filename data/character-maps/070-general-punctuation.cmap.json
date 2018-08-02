@@ -1,0 +1,98 @@
+﻿// Copyright 2015 Sven van der Meer <vdmeer.sven@mykolab.com>
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+// 
+//     http://www.apache.org/licenses/LICENSE-2.0
+// 
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+//
+
+//
+// UTF Characters for block "General Punctuation" Range 2000-206F
+//
+// @author     Sven van der Meer &lt;vdmeer.sven@mykolab.com&gt;
+// @version    v0.0.1 build 151209 (09-Dec-15)
+//
+//
+
+[
+	{"d":8208,	"c":"‐",											"b":"General Punctuation",	"descr":"Hyphen"},
+	{"d":8209,	"c":"‑",											"b":"General Punctuation",	"descr":"Non-Breaking Hyphen"},
+	{"d":8210,	"c":"‒",											"b":"General Punctuation",	"descr":"Figure Dash"},
+	{"d":8211,	"c":"–",	"he":"&ndash;",		"ltx":"--",			"b":"General Punctuation",	"descr":"En Dash"},
+	{"d":8212,	"c":"—",	"he":"&mdash;",		"ltx":"---",		"b":"General Punctuation",	"descr":"Em Dash"},
+	{"d":8213,	"c":"―",											"b":"General Punctuation",	"descr":"Horizontal Bar"},
+	{"d":8214,	"c":"‖",											"b":"General Punctuation",	"descr":"Double Vertical Line"},
+	{"d":8215,	"c":"‗",											"b":"General Punctuation",	"descr":"Double Low Line"},
+	{"d":8216,	"c":"‘",	"he":"&lsquo;",		"ltx":"`",			"b":"General Punctuation",	"descr":"Left Single Quotation Mark"},
+	{"d":8217,	"c":"’",	"he":"&rsquo;",		"ltx":"'",			"b":"General Punctuation",	"descr":"Right Single Quotation Mark"},
+	{"d":8218,	"c":"‚",	"he":"&sbquo;",		"ltx":",",			"b":"General Punctuation",	"descr":"Single Low-9 Quotation Mark"},
+	{"d":8219,	"c":"‛",											"b":"General Punctuation",	"descr":"Single High-Reversed-9 Quotation Mark"},
+	{"d":8220,	"c":"“",	"he":"&ldquo;",		"ltx":"``",			"b":"General Punctuation",	"descr":"Left Double Quotation Mark"},
+	{"d":8221,	"c":"”",	"he":"&rdquo;",		"ltx":"''",			"b":"General Punctuation",	"descr":"Right Double Quotation Mark"},
+	{"d":8222,	"c":"„",	"he":"&bdquo;",							"b":"General Punctuation",	"descr":"Double Low-9 Quotation Mark"},
+	{"d":8223,	"c":"‟",											"b":"General Punctuation",	"descr":"Double High-Reversed-9 Quotation Mark"},
+	{"d":8224,	"c":"†",	"he":"&dagger;",	"ltx":"\\dag",		"b":"General Punctuation",	"descr":"Dagger"},
+	{"d":8225,	"c":"‡",	"he":"&Dagger;",	"ltx":"\\ddag",		"b":"General Punctuation",	"descr":"Double Dagger"},
+	{"d":8226,	"c":"•",	"he":"&bull;",							"b":"General Punctuation",	"descr":"Bullet"},
+	{"d":8227,	"c":"‣",											"b":"General Punctuation",	"descr":"Triangular Bullet"},
+	{"d":8228,	"c":"․",											"b":"General Punctuation",	"descr":"One Dot Leader"},
+	{"d":8229,	"c":"‥",											"b":"General Punctuation",	"descr":"Two Dot Leader"},
+	{"d":8230,	"c":"…",	"he":"&hellip;",	"ltx":"{\\dots}",	"b":"General Punctuation",	"descr":"Horizontal Ellipsis"},
+	{"d":8231,	"c":"‧",											"b":"General Punctuation",	"descr":"Hyphenation Point"},
+	{"d":8232,	"c":" ",											"b":"General Punctuation",	"descr":"Line Separator"},
+	{"d":8240,	"c":"‰",	"he":"&permil;",						"b":"General Punctuation",	"descr":"Per Mille Sign"},
+	{"d":8241,	"c":"‱",											"b":"General Punctuation",	"descr":"Per Ten Thousand Sign"},
+	{"d":8242,	"c":"′",	"he":"&prime;",							"b":"General Punctuation",	"descr":"Prime"},
+	{"d":8243,	"c":"″",	"he":"&Prime;",							"b":"General Punctuation",	"descr":"Double Prime"},
+	{"d":8244,	"c":"‴",											"b":"General Punctuation",	"descr":"Triple Prime"},
+	{"d":8245,	"c":"‵",											"b":"General Punctuation",	"descr":"Reversed Prime"},
+	{"d":8246,	"c":"‶",											"b":"General Punctuation",	"descr":"Reversed Double Prime"},
+	{"d":8247,	"c":"‷",											"b":"General Punctuation",	"descr":"Reversed Triple Prime"},
+	{"d":8248,	"c":"‸",											"b":"General Punctuation",	"descr":"Caret"},
+	{"d":8249,	"c":"‹",	"he":"&lsaquo;",						"b":"General Punctuation",	"descr":"Single Left-Pointing Angle Quotation Mark"},
+	{"d":8250,	"c":"›",	"he":"&rsaquo;",						"b":"General Punctuation",	"descr":"Single Right-Pointing Angle Quotation Mark"},
+	{"d":8251,	"c":"※",											"b":"General Punctuation",	"descr":"Reference Mark"},
+	{"d":8252,	"c":"‼",											"b":"General Punctuation",	"descr":"Double Exclamation Mark"},
+	{"d":8253,	"c":"‽",											"b":"General Punctuation",	"descr":"Interrobang"},
+	{"d":8254,	"c":"‾",	"he":"&oline;",							"b":"General Punctuation",	"descr":"Overline"},
+	{"d":8255,	"c":"‿",											"b":"General Punctuation",	"descr":"Undertie"},
+	{"d":8256,	"c":"⁀",											"b":"General Punctuation",	"descr":"Character Tie"},
+	{"d":8257,	"c":"⁁",											"b":"General Punctuation",	"descr":"Caret Insertion Point"},
+	{"d":8258,	"c":"⁂",											"b":"General Punctuation",	"descr":"Asterism"},
+	{"d":8259,	"c":"⁃",											"b":"General Punctuation",	"descr":"Hyphen Bullet"},
+	{"d":8260,	"c":"⁄",	"he":"&frasl;",							"b":"General Punctuation",	"descr":"Fraction Slash"},
+	{"d":8261,	"c":"⁅",											"b":"General Punctuation",	"descr":"Left Square Bracket with Quill"},
+	{"d":8262,	"c":"⁆",											"b":"General Punctuation",	"descr":"Right Square Bracket with Quill"},
+	{"d":8263,	"c":"⁇",											"b":"General Punctuation",	"descr":"Double Question Mark"},
+	{"d":8264,	"c":"⁈",											"b":"General Punctuation",	"descr":"Question Exclamation Mark"},
+	{"d":8265,	"c":"⁉",											"b":"General Punctuation",	"descr":"Exclamation Question Mark"},
+	{"d":8266,	"c":"⁊",											"b":"General Punctuation",	"descr":"Tironian Sign Et"},
+	{"d":8267,	"c":"⁋",											"b":"General Punctuation",	"descr":"Reversed Pilcrow Sign"},
+	{"d":8268,	"c":"⁌",											"b":"General Punctuation",	"descr":"Black Leftwards Bullet"},
+	{"d":8269,	"c":"⁍",											"b":"General Punctuation",	"descr":"Black Rightwards Bullet"},
+	{"d":8270,	"c":"⁎",											"b":"General Punctuation",	"descr":"Low Asterisk"},
+	{"d":8271,	"c":"⁏",											"b":"General Punctuation",	"descr":"Reversed Semicolon"},
+	{"d":8272,	"c":"⁐",											"b":"General Punctuation",	"descr":"Close Up"},
+	{"d":8273,	"c":"⁑",											"b":"General Punctuation",	"descr":"Two Asterisks Aligned Vertically"},
+	{"d":8274,	"c":"⁒",											"b":"General Punctuation",	"descr":"Commercial Minus Sign"},
+	{"d":8275,	"c":"⁓",											"b":"General Punctuation",	"descr":"Swung Dash"},
+	{"d":8276,	"c":"⁔",											"b":"General Punctuation",	"descr":"Inverted Undertie"},
+	{"d":8277,	"c":"⁕",											"b":"General Punctuation",	"descr":"Flower Punctuation Mark"},
+	{"d":8278,	"c":"⁖",											"b":"General Punctuation",	"descr":"Three Dot Punctuation"},
+	{"d":8279,	"c":"⁗",											"b":"General Punctuation",	"descr":"Quadruple Prime"},
+	{"d":8280,	"c":"⁘",											"b":"General Punctuation",	"descr":"Four Dot Punctuation"},
+	{"d":8281,	"c":"⁙",											"b":"General Punctuation",	"descr":"Five Dot Punctuation"},
+	{"d":8282,	"c":"⁚",											"b":"General Punctuation",	"descr":"Two Dot Punctuation"},
+	{"d":8283,	"c":"⁛",											"b":"General Punctuation",	"descr":"Four Dot Mark"},
+	{"d":8284,	"c":"⁜",											"b":"General Punctuation",	"descr":"Dotted Cross"},
+	{"d":8285,	"c":"⁝",											"b":"General Punctuation",	"descr":"Tricolon"},
+	{"d":8286,	"c":"⁞",											"b":"General Punctuation",	"descr":"Vertical Four Dots"},
+	{"d":8287,	"c":" ",											"b":"General Punctuation",	"descr":"Medium Mathematical Space"}
+]

@@ -27,6 +27,7 @@
   {"short":"CAGR", "long":"Compound Annual Growth Rate"},
   {"short":"CAPEX", "long":"Capital Expenditure"},
   {"short":"COB", "long":"Close Of Business", "descr":"the end of business today"},
+  {"short":"3PP", "long":"3<sup>rd</sup> Party Products"},
   {"short":"COTS", "long":"Commercial Off-The-Shelf"},
   {"short":"CRM", "long":"Customer Relationship Management"},
   {"short":"EDM", "long":"Enterprise Document Management"},

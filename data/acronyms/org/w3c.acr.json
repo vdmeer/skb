@@ -37,6 +37,8 @@
   {"short":"XSD", "long":"XML Schema Definition"},
   {"short":"XSLT", "long":"eXtensible Stylesheet Language Transformation"},
   {"short":"XHTML", "long":"eXtended HyperText Markup Language"},
+  {"short":"WS", "long":"WebSocket"},
+  {"short":"WWW", "long":"World Wide Web"},
 
   {"short":"#dummy", "long":"#dummy"}
 ]

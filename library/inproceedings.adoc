@@ -1,15 +1,21 @@
 == In Proceedings (Papers)
 
 === 1970
+include::inproceedings/1970/metcalf-acm-1972.adoc[]
 include::inproceedings/1970/levin-sosp-1975.adoc[]
+include::inproceedings/1970/watson-ddmcn-1979.adoc[]
 
 === 1980
+include::inproceedings/1980/watson-tas-1980.adoc[]
+include::inproceedings/1980/saltzer-lcn-1982.adoc[]
 include::inproceedings/1980/robinson-ftdcs-1988.adoc[]
 include::inproceedings/1980/twidle-ftdcs-1988.adoc[]
 include::inproceedings/1980/dobson-ssp-1989.adoc[]
+include::inproceedings/1980/watson-lcn-1989.adoc[]
 
 === 1990
 include::inproceedings/1990/sloman-ftdcs-1990.adoc[]
+include::inproceedings/1990/miller-elp-1993.adoc[]
 
 === 2000
 include::inproceedings/2000/damianou-ic-2002.adoc[]

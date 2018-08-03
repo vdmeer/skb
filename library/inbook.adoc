@@ -1,0 +1,4 @@
+== In Book
+
+=== 1970
+include::inbook/1970/saltzer-lncs-1978.adoc[]

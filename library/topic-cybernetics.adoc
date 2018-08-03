@@ -1,5 +1,8 @@
 == Cybernetics
-
+include::book/1950/neurath-how_machines_work-1954.adoc[]
 include::book/1950/ashby-w-ross-intro_cybernetics-1956.adoc[]
 include::book/1960/wiener-norbert-cybernetics-1965.adoc[]
+include::report/1970/maturana-biology-of-cognition-1970.adoc[]
+include::book/1980/maturana_tree_of_knowledge-1987.adoc[]
+include::online/2010/dubberly-cybernetics-2015.adoc[]
 

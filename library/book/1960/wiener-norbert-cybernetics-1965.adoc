@@ -1,7 +1,7 @@
-*Norbert Wiener, Cybernetic OR Control and Communication in the Animal and the Machine, 1965*
+*Norbert Wiener*: _Cybernetic OR Control and Communication in the Animal and the Machine_, 1965
 
 * Reasons to read: the standard work on cybernetics (with definition) and control
-* Publisher: 
+* Publisher: MIT Press, Cambridge, Massachusetts
 * Links:
     link:https://en.wikipedia.org/wiki/Cybernetics:_Or_Control_and_Communication_in_the_Animal_and_the_Machine[Wikipedia] |
     link:https://www.goodreads.com/book/show/294941.Cybernetics?ac=1&from_search=true[Goodreads] |

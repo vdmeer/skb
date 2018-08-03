@@ -1,4 +1,4 @@
-= Introduction to Network Architecture - Reading List
+= Introduction to Network Architecture
 
 Provide a list of papers, articles, books and the like important to understand network architecture:
 
@@ -13,18 +13,72 @@ Provide a list of papers, articles, books and the like important to understand n
 
 
 == Cybernetics
+include::book/1950/neurath-how_machines_work-1954.adoc[]
 include::book/1950/ashby-w-ross-intro_cybernetics-1956.adoc[]
 include::book/1960/wiener-norbert-cybernetics-1965.adoc[]
+include::report/1970/maturana-biology-of-cognition-1970.adoc[]
+include::book/1980/maturana_tree_of_knowledge-1987.adoc[]
+include::online/2010/dubberly-cybernetics-2015.adoc[]
 
 
 == Patterns
+include::book/1970/alexander-pattern_language-1977.adoc[]
+include::book/1970/alexander-timeless-1979.adoc[]
 include::book/2000/day-john-pna-2007.adoc[]
+include::book/2010/smith-elemental_design_patterns-2012.adoc[]
 
 
 == Philosophy and Science
-include::book/1920/wittgenstein-ludwig-tractatus-1922.adoc[]
+include::book/1600/newton-regulae_philosophandi-1687.adoc[]
+include::book/1700/leibniz-monadology-1714.adoc[]
 include::article/1800/frege-sense-and-meaning-1892.adoc[]
+include::book/1800/frege-basic_laws_of_arithmetic-1893.adoc[]
+include::book/1910/russel-mathematical_philosophy-1919.adoc[]
+include::book/1920/wittgenstein-ludwig-tractatus-1922.adoc[]
+include::book/1930/fleck-gensis-1935.adoc[]
+include::book/1950/needham-science_and_civilisation_in_china-1954.adoc[]
 include::book/1950/popper-scientific-discovery-1959.adoc[]
+include::book/1960/kuhn-scientific_revolutions-1962.adoc[]
+include::book/1970/macarthur-geographical_ecology-1972.adoc[]
+include::book/1970/lakatos-proofs_and_refutations-1976.adoc[]
+include::book/1970/florman-engineering-1976.adoc[]
+include::book/1990/edelman-bright_air_brilliant_fire-1992.adoc[]
+include::book/1990/kaufmann-origins_of_order-1993.adoc[]
+include::inproceedings/1990/miller-elp-1993.adoc[]
+include::book/1990/kaufmann-home_in_the_universe-1996.adoc[]
+include::book/1990/sacks-the_man_who_mistook_his_wife_for_a_hat-1998.adoc[]
+include::book/2000/sacks-seeing_voices-2000.adoc[]
+include::book/2000/smolin-trouble_with_physics-2006.adoc[]
+include::book/2000/gould-richness_of_life-2006.adoc[]
+include::book/2010/deutsch-infinity-2011.adoc[]
+
+
+== Architecture Principles (invariants)
+
+=== Layers (1968)
+include::article/1960/dijkstra-cacm-1968.adoc[]
+include::article/1970/dijkstra-ai-1971.adoc[]
+
+=== Separating Mechanism and Policy (1970)
+include::article/1970/hansen-cacm-1970.adoc[]
+include::inproceedings/1970/levin-sosp-1975.adoc[]
+
+=== Networking is IPC (1972)
+include::inproceedings/1970/metcalf-acm-1972.adoc[]
+
+=== Theory of Reliable Transport (1976)
+include::article/1970/watson-networks-1976.adoc[]
+include::inproceedings/1970/watson-ddmcn-1979.adoc[]
+include::inproceedings/1980/watson-tas-1980.adoc[]
+include::article/1980/watson-networks-1981.adoc[]
+include::report/1980/watson-delta_t-1981.adoc[]
+include::inproceedings/1980/watson-lcn-1989.adoc[]
+
+=== Naming and Addressing (1978)
+include::inproceedings/1970/shoch-compcon-1978.adoc[]
+include::inbook/1970/saltzer-lncs-1978.adoc[]
+include::inproceedings/1980/saltzer-lcn-1982.adoc[]
+
 
 
 == History

@@ -1,7 +1,11 @@
 == Report
 
 === 1970
+include::report/1970/maturana-biology-of-cognition-1970.adoc[]
 include::report/1970/bell-mitre-1973.adoc[]
+
+===1980
+include::report/1980/watson-delta_t-1981.adoc[]
 
 === 2000
 include::report/2000/bennett-itif-2009.adoc[]

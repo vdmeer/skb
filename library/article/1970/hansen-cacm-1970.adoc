@@ -1,4 +1,4 @@
-*R. Levin,  E. Cohen, W. Corwin, F. Pollack, W. Wulf*: _The nucleus of a multiprogramming system_, 1970
+*P. Brinch Hansen*: _The nucleus of a multiprogramming system_, 1970
 
 * Reasons to read: first principle of separation of strategy from process
 * Published: Communications of the ACM CACM, Volume 13 Issue 4, April 1970, Pages 238-241
@@ -9,4 +9,5 @@ ifdef::local[]
 * Local links:
     link:/library/article/1970/hansen-cacm-1970.pdf[PDF]
 endif::[]
+
 

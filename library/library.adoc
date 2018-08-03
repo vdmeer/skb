@@ -4,6 +4,8 @@ include::article.adoc[]
 
 include::book.adoc[]
 
+include::inbook.adoc[]
+
 include::inproceedings.adoc[]
 
 include::misc.adoc[]

@@ -1,11 +1,15 @@
-*Edwin A. Abbott, Flatland, 1884*
+*Edwin A. Abbott*: _Flatland: A Romance of Many Dimensions_, 1884
 
+* Reasons to read: the world limited by dimensions, also a social critic
 * Publisher: Seeley & Co. of London
 * Links:
     link:https://en.wikipedia.org/wiki/Flatland[Wikipedia] |
+    link:https://www.goodreads.com/book/show/433567.Flatland[Goodreads] |
     link:https://github.com/Ivesvdf/flatland[LaTeX by Ivesvdf] |
     link:https://archive.org/details/flatlandromanceo00abbouoft[Internet Archive] |
-    link:http://www.gutenberg.org/ebooks/201[Gutenberg]
+    link:http://www.gutenberg.org/ebooks/201[Gutenberg] |
+    link:http://www.flatlandthemovie.com/[a movie] |
+    link:https://www.youtube.com/watch?v=Mfglluny8Z0[The Film: youtube]
 ifdef::local[]
 * Local links:
     link:/library/book/1800/abbott-edwin-a-flatland-1884.pdf[PDF]

@@ -4,7 +4,7 @@
 * Berlin, September 25, 2002
 ifdef::local[]
 * Local links:
-    link:/library/vdm/thesis/vandermeer-sven-2002.pdf[PDF] |
-    link:/library/vdm/thesis/vandermeer-sven-2002.7z[Source: 7z]
+    link:/library/phdthesis/vandermeer-sven-2002.pdf[PDF] |
+    link:/library/phdthesis/vandermeer-sven-2002.7z[Source: 7z]
 endif::[]
 

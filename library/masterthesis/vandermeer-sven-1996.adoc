@@ -4,7 +4,7 @@
 * Berlin, October 6, 1996
 ifdef::local[]
 * Local links:
-    link:/library/vdm/thesis/vandermeer-sven-1996.pdf[PDF] |
-    link:/library/vdm/thesis/vandermeer-sven-1996.7z[Source: 7z]
+    link:/library/masterthesis/vandermeer-sven-1996.pdf[PDF] |
+    link:/library/masterthesis/vandermeer-sven-1996.7z[Source: 7z]
 endif::[]
 

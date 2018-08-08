@@ -1,0 +1,11 @@
+*Louis Pouzin*: _A proposal for Interconnecting of Packet Switching Networks_, 1974
+
+* Reasons to read: next description of a CATENET, including gateway, as packet-switched network
+* Published: March 1973, INWG #60, also as SCH 527
+* Also published in: EuroCOMP 1974, The Auerbach Annual 1975
+* Links
+    link:https://core.ac.uk/download/pdf/52942274.pdf#page=89[PDF: IIASA 1975 Discussion]
+ifdef::local[]
+* Local links:
+    link:/library/report/1970/inwg60-1974.pdf[PDF]
+endif::[]

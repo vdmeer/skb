@@ -1,4 +1,10 @@
 == In Book
 
+=== 1700
+include::inbook/1700/goethe-zauberlehrling-1797.adoc[]
+
+=== 1800
+include::inbook/1800/irving-rib_van_winkle-1819.adoc[]
+
 === 1970
 include::inbook/1970/saltzer-lncs-1978.adoc[]

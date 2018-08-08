@@ -5,7 +5,6 @@
     link:https://datatracker.ietf.org/doc/draft-ietf-supa-generic-policy-info-model/[IETF]
 ifdef::local[]
 * Local links:
-    link:/library/standard/strassner-supa-2017.bib[BibTeX] |
     link:/library/standard/ietf/strassner-supa-2017.pdf[PDF]
 endif::[]
 

@@ -3,6 +3,7 @@
 === 1970
 include::inproceedings/1970/metcalf-acm-1972.adoc[]
 include::inproceedings/1970/levin-sosp-1975.adoc[]
+include::inproceedings/1970/pouzin-afips-1976.adoc[]
 include::inproceedings/1970/watson-ddmcn-1979.adoc[]
 
 === 1980

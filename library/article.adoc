@@ -9,6 +9,7 @@ include::article/1960/dijkstra-cacm-1968.adoc[]
 === 1970
 include::article/1970/hansen-cacm-1970.adoc[]
 include::article/1970/dijkstra-ai-1971.adoc[]
+include::article/1970/davies-tcom-1972.adoc[]
 include::article/1970/watson-networks-1976.adoc[]
 include::article/1970/rouse-tsmc-1979.adoc[]
 
@@ -16,6 +17,8 @@ include::article/1970/rouse-tsmc-1979.adoc[]
 include::article/1980/jomier-tase-1981.adoc[]
 include::article/1980/kamoun-tacom-1981.adoc[]
 include::article/1980/watson-networks-1981.adoc[]
+include::article/1980/bachman-compstd-1982.adoc[]
+include::article/1980/bachman-networks-1982.adoc[]
 include::article/1980/dayal-sigmod-1988.adoc[]
 
 === 1990

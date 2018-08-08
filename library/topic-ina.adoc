@@ -35,10 +35,8 @@ include::article/1800/frege-sense-and-meaning-1892.adoc[]
 include::book/1800/frege-basic_laws_of_arithmetic-1893.adoc[]
 include::book/1910/russel-mathematical_philosophy-1919.adoc[]
 include::book/1920/wittgenstein-ludwig-tractatus-1922.adoc[]
-include::book/1930/fleck-gensis-1935.adoc[]
 include::book/1950/needham-science_and_civilisation_in_china-1954.adoc[]
 include::book/1950/popper-scientific-discovery-1959.adoc[]
-include::book/1960/kuhn-scientific_revolutions-1962.adoc[]
 include::book/1970/macarthur-geographical_ecology-1972.adoc[]
 include::book/1970/lakatos-proofs_and_refutations-1976.adoc[]
 include::book/1970/florman-engineering-1976.adoc[]
@@ -55,9 +53,15 @@ include::book/2010/deutsch-infinity-2011.adoc[]
 
 == Architecture Principles (invariants)
 
+=== Baseline
+include::book/1930/fleck-gensis-1935.adoc[]
+include::book/1960/kuhn-scientific_revolutions-1962.adoc[]
+
 === Layers (1968)
 include::article/1960/dijkstra-cacm-1968.adoc[]
 include::article/1970/dijkstra-ai-1971.adoc[]
+include::article/1980/bachman-compstd-1982.adoc[]
+include::article/1980/bachman-networks-1982.adoc[]
 
 === Separating Mechanism and Policy (1970)
 include::article/1970/hansen-cacm-1970.adoc[]
@@ -82,6 +86,14 @@ include::inproceedings/1980/saltzer-lcn-1982.adoc[]
 
 
 == History
+
+It is usually not easy to understand scientific breakthroughs without their historic context.
+This context is also important to understand not only when, but also how (and often why) ideas developed in a certain way.
+
+=== General ICT History
+include::online/2000/pelkey-entrepreneurial_capitalism-2007.adoc[]
+
+=== Communication Networks, Internet
 include::misc/mckenzie-archive.adoc[]
 include::report/2000/bennett-itif-2009.adoc[]
 include::article/2010/mckenzie-ieee-2011.adoc[]
@@ -90,4 +102,73 @@ include::book/2010/russell-sdos-2014.adoc[]
 include::article/2010/russell-tc-2014.adoc[]
 include::article/2010/day-ieee-2016.adoc[]
 
+=== Packet-switched Networks and CATENET
+CATENET - concatenated networks, probably from Latin _catena_ (chain) - the first description of a packet-switched network architecture with an actual deployed network (CYCLADES).
+Documents are listed in historic order.
+* links:
+    CATENET transition link:http://iuwg.net[Free/Libre Catenet] | 
+    also see link:http://catenet.org/index.php/IEN_48_-_THE_CATENET_MODEL_FOR_INTERNETWORKING[catenet.org]
 
+include::report/1960/baran-distr_comm_nework-1964.adoc[]
+include::article/1970/davies-tcom-1972.adoc[]
+include::report/1970/inwg42-1973.adoc[]
+include::report/1970/inwg60-1974.adoc[]
+include::standard/ietf/cerf-ien48-1978.adoc[]
+
+=== Virtual Circuit (VC) and Datagram (DG)
+Technological and political dimensions of circuit switching and introduction to datagrams
+
+include::inproceedings/1970/pouzin-afips-1976.adoc[]
+
+
+
+== Literature
+include::inbook/1700/goethe-zauberlehrling-1797.adoc[]
+include::inbook/1800/irving-rib_van_winkle-1819.adoc[]
+include::book/1800/abbott-edwin-a-flatland-1884.adoc[]
+include::book/1950/dr-seuss-sneetches-1953.adoc[]
+
+
+Movies (Films)
+include::movie/1990/rosencrantz-and-guildenstern-are-dead-1991.adoc[]
+include::movie/1970/animal-house-1978.adoc[]
+include::movie/1970/monty-python-and-the-holy-grail-1975.adoc[]
+
+
+
+== Quotes
+*We have Met the Enemy and He is Us!*, Walt Kelly, _Pogo_, 1970
+
+* Links
+    link:https://en.wikipedia.org/wiki/Pogo_(comic_strip)[Wikipedia],
+
+
+*The electric light did not come from the continuous improvement of candles*, Oren_Harari
+
+* Links:
+    link:https://en.wikipedia.org/wiki/Oren_Harari[attributed to Oren Harari],
+    link:https://twitter.com/sallyeaves/status/807711312872673280[twitter]
+
+
+*You can fix it now on the drafting board with an eraser, or you can fix it later with a sledgehammer*, probably Frank Lloyd Wright
+
+* Links:
+    link:https://twitter.com/sykesjs/status/1017425446399561729[Twitter],
+    link:https://quoteinvestigator.com/2016/01/30/eraser/[quote-investigator]
+
+
+*It is the theory that determines the data*, Albert Einstein
+
+* Without theory, you don’t know what questions to ask, and you don’t know what data is relevant or how to measure it.
+
+
+*A Problem well-stated is a Problem half-solved*, Charles Kettering
+
+* Links:
+    link:https://www.quotes.net/quote/40299[Quotes.net]
+
+
+*Something is rotten in Denmark*, William Shakespeare (Hamlett)
+
+* Links
+    link:http://www.shakespeare-online.com/quickquotes/quickquotehamletdenmark.html[shakespeare-online]

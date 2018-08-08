@@ -20,6 +20,7 @@ include::book/1920/wittgenstein-ludwig-tractatus-1922.adoc[]
 include::book/1930/fleck-gensis-1935.adoc[]
 
 === 1950
+include::book/1950/dr-seuss-sneetches-1953.adoc[]
 include::book/1950/neurath-how_machines_work-1954.adoc[]
 include::book/1950/needham-science_and_civilisation_in_china-1954.adoc[]
 include::book/1950/ashby-w-ross-intro_cybernetics-1956.adoc[]

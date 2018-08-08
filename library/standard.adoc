@@ -1,4 +1,5 @@
 == Standard
 
 === IETF
+include::standard/ietf/cerf-ien48-1978.adoc[]
 include::standard/ietf/strassner-supa-2017.adoc[]

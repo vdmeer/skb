@@ -1,0 +1,7 @@
+*Charles W. Bachman, Ronald G. Ross*: _Toward a more Complete Reference Model of Computer-based Information Systems_, 1982
+
+* Reasons to read: original contribtution of what became then the OSI Reference Model / 7 Layer Model
+* Published: Computer Networks, Volume 6, Issue 5, November 1982, Pages 331-343
+* Links
+    link:https://doi.org/10.1016/0376-5075(82)90103-9[DOI]
+

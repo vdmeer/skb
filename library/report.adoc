@@ -1,8 +1,13 @@
 == Report
 
+=== 1960
+include::report/1960/baran-distr_comm_nework-1964.adoc[]
+
 === 1970
 include::report/1970/maturana-biology-of-cognition-1970.adoc[]
 include::report/1970/bell-mitre-1973.adoc[]
+include::report/1970/inwg42-1973.adoc[]
+include::report/1970/inwg60-1974.adoc[]
 
 ===1980
 include::report/1980/watson-delta_t-1981.adoc[]

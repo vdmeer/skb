@@ -8,3 +8,11 @@ include::inbook/1800/irving-rib_van_winkle-1819.adoc[]
 
 === 1970
 include::inbook/1970/saltzer-lncs-1978.adoc[]
+
+=== 2000
+include::inbook/2000/vdmeer-aanc-2008.adoc[]
+include::inbook/2000/fahy-aanc-2008.adoc[]
+
+=== 2010
+include::inbook/2010/vdmeer-arcfire-2016.adoc[]
+

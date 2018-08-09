@@ -1,0 +1,7 @@
+*Sven van der Meer, Eduard Grasa*: _SDN Architectural Limitations: Towards a Full Software Network Vision_, 2016
+
+* Published: IEEE SoftwarizationMay 2016
+* Links
+    link:https://sdn.ieee.org/newsletter/may-2016/sdn-architectural-limitations-towards-a-full-software-network-vision[Article]
+ifdef::local[]
+

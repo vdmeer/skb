@@ -1,0 +1,12 @@
+*Sumit Dawar, Enda Fallon, Tom Bennet, Sven van der Meer, John Keeney*: _An Extensible Architecture for Mobile Network Management Event Distribution and Rule Processing - A Performance Evaluation_, 2013
+
+* Published:  2013 1st International Conference on Artificial Intelligence, Modelling and Simulation, AIMS 2013
+* Links
+    link:https://doi.org/10.1109/AIMS.2013.82[DOI] |
+    link:https://www.researchgate.net/publication/293096762_An_Extensible_Architecture_for_Mobile_Network_Management_Event_Distribution_and_Rule_Processing_-_A_Performance_Evaluation[ResearchGate]
+ifdef::local[]
+* Local links:
+    link:/library/inproceedings/2010/dawar-aims-2013.pdf[PDF] |
+    link:/library/inproceedings/2010/dawar-aims-2013.doc[DOC]
+endif::[]
+

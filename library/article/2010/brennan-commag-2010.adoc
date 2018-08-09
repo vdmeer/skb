@@ -2,7 +2,7 @@
 
 * Authors: Rob Brennan, Kevin Feeney, John Keeney, Declan O'Sullivan, Joel J. Fleck, Simon Foley, Sven van der Meer
 * Reasons to read: inter-domain relationships and policy translation
-* Published:  IEEE Communications Magazine (Volume: 48, Issue: 8, August 2010)
+* Published: IEEE Communications Magazine (Volume: 48, Issue: 8, August 2010)
 * Links
     link:https://doi.org/10.1109/MCOM.2010.5534595[DOI] |
     link:https://www.researchgate.net/publication/224163138_Multidomain_IT_architectures_for_next-generation_communications_service_providers_Next-Generation_Telco_IT_Architectures[ResearchGate] |
@@ -10,6 +10,6 @@
 ifdef::local[]
 * Local links:
     link:/library/article/2010/brennan-commag-2010.pdf[PDF] |
-    link:/library/article/2010/brennan-commag-2010.docx[DOCX] |
+    link:/library/article/2010/brennan-commag-2010.docx[DOCX]
 endif::[]
 

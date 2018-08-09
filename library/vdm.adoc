@@ -1,20 +1,53 @@
 == Sven van der Meer
 
+=== Thesis
 include::masterthesis/vandermeer-sven-1996.adoc[]
 include::phdthesis/vandermeer-sven-2002.adoc[]
 
+=== Book
+include::book/2000/calisti-aanc-2008.adoc[]
 
-== Articles
+=== in Book
+include::inbook/2000/vdmeer-aanc-2008.adoc[]
+include::inbook/2000/fahy-aanc-2008.adoc[]
+include::inbook/2010/vdmeer-arcfire-2016.adoc[]
 
+=== Articles
 include::article/2010/brennan-commag-2010.adoc[]
+include::article/2010/zaman-commag-2015.adoc[]
+include::article/2010/vdmeer-softwarization-2016.adoc[]
+include::article/2010/robitzsch-network-2017.adoc[]
 
 === In Proceedings
-
 include::inproceedings/2000/barrett-giis-2007.adoc[]
 include::inproceedings/2000/barrett-mace-2007.adoc[]
 
+include::inproceedings/2010/keeney-im-2013.adoc[]
+include::inproceedings/2010/dawar-itt-2013.adoc[]
+include::inproceedings/2010/dawar-aims-2013.adoc[]
+include::inproceedings/2010/dawar-monami-2013.adoc[]
+
+include::inproceedings/2010/keeney-cnsm-2014.adoc[]
+
+include::inproceedings/2010/vandermeer-cnsm-2015.adoc[]
+include::inproceedings/2010/robitzsch-im-2015.adoc[]
+include::inproceedings/2010/zaman-im-2015.adoc[]
+
+include::inproceedings/2010/fallon-noms-2016.adoc[]
+include::inproceedings/2010/bondkovskii-noms-2016.adoc[]
+include::inproceedings/2010/grasa-tnc-2016.adoc[]
+
+include::inproceedings/2010/fallon-im-2017-a.adoc[]
+include::inproceedings/2010/fallon-im-2017-b.adoc[]
+include::inproceedings/2010/grasa-nfvsdn-2017.adoc[]
+
+include::inproceedings/2010/grasa-wcnc-2018.adoc[]
+include::inproceedings/2010/mcnamara-noms-2018.adoc[]
+include::inproceedings/2010/vandermeer-noms-2018-a.adoc[]
+include::inproceedings/2010/vandermeer-noms-2018-b.adoc[]
+include::inproceedings/2010/vandermeer-noms-2018-c.adoc[]
+
 
 === Standards
-
 include::standard/ietf/strassner-supa-2017.adoc[]
 

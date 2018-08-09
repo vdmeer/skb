@@ -52,6 +52,7 @@ include::book/2000/strassner-pbm-2004.adoc[]
 include::book/2000/smolin-trouble_with_physics-2006.adoc[]
 include::book/2000/gould-richness_of_life-2006.adoc[]
 include::book/2000/day-john-pna-2007.adoc[]
+include::book/2000/calisti-aanc-2008.adoc[]
 
 === 2010
 include::book/2010/deutsch-infinity-2011.adoc[]

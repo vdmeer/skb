@@ -1,0 +1,13 @@
+*Liam Fallon, John Keeney, Sven van der Meer*: _Distributed Management Information Models_, 2017
+
+* Published: 2017 IFIP/IEEE Symposium on Integrated Network and Service Management (IM), IM 2017
+* Links
+    link:https://doi.org/10.23919/INM.2017.7987306[DOI] |
+    link:https://www.researchgate.net/publication/316629867_Distributed_Management_Information_Models[ResearchGate]
+ifdef::local[]
+* Local links:
+    link:/library/inproceedings/2010/fallon-im-2017-a.pdf[PDF] |
+    link:/library/inproceedings/2010/fallon-im-2017-a.7z[7z]
+endif::[]
+
+

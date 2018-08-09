@@ -1,0 +1,14 @@
+*Sven van der Meer, John Keeney, Liam Fallon*: _Dynamically Adaptive Policies for Dynamically Adaptive Telecommunications Networks_, 2015
+
+* Published: 2015 11th International Conference on Network and Service Management (CNSM)
+* Links
+    link:https://doi.org/10.1109/CNSM.2015.7367357[DOI] |
+    link:https://www.researchgate.net/publication/282576518_Dynamically_Adaptive_Policies_for_Dynamically_Adaptive_Telecommunications_Networks?_iepl%5BgeneralViewId%5D=0lOUDg8xDv00DrK21xLGNpX9Rl44oROOxCxi&_iepl%5Bcontexts%5D%5B0%5D=searchReact&_iepl%5BviewId%5D=HgkC5NZqzEZSHtCCpV0YMHNLrKhgMR3LyWL1&_iepl%5BsearchType%5D=publication&_iepl%5Bdata%5D%5BcountLessEqual20%5D=1&_iepl%5Bdata%5D%5BinteractedWithPosition1%5D=1&_iepl%5Bdata%5D%5BwithEnrichment%5D=1&_iepl%5Bposition%5D=1&_iepl%5BrgKey%5D=PB%3A282576518&_iepl%5BtargetEntityId%5D=PB%3A282576518&_iepl%5BinteractionType%5D=publicationTitle[ResearchGate]
+ifdef::local[]
+* Local links:
+    link:/library/inproceedings/2010/vandermeer-noms-2015.pdf[PDF] |
+    link:/library/inproceedings/2010/vandermeer-noms-2015.7z[7z] |
+    link:/library/inproceedings/2010/vandermeer-noms-2015-poster.pdf[PDF: poster] |
+    link:/library/inproceedings/2010/vandermeer-noms-2015-poster.ppt[PPT: poster]
+endif::[]
+

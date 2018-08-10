@@ -13,7 +13,6 @@ Provide a list of papers, articles, books and the like important to understand n
 
 
 == Cybernetics
-include::book/1950/neurath-how_machines_work-1954.adoc[]
 include::book/1950/ashby-w-ross-intro_cybernetics-1956.adoc[]
 include::book/1960/wiener-norbert-cybernetics-1965.adoc[]
 include::report/1970/maturana-biology-of-cognition-1970.adoc[]
@@ -127,6 +126,7 @@ include::inbook/1700/goethe-zauberlehrling-1797.adoc[]
 include::inbook/1800/irving-rib_van_winkle-1819.adoc[]
 include::book/1800/abbott-edwin-a-flatland-1884.adoc[]
 include::book/1950/dr-seuss-sneetches-1953.adoc[]
+include::book/1950/neurath-how_machines_work-1954.adoc[]
 
 
 Movies (Films)

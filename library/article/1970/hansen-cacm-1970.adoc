@@ -7,7 +7,8 @@
     link:http://ddhf.dk/site_dk/rc/pbh/MonitorPaper.pdf[PDF]
 ifdef::local[]
 * Local links:
-    link:/library/article/1970/hansen-cacm-1970.pdf[PDF]
+    link:/library/article/1970/hansen-cacm-1970.pdf[PDF] |
+    link:/library/article/1970/hansen-cacm-2-1970.pdf[PDF: new typeset]
 endif::[]
 
 

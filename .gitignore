@@ -1,3 +1,5 @@
-releases
-wip
-old-projects
+releases/
+wip/
+old-projects/
+src/
+site/

@@ -1,49 +1,51 @@
 == Master Thesis
 
-include::masterthesis/gadegast-frank-1995.adoc[]
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::masterthesis/gadegast-frank-1995.adoc[]
 
-include::masterthesis/vandermeer-sven-1996.adoc[]
-include::masterthesis/arbanowski-stefan-1996.adoc[]
+|include::masterthesis/vandermeer-sven-1996.adoc[]
+|include::masterthesis/arbanowski-stefan-1996.adoc[]
 
-include::masterthesis/dannert-andreas-1998.adoc[]
-include::masterthesis/franz-stefan-1998.adoc[]
-include::masterthesis/steglich-stephan-1998.adoc[]
-include::masterthesis/zell-markus-1998.adoc[]
+|include::masterthesis/dannert-andreas-1998.adoc[]
+|include::masterthesis/franz-stefan-1998.adoc[]
+|include::masterthesis/steglich-stephan-1998.adoc[]
+|include::masterthesis/zell-markus-1998.adoc[]
 
-include::masterthesis/huenerberg-jens-1999.adoc[]
+|include::masterthesis/huenerberg-jens-1999.adoc[]
 
-include::masterthesis/dini-manuela_ionelia-2000.adoc[]
-include::masterthesis/dutkowski-simon-2000.adoc[]
-include::masterthesis/karow-lars-2000.adoc[]
-include::masterthesis/mbedi-elie-2000.adoc[]
-include::masterthesis/sander-robert-2000.adoc[]
+|include::masterthesis/dini-manuela_ionelia-2000.adoc[]
+|include::masterthesis/dutkowski-simon-2000.adoc[]
+|include::masterthesis/karow-lars-2000.adoc[]
+|include::masterthesis/mbedi-elie-2000.adoc[]
+|include::masterthesis/sander-robert-2000.adoc[]
 
-include::masterthesis/bozinovic_mador-stipe-2001.adoc[]
-include::masterthesis/fritzsch-wolfram-2001.adoc[]
-include::masterthesis/machias-alexandros-2001.adoc[]
-include::masterthesis/mu-hong-2001.adoc[]
-include::masterthesis/schuster-mario-2001.adoc[]
-include::masterthesis/singh-multani-mandeep-2001.adoc[]
+|include::masterthesis/bozinovic_mador-stipe-2001.adoc[]
+|include::masterthesis/fritzsch-wolfram-2001.adoc[]
+|include::masterthesis/machias-alexandros-2001.adoc[]
+|include::masterthesis/mu-hong-2001.adoc[]
+|include::masterthesis/schuster-mario-2001.adoc[]
+|include::masterthesis/singh-multani-mandeep-2001.adoc[]
 
-include::masterthesis/cu-ie-2002.adoc[]
-include::masterthesis/fahner-michael-2002.adoc[]
-include::masterthesis/huenerberg-philipp-2002.adoc[]
-include::masterthesis/nsang-aaron-2002.adoc[]
-include::masterthesis/raza-syed-2002.adoc[]
-include::masterthesis/riedinger-jan-2002.adoc[]
-include::masterthesis/schoenfeld-jochen-2002.adoc[]
-include::masterthesis/sparkowsky-alexander-2002.adoc[]
-include::masterthesis/von_kattchee-joern-2002.adoc[]
-include::masterthesis/wepiwe-giscard-2002.adoc[]
-include::masterthesis/yin-ming-2002.adoc[]
+|include::masterthesis/cu-ie-2002.adoc[]
+|include::masterthesis/fahner-michael-2002.adoc[]
+|include::masterthesis/huenerberg-philipp-2002.adoc[]
+|include::masterthesis/nsang-aaron-2002.adoc[]
+|include::masterthesis/raza-syed-2002.adoc[]
+|include::masterthesis/riedinger-jan-2002.adoc[]
+|include::masterthesis/schoenfeld-jochen-2002.adoc[]
+|include::masterthesis/sparkowsky-alexander-2002.adoc[]
+|include::masterthesis/von_kattchee-joern-2002.adoc[]
+|include::masterthesis/wepiwe-giscard-2002.adoc[]
+|include::masterthesis/yin-ming-2002.adoc[]
 
-include::masterthesis/cawley-darach-2004.adoc[]
-include::masterthesis/oconnor-robert-2004.adoc[]
+|include::masterthesis/cawley-darach-2004.adoc[]
+|include::masterthesis/oconnor-robert-2004.adoc[]
 
-include::masterthesis/becker-ulla-2005.adoc[]
+|include::masterthesis/becker-ulla-2005.adoc[]
 
-include::masterthesis/feeney-martin-2006.adoc[]
-include::masterthesis/morris-teri-2006.adoc[]
-
+|include::masterthesis/feeney-martin-2006.adoc[]
+|include::masterthesis/morris-teri-2006.adoc[]
+|===
 
 

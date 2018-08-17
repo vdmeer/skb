@@ -1,0 +1,14 @@
+*Tom Pfeifer, Declan O'Sullivan, Sajal Das* (eds): _Managing Ubiquitous Communications and Services_, 2009
+
+* Editors: Tom Pfeifer, Declan O'Sullivan, Sajal Das
+* Workshop: 6th IEEE International Workshop on Managing Ubiquitous Communications and Services (MUCS), Barcelona, Spain, 15 June, 2009
+* Host: 6th International Conference on Autonomic Computing, ICAC 2009, June 15-19, 2009, Barcelona, Spain
+* Published: multicon lecture notes 10
+* Publisher: multicon verlag
+* ISBN: ISBN-13: 978-3-930736-13-3
+* Links:
+    link:https://dl.acm.org/citation.cfm?id=1555321[ACM-DL] ┃
+    link:https://ernster.com/detail/ISBN-9783930736133//Managing-Ubiquitous-Communications-and-Services-2009?CSPCHD=00000100000011f7El1v7C0000K$sX4oCbt1hGKVr6wR4gvQ--&bpmctrl=bpmrownr.3%3A3%7Cforeign.63574-57-3-79643%3A80325%3A76780[Ernster] ┃
+    link:http://vandermeer.de/library/proceedings/mucs/web/2009/index.php[Web: orig]
+
+

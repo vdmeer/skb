@@ -2,8 +2,8 @@
 
 * Reasons to read: early work on policy in network management
 * Published: 1988 Proceedings. Workshop on the Future Trends of Distributed Computing Systems in the 1990s
-* Links
-    link:https://doi.org/10.1007/BF02283186[DOI] |
+* Links:
+    link:https://doi.org/10.1007/BF02283186[DOI] ┃
     link:https://www.computer.org/csdl/proceedings/ftdcs/1988/0897/00/00026693.pdf[PDF]
 ifdef::local[]
 * Local links:

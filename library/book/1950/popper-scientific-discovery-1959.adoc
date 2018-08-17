@@ -3,9 +3,9 @@
 * Publisher: Hutchinson & Co
 * Reasons to read: "The first step is to state a hypothesis. To state a hypothesis, one must start with a theory to be invalidated", shows: you can never prove a theory correct; you can only invalidate it
 * Links:
-    link:https://en.wikipedia.org/wiki/The_Logic_of_Scientific_Discovery[Wikipedia] |
-    link:https://www.goodreads.com/book/show/61550.The_Logic_of_Scientific_Discovery?from_search=true[Goodreads] |
-    link:https://archive.org/details/PopperLogicScientificDiscovery[Online: English] |
+    link:https://en.wikipedia.org/wiki/The_Logic_of_Scientific_Discovery[Wikipedia] ┃
+    link:https://www.goodreads.com/book/show/61550.The_Logic_of_Scientific_Discovery?from_search=true[Goodreads] ┃
+    link:https://archive.org/details/PopperLogicScientificDiscovery[Online: English] ┃
     link:http://strangebeautiful.com/other-texts/popper-logic-scientific-discovery.pdf[PDF: English]
 ifdef::local[]
 * Local links:

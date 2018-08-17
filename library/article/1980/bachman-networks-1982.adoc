@@ -2,6 +2,6 @@
 
 * Reasons to read: original contribtution of what became then the OSI Reference Model / 7 Layer Model
 * Published: Computer Networks, Volume 6, Issue 5, November 1982, Pages 331-343
-* Links
+* Links:
     link:https://doi.org/10.1016/0376-5075(82)90103-9[DOI]
 

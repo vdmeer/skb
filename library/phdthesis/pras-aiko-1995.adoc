@@ -1,6 +1,6 @@
-*Aiko Pras, Network Management Architectures, 1995*
+*Aiko Pras*: _Network Management Architectures_, 1995
 
-* Institute: University of Twente, Enschede
+* Ph.D. Thesis, University of Twente, Enschede, The Netherlands
 ifdef::local[]
 * Local links:
     link:/library/phdthesis/pras-aiko-1995.pdf[PDF]

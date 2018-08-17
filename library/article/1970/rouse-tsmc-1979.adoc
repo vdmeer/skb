@@ -2,7 +2,7 @@
 
 * Reasons to read: policy to control sharing resources, rules for the _control_ of how to share resources (and rule analysis)
 * Published: IEEE Transactions on Systems, Man, and Cybernetics (Volume: 9, Issue: 9, Sept. 1979)
-* Links
+* Links:
     link:https://doi.org/10.1109/TSMC.1979.4310274[DOI]
 ifdef::local[]
 * Local links:

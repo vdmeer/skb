@@ -1,0 +1,11 @@
+*Mike White, Brendan Jennings, Sven van der Meer~*: _User-Centric Adaptive Access Control and Resource Configuration for Ubiquitous Computing Environments_, 2005
+
+* Published: 7th International Conference on Enterprise Information Systems (ICEIS)
+* Links:
+    link:https://www.researchgate.net/publication/220709167_User-Centric_Adaptive_Access_Control_and_Resource_Configuration_for_Ubiquitous_Computing_Environments?_sg=hVo8zZvpObcrNBoVHkpGiZ9S94bQeueNOx70LGAhh1ijGM4cDWTuvbopSd4sHaYDEGxa5LbgtrukS5-jKNMGmZctc5nq45M2-bYXk3Qq.ssArx7acVdgoyAlPjWuD06h5CC_E7If3NfysCA4FT7bNgyUPNv82vzC1Wu9HYWxdQciLLFcoz-GoALFw4m8-Ng[ResearchGate]
+ifdef::local[]
+* Local links:
+    link:/library/inproceedings/2000/white-iceis-2005.pdf[PDF] ┃ 
+    link:/library/inproceedings/2000/white-iceis-2005.doc[DOC]
+endif::[]
+

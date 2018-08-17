@@ -3,7 +3,7 @@
 * Reasons to read: ###tbd###
 * Publisher: Shambhala, Boston & London
 * Links:
-    link:https://www.goodreads.com/book/show/695440.Tree_of_Knowledge?ac=1&from_search=true[Goodreads] |
+    link:https://www.goodreads.com/book/show/695440.Tree_of_Knowledge?ac=1&from_search=true[Goodreads] ┃
     link:http://www.cybertech-engineering.ch/research/references/Maturana1988/maturana-h-1987-tree-of-knowledge-bkmrk.pdf[pdf]
 ifdef::local[]
 * Local links:

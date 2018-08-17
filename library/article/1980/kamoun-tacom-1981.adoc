@@ -2,7 +2,7 @@
 
 * Reasons to read: rules to detect and later prevent network congestion
 * Published: IEEE Transactions on Communications (Volume: 29, Issue: 4, Apr 1981) 
-* Links
+* Links:
     link:https://doi.org/10.1109/TCOM.1981.1095012[DOI]
 ifdef::local[]
 * Local links:

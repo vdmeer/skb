@@ -2,14 +2,14 @@
 
 * Authors: Claire Fahy, Miguel Ponce de Leon, Sven van der Meer, Ricardo Marin, J. Vivero, Joan Serrat, Nektarios Georgalas, Philipp Leitner, Sandra Collins, B. Baesjou
 * Reasons to read: introduction to large-scale experimentation with RINA, the H2020 project ARCFIRE
-* Published: pp 43-62 In: Monique Calisti, Sven van der Meer, John Strassner (eds) _Advanced Autonomic Networking and Communication_, Whitestein Series in Software Agent Technologies and Autonomic Computing book series (WSSAT), 
+* Published: pp 43-62 In: Monique Calisti, Sven van der Meer, John Strassner (eds) _Advanced Autonomic Networking and Communication_, Whitestein Series in Software Agent Technologies and Autonomic Computing book series (WSSAT)
 * Publisher: Birkhäuser, Basel
-* Links
-    link:https://doi.org/10.1007/978-3-7643-8569-9_3[DOI]
+* Links:
+    link:https://doi.org/10.1007/978-3-7643-8569-9_3[DOI] ┃
     link:https://www.researchgate.net/publication/225946643_Modelling_Behaviour_and_Distribution_for_the_Management_of_Next_Generation_Networks[ResearchGate]
 ifdef::local[]
 * Local links:
-    link:/library/inbook/2000/fahy-aanc-2008.pdf[PDF] |
+    link:/library/inbook/2000/fahy-aanc-2008.pdf[PDF] ┃
     link:/library/inbook/2000/fahy-aanc-2008.7z[7z]
 endif::[]
 

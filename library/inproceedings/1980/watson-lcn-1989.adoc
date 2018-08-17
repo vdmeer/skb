@@ -2,9 +2,9 @@
 
 * Reasons to read: Delte-T experience report
 * Published: 1989 Proceedings. 14th Conference on Local Computer Networks (LCN)
-* Links
-    link:https://doi.org/10.1109/LCN.1989.65288[DOI] |
-    link:https://www.osti.gov/biblio/5634768[OSTI] |
+* Links:
+    link:https://doi.org/10.1109/LCN.1989.65288[DOI] ┃
+    link:https://www.osti.gov/biblio/5634768[OSTI] ┃
     link:https://www.computer.org/csdl/proceedings/lcn/1989/1968/00/00065288.pdf[PDF]
 ifdef::local[]
 * Local links:

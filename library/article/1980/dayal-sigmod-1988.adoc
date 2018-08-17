@@ -11,8 +11,8 @@
   ** Event types: database operation, temporal, external notification
   ** Funded by DARPA
 * Published: ACM SIGMOD Record - Special Issue on Real-Time Database Systems, Volume 17 Issue 1, March, 1988, Pages 51 - 70 
-* Links
-    link:https://doi.org/10.1145/44203.44208[DOI] | 
+* Links:
+    link:https://doi.org/10.1145/44203.44208[DOI] ┃ 
     link:https://www.researchgate.net/publication/234790486_The_HiPAC_project_Combining_Active_Databases_and_Timing_Constraints[ResearchGate]
 ifdef::local[]
 * Local links:

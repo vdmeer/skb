@@ -2,8 +2,8 @@
 
 * Reasons to read: management in context of ODP and OSI, introduces domains
 * Published: 1990 Proceedings Second IEEE Workshop on Future Trends of Distributed Computing Systems
-* Links
-    link:https://doi.org/10.1109/FTDCS.1990.138376[DOI] |
+* Links:
+    link:https://doi.org/10.1109/FTDCS.1990.138376[DOI] ┃
     link:https://www.computer.org/csdl/proceedings/ftdcs/1990/2088/00/00138376.pdf[PDF]
 ifdef::local[]
 * Local links:

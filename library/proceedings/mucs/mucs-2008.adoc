@@ -1,0 +1,9 @@
+*Vincent P. Wade * (ed): _Managing Ubiquitous Communications and Services_, 2008
+
+* Editors: Vincent P. Wade 
+* Workshop: 5th International Workshop on Managing Ubiquitous Communications and Services (MUCS), Salvador Bahia, Brazil, 11 April, 2008
+* Host: IEEE NOMS 2008
+* Links:
+    link:http://vandermeer.de/library/proceedings/mucs/web/2007/index.php[Web: orig]
+
+

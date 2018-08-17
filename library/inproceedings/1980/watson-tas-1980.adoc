@@ -2,7 +2,7 @@
 
 * Reasons to read: only 3 timers are needed, in the protocol, no local clocks and no clock synchronization required
 * Published: Conference: Trends and applications symposium, Gaithersburg, MD, USA, 29 May 1980
-* Links
+* Links:
     link:https://www.osti.gov/biblio/5550912[OSTI]
 
 

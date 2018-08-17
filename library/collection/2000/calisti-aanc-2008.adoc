@@ -1,13 +1,13 @@
-*Monique Calisti, Sven van der Meer, John Strassner*: _Monique CalistiSven van der MeerJohn Strassner_, 2008
+*Monique Calisti, Sven van der Meer, John Strassner*: _Advanced Autonomic Networking and Communication_, 2008
 
 * Reasons to read: several views on autonomic networking based on European projects and workshops
 * Published: part of Whitestein Series in Software Agent Technologies and Autonomic Computing book series (WSSAT)
 * Publisher: Birkhäuser, Basel
-* Links
+* Links:
     link:https://link.springer.com/book/10.1007/978-3-7643-8569-9[SpringerLink]
 ifdef::local[]
 * Local links:
-    link:/library/book/2000/calisti-aanc-2008.7z[7z]
+    link:/library/collection/2000/calisti-aanc-2008.7z[7z]
 endif::[]
 
 

@@ -1,6 +1,6 @@
-*Griffin Leigh, Managing the Formation and Interaction of Groups within Emerging Social Networks, 2012*
+*Griffin Leigh*: _Managing the Formation and Interaction of Groups within Emerging Social Networks_, 2012
 
-* Institute: Waterford Institute of Technology, TSSG
+* Ph.D. Thesis, Waterford Institute of Technology (WIT), Waterford, Ireland
 ifdef::local[]
 * Local links:
     link:/library/phdthesis/griffin-leigh-2012.pdf[PDF]

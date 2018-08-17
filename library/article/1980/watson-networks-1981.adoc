@@ -4,8 +4,8 @@
 * Original break-through happened in 1978, so some reference date it to 1978
 * Also published as IEN193
 * Published: Computer Networks (1976), Volume 5, Issue 1, February 1981, Pages 47-56
-* Links
-    link:https://doi.org/10.1016/0376-5075(81)90031-3[DOI] |
+* Links:
+    link:https://doi.org/10.1016/0376-5075(81)90031-3[DOI] ┃
     link:https://www.rfc-editor.org/ien/ien193.pdf[PDF: IEN193]
 ifdef::local[]
 * Local links:

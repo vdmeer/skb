@@ -1,0 +1,13 @@
+*Stefan Arbanowski* et al.: _The Human Communication Space: Towards I-centric Communications _, 2001
+
+* Authors: Stefan Arbanowski, Sven van der Meer, Stephan Steglich, Radu Popescu-Zeletin
+* Published: Personal and Ubiquitous Computing (PUC), February 2001, Volume 5, Issue 1, pp 34–37
+* Links:
+    link:https://doi.org/10.1007/s007790170026[DOI] ┃
+    link:https://www.researchgate.net/publication/220141881_The_Human_Communication_Space_Towards_I-centric_Communications[ResearchGate]
+ifdef::local[]
+* Local links:
+    link:/library/article/2000/arbanowski-puc-2001.pdf[PDF]
+endif::[]
+
+

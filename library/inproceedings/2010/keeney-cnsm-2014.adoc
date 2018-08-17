@@ -1,12 +1,12 @@
-*John Keeney, Sven van der MeerLiam Fallon*: _Towards Real-time Management of Virtualized Telecommunication Networks_, 2014
+*John Keeney, Sven van der Meer, Liam Fallon*: _Towards Real-time Management of Virtualized Telecommunication Networks_, 2014
 
 * Published: 10th International Conference on Network and Service Management (CNSM) and Workshop, 2014
-* Links
-    link:https://doi.org/10.1109/CNSM.2014.7014200[DOI] |
+* Links:
+    link:https://doi.org/10.1109/CNSM.2014.7014200[DOI] ┃
     link:https://www.researchgate.net/publication/272164781_Towards_Real-time_Management_of_Virtualized_Telecommunication_Networks[ResearchGate]
 ifdef::local[]
 * Local links:
-    link:/library/inproceedings/2010/keeney-cnsm-2014.pdf[PDF] |
+    link:/library/inproceedings/2010/keeney-cnsm-2014.pdf[PDF] ┃
     link:/library/inproceedings/2010/keeney-cnsm-2014.7z[7z]
 endif::[]
 

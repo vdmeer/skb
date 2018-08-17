@@ -2,8 +2,8 @@
 
 * Reasons to read: servey of policy languages, here for security
 * Published: Computer Networks, Volume 56, Issue 1, 12 January 2012, Pages 477-489
-* Links
-    link:https://doi.org/10.1016/j.comnet.2011.09.014[DOI] |
+* Links:
+    link:https://doi.org/10.1016/j.comnet.2011.09.014[DOI] ┃
     link:http://crypto.fudan.edu.cn/people/weili/papers/han-policysurvey.pdf[PDF]
 ifdef::local[]
 * Local links:

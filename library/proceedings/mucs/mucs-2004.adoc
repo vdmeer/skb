@@ -1,0 +1,14 @@
+*Vincent Wade* (eds): _Managing Ubiquitous Communications and Services_, 2004
+
+* Editors: Vincent Wade, Dirk Pesch, Sven van der Meer
+* Workshop: 2nd International Workshop on Managing Ubiquitous Communications and Services (MUCS), Dublin, Ireland, 13-14 December, 2004
+* Host: Trinity College Dublin
+* Published as: M-Zones deliverable D 234.4
+* Publisher: Trinity College Dublin, Knowledge and Data Engineering Group (KDEG)
+ifdef::local[]
+* Local links:
+    link:/library/proceedings/mucs/mucs-2004.pdf[PDF: CFP] ┃
+    link:/library/proceedings/mucs/mucs-2004.doc[DOC: CFP]
+endif::[]
+
+

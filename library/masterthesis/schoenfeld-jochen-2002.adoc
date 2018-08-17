@@ -1,0 +1,4 @@
+*Jochen Schönfeld*: _Entwicklung und Erprobung eines selbstkonfigurierenden Netzes von Smart-IP Geräten_, 2002
+
+* Diplomarbeit (M.Sc. Thesis), Technical University Berlin (TUB), Berlin, Germany
+

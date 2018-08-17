@@ -2,8 +2,8 @@
 
 * Reasons to read: ###tbd###
 * Published: Conference: 4. Berkeley workshop on distributed data management and computer networks, Berkeley, CA, USA, 28 Aug 1979
-* Links
-    link:https://www.osti.gov/biblio/6043599[OSTI] |
+* Links:
+    link:https://www.osti.gov/biblio/6043599[OSTI] ┃
     link:https://books.google.ie/books?hl=en&lr=&id=c7I-AAAAIAAJ&oi=fnd&pg=PA18&dq=Architecture+for+support+of+network+operating+system+services&ots=2MILdsHqgq&sig=YkAjnYKU2PEjZs_dGNolFScUjRs&redir_esc=y#v=onepage&q=Architecture%20for%20support%20of%20network%20operating%20system%20services&f=false[Online]
 
 

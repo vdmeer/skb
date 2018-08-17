@@ -2,8 +2,8 @@
 
 * Reasons to read: INWG history
 * Publisher: IEEE Annals of the History of Computing (Volume: 38, Issue: 3, July-Sept. 2016)
-* Links
-    link:https://doi.org/10.1109/MAHC.2015.70[DOI] |
+* Links:
+    link:https://doi.org/10.1109/MAHC.2015.70[DOI] ┃
     link:http://arussell.org/INWG-Day.pdf[PDF]
 ifdef::local[]
 * Local links:

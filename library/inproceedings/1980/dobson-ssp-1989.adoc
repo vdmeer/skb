@@ -2,7 +2,7 @@
 
 * Reasons to read: system specification describes _what_ a system does while a policy describes how, dynamic features are _policy_, _role_, and _control_
 * Published: Proceedings. 1989 IEEE Symposium on Security and Privacy
-* Links
+* Links:
     link:https://doi.org/10.1109/SECPRI.1989.36297[DOI]
 ifdef::local[]
 * Local links:

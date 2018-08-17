@@ -2,7 +2,7 @@
 
 * Reasons to read: survey of policy languages, here cognitive radio
 * Published: 2009 IEEE International Conference on Communications
-* Links
+* Links:
     link:https://doi.org/10.1109/ICC.2009.5198831[DOI]
 ifdef::local[]
 * Local links:

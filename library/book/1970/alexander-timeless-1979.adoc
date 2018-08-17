@@ -4,6 +4,6 @@
 * Is actually the introduction to _A Pattern Language_ by the same author, though published later
 * Publisher: Oxford University Press
 * Links:
-    link:https://en.wikipedia.org/wiki/The_Timeless_Way_of_Building[Wikipedia] |
+    link:https://en.wikipedia.org/wiki/The_Timeless_Way_of_Building[Wikipedia] ┃
     link:https://www.goodreads.com/book/show/106728.The_Timeless_Way_of_Building?from_search=true[Goodreads]
 

@@ -2,7 +2,7 @@
 
 * Reasons to read: ###tbd###
 * Published: Computer Networks (1976), Volume 4, Issue 1, February 1980, Pages 33-49
-* Links
+* Links:
     link:https://doi.org/10.1016/0376-5075(80)90027-6[DOI]
 
 

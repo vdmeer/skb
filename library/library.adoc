@@ -4,6 +4,8 @@ include::article.adoc[]
 
 include::book.adoc[]
 
+include::collection.adoc[]
+
 include::inbook.adoc[]
 
 include::inproceedings.adoc[]
@@ -13,6 +15,8 @@ include::misc.adoc[]
 include::masterthesis.adoc[]
 
 include::phdthesis.adoc[]
+
+include::proceedings.adoc[]
 
 include::report.adoc[]
 

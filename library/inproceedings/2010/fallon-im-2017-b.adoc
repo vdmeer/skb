@@ -1,12 +1,13 @@
-*Liam Fallon, John Keeney, Mark McFadden, John Quilty, Sven van der Meer*: _Using the COMPA Autonomous Architecture for Mobile Network Security_, 2017
+*Liam Fallon* et al.: _Using the COMPA Autonomous Architecture for Mobile Network Security_, 2017
 
+* Authors: Liam Fallon, John Keeney, Mark McFadden, John Quilty, Sven van der Meer
 * Published: 2017 IFIP/IEEE Symposium on Integrated Network and Service Management (IM), IM 2017
-* Links
-    link:https://doi.org/10.23919/INM.2017.7987370[DOI] |
+* Links:
+    link:https://doi.org/10.23919/INM.2017.7987370[DOI] ┃
     link:https://www.researchgate.net/publication/317014658_Using_the_COMPA_Autonomous_Architecture_for_Mobile_Network_Security[ResearchGate]
 ifdef::local[]
 * Local links:
-    link:/library/inproceedings/2010/fallon-im-2017-b.pdf[PDF] |
+    link:/library/inproceedings/2010/fallon-im-2017-b.pdf[PDF] ┃
     link:/library/inproceedings/2010/fallon-im-2017-b.7z[7z]
 endif::[]
 

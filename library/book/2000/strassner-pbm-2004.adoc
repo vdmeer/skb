@@ -5,7 +5,7 @@
     link:https://www.sciencedirect.com/science/book/9781558608597[ScienceDirect]
 ifdef::local[]
 * Local links:
-    link:/library/book/2000/strassner-pbm-2004.pdf[PDF] |
+    link:/library/book/2000/strassner-pbm-2004.pdf[PDF] ┃
     link:/library/book/2000/strassner-pbm-2004.bib[BibTeX]
 endif::[]
 

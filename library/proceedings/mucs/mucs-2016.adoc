@@ -1,0 +1,15 @@
+*Elana Gaura, Eryk Dutkiewicz* (eds): _Managing Ubiquitous Communications and Services_, 2016
+
+* Editors: Elana Gaura, Eryk Dutkiewicz
+* Series Editors: Declan O'Sullivan, Burkhard Stiller, Tom Pfeifer, Dirk Pesch, Sajal Das, Sven van der Meer
+* Workshop: 13th IEEE International Workshop on Managing Ubiquitous Communications and Services (MUCS), Sydney, Australia, 18 March, 2016
+* Host: IEEE PerCom 2016
+* Links:
+    link:https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7457031[PDF] ┃
+    link:https://ernster.com/detail/ISBN-9783930736232//Managing-Ubiquitous-Communications-and-Services-2016?bpmctrl=bpmrownr.1%7Cforeign.74180-1-0-0[Ernster]
+ifdef::local[]
+* Local links:
+    link:/library/proceedings/mucs/mucs-2016.txt[TXT: CFP]
+endif::[]
+
+

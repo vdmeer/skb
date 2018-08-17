@@ -26,13 +26,21 @@ include::article/1990/moffet-comcom-1990.adoc[]
 include::article/1990/sloman-jnsm-1994.adoc[]
 
 === 2000
+include::article/2000/arbanowski-puc-2001.adoc[]
+include::article/2000/arbanowski-ife-2001.adoc[]
 include::article/2000/stone-network-2001.adoc[]
+include::article/2000/vdmeer-wit-2004.adoc[]
 include::article/2000/yagüe-jias-2006.adoc[]
+include::article/2000/jennings-commag-2007.adoc[]
 include::article/2000/boutaba-jnsm-2007.adoc[]
+include::article/2000/strassner-jnsm-2009-a.adoc[]
+include::article/2000/strassner-jnsm-2009-b.adoc[]
+include::article/2000/osullivan-jnsm-2009.adoc[]
 include::article/2000/davy-comcom-2008.adoc[]
 
 === 2010
 include::article/2010/brennan-commag-2010.adoc[]
+include::article/2010/serrano-siwn-2010.adoc[]
 include::article/2010/mckenzie-ieee-2011.adoc[]
 include::article/2010/han-cn-2012.adoc[]
 include::article/2010/russell-spectrum-2013.adoc[]

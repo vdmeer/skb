@@ -1,0 +1,4 @@
+*Jan Riedinger*: _Design of a Generic Media Gateway for IP Telephony_, 2002
+
+* Diplomarbeit (M.Sc. Thesis), Technical University Berlin (TUB), Berlin, Germany
+

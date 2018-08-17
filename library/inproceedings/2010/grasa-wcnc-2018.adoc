@@ -2,8 +2,8 @@
 
 * Authors: Eduard Grasa, Leonardo Bersio, Miquel Tarzan, Diego Lopez, Sven van der Meer, John Day, Lou Chitkushev
 * Published: 2018 IEEE Wireless Communications and Networking Conference (WCNC)
-* Links
-    link:https://doi.org/10.1109/WCNC.2018.8377265[DOI] |
+* Links:
+    link:https://doi.org/10.1109/WCNC.2018.8377265[DOI] ┃
     link:https://zenodo.org/record/1304063#.W2uI4MJrzCF[Zenodo]
 ifdef::local[]
 * Local links:

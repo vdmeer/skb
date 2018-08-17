@@ -1,0 +1,4 @@
+*Giscard Wépiwé*: _Design and Implementation of a Routing Mechanism for a Wireless Ad Hoc Network_, 2002
+
+* Diplomarbeit (M.Sc. Thesis), Technical University Berlin (TUB), Berlin, Germany
+

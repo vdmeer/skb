@@ -2,8 +2,8 @@
 
 * Reasons to read: defines policy as a paradigm for network management
 * Published: Journal of Network and Systems Management (JNSM), December 1994, Volume 2, Issue 4, pp 333–360
-* Links
-    link:https://doi.org/10.1007/BF02283186[DOI] |
+* Links:
+    link:https://doi.org/10.1007/BF02283186[DOI] ┃
     link:https://core.ac.uk/download/pdf/1587309.pdf[PDF]
 ifdef::local[]
 * Local links:

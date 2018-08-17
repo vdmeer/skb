@@ -1,0 +1,13 @@
+*John Strassner* et al.: _The Design of a New Policy Model to Support Ontology-Driven Reasoning for Autonomic Networking_, 2009
+
+* Authors: John Strassner, José Neuman de Souza, Sven van der Meer, Steven Davy, Keara Barrett, David Raymer, Srini Samudrala
+* Published: Journal of Network and Systems Management (JNSM), June 2009, Volume 17, Issue 1–2, pp 5–32
+* Links:
+    link:https://doi.org/10.1007/s10922-009-9119-3[DOI] ┃
+    link:https://www.researchgate.net/publication/220575825_The_Design_of_a_New_Policy_Model_to_Support_Ontology-Driven_Reasoning_for_Autonomic_Networking[ResearchGate]
+ifdef::local[]
+* Local links:
+    link:/library/article/2000/strassner-jnsm-2009-a.pdf[PDF]
+endif::[]
+
+

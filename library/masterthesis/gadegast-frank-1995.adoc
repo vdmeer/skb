@@ -1,6 +1,6 @@
-*Frank Gadegast, TCP/IP-basierte Dienste zur Speicherung von Multimedia-Daten, 1995*
+*Frank Gadegast*: _TCP/IP-basierte Dienste zur Speicherung von Multimedia-Daten_, 1995
 
-* Institute: Technical University Berlin, OKS
+* Diplomarbeit (M.Sc. Thesis), Technical University Berlin (TUB), Berlin, Germany
 ifdef::local[]
 * Local links:
     link:/library/masterthesis/gadegast-frank-1995.pdf[PDF]

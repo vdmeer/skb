@@ -1,6 +1,6 @@
-*Vladimír Veselý, A new Dawn of Naming, Addressing and Routing on the Internet, 2015*
+*Vladimír Veselý*: _A new Dawn of Naming, Addressing and Routing on the Internet_, 2015
 
-* Institute: Brno University of Technology
+* Ph.D. Thesis, Brno University of Technology, Brno, Czech Republic
 ifdef::local[]
 * Local links:
     link:/library/phdthesis/barret-keara-2009.pdf[PDF]

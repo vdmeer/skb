@@ -1,0 +1,12 @@
+*Brendan Jennings, Joan Serrat, John Strassner* (eds): _Modelling Autonomic Communications Environments_, 2007
+
+* Editors: Brendan Jennings, Joan Serrat, John Strassner
+* Workshop: Second IEEE International Workshop on Modelling Autonomic Communications Environments (MACE), San José, CA, USA, 29-30 October, 2007
+* Published: multicon lecture notes series, No. 6
+* Publisher: multicon verlag, Schöneiche bei Berlin
+* ISBN: ISBN-13: 978-3-930736-09-6, ISBN-10: 3-930736-09-8
+* Links:
+    link:https://ernster.com/detail/ISBN-9783930736096//Modelling-Autonomic-Communications-Environments-2007?bpmctrl=bpmrownr.3%7Cforeign.74180-1-0-0[Ernster] ┃
+    link:http://vandermeer.de/library/proceedings/mace/web/2007/mace.php[Web: orig] ┃
+    link:http://vandermeer.de/library/proceedings/mace/html/2007/mace.html[Web: html]
+

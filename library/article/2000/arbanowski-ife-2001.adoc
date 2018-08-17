@@ -1,0 +1,8 @@
+*Stefan Arbanowski* et al.: _I-centric Communications_, 2001
+
+* Authors: Stefan Arbanowski, Sven van der Meer, Stephan Steglich, Radu Popescu-Zeletin
+* Published: Informatik Forschung und Entwicklung (IFE), November 2001, Volume 16, Issue 4, pp 225–232
+* Links:
+    link:https://doi.org/10.1007/s004500100087[DOI]
+
+

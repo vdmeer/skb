@@ -1,0 +1,5 @@
+*Jens Hünerberg*: _Evaluating Object Oriented Databases for a Location Aware Application Platform_, 1999
+
+* Diplomarbeit (M.Sc. Thesis), Technical University Berlin (TUB), Berlin, Germany
+
+

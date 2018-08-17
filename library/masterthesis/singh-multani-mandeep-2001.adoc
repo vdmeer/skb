@@ -1,6 +1,6 @@
-*Mandeep Singh, Integrated Management Services for Directory, Naming, and Specification of Distributed Components, 2001*
+*Mandeep Singh*: _Integrated Management Services for Directory, Naming, and Specification of Distributed Components_, 2001
 
-* Institute: Technical University Berlin, OKS
+* Diplomarbeit (M.Sc. Thesis), Technical University Berlin (TUB), Berlin, Germany
 ifdef::local[]
 * Local links:
     link:/library/masterthesis/singh-multani-mandeep-2001.pdf[PDF]

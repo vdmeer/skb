@@ -4,7 +4,7 @@
 * Published: Compcon Fall 78 (17th : 1978 : Washington, D.C.), September 5-8, Washington DC, pp. 72-79
 * Also published as IETF IEN 19
 * Also published in:  Also in Thurber, K. (ed.), Tutorial: Distributed Processor Communication Architecture, IEEE Publ. #EHO 152-9, 1979, pp. 280-287
-* Links
+* Links:
     link:https://www.ietf.org/rfc/ien/ien19.txt[IEN19: txt]
 ifdef::local[]
 * Local links:

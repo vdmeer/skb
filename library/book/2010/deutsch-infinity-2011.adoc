@@ -3,7 +3,7 @@
 * Reasons to read: error is the normal state of our knowledge, good and bad philosophy
 * Publisher: Viking
 * Links:
-    link:https://en.wikipedia.org/wiki/The_Beginning_of_Infinity[Wikipedia] |
+    link:https://en.wikipedia.org/wiki/The_Beginning_of_Infinity[Wikipedia] ┃
     link:https://www.goodreads.com/book/show/10483171-the-beginning-of-infinity?from_search=true[Goodreads]
 
 

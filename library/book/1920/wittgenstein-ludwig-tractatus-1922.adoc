@@ -2,10 +2,10 @@
 
 * Reasons to read: picture theory, logical atomism, distinction between saying and showing, Wittgentstein's ladder, proposition 7
 * Publisher: Kegan Paul, Trench, Trubner & CO
-* Links
-    link:https://en.wikipedia.org/wiki/Tractatus_Logico-Philosophicus[Wikipedia] |
-    link:https://www.goodreads.com/book/show/12075.Tractatus_Logico_Philosophicus?from_search=true[Goodreads] |
-    link:http://www.gutenberg.org/ebooks/5740[eBooks at Gutenberg Project] |
+* Links:
+    link:https://en.wikipedia.org/wiki/Tractatus_Logico-Philosophicus[Wikipedia] ┃
+    link:https://www.goodreads.com/book/show/12075.Tractatus_Logico_Philosophicus?from_search=true[Goodreads] ┃
+    link:http://www.gutenberg.org/ebooks/5740[eBooks at Gutenberg Project] ┃
     link:http://people.umass.edu/klement/tlp/[eBooks at umass]
 ifdef::local[]
 * Local links:

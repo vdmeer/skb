@@ -2,8 +2,8 @@
 
 * Reasons to read: the most simple, yet expressive, introduction on machines :)
 * Publisher: Max Parrsih, London
-* Links
-    link:http://manchesterartgallery.org/blog/machines-which-seem-to-think[gallery with 3 pages] |
+* Links:
+    link:http://manchesterartgallery.org/blog/machines-which-seem-to-think[gallery with 3 pages] ┃
     link:http://www.fulltable.com/iso/mw.htm[all pages]
 
 

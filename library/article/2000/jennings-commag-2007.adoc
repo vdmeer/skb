@@ -1,0 +1,14 @@
+*Brendan Jennings* et al.: _Research - a personal perspective_, 2004
+
+* Authors: Brendan Jennings, Sven Van Der Meer, Sasitharan Balasubramaniam, Dmitri Botvich, Mícheál Ó Foghlú, William Donnelly, John Strassner
+* Published: IEEE Communications Magazine  (Volume: 45, Issue: 10, October 2007) 
+* Links:
+    link:https://doi.org/10.1109/MCOM.2007.4342833[DOI]
+ifdef::local[]
+* Local links:
+    link:/library/article/2000/jennings-commag-2007.pdf[PDF] ┃
+    link:/library/article/2000/jennings-commag-2007-proof.pdf[PDF: proof] ┃
+    link:/library/article/2000/jennings-commag-2007-proof.doc[DOC: proof]
+endif::[]
+
+

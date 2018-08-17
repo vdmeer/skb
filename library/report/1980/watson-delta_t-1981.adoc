@@ -2,8 +2,8 @@
 
 * Reasons to read: only 3 timers are needed, in the protocol, no local clocks and no clock synchronization required
 * Published: Lawrence Livermore National Lab., CA (USA), UCID-19293
-* Links
-    link:https://www.osti.gov/servlets/purl/5542785[OSTI] |
+* Links:
+    link:https://www.osti.gov/servlets/purl/5542785[OSTI] ┃
     link:https://www.osti.gov/servlets/purl/5542785[PDF]
 ifdef::local[]
 * Local links:

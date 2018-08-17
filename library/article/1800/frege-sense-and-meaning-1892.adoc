@@ -2,10 +2,10 @@
 
 * Reasons to read: philosophical definition for a name
 * Publisher: Seeley & Co. of London
-* Links
-    link:https://en.wikipedia.org/wiki/Sense_and_reference[Wikipedia: en] |
-    link:https://de.wikipedia.org/wiki/%C3%9Cber_Sinn_und_Bedeutung[Wikipedia: de] |
-    link:https://www.goodreads.com/book/show/20631495-on-sense-and-reference?from_search=true[Goodreads] |
+* Links:
+    link:https://en.wikipedia.org/wiki/Sense_and_reference[Wikipedia: en] ┃
+    link:https://de.wikipedia.org/wiki/%C3%9Cber_Sinn_und_Bedeutung[Wikipedia: de] ┃
+    link:https://www.goodreads.com/book/show/20631495-on-sense-and-reference?from_search=true[Goodreads] ┃
     link:https://www.freud2lacan.com/docs/%C3%9Cber_Sinn_und_Bedeutung_bilingual.pdf[PDF:en & de]
 ifdef::local[]
 * Local links:

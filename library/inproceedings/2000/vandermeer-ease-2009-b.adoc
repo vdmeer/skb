@@ -1,0 +1,12 @@
+*Sven van der Meer* et al.: _The Design of a Novel Autonomic Management Methodology and Architecture for Next Generation and Future Internet Systems_, 2009
+
+* Authors: Sven van der Meer, John Strassner, Patrick Phelan
+* Published: 2009 Sixth IEEE Conference and Workshops on Engineering of Autonomic and Autonomous Systems
+* Links:
+    link:https://doi.org/10.1109/EASe.2009.19[DOI] ┃
+    link:https://www.researchgate.net/publication/228673849_The_Design_of_a_Novel_Autonomic_Management_Methodology_and_Architecture_for_Next_Generation_and_Future_Internet_Systems[ResearchGate]
+ifdef::local[]
+* Local links:
+    link:/library/inproceedings/2000/vandermeer-ease-2009-b.pdf[PDF]
+endif::[]
+

@@ -1,4 +1,4 @@
-*Claire Fahy et al.*: _Modelling Behaviour and Distribution for the Management of Next Generation Networks_, 2008
+*Claire Fahy* et al.: _Modelling Behaviour and Distribution for the Management of Next Generation Networks_, 2008
 
 * Authors: Claire Fahy, Miguel Ponce de Leon, Sven van der Meer, Ricardo Marin, J. Vivero, Joan Serrat, Nektarios Georgalas, Philipp Leitner, Sandra Collins, B. Baesjou
 * Reasons to read: introduction to large-scale experimentation with RINA, the H2020 project ARCFIRE

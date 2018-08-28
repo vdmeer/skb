@@ -1,4 +1,4 @@
-*Sven van der Meer et al.*: _Recursive InterNetwork Architecture (ARCFIRE, Large-scale benchmark on FIRE)_, 2016
+*Sven van der Meer* et al.: _Recursive InterNetwork Architecture (ARCFIRE, Large-scale benchmark on FIRE)_, 2016
 
 * Authors: Sven van der Meer, Eduard Grasa, Leonardo Bergesio, Miquel Tarzan, Diego Lopez, Dimitri Staessens, Sander Vrijders, Vincenzo Maffione, Jon  Day
 * Reasons to read: introduction to large-scale experimentation with RINA, the H2020 project ARCFIRE
@@ -10,7 +10,7 @@
     link:http://www.riverpublishers.com/pdf/ebook/chapter/RP_9788793519114C19.pdf[PDF]
 ifdef::local[]
 * Local links:
-    link:/library/inbook/2010/vdmeer-arcfire-2016.pdf[PDF]
+    link:/library/inbook/2010/vandermeer-arcfire-2016.pdf[PDF]
 endif::[]
 
 

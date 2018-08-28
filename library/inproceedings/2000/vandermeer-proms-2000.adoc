@@ -1,0 +1,12 @@
+*Sven van der Meer* et al.: _Flexible Media and Content Adaptation for Communication Systems_, 2000
+
+* Authors: Sven van der Meer, Stefan Arbanowski
+* Published: 5th IEEE Conference on Protocols for Multimedia Systems (PROMS 2000), pp 461-477, Cracow, Poland, October 22-25, 2000
+* Links:
+    link:https://www.researchgate.net/publication/268337857_Flexible_Media_and_Content_Adaptation_for_Communication_Systems[ResearchGate]
+ifdef::local[]
+* Local links:
+    link:/library/inproceedings/2000/vandermeer-proms-2000.pdf[PDF] ┃
+    link:/library/inproceedings/2000/vandermeer-proms-2000.ppt[PPT]
+endif::[]
+

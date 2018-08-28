@@ -1,5 +1,6 @@
-*John Strassner, Sven van der Meer, James Won-Ki Hong*: _The Applicability of Self-Awareness for Network Management Operations_, 2009
+*John Strassner* et al.: _The Applicability of Self-Awareness for Network Management Operations_, 2009
 
+* Authors: John Strassner, Sven van der Meer, James Won-Ki Hong
 * Published: IEEE International Workshop on Modelling Autonomic Communications Environments, MACE 2009: Modelling Autonomic Communications Environments pp 15-28
 * Part of the Lecture Notes in Computer Science book series (LNCS, volume 5844)
 * Links:

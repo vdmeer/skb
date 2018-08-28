@@ -1,5 +1,6 @@
-*K. Twidle, Morris Sloman*: _Domain based Configuration and Name Management for Distributed Systems_, 1988
+*K. Twidle* et al.: _Domain based Configuration and Name Management for Distributed Systems_, 1988
 
+* Authors: K. Twidle, Morris Sloman
 * Reasons to read: early work on policy in network management
 * Published: 1988 Proceedings. Workshop on the Future Trends of Distributed Computing Systems in the 1990s
 * Links:

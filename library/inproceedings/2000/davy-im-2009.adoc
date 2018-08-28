@@ -1,0 +1,13 @@
+*Steven Davy* et al.: _A Model Based Approach to Autonomic Management of Virtual Networks_, 2009
+
+* Authors: Steven Davy, Claire Fahy, Zohra Boudjemil, Leigh Griffin, John Strassner
+* Published: 2009 IFIP/IEEE Symposium on Integrated Network and Service Management (IM), IM 2009
+* Links:
+    link:https://doi.org/10.1109/INM.2009.5188882[DOI]
+ifdef::local[]
+* Local links:
+    link:/library/inproceedings/2000/davy-im-2009.pdf[PDF] ┃
+    link:/library/inproceedings/2000/davy-im-2009.ppt[PPT]
+endif::[]
+
+

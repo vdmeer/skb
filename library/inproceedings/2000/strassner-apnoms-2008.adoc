@@ -1,0 +1,8 @@
+*John Strassner* et al.: _Review of Knowledge Engineering Requirements for Semantic Reasoning in Autonomic Networks_, 2008
+
+* Authors: John Strassner, Sven van der Meer, Mícheál Ó Foghlú, Willie Donnelly, Joan Serrat, Nazim Agoulmine
+* Published: Asia-Pacific Network Operations and Management Symposium, APNOMS 2008: Challenges for Next Generation Network Operations and Service Management pp 146-155
+* Part of: Lecture Notes in Computer Science book series (LNCS, volume 5297)
+* Links:
+    link:https://link.springer.com/chapter/10.1007/978-3-540-88623-5_15[DOI]
+

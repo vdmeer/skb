@@ -1,5 +1,6 @@
-*Sven van der Meer, John Keeney, Liam Fallon*: _Dynamically Adaptive Policies for Dynamically Adaptive Telecommunications Networks_, 2015
+*Sven van der Meer* et al.: _Dynamically Adaptive Policies for Dynamically Adaptive Telecommunications Networks_, 2015
 
+* Authors: Sven van der Meer, John Keeney, Liam Fallon
 * Published: 2015 11th International Conference on Network and Service Management (CNSM)
 * Links:
     link:https://doi.org/10.1109/CNSM.2015.7367357[DOI] ┃

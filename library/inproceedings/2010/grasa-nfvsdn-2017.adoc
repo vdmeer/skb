@@ -1,4 +1,4 @@
-*Eduard Grasa et al.*: _Open Multi-Access Edge Computing and Distributed Mobility Management with RINA_, 2017
+*Eduard Grasa* et al.: _Open Multi-Access Edge Computing and Distributed Mobility Management with RINA_, 2017
 
 * Authors: Eduard Grasa, Miguel Ponce de Leon, Sven van der Meer, Diego Lopez, Miquel Tarzan
 * Published: 2017 IEEE Conference on Network Function Virtualization and Software Defined Networks (NFV-SDN)

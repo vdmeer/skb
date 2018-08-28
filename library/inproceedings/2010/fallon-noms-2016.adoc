@@ -1,5 +1,6 @@
-*Liam Fallon, Sven van der Meer, John Keeney*: _APEX: An Engine for Dynamic Adaptive Policy Execution_, 2016
+*Liam Fallon* et al.: _APEX: An Engine for Dynamic Adaptive Policy Execution_, 2016
 
+* Authors: Liam Fallon, Sven van der Meer, John Keeney
 * Published: 2016 IEEE/IFIP Network Operations and Management Symposium, NOMS 2016
 * Links:
     link:https://doi.org/10.1109/NOMS.2016.7502880[DOI] ┃

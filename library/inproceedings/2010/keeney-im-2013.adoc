@@ -1,5 +1,6 @@
-*John Keeney, Sven van der Meer, Gabriel Hogan*: _A Recommender-System for Telecommunications Network Management Actions_, 2013
+*John Keeney* et al.: _A Recommender-System for Telecommunications Network Management Actions_, 2013
 
+* Authors: John Keeney, Sven van der Meer, Gabriel Hogan
 * Published: 2013 IFIP/IEEE International Symposium on Integrated Network Management (IM 2013)
 * Links:
     link:https://ieeexplore.ieee.org/document/6573072/[IEEE Xplore] ┃

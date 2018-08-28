@@ -1,0 +1,14 @@
+*Venet Osmani* et al.: _Context? Yes, but to whom?_, 2005
+
+* Authors: Venet Osmani, Sven van der Meer
+* Published: Mobile HCI
+  ** Workshop: International Workshop on Context in Mobile HCI
+* Links:
+    link:https://www.researchgate.net/publication/228744086_Context_Yes_but_to_whom[ResearchGate]
+ifdef::local[]
+* Local links:
+    link:/library/inproceedings/2000/osmani-mhci-2005.pdf[PDF] ┃
+    link:/library/inproceedings/2000/osmani-mhci-2005.doc[DOC] ┃
+    link:/library/inproceedings/2000/osmani-mhci-2005.ppt[PPT]
+endif::[]
+

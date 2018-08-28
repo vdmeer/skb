@@ -1,5 +1,6 @@
-*Ray Carroll, Sven van der Meer*: _Semantic Integration of User Data - Models and Processes Enabling Seamless Mobility_, 2008
+*Ray Carroll* et al.: _Semantic Integration of User Data - Models and Processes Enabling Seamless Mobility_, 2008
 
+* Authors: Ray Carroll, Sven van der Meer
 * Published: 2008 32nd Annual IEEE International Computer Software and Applications Conference
 * Links:
     link:https://doi.org/10.1109/COMPSAC.2008.220[DOI] ┃

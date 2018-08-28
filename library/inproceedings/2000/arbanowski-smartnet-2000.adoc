@@ -1,5 +1,6 @@
-*Stefan Arbanowski, Sven van der Meer, Radu Popescu-Zeletin*: _I-centric Services in the Area of Telecommunication ‘The I-Talk Service’_, 2000
+*Stefan Arbanowski* et al.: _I-centric Services in the Area of Telecommunication ‘The I-Talk Service’_, 2000
 
+* Authors: Stefan Arbanowski, Sven van der Meer, Radu Popescu-Zeletin
 * Published: International Conference on Intelligence in Networks, SMARTNET 2000: Telecommunication Network Intelligence pp 499-508
 * Part of: IFIP — The International Federation for Information Processing book series (IFIPAICT, volume 50)
 * Links:

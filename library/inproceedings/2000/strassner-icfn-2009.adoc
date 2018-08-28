@@ -1,0 +1,12 @@
+*John Strassner* et al.: _Autonomic Orchestration of Future Networks to Realize Prosumer Services_, 2009
+
+* Authors: John Strassner, Sven van der Meer, Mícheál Ó Foghlú, Miguel Ponce de Leon, Willie Donnelly
+* Published: 2009 International Conference on Future Networks, ICFN
+* Links:
+    link:https://doi.org/10.1109/ICFN.2009.61[DOI] ┃
+    link:https://www.researchgate.net/publication/228617454_Autonomic_Orchestration_of_Future_Networks_to_Realize_Prosumer_Services[ResearchGate]
+ifdef::local[]
+* Local links:
+    link:/library/inproceedings/2000/strassner-icfn-2009.pdf[PDF]
+endif::[]
+

@@ -1,0 +1,14 @@
+*Sven van der Meer* et al.: _Autonomic Networking: Prototype Implementation of the Policy Continuum_, 2006
+
+* Authors: Sven van der Meer, Steven Davy, Alan Davy, Ray Carroll, Brendan Jennings, John Strassner
+* Published: NOMS Workshops 2006 - IEEE Network Operations and Management Symposium Workshops
+  ** Workshop: 2006 1st IEEE International Workshop on Broadband Convergence Networks
+* Links:
+    link:https://doi.org/10.1109/BCN.2006.1662287[DOI] ┃
+    link:https://www.researchgate.net/publication/224642364_Autonomic_Networking_Prototype_Implementation_of_the_Policy_Continuum[ResearchGate]
+ifdef::local[]
+* Local links:
+    link:/library/inproceedings/2000/vandermeer-bcn-2006.pdf[PDF] ┃
+    link:/library/inproceedings/2000/vandermeer-bcn-2006.ppt[PPT]
+endif::[]
+

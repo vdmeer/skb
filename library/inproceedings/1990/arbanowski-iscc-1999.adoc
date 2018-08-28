@@ -1,5 +1,6 @@
-*Stefan Arbanowski, Sven van der Meer*: _Service Personalization for Unified Messaging Systems_, 1999
+*Stefan Arbanowski* et al.: _Service Personalization for Unified Messaging Systems_, 1999
 
+* Authors: Stefan Arbanowski, Sven van der Meer
 * Published: IEEE International Symposium on Computers and Communications (Cat. No.PR00250)
 * Links:
     link:https://doi.org/10.1109/ISCC.1999.780792[DOI] ┃

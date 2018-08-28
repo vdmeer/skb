@@ -1,0 +1,13 @@
+*Stefan Arbanowski* et al.: _Open Profiling for Ubiquitous Computing_, 2000
+
+* Authors: Stefan Arbanowski, Holger Waterstrat, Sven van der Meer, Radu Popescu-Zeletin
+* Published: 1st Workshop on Ubiquitous Computing (WUC 2000), Philadelphia, United States, November 19, 2000
+* Links:
+    link:https://www.researchgate.net/publication/267403876_Open_Profiling_for_Ubiquitous_Computing[ResearchGate]
+ifdef::local[]
+* Local links:
+    link:/library/inproceedings/2000/arbanowski-wuc-2000.pdf[PDF] ┃
+    link:/library/inproceedings/2000/arbanowski-wuc-2000.7z[7z]
+endif::[]
+
+

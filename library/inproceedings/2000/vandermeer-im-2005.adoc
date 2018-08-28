@@ -1,0 +1,12 @@
+*Sven van der Meer* et al.: _Ontology Based Policy Mobility for Pervasive Computing_, 2017
+
+* Authors: Sven van der Meer, Declan O'Sullivan, David Lewis, Nazim Agoulmine
+* Published: 2005 IFIP/IEEE Symposium on Integrated Network and Service Management (IM), IM 2005
+* Links:
+    link:http://im2005.ieee-im.org/confprog.html[Conference] ┃
+    link:https://www.scss.tcd.ie/Dave.Lewis/files/05c.pdf[TCD]
+ifdef::local[]
+* Local links:
+    link:/library/inproceedings/2000/vandermeer-im-2005.pdf[PDF]
+endif::[]
+

@@ -8,7 +8,8 @@ ifdef::local[]
 * Local links:
     link:/library/article/2000/jennings-commag-2007.pdf[PDF] ┃
     link:/library/article/2000/jennings-commag-2007-proof.pdf[PDF: proof] ┃
-    link:/library/article/2000/jennings-commag-2007-proof.doc[DOC: proof]
+    link:/library/article/2000/jennings-commag-2007-proof.doc[DOC: proof] ┃
+    link:/library/article/2000/jennings-commag-2007-proof.7z[7z]
 endif::[]
 
 

@@ -1,5 +1,6 @@
-*J. E. Dobson, J. A. McDermid*: _A framework for expressing Models of Security Policy_, 1989
+*J. E. Dobson* et al.: _A Framework for expressing Models of Security Policy_, 1989
 
+* Authors: J. E. Dobson, J. A. McDermid
 * Reasons to read: system specification describes _what_ a system does while a policy describes how, dynamic features are _policy_, _role_, and _control_
 * Published: Proceedings. 1989 IEEE Symposium on Security and Privacy
 * Links:

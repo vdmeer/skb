@@ -1,5 +1,6 @@
-*Sven van der Meer, Stefan Arbanowski, Radu Popescu-Zeletin*: _A Platform for Environment-Aware Applications_, 1999
+*Sven van der Meer* et al.: _A Platform for Environment-Aware Applications_, 1999
 
+* Authors: Sven van der Meer, Stefan Arbanowski, Radu Popescu-Zeletin
 * Published: International Symposium on Handheld and Ubiquitous Computing, HUC 1999: Handheld and Ubiquitous Computing pp 368-370
 * Part of: Lecture Notes in Computer Science book series (LNCS, volume 1707)
 * Links:
@@ -7,7 +8,7 @@
     link:https://www.researchgate.net/publication/221568670_A_Platform_for_Environment-Aware_Applications[ResearchGate]
 ifdef::local[]
 * Local links:
-    link:/library/inproceedings/1990/vdmeer-huc-1999.pdf[PDF] ┃
-    link:/library/inproceedings/1990/vdmeer-huc-1999.7z[7z]
+    link:/library/inproceedings/1990/vandermeer-huc-1999.pdf[PDF] ┃
+    link:/library/inproceedings/1990/vandermeer-huc-1999.7z[7z]
 endif::[]
 

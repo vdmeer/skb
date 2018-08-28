@@ -1,5 +1,6 @@
-*John Strassner, James Won-Ki Hong, Sven van der Meer*: _The design of an Autonomic Element for managing emerging networks and services_, 2009
+*John Strassner* et al.: _The design of an Autonomic Element for managing emerging networks and services_, 2009
 
+* Authors: John Strassner, James Won-Ki Hong, Sven van der Meer
 * Published: 2009 International Conference on Ultra Modern Telecommunications & Workshops (ICUMT)
 * Links:
     link:https://doi.org/10.1109/ICUMT.2009.5345533[DOI] ┃

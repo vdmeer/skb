@@ -1,5 +1,6 @@
-*Sven van der Meer, Brendan Jennings, John C. Strassner*: _Managing Ubiquitous Networks — How do they do it?_, 2010
+*Sven van der Meer* et al.: _Managing Ubiquitous Networks — How do they do it?_, 2010
 
+* Authors: Sven van der Meer, Brendan Jennings, John C. Strassner
 * Published: 2010 Second International Conference on Ubiquitous and Future Networks (ICUFN)
 * Links:
     link:https://doi.org/10.1109/ICUFN.2010.5547212[DOI] ┃

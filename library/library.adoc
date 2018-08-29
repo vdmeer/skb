@@ -22,5 +22,7 @@ include::report.adoc[]
 
 include::standard.adoc[]
 
+include::talks.adoc[]
+
 include::unpublished.adoc[]
 

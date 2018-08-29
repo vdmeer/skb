@@ -1,0 +1,12 @@
+*Marc Lacoste* (ed.): _The Operators' Vision on Technologies, Opportunities, Risks and Adoption Roadmap_, 2009
+
+* Project Report: Eurescom P1855 - D2, February, 2009
+* Contributors: Zwi Altman, Thierry Coupaye, Bruno Dillenseger, Marc Lacoste, Mikael Salaun, David O'Neil, Sven van der Meer, Stein Svaet
+* Links:
+    link:https://www.eurescom.eu/services/eurescom-study-programme/archive-of-eurescom-studies/studies-launched-in-2008/p1855/d2-the-operators-vision-on-technologies-opportunities-risks-and-adoption-roadmap.html[Eurescom]
+ifdef::local[]
+* Local links:
+    link:/library/report/p1855/p1855-d2-2009.pdf[PDF] ┃
+    link:/library/report/p1855/p1855-d2-2009.ppt[PPT]
+endif::[]
+

@@ -60,6 +60,78 @@
 |===
 
 
+=== Keynote
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::talks/keynote/vandermeer-monami-2012.adoc[]
+|include::talks/keynote/vandermeer-noms-2018.adoc[]
+|include::talks/keynote/vandermeer-5gman-2018.adoc[]
+|===
+
+
+=== Invited Talk
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::talks/invited-talk/arbanowski-datacom-2000.adoc[]
+|include::talks/invited-talk/vandermeer-euronetlab-2004.adoc[]
+|include::talks/invited-talk/carroll-ircset-2004.adoc[]
+|include::talks/invited-talk/vandermeer-acf-2006.adoc[]
+|include::talks/invited-talk/fleck-tmf-2006-a.adoc[]
+|include::talks/invited-talk/fleck-tmf-2006-b.adoc[]
+|include::talks/invited-talk/vandermeer-acf-2008-a.adoc[]
+|include::talks/invited-talk/vandermeer-acf-2008-b.adoc[]
+|include::talks/invited-talk/vandermeer-hp_virtual-2009.adoc[]
+|include::talks/invited-talk/vandermeer-postech-2010.adoc[]
+|include::talks/invited-talk/vandermeer-fame_industry-2010.adoc[]
+|include::talks/invited-talk/vandermeer-ugent-2011.adoc[]
+|include::talks/invited-talk/vandermeer-manfi-2011.adoc[]
+|include::talks/invited-talk/fleck-manfed-2011.adoc[]
+|include::talks/invited-talk/vandermeer-mucs-2011.adoc[]
+|include::talks/invited-talk/vandermeer-ieee_5g_summit-2015.adoc[]
+|include::talks/invited-talk/fallon-onap-2017.adoc[]
+|===
+
+
+=== Panel
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::talks/panel/vandermeer-mucs-2004.adoc[]
+|include::talks/panel/vandermeer-dsom-2006.adoc[]
+|include::talks/panel/vandermeer-ssmo-2007.adoc[]
+|include::talks/panel/vandermeer-im-2013.adoc[]
+|include::talks/panel/vandermeer-im-2015.adoc[]
+|===
+
+=== Tutorial
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::talks/tutorial/covaci-nec-1998.adoc[]
+|include::talks/tutorial/covaci-nec-1999.adoc[]
+|include::talks/tutorial/vandermeer-isads-1999.adoc[]
+|include::talks/tutorial/vandermeer-proms-2000.adoc[]
+|include::talks/tutorial/vandermeer-ict-2001.adoc[]
+|include::talks/tutorial/fleck-tmf-2006-a.adoc[]
+|include::talks/tutorial/fleck-tmf-2006-b.adoc[]
+|include::talks/tutorial/vandermeer-fame_arch-2009.adoc[]
+|include::talks/tutorial/ethirajulu-ons-2018.adoc[]
+|===
+
+=== Presentation
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::talks/presentation/vandermeer-tssg_rm-2006.adoc[]
+|include::talks/presentation/vandermeer-tssg_rm-2007.adoc[]
+|include::talks/presentation/vandermeer-tssg_day-2007.adoc[]
+|include::talks/presentation/vandermeer-tssg_cim-2008-a.adoc[]
+|include::talks/presentation/vandermeer-tssg_cim-2008-b.adoc[]
+|include::talks/presentation/vandermeer-tssg_day-2008.adoc[]
+|include::talks/presentation/vandermeer-tssg_rm-2009.adoc[]
+|include::talks/presentation/vandermeer-ieee_sdn-2016.adoc[]
+|include::talks/presentation/vandermeer-nmrg-2018.adoc[]
+|include::talks/presentation/vandermeer-rina-2018.adoc[]
+|===
+
+
 === in Proceedings 1990
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
@@ -269,4 +341,86 @@
 |include::standard/ietf/strassner-supa-2017.adoc[]
 |===
 
+
+=== Project Reports - iPCSS
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::report/ipcss/ipcss-0-1995.adoc[]
+|include::report/ipcss/ipcss-1-1996.adoc[]
+|include::report/ipcss/ipcss-2-1997.adoc[]
+|include::report/ipcss/ipcss-3-1997.adoc[]
+|include::report/ipcss/ipcss-4-1997.adoc[]
+|include::report/ipcss/ipcss-5-1998.adoc[]
+|===
+
+
+=== Project Reports - AlbatrOSS
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::report/albatross/albatross-d3-2002.adoc[]
+|===
+
+
+=== Project Reports - M-Zones
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::report/m-zones/m-zones-d00-2003.adoc[]
+|include::report/m-zones/m-zones-d11-2003.adoc[]
+|include::report/m-zones/m-zones-d234-1-2003.adoc[]
+|include::report/m-zones/m-zones-d234-2-2003.adoc[]
+|include::report/m-zones/m-zones-d01-2004.adoc[]
+|include::report/m-zones/m-zones-d33-2004.adoc[]
+|include::report/m-zones/m-zones-d234-4-2004.adoc[]
+|include::report/m-zones/m-zones-d51-2005.adoc[]
+|include::report/m-zones/m-zones-d52-2005.adoc[]
+|===
+
+
+=== P1855
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::report/p1855/p1855-d1-2009.adoc[]
+|include::report/p1855/p1855-d2-2009.adoc[]
+|===
+
+
+=== Project Reports - AMCNS
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::report/amcns/amcns-2006-a.adoc[]
+|include::report/amcns/amcns-2006-b.adoc[]
+|include::report/amcns/amcns-2008.adoc[]
+|include::report/amcns/amcns-2009.adoc[]
+|include::report/amcns/amcns-2010.adoc[]
+|===
+
+
+=== Project Reports - FAME
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::report/fame/fame-y1-2009.adoc[]
+|include::report/fame/fame-d21-2010.adoc[]
+|include::report/fame/fame-d22-2011.adoc[]
+|include::report/fame/fame-y2-2011.adoc[]
+|===
+
+
+=== Project Reports - PRISTINE
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::report/pristine/pristine-d51-2014.adoc[]
+|include::report/pristine/pristine-d52-2014.adoc[]
+|include::report/pristine/pristine-d53-2015.adoc[]
+|include::report/pristine/pristine-d54-2016.adoc[]
+|===
+
+
+=== Project Reports - ARCFIRE
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::report/arcfire/arcfire-d21-2016.adoc[]
+|include::report/arcfire/arcfire-d22-2017.adoc[]
+|include::report/arcfire/arcfire-d31-2017.adoc[]
+|include::report/arcfire/arcfire-d43-2017.adoc[]
+|===
 

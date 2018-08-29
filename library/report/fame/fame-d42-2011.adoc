@@ -1,0 +1,9 @@
+*John Murphy*: _FAME: Integrated Evaluation Report_, 2011
+
+* Project Report: FAME - Federated, Autonomic Management of End-to-End Services - Deliverable D4.2, May 11, 2011
+ifdef::local[]
+* Local links:
+    link:/library/report/fame/fame-d42-2011.pdf[PDF]
+endif::[]
+
+

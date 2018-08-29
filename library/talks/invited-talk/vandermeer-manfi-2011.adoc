@@ -1,0 +1,12 @@
+*Sven van der Meer*: _Building a Policy Management Infrastructure for the Future internet - an Example_, 2011
+
+* Invited Talk: Third IEEE/IFIP International Workshop on Management of the Future Internet (ManFI 2011)
+* Links:
+    link:http://www.ieice.org/~icm/ManFI2016/2011/program.html[Conference]
+ifdef::local[]
+* Local links:
+    link:/library/talks/invited-talk/vandermeer-manfi-2011.pdf[PDF] ┃
+    link:/library/talks/invited-talk/vandermeer-manfi-2011.ppt[PPT]
+endif::[]
+
+

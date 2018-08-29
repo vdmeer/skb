@@ -1,0 +1,11 @@
+*Sven van der Meer* (ed.): _1st International Workshop on Managing Ubiquitous Communications and Services (MUCS)_, 2003
+
+* Project Report: M-Zones - Managed Zones - Consolidated Deliverable D 2.2, D3.2 & D 4.2, December, 2003
+* Editors: Sven van der Meer, Dirk Pesch, Dave Lewis
+ifdef::local[]
+* Local links:
+    link:/library/report/m-zones/m-zones-d234-2-2003.pdf[PDF] ┃
+    link:/library/report/m-zones/m-zones-d234-2-2003.doc[DOC] ┃
+    link:/library/report/m-zones/m-zones-d234-2-2003.7z[7z]
+endif::[]
+

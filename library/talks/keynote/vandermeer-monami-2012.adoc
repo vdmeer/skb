@@ -1,0 +1,14 @@
+*Sven van der Meer*: _Big Data, Cloud, HetNets, SDN … all problems solved - And your lunch served, right?_, 2012
+
+* Keynote: 4th International Conference on Mobile Networks and Management, MONAMI 2012
+* Links:
+    link:http://archive.mon-ami.org/2012/show/keynotes#keynote1[Conference] ┃
+    link:https://www.researchgate.net/publication/279527537_HetNets_Big_Data_Cloud_SDNall_problems_solved_and_your_lunch_served_right[ResearchGate]
+ifdef::local[]
+* Local links:
+    link:/library/talks/keynote/vandermeer-monami-2012.pdf[PDF] ┃
+    link:/library/talks/keynote/vandermeer-monami-2012.ppt[PPT] ┃
+    link:/library/talks/keynote/vandermeer-monami-2012.doc[DOC]
+endif::[]
+
+

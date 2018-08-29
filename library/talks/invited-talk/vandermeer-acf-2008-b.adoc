@@ -1,0 +1,8 @@
+*Sven van der Meer*: _Architectural Artefacts for Distributed Systems - Using Contracts as the Unit of Interoperability_, 2008
+
+* Invited Talk: Meeting of the Autonomic Communications Forum, Samos Island, Greece, September 24, 2008
+ifdef::local[]
+* Local links:
+    link:/library/talks/invited-talk/vandermeer-acf-2008-b.ppt[PPT]
+endif::[]
+

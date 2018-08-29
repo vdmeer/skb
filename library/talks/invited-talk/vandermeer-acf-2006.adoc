@@ -1,0 +1,9 @@
+*Sven van der Meer*: _Modelling Autonomic Network Management_, 2006
+
+* Invited Talk: Meeting of the Autonomic Communications Forum (ACF), Paris, France, September 28, 2006
+ifdef::local[]
+* Local links:
+    link:/library/talks/invited-talk/vandermeer-acf-2006.ppt[PPT]
+endif::[]
+
+

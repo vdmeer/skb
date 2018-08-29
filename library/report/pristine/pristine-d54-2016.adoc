@@ -1,0 +1,12 @@
+*Victor Alvarez* (ed.): _Consolidated Network Management System_, 2016
+
+* Project Report: PRISTINE - Programmability In RINA for European supremacy of virTualised NEtworks - Deliverable D5.4, June 30, 2016
+* Contributors: Victor Alvarez
+Eduard Grasa, Bernat Gaston, Micheal Crotty, Miguel Ponce de Leon, Jason Barron, Roberto Riggio, Kewin Rausch, Javier Garcia, Juan Vallejo, Miguel Angel Puente, Hamid Asgari, Sven van der Meer
+* Links:
+    link:http://ict-pristine.eu/?page_id=37[Pristine]
+ifdef::local[]
+* Local links:
+    link:/library/report/pristine/pristine-d54-2016.pdf[PDF]
+endif::[]
+

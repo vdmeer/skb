@@ -1,0 +1,10 @@
+*Sven van der Meer*: _FAME: Architectures, Models and Algorithms_, 2010
+
+* Project Report: FAME - Federated, Autonomic Management of End-to-End Services - Deliverable D2.1, March 5, 2010
+ifdef::local[]
+* Local links:
+    link:/library/report/fame/fame-d21-2010.pdf[PDF] ┃
+    link:/library/report/fame/fame-d21-2010.doc[DOC]
+endif::[]
+
+

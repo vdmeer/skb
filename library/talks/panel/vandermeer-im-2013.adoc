@@ -1,0 +1,13 @@
+*Rolf Stadler* (chair): _Management of Big Data --- Big Data for Management_, 2013
+
+* Panel: 2013 IFIP/IEEE Symposium on Integrated Network and Service Management (IM), IM 2013
+* Chair: Rolf Stadler (KTH, Sweden)
+* Panelists: Vasanth Bala (IBM Research, USA), Marcus Brunner (Swisscom, Switzerland), Alex Clemm (Cisco Systems, USA), Sven van der Meer (Ericsson NM Lab, Ireland)
+ifdef::local[]
+* Local links:
+    link:/library/talks/panel/vandermeer-im-2013.ppt[PPT] ┃
+    link:/library/talks/panel/stadler-im-2013.ppt[PPT: Combined] ┃
+    link:/library/talks/panel/stadler-im-2013.docx[DOCX: Questions] ┃
+    link:/library/talks/panel/stadler-im-2013.jpg[JPG: Photo]
+endif::[]
+

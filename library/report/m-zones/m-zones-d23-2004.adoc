@@ -1,0 +1,10 @@
+*Dave Lewis*: _WP2 Report_, 2004
+
+* Project Report: M-Zones - Managed Zones - Deliverable D2.3, September 14, 2004
+ifdef::local[]
+* Local links:
+    link:/library/report/m-zones/m-zones-d23-2004.pdf[PDF] ┃
+    link:/library/report/m-zones/m-zones-d23-2004.doc[DOC] ┃
+    link:/library/report/m-zones/m-zones-d234-3-2004.7z[7z]
+endif::[]
+

@@ -1,0 +1,11 @@
+*Sven van der Meer* (ed.): _Specification of the common Elements of the Management Framework_, 2014
+
+* Project Report: PRISTINE - Programmability In RINA for European supremacy of virTualised NEtworks - Deliverable D5.2, December 30, 2014
+* Contributors: Sven van der Meer, Eduard Grasa, Bernat Gaston, Francesco Salvestrini, Micheal Crotty, Jason Barron, Marc Sune, Victor Alvarez, Sarah Haines, Miguel Angel Puente, Roberto Riggio
+* Links:
+    link:http://ict-pristine.eu/?page_id=37[Pristine]
+ifdef::local[]
+* Local links:
+    link:/library/report/pristine/pristine-d52-2014.pdf[PDF]
+endif::[]
+

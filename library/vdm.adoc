@@ -1,439 +1,75 @@
 == Sven van der Meer
 
-=== Thesis
-
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::masterthesis/vandermeer-sven-1996.adoc[]
-|include::phdthesis/vandermeer-sven-2002.adoc[]
-|===
-
-
-=== Collection
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-
-|include::collection/2000/calisti-aanc-2008.adoc[]
-|===
-
-
-=== Proceedings
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::proceedings/mucs/mucs-2003.adoc[]
-|include::proceedings/mucs/mucs-2004.adoc[]
-|include::proceedings/2000/dsom-2006.adoc[]
-|include::proceedings/mace/mace-2006.adoc[]
-|include::proceedings/mace/mace-2008.adoc[]
-|include::proceedings/mace/mace-2010.adoc[]
-|include::proceedings/mucs/mucs-2011.adoc[]
-|include::proceedings/mucs/mucs-2015.adoc[]
-|include::proceedings/mucs/mucs-2016.adoc[]
-|===
-
-
-=== in Book
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::inbook/2000/vandermeer-aanc-2008.adoc[]
-|include::inbook/2000/fahy-aanc-2008.adoc[]
-|include::inbook/2010/jennings-autonomics-2010.adoc[]
-|include::inbook/2010/vandermeer-arcfire-2016.adoc[]
-|===
-
-
-=== Articles
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::article/2000/arbanowski-puc-2001.adoc[]
-|include::article/2000/arbanowski-ife-2001.adoc[]
-|include::article/2000/vandermeer-wit-2004.adoc[]
-|include::article/2000/jennings-commag-2007.adoc[]
-|include::article/2000/strassner-jnsm-2009-a.adoc[]
-|include::article/2000/strassner-jnsm-2009-b.adoc[]
-|include::article/2000/osullivan-jnsm-2009.adoc[]
-|include::article/2010/brennan-commag-2010.adoc[]
-|include::article/2010/serrano-siwn-2010.adoc[]
-|include::article/2010/zaman-commag-2015.adoc[]
-|include::article/2010/vandermeer-softwarization-2016.adoc[]
-|include::article/2010/robitzsch-network-2017.adoc[]
-|===
-
-
-=== Keynote
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::talks/keynote/vandermeer-monami-2012.adoc[]
-|include::talks/keynote/vandermeer-noms-2018.adoc[]
-|include::talks/keynote/vandermeer-5gman-2018.adoc[]
-|===
-
-
-=== Invited Talk
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::talks/invited-talk/arbanowski-datacom-2000.adoc[]
-|include::talks/invited-talk/vandermeer-euronetlab-2004.adoc[]
-|include::talks/invited-talk/carroll-ircset-2004.adoc[]
-|include::talks/invited-talk/vandermeer-acf-2006.adoc[]
-|include::talks/invited-talk/fleck-tmf-2006-a.adoc[]
-|include::talks/invited-talk/fleck-tmf-2006-b.adoc[]
-|include::talks/invited-talk/vandermeer-acf-2008-a.adoc[]
-|include::talks/invited-talk/vandermeer-acf-2008-b.adoc[]
-|include::talks/invited-talk/vandermeer-hp_virtual-2009.adoc[]
-|include::talks/invited-talk/vandermeer-postech-2010.adoc[]
-|include::talks/invited-talk/vandermeer-fame_industry-2010.adoc[]
-|include::talks/invited-talk/vandermeer-ugent-2011.adoc[]
-|include::talks/invited-talk/vandermeer-manfi-2011.adoc[]
-|include::talks/invited-talk/fleck-manfed-2011.adoc[]
-|include::talks/invited-talk/vandermeer-mucs-2011.adoc[]
-|include::talks/invited-talk/vandermeer-ieee_5g_summit-2015.adoc[]
-|include::talks/invited-talk/fallon-onap-2017.adoc[]
-|===
-
-
-=== Panel
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::talks/panel/vandermeer-mucs-2004.adoc[]
-|include::talks/panel/vandermeer-dsom-2006.adoc[]
-|include::talks/panel/vandermeer-ssmo-2007.adoc[]
-|include::talks/panel/vandermeer-im-2013.adoc[]
-|include::talks/panel/vandermeer-im-2015.adoc[]
-|===
-
-=== Tutorial
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::talks/tutorial/covaci-nec-1998.adoc[]
-|include::talks/tutorial/covaci-nec-1999.adoc[]
-|include::talks/tutorial/vandermeer-isads-1999.adoc[]
-|include::talks/tutorial/vandermeer-proms-2000.adoc[]
-|include::talks/tutorial/vandermeer-ict-2001.adoc[]
-|include::talks/tutorial/fleck-tmf-2006-a.adoc[]
-|include::talks/tutorial/fleck-tmf-2006-b.adoc[]
-|include::talks/tutorial/vandermeer-fame_arch-2009.adoc[]
-|include::talks/tutorial/ethirajulu-ons-2018.adoc[]
-|===
-
-=== Presentation
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::talks/presentation/vandermeer-tssg_rm-2006.adoc[]
-|include::talks/presentation/vandermeer-tssg_rm-2007.adoc[]
-|include::talks/presentation/vandermeer-tssg_day-2007.adoc[]
-|include::talks/presentation/vandermeer-tssg_cim-2008-a.adoc[]
-|include::talks/presentation/vandermeer-tssg_cim-2008-b.adoc[]
-|include::talks/presentation/vandermeer-tssg_day-2008.adoc[]
-|include::talks/presentation/vandermeer-tssg_rm-2009.adoc[]
-|include::talks/presentation/vandermeer-ieee_sdn-2016.adoc[]
-|include::talks/presentation/vandermeer-nmrg-2018.adoc[]
-|include::talks/presentation/vandermeer-rina-2018.adoc[]
-|===
-
-
-=== in Proceedings 1990
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::inproceedings/1990/pfeifer-africom-1998.adoc[]
-|include::inproceedings/1990/vandermeer-isads-1999.adoc[]
-|include::inproceedings/1990/vandermeer-huc-1999.adoc[]
-|include::inproceedings/1990/arbanowski-iscc-1999.adoc[]
-|include::inproceedings/1990/vandermeer-comcon-1999.adoc[]
-|===
-
-
-=== in Proceedings 2000
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::inproceedings/2000/vandermeer-in-2000.adoc[]
-|include::inproceedings/2000/vandermeer-smartnet-2000.adoc[]
-|include::inproceedings/2000/arbanowski-smartnet-2000.adoc[]
-|include::inproceedings/2000/vandermeer-proms-2000.adoc[]
-|include::inproceedings/2000/arbanowski-wuc-2000.adoc[]
-|===
-
-
-=== in Proceedings 2001
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::inproceedings/2000/vandermeer-ict-2001.adoc[]
-|include::inproceedings/2000/vandermeer-in-2001.adoc[]
-|===
-
-
-=== in Proceedings 2003
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::inproceedings/2000/oconnor-isict-2003.adoc[]
-|include::inproceedings/2000/barrett-itsrs-2003.adoc[]
-|include::inproceedings/2000/vandermeer-mucs-2003-a.adoc[]
-|include::inproceedings/2000/vandermeer-mucs-2003-b.adoc[]
-|===
-
-
-=== in Proceedings 2004
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::inproceedings/2000/vandermeer-echallenges-2004.adoc[]
-|include::inproceedings/2000/ghamri-doudane-hpovua-2004.adoc[]
-|include::inproceedings/2000/barrett-mucs-2004.adoc[]
-|===
-
-
-=== in Proceedings 2005
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::inproceedings/2000/foley-echallenges-2005.adoc[]
-|include::inproceedings/2000/osmani-mhci-2005.adoc[]
-|include::inproceedings/2000/osmani-cis-2005.adoc[]
-|include::inproceedings/2000/white-ie-2005.adoc[]
-|include::inproceedings/2000/vandermeer-hpovua-2005.adoc[]
-|include::inproceedings/2000/jennings-hpovua-2005.adoc[]
-|include::inproceedings/2000/davy-euro_mgov-2005.adoc[]
-|include::inproceedings/2000/davy-itt-2005.adoc[]
-|include::inproceedings/2000/white-iceis-2005.adoc[]
-|include::inproceedings/2000/lehtihet-mmns-2005.adoc[]
-|include::inproceedings/2000/vandermeer-im-2005.adoc[]
-|include::inproceedings/2000/zach-eurescom-2005.adoc[]
-|===
-
-
-=== in Proceedings 2006
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::inproceedings/2000/vandermeer-bcn-2006.adoc[]
-|include::inproceedings/2000/davy-ccnc-2006.adoc[]
-|include::inproceedings/2000/vandermeer-mace-2006.adoc[]
-|include::inproceedings/2000/carroll-dsom-2006.adoc[]
-|include::inproceedings/2000/carroll-noms-2006.adoc[]
-|include::inproceedings/2000/balasubramaniam-policy-2006.adoc[]
-|include::inproceedings/2000/raymer-policy-2006.adoc[]
-|include::inproceedings/2000/vandermeer-motos3-2006.adoc[]
-|===
-
-
-=== in Proceedings 2007
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::inproceedings/2000/barrett-giis-2007.adoc[]
-|include::inproceedings/2000/barrett-mace-2007.adoc[]
-|include::inproceedings/2000/serrano-aims-2007.adoc[]
-|include::inproceedings/2000/davy-lanoms-2007.adoc[]
-|include::inproceedings/2000/carroll-giis-2007.adoc[]
-|include::inproceedings/2000/morris-ssmo-2007.adoc[]
-|include::inproceedings/2000/vandermeer-mace-2007.adoc[]
-|include::inproceedings/2000/deussen-mace-2007.adoc[]
-|===
-
-
-=== in Proceedings 2008
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::inproceedings/2000/strassner-compsac-2008-a.adoc[]
-|include::inproceedings/2000/strassner-compsac-2008-b.adoc[]
-|include::inproceedings/2000/carroll-compsac-2008.adoc[]
-|include::inproceedings/2000/vandermeer-hpsua-2008.adoc[]
-|include::inproceedings/2000/strassner-noms-2008.adoc[]
-|include::inproceedings/2000/strassner-apnoms-2008.adoc[]
-|include::inproceedings/2000/strassner-icac-2008.adoc[]
-|include::inproceedings/2000/fahy-mace-2008.adoc[]
-|include::inproceedings/2000/raymer-ease-2008.adoc[]
-|include::inproceedings/2000/schmutzler-ehealth-2008.adoc[]
-|===
-
-
-=== in Proceedings 2009
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::inproceedings/2000/serrano-atc-2009.adoc[]
-|include::inproceedings/2000/strassner-icumt-2009.adoc[]
-|include::inproceedings/2000/strassner-mace-2009.adoc[]
-|include::inproceedings/2000/vandermeer-ease-2009-a.adoc[]
-|include::inproceedings/2000/vandermeer-ease-2009-b.adoc[]
-|include::inproceedings/2000/strassner-echallenges-2009.adoc[]
-|include::inproceedings/2000/strassner-icufn-2009.adoc[]
-|include::inproceedings/2000/strassner-icfn-2009.adoc[]
-|include::inproceedings/2000/jennings-im-2009.adoc[]
-|===
-
-
-=== in Proceedings 2010
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::inproceedings/2010/vandermeer-icufn-2010.adoc[]
-|include::inproceedings/2010/strassner-percom-2010.adoc[]
-|include::inproceedings/2010/latré-noms-2010.adoc[]
-|include::inproceedings/2010/serrano-noms-2010.adoc[]
-|include::inproceedings/2010/phelan-mace-2010.adoc[]
-|include::inproceedings/2010/boudjemil-uksim-2010.adoc[]
-|===
-
-
-=== in Proceedings 2011
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::inproceedings/2010/rana-wocn-2011.adoc[]
-|include::inproceedings/2010/keeney-im-2011.adoc[]
-|===
-
-
-=== in Proceedings 2013
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::inproceedings/2010/keeney-im-2013.adoc[]
-|include::inproceedings/2010/dawar-itt-2013.adoc[]
-|include::inproceedings/2010/dawar-aims-2013.adoc[]
-|include::inproceedings/2010/dawar-monami-2013.adoc[]
-|===
-
-
-=== in Proceedings 2014
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::inproceedings/2010/zaman-noms-2014.adoc[]
-|include::inproceedings/2010/keeney-cnsm-2014.adoc[]
-|include::inproceedings/2010/yuan-percom-2014.adoc[]
-|===
-
-
-=== in Proceedings 2015
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::inproceedings/2010/vandermeer-cnsm-2015.adoc[]
-|include::inproceedings/2010/robitzsch-im-2015.adoc[]
-|include::inproceedings/2010/zaman-im-2015.adoc[]
-|===
-
-
-=== in Proceedings 2016
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::inproceedings/2010/fallon-noms-2016.adoc[]
-|include::inproceedings/2010/bondkovskii-noms-2016.adoc[]
-|include::inproceedings/2010/grasa-tnc-2016.adoc[]
-|===
-
-
-=== in Proceedings 2017
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::inproceedings/2010/fallon-im-2017-a.adoc[]
-|include::inproceedings/2010/fallon-im-2017-b.adoc[]
-|include::inproceedings/2010/grasa-nfvsdn-2017.adoc[]
-|===
-
-
-=== in Proceedings 2018
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::inproceedings/2010/grasa-wcnc-2018.adoc[]
-|include::inproceedings/2010/mcnamara-noms-2018.adoc[]
-|include::inproceedings/2010/vandermeer-noms-2018-a.adoc[]
-|include::inproceedings/2010/vandermeer-noms-2018-b.adoc[]
-|include::inproceedings/2010/vandermeer-noms-2018-c.adoc[]
-|===
-
-
-=== Standards / SDO
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::standard/ietf/strassner-supa-2017.adoc[]
-|include::standard/tmf/tmf053b-2006.adoc[]
-|include::standard/tmf/tmf053-2006.adoc[]
-|include::standard/tmf/tmf053-2005.adoc[]
-|===
-
-
-=== Patents
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::patent/wo/wo2018024348.adoc[]
-|include::patent/us/us20180152347.adoc[]
-|include::patent/us/us20170250868.adoc[]
-|include::patent/wo/wo2013149870.adoc[]
-|===
-
-
-=== Project Reports - iPCSS
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::report/ipcss/ipcss-0-1995.adoc[]
-|include::report/ipcss/ipcss-1-1996.adoc[]
-|include::report/ipcss/ipcss-2-1997.adoc[]
-|include::report/ipcss/ipcss-3-1997.adoc[]
-|include::report/ipcss/ipcss-4-1997.adoc[]
-|include::report/ipcss/ipcss-5-1998.adoc[]
-|===
-
-
-=== Project Reports - AlbatrOSS
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::report/albatross/albatross-d3-2002.adoc[]
-|===
-
-
-=== Project Reports - M-Zones
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::report/m-zones/m-zones-d00-2003.adoc[]
-|include::report/m-zones/m-zones-d11-2003.adoc[]
-|include::report/m-zones/m-zones-d234-1-2003.adoc[]
-|include::report/m-zones/m-zones-d234-2-2003.adoc[]
-|include::report/m-zones/m-zones-d01-2004.adoc[]
-|include::report/m-zones/m-zones-d33-2004.adoc[]
-|include::report/m-zones/m-zones-d234-4-2004.adoc[]
-|include::report/m-zones/m-zones-d51-2005.adoc[]
-|include::report/m-zones/m-zones-d52-2005.adoc[]
-|===
-
-
-=== P1855
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::report/p1855/p1855-d1-2009.adoc[]
-|include::report/p1855/p1855-d2-2009.adoc[]
-|===
-
-
-=== Project Reports - AMCNS
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::report/amcns/amcns-2006-a.adoc[]
-|include::report/amcns/amcns-2006-b.adoc[]
-|include::report/amcns/amcns-2008.adoc[]
-|include::report/amcns/amcns-2009.adoc[]
-|include::report/amcns/amcns-2010.adoc[]
-|===
-
-
-=== Project Reports - FAME
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::report/fame/fame-y1-2009.adoc[]
-|include::report/fame/fame-d21-2010.adoc[]
-|include::report/fame/fame-d22-2011.adoc[]
-|include::report/fame/fame-y2-2011.adoc[]
-|===
-
-
-=== Project Reports - PRISTINE
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::report/pristine/pristine-d51-2014.adoc[]
-|include::report/pristine/pristine-d52-2014.adoc[]
-|include::report/pristine/pristine-d53-2015.adoc[]
-|include::report/pristine/pristine-d54-2016.adoc[]
-|===
-
-
-=== Project Reports - ARCFIRE
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::report/arcfire/arcfire-d21-2016.adoc[]
-|include::report/arcfire/arcfire-d22-2017.adoc[]
-|include::report/arcfire/arcfire-d31-2017.adoc[]
-|include::report/arcfire/arcfire-d43-2017.adoc[]
-|===
+include::{vdmsite-lib-home}/vdm/thesis.adoc[]
+
+include::{vdmsite-lib-home}/vdm/collection.adoc[]
+
+include::{vdmsite-lib-home}/vdm/proceedings.adoc[]
+
+include::{vdmsite-lib-home}/vdm/in-book.adoc[]
+
+include::{vdmsite-lib-home}/vdm/articles.adoc[]
+
+
+include::{vdmsite-lib-home}/vdm/keynote.adoc[]
+
+include::{vdmsite-lib-home}/vdm/invited-talk.adoc[]
+
+include::{vdmsite-lib-home}/vdm/panel.adoc[]
+
+include::{vdmsite-lib-home}/vdm/tutorial.adoc[]
+
+include::{vdmsite-lib-home}/vdm/presentation.adoc[]
+
+
+
+
+=== in Proceedings
+
+include::{vdmsite-lib-home}/vdm/in-proceedings-1990.adoc[leveloffset=+1]
+
+include::{vdmsite-lib-home}/vdm/in-proceedings-2000.adoc[leveloffset=+1]
+include::{vdmsite-lib-home}/vdm/in-proceedings-2001.adoc[leveloffset=+1]
+include::{vdmsite-lib-home}/vdm/in-proceedings-2003.adoc[leveloffset=+1]
+include::{vdmsite-lib-home}/vdm/in-proceedings-2004.adoc[leveloffset=+1]
+include::{vdmsite-lib-home}/vdm/in-proceedings-2005.adoc[leveloffset=+1]
+include::{vdmsite-lib-home}/vdm/in-proceedings-2006.adoc[leveloffset=+1]
+include::{vdmsite-lib-home}/vdm/in-proceedings-2007.adoc[leveloffset=+1]
+include::{vdmsite-lib-home}/vdm/in-proceedings-2008.adoc[leveloffset=+1]
+include::{vdmsite-lib-home}/vdm/in-proceedings-2009.adoc[leveloffset=+1]
+
+include::{vdmsite-lib-home}/vdm/in-proceedings-2010.adoc[leveloffset=+1]
+include::{vdmsite-lib-home}/vdm/in-proceedings-2011.adoc[leveloffset=+1]
+include::{vdmsite-lib-home}/vdm/in-proceedings-2013.adoc[leveloffset=+1]
+include::{vdmsite-lib-home}/vdm/in-proceedings-2014.adoc[leveloffset=+1]
+include::{vdmsite-lib-home}/vdm/in-proceedings-2015.adoc[leveloffset=+1]
+include::{vdmsite-lib-home}/vdm/in-proceedings-2016.adoc[leveloffset=+1]
+include::{vdmsite-lib-home}/vdm/in-proceedings-2017.adoc[leveloffset=+1]
+include::{vdmsite-lib-home}/vdm/in-proceedings-2018.adoc[leveloffset=+1]
+
+
+include::{vdmsite-lib-home}/vdm/standards.adoc[]
+
+include::{vdmsite-lib-home}/vdm/patents.adoc[]
+
+
+
+=== Project Reports
+
+include::{vdmsite-lib-home}/vdm/project-report-ipcss.adoc[leveloffset=+1]
+
+include::{vdmsite-lib-home}/vdm/project-report-albatross.adoc[leveloffset=+1]
+
+include::{vdmsite-lib-home}/vdm/project-report-m-zones.adoc[leveloffset=+1]
+
+include::{vdmsite-lib-home}/vdm/project-report-p1855.adoc[leveloffset=+1]
+
+include::{vdmsite-lib-home}/vdm/project-report-amcns.adoc[leveloffset=+1]
+
+include::{vdmsite-lib-home}/vdm/project-report-fame.adoc[leveloffset=+1]
+
+include::{vdmsite-lib-home}/vdm/project-report-pristine.adoc[leveloffset=+1]
+
+include::{vdmsite-lib-home}/vdm/project-report-arcfire.adoc[leveloffset=+1]
+
 

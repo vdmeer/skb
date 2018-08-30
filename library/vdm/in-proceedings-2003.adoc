@@ -1,0 +1,10 @@
+=== 2003
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::{vdmsite-lib-home}/inproceedings/2000/oconnor-isict-2003.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/barrett-itsrs-2003.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/vandermeer-mucs-2003-a.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/vandermeer-mucs-2003-b.adoc[]
+|===
+
+

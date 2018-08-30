@@ -1,0 +1,16 @@
+=== 2008
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::{vdmsite-lib-home}/inproceedings/2000/strassner-compsac-2008-a.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/strassner-compsac-2008-b.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/carroll-compsac-2008.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/vandermeer-hpsua-2008.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/strassner-noms-2008.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/strassner-apnoms-2008.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/strassner-icac-2008.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/fahy-mace-2008.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/raymer-ease-2008.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/schmutzler-ehealth-2008.adoc[]
+|===
+
+

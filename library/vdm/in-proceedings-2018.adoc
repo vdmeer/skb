@@ -1,0 +1,11 @@
+=== 2018
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::{vdmsite-lib-home}/inproceedings/2010/grasa-wcnc-2018.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2010/mcnamara-noms-2018.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2010/vandermeer-noms-2018-a.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2010/vandermeer-noms-2018-b.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2010/vandermeer-noms-2018-c.adoc[]
+|===
+
+

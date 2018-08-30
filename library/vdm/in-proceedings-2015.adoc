@@ -1,0 +1,9 @@
+=== 2015
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::{vdmsite-lib-home}/inproceedings/2010/vandermeer-cnsm-2015.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2010/robitzsch-im-2015.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2010/zaman-im-2015.adoc[]
+|===
+
+

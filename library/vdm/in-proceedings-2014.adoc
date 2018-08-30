@@ -1,0 +1,9 @@
+=== 2014
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::{vdmsite-lib-home}/inproceedings/2010/zaman-noms-2014.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2010/keeney-cnsm-2014.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2010/yuan-percom-2014.adoc[]
+|===
+
+

@@ -1,0 +1,9 @@
+=== Keynote
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::{vdmsite-lib-home}/talks/keynote/vandermeer-monami-2012.adoc[]
+|include::{vdmsite-lib-home}/talks/keynote/vandermeer-noms-2018.adoc[]
+|include::{vdmsite-lib-home}/talks/keynote/vandermeer-5gman-2018.adoc[]
+|===
+
+

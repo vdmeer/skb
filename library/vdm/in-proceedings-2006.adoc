@@ -1,0 +1,14 @@
+=== 2006
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::{vdmsite-lib-home}/inproceedings/2000/vandermeer-bcn-2006.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/davy-ccnc-2006.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/vandermeer-mace-2006.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/carroll-dsom-2006.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/carroll-noms-2006.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/balasubramaniam-policy-2006.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/raymer-policy-2006.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/vandermeer-motos3-2006.adoc[]
+|===
+
+

@@ -1,0 +1,9 @@
+=== 2017
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::{vdmsite-lib-home}/inproceedings/2010/fallon-im-2017-a.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2010/fallon-im-2017-b.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2010/grasa-nfvsdn-2017.adoc[]
+|===
+
+

@@ -1,0 +1,11 @@
+=== 1998/99
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::{vdmsite-lib-home}/inproceedings/1990/pfeifer-africom-1998.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/1990/vandermeer-isads-1999.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/1990/vandermeer-huc-1999.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/1990/arbanowski-iscc-1999.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/1990/vandermeer-comcon-1999.adoc[]
+|===
+
+

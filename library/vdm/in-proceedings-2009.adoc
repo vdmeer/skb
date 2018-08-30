@@ -1,0 +1,15 @@
+=== 2009
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::{vdmsite-lib-home}/inproceedings/2000/serrano-atc-2009.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/strassner-icumt-2009.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/strassner-mace-2009.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/vandermeer-ease-2009-a.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/vandermeer-ease-2009-b.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/strassner-echallenges-2009.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/strassner-icufn-2009.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/strassner-icfn-2009.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/jennings-im-2009.adoc[]
+|===
+
+

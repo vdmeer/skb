@@ -47,21 +47,21 @@ Talks are a bit different, here I separate keynotes from tutorials, invited talk
 
 [grid=rows, frame=none, %autowidth.stretch]
 |===
-| `article.adoc`  | (journal) articles | link:https://vdmeer.github.io/library/article.html[GH Pages] | 
-| `book.adoc`  | books | link:https://vdmeer.github.io/library/book.html[GH Pages] | 
-| `collection.adoc`  | collections, similar to proceedings | link:https://vdmeer.github.io/library/collection.html[GH Pages] | 
-| `inbook.adoc`  | book chapters | link:https://vdmeer.github.io/library/inbook.html[GH Pages] | 
-| `inproceedings.adoc`  | conference and workshop papers | link:https://vdmeer.github.io/library/inproceedings.html[GH Pages] | 
-| `masterthesis.adoc`  | thesis, M.Sc. and Diplomarbeiten | link:https://vdmeer.github.io/library/masterthesis.html[GH Pages] | 
-| `misc.adoc`  | items that don't fit anywhere else | link:https://vdmeer.github.io/library/misc.html[GH Pages] | 
-| `online.adoc`  | online publications | link:https://vdmeer.github.io/library/online.html[GH Pages] | 
-| `patent.adoc`  | patents | link:https://vdmeer.github.io/library/patent.html[GH Pages] | 
-| `phdthesis.adoc`  | thesis, Ph.D. | link:https://vdmeer.github.io/library/phdthesis.html[GH Pages] | 
-| `proceedings.adoc`  | conference proceedings | link:https://vdmeer.github.io/library/proceedings.html[GH Pages] | 
-| `report.adoc`  | technical and project reports | link:https://vdmeer.github.io/library/report.html[GH Pages] | 
-| `standard.adoc`  | standards and SDO publications | link:https://vdmeer.github.io/library/standard.html[GH Pages] | 
-| `talks.adoc`  | keynotes, tutorials, invited talks, presentations | link:https://vdmeer.github.io/library/talks.html[GH Pages] | 
-| `unpublished.adoc`  | unpublished or not formally published work | link:https://vdmeer.github.io/library/unpublished.html[GH Pages] | 
+| `article.adoc`        | (journal) articles                                    | link:https://vdmeer.github.io/library/article.html[GH Pages]
+| `book.adoc`           | books                                                 | link:https://vdmeer.github.io/library/book.html[GH Pages]
+| `collection.adoc`     | collections, similar to proceedings                   | link:https://vdmeer.github.io/library/collection.html[GH Pages]
+| `inbook.adoc`         | book chapters                                         | link:https://vdmeer.github.io/library/inbook.html[GH Pages]
+| `inproceedings.adoc`  | conference and workshop papers                        | link:https://vdmeer.github.io/library/inproceedings.html[GH Pages]
+| `masterthesis.adoc`   | thesis, M.Sc. and Diplomarbeiten                      | link:https://vdmeer.github.io/library/masterthesis.html[GH Pages]
+| `misc.adoc`           | items that don't fit anywhere else                    | link:https://vdmeer.github.io/library/misc.html[GH Pages]
+| `online.adoc`         | online publications                                   | link:https://vdmeer.github.io/library/online.html[GH Pages]
+| `patent.adoc`         | patents                                               | link:https://vdmeer.github.io/library/patent.html[GH Pages]
+| `phdthesis.adoc`      | thesis, Ph.D.                                         | link:https://vdmeer.github.io/library/phdthesis.html[GH Pages]
+| `proceedings.adoc`    | conference proceedings                                | link:https://vdmeer.github.io/library/proceedings.html[GH Pages]
+| `report.adoc`         | technical and project reports                         | link:https://vdmeer.github.io/library/report.html[GH Pages]
+| `standard.adoc`       | standards and SDO publications                        | link:https://vdmeer.github.io/library/standard.html[GH Pages]
+| `talks.adoc`          | keynotes, tutorials, invited talks, presentations     | link:https://vdmeer.github.io/library/talks.html[GH Pages]
+| `unpublished.adoc`    | unpublished or not formally published work            | link:https://vdmeer.github.io/library/unpublished.html[GH Pages]
 |===
 
 

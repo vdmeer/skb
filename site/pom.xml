@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>de.vandermeer</groupId>
+    <artifactId>vdm-site</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+    <name>${project.artifactId}</name>
+    <url>${vdm.site.prefix}</url>
+    <description>Site and Site Parent for SKB projects</description>
+    <inceptionYear>2018</inceptionYear>
+
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.resources.sourceEncoding>UTF-8</project.resources.sourceEncoding>
+        <encoding>UTF-8</encoding>
+        <file.encoding>UTF-8</file.encoding>
+        <vdm.site.prefix>https://www.vandermeer.de/</vdm.site.prefix>
+
+        <!-- Properties for ASCIIDOC documents and site documentation -->
+        <release-version>${project.version}</release-version>
+    </properties>
+
+    <distributionManagement>
+        <site>
+            <id>${project.artifactId}-site</id>
+            <url>${project.url}</url>
+        </site>
+    </distributionManagement>
+
+    <dependencies>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.commonjava.maven.plugins</groupId>
+                <artifactId>directory-maven-plugin</artifactId>
+                <version>0.2</version>
+                <executions>
+                    <execution>
+                        <id>directories</id>
+                        <goals>
+                            <goal>directory-of</goal>
+                        </goals>
+                        <phase>initialize</phase>
+                        <configuration>
+                            <property>vdm.basedir</property>
+                            <project>
+                                <groupId>de.vandermeer</groupId>
+                                <artifactId>vdm-site</artifactId>
+                            </project>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.2</version>
+                <configuration>
+                    <source>${maven.compiler.source}</source>
+                    <target>${maven.compiler.target}</target>
+                    <optimize>true</optimize>
+                    <encoding>${project.build.sourceEncoding}</encoding>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>2.5</version>
+                <configuration>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
+                    <preparationGoals>clean install</preparationGoals>
+                    <arguments>-DupdateReleaseInfo -Dvg.local=false</arguments>
+                    <mavenExecutorId>forked-path</mavenExecutorId>
+                    <goals>install</goals>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <profiles>
+        <profile>
+            <id>vdmSite</id>
+            <activation>
+                <property>
+                    <name>vdmSite</name>
+                </property>
+            </activation>
+            <properties>
+                <!-- needed to add this to avoid slow site creation due to many dead repos in some configuration see: https://stackoverflow.com/questions/26144541/why-am-i-getting-maven-error-unable-to-determine-if-resource-x-exists-in-http
+                    see: https://stackoverflow.com/questions/26144541/why-am-i-getting-maven-error-unable-to-determine-if-resource-x-exists-in-http/35673586 see: https://whatiscomingtomyhead.wordpress.com/2011/04/20/if-your-maven-site-build-is-too-slow/ -->
+                <dependency.locations.enabled>false</dependency.locations.enabled>
+                <vdmsite-lib-home>${project.basedir}/../library</vdmsite-lib-home>
+            </properties>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-site-plugin</artifactId>
+                        <version>3.5</version>
+                        <configuration>
+                            <stagingDirectory>${vdm.basedir}/target/vdm-site</stagingDirectory>
+                            <asciidoc>
+                                <embedAssets>true</embedAssets>
+                                <attributes>
+                                    <source-highlighter>coderay</source-highlighter>
+                                    <coderay-css>style</coderay-css>
+                                    <imagesdir>images</imagesdir>
+                                </attributes>
+                            </asciidoc>
+                            <moduleExcludes>
+                                <asciidoc>**/_*.adoc</asciidoc>
+                            </moduleExcludes>
+                        </configuration>
+                        <dependencies>
+                            <dependency>
+                                <groupId>org.apache.maven.doxia</groupId>
+                                <artifactId>doxia-site-renderer</artifactId>
+                                <version>1.7</version>
+                            </dependency>
+                            <dependency>
+                                <groupId>org.asciidoctor</groupId>
+                                <artifactId>asciidoctor-maven-plugin</artifactId>
+                                <version>1.5.6</version>
+                            </dependency>
+                        </dependencies>
+                    </plugin>
+
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-resources-plugin</artifactId>
+                        <version>3.0.2</version>
+                        <executions>
+<!--
+                            <execution>
+                                <id>copy-site-css</id>
+                                <phase>process-resources</phase>
+                                <goals>
+                                    <goal>copy-resources</goal>
+                                </goals>
+                                <configuration>
+                                    <resources>
+                                        <resource>
+                                            <directory>src/site/css</directory>
+                                            <includes>
+                                                <include>**/*.css</include>
+                                            </includes>
+                                        </resource>
+                                    </resources>
+                                    <outputDirectory>${project.build.directory}/site/css</outputDirectory>
+                                    <overwrite>true</overwrite>
+                                </configuration>
+                            </execution>
+-->
+<!--
+                            <execution>
+                                <id>copy-site-images</id>
+                                <phase>process-resources</phase>
+                                <goals>
+                                    <goal>copy-resources</goal>
+                                </goals>
+                                <configuration>
+                                    <resources>
+                                        <resource>
+                                            <directory>src/site/images</directory>
+                                            <includes>
+                                                <include>**/*.png</include>
+                                            </includes>
+                                        </resource>
+                                    </resources>
+                                    <outputDirectory>${project.build.directory}/site/images</outputDirectory>
+                                    <overwrite>true</overwrite>
+                                </configuration>
+                            </execution>
+-->
+                            <execution>
+                                <id>copy-asciidoc-generated</id>
+                                <phase>process-resources</phase>
+                                <goals>
+                                    <goal>copy-resources</goal>
+                                </goals>
+                                <configuration>
+                                    <resources>
+                                        <resource>
+                                            <directory>target/generated-docs</directory>
+                                        </resource>
+                                    </resources>
+                                    <outputDirectory>${project.build.directory}/site/docs-vdm</outputDirectory>
+                                </configuration>
+                            </execution>
+
+                        </executions>
+                    </plugin>
+
+                </plugins>
+            </build>
+        </profile>
+
+        <profile>
+            <id>vdmDocs</id>
+            <activation>
+                <property>
+                    <name>vdmDocs</name>
+                </property>
+            </activation>
+            <modules></modules>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.asciidoctor</groupId>
+                        <artifactId>asciidoctor-maven-plugin</artifactId>
+                        <version>1.5.6</version>
+                        <dependencies>
+                            <dependency>
+                                <groupId>org.asciidoctor</groupId>
+                                <artifactId>asciidoctorj-pdf</artifactId>
+                                <version>1.5.0-alpha.16</version>
+                            </dependency>
+                        </dependencies>
+                        <configuration>
+                            <sourceHighlighter>coderay</sourceHighlighter>
+                            <sourceDirectory>src/docs/asciidoc/guides</sourceDirectory>
+                            <preserveDirectories>true</preserveDirectories>
+                            <attributes>
+                                <toc />
+                                <pagenums />
+                                <sectnums />
+                                <linkcss>true</linkcss>
+                                <stylesdir>styles</stylesdir>
+
+                                <!-- Change this to get another style -->
+                                <stylesheet>compass/rocket-panda.css</stylesheet>
+                                <pdf-stylesdir>${project.basedir}/src/docs/asciidoc/resources-pdf/themes</pdf-stylesdir>
+                                <pdf-style>vdm-pdf.yml</pdf-style>
+                                <pdf-fontsdir>${project.basedir}/src/docs/asciidoc/resources-pdf/fonts</pdf-fontsdir>
+
+                                <revnumber>${project.version}</revnumber>
+                                <revdate>${maven.build.timestamp}</revdate>
+                                <organization>${project.organization.name}</organization>
+
+                                <release-version>${project.version}</release-version>
+                            </attributes>
+                        </configuration>
+                        <executions>
+                            <execution>
+                                <id>asciidoc-html-doc</id>
+                                <phase>generate-resources</phase>
+                                <configuration>
+                                    <backend>html</backend>
+                                    <outputDirectory>${project.build.directory}/generated-docs/html</outputDirectory>
+                                    <resources>
+                                        <resource>
+                                            <directory>src/docs/asciidoc/resources</directory>
+                                        </resource>
+                                    </resources>
+                                </configuration>
+                                <goals>
+                                    <goal>process-asciidoc</goal>
+                                </goals>
+                            </execution>
+                            <execution>
+                                <id>asciidoc-pdf-doc</id>
+                                <phase>generate-resources</phase>
+                                <configuration>
+                                    <backend>pdf</backend>
+                                    <outputDirectory>${project.build.directory}/generated-docs/pdf</outputDirectory>
+                                    <imagesDir>${project.basedir}/target/generated-docs/html/images</imagesDir>
+                                </configuration>
+                                <goals>
+                                    <goal>process-asciidoc</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
+
+    <reporting>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-project-info-reports-plugin</artifactId>
+                <version>2.9</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>3.0.0-M1</version>
+                <reportSets>
+                    <reportSet>
+                        <id>default</id>
+                        <reports>
+                            <report>javadoc</report>
+                        </reports>
+                    </reportSet>
+                    <reportSet>
+                        <id>aggregate</id>
+                        <inherited>false</inherited>
+                        <reports>
+                            <report>aggregate</report>
+                        </reports>
+                    </reportSet>
+                </reportSets>
+                <configuration>
+                    <destDir>javadocs</destDir>
+                    <source>${maven.compiler.target}</source>
+                    <encoding>${project.resources.sourceEncoding}</encoding>
+                    <docencoding>${project.resources.sourceEncoding}</docencoding>
+                    <charset>${project.resources.sourceEncoding}</charset>
+                    <!--<aggregate>false</aggregate>-->
+                    <nohelp>true</nohelp>
+                    <header>VDM - ${project.artifactId} ${project.version}</header>
+                    <footer>VDM - ${project.artifactId} ${project.version}</footer>
+                    <doctitle>VDM - ${project.artifactId} ${project.version}</doctitle>
+                    <noqualifier>all</noqualifier>
+                    <detectLinks>false</detectLinks>
+                    <detectJavaApiLink>true</detectJavaApiLink>
+                    <javadocDirectory>${project.basedir}/src/main/javadoc</javadocDirectory>
+                    <docfilessubdirs>true</docfilessubdirs>
+                    <overview>overview.html</overview>
+                    <show>public</show>
+                    <!-- Exclude packages -->
+                    <excludePackageNames></excludePackageNames>
+                </configuration>
+            </plugin>
+        </plugins>
+    </reporting>
+</project>

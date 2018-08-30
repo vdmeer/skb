@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document>
+
+    <properties>
+        <title>Projects: WIT/TSSG</title>
+        <author email="vdmeer dot sven at mykolab dot com">Sven van der Meer</author>
+    </properties>
+
+    <body>
+        <section name="Projects: WIT/TSSG">
+
+            <p>
+                Projects:
+                    <a href="#HEA:_M-Zones">M-Zones</a> ┃
+                    <a href="#EI:_IMPRUVE">IMPRUVE</a> ┃
+                    <a href="#eTEN:_Riser">Riser</a> ┃
+                    <a href="#Celtic:_MADEIRA">MADEIRA</a> ┃
+                    <a href="#EI:_IMAX">IMAX</a> ┃
+                    <a href="#EI:_CICS">CICS</a> ┃
+                    <a href="#SFI:_AMCNS">AMCNS</a> ┃
+                    <a href="#EI:_3DIM">3DIM</a> ┃
+                    <a href="#EI:_GAISS">GAISS</a> ┃
+                    <a href="#EI:_Zimbie">Zimbie</a> ┃
+                    <a href="#HEA:_FutureCom">FutureCom</a> ┃
+                    <a href="#EI:_I-Serv">I-Serv</a> ┃
+                    <a href="#FP7:_AutoI">AutoI</a> ┃
+                    <a href="#EI:_ASyst">ASyst</a> ┃
+                    <a href="#Eurescom:_P1855">P1855</a> ┃
+                    <a href="#SFI:_FAME">FAME</a>
+            </p>
+
+            <subsection name="HEA: M-Zones">
+                <table>
+                <tr>
+                    <td><b>M-Zones</b></td>
+                    <td>Managed Zones (Management of Spart Spaces)</td>
+                    <td>HEA PRTLI Cycle 3</td>
+                </tr>
+                <tr>
+                    <td><b>Links</b>: <a href="http://www.tssg.org/projects/m-zones/">TSSG</a> ┃ <a href="https://web.archive.org/web/*/www.m-zones.org/">Archive.org</a></td>
+                    <td><b>Start</b>: 2002-06, <b>End</b>: 2006-05 (extendend to 2007-05)</td>
+                    <td><b>Budget</b>: €3.4M</td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Description</b><br />
+                        The M-Zones Research Programme plans to develop novel information and communications management technology to support dynamic, integrated management of participants, information appliances, and smart space infrastructure.
+                        The Programme is a multi-disciplinary, inter-institutional research programme that will engage in fundamental research in Management and Control systems for integrating Multiple Smart Spaces.
+                        This research programme advances the existing long established (10 years) research collaboration between the research team leaders at WIT and TCD and also the recently established collaboration between the research groups at WIT and CIT.
+                        The result is a major programme of interdisciplinary research collaboration between the three participating institutions in order to achieve the programme goals.
+                        The technical background and expertise of the participants is ideally suited to achieving the goals set by the M-Zones research programme.
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Partners</b> (all Ireland): WIT/TSSG (Program Leader), TCD, CIT
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Role</b>: Program Manager, WP3 leader
+                    </td>
+                </tr>
+                </table>
+            </subsection>
+
+            <subsection name="EI: IMPRUVE">
+                <table>
+                <tr>
+                    <td><b>IMPRUVE</b></td>
+                    <td>Instant Messaging as a Platform for the Realisation of a true Ubiquitous Computing Environment</td>
+                    <td>Enterprise Ireland</td>
+                </tr>
+                <tr>
+                    <td><b>Link</b>: <a href="https://www.tssg.org/projects/impruve/">TSSG</a></td>
+                    <td><b>Start</b>: 2003-09, <b>End</b>: 2006-03</td>
+                    <td><b>Budget</b>: €348k</td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Description</b><br />
+                        In 2003, 325 million people will use Instant Messaging (IM) applications. IMPRUVE will augment this global IM infrastructure with a platform and a set of adapters to extend its reach. As well as enhancing person-to-person interaction via mediators between the major IM standards, IMPRUVE will implement innovative new technology to facilitate person-to-service and person-to-device interaction. Central to the project will be bridging IM protocols and user interface mechanisms to existing service (SOAP and Web Services) and device (Universal Plug &amp; Play and Bluetooth) standards, operating over existing protocols (IPv4 &amp; IPv6) and wireless (3G, GPRS &amp; WiFi) networks.
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Partners</b> (eTEN): Fullsix, Waterford City Council, Lomme, City of Turin, ICPP, PSI, Aceno<br />
+                        Other Partners: BEA for 3GSM, CTIA Demos
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Role</b>: Co-Lead Researcher
+                    </td>
+                </tr>
+                </table>
+            </subsection>
+
+            <subsection name="eTEN: Riser">
+                <table>
+                <tr>
+                    <td><b>Riser</b></td>
+                    <td>Registry Information Service on European Residents</td>
+                    <td>eTEN</td>
+                </tr>
+                <tr>
+                    <td><b>Links</b>: <a href="https://www.tssg.org/2005/04/first-cross-border-e-government-service-launched/">TSSG</a> ┃ <a href="https://web.archive.org/web/*/www.riser.eu.com/">Archive.org</a> ┃ <a href="http://www.riser.eu.com">Commercial</a></td>
+                    <td><b>Start</b>: 2004-03-01, <b>End</b>: 2005-08-31</td>
+                    <td><b>Budget</b>: €2.1M, EU contribution: €1.06M</td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Description</b><br />
+                        The objective of the proposed Registry Information Service on European Residents (RISER) is, therefore, to create a Trans-European internet service offering official address information to companies and citizens. The service communicates with customers at any location via a secure internet infrastructure based on open standards. It is supplied with data by the local offices in civil registration all over Europe. By providing uniform (though multilingual) access and payment procedures to the customer (thereby shielding them from the intricacies of a diversified field) the service is modelled on the concept of One Stop Government.
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Partners</b>: PSI (Germany), FhG FOKUS (Germany), KDZ (Austria), WIT/TSSG (Ireland), LEA Berlin (Germany), ICCP (Germany), Aram Computer Systems (Poland)
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Role</b>: Proposal (contribution), Researcher (2004)
+                    </td>
+                </tr>
+                </table>
+            </subsection>
+
+            <subsection name="Celtic: MADEIRA">
+                <table>
+                <tr>
+                    <td><b>MADEIRA</b></td>
+                    <td>Network Management based on Distributed Paradigms</td>
+                    <td>EU Celtic Cluster</td>
+                </tr>
+                <tr>
+                    <td><b>Links</b>: <a href="https://www.celticplus.eu/project-madeira/">Celctic Plus</a> ┃ <a href="https://www.tssg.org/2005/07/madeira/">TSSG</a> ┃ <a href="https://web.archive.org/web/*/www.celtic-madeira.org/">Archive.org</a></td>
+                    <td><b>Start</b>: 2004-07-01, <b>End</b>: 2007-06-30</td>
+                    <td><b>Budget</b>: n/a</td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Description</b><br />
+                        The goal of Madeira is to provide novel technologies for a logically meshed Network Management System (NMS) that facillates dynamic behaviour of transient network elements. This will enable self-managed services and network elements of increased scale, heterogeneity and transience thereby reducing OPEX. The aims of the project are to:
+                        <ul>
+                            <li>(a) Provide de-facto standards that allow a high degree of inter-working between the management systems of various network domains. This will be achieved through the specification of architecture for a distributed non-hierarchical NMS.</li>
+                            <li>(b) Provide an advanced computing reference framework to support management operations that are massively distributed in nature, across dynamically forming networks. This will be accomplished by developing a logically meshed peer-to-peer network management computing environment.</li>
+                            <li>(c) Provide a means of rapidly and efficiently describing and programming management operations that form network management applications through new modelling techniques. </li>
+                            <li>(d) Explore and define a new relationship between Configuration and Fault management for transient dynamic network elements For example, concerns would be how to differentiate between fault and normal network behaviour.</li>
+                        </ul>
+                        <br/><br/>
+                        MADEIRA received the Celtic Excellence Award on February 2008.
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Partners</b>: Ericsson (Ireland), Siemens (Austria), BT (UK), TID (Spain), WIT/TSSG (Ireland), UPC (Spain), Ericsson Research (Sweden), GMV Solutions (Spain)
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Role</b>: Principal Investigator<br />
+                        <b>Responsibilities</b>: I was working on the project in 2004 introducing model-driven development to the system architecture. Together with BT, we did demonstrate the usability of employing models to define management semantics and then transform them into code skeletons based. Ericsson and Siemens later used our initial prototype for the Madeira system development.
+                    </td>
+                </tr>
+                </table>
+            </subsection>
+
+            <subsection name="EI: IMAX">
+                <table>
+                <tr>
+                    <td><b>IMAX</b></td>
+                    <td>Instant Messenger Application eXtensions</td>
+                    <td>EI POC (Proof of Concept)</td>
+                </tr>
+                <tr>
+                    <td><b>Link</b>: <a href="https://www.tssg.org/projects/imax/">TSSG</a></td>
+                    <td><b>Start</b>: 2004-10-01, <b>End</b>: 2005-09-30</td>
+                    <td><b>Budget</b>: €97k</td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Description</b><br />
+                        This project is the result of a number of years research by the collaborators and will enhance the state of the art in peer to peer communications by leveraging the knowledge gained on the Instant Messenger (IM) paradigm.  It will achieve this through use of automated contacts/buddies (IMAX Services) that can simply and easily be created and deployed utilising the IMAX System. The IMAX system is a single gateway to all IM clients.  The key focus of this project is the rapid development and deployment of services, making them instantly available to a pre-existing, large and growing market (hundreds of millions of existing IM users).<br /><br />
+                        The IMAX project aims to augment the IM paradigm by introducing automated services that can be controlled and communicated with, utilising the user-to-user (peer-to-peer) interaction channel present today, i.e. standard IM text messages.  This will be achieved through the provision of a set of software components (IMAX System) to facilitate deployment of services, quickly, efficiently and in a uniform manner over the various existing IM services. Facilitating this development and deployment model equips service providers with the tools needed to rapidly deploy their services and make them available to an enormous audience without the need to deploy anything on the IMAX Consumer's machine.
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Partners</b>: WIT/TSSG
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Role</b>: Principal Investigator
+                    </td>
+                </tr>
+                </table>
+            </subsection>
+
+            <subsection name="EI: CICS">
+                <table>
+                <tr>
+                    <td><b>CICS</b></td>
+                    <td>Converged Instant Communication Service</td>
+                    <td>EI IP (Innovation Partnership Programme)</td>
+                </tr>
+                <tr>
+                    <td><b>Link</b>: n/a</td>
+                    <td><b>Start</b>: 2005-01-01, <b>End</b>: 2006-06-30</td>
+                    <td><b>Budget</b>: €170k</td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Description</b><br />
+                        This Innovation Partnership project between Mobile Tornado Ltd.(MT) and the WIT will advance the state of the art in peer-to-peer communications services by leveraging WIT's ground breaking work on Instant Messaging systems and Mobile Tornado's state of the art IPRS Push2Talk service: to create a new category of service called CICS.<br />The resultant Converged Instant Communications Service will be a mobile service that integrates Push2Talk technologies with features traditionally associated with the Instant Messaging world, such as Presence or Presence enabled Address Books and Instant Messaging, as well as providing a gateway for Mobile Tornado's Push2Talk product to communicate with the major Instant Messaging systems available such as MSN, AOL, Yahoo! and ICQ. Furthermore this project will also enable the CICS to interoperate with other types of Push2Talk systems, such as Motorola's Push2Talk products. The CICS service will also have an add-in, which will enable the CICS service to be targeted at the Enterprise market by creating consolidated address and presence information across an organisation.
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Partners</b>: WIT/TSSG (Ireland), Mobile Tornado (UK)
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Role</b>: Principal Investigator
+                    </td>
+                </tr>
+                </table>
+            </subsection>
+
+            <subsection name="SFI: AMCNS">
+                <table>
+                <tr>
+                    <td><b>AMCNS</b></td>
+                    <td>Autonomic Management of Communications Networks and Services</td>
+                    <td>SFI PI Cluster</td>
+                </tr>
+                <tr>
+                    <td><b>Link</b>: <a href="http://www.tssg.org/autonomic-netman/">TSSG</a></td>
+                    <td><b>Start</b>: 2005-02-01, <b>End</b>: 2008-12-31</td>
+                    <td><b>Budget</b>: €2.9M</td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Description</b><br />
+                        This research programme aims at the heart of the problem: the inability of service providers and communications operators to adapt, in a dynamic fashion, their offered services to the changing needs of their customers. This will be achieved by envisaging an Autonomic Communications Environment (ACE), an idealistic service-centric environment exhibiting self-governing behaviour. Within an ACE, services will be created that are self-aware and self-healing. In their deployment, they will be self-adapting, self-optimising and self-configuring, and in operation they will be self-"protecting, self-managing and self-composing. These features enable ACE services to adapt to changing business needs and environmental conditions without manual intervention. The FoA will develop an Autonomic Communications Framework (ACF) at the core of its work programme, whose mission is to support the development of different ACEs targeted at different business needs.<br /><br />
+                        This programme was also known as <i>FOA</i> (Future of Autonomics).
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Partners</b>: WIT/TSSG, Motorola Autonomic Labs (Chicago, USA)
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Role</b>: Senior Investigator, co-Technical Lead<br />
+                        <b>Responsibilities</b>: I was part of the team writing the proposal for this programme and then did lead the technical work on architecture and modelling. This work was done in close cooperation with the Autonomic Labs in Motorola (Chicago). We did organise the exchange of researchers, collaborated on information modelling, did present a developed prototype of an autonomic management system to the Autonomic Labs and intensively worked on standardisation and publications.
+                    </td>
+                </tr>
+                </table>
+            </subsection>
+
+            <subsection name="EI: 3DIM">
+                <table>
+                <tr>
+                    <td><b>3DIM</b></td>
+                    <td>Three Dimensional Instant Messaging</td>
+                    <td>EI CFTD (Commercialisation Fund - Technology Development)</td>
+                </tr>
+                <tr>
+                    <td><b>Link</b>: <a href="http://www.tssg.org/projects/3dim/">TSSG</a></td>
+                    <td><b>Start</b>: 2005-09-01, <b>End</b>: 2008-06-30</td>
+                    <td><b>Budget</b>: €344k</td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Description</b><br />
+                        Three-Dimensional Instant Messaging (3DIM) aims to splice the functionality available in standard Instant Messaging clients (e.g. AOL AIM, MSN Messenger), with standard 3D web technologies (X3D, 3DML, VRML), to create a  mass market technology to facilitate: a) the creation and deployment of interactive 3D environments over IM;  b) the utilisation of instant messaging clients to access these interactive 3D environments and c) the ability to interact with other users and autonomous agents within the 3DIM environments.
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Partners</b>: WIT/TSSG
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Role</b>: Principal Investigator
+                    </td>
+                </tr>
+                </table>
+            </subsection>
+
+            <subsection name="EI: GAISS">
+                <table>
+                <tr>
+                    <td><b>GAISS</b></td>
+                    <td>Geographically Aware Information Support System</td>
+                    <td>EI POC (Proof of Concept)</td>
+                </tr>
+                <tr>
+                    <td><b>Link</b>: <a href="https://www.tssg.org/projects/gaiss/">TSSG</a></td>
+                    <td><b>Start</b>: 2006-10-02, <b>End</b>: 2007-09-28</td>
+                    <td><b>Budget</b>: €80k</td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Description</b><br />
+                        The GAIIS system will aid the need of Mountain Rescue organisations. To ensure the system is fit for purpose, the research team will collaborate with the South East Mountain Rescue Association (SEMRA) at the Requirements, Design and Trial stages, this will provide insight into the real needs of such an organisation. The prototype integrates low-bandwidth radio data communications into an Incident Control Point (ICP) - using integrated decision support software to track the location of rescuers and plan the dispatch of resources (e.g. for the planning of efficient search pattern for a mountain rescue). The current situation that there are GIS systems, there are command and control systems, but there are as yet no systems that integrate the two with the existing radio communications back-channel (built-in to the voice radios that are currently used in these situations). The commercial opportunity is linked to the manufacturers of these radios, who would have an interest in promoting these unused data features, and in the development of a general optimal resource allocation library with wide ranging applications.
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Partners</b>: WIT/TSSG
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Role</b>: Principal Investigator
+                    </td>
+                </tr>
+                </table>
+            </subsection>
+
+            <subsection name="EI: Zimbie">
+                <table>
+                <tr>
+                    <td><b>Zimbie</b></td>
+                    <td>Creation of IM services</td>
+                    <td>EI Commercialisation Plus</td>
+                </tr>
+                <tr>
+                    <td><b>Link</b>: n/a</td>
+                    <td><b>Start</b>: 2007-08-01, <b>End</b>: 2008-02-28</td>
+                    <td><b>Budget</b>: €90k</td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Description</b><br />
+                        Zimbie is a tool that facilitates the creation of IM services. IM services are accessed in the same way as human contacts i.e. through the contacts list. Zimbie allows users to transform their accounts into BOTs and also facilitates `hybrid' mode which means that a user can receive and view messages as normal whilst simultaneously providing automated responses - e.g. a user could set up a hybrid BOT to alert their friends when their web content updates. The user can automatically alert friends via presence and IM alerts when they update their blog or social networking profile for example. This could be applied to a service like Bebo for instance, whereby a user publicises what they are doing automatically via presence e.g. uploading photos, writing blogs, new quiz, etc.
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Partners</b>: WIT/TSSG
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Role</b>: Principal Investigator<br />
+                        <b>Responsibilities</b>: For Zimbie, I was mainly responsible to organise the knowledge transfer from applied research in Instant Messaging services into the project. Esential was to define a requirement set for the IM server implementation, which was intended to be deployed in enterprise networks.
+                    </td>
+                </tr>
+                </table>
+            </subsection>
+
+            <subsection name="HEA: FutureCom">
+                <table>
+                <tr>
+                    <td><b>FutureCom</b></td>
+                    <td>Future of Communications</td>
+                    <td>HEA PRTLI Cycle 4</td>
+                </tr>
+                <tr>
+                    <td><b>Link</b>: <a href="http://futurecomm.tssg.org">TSSG</a> ┃ <a href="https://web.archive.org/web/*/futurecomm.tssg.org/">Archive.org</a></td>
+                    <td><b>Start</b>: 2007-11-01, <b>End</b>: 2010-10-30</td>
+                    <td><b>Budget</b>: €6.5M (recurrent and capital)</td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Description</b><br />
+                        How do we realise future communications services and infrastructure that, whilst reflecting changing individual and societal preferences, can be effectively managed to ensure delivery of critical service features?<br /><br />
+                        We adopt an inter-disciplinary approach to the specification of artefacts including models, algorithms, processes, methodologies and architectures that collectively constitutes a framework that can guide the realisation of future communications environments. These environments will provide critical societal services, thereby supporting and sustaining interactions between various communities of users. The programme addresses three related research strands: <i>Future Communications Services</i>, <i>Future Communications Networks</i>, and <i>Capturing and Addressing Societal Needs</i>. We now discuss each of these strands in terms of their scope, the medium term research questions they will address, and the role of each partner in addressing these research questions.<br /><br />
+                        Also known as Serving Societies.
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Partners</b> (all Ireland): WIT/TSST, UL, NUI Maynooth (Hamilton Institute and Sociology Department)
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Role</b>: Proposal, Thought Leader for research work<br />
+                        <b>Responsibilities</b>: I was mainly defining the overal scientific workplan and incorporating it into the very large documentation for the proposal. During the initial phase of the project, I was contributing to service management and modelling.
+                    </td>
+                </tr>
+                </table>
+            </subsection>
+
+            <subsection name="EI: I-Serv">
+                <table>
+                <tr>
+                    <td><b>I-Serv</b></td>
+                    <td>A converged communications services framework</td>
+                    <td>EI CFTD (Commercialisation Fund - Technology Development)</td>
+                </tr>
+                <tr>
+                    <td><b>Link</b>: n/a</td>
+                    <td><b>Start</b>: 2007-12-01, <b>End</b>: 2009-11-30</td>
+                    <td><b>Budget</b>: €393k</td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Description</b><br />
+                        iServe undertakes a research and technology development in the domain of converged IP (Internet Protocol) based communications services. The project will implement a converged communications services framework (iServe) which will incorporate a state of the art multi-platform Communicator (InfinitIM). Enabling Communications Service Providers (CSPs) to easily create and deploy next generation communications services. This will be based on the IMS services framework and client that WIT has prototyped for European FP6 projects to provide end to end IMS services from implementation to delivery. The major outputs of the project will be a toolset for the creation of IMS services, a service hosting platform that will become the reference implementation of the SCIM (Service Capability Interaction Manager) module of the 3GPP's IMS Architecture, providing a complete service creation and management capability, a voice and video enabled mobile client and an inline web-based VoIP and IM client.
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Partners</b>: WIT/TSSG
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Role</b>: Principal Investigator<br />
+                        <b>Responsibilities</b>: was participating in the design of the IMS services the project wanted to develop and did consult during the planning phase of the development. This included coordinating the development team and our internal verification and validation team, to produce a feasible development plan. We have managed to develop a number of services, which have been presented on international events such as the Mobile World Congress in Barcelona.
+                    </td>
+                </tr>
+                </table>
+            </subsection>
+
+            <subsection name="FP7: AutoI">
+                <table>
+                <tr>
+                    <td><b>AutoI</b></td>
+                    <td>AUTOnomic Internet</td>
+                    <td>EU Framework 7 STReP</td>
+                </tr>
+                <tr>
+                    <td><b>Link</b>: <a href="http://autoi.tssg.org">TSSG</a> ┃ <a href="https://cordis.europa.eu/project/rcn/85451_en.html">CORDIS</a> ┃ <a href="https://web.archive.org/web/*/www.ist-autoi.eu/">Archive.org</a></td>
+                    <td><b>Start</b>: 2008-01-01, <b>End</b>: 2009-12-31</td>
+                    <td><b>Budget</b>: €3.6M (TSSG: €331k)</td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Description</b><br />
+                        <i>Future Internet services based on autonomic principles</i><br />Networks are becoming service-aware. This implies that all relevant business goals pertaining to a service are fulfilled, and also the network resources are used optimally. As a consequence the network's complexity grows with service abundance placing new requirements on network control and management as well as on Internet network resource usage. The Autonomic Internet (AutoI) research project aspires to find a solution for future Internet based on autonomic principles. It will facilitate a transition from a service agnostic Internet to service aware network resources by creating a self-managing virtual resource overlay that can span across heterogeneous networks, supporting service mobility, quality of service and reliability. This self-managed overlay will be based on the businessdriven goals, changes in these goals (service context) and changes in the resource environment (resource context). This will be achieved using network resource virtualization and self-management techniques to describe and control the internal service logic, ontology-based information and data models to facilitate the Internet service deployment in terms of programmable networks facilities supporting NGN. AutoI is aligned with the International Autonomic Communications Forum (ACF).
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Partners</b>: Hitachi Europe (France), WIT/TSSG (Ireland), UCL (UK), UPC (Spain), INRIA (France), University of Passau (Germany), LIP6 (France), Ucopia Comminications (France), University of Patras (Greece), Gingko Networks (France)
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Role</b>: Proposal, Researcher (Modelling)<br />
+                        <b>Responsibilities</b>: I was mainly focused on consulting on the information modelling part of the project. We have used a large information model (DEN-ng) and tailored it to the needs of the project, then integrated virtualisation and context-aware policies into it. I did also consult the development team on the implementation, which was based on an earlier prototype for model-driven network management we had developed in the programme AMCNS.
+                    </td>
+                </tr>
+                </table>
+            </subsection>
+
+            <subsection name="EI: ASyst">
+                <table>
+                <tr>
+                    <td><b>ASyst</b></td>
+                    <td>Autonomic System for Network Management</td>
+                    <td>EI CFTD (Commercialisation Fund - Technology Development)</td>
+                </tr>
+                <tr>
+                    <td><b>Link</b>: <a href="https://www.tssg.org/projects/asyst/">TSSG</a> ┃ <a href="https://web.archive.org/web/*/www.asystnm.com/">Archive.org</a></td>
+                    <td><b>Start</b>: 2008-05-01, <b>End</b>: 2010-01-31</td>
+                    <td><b>Budget</b>: €412k</td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Description</b><br />
+                        The ASYST Autonomic Networking technology development solved the enormous problems experienced by service providers in managing the delivery of video intensive applications over fixed networks. It does this by enabling the network to manage and repair itself in real-time, resulting in less failures, better throughput, and less human intervention. The TSSG undertook basic research in the area of autonomics.
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Partners</b>: WIT/TSSG
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Role</b>: Proposal contributor, Principal Investigator<br />
+                        <b>Responsibilities</b>: I was assisting the project manager in designing the overall system architecture and providing a framework for the modelling part of the autonomic management system. During the development phase, I was consulting the lead developer on tools and processes and helped to define scenarios for the management system. I also engaged in promoting the results of the project with a number of SMEs in Europe.
+                    </td>
+                </tr>
+                </table>
+            </subsection>
+
+            <subsection name="Eurescom: P1855">
+                <table>
+                <tr>
+                    <td><b>P1855</b></td>
+                    <td>Autonomic Computing &amp; Networking – The operators' vision on technologies, opportunities, risks and adoption roadmap</td>
+                    <td>Eurescom Study</td>
+                </tr>
+                <tr>
+                    <td><b>Links</b>: <a href="https://www.eurescom.eu/services/eurescom-study-programme/archive-of-eurescom-studies/studies-launched-in-2008/p1855.html">Eurescom</a> ┃ <a href="https://archive.eurescom.eu/Public/Projects/P1800-series/P1855/default.asp">Eurescom Archive</a></td>
+                    <td><b>Start</b>: 2008-07, <b>End</b>: 2009-02</td>
+                    <td><b>Budget</b>: n/a</td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Description</b><br />
+                        The main objective of the study is to identify autonomics as a disruptive technology and assess its impacts on telcos' business. More specifically, the study can be used:
+                        <ul>
+                            <li>as a pre-study for larger and more concerted initiatives by telcos</li>
+                            <li>lowering the barriers for take up of autonomics by telcos</li>
+                            <li>reducing the cost of interoperation between autonomics infrastructures from different telcos by planning the profiling of standards</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Partners</b>: Orange, Telenor, Eircom (with WIT/TSSG)
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Role</b>: Contributore (as eircom consultant)
+                    </td>
+                </tr>
+                </table>
+            </subsection>
+
+            <subsection name="SFI: FAME">
+                <table>
+                <tr>
+                    <td><b>FAME</b></td>
+                    <td>Federated, Autonomic Management of End-to-end Communication Services</td>
+                    <td>SFI Strategic Research Cluster (SRC)</td>
+                </tr>
+                <tr>
+                    <td><b>Link</b>: <a href="https://www.tssg.org/projects/fame/ ">TSSG</a> ┃ <a href="https://web.archive.org/web/*/www.fame.ie/">Archive.org</a></td>
+                    <td><b>Start</b>: 2009-01-01, <b>End</b>: 2011-12-31</td>
+                    <td><b>Budget</b>: €3.75M (TSSG: €1.5M)</td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Description</b><br />
+                        <p>FAME is a cluster of complementary research groups from Irish academic institutions (WIT, TCD, UCC, NUIM, UCD) addressing the need for federation between different types of networks, (e.g. operators, ISPs, enterprise networks or home area networks), to enable end to end communication services. The cluster is developing federation enabling technologies such as end-to-end performance monitoring, relationship management, capability sharing management, trust management and policy driven self organisation of networks and services.</p>
+                        <p>To effectively deliver and manage end-to-end communications services over an interconnected, but heterogeneous, networking infrastructure, a greater degree of coordination and cooperation is required between communication resources, the software that manages them, and the actors who direct such management. This requires a degree of dynamic interoperability and adaptive behaviour that today's network management and operational support systems, developed for static telecoms value chains, are not able to provide. Current research into autonomic communications and autonomic network management emphasise the automation of decision-making to reduce operational costs of service providers. However, without addressing the highly dynamic and federated nature of modern service provisioning, this research runs the risk of simply replacing today's network management silos with autonomic network silos.</p>
+                        <p>To meet the challenge, the FAME SRC  structures its research into three research strands that collaboratively define solutions that address the challenge in a commercially viable manner, guided by the cluster's industrial partners(Cisco, Ericsson, Alcatel-Lucent, IBM, HP, Telefonica).</p>
+                        <p>The three research strands are designed to foster innovations in the areas identified above, and are: Federated Communications Service Management ('Federation'), Service Monitoring and Configuration ('Autonomic') and Network Infrastructure Coordinated Self-Management ('Management' and 'End-to-End'). These strands were identified from discussions between the researchers and industry practitioners in the consortium, and represent the best opportunities for innovation.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Partners, academic</b> (all Ireland): WIT/TSSG, TCD, UCC, NUIM, UCD
+                        <b>Partners, industrial</b>: Alcatel-Lucent (Ireland), Cisco (Ireland), Ericsson (Ireland), HP (USA), IBM (Ireland), TID (Spain)
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Role</b>: Proposal writer and main editor, Funded Investigator, Programme Manager, Work Package 2 Leader<br />
+                        <b>Responsibilities</b>: I am responsible for coordinating all research activities in research strands (3) and scenarios (4) in cooperation with the strand and scenario leaders. As part of this work, I am also reporting annually to the funding body (SFI) on all activities and achievements. Furthermore, I am leading work package 2 (Architectures, Models and Algorithms), which is providing an analysis of the developed architectures (software and systems), models (UML, ontologies, mathematical and formal) and algorithms (usually for optimising network management processes). My research work in FAME is based on a methodology we have developed at the start of the programme and focuses on building instrumentation for architectural artefacts (policy and contract), which is then used by several sub-projects within the cluster.
+                    </td>
+                </tr>
+                </table>
+            </subsection>
+        </section>
+    </body>
+</document>
+
+

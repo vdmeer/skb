@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document>
+
+    <properties>
+        <title>Teaching - TU Berlin</title>
+        <author email="vdmeer dot sven at mykolab dot com">Sven van der Meer</author>
+    </properties>
+
+    <body>
+        <section name="Teaching - TU Berlin">
+
+            <subsection name="MvS">
+                <table>
+                    <tr>
+                        <th style="white-space:nowrap; font-weight: bold; font-size: 1.25em" colspan="2">Management von verteilten Systemen (MvS, Management of Distributed Systems), Vorlesung (Lecture), TU Berlin</th>
+                    </tr>
+                    <tr>
+                        <td width="50%">
+                            <b>SS 1998</b>, Management von TK Diensten (Management of Telecommunication Services)
+                            <ul>
+                                <li>Internet Management (SNMP, v2, v3, RMON)</li>
+                                <li>OSI Management (X.200, X.500, X.700, CMIP, CMIS)</li>
+                                <li>TMN</li>
+                                <li>Interdomain Management</li>
+                                <li>HP OpenView</li>
+                                <li>ATM Management</li>
+                                <li>CORBA, CORBA-TMN Gateways</li>
+                                <li>TINA Management Concepts</li>
+                                <li>Management with Intelligent Mobile Agents</li>
+                                <li>TMN Fault Management, CORBA Subscription Management, TINA/Agents Configuration Management</li>
+                            </ul>
+                            </td>
+                        <td width="50%">
+                            <b>SS 1999</b>, MvS
+                            <ul>
+                                <li>Internet Management (SNMP, SNMP V2, SNMP V3, RMON)</li>
+                                <li>OSI Management (X.200, X.500, X.700, CMIP, CMIS)</li>
+                                <li>TMN</li>
+                                <li>Interdomain Management</li>
+                                <li>Management Platforms</li>
+                                <li>ATM Management</li>
+                                <li>CORBA, CORBA-TMN Gateways</li>
+                                <li>TINA Management Concepts</li>
+                                <li>Management with Intelligent Mobile Agents</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>SS 2000</b>, MvS
+                            <ul>
+                                <li>Internet Management (SNMPv1, v2, v3)</li>
+                                <li>OSI Management (ITU-T X.200/X.500/X.700)</li>
+                                <li>Telecommunication Management Network (TMN)</li>
+                                <li>ATM Management</li>
+                                <li>TINA Management Concepts</li>
+                                <li>Agents &amp; Active Networks</li>
+                                <li>Autonomous Decentralised Systems</li>
+                            </ul>
+                            </td>
+                        <td>
+                            <b>SS 2001</b>, MvS
+                            <ul>
+                                <li>Internet Management I (SNMPv1, v2, SNMPv3, Examples)</li>
+                                <li>OSI Management (ITU-T X.200/X.500/X.700)</li>
+                                <li>Telecommunication Management Network (TMN)</li>
+                                <li>TMN in ATM, GSM &amp; UMTS</li>
+                                <li>Management with mobile Agents &amp; CORBA &amp; DEN</li>
+                                <li>Development of an (integrated) Middleware and Application Management Architecture</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>SS 2002</b>, MvS
+                            <ul>
+                                <li>Internet Management I (SNMPv1, v2)</li>
+                                <li>Internet Management II (SNMPv3, Examples)</li>
+                                <li>OSI Management (ITU-T X.200/X.500/X.700)</li>
+                                <li>Telecommunication Management Network (TMN)</li>
+                                <li>TMN in ATM, GSM &amp; UMTS</li>
+                                <li>Management with mobile Agents &amp; CORBA</li>
+                                <li>Development of an (integrated) Middleware and Application Management Architecture</li>
+                            </ul>
+                            </td>
+                        <td></td>
+                    </tr>
+                </table>
+            </subsection>
+
+            <subsection name="BB">
+                <table>
+                    <tr>
+                        <th style="white-space:nowrap; font-weight: bold; font-size: 1.25em" colspan="2">Breitband Netztechnologien (BB, Broadband Network Technologies), Vorlesung (Lecture), TU Berlin</th>
+                    </tr>
+                    <tr>
+                        <td width="50%">
+                            <b>SS 1998</b>, BB
+                            <ul>
+                                <li>Introduction (Standard Bodies, Communication Networks, Logical Structure of Networks, Cables, Internetworking, structured Cabling)</li>
+                                <li>DQDB, FDDI, ATM &amp; Legacy Protocols over ATM</li>
+                                <li>Ethernet, 100MB Ethernet, Gigabit Ethernet</li>
+                                <li>Transport Protocols</li>
+                            </ul>
+                        </td>
+                        <td width="50%">
+                            <b>SS 1999</b>, BB
+                            <ul>
+                                <li>Introduction (Standard Bodies, Communication Networks, Logical Structure of Networks, Cables, Internetworking, structured Cabling)</li>
+                                <li>Local Loop (x56, k2, DSL, ISDN, Cable Modem)</li>
+                                <li>DQDB, FDDI, ATM &amp; LPOA</li>
+                                <li>Ethernet, Fast Ethernet, Gigabit Ethernet</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </subsection>
+
+            <subsection name="MCUC">
+                <table>
+                    <tr>
+                        <th style="white-space:nowrap; font-weight: bold; font-size: 1.25em">Mobile Communications and Ubiquitous Computing (MCUC), Vorlesung (Lecture), TU Berlin</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>SS 1999</b>, MCUC
+                            <ul>
+                                <li>Intelligent Networks (Architektur, Standards, Dienste, Evolution, TINA)</li>
+                                <li>UPT, GSM, PSH, CAMEL, UMTS, FPLMTS, IMT2000</li>
+                                <li>Localisation Technologies, PDAs, WinCE, Xerox, AT&amp;T</li>
+                                <li>Mobile IP, Location-aware Applications</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </subsection>
+
+            <subsection name="PCSS">
+                <table>
+                    <tr>
+                        <th style="white-space:nowrap; font-weight: bold; font-size: 1.25em" colspan="2">Personal Communication Support System (PCSS), Projekt (Project), TU Berlin</th>
+                    </tr>
+                    <tr>
+                        <td width="50%">
+                            <b>WS 1997/98</b>, PCSS I
+                            <ul>
+                                <li>Agenten-based Call Management Tools</li>
+                                <li>Virtual Home Environment</li>
+                                <li>Siemens Hicom programming</li>
+                                <li>realisation of TINA service session graph</li>
+                                <li>real-time ORBs (for TINA), secure ORBs</li>
+                                <li>Mobile Guide, interactive information portal with location-aware services</li>
+                                <li>active badges</li>
+                                <li>VISA, java-based multimedia information system</li>
+                                <li>MPEG2 analysis</li>
+                                <li>Electronic Commerce</li>
+                            </ul>
+                            </td>
+                        <td width="50%">
+                            <b>SS 1998</b>, PCSS II
+                            <ul>
+                                <li>CORBA - X.500 Bridge</li>
+                                <li>State of the Art Analyse - Interactive Voice Response</li>
+                                <li>JAVA-Lontalk API f&uuml;r EIRIS IR-Reader</li>
+                                <li>JAVA based Message-Recording-Tool</li>
+                                <li>Framegrabbing with Linux</li>
+                                <li>CSTA interface for Siemens HICOM</li>
+                                <li>Web-Composer for Mobile Guide</li>
+                                <li>Content-Datenbank for Mobile Guide</li>
+                                <li>visualisation of interactions in CORBA systems</li>
+                                <li>agent-based call management tools</li>
+                                <li>Virtual Home Environment</li>
+                                <li>Dynamic CORBA Components</li>
+                                <li>profile administration and tools</li>
+                                <li>agents and intelligent networks</li>
+                                <li>internet push technologies</li>
+                                <li>FIPA and MASIF integration</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </subsection>
+
+            <subsection name="UMS">
+                <table>
+                    <tr>
+                        <th style="white-space:nowrap; font-weight: bold; font-size: 1.25em" colspan="2">Unified Messaging (UMS), Projekt (Project), TU Berlin</th>
+                    </tr>
+                    <tr>
+                        <td width="50%">
+                            <b>WS 1998/99</b>, UMS I
+                            <ul>
+                                <li>Pager &amp; Email - Gateway</li>
+                                <li>Multimedia Store, Active HTML</li>
+                                <li>evaluation of CORBA POA, COM/CORBA integration, request management of CORBA objects</li>
+                                <li>event service, DCOM adapter and ISDN CAPI for Java based middleware</li>
+                                <li>service configuration</li>
+                                <li>agent-based PC management</li>
+                                <li>java-based stand-alone OMG trader</li>
+                                <li>management application for TINA-PSTN IWU</li>
+                                <li>Mobile IP</li>
+                                <li>ORB performance testing</li>
+                            </ul>
+                            </td>
+                        <td width="50%">
+                            <b>SS 1999</b>, UMS II
+                            <ul>
+                                <li>agent-based document search</li>
+                                <li>speech-driven application control</li>
+                                <li>java telephony framework</li>
+                                <li>tool for evaluation of telecommunication performace data</li>
+                                <li>speech-controlled email client</li>
+                                <li>MIB form RoamIn (mobile IP)</li>
+                                <li>IP telephony integration</li>
+                                <li>Call-Logic-Editor for Windows CE</li>
+                                <li>Mobile CORBA Objetcs</li>
+                                <li>Grasshopper versus Voyager: the Competition</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>WS 1999/2000</b>, UMS I
+                            <ul>
+                                <li>Agent-based Whiteboard</li>
+                                <li>UMS Integration in Grasshopper</li>
+                                <li>TINA conform User Agent</li>
+                                <li>Call Logic Editor for WindowsCE or PalmPilot</li>
+                                <li>JTAPI Integration in Grasshopper</li>
+                                <li>WAP services</li>
+                                <li>Agenten based PC-Management</li>
+                                <li>agent-based news service, document search and stock information service</li>
+                                <li>Authentication and Startup APplication (ASAP)</li>
+                                <li>XML basierter Call Logic Editor</li>
+                                <li>IP-Telephony (H.323) Gateway</li>
+                                <li>PABX control</li>
+                                <li>automated speech recognition</li>
+                                <li>Voice over IP: development of a SIPD (SIP Proxy Servers)</li>
+                                <li>GSM Codec in Java</li>
+                                <li>HAVi Messaging Stack, DDI Player/Simulator, UI</li>
+                                <li>PalmORB</li>
+                                <li>Test-Tool for IP Paket Filter</li>
+                                <li>XML DTD f&uuml;r MSC2000 and TTCN-3</li>
+                                <li>CORBA 2.3 Monitor</li>
+                                <li>Ping for CORBA servers</li>
+                            </ul>
+                            </td>
+                        <td>
+                            <b>SS 2000</b>, UMS II
+                            <ul>
+                                <li>UMSpop - POP3 access for UMS</li>
+                                <li>UMS Telephony</li>
+                                <li>speech recognition modul</li>
+                                <li>SimHome - "Smart Home" Simulation</li>
+                                <li>TINY PC</li>
+                                <li>I-centric Services: modelling of human communication patterns</li>
+                                <li>automated processing of rules</li>
+                                <li>XML in complex systems</li>
+                                <li>Resource Configuration</li>
+                                <li>The Brain</li>
+                                <li>Sessions Description QoS for IP-based speech transmission</li>
+                                <li>Wireless Platform Access</li>
+                                <li>MPEG-2 Video Streaming</li>
+                                <li>Open Source Middelware</li>
+                                <li>Ubiquitous Computing</li>
+                                <li>Location-/Device-aware WWW-Browsing</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>WS WS 2000/01</b>, UMS I
+                            <ul>
+                                <li>I-centric Communication System (Firewall Control Protocol, Personal Local Guide, speech technologies, virtual tourist guide, web-based platfrom for open source)</li>
+                                <li>Context-awareness (Open Profiling Framework)</li>
+                                <li>Smart Environments (Ad-Hoc Networking Devices, speech interaction server, TINY PC, WWW-interface for I-Centric Communication System, Smart Devices - dynamic picture frame, Smart devices - i-Button security, Smart devices - Infrared Smart)</li>
+                                <li>Middleware (graphical CORBA-NameServer-Browser in Java, update of replicated CORBA Server, HAVi DDI Interpreter, Middleware Transaction Handling, UPnP access for a smart home)</li>
+                                <li>Mobile Agenten (Flexible-Informations-Convertern (FLINK), Index-Generator for Content Management (IGCM), JTAPI Evalutation, Agent Management System)</li>
+                                <li>evaluation of Java development for Palm-PDA (applications for Pocket-PCs, Service Creation Environment for Mobile Agents, MMS-UMS Interface, Parlay-UMS Interface)</li>
+                                <li>Misc (Media Server, PostgreSQL vs. MySQL)</li>
+                            </ul>
+                            </td>
+                        <td>
+                            <b>SS 2001</b>, UMS II
+                            <ul>
+                                <li>Electronic Program Guide f&uuml;r Palm</li>
+                                <li>UMS WAP Gateway</li>
+                                <li>Speech-Interaction System</li>
+                                <li>Ad-hoc Networking Devices</li>
+                                <li>WAP access for the I-centric System</li>
+                                <li>VHE user and service profiles</li>
+                                <li>TINI: digital picture frame</li>
+                                <li>TINI: Cryptographic iButton</li>
+                                <li>Video on Demand</li>
+                                <li>Webfrotend for HAVi devices</li>
+                                <li>Firewall Control Protocol</li>
+                                <li>Palm control for HAVi devices</li>
+                                <li>SIP ToolBox</li>
+                                <li>Data exchange between TINI and PC over DECT</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>WS WS 2001/02</b>, UMS I
+                            <ul>
+                                <li>Open Services (Message-Viewer for GPS, Instant Messaging Gateway, QoS in the Internet, Internet Speaker, IP Telephony Phonebook, secure IP</li>
+                                <li>Telephony, IP-based Video-Telephony, Evaluation of OSA/PARLAY simulation tools, SIP based Value added service in UMTS network, IP-based Conferencing in UMTS, Voicemail for UMTS, Web Portal Hotline, Web Portal Ressource Distributions)</li>
+                                <li>Context-awareness (visual speech synthesis)</li>
+                                <li>Smart Environments 9DV Code for JMF, PVR with remote access, UPnP Netzwerk, VoIP Server)</li>
+                                <li>WWW Device Capability retrieval (device specific visualisation of XML-Daten)</li>
+                                <li>Components (ORB.NET)</li>
+                                <li>Mobile Agents (e-Government-service with enago Mobile, Java Message Service (JMS) and enago Mobile, Code Repositories for enago, Workflow-Agenten with enago Mobile, FIPA2000-confor Add-Ons for Enago Mobile, evaluation of open source Java patforms)</li>
+                                <li>Misc (IP in Space - TCP/IP in Satellit, mp3 JukeBox)</li>
+                            </ul>
+                            </td>
+                        <td>
+                            <b>SS 2002</b>, UMS II
+                            <ul>
+                                <li>Open Services (Collaborative Enterprising with Web Services, Gateways for modern information services, personalised Weather/News/Stock information service, Multimedia-Converters, Web Services extensions for enago MediaGate, XML - Parlay X extensions for enago MediaGate, PDAs and Digitale Signatur, PDA synchronisation manager, semantic parser for speech recognisiton, terminal-specific content representation and delivery)</li>
+                                <li>Smart Environments (Power-over-LAN, radio and speaker with IP interface, ontologies for service and device descriptions, SDO administration tool, mobile code for SDOs, context server administration tool, dynamic SDO GUI, Havi SDO, WebService SDO, Smart Services)</li>
+                                <li>Components (Mobile Agent platforms - comparision for mobile devices)</li>
+                                <li>Mobile Agents (Grasshopper FIPA extensions, Grasshopper Adaptor for J2ME (MIDP))</li>
+                                <li>Misc (MagicRally, Smartcard Integration for web-based applications, Layer 2 Multimedia Stream Booster)</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </subsection>
+
+        </section>
+    </body>
+</document>

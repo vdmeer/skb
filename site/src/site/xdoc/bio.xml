@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document>
+
+    <properties>
+        <title>Bio</title>
+        <author email="vdmeer dot sven at mykolab dot com">Sven van der Meer</author>
+    </properties>
+
+    <body>
+        <section name="Bio">
+
+Sven received his degrees (Diplom - 1996, PhD - 2002) from Technical University Berlin, Germany. After working at Fraunhofer FOKUS and the Waterford Institute of Technology he joined Ericsson in 2011. Sven is currently a Master Engineer and Team Leader Research. Most of his current time is dedicated to integrating complex event processing with network management, and consequently pushing the boundaries of both of them. Sven is member of IEEE and standing member of IEEE IM and IEEE NOMS programme committees.
+
+            <subsection name="Bio - short">
+<p>
+Sven received his degrees (Diplom - 1996, PhD - 2002) from Technical University Berlin, Germany. After working at Fraunhofer FOKUS and the Waterford Institute of Technology he joined Ericsson in 2011. Sven is currently a Master Engineer and Team Leader Research. Most of his current time is dedicated to integrating complex event processing with network management, and consequently pushing the boundaries of both of them. Sven is member of IEEE and standing member of IEEE IM and IEEE NOMS programme committees.
+</p>
+            </subsection>
+
+            <subsection name="Bio - long">
+      <p>Sven received his Diploma in computer science (M.Sc. in computer science) and his Dr.-Ing. (PhD) from Technical University Berlin (TUB), Germany, in 1996 and 2002 respectively. From 1997 until 2002 he was Research Associate at the department for Open Communication Systems (OKS) at the Institute for Telecommunication System, Faculty IV, Technical University Berlin, and deputy head of the Competence Centre OKS at Fraunhofer FOKUS. He worked in several national and international projects, including 'IN/TMN integration', the TINA auxiliary project 'PCS in TINA' and the IST project AlbatrOSS. Areas of interest covered Unified Messaging, OSS for 3G systems, location-based services, eLearning and middleware and management integration. He lectured at TUB and consulted for IKV++ Technologies AG in Broadband Networks, Management of Distributed Systems, Ubiquitous Computing and Mobile Communications. </p>
+      <p>From November 2002 until November 2011 he was a research fellow at the Telecommunications Software &amp; Systems Group (TSSG) at the Waterford Institute of Technology (WIT) in Waterford, Ireland. He did lead three major research projects (M-Zones, SFI AMCNS, SFI FAME) starting with the management of smart spaces, followed by fundamentals of autonomic networking and finally investigating federated management. During that time, Sven was active in several TM Forum technical teams advancing industry standards for information modeling and technology neutral architectures. He contributed to the SID team and was editor of the TMF053 main architecture document. Sven also developed a new concept for Contracts, resulting in a detailed specification in TMF 053B.</p>
+      <p>In November 2012 Sven joined Ericsson and is currently a Master Engineer working as a Team Leader in Research. The main focus lies on integrating classic network management concepts with other areas, specifically complex event processing, data mining and machine learning. </p>
+      <p>Sven is actively contributing to academic research communities by participating as standing member of Organisation Committees and Technical Programme Committees of a number of conferences (i.e. NOMS, IM, DSOM, MMNS, GIIS). Sven was part of the team that created the International Workshop on Management of Ubiquitous Communications and Services (MUCS) in 2003 and the IEEE International Workshop on Modelling Autonomic Communications Environments (MACE) in 2006. He was co-organiser of MANWEEK 2006 in Dublin and is standing member of the Organisation Committees of MANWEEK. Sven has more than 70 peer-reviewed publications, provided one book chapter, edited four books and given a number of tutorials on conferences and workshops. He is member of the editorial board of Springer/Birkh&auml;user Series on Autonomics.</p>
+      <p>Standardisation is an important aspect of communication technology. Here, Sven is co-chair of the Architecture Expert's Group (AEG) of the Autonomic Communications Forum (ACF), the architecture and modeling teams of the TM Forum and the IFIP TC6 WG6.7 (Smart Networks). In the past he participated in the OMG Telecommunication Task Force and the IEEE SC41 WG 1900.5 (Policy for Cognitive Radio).</p>
+      <p>During his entire career, Sven was actively teaching broadband networks, communications management and advanced technologies on Master and PhD level. In WIT, Sven was driving the creation of a PhD Programme, which was eventually established in 2004. Sven was involved in supervising and mentoring the first three of the PhD students and has been invited to several PhD panels.</p>
+            </subsection>
+
+
+        </section>
+    </body>
+</document>

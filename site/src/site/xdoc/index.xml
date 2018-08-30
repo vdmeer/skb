@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document>
+
+    <properties>
+        <title>Sven</title>
+        <author email="vdmeer dot sven at mykolab dot com">Sven van der Meer</author>
+    </properties>
+
+    <body>
+        <section name="Guten Tag, Welcome!">
+            <p class="narrow large">
+                My name is Sven van der Meer.
+                I am a scientist, researcher, and developer looking at (network and service) management from theory to execution.
+                From a management perspective, I am interested in architectures, patterns, domain-driven design, languages, autonomic networking, control loops, analytics, and context-awareness.
+            </p>
+
+            <subsection name="Science and Research">
+                <p class="narrow large">
+                    Since 2011 I work as a master engineer and team leader in the Ericsson Network Management Lab (NM-Lab), based on Athlone, Ireland.
+                    In the NM-Lab, we started designing a closed control loop pattern called Sahara, which resulted into a major contribution to Ericsson's COMPA architecture.
+                    We then moved to adaptive policies; a topic I've been working on for more than 10 years now.
+                    We developed a Unifying Policy Theory (UPT) and did build an Adaptive Policy EXecution (APEX) engine.
+                    The APEX software is originally published on Github.
+                    In this context, my team is heavily involved in the Linux Foundation project ONAP, mainly the Policy Framework.
+                    APEX is now part of the ONAP Policy Framework.
+                </p>
+
+                <p class="narrow large">
+                    I am also involved in advancing RINA, the Recursive InterNetwokring architecture.
+                    Here, I contribute to the Pouzin Society, mainly via European projects (FP7 PRISTINE, H2020 ARCFIRE).
+                    We gained significant knowledge from the scientific, research, and development activities in the RINA community.
+                    Our particular interest is in advancing network management, as in decreasing variance and increasing invariance.
+                    This work also informs the product road map of Ericsson network management product my team is contributing to.
+                </p>
+
+                <p class="narrow large">
+                    Science and research is nothing without teaching.
+                    Unfortunately, my industry position does not allow me to spend much time on formal teaching.
+                    I did teach courses at TU Berlin and WIT, on management of distributed systems, broadband networks, and ubiquitous computing.
+                    Supervising was also a large part of both jobs.
+                    These days, I use tutorials and presentations for teaching and education.
+                    I can't say that I am an educator, but I certainly aspire to be one.
+                </p>
+            </subsection>
+
+            <subsection name="in real Life">
+                <p class="narrow large">
+                    Unfortunately, I am not much of an artist; neither in painting, music, fashion, gardening, nor cooking.
+                    I have developed a personal style for technical drawings, that's as much as I was able to develop some artistic capabilities.
+                    Though I can appreciate paintings being particularly fascinated by 17th century Dutch artist.
+                    Vermeer van Delft being my favourite painter.
+                    Have you seen Tim Jenison trying to understand how to paint like Vermeer?
+                    This is a captivating documentary about the process he went throug with some spectacular results.
+                    You can find the description at the movie database <a href="https://www.themoviedb.org/movie/212063-tim-s-vermeer?language=en-US">here</a>.
+                </p>
+
+                <h5 class="welcome">Gardening</h5>
+                <p class="narrow large">
+                    Gardening is part of family life today, because when we bought the house it was to a large extend for the garden.
+                    Great size and setting and essentially a green lawn with lots of potential to develop an actual garden.
+                    Being the help and the trainee, I started taking measurements, drawing some layout, and window-shop in every garden centre within a 1-day-driving-range.
+                    That was easy.
+                    Then came the digging, which turned out to be quite tough due to tons of stones.
+                    And then came the larger projects, presented to me over the years, none of which I never would have imagined seeing myself doing.
+                </p>
+
+                <p class="narrow large">
+                    Now we have vegetable plots build as raised beds (initially 3, 4.2m x 0.9m, then 3 smaller ones 1m<sup>2</sup> each).
+                    And a pond (roughly 3.2m by 2.0m and some 70cm deep in the middle).
+                    And a decking area with a retaining wall (60cm high and 10m long) for raised planting, overall some 25 m<sup>2</sup> and a large triangular pergola in one corner.
+                    And two compost heaps, which turn out to be extremely productive.
+                    All other gardening activities still require substantial supervision.
+                    I am having trouble to separate the useful and ornamental plants from weed.
+                </p>
+
+                <h5 class="welcome">Cooking</h5>
+                <p class="narrow large">
+                    As for cooking, I am getting better by the year.
+                    Cooking accidents seem to happen less often than in the past.
+                    The best combination of gardening and cooking comes at harvest time.
+                    Onions, garlic, faber beans, peas, carrotts, artichoke, and of course potatoes grow pretty good.
+                    Some potatoes did grow out of peals simply thrown into one of our vegetable beds.
+                    The two varieties of raspberries (one white and one red) are now the favourite target of the local blackbirds.
+                    The same happened to a few wild strawberry plants (if you get one of those strawberries before the 'thiefs', they are delicious).
+                    All of that is 100% organic.
+                </p>
+
+                <h5 class="welcome">Bird and Wildlife Watching</h5>
+                <p class="narrow large">
+                    There are not many activies as relaxing (and educating) as watching wildlife.
+                    A good quarter of the plants in our garden have been selected because they support bumblebees, bees, and butterflies from spring to autumn.
+                    The wooden cover of our retaining wall provides good housing for a small species of wasps.
+                    In some years they also nest in the larger garden wall.
+                    Our pond supports multiple species of dragonflies.
+                </p>
+
+                <p class="narrow large">
+                    In the middle of the garden we have erected a bird house for feeding, frequented by sparrows, finches, and sometimes doves.
+                    At its bottom we maintain a larger table that attracts blackbirds and pigeons.
+                    Old bread and fruits (apples!) do the trick.
+                    Since we have a lot of insects and snales in the garden, we tend to get a resident robin (in some years even two) and visiting thrushs.
+                    We have had a wren in the garden in some seasons as well.
+                    Near the house, we keep on filling three to four bird feeders with peanuts, sunflower seeds, and other bird food.
+                    This invites sparrows, starlings, sometimes doves, and formost tits (great tits, blue tits, and coal tits).
+                    Finches come and go: we had chaffinche, greenfinch (less and less), bullfinch, and in some years goldfinch in the garden.
+                    A pair of blackcaps usually passes through in Autumn.
+                </p>
+
+                <p class="narrow large">
+                    Once a falcon landed on our bird house in the middle of the garden, never saw it again.
+                    But we can spot buzzards quite often high in the sky.
+                    They probably nest somewhere in the Comeragh Mountains.
+                </p>
+
+                <p class="narrow large">
+                    The see is only a short drive from our house; or these days a few minutes cycling.
+                    We have seen dolphins and mink whales in the bay.
+                    Every season allows to observe mother and baby seals in the two estuaries, sometimes we can spot them in the ocean.
+                    I did spot sea otters a couple of times, but they do not stay for long.
+                    Other wildlife can be found stranded, dead, at the beach sometimes, such as smaller sharks and crabs.
+                </p>
+
+                <h5 class="welcome">Sport</h5>
+                <p class="narrow large">
+                    Sport plaid a large role in my life starting at school.
+                    School was keen on athletics, so I did that for a few years.
+                    It was also a center for ball games, mainly volleyball and olympic handball.
+                    We had a competitive handball team and I plaid for 13 years, mostly regional tournaments in Berlin.
+                    Colleagues at my apprenticeship introduced my to ice skating and ice hockey.
+                    For a few years, I did play ice hockey in the team; though only on a lower level.
+                    From those years also comes an interest in inline skating, artistic as well as for distance.
+                    I still have a pair of inline skates and ice skates at home.
+                    These days, it is mostly swimming (we have three indoor swiming pools and a couple of beaches near the house) and cycling.
+                    So I did get myself indoor swimming gear, a 3/2 wet suit, and a bycicle.
+                    You can find us regularly in the pool, at the beach, or on the <a href="http://visitwaterfordgreenway.com/">Waterford Greenway</a>.
+                </p>
+
+                <h5 class="welcome">Books and Reading</h5>
+                <p class="narrow large">
+                    We love books!
+                    One part of the house, the extension, is now reserved for the sport gear and our library.
+                    We have over 1,000 books in different languages (English, French, German, Arabic, Russian, Dutch) covering all areas of interest.
+                    There are of course books about gardening, wildlife, cooking, sports, research, and science.
+                    There are also books on travelling, history, many children books, geography, dictionaries (I love the picture dictionaries!), science fiction, fantasy, and all sorts of other none-fiction books.
+                    I do keep one printed copy of all my books and books with a chapter from me.
+                    Eventually, in 2018, I did buy an eBook reader.
+                    This allows to bring more reading material when travelling, though it takes away a lot of the experience with actual books.
+                </p>
+
+                <h5 class="welcome">Travelling</h5>
+                <p class="narrow large">
+                    Talking about travelling: I love travelling.
+                    Well, parts of it.
+                    Endless hours in planes, busses, cars, the loneliness at hotel bars and restaurants during business trips; not so much.
+                    Seeing different people (even during long hours at airports or train stations), exploring other cultures, listening to unknown languages, watching wildlife I can't see at home, experiencing climates different from home, enjoying city or natural landscapes; all of that is pure joy.
+                    Journeys by train are usually quite good, like the one from Prague to Brno I had to take since there was no direct flight.
+                    Not to mention food, local food that is!
+                    I need to be careful what I eat, but for most parts at least one has to try!
+                    I consider myself lucky that my family combines several origins and upbringings (Dutch, Prussian, East German, Austrian) and travel experiences (Russia, Bangladesh, Vietnam, Laos, Cambodia).
+                    As a child, I was not only exposed to them, but also did travel to Poland, Romania, and for a month Moskow (outbound by plane, inbound on a 2-day train journey).
+                </p>
+
+                <p class="narrow large">
+                    While travelling in East Germany wasn't easy, I was lucky to work in Warsaw for a month and to travel to Prague a few times.
+                    After the German reunification in 1990, we did trips to Czech Republic, Sweden, The Netherlands (and Belgium), Tenerife, and a couple of times to the Maldives.
+                    Not to forget a three week language trip to Torquay in Devon, England.
+                    My "host mother", Kim Sweeney, was extra ordinary and one of the language teachers initiated my interest (and ability) to read books in English.
+                    Then, I had the great opportunity to join my mother for two of her work travels.
+                    This brought me to Laos, Vietnam, Cambodia, Thailand, and Hong Kong.
+                    Most of these locations were areas off the beaten track, far away from were "normal" tourists would venture.
+                    That and having been for a day Siem Reap with a super knowledgeable guide going through Angkor Wat and Ankor Tom.
+                </p>
+
+                <p class="narrow large">
+                    When I started working, travelling was a job requirement.
+                    Lucky me!
+                    By now, I have travelled to
+                        most European countries (with the exception of the Balkans and a few East European countries),
+                        North and South Africa,
+                        many times to North America (the US and Canada), and
+                        several places in the Far East (Asia).
+                    Some of those trips did go to places I would probably not gone otherwise;
+                    for example Porto (Portugal), Cracow (Poland), Bucharest (Romania), and Sfax (Tunesia).
+                    There are a few "black spots" I didn't manage to get to, yet: South America, Australia, New Zeeland, the heart of Africa, the Middle East, Inda, and China (I made it to Hong Kong and Taiwan, but not the mainland).
+                    And since I moved to Ireland in 2002, I have seen most of the island, except The North.
+                    I got sick both times when I could have gone for work.
+                    I have also been in England and Wales (great road trip in 2004), but never made it to Scottland.
+                </p>
+
+                <h5 class="welcome">Photographie</h5>
+                <p class="narrow large">
+                    I used to play with an old, broken, SLR at home.
+                    At 14, I got my first own camera.
+                    Later, I did buy my first own SLR; still with films.
+                    No holding back when I got a digital SLR and later smart phones with proper cameras.
+                    I never managed to go beyond simple point-and-shoot photos, but I do love taking pictures and videos.
+                    On an older version of this website, I had written a PHP backend for my photos.
+                    That got out of hand, too many photos and too complicated to add new sets.
+                    Today, I keep my photos at several cloud services.
+                    Unfortunately, none of them is good enough to make them public.
+                    The main public online services are not good enough, either.
+                    So for now, I am still looking for a good way to have my photos online.
+                </p>
+
+                <h5 class="welcome">Model Railroading</h5>
+                <p class="narrow large">
+                    Der Weihnachtsmann (or Santa Clause) did bring a model railway set when I just had started school.
+                    The gauge was TT (table top), an American invention then (and still) popular in Eastern Germany and Eastern Europe.
+                    The scale is 1:120, so smaller than the more common gauge H0 that comes in 1:87.
+                    Half my room at home developed into a large railway system, with complex track layout, lights for everything, landscape.
+                    I did the electronic myself and spend most of my pocket money on rolling stock and buildings.
+                    Santa Clause was kept busy, too, for a few years.
+                    I still have some of the old hardware, now over 30 years old.
+                    I keep on extending, buying specific items.
+                    Time and space does not allow for a large setting, but never stop dreaming they say.
+                </p>
+
+                <h5 class="welcome">Pets</h5>
+                <p class="narrow large">
+                    My mother used to have a large aquarium with lots of fish.
+                    Then came birds, a series of <a href="https://en.wikipedia.org/wiki/Budgerigar">budgerigars</a> (Wellensittich) all called Peppie.
+                    Some of them were quite entertaining.
+                    Eventually my mother managed to convince everyone to get a parrot, a <a href="https://en.wikipedia.org/wiki/Monk_parakeet">Monk Parakeet</a> or quaker.
+                    His name was Jacky, and yes he did quake!
+                    He learned to talk and we had him flying free in the garden as well.
+                    He loved the seeds of watermelon, quite a mess sometimes.
+                    He got 19 years old.
+                    Inbetween, I also had a long haired guinea pig, Stupsie.
+                    For her, we did build a larger enclosing in the garden.
+                    She loved fresh dandelion.
+                    Today we have cats.
+                    I didn't know that I would like them, but I do.
+                    They all do hunt so we have them wearing bells (more than one) to limit the damage they do to our local bird population.
+                </p>
+            </subsection>
+
+            <subsection name="&ldquo;Good&rdquo; Food, Zero Waste, No Plastic">
+                <p class="narrow large">
+                What do you need to eat good food, do zero waste shopping, and avoid plastics?
+                Not much, mostly common sense and the will to change habits.
+                The latter is probably the tricky part.
+                It means to go against routine and convenience.
+                It takes effort and progress can be slow, no immediate results and no instant gratification.
+                Long term however in will play out in your favour, as it did for me.
+                </p>
+
+                <h5 class="welcome">&ldquo;Good&rdquo; Food</h5>
+                <p class="narrow large">
+                    We did start with food.
+                    Always read the lable, and if the first few ingredients are water and sugar or something no one without a degree in Chemstry can pronounce, then avoid it.
+                    Buy fresh, ideally organic.
+                    I know that not everything called organic is organic, but the chance to get better fruits and vegetables is rather high.
+                    We noticed that organic food stays longer, including dairy products.
+                    And it should safe you money, over time.
+                    I live in Ireland, organic food is expensive here.
+                    So I did write down the food expenses, and buying what we need on higher quality comes cheaper than buying processed food, over all.
+                    Less food waste, less food required to eat, less eating related problems as well.
+                    Home cooking (larger quantities, use fridge and freezer) and baking (bread as much as cake) helps.
+                    I was skeptic at first, now I make time for it.
+                </p>
+
+                <p class="narrow large">
+                    Buy local and in season.
+                    If you can't live without strawberries in January then this is obviously not for you.
+                    Otherwise, think about it.
+                    Local means that the produce requires less treatment (no long transport).
+                    In season means cheaper, and usually of better taste (no long storage).
+                    It did work for us.
+                </p>
+
+                <h5 class="welcome">Zero Waste</h5>
+                <p class="narrow large">
+                    Now this project started actually looking at "bad" chemicals, the likes of BPA and SLS, in cleaning products and packaging.
+                    Turns out that buying a large and artisan soap bar (some 8&Euro; in cases) is cheaper than liquid handwash and shower gel.
+                    The soap bar lasts much longer than the alternatives.
+                    It also reduces the waste to an absolute minimum (no large plastic containers).
+                    And you avoid those chemicals alltogether.
+                    We didn't stop there but started replacing a lot of items.
+                    Look at what bicarbonate and vinegar can do for you.
+                    For instance, one can use vinegar for washing as a replacement for conditioners and softeners (we have super hard water, it does work).
+                    Have a look at Francis Brennan's book of household management
+                        (<a href="https://www.goodreads.com/book/show/36235439-francis-brennan-s-book-of-household-management">Goodread</a>).
+                </p>
+
+                <p class="narrow large">
+                    So we saved some money and the bins (waste and recycle) did not fill as fast as they used to.
+                    Why stop here?
+                    The extended project now is zero waste shopping.
+                    What do you need?
+                    Well, shopping bags, reusable, ideally none-platic.
+                    I have five or six, two of them are a decade old.
+                    By the way: the best shopping bags are the Irish green bags.
+                    These days they come in all colors.
+                    <a href="https://en.wikipedia.org/wiki/Reusable_shopping_bag">Wikipedia</a> tells me that they are also popular in Australia.
+                    Next, to buy lose (no extra packaging and the quantity and quality you select), a few bags for fuits and vegetables (net bag) and some for things like bread (voile bag).
+                    Finally, avoid items that come with extra packaging, yes, all of them!
+                    We used to have a black bin (general waste) every four weeks, now we have one once a quarter.
+                    Not zero waste yet, but we are getting there.
+                    And we safe money, that's the fun part.
+                </p>
+
+                <h5 class="welcome">No Plastic</h5>
+                <p class="narrow large">
+                    Our tap water is of good quality.
+                    It is rather hard, we do filter it, no big deal.
+                    Got a fw stainless steel bottles (Kleen Canteen have a great selection): tiny once for the bags, 500ml for the car and sports, and 1.2l for the house.
+                    No more buying water, no more plastic bottles, less waste.
+                    We also replaced food containers at home, from plastic to stainless steel.
+                    Some are isolated, for hot and cold food.
+                    Much less plastic in the house.
+                </p>
+
+                <p class="narrow large">
+                    And then passion kicked in.
+                    Being out a lot more than in the past, the amount of plastic and other waste in our local environment was annoying, then disturbing, finally made us angry.
+                    What to do about it?
+                    Small things that have an effect.
+                    For the immediate problem: we bring garbage bags and collect plastic and waste.
+                    At our beach one can find tools for garbage collection.
+                    Locals regularly organise events to clean the beach and the forrests around, take part!
+                    And then stop buying plastic items, change to reusable items that last long and have less impact on the environment.
+                    And talk about it, tell the producers (this is how BPA was eventually taken out of most products).
+                    Simple action with instant effect: bring your own reusable mug when you get your coffee or tea.
+                    Some places, such as Applegreen, even give you a discount.
+                    This project continues...
+                </p>
+            </subsection>
+
+            <subsection name="Profiles">
+                <p class="narrow large">
+                    Being online leads to profiles being available at several places.
+                    I have a few myself, some used more frequent than others.
+                    Here is my current selection.
+                </p>
+
+                <h4 class="welcome">Communication and Social</h4>
+                <p class="narrow large">
+                    <table class="narrow table table-striped">
+                        <tr>
+                            <td><img src="images/logos/smi111/email-32x32.png" /></td>
+                            <td>vdmeer&nbsp;dot&nbsp;sven&nbsp;at&nbsp;gmail&nbsp;dot&nbsp;com <br />vdmeer&nbsp;dot&nbsp;sven&nbsp;at&nbsp;mykolab&nbsp;dot&nbsp;com</td>
+                            <td>Reading both, less frequent on Gmail. Answers and replies might take a while. <sup>1</sup></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.skype.com/"><img src="images/logos/smi111/skype-32x32.png" /></a></td>
+                            <td>vdmeer.sven</td>
+                            <td>Chats and phone calls <sup>1</sup></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://twitter.com"><img src="images/logos/smi111/twitter-32x32.png" /></a></td>
+                            <td><a href="https://twitter.com/vdmeersven">vdmeersven</a></td>
+                            <td>
+                                Trying to slow down on Twitter, not easy, since there are still a few people / organizations I want to read.
+                                Mostly re-tweets here, occasionally a discussion. <sup>1</sup>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://mastodon.social/about"><img src="images/logos/mastodon.svg" /></a></td>
+                            <td><a href="https://mastodon.social/@vdmeer">@vdmeer@mastodon.social</a><br /><a href="https://mastodon.technology/@vdm">@vdm@mastodon.technology</a></td>
+                            <td>
+                                Did start, then did not go back for a while, but want to.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://gravatar.com/"><img src="images/logos/gravatar.png" /></a></td>
+                            <td><a href="https://en.gravatar.com/svdmeer">svdmeer</a><br /></td>
+                            <td>My gravatar.</td>
+                        </tr>
+                    </table>
+                </p>
+
+                <h4 class="welcome">Work and Research</h4>
+                <p class="narrow large">
+                    <table class="narrow table table-striped">
+                        <tr>
+                            <td><a href="https://www.linkedin.com"><img src="images/logos/smi111/linkedin-32x32.png" /></a></td>
+                            <td><a href="https://www.linkedin.com/in/vdmeer/">vdmeer</a></td>
+                            <td>My professional profile <sup>1</sup></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.researchgate.net"><img src="images/logos/research-gate.png" /></a></td>
+                            <td><a href="https://www.researchgate.net/profile/Sven_Van_der_Meer">Sven_Van_der_Meer</a></td>
+                            <td>Most of my research publications.</td>
+                        </tr>
+                    </table>
+                </p>
+
+                <h4 class="welcome">Development and FOSS</h4>
+                <p class="narrow large">
+                    <table class="narrow table table-striped">
+                        <tr>
+                            <td><a href="https://github.com"><img src="images/logos/smi111/github-32x32.png" /></a></td>
+                            <td><a href="https://github.com/vdmeer/">vdmeer</a></td>
+                            <td>
+                                Main place for my public (personal) development projects.
+                                Initially it was the SKB with related projects, now its quite a mix.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://oss.sonatype.org/"><img src="images/logos/sonatype.png" /></a></td>
+                            <td>vdmeer.sven</td>
+                            <td>For publishing artifacts (mainly Java packages) to Maven.</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.linuxfoundation.org/"><img src="images/logos/linux-foundation.png" /></a></td>
+                            <td>vdmeer.sven</td>
+                            <td>For my work in ONAP, mainly the Policy Framework (our APEX engine).</td>
+                        </tr>
+<!--
+                        <tr>
+                            <td><a href="###"><img src="images/logos/smi111/stackoverflow-32x32.png" /></a></td>
+                            <td><a href="###">vdmeer</a></td>
+                            <td>
+                                I did create the account here a while back, never really used it though <sup>1</sup>
+                            </td>
+                        </tr>
+-->
+                    </table>
+                </p>
+
+                <h4 class="welcome">Misc</h4>
+                <p class="narrow large">
+                    <table class="narrow table table-striped">
+                        <tr>
+                            <td><a href="https://www.librarything.com/"><img src="images/logos/library-thing.gif" height="32" /></a></td>
+                            <td><a href="https://www.librarything.com/profile/vdmeersven">vdmeersven</a></td>
+                            <td>Our books.</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.goodreads.com/"><img src="images/logos/smi111/goodreads-32x32.png" /></a></td>
+                            <td>email</td>
+                            <td>Another place for our books. <sup>1</sup></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.wikipedia.org/"><img src="images/logos/smi111/wikipedia-32x32.png" /></a></td>
+                            <td>vdmeer.sven</td>
+                            <td>Did create this account to edit a specific page, someone had removed an item I thought is important <sup>1</sup></td>
+                        </tr>
+                    </table>
+                </p>
+
+                <sup>1</sup> Icons from <a href="https://github.com/paulrobertlloyd/socialmediaicons/">Social Media Icons by Paul Robert Lloyd</a>
+            </subsection>
+
+            <subsection name="This Site">
+                <p class="narrow large">
+                    This site is build using the Maven site plugin with the Doxia renderer and the Asciidoctor backend for some pages.
+                    Thoughts, errors, and typos are my own.
+                </p>
+            </subsection>
+        </section>
+    </body>
+</document>

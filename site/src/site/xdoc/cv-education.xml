@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document>
+
+    <properties>
+        <title>Education</title>
+        <author email="vdmeer dot sven at mykolab dot com">Sven van der Meer</author>
+    </properties>
+
+    <body>
+        <section name="Education">
+            <table>
+                <tr>
+                    <td>1988</td>
+                    <td>
+                        10-klassige Polytechnische Oberschule - (Leaving Certificate), 29. Polytechnischen Oberschule (POS) Berlin K&ouml;penick, Germany
+                    </td>
+                </tr>
+                <tr>
+                    <td>1991</td>
+                    <td>
+                        Facharbeiterausbildung (Elektronik) mit Abitur - (vocational training electronics and leaving certificate), Werk f&uuml;r Fernsehelektronik &amp; NARVA, Berlin, Germany
+                    </td>
+                </tr>
+                <tr>
+                    <td>1996</td>
+                    <td>
+                       Dipl.-Inform. (M.Sc. Computer Science), Technical University Berlin, Germany
+                        <ul>
+                            <li>Thesis: <i>Dynamic Configuration Management of the Equipment in Distributed Communication Environments</i></li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2002</td>
+                    <td>
+                        Dr.-Ing. (Ph.D. in Engineering), Technical University Berlin, Germany
+                        <ul>
+                            <li>Thesis: <i>Middleware and Application Management Architecture</i></li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </section>
+    </body>
+</document>

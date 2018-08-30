@@ -1,0 +1,21 @@
+:title: Talks
+
+== Talks
+
+link:#keynote[Keynote] ┃
+link:#invited_talk[Invited Talk] ┃
+link:#panel[Panel] ┃
+link:#tutorial[Tutorial] ┃
+link:#presentation[Presentation]
+
+
+include::{vdmsite-lib-home}/vdm/keynote.adoc[]
+
+include::{vdmsite-lib-home}/vdm/invited-talk.adoc[]
+
+include::{vdmsite-lib-home}/vdm/panel.adoc[]
+
+include::{vdmsite-lib-home}/vdm/tutorial.adoc[]
+
+include::{vdmsite-lib-home}/vdm/presentation.adoc[]
+

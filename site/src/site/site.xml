@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="VDMEER">
+    <bannerLeft>
+        <name/>
+        <title/>
+    </bannerLeft>
+
+    <body>
+        <head>
+            <![CDATA[<link href="https://fonts.googleapis.com/css?family=Lora|Roboto+Condensed" rel="stylesheet" />]]>
+        </head>
+
+        <menu name="vdmeer">
+            <item href="index.html" name="Wellcome" />
+            <item href="bio.html" name="Bio" collapse="true">
+                <item href="cv.html" name="CV" />
+                <item href="cv-education.html" name="Education" />
+                <item href="cv-employment.html" name="Employment History" />
+                <item href="studium.html" name="Informatik Studium" />
+            </item>
+            <item href="experience.html" name="Experience" collapse="true">
+                <item href="research-experience.html" name="Research Experience">
+                    <item href="projects-fokus.html" name="Projects: FOKUS" />
+                    <item href="projects-tssg.html" name="Projects: WIT/TSSG" />
+                    <item href="projects-ericsson.html" name="Projects: Ericsson" />
+                </item>
+                <item href="teaching-experience.html" name="Teaching Experience">
+                    <item href="teaching-tub.html" name="TU Berlin" />
+                    <item href="teaching-wit.html" name="WIT/TSSG" />
+                    <item href="teaching-supervision.html" name="Supervision" />
+                </item>
+                <item href="publications.html" name="Publications">
+                    <item href="publications-books.html" name="Books and similar Items" />
+                    <item href="publications-articles.html" name="Articles" />
+                    <item href="publications-inproceedings.html" name="in Proceedings" />
+                    <item href="tech-reports.html" name="Technical Reports" />
+                    <item href="publications-standards.html" name="Standards / SDO" />
+                    <item href="publications-patents.html" name="Patents" />
+                </item>
+                <item href="talks.html" name="Talks" />
+                <item href="conference-review.html" name="Conferences and Reviews" />
+            </item>
+            <item href="research-notes.html" name="Research Notes" collapse="true">
+                <item href="research-notes-policy.html" name="Policy-based Management" />
+                <item href="research-notes-ina.html" name="INA" />
+                <item href="research-notes-cybernetics.html" name="Cybernetics" />
+                <item href="research-notes-internet-history.html" name="Internet History" />
+            </item>
+        </menu>
+
+<!--
+        <menu ref="reports" inherit="top"/>
+        <menu ref="modules"/> 
+-->
+
+        <breadcrumbs>
+            <item name="vdmeer" href="index.html"/>
+        </breadcrumbs>
+
+        <footer>
+            <![CDATA[
+                <p>
+                    Copyright &copy; 2018 Sven van der Meer. All rights reserved.
+                </p>
+                <p>
+                    <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a> This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+                </p>
+            ]]>
+        </footer>
+    </body>
+
+    <publishDate position="right"/>
+    <version position="right"/>
+    <poweredBy>
+        <logo name="maven-site" href="https://maven.apache.org/plugins/maven-site-plugin" img="images/logos/build-by-maven-black.png"/>
+        <logo name="asciidoctor" href="https://asciidoctor.org" img="images/logos/asciidoctor-transparent.png"/>
+    </poweredBy>
+
+    <skin>
+        <groupId>org.apache.maven.skins</groupId>
+        <artifactId>maven-fluido-skin</artifactId>
+        <version>1.5</version>
+    </skin>
+</project>

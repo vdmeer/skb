@@ -1,0 +1,18 @@
+:title: Books
+
+== Books and similar items
+
+link:#thesis[Thesis] ┃
+link:#collection[Collection] ┃
+link:#proceedings[Proceedings] ┃
+link:#in_book[in Book]
+
+include::{vdmsite-lib-home}/vdm/thesis.adoc[]
+
+include::{vdmsite-lib-home}/vdm/collection.adoc[]
+
+include::{vdmsite-lib-home}/vdm/proceedings.adoc[]
+
+include::{vdmsite-lib-home}/vdm/in-book.adoc[]
+
+

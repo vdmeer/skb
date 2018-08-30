@@ -1,30 +1,30 @@
 = Library
 
-include::article.adoc[]
+include::{vdmsite-lib-home}/article.adoc[]
 
-include::book.adoc[]
+include::{vdmsite-lib-home}/book.adoc[]
 
-include::collection.adoc[]
+include::{vdmsite-lib-home}/collection.adoc[]
 
-include::inbook.adoc[]
+include::{vdmsite-lib-home}/inbook.adoc[]
 
-include::inproceedings.adoc[]
+include::{vdmsite-lib-home}/inproceedings.adoc[]
 
-include::misc.adoc[]
+include::{vdmsite-lib-home}/misc.adoc[]
 
-include::masterthesis.adoc[]
+include::{vdmsite-lib-home}/masterthesis.adoc[]
 
-include::patent.adoc[]
+include::{vdmsite-lib-home}/patent.adoc[]
 
-include::phdthesis.adoc[]
+include::{vdmsite-lib-home}/phdthesis.adoc[]
 
-include::proceedings.adoc[]
+include::{vdmsite-lib-home}/proceedings.adoc[]
 
-include::report.adoc[]
+include::{vdmsite-lib-home}/report.adoc[]
 
-include::standard.adoc[]
+include::{vdmsite-lib-home}/standard.adoc[]
 
-include::talks.adoc[]
+include::{vdmsite-lib-home}/talks.adoc[]
 
-include::unpublished.adoc[]
+include::{vdmsite-lib-home}/unpublished.adoc[]
 

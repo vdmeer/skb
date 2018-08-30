@@ -1,3 +1,7 @@
 == Misc
 
-include::misc/mckenzie-archive.adoc[]
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::{vdmsite-lib-home}/misc/mckenzie-archive.adoc[]
+|===
+

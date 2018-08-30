@@ -1,51 +1,85 @@
 == Articles
 
 === 1800
-include::article/1800/frege-sense-and-meaning-1892.adoc[]
+
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::{vdmsite-lib-home}/article/1800/frege-sense-and-meaning-1892.adoc[]
+|===
+
 
 === 1960
-include::article/1960/dijkstra-cacm-1968.adoc[]
+
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::{vdmsite-lib-home}/article/1960/dijkstra-cacm-1968.adoc[]
+|===
+
 
 === 1970
-include::article/1970/hansen-cacm-1970.adoc[]
-include::article/1970/dijkstra-ai-1971.adoc[]
-include::article/1970/davies-tcom-1972.adoc[]
-include::article/1970/watson-networks-1976.adoc[]
-include::article/1970/rouse-tsmc-1979.adoc[]
+
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::{vdmsite-lib-home}/article/1970/hansen-cacm-1970.adoc[]
+|include::{vdmsite-lib-home}/article/1970/dijkstra-ai-1971.adoc[]
+|include::{vdmsite-lib-home}/article/1970/davies-tcom-1972.adoc[]
+|include::{vdmsite-lib-home}/article/1970/watson-networks-1976.adoc[]
+|include::{vdmsite-lib-home}/article/1970/rouse-tsmc-1979.adoc[]
+|===
+
 
 === 1980
-include::article/1980/jomier-tase-1981.adoc[]
-include::article/1980/kamoun-tacom-1981.adoc[]
-include::article/1980/watson-networks-1981.adoc[]
-include::article/1980/bachman-compstd-1982.adoc[]
-include::article/1980/bachman-networks-1982.adoc[]
-include::article/1980/dayal-sigmod-1988.adoc[]
+
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::{vdmsite-lib-home}/article/1980/jomier-tase-1981.adoc[]
+|include::{vdmsite-lib-home}/article/1980/kamoun-tacom-1981.adoc[]
+|include::{vdmsite-lib-home}/article/1980/watson-networks-1981.adoc[]
+|include::{vdmsite-lib-home}/article/1980/bachman-compstd-1982.adoc[]
+|include::{vdmsite-lib-home}/article/1980/bachman-networks-1982.adoc[]
+|include::{vdmsite-lib-home}/article/1980/dayal-sigmod-1988.adoc[]
+|===
+
 
 === 1990
-include::article/1990/moffet-comcom-1990.adoc[]
-include::article/1990/sloman-jnsm-1994.adoc[]
+
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::{vdmsite-lib-home}/article/1990/moffet-comcom-1990.adoc[]
+|include::{vdmsite-lib-home}/article/1990/sloman-jnsm-1994.adoc[]
+|===
+
 
 === 2000
-include::article/2000/arbanowski-puc-2001.adoc[]
-include::article/2000/arbanowski-ife-2001.adoc[]
-include::article/2000/stone-network-2001.adoc[]
-include::article/2000/vandermeer-wit-2004.adoc[]
-include::article/2000/yagüe-jias-2006.adoc[]
-include::article/2000/jennings-commag-2007.adoc[]
-include::article/2000/boutaba-jnsm-2007.adoc[]
-include::article/2000/strassner-jnsm-2009-a.adoc[]
-include::article/2000/strassner-jnsm-2009-b.adoc[]
-include::article/2000/osullivan-jnsm-2009.adoc[]
-include::article/2000/davy-comcom-2008.adoc[]
+
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::{vdmsite-lib-home}/article/2000/arbanowski-puc-2001.adoc[]
+|include::{vdmsite-lib-home}/article/2000/arbanowski-ife-2001.adoc[]
+|include::{vdmsite-lib-home}/article/2000/stone-network-2001.adoc[]
+|include::{vdmsite-lib-home}/article/2000/vandermeer-wit-2004.adoc[]
+|include::{vdmsite-lib-home}/article/2000/yagüe-jias-2006.adoc[]
+|include::{vdmsite-lib-home}/article/2000/jennings-commag-2007.adoc[]
+|include::{vdmsite-lib-home}/article/2000/boutaba-jnsm-2007.adoc[]
+|include::{vdmsite-lib-home}/article/2000/strassner-jnsm-2009-a.adoc[]
+|include::{vdmsite-lib-home}/article/2000/strassner-jnsm-2009-b.adoc[]
+|include::{vdmsite-lib-home}/article/2000/osullivan-jnsm-2009.adoc[]
+|include::{vdmsite-lib-home}/article/2000/davy-comcom-2008.adoc[]
+|===
+
 
 === 2010
-include::article/2010/brennan-commag-2010.adoc[]
-include::article/2010/serrano-siwn-2010.adoc[]
-include::article/2010/mckenzie-ieee-2011.adoc[]
-include::article/2010/han-cn-2012.adoc[]
-include::article/2010/russell-spectrum-2013.adoc[]
-include::article/2010/russell-tc-2014.adoc[]
-include::article/2010/zaman-commag-2015.adoc[]
-include::article/2010/vandermeer-softwarization-2016.adoc[]
-include::article/2010/day-ieee-2016.adoc[]
-include::article/2010/robitzsch-network-2017.adoc[]
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::{vdmsite-lib-home}/article/2010/brennan-commag-2010.adoc[]
+|include::{vdmsite-lib-home}/article/2010/serrano-siwn-2010.adoc[]
+|include::{vdmsite-lib-home}/article/2010/mckenzie-ieee-2011.adoc[]
+|include::{vdmsite-lib-home}/article/2010/han-cn-2012.adoc[]
+|include::{vdmsite-lib-home}/article/2010/russell-spectrum-2013.adoc[]
+|include::{vdmsite-lib-home}/article/2010/russell-tc-2014.adoc[]
+|include::{vdmsite-lib-home}/article/2010/zaman-commag-2015.adoc[]
+|include::{vdmsite-lib-home}/article/2010/vandermeer-softwarization-2016.adoc[]
+|include::{vdmsite-lib-home}/article/2010/day-ieee-2016.adoc[]
+|include::{vdmsite-lib-home}/article/2010/robitzsch-network-2017.adoc[]
+|===
+

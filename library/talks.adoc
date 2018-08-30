@@ -3,74 +3,74 @@
 === Keynotes
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::talks/keynote/vandermeer-monami-2012.adoc[]
-|include::talks/keynote/vandermeer-noms-2018.adoc[]
-|include::talks/keynote/vandermeer-5gman-2018.adoc[]
+|include::{vdmsite-lib-home}/talks/keynote/vandermeer-monami-2012.adoc[]
+|include::{vdmsite-lib-home}/talks/keynote/vandermeer-noms-2018.adoc[]
+|include::{vdmsite-lib-home}/talks/keynote/vandermeer-5gman-2018.adoc[]
 |===
 
 
 === Invited Talks
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::talks/invited-talk/arbanowski-datacom-2000.adoc[]
-|include::talks/invited-talk/vandermeer-euronetlab-2004.adoc[]
-|include::talks/invited-talk/carroll-ircset-2004.adoc[]
-|include::talks/invited-talk/vandermeer-acf-2006.adoc[]
-|include::talks/invited-talk/fleck-tmf-2006-a.adoc[]
-|include::talks/invited-talk/fleck-tmf-2006-b.adoc[]
-|include::talks/invited-talk/vandermeer-acf-2008-a.adoc[]
-|include::talks/invited-talk/vandermeer-acf-2008-b.adoc[]
-|include::talks/invited-talk/vandermeer-hp_virtual-2009.adoc[]
-|include::talks/invited-talk/vandermeer-postech-2010.adoc[]
-|include::talks/invited-talk/vandermeer-fame_industry-2010.adoc[]
-|include::talks/invited-talk/vandermeer-ugent-2011.adoc[]
-|include::talks/invited-talk/vandermeer-manfi-2011.adoc[]
-|include::talks/invited-talk/fleck-manfed-2011.adoc[]
-|include::talks/invited-talk/vandermeer-mucs-2011.adoc[]
-|include::talks/invited-talk/vandermeer-ieee_5g_summit-2015.adoc[]
-|include::talks/invited-talk/fallon-onap-2017.adoc[]
+|include::{vdmsite-lib-home}/talks/invited-talk/arbanowski-datacom-2000.adoc[]
+|include::{vdmsite-lib-home}/talks/invited-talk/vandermeer-euronetlab-2004.adoc[]
+|include::{vdmsite-lib-home}/talks/invited-talk/carroll-ircset-2004.adoc[]
+|include::{vdmsite-lib-home}/talks/invited-talk/vandermeer-acf-2006.adoc[]
+|include::{vdmsite-lib-home}/talks/invited-talk/fleck-tmf-2006-a.adoc[]
+|include::{vdmsite-lib-home}/talks/invited-talk/fleck-tmf-2006-b.adoc[]
+|include::{vdmsite-lib-home}/talks/invited-talk/vandermeer-acf-2008-a.adoc[]
+|include::{vdmsite-lib-home}/talks/invited-talk/vandermeer-acf-2008-b.adoc[]
+|include::{vdmsite-lib-home}/talks/invited-talk/vandermeer-hp_virtual-2009.adoc[]
+|include::{vdmsite-lib-home}/talks/invited-talk/vandermeer-postech-2010.adoc[]
+|include::{vdmsite-lib-home}/talks/invited-talk/vandermeer-fame_industry-2010.adoc[]
+|include::{vdmsite-lib-home}/talks/invited-talk/vandermeer-ugent-2011.adoc[]
+|include::{vdmsite-lib-home}/talks/invited-talk/vandermeer-manfi-2011.adoc[]
+|include::{vdmsite-lib-home}/talks/invited-talk/fleck-manfed-2011.adoc[]
+|include::{vdmsite-lib-home}/talks/invited-talk/vandermeer-mucs-2011.adoc[]
+|include::{vdmsite-lib-home}/talks/invited-talk/vandermeer-ieee_5g_summit-2015.adoc[]
+|include::{vdmsite-lib-home}/talks/invited-talk/fallon-onap-2017.adoc[]
 |===
 
 
 === Panel
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::talks/panel/vandermeer-mucs-2004.adoc[]
-|include::talks/panel/vandermeer-dsom-2006.adoc[]
-|include::talks/panel/vandermeer-ssmo-2007.adoc[]
-|include::talks/panel/vandermeer-im-2013.adoc[]
-|include::talks/panel/vandermeer-im-2015.adoc[]
+|include::{vdmsite-lib-home}/talks/panel/vandermeer-mucs-2004.adoc[]
+|include::{vdmsite-lib-home}/talks/panel/vandermeer-dsom-2006.adoc[]
+|include::{vdmsite-lib-home}/talks/panel/vandermeer-ssmo-2007.adoc[]
+|include::{vdmsite-lib-home}/talks/panel/vandermeer-im-2013.adoc[]
+|include::{vdmsite-lib-home}/talks/panel/vandermeer-im-2015.adoc[]
 |===
 
 
 === Tutorial
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::talks/tutorial/covaci-nec-1998.adoc[]
-|include::talks/tutorial/covaci-nec-1999.adoc[]
-|include::talks/tutorial/vandermeer-isads-1999.adoc[]
-|include::talks/tutorial/vandermeer-proms-2000.adoc[]
-|include::talks/tutorial/vandermeer-ict-2001.adoc[]
-|include::talks/tutorial/fleck-tmf-2006-a.adoc[]
-|include::talks/tutorial/fleck-tmf-2006-b.adoc[]
-|include::talks/tutorial/vandermeer-fame_arch-2009.adoc[]
-|include::talks/tutorial/ethirajulu-ons-2018.adoc[]
+|include::{vdmsite-lib-home}/talks/tutorial/covaci-nec-1998.adoc[]
+|include::{vdmsite-lib-home}/talks/tutorial/covaci-nec-1999.adoc[]
+|include::{vdmsite-lib-home}/talks/tutorial/vandermeer-isads-1999.adoc[]
+|include::{vdmsite-lib-home}/talks/tutorial/vandermeer-proms-2000.adoc[]
+|include::{vdmsite-lib-home}/talks/tutorial/vandermeer-ict-2001.adoc[]
+|include::{vdmsite-lib-home}/talks/tutorial/fleck-tmf-2006-a.adoc[]
+|include::{vdmsite-lib-home}/talks/tutorial/fleck-tmf-2006-b.adoc[]
+|include::{vdmsite-lib-home}/talks/tutorial/vandermeer-fame_arch-2009.adoc[]
+|include::{vdmsite-lib-home}/talks/tutorial/ethirajulu-ons-2018.adoc[]
 |===
 
 
 === Presentations
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::talks/presentation/vandermeer-tssg_rm-2006.adoc[]
-|include::talks/presentation/vandermeer-tssg_rm-2007.adoc[]
-|include::talks/presentation/vandermeer-tssg_day-2007.adoc[]
-|include::talks/presentation/vandermeer-tssg_cim-2008-a.adoc[]
-|include::talks/presentation/vandermeer-tssg_cim-2008-b.adoc[]
-|include::talks/presentation/vandermeer-tssg_day-2008.adoc[]
-|include::talks/presentation/vandermeer-tssg_rm-2009.adoc[]
-|include::talks/presentation/vandermeer-ieee_sdn-2016.adoc[]
-|include::talks/presentation/vandermeer-nmrg-2018.adoc[]
-|include::talks/presentation/vandermeer-rina-2018.adoc[]
+|include::{vdmsite-lib-home}/talks/presentation/vandermeer-tssg_rm-2006.adoc[]
+|include::{vdmsite-lib-home}/talks/presentation/vandermeer-tssg_rm-2007.adoc[]
+|include::{vdmsite-lib-home}/talks/presentation/vandermeer-tssg_day-2007.adoc[]
+|include::{vdmsite-lib-home}/talks/presentation/vandermeer-tssg_cim-2008-a.adoc[]
+|include::{vdmsite-lib-home}/talks/presentation/vandermeer-tssg_cim-2008-b.adoc[]
+|include::{vdmsite-lib-home}/talks/presentation/vandermeer-tssg_day-2008.adoc[]
+|include::{vdmsite-lib-home}/talks/presentation/vandermeer-tssg_rm-2009.adoc[]
+|include::{vdmsite-lib-home}/talks/presentation/vandermeer-ieee_sdn-2016.adoc[]
+|include::{vdmsite-lib-home}/talks/presentation/vandermeer-nmrg-2018.adoc[]
+|include::{vdmsite-lib-home}/talks/presentation/vandermeer-rina-2018.adoc[]
 |===
 
 

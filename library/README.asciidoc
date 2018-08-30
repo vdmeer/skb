@@ -1,3 +1,38 @@
 == My Research Library
 
+I used to have several places for references and notes, from SQL databases to JSON and YAML files, and of course hand-written notes.
+Now I am consolidating all of that in this library.
+
+The organisation is relatively easy.
+On the top level I have documents that group references and notes.
+There is for instance `library.adoc` that contains all references.
+Or `proceedings.adoc` that only has proceedings.
+Most of these documents are named after BibLaTeX entry types.
+
+Notes are grouped in files that start with `topic-`.
+These documents contain discussions and other text, plus references.
+
+All library items are then in the sub-directories.
+Directory names are again BibLaTeX entry types, mostly.
+For larger collections, for instance _in-proceedings_, I do use sub-directories for decades.
+
+Individual items have the main author (or editor) name, a place (e.g. conference), and the year of publication.
+Standards and patents are named slighly different (SDO plus year, filing place and publication number).
+
+The Asciidoctor tool chain then allows to use thse files in various places.
+I take my own publications for instance for my personal website.
+Some of the topics I use there as well, as research notes.
+And I do generate HTML versions and host them on my GH pages.
+On my local server I also have a library with PDFs and other artifacts.
+The build script `_build.sh` builds the files for me.
+
+=== Compiled Versions
+
+
+[grid=rows, frame=none, %autowidth.stretch]
+|===
+| Library | link:https://vdmeer.github.io/library/library.html[GH Pages] | 
+| My Publications (vdm.adoc) | | link:http://www.vandermeer.de/publications.html[vandermeer.de]
+|===
+
 

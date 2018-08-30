@@ -35,10 +35,10 @@ The main collections are the overall library, my own publications, and my resear
 | `library.adoc`  | complete library | link:https://vdmeer.github.io/library/library.html[GH Pages] | 
 | `vdm.adoc`      | my publications  |                                                              | link:http://www.vandermeer.de/publications.html[vandermeer.de]
 
-| `topic-cybernetics.adoc`      | link:https://vdmeer.github.io/library/topic-cybernetics.html[GH Pages] |      link:http://www.vandermeer.de/research-notes-cybernetics.html[vandermeer.de]
-| `topic-ina.adoc`              | link:https://vdmeer.github.io/library/topic-ina.html[GH Pages] |              link:http://www.vandermeer.de/research-notes-ina.html[vandermeer.de]
-| `topic-internet-history.adoc` | link:https://vdmeer.github.io/library/topic-internet-history.html[GH Pages] | link:http://www.vandermeer.de/research-notes-internet-history.html[vandermeer.de]
-| `topic-policy.adoc`           | link:https://vdmeer.github.io/library/topic-policy.html[GH Pages] |           link:http://www.vandermeer.de/research-notes-policy.html[vandermeer.de]
+| `topic-cybernetics.adoc`      | cybernetic notes                      | link:https://vdmeer.github.io/library/topic-cybernetics.html[GH Pages] |      link:http://www.vandermeer.de/research-notes-cybernetics.html[vandermeer.de]
+| `topic-ina.adoc`              | introduction to network architecture  | link:https://vdmeer.github.io/library/topic-ina.html[GH Pages] |              link:http://www.vandermeer.de/research-notes-ina.html[vandermeer.de]
+| `topic-internet-history.adoc` | internet history                      | link:https://vdmeer.github.io/library/topic-internet-history.html[GH Pages] | link:http://www.vandermeer.de/research-notes-internet-history.html[vandermeer.de]
+| `topic-policy.adoc`           | policy-based management and APEX      | link:https://vdmeer.github.io/library/topic-policy.html[GH Pages] |           link:http://www.vandermeer.de/research-notes-policy.html[vandermeer.de]
 |===
 
 

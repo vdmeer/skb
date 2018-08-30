@@ -335,10 +335,23 @@
 |===
 
 
-=== Standards
+=== Standards / SDO
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
 |include::standard/ietf/strassner-supa-2017.adoc[]
+|include::standard/tmf/tmf053b-2006.adoc[]
+|include::standard/tmf/tmf053-2006.adoc[]
+|include::standard/tmf/tmf053-2005.adoc[]
+|===
+
+
+=== Patents
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::patent/wo/wo2018024348.adoc[]
+|include::patent/us/us20180152347.adoc[]
+|include::patent/us/us20170250868.adoc[]
+|include::patent/wo/wo2013149870.adoc[]
 |===
 
 

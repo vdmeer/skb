@@ -1,5 +1,14 @@
 == Standard
 
+
+=== TM Forum
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::standard/tmf/tmf053b-2006.adoc[]
+|include::standard/tmf/tmf053-2006.adoc[]
+|include::standard/tmf/tmf053-2005.adoc[]
+|===
+
 === IETF
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===

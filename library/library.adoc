@@ -14,6 +14,8 @@ include::misc.adoc[]
 
 include::masterthesis.adoc[]
 
+include::patent.adoc[]
+
 include::phdthesis.adoc[]
 
 include::proceedings.adoc[]

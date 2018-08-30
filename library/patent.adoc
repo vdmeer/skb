@@ -1,0 +1,16 @@
+== Patents
+
+
+=== US
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::patent/us/us20180152347.adoc[]
+|include::patent/us/us20170250868.adoc[]
+|===
+
+=== WO
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::patent/wo/wo2018024348.adoc[]
+|include::patent/wo/wo2013149870.adoc[]
+|===

@@ -1,0 +1,9 @@
+_Network Management using Adaptive Policy_, 2017
+
+* Authors: Sven van der Meer, Liam Fallon, John Keeney
+* Publication number: 20170250868
+* Publication date: 31.08.2017
+* Links:
+    link:https://patentscope.wipo.int/search/en/detail.jsf?docId=US203354318[Wipo]
+
+

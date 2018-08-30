@@ -1,0 +1,5 @@
+*Sven van der Meer* (ed): _NGOSS Technological Neutral Architecture_, 2006
+
+* Published: TM Forum, NGOSS Release 6.0, TNA Release 6.3, Document Version 5.7, 2006
+
+

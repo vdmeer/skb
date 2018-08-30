@@ -28,11 +28,17 @@ The build script `_build.sh` builds the files for me.
 
 === Compiled Versions
 
+The main collections are the overall library, my own publications, and my research notes.
 
 [grid=rows, frame=none, %autowidth.stretch]
 |===
-| Library | link:https://vdmeer.github.io/library/library.html[GH Pages] | 
-| My Publications (vdm.adoc) | | link:http://www.vandermeer.de/publications.html[vandermeer.de]
+| `library.adoc`  | complete library | link:https://vdmeer.github.io/library/library.html[GH Pages] | 
+| `vdm.adoc`      | my publications  |                                                              | link:http://www.vandermeer.de/publications.html[vandermeer.de]
+
+| `topic-cybernetics.adoc`      | link:https://vdmeer.github.io/library/topic-cybernetics.html[GH Pages] |      link:http://www.vandermeer.de/research-notes-cybernetics.html[vandermeer.de]
+| `topic-ina.adoc`              | link:https://vdmeer.github.io/library/topic-ina.html[GH Pages] |              link:http://www.vandermeer.de/research-notes-ina.html[vandermeer.de]
+| `topic-internet-history.adoc` | link:https://vdmeer.github.io/library/topic-internet-history.html[GH Pages] | link:http://www.vandermeer.de/research-notes-internet-history.html[vandermeer.de]
+| `topic-policy.adoc`           | link:https://vdmeer.github.io/library/topic-policy.html[GH Pages] |           link:http://www.vandermeer.de/research-notes-policy.html[vandermeer.de]
 |===
 
 

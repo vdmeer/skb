@@ -2,6 +2,7 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
+
 |include::{vdmsite-lib-home}/masterthesis/gadegast-frank-1995.adoc[]
 
 |include::{vdmsite-lib-home}/masterthesis/vandermeer-sven-1996.adoc[]

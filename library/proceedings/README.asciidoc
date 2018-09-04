@@ -1,0 +1,6 @@
+== SKB - Research Library - Proceedings
+
+Proceedings in my research library.
+Entries are grouped by decade and conference / workshop.
+A compiled version of all proceedings is hosted on link:https://vdmeer.github.io/library/proceedings.html[GH Pages].
+

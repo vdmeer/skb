@@ -1,0 +1,7 @@
+== SKB - Research Library - Standard
+
+Standards and publications by Standard Defining Organisations (SDO) in my research library.
+Entries are grouped by SDO.
+A compiled version of all standard items is hosted on link:https://vdmeer.github.io/library/standard.html[GH Pages].
+
+

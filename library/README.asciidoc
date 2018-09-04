@@ -1,4 +1,4 @@
-== My Research Library
+== SKB - My Research Library
 
 I used to have several places for references and notes, from SQL databases to JSON and YAML files, and of course hand-written notes.
 Now I am consolidating all of that in this library.

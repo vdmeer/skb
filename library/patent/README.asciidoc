@@ -1,0 +1,7 @@
+== SKB - Research Library - Patent
+
+Patents in my research library.
+Entries are grouped by filing place.
+A compiled version of all patents is hosted on link:https://vdmeer.github.io/library/patent.html[GH Pages].
+
+

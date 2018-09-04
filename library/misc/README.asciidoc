@@ -1,0 +1,6 @@
+== SKB - Research Library - Misc
+
+Miscellaneous items in my research library.
+A compiled version of all miscellaneous items is hosted on link:https://vdmeer.github.io/library/misc.html[GH Pages].
+
+

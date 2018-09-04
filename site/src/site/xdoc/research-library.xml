@@ -64,11 +64,6 @@
                         <td><a href="https://vdmeer.github.io/library/inproceedings.html">GH pages</a></td>
                     </tr>
                     <tr>
-                        <td>Master Thesis</td>
-                        <td>an M.Sc. thesis (auch mehrere Dimplomarbeiten)</td>
-                        <td><a href="https://vdmeer.github.io/library/masterthesis.html">GH pages</a></td>
-                    </tr>
-                    <tr>
                         <td>Misc</td>
                         <td>items that do not fit into any other category</td>
                         <td><a href="https://vdmeer.github.io/library/misc.html">GH pages</a></td>
@@ -82,11 +77,6 @@
                         <td>Patent</td>
                         <td>simply patents</td>
                         <td><a href="https://vdmeer.github.io/library/patent.html">GH pages</a></td>
-                    </tr>
-                    <tr>
-                        <td>Ph.D. thesis</td>
-                        <td>Ph.D. thesis (auch mehrere Doktorarbeiten</td>
-                        <td><a href="https://vdmeer.github.io/library/phdthesis.html">GH pages</a></td>
                     </tr>
                     <tr>
                         <td>Proceedings</td>
@@ -104,9 +94,14 @@
                         <td><a href="https://vdmeer.github.io/library/standard.html">GH pages</a></td>
                     </tr>
                     <tr>
-                        <td>talks</td>
-                        <td>talks as an uber-category for keynotes, invited talks, tutorials, presentations</td>
+                        <td>Talks</td>
+                        <td>talks as an uber-category for keynotes, tutorials, lecture notes, invited talks, presentations</td>
                         <td><a href="https://vdmeer.github.io/library/talks.html">GH pages</a></td>
+                    </tr>
+                    <tr>
+                        <td>Thesis</td>
+                        <td>an M.Sc. thesis, Diploamarbeit, Ph.D. thesis, Doktorarbeit, Habilitation</td>
+                        <td><a href="https://vdmeer.github.io/library/thesis.html">GH pages</a></td>
                     </tr>
                     <tr>
                         <td>Unpublished</td>

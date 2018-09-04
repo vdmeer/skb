@@ -14,36 +14,36 @@ link:#panel_ph_d_thesis[Panel, Ph.D. Thesis]
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
 
-|include::{vdmsite-lib-home}/masterthesis/dannert-andreas-1998.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/1990/dannert-andreas-1998.adoc[]
 
-|include::{vdmsite-lib-home}/masterthesis/franz-stefan-1998.adoc[]
-|include::{vdmsite-lib-home}/masterthesis/steglich-stephan-1998.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/1990/franz-stefan-1998.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/1990/steglich-stephan-1998.adoc[]
 
-|include::{vdmsite-lib-home}/masterthesis/huenerberg-jens-1999.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/1990/huenerberg-jens-1999.adoc[]
 
-|include::{vdmsite-lib-home}/masterthesis/karow-lars-2000.adoc[]
-|include::{vdmsite-lib-home}/masterthesis/mbedi-elie-2000.adoc[]
-|include::{vdmsite-lib-home}/masterthesis/sander-robert-2000.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/2000/karow-lars-2000.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/2000/mbedi-elie-2000.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/2000/sander-robert-2000.adoc[]
 
-|include::{vdmsite-lib-home}/masterthesis/bozinovic_mador-stipe-2001.adoc[]
-|include::{vdmsite-lib-home}/masterthesis/fritzsch-wolfram-2001.adoc[]
-|include::{vdmsite-lib-home}/masterthesis/machias-alexandros-2001.adoc[]
-|include::{vdmsite-lib-home}/masterthesis/mu-hong-2001.adoc[]
-|include::{vdmsite-lib-home}/masterthesis/singh-multani-mandeep-2001.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/2000/bozinovic_mador-stipe-2001.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/2000/fritzsch-wolfram-2001.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/2000/machias-alexandros-2001.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/2000/mu-hong-2001.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/2000/singh-multani-mandeep-2001.adoc[]
 
-|include::{vdmsite-lib-home}/masterthesis/cu-ie-2002.adoc[]
-|include::{vdmsite-lib-home}/masterthesis/fahner-michael-2002.adoc[]
-|include::{vdmsite-lib-home}/masterthesis/huenerberg-philipp-2002.adoc[]
-|include::{vdmsite-lib-home}/masterthesis/nsang-aaron-2002.adoc[]
-|include::{vdmsite-lib-home}/masterthesis/raza-syed-2002.adoc[]
-|include::{vdmsite-lib-home}/masterthesis/riedinger-jan-2002.adoc[]
-|include::{vdmsite-lib-home}/masterthesis/schoenfeld-jochen-2002.adoc[]
-|include::{vdmsite-lib-home}/masterthesis/sparkowsky-alexander-2002.adoc[]
-|include::{vdmsite-lib-home}/masterthesis/von_kattchee-joern-2002.adoc[]
-|include::{vdmsite-lib-home}/masterthesis/wepiwe-giscard-2002.adoc[]
-|include::{vdmsite-lib-home}/masterthesis/yin-ming-2002.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/2000/cu-ie-2002.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/2000/fahner-michael-2002.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/2000/huenerberg-philipp-2002.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/2000/nsang-aaron-2002.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/2000/raza-syed-2002.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/2000/riedinger-jan-2002.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/2000/schoenfeld-jochen-2002.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/2000/sparkowsky-alexander-2002.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/2000/von_kattchee-joern-2002.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/2000/wepiwe-giscard-2002.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/2000/yin-ming-2002.adoc[]
 
-|include::{vdmsite-lib-home}/masterthesis/becker-ulla-2005.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/2000/becker-ulla-2005.adoc[]
 
 |===
 
@@ -52,18 +52,18 @@ link:#panel_ph_d_thesis[Panel, Ph.D. Thesis]
 === Supervisor, M.Sc. Thesis
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/masterthesis/cawley-darach-2004.adoc[]
-|include::{vdmsite-lib-home}/masterthesis/oconnor-robert-2004.adoc[]
-|include::{vdmsite-lib-home}/masterthesis/feeney-martin-2006.adoc[]
-|include::{vdmsite-lib-home}/masterthesis/morris-teri-2006.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/2000/cawley-darach-2004.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/2000/oconnor-robert-2004.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/2000/feeney-martin-2006.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/2000/morris-teri-2006.adoc[]
 |===
 
 
 === Supervisor, Ph.D. Thesis
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/phdthesis/barret-keara-2009.adoc[]
-|include::{vdmsite-lib-home}/phdthesis/strassner-john-2009.adoc[]
+|include::{vdmsite-lib-home}/thesis/phd/2000/barret-keara-2009.adoc[]
+|include::{vdmsite-lib-home}/thesis/phd/2000/strassner-john-2009.adoc[]
 |===
 
 
@@ -71,10 +71,10 @@ link:#panel_ph_d_thesis[Panel, Ph.D. Thesis]
 === Panel, Ph.D. Thesis
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/phdthesis/davy-steven-2008.adoc[]
-|include::{vdmsite-lib-home}/phdthesis/xu-lei-2010.adoc[]
-|include::{vdmsite-lib-home}/phdthesis/frank-korbinian-2011.adoc[]
-|include::{vdmsite-lib-home}/phdthesis/verstichel-stijn-2011.adoc[]
+|include::{vdmsite-lib-home}/thesis/phd/2000/davy-steven-2008.adoc[]
+|include::{vdmsite-lib-home}/thesis/phd/2010/xu-lei-2010.adoc[]
+|include::{vdmsite-lib-home}/thesis/phd/2010/frank-korbinian-2011.adoc[]
+|include::{vdmsite-lib-home}/thesis/phd/2010/verstichel-stijn-2011.adoc[]
 |===
 
 

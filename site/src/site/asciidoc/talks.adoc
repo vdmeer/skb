@@ -6,6 +6,7 @@ link:#keynote[Keynote] ┃
 link:#invited_talk[Invited Talk] ┃
 link:#panel[Panel] ┃
 link:#tutorial[Tutorial] ┃
+link:#lecture_notes[Lecture Notes] ┃
 link:#presentation[Presentation]
 
 
@@ -16,6 +17,8 @@ include::{vdmsite-lib-home}/vdm/invited-talk.adoc[]
 include::{vdmsite-lib-home}/vdm/panel.adoc[]
 
 include::{vdmsite-lib-home}/vdm/tutorial.adoc[]
+
+include::{vdmsite-lib-home}/vdm/lecture-notes.adoc[]
 
 include::{vdmsite-lib-home}/vdm/presentation.adoc[]
 

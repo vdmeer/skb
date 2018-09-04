@@ -13,11 +13,11 @@
             <subsection name="MvS">
                 <table>
                     <tr>
-                        <th style="white-space:nowrap; font-weight: bold; font-size: 1.25em" colspan="2">Management von verteilten Systemen (MvS, Management of Distributed Systems), Vorlesung (Lecture), TU Berlin</th>
+                        <th style="white-space:nowrap; font-weight: bold; font-size: 1.25em" colspan="2">Management Vorlesung (Lecture), TU Berlin</th>
                     </tr>
                     <tr>
                         <td width="50%">
-                            <b>SS 1998</b>, Management von TK Diensten (Management of Telecommunication Services)
+                            <b>SS 1998</b>, Management von Telekommunikationsdiensten (Management of Telecommunication Services)
                             <ul>
                                 <li>Internet Management (SNMP, v2, v3, RMON)</li>
                                 <li>OSI Management (X.200, X.500, X.700, CMIP, CMIS)</li>
@@ -32,7 +32,7 @@
                             </ul>
                             </td>
                         <td width="50%">
-                            <b>SS 1999</b>, MvS
+                            <b>SS 1999</b>, Management von Telekommunikationsdiensten (Management of Telecommunication Services)
                             <ul>
                                 <li>Internet Management (SNMP, SNMP V2, SNMP V3, RMON)</li>
                                 <li>OSI Management (X.200, X.500, X.700, CMIP, CMIS)</li>
@@ -48,7 +48,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <b>SS 2000</b>, MvS
+                            <b>SS 2000</b>, Management von verteilten Systemen (Management of distributed Systems)
                             <ul>
                                 <li>Internet Management (SNMPv1, v2, v3)</li>
                                 <li>OSI Management (ITU-T X.200/X.500/X.700)</li>
@@ -60,7 +60,7 @@
                             </ul>
                             </td>
                         <td>
-                            <b>SS 2001</b>, MvS
+                            <b>SS 2001</b>, Management von verteilten Systemen (Management of distributed Systems)
                             <ul>
                                 <li>Internet Management I (SNMPv1, v2, SNMPv3, Examples)</li>
                                 <li>OSI Management (ITU-T X.200/X.500/X.700)</li>
@@ -73,7 +73,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <b>SS 2002</b>, MvS
+                            <b>SS 2002</b>, Management von verteilten Systemen (Management of distributed Systems)
                             <ul>
                                 <li>Internet Management I (SNMPv1, v2)</li>
                                 <li>Internet Management II (SNMPv3, Examples)</li>
@@ -92,11 +92,11 @@
             <subsection name="BB">
                 <table>
                     <tr>
-                        <th style="white-space:nowrap; font-weight: bold; font-size: 1.25em" colspan="2">Breitband Netztechnologien (BB, Broadband Network Technologies), Vorlesung (Lecture), TU Berlin</th>
+                        <th style="white-space:nowrap; font-weight: bold; font-size: 1.25em" colspan="2">Breitbandnetzwerktechnologien (BB, Broadband Network Technologies), Vorlesung (Lecture), TU Berlin</th>
                     </tr>
                     <tr>
                         <td width="50%">
-                            <b>SS 1998</b>, BB
+                            <b>SS 1998</b>, Breitbandnetzwerktechnologien
                             <ul>
                                 <li>Introduction (Standard Bodies, Communication Networks, Logical Structure of Networks, Cables, Internetworking, structured Cabling)</li>
                                 <li>DQDB, FDDI, ATM &amp; Legacy Protocols over ATM</li>
@@ -105,7 +105,7 @@
                             </ul>
                         </td>
                         <td width="50%">
-                            <b>SS 1999</b>, BB
+                            <b>SS 1999</b>, Breitbandnetzwerktechnologien
                             <ul>
                                 <li>Introduction (Standard Bodies, Communication Networks, Logical Structure of Networks, Cables, Internetworking, structured Cabling)</li>
                                 <li>Local Loop (x56, k2, DSL, ISDN, Cable Modem)</li>
@@ -124,7 +124,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <b>SS 1999</b>, MCUC
+                            <b>SS 1999</b>, Mobile Communications and Ubiquitous Computing (MCUC)
                             <ul>
                                 <li>Intelligent Networks (Architektur, Standards, Dienste, Evolution, TINA)</li>
                                 <li>UPT, GSM, PSH, CAMEL, UMTS, FPLMTS, IMT2000</li>

@@ -3,10 +3,10 @@
 * Authots: Robert O'Connor, Sven van der Meer
 * Published: ISICT '03 Proceedings of the 1st international symposium on Information and communication technologies, Pages 157-162 
 * Links:
-    link:http://doi.acm.org/10.1145/963600.963633[DOI] ┃
-    link:https://www.researchgate.net/publication/220833292_Present_and_future_organisational_models_for_wireless_networks[ResearchGate]
+       link:http://doi.acm.org/10.1145/963600.963633[DOI]
+    ┃ link:https://www.researchgate.net/publication/220833292_Present_and_future_organisational_models_for_wireless_networks[ResearchGate]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/2000/oconnor-isict-2003.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/inproceedings/2000/oconnor-isict-2003.pdf[PDF]
+    ┃ link:/library/inproceedings/2000/oconnor-isict-2003.pdf[PDF]
 endif::[]
 

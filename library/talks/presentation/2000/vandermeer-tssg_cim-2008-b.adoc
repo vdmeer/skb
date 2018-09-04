@@ -1,0 +1,10 @@
+*Sven van der Meer*: _Standard Defining Organisations_, 2008
+
+* Presentation: TSSG/CIM Autonomics Workshop, Waterford, Ireland, July 11, 2008
+* Links:
+       skb: link:https://github.com/vdmeer/skb/tree/master/library/talks/presentations/2000/vandermeer-tssg_cim-2008-b.adoc[src]
+ifdef::local[]
+    ┃ link:/library/talks/presentation/2000/[Folder]
+endif::[]
+
+

@@ -1,0 +1,9 @@
+*Declan O'Sullivan*: _The OISIN framework: Ontology Interoperability in support of Semantic Interoperability_, 2006
+
+* Ph.D. Thesis, Trinity College Dublin (TCD), Dublin, Ireland
+* Links:
+       skb: link:https://github.com/vdmeer/skb/tree/master/library/thesis/phd/2000/osullivan-declan-2006.adoc[src]
+ifdef::local[]
+    ┃ link:/library/thesis/phd/2000/[Folder]
+endif::[]
+

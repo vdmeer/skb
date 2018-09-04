@@ -4,10 +4,10 @@
 * Published: 2014 IEEE International Conference on Pervasive Computing and Communication Workshops (PERCOM WORKSHOPS)
   ** Workshop: MUCS 2014
 * Links:
-    link:https://doi.org/10.1109/PerComW.2014.6815252[DOI] ┃
-    link:https://www.researchgate.net/publication/269307138_Context-aware_heterogeneous_network_performance_analysis_Test-bed_development[ResearchGate]
+       link:https://doi.org/10.1109/PerComW.2014.6815252[DOI]
+    ┃ link:https://www.researchgate.net/publication/269307138_Context-aware_heterogeneous_network_performance_analysis_Test-bed_development[ResearchGate]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/2010/yuan-percom-2014.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/inproceedings/2010/yuan-percom-2014.pdf[PDF]
+    ┃ link:/library/inproceedings/2010/yuan-percom-2014.pdf[PDF]
 endif::[]
 

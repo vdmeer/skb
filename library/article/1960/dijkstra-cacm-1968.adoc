@@ -3,12 +3,12 @@
 * Reasons to read: introduces concept of layers
 * Published: Communications of the ACM CACM, Volume 11 Issue 5, May 1968, Pages 341-346 
 * Links:
-    link:https://doi.org/10.1145/363095.363143[DOI] ┃
-    link:http://www.cs.utexas.edu/users/EWD/ewd01xx/EWD196.PDF[PDF] ┃
-    link:http://www.cs.utexas.edu/~EWD/transcriptions/EWD01xx/EWD196.html[TXT]
+       link:https://doi.org/10.1145/363095.363143[DOI]
+    ┃ link:http://www.cs.utexas.edu/users/EWD/ewd01xx/EWD196.PDF[PDF]
+    ┃ link:http://www.cs.utexas.edu/~EWD/transcriptions/EWD01xx/EWD196.html[TXT]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/article/1960/dijkstra-cacm-1968.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/article/1960/dijkstra-cacm-1968.pdf[PDF]
+    ┃ link:/library/article/1960/dijkstra-cacm-1968.pdf[PDF]
 endif::[]
 
 

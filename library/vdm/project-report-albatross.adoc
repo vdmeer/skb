@@ -1,7 +1,8 @@
 === Project Reports - AlbatrOSS
+
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/report/albatross/albatross-d3-2002.adoc[]
+|include::{vdmsite-lib-home}/report/project/albatross/albatross-d3-2002.adoc[]
 |===
 
 

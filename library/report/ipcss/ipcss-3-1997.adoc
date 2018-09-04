@@ -1,5 +1,0 @@
-*Tom Pfeifer* (editor): _Resource Selection, CORBA Platforms, TINA migration_, 1997
-
-* Project Report: iPCSS - intelligent Personal Communication System - Deliverable 3, 1997
-
-

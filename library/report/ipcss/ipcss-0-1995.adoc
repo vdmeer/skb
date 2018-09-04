@@ -1,5 +1,0 @@
-*Tom Pfeifer* (editor): _Design criteria and preliminary description of functionality_, 1995
-
-* Project Report: iPCSS - intelligent Personal Communication System - Deliverable 0, 1995
-
-

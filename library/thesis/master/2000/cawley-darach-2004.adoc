@@ -1,0 +1,9 @@
+*Darach Cawley*: _Development of Smart Services for Smart Spaces_, 2004
+
+* M.Sc. Thesis, Waterford Institute of Technology (WIT), Waterford, Ireland
+* Links:
+       skb: link:https://github.com/vdmeer/skb/tree/master/library/thesis/master/2000/cawley-darach-2004.adoc[src]
+ifdef::local[]
+    ┃ link:/library/thesis/master/2000/[Folder]
+endif::[]
+

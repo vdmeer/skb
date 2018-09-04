@@ -1,8 +1,0 @@
-*Liam Fallon*: _Semantic-based Service Analysis and Optimization_, 2013
-
-* Ph.D. Thesis, Trinity College Dublin (TCD), Dublin, Ireland
-ifdef::local[]
-* Local links:
-    link:/library/phdthesis/fallon-liam-2013-submission.pdf[PDF]
-endif::[]
-

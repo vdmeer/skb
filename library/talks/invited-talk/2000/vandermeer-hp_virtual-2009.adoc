@@ -1,0 +1,9 @@
+*Sven van der Meer*: _SFI SRC FAME - Overview and Scenarios_, 2009
+
+* Invited Talk: HP Virtual Workshop, April 27, 2009
+* Links:
+       skb: link:https://github.com/vdmeer/skb/tree/master/library/talks/invited-talk/2000/vandermeer-hp_virtual-2009.adoc[src]
+ifdef::local[]
+    ┃ link:/library/talks/invited-talk/2000/[Folder]
+endif::[]
+

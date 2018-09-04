@@ -3,10 +3,10 @@
 * Authors: Faisal Zaman, Sebastian Robitzsch, Zhuo Wu, John Keeney, Sven van der Meer, Gabriel-Miro Muntean
 * Published: 2014 IEEE Network Operations and Management Symposium (NOMS)
 * Links:
-    link:https://doi.org/10.1109/NOMS.2014.6838350[DOI] ┃
-    link:https://www.researchgate.net/publication/271437362_A_heuristic_correlation_algorithm_for_data_reduction_through_noise_detection_in_stream-based_communication_management_systems[ResearchGate]
+       link:https://doi.org/10.1109/NOMS.2014.6838350[DOI]
+    ┃ link:https://www.researchgate.net/publication/271437362_A_heuristic_correlation_algorithm_for_data_reduction_through_noise_detection_in_stream-based_communication_management_systems[ResearchGate]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/2010/zaman-noms-2014.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/inproceedings/2010/zaman-noms-2014.pdf[PDF]
+    ┃ link:/library/inproceedings/2010/zaman-noms-2014.pdf[PDF]
 endif::[]
 

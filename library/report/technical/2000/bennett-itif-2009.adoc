@@ -1,0 +1,13 @@
+*Richard Bennett*: _Designed for Change: End-to-End Arguments, Internet Innovation, and the Net Neutrality Debate_, 2009
+
+* Reasons to read: technical history of the Internet (including CYCLADES), reference for 1986 Internet crash, discussions on current Internet affairs (including RINA)
+* Publisher: Information Technology & Innovation Foundation, ITIF, Washington DC
+* Links:
+       link:https://itif.org/publications/2009/09/25/designed-change-end-end-arguments-internet-innovation-and-net-neutrality[ITIF]
+    ┃ link:http://www.itif.org/files/Designed_for_Change_Presentation.pdf[PDF: talk]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/report/project/technical/2000/bennett-itif-2009.adoc[src]
+ifdef::local[]
+* Local links:
+    ┃ link:/library/report/tecnichal/2000/[Folder]
+endif::[]
+

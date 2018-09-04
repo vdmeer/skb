@@ -1,0 +1,12 @@
+*Sven van der Meer*: _A Discussion on Policy-based Management using Context Mobility in Ad-Hoc Networking_, 2007
+
+* Panel: _Seamless Service Mobility Challenges and Solutions_
+* Panelists: Yacine Ghamri-Doudane, Yann Gasté, Sven van der Meer, John Strassner
+* Venue: 2007 First International Global Information Infrastructure Symposium, GIIS, Marrakech, Morocco
+  ** Workshop: 1st Alcatel-Lucent/Université d'Evry/Telenor Seamless Service MObility (SSMO) Workshop, July 2, 2007
+* Links:
+       skb: link:https://github.com/vdmeer/skb/tree/master/library/talks/panel/2000/vandermeer-ssmo-2007.adoc[src]
+ifdef::local[]
+    ┃ link:/library/talks/panel/2000/[Folder]
+endif::[]
+

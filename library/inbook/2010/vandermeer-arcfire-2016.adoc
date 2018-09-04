@@ -5,12 +5,12 @@
 * Published: chapter 19, pp 575-585 In: Martin Serrano, Nikolaos Isaris, Hans Schaffers, John Domingue, Michael Boniface, Thanasis Korakis (eds) _Building the Future Internet through FIRE_, Lecture Notes in Computer Science, vol 60. Springer, Berlin, Heidelberg
 * Publisher: as Open Access by River Publishers, Delft, The Netherlands
 * Links:
-    link:https://dx.doi.org/10.13052/rp-9788793519114[DOI] ┃
-    link:http://www.riverpublishers.com/research_details.php?book_id=427[Publisher] ┃
-    link:http://www.riverpublishers.com/pdf/ebook/chapter/RP_9788793519114C19.pdf[PDF]
+       link:https://dx.doi.org/10.13052/rp-9788793519114[DOI]
+    ┃ link:http://www.riverpublishers.com/research_details.php?book_id=427[Publisher]
+    ┃ link:http://www.riverpublishers.com/pdf/ebook/chapter/RP_9788793519114C19.pdf[PDF]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inbook/2010/vandermeer-arcfire-2016.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/inbook/2010/vandermeer-arcfire-2016.pdf[PDF]
+    ┃ link:/library/inbook/2010/vandermeer-arcfire-2016.pdf[PDF]
 endif::[]
 
 

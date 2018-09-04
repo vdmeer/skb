@@ -3,9 +3,9 @@
 * Reasons to read: fundamental patterns for network architecure, historic context, annectodal context
 * Publisher: Pearson Edition
 * Links:
-    link:https://www.goodreads.com/book/show/8193269-patterns-in-network-architecture[Goodreads]
+       link:https://www.goodreads.com/book/show/8193269-patterns-in-network-architecture[Goodreads]
+    ┃ skb: https://github.com/vdmeer/skb/tree/master/library/book/2000/day-john-pna-2007.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/book/2000/day-john-pna-2007.pdf[PDF]
+    ┃ link:/library/book/2000/[Folder]
 endif::[]
 

@@ -3,7 +3,7 @@
 * Reasons to read: the most simple, yet expressive, introduction on machines :)
 * Publisher: Max Parrsih, London
 * Links:
-    link:http://manchesterartgallery.org/blog/machines-which-seem-to-think[gallery with 3 pages] ┃
-    link:http://www.fulltable.com/iso/mw.htm[all pages]
-
+       link:http://manchesterartgallery.org/blog/machines-which-seem-to-think[gallery with 3 pages]
+    ┃ link:http://www.fulltable.com/iso/mw.htm[all pages]
+    ┃ skb: https://github.com/vdmeer/skb/tree/master/library/book/1950/neurath-how_machines_work-1954.adoc[src]
 

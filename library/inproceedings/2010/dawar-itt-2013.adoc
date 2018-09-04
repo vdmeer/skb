@@ -3,11 +3,11 @@
 * Authors: Sumit Dawar, Sven van der Meer, Enda Fallon, John Keeney, Tom Bennett
 * Published: 12th Annual IT&T ConferenceAt: Athlone, Ireland, 2013
 * Links:
-    link:https://www.researchgate.net/publication/326905013_Building_a_Scalable_Event_Processing_System_with_Messaging_and_Policies-Test_and_Evaluation_of_RabbitMQ_and_Drools_Expert[ResearchGate] ┃
-    link:http://ittconference.ie/index.php?page=12th-annual-conference---ait[ITT 2013]
+       link:https://www.researchgate.net/publication/326905013_Building_a_Scalable_Event_Processing_System_with_Messaging_and_Policies-Test_and_Evaluation_of_RabbitMQ_and_Drools_Expert[ResearchGate]
+    ┃ link:http://ittconference.ie/index.php?page=12th-annual-conference---ait[ITT 2013]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/2010/dawar-itt-2013.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/inproceedings/2010/dawar-itt-2013.pdf[PDF] ┃
-    link:/library/inproceedings/2010/dawar-itt-2013.doc[DOC]
+    ┃ link:/library/inproceedings/2010/dawar-itt-2013.pdf[PDF]
+    ┃ link:/library/inproceedings/2010/dawar-itt-2013.doc[DOC]
 endif::[]
 

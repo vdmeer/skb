@@ -3,12 +3,12 @@
 * Authors: John Keeney, Sven van der Meer, Gabriel Hogan
 * Published: 2013 IFIP/IEEE International Symposium on Integrated Network Management (IM 2013)
 * Links:
-    link:https://ieeexplore.ieee.org/document/6573072/[IEEE Xplore] ┃
-    link:https://www.researchgate.net/publication/259785776_A_recommender-system_for_telecommunications_network_management_actions[ResearchGate]
+       link:https://ieeexplore.ieee.org/document/6573072/[IEEE Xplore]
+    ┃ link:https://www.researchgate.net/publication/259785776_A_recommender-system_for_telecommunications_network_management_actions[ResearchGate]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/2010/keeney-im-2013.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/inproceedings/2010/keeney-im-2013.pdf[PDF] ┃
-    link:/library/inproceedings/2010/keeney-im-2013-poster.ppt[PPT: poster]
+    ┃ link:/library/inproceedings/2010/keeney-im-2013.pdf[PDF]
+    ┃ link:/library/inproceedings/2010/keeney-im-2013-poster.ppt[PPT: poster]
 endif::[]
 
 

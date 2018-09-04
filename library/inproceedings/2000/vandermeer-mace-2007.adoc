@@ -3,11 +3,11 @@
 * Authors: Sven van der Meer, Joel J. Fleck II, Martin Huddleston, David Raymer, John Strassner, Willie Donnelly
 * Published: Second IEEE International Workshop on Modelling Autonomic Communications Environments, MACE 2007
 * Links:
-    link:https://www.researchgate.net/publication/268369269_Manageability_of_Autonomic_Software_Artifacts_using_Contracts_and_Traceability_Maps[ResearchGate]
+       link:https://www.researchgate.net/publication/268369269_Manageability_of_Autonomic_Software_Artifacts_using_Contracts_and_Traceability_Maps[ResearchGate]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/2000/vandermeer-mace-2007.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/inproceedings/2000/vandermeer-mace-2007.pdf[PDF] ┃ 
-    link:/library/inproceedings/2000/vandermeer-mace-2007.doc[DOC] ┃ 
-    link:/library/inproceedings/2000/vandermeer-mace-2007-figures.ppt[PPT: Figures]
+    ┃ link:/library/inproceedings/2000/vandermeer-mace-2007.pdf[PDF]
+    ┃ link:/library/inproceedings/2000/vandermeer-mace-2007.doc[DOC]
+    ┃ link:/library/inproceedings/2000/vandermeer-mace-2007-figures.ppt[PPT: Figures]
 endif::[]
 

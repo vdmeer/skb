@@ -1,0 +1,12 @@
+*Sven van der Meer* et al.: _I-centric Communications_, 2001
+
+* Presenter: Sven van der Meer
+* Authors: Sven van der Meer, Stephan Steglich, Stefan Arbanowski
+* Tutorial: 8th IEEE International Conference on Telecommunications (ICT 2001)
+* Links:
+       skb: link:https://github.com/vdmeer/skb/tree/master/library/talks/tutorial/2000/vandermeer-ict-2001.adoc[src]
+ifdef::local[]
+    ┃ link:/library/talks/keynote/2000/[Folder]
+endif::[]
+
+

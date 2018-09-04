@@ -3,11 +3,11 @@
 * Reasons to read: a more formal discussio on layers
 * Published: Acta Informatica, June 1971, Volume 1, Issue 2, pp 115–138
 * Links:
-    link:https://doi.org/10.1007/BF00289519[DOI] ┃
-    link:https://citemaster.net/get/a78f58ca-651b-11e2-a63c-00163e009cc7/EWD310.PDF[PDF]
+       link:https://doi.org/10.1007/BF00289519[DOI]
+    ┃ link:https://citemaster.net/get/a78f58ca-651b-11e2-a63c-00163e009cc7/EWD310.PDF[PDF]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/article/1970/dijkstra-ai-1971.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/article/1970/dijkstra-ai-1971.pdf[PDF]
+    ┃ link:/library/article/1970/dijkstra-ai-1971.pdf[PDF]
 endif::[]
 
 

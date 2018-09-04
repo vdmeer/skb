@@ -3,11 +3,11 @@
 * Authors: Samir Ghamri-Doudane, Sven van der Meer, Robert O'Connor, Yacine Ghamri-Doudane, Nazim Agoulmine
 * Published: 11th Workshop of the HP OpenView University Association (HP-OVUA 2004) , Jun 2004
 * Links:
-    link:https://www.researchgate.net/publication/228507111_Resources_discovery_and_management_using_policies_in_smart_spaces?_sg=cIeZ-5GSIqIbtqYmaev4Y5wICiEnu5Fru-SXYeKer5PSE7bA6Oo-r4QPXYG83AI0lpcTQuCCqekWB7K1Hb83rlFAqjjezzKXelMYoNPi.1N3vVyiyzhcaWcM9gvjpTXVcMuAdaQypNAcqFU_hOavHVWv2WlxcZnhDgMW6yjM8TWnyd5CWO45A133Ud0ZyrA[ResearchGate]
+       link:https://www.researchgate.net/publication/228507111_Resources_discovery_and_management_using_policies_in_smart_spaces?_sg=cIeZ-5GSIqIbtqYmaev4Y5wICiEnu5Fru-SXYeKer5PSE7bA6Oo-r4QPXYG83AI0lpcTQuCCqekWB7K1Hb83rlFAqjjezzKXelMYoNPi.1N3vVyiyzhcaWcM9gvjpTXVcMuAdaQypNAcqFU_hOavHVWv2WlxcZnhDgMW6yjM8TWnyd5CWO45A133Ud0ZyrA[ResearchGate]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/2000/ghamri-doudane-hpovua-2004.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/inproceedings/2000/ghamri-doudane-hpovua-2004.pdf[PDF] ┃
-    link:/library/inproceedings/2000/ghamri-doudane-hpovua-2004.ppt[PPT] ┃
-    link:/library/inproceedings/2000/ghamri-doudane-hpovua-2004.7z[7z]
+    ┃ link:/library/inproceedings/2000/ghamri-doudane-hpovua-2004.pdf[PDF]
+    ┃ link:/library/inproceedings/2000/ghamri-doudane-hpovua-2004.ppt[PPT]
+    ┃ link:/library/inproceedings/2000/ghamri-doudane-hpovua-2004.7z[7z]
 endif::[]
 

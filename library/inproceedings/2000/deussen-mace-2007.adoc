@@ -3,12 +3,12 @@
 * Authors: Peter Deussen, Benoit Bruyere, Claire Fahy, Sven van der Meer, Maurice Israel, Edzard Hoefig, David Lewis, Declan O'Sullivan, Dominic Greenwood, Alessandro Bassi, Jacques Saraydaryan
 * Published: Second IEEE International Workshop on Modelling Autonomic Communications Environments, MACE 2007
 * Links:
-    link:https://www.researchgate.net/publication/228747362_A_Discussion_on_Fundamental_Approaches_for_the_Engineering_of_Autonomic_Systems[ResearchGate]
+       link:https://www.researchgate.net/publication/228747362_A_Discussion_on_Fundamental_Approaches_for_the_Engineering_of_Autonomic_Systems[ResearchGate]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/2000/deussen-mace-2007.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/inproceedings/2000/deussen-mace-2007.pdf[PDF] ┃ 
-    link:/library/inproceedings/2000/deussen-mace-2007.doc[DOC] ┃ 
-    link:/library/inproceedings/2000/deussen-mace-2007.ppt[PPT] ┃ 
-    link:/library/inproceedings/2000/deussen-mace-2007-figures.ppt[PPT: Figures]
+    ┃ link:/library/inproceedings/2000/deussen-mace-2007.pdf[PDF]
+    ┃ link:/library/inproceedings/2000/deussen-mace-2007.doc[DOC]
+    ┃ link:/library/inproceedings/2000/deussen-mace-2007.ppt[PPT]
+    ┃ link:/library/inproceedings/2000/deussen-mace-2007-figures.ppt[PPT: Figures]
 endif::[]
 

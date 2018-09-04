@@ -1,10 +1,11 @@
 === Project Reports - FAME
+
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/report/fame/fame-y1-2009.adoc[]
-|include::{vdmsite-lib-home}/report/fame/fame-d21-2010.adoc[]
-|include::{vdmsite-lib-home}/report/fame/fame-d22-2011.adoc[]
-|include::{vdmsite-lib-home}/report/fame/fame-y2-2011.adoc[]
+|include::{vdmsite-lib-home}/report/project/fame/fame-y1-2009.adoc[]
+|include::{vdmsite-lib-home}/report/project/fame/fame-d21-2010.adoc[]
+|include::{vdmsite-lib-home}/report/project/fame/fame-d22-2011.adoc[]
+|include::{vdmsite-lib-home}/report/project/fame/fame-y2-2011.adoc[]
 |===
 
 

@@ -1,6 +1,6 @@
-*U. Dayal et al.*: _The HiPAC project: combining active databases and timing constraints_, 1988
+*Umeshwar Dayal* et al.: _The HiPAC project: combining active databases and timing constraints_, 1988
 
-* Authors: U. Dayal, Barbara Blaustein, Alejandro Buchmann, Sharma Chakravarthy, Meichun Hsu, R. Ledin, D. McCarthy, Arnon Rosenthal, S. Sarin, M. J. Carey, Miron Livny, R. Jauhari
+* Authors: Umeshwar Dayal, Barbara Blaustein, Alejandro Buchmann, Sharma Chakravarthy, Meichun Hsu, R. Ledin, Dennis R. McCarthy, Arnon Rosenthal, S. Sarin, M. J. Carey, Miron Livny, R. Jauhari
 * Reasons to read: origin of Event Condition Action (ECA) rules
   ** Defines ECA rules – Event, Condition, Action
      *** Event triggers rule, i.e. condition evaluation
@@ -12,10 +12,10 @@
   ** Funded by DARPA
 * Published: ACM SIGMOD Record - Special Issue on Real-Time Database Systems, Volume 17 Issue 1, March, 1988, Pages 51 - 70 
 * Links:
-    link:https://doi.org/10.1145/44203.44208[DOI] ┃ 
-    link:https://www.researchgate.net/publication/234790486_The_HiPAC_project_Combining_Active_Databases_and_Timing_Constraints[ResearchGate]
+       link:https://doi.org/10.1145/44203.44208[DOI]
+    ┃ link:https://www.researchgate.net/publication/234790486_The_HiPAC_project_Combining_Active_Databases_and_Timing_Constraints[ResearchGate]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/article/1980/dayal-sigmod-1988.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/article/1980/dayal-sigmod-1988.pdf[PDF]
+    ┃ link:/library/article/1980/dayal-sigmod-1988.pdf[PDF]
 endif::[]
 

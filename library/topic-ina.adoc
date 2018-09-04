@@ -19,7 +19,7 @@ Provide a list of papers, articles, books and the like important to understand n
 |===
 |include::{vdmsite-lib-home}/book/1950/ashby-w-ross-intro_cybernetics-1956.adoc[]
 |include::{vdmsite-lib-home}/book/1960/wiener-norbert-cybernetics-1965.adoc[]
-|include::{vdmsite-lib-home}/report/1970/maturana-biology-of-cognition-1970.adoc[]
+|include::{vdmsite-lib-home}/report/technical/1970/maturana-biology-of-cognition-1970.adoc[]
 |include::{vdmsite-lib-home}/book/1980/maturana_tree_of_knowledge-1987.adoc[]
 |include::{vdmsite-lib-home}/online/2010/dubberly-cybernetics-2015.adoc[]
 |===
@@ -115,7 +115,7 @@ Provide a list of papers, articles, books and the like important to understand n
 |include::{vdmsite-lib-home}/inproceedings/1970/watson-ddmcn-1979.adoc[]
 |include::{vdmsite-lib-home}/inproceedings/1980/watson-tas-1980.adoc[]
 |include::{vdmsite-lib-home}/article/1980/watson-networks-1981.adoc[]
-|include::{vdmsite-lib-home}/report/1980/watson-delta_t-1981.adoc[]
+|include::{vdmsite-lib-home}/report/technical/1980/watson-delta_t-1981.adoc[]
 |include::{vdmsite-lib-home}/inproceedings/1980/watson-lcn-1989.adoc[]
 |===
 
@@ -152,7 +152,7 @@ This context is also important to understand not only when, but also how (and of
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
 |include::{vdmsite-lib-home}/misc/mckenzie-archive.adoc[]
-|include::{vdmsite-lib-home}/report/2000/bennett-itif-2009.adoc[]
+|include::{vdmsite-lib-home}/report/technical/2000/bennett-itif-2009.adoc[]
 |include::{vdmsite-lib-home}/article/2010/mckenzie-ieee-2011.adoc[]
 |include::{vdmsite-lib-home}/article/2010/russell-spectrum-2013.adoc[]
 |include::{vdmsite-lib-home}/book/2010/russell-sdos-2014.adoc[]
@@ -164,16 +164,17 @@ This context is also important to understand not only when, but also how (and of
 === Packet-switched Networks and CATENET
 CATENET - concatenated networks, probably from Latin _catena_ (chain) - the first description of a packet-switched network architecture with an actual deployed network (CYCLADES).
 Documents are listed in historic order.
-* links:
+
+* Links:
     CATENET transition link:http://iuwg.net[Free/Libre Catenet] | 
     also see link:http://catenet.org/index.php/IEN_48_-_THE_CATENET_MODEL_FOR_INTERNETWORKING[catenet.org]
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/report/1960/baran-distr_comm_nework-1964.adoc[]
+|include::{vdmsite-lib-home}/report/technical/1960/baran-distr_comm_nework-1964.adoc[]
 |include::{vdmsite-lib-home}/article/1970/davies-tcom-1972.adoc[]
-|include::{vdmsite-lib-home}/report/1970/inwg42-1973.adoc[]
-|include::{vdmsite-lib-home}/report/1970/inwg60-1974.adoc[]
+|include::{vdmsite-lib-home}/report/technical/1970/inwg42-1973.adoc[]
+|include::{vdmsite-lib-home}/report/technical/1970/inwg60-1974.adoc[]
 |include::{vdmsite-lib-home}/standard/ietf/cerf-ien48-1978.adoc[]
 |===
 

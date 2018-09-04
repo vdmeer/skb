@@ -5,10 +5,9 @@
 * Also published as IETF IEN 19
 * Also published in:  Also in Thurber, K. (ed.), Tutorial: Distributed Processor Communication Architecture, IEEE Publ. #EHO 152-9, 1979, pp. 280-287
 * Links:
-    link:https://www.ietf.org/rfc/ien/ien19.txt[IEN19: txt]
+       link:https://www.ietf.org/rfc/ien/ien19.txt[IEN19: txt]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/1970/shoch-compcon-1978.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/inproceedings/1970/shoch-compcon-1978.txt[TXT]
+    ┃ link:/library/inproceedings/1970/shoch-compcon-1978.txt[TXT]
 endif::[]
-
 

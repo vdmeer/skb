@@ -3,11 +3,11 @@
 * Authors: John Strassner, Sven van der Meer, Declan O’Sullivan, Simon Dobson
 * Published: Journal of Network and Systems Management (JNSM), September 2009, Volume 17, Issue 3, pp 255–284
 * Links:
-    link:https://doi.org/10.1007/s10922-009-9126-4[DOI] ┃
-    link:https://www.researchgate.net/publication/225102579_The_Use_of_Context-Aware_Policies_and_Ontologies_to_Facilitate_Business-Aware_Network_Management[ResearchGate]
+       link:https://doi.org/10.1007/s10922-009-9126-4[DOI]
+    ┃ link:https://www.researchgate.net/publication/225102579_The_Use_of_Context-Aware_Policies_and_Ontologies_to_Facilitate_Business-Aware_Network_Management[ResearchGate]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/article/2000/strassner-jnsm-2009-b.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/article/2000/strassner-jnsm-2009-b.pdf[PDF]
+    ┃ link:/library/article/2000/strassner-jnsm-2009-b.pdf[PDF]
 endif::[]
 
 

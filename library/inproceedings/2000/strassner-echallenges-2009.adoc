@@ -3,9 +3,9 @@
 * Authors: John Strassner, Sven van der Meer, Brendan Jennings, Miguel Ponce de Leon
 * Published: 19th eChallenges Conf. (e-2009)
 * Links:
-    link:https://www.researchgate.net/publication/266097687_Semantic_Mediation_to_Enable_Network_and_Service_Management_Interoperability_in_Future_Internet_Networks[ResearchGate]
+       link:https://www.researchgate.net/publication/266097687_Semantic_Mediation_to_Enable_Network_and_Service_Management_Interoperability_in_Future_Internet_Networks[ResearchGate]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/2000/strassner-echallenges-2009.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/inproceedings/2000/strassner-echallenges-2009.pdf[PDF]
+    ┃ link:/library/inproceedings/2000/strassner-echallenges-2009.pdf[PDF]
 endif::[]
 

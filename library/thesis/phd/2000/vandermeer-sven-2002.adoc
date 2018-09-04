@@ -1,0 +1,14 @@
+*Sven van der Meer*: _Middleware and Application Management Architecture_, 2002
+
+* Doktorarbeit (PhD Thesis), Technical University Berlin (TUB), Berlin, Germany
+* Berlin, September 25, 2002
+* Links:
+       link:http://dx.doi.org/10.14279/depositonce-595[DOI]
+    ┃ link:https://depositonce.tu-berlin.de/bitstream/11303/892/1/Dokument_2.pdf[PDF: TU Berlin]
+    ┃ link:https://pdfs.semanticscholar.org/958d/0e59b8cd8d298afd7265d2a9eba2f841b2cf.pdf[PDF: Semantic Scholar]
+    ┃ link:https://ernster.com/detail/ISBN-9783930736027/Meer-Sven-van-der/Middleware-and-Application-Management-Architecture?bpmctrl=bpmrownr.5%7Cforeign.74180-1-0-0[Ernster]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/thesis/phd/2000/vandermeer-sven-2002.adoc[src]
+ifdef::local[]
+    ┃ link:/library/thesis/phd/2000/[Folder]
+endif::[]
+

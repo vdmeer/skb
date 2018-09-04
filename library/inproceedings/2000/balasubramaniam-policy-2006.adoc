@@ -3,10 +3,10 @@
 * Authors: Sasitharan Balasubramaniam, Keara Barrett, William Donnelly, Sven van der Meer, John Strassner
 * Published: Seventh IEEE International Workshop on Policies for Distributed Systems and Networks (POLICY'06)
 * Links:
-    link:https://doi.org/10.1109/POLICY.2006.12[DOI] ┃
-    link:https://www.researchgate.net/publication/4242336_Bio-inspired_Policy_Based_Management_bioPBM_for_Autonomic_Bio-inspired_Policy_Based_Management_bioPBM_for_Autonomic[ResearchGate]
+       link:https://doi.org/10.1109/POLICY.2006.12[DOI]
+    ┃ link:https://www.researchgate.net/publication/4242336_Bio-inspired_Policy_Based_Management_bioPBM_for_Autonomic_Bio-inspired_Policy_Based_Management_bioPBM_for_Autonomic[ResearchGate]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/2000/balasubramaniam-policy-2006.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/inproceedings/2000/balasubramaniam-policy-2006.pdf[PDF]
+    ┃ link:/library/inproceedings/2000/balasubramaniam-policy-2006.pdf[PDF]
 endif::[]
 

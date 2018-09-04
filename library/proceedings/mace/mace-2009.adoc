@@ -1,4 +1,4 @@
-*John C. Strassner, Yacine M. Ghamri-Doudane* (eds): _Modelling Autonomic Communications Environments_, 2009
+*John C. Strassner* et al.: _Modelling Autonomic Communications Environments_, 2009
 
 * Editors: John C. Strassner, Yacine M. Ghamri-Doudane
 * Workshop: Fourth IEEE International Workshop on Modelling Autonomic Communications Environments (MACE), Venice, Italy, 26-27 October, 2009
@@ -6,8 +6,8 @@
 * Publisher: Springer
 * ISBN: 978-3-642-05005-3
 * Links:
-    link:https://doi.org/10.1007/978-3-642-05006-0[DOI] ┃
-    link:http://vandermeer.de/library/proceedings/mace/web/2009/mace.php[Web: orig] ┃
-    link:http://vandermeer.de/library/proceedings/mace/html/2009/mace.html[Web: html]
-
+       link:https://doi.org/10.1007/978-3-642-05006-0[DOI]
+    ┃ link:http://vandermeer.de/library/proceedings/mace/web/2009/mace.php[Web: orig]
+    ┃ link:http://vandermeer.de/library/proceedings/mace/html/2009/mace.html[Web: html]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/proceedings/mace/mace-2009.adoc[src]
 

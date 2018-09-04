@@ -1,5 +1,0 @@
-*Hong Mu*: _Entwicklung seines Testkonzeptes für die Beurteilung der Skalierbarkeit von J2EE-basierten Applicationservern_, 2001
-
-* Diplomarbeit (M.Sc. Thesis), Technical University Berlin (TUB), Berlin, Germany
-
-

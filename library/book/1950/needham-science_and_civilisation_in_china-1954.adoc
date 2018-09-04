@@ -3,6 +3,6 @@
 * Reasons to read: the West was only one to make the leap from artisan to science
 * Publisher: Cambridge University Press
 * Links:
-    link:https://en.wikipedia.org/wiki/Science_and_Civilisation_in_China[Wikipedia]
-
+       link:https://en.wikipedia.org/wiki/Science_and_Civilisation_in_China[Wikipedia]
+    ┃ skb: https://github.com/vdmeer/skb/tree/master/library/book/1950/needham-science_and_civilisation_in_china-1954.adoc[src]
 

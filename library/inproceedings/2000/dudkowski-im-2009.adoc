@@ -3,11 +3,11 @@
 * Authors: Dominique Dudkowski, Marcus Brunner, Giorgio Nunzi, Chiara Mingardi, Chris Foley, Miguel Ponce de Leon, Catalin Meirosu, Susanne Engberg
 * Published: 2009 IFIP/IEEE Symposium on Integrated Network and Service Management (IM), IM 2009
 * Links:
-    link:https://doi.org/10.1109/INM.2009.5188858[DOI]
+       link:https://doi.org/10.1109/INM.2009.5188858[DOI]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/2000/dudkowski-im-2009.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/inproceedings/2000/dudkowski-im-2009.pdf[PDF] ┃
-    link:/library/inproceedings/2000/dudkowski-im-2009.doc[DOC] ┃
-    link:/library/inproceedings/2000/dudkowski-im-2009.ppt[PPT]
+    ┃ link:/library/inproceedings/2000/dudkowski-im-2009.pdf[PDF]
+    ┃ link:/library/inproceedings/2000/dudkowski-im-2009.doc[DOC]
+    ┃ link:/library/inproceedings/2000/dudkowski-im-2009.ppt[PPT]
 endif::[]
 

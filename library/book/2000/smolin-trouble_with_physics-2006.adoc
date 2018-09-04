@@ -3,6 +3,7 @@
 * Reasons to read: "groupthink" anti pattern, role of controversy and disagreement in the progress of science, professionalization has lead to selecting for “master craftsmen” to the almost complete exclusion of “seers.”
 * Publisher: Reed Business Information
 * Links:
-    link:https://en.wikipedia.org/wiki/The_Trouble_with_Physics[Wikipedia] ┃
-    link:http://leesmolin.com/writings/the-trouble-with-physics/[online]
+       link:https://en.wikipedia.org/wiki/The_Trouble_with_Physics[Wikipedia]
+    ┃ link:http://leesmolin.com/writings/the-trouble-with-physics/[online]
+    ┃ skb: https://github.com/vdmeer/skb/tree/master/library/book/2000/smolin-trouble_with_physics-2006.adoc[src]
 

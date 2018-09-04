@@ -1,0 +1,10 @@
+_Mobile Communications & Ubiquitous Computing_, 1999
+
+* Lecturer: Stefan Arbanowski, Sven van der Meer, Thomas Magedanz, Lars Hagen, Dirk Elias
+* Lecture: Sommersemester 1999 (SS99), Technical University Berlin
+* Links:
+       skb: link:https://github.com/vdmeer/skb/tree/master/library/talks/lecture-notes/1990/mcuc-tub-1999.adoc[src]
+ifdef::local[]
+    ┃ link:/library/talks/lecture-notes/1990/[Folder]
+endif::[]
+

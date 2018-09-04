@@ -3,11 +3,11 @@
 * Authors: Tom Pfeifer, Sven van der Meer
 * Published: 5th IFIP TC-6 Conference on Computer Communications (AFRICOM-CCDC 1998), Tunis, Tunisia, October 20-22, 1998
 * Links:
-    link:https://www.researchgate.net/publication/228580286_The_Active_Store_providing_Quality_Enhanced_Unified_Messaging[ResearchGate]
+       link:https://www.researchgate.net/publication/228580286_The_Active_Store_providing_Quality_Enhanced_Unified_Messaging[ResearchGate]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/1990/pfeifer-africom-1998.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/inproceedings/1990/pfeifer-africom-1998.pdf[PDF] ┃
-    link:/library/inproceedings/1990/pfeifer-africom-1998.7z[7z]
+    ┃ link:/library/inproceedings/1990/pfeifer-africom-1998.pdf[PDF]
+    ┃ link:/library/inproceedings/1990/pfeifer-africom-1998.7z[7z]
 endif::[]
 
 

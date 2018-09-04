@@ -1,5 +1,0 @@
-*Joel J. Fleck II* et al.: _NGOSS Architecture (TMF053) - DIOA Specifications_, 2006
-
-* Presenters: Joel J. Fleck II, Sven van der Meer
-* Tutorial: Team Action Week Europe 2006, Lisbon, Portugal January 26 - February 3, 2006
-

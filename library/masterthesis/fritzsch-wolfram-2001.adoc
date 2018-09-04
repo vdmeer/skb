@@ -1,8 +1,0 @@
-*Wolfram Fritzsch*: _Integrated Management of Distributed Components_, 2001
-
-* Diplomarbeit (M.Sc. Thesis), Technical University Berlin (TUB), Berlin, Germany
-ifdef::local[]
-* Local links:
-    link:/library/masterthesis/fritzsch-wolfram-2001.pdf[PDF]
-endif::[]
-

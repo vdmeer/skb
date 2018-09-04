@@ -3,10 +3,10 @@
 * Authors: Brendan Jennings, Paul Malone, Sven van der Meer
 * Published: 12th Workshop of the HP OpenView University Association (HPOVUA2005)
 * Links:
-    link:https://www.researchgate.net/publication/228967313_A_Two_Phase_Rating_Process_for_Dynamically_Composed_Services[ResearchGate]
+       link:https://www.researchgate.net/publication/228967313_A_Two_Phase_Rating_Process_for_Dynamically_Composed_Services[ResearchGate]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/2000/jennings-hpovua-2005.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/inproceedings/2000/jennings-hpovua-2005.pdf[PDF] ┃
-    link:/library/inproceedings/2000/jennings-hpovua-2005.doc[DOC]
+    ┃ link:/library/inproceedings/2000/jennings-hpovua-2005.pdf[PDF]
+    ┃ link:/library/inproceedings/2000/jennings-hpovua-2005.doc[DOC]
 endif::[]
 

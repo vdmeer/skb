@@ -1,0 +1,7 @@
+*Stijn Verstichel*: _Distributed Reasoning for Context-Aware Services_, 2011
+
+* Ph.D. Thesis, Department of Information Technology, iMinds, Ghent University, Ghent, Belgium
+* Links:
+       link:https://biblio.ugent.be/publication/1266049[UGhent]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/thesis/phd/2010/verstichel-stijn-2011.adoc[src]
+

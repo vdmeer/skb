@@ -4,10 +4,10 @@
 * Reasons to read: survey of policy-based management approaches
 * Published: 19th Australian Conference on Software Engineering (aswec 2008)
 * Links:
-    link:https://doi.org/10.1109/ASWEC.2008.4483228[DOI] ┃
-    link:https://www.researchgate.net/publication/4328268_A_Survey_of_Policy-Based_Management_Approaches_for_Service_Oriented_Systems[ResearchGate]
+       link:https://doi.org/10.1109/ASWEC.2008.4483228[DOI]
+    ┃ link:https://www.researchgate.net/publication/4328268_A_Survey_of_Policy-Based_Management_Approaches_for_Service_Oriented_Systems[ResearchGate]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/2000/phan-aswec-2008.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/inproceedings/2000/phan-aswec-2008.pdf[PDF]
+    ┃ link:/library/inproceedings/2000/phan-aswec-2008.pdf[PDF]
 endif::[]
 

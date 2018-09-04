@@ -1,0 +1,11 @@
+*Eduard Grasa* (ed.): _Converged Network operational Environment Analysis Report_, 2016
+
+* Project Report: ARCFIRE - Large-scale RINA Experimentation on FIRE+ - Deliverable D2.1, August 29, 2016
+* Authors: Eduard Grasa, Leonardo Bergesio, Miquel Tarzan, Sven van der Meer, Diego Lopez
+* Links:
+       link:http://ict-arcfire.eu/index.php/research/deliverables/[Arcfire]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/report/project/arcfire/arcfire-d21-2016.adoc[src]
+ifdef::local[]
+    ┃ link:/library/report/project/arcfire/[Folder]
+endif::[]
+

@@ -1,8 +1,0 @@
-*Sven van der Meer*: _DIY Guide to Presentations_, 2006
-
-* Presentation: TSSG Research Modules, Waterford, Ireland, July 10, 2006
-ifdef::local[]
-* Local links:
-    link:/library/talks/presentation/vandermeer-tssg_rm-2006.ppt[PPT]
-endif::[]
-

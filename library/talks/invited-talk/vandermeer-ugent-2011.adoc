@@ -1,9 +1,0 @@
-*Sven van der Meer*: _Building a DEN-ng Autonomic Management System - How do they do it?_, 2011
-
-* Invited Talk: iMinds / University of Gent, Ghent, Belgium, May 18, 2011
-ifdef::local[]
-* Local links:
-    link:/library/talks/invited-talk/vandermeer-ugent-2011.pdf[PDF] ┃
-    link:/library/talks/invited-talk/vandermeer-ugent-2011.pptx[PPTX]
-endif::[]
-

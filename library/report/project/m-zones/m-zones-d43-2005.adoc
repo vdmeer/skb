@@ -1,0 +1,9 @@
+*Dirk Pesch*: _WP4 Report_, 2005
+
+* Project Report: M-Zones - Managed Zones - Deliverable D4.3, January 1, 2005
+* Links:
+       skb: link:https://github.com/vdmeer/skb/tree/master/library/report/project/m-zones/m-zones-d43-2005.adoc[src]
+ifdef::local[]
+    ┃ link:/library/report/project/m-zones/[Folder]
+endif::[]
+

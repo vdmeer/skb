@@ -1,10 +1,11 @@
-*Dirk Pesch* (ed): _Managing Ubiquitous Communications and Services_, 2006
+*Dirk Pesch*: _Managing Ubiquitous Communications and Services_, 2006
 
-* Editors: Dirk Pesch
+* Editor: Dirk Pesch
 * Workshop: 3rd International Workshop on Managing Ubiquitous Communications and Services (MUCS), Cork, Ireland, 4-5 May, 2006
 * Host: Cork Institute of Technology, in cooperation with Pervasive 2006
 * Published as: M-Zones deliverable 
 * Publisher: Cork Institute of Technology
 * Links:
-    link:http://vandermeer.de/library/proceedings/mucs/web/2007/index.php[Web: orig]
+       link:http://vandermeer.de/library/proceedings/mucs/web/2007/index.php[Web: orig]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/proceedings/mucs/mucs-2006.adoc[src]
 

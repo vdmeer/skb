@@ -3,12 +3,12 @@
 * Authors: Martin Zach, Darl Parker, Liam Fallon, Christian Unfried, Miguel Ponce de Leon, Sven van der Meer, Nektarios Georgalas, Johan Nielsen
 * Published: EURESCOM Summit 2005 - Ubiquitous Services and Applications, Heidelberg, Germany, April 27-29, 2005
 * Links:
-    link:http://archive.eurescom.eu/summit2005/[Conference] ┃
-    link:https://www.vde-verlag.de/proceedings-de/562891017.html[Publisher] ┃
-    link:https://www.researchgate.net/publication/228613196_CELTIC_Initiative_Project_Madeira_A_P2P_Approach_to_Network_Management[ResearchGate]
+       link:http://archive.eurescom.eu/summit2005/[Conference]
+    ┃ link:https://www.vde-verlag.de/proceedings-de/562891017.html[Publisher]
+    ┃ link:https://www.researchgate.net/publication/228613196_CELTIC_Initiative_Project_Madeira_A_P2P_Approach_to_Network_Management[ResearchGate]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/2000/zach-eurescom-2005.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/inproceedings/2000/zach-eurescom-2005.pdf[PDF]
+    ┃ link:/library/inproceedings/2000/zach-eurescom-2005.pdf[PDF]
 endif::[]
 
 

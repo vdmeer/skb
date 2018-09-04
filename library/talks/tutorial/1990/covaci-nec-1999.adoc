@@ -1,0 +1,11 @@
+*Stefan Covaci* et. al: _Management of Broadband Networks II_, 1999
+
+* Presenters: Stefan Covaci, Ingo Busse, Sven van der Meer, Stefan Arbanowski
+* Tutorial: NEC Europe Ltd., C&C Research Laboratory, Berlin, Germany, May 27-28, 1999
+* Links:
+       skb: link:https://github.com/vdmeer/skb/tree/master/library/talks/tutorial/1990/covaci-nec-1999.adoc[src]
+ifdef::local[]
+    ┃ link:/library/talks/tutorial/1990/[Folder]
+endif::[]
+
+

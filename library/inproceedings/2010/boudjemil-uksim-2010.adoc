@@ -3,11 +3,11 @@
 * Authors: Zohra Boudjemil, Patrick Phelan, Miguel Ponce de Leon, Sven van der Meer
 * Published: 2010 Fourth UKSim European Symposium on Computer Modeling and Simulation
 * Links:
-    link:https://doi.org/10.1109/EMS.2010.69[DOI] ┃
-    link:https://www.researchgate.net/publication/228947807_A_Case_Study_for_Defining_Interoperable_Network_Components_Using_MDD[ResearchGate]
+       link:https://doi.org/10.1109/EMS.2010.69[DOI]
+    ┃ link:https://www.researchgate.net/publication/228947807_A_Case_Study_for_Defining_Interoperable_Network_Components_Using_MDD[ResearchGate]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/2010/boudjemil-uksim-2010.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/inproceedings/2010/boudjemil-uksim-2010.pdf[PDF] ┃
-    link:/library/inproceedings/2010/boudjemil-uksim-2010.doc[DOC]
+    ┃ link:/library/inproceedings/2010/boudjemil-uksim-2010.pdf[PDF]
+    ┃ link:/library/inproceedings/2010/boudjemil-uksim-2010.doc[DOC]
 endif::[]
 

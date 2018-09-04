@@ -3,11 +3,11 @@
 * Authors: Liam Fallon, John Keeney, Mark McFadden, John Quilty, Sven van der Meer
 * Published: 2017 IFIP/IEEE Symposium on Integrated Network and Service Management (IM), IM 2017
 * Links:
-    link:https://doi.org/10.23919/INM.2017.7987370[DOI] ┃
-    link:https://www.researchgate.net/publication/317014658_Using_the_COMPA_Autonomous_Architecture_for_Mobile_Network_Security[ResearchGate]
+       link:https://doi.org/10.23919/INM.2017.7987370[DOI]
+    ┃ link:https://www.researchgate.net/publication/317014658_Using_the_COMPA_Autonomous_Architecture_for_Mobile_Network_Security[ResearchGate]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/2010/fallon-im-2017-b.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/inproceedings/2010/fallon-im-2017-b.pdf[PDF] ┃
-    link:/library/inproceedings/2010/fallon-im-2017-b.7z[7z]
+    ┃ link:/library/inproceedings/2010/fallon-im-2017-b.pdf[PDF]
+    ┃ link:/library/inproceedings/2010/fallon-im-2017-b.7z[7z]
 endif::[]
 

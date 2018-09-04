@@ -5,11 +5,11 @@
 * Published: 2007 First International Global Information Infrastructure Symposium, GIIS
   ** Workshop: 1st Alcatel-Lucent/Université d'Evry/Telenor Seamless Service MObility (SSMO) Workshop
 * Links:
-    link:https://www.researchgate.net/publication/238687661_A_Discussion_on_Policy-based_Management_using_Context_Mobility_in_Ad-Hoc_Networking[ResearchGate]
+       link:https://www.researchgate.net/publication/238687661_A_Discussion_on_Policy-based_Management_using_Context_Mobility_in_Ad-Hoc_Networking[ResearchGate]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/2000/morris-ssmo-2007.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/inproceedings/2000/morris-ssmo-2007.pdf[PDF] ┃ 
-    link:/library/inproceedings/2000/morris-ssmo-2007.doc[DOC] ┃ 
-    link:/library/inproceedings/2000/morris-ssmo-2007.ppt[PPT]
+    ┃ link:/library/inproceedings/2000/morris-ssmo-2007.pdf[PDF]
+    ┃ link:/library/inproceedings/2000/morris-ssmo-2007.doc[DOC]
+    ┃ link:/library/inproceedings/2000/morris-ssmo-2007.ppt[PPT]
 endif::[]
 

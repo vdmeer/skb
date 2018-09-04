@@ -1,0 +1,6 @@
+*Robert Sander*: _Deploying Distributed Object Data to Remote Clients using structured Languages_, 2000
+
+* Diplomarbeit (M.Sc. Thesis), Technical University Berlin (TUB), Berlin, Germany
+* Links:
+    skb: link:https://github.com/vdmeer/skb/tree/master/library/thesis/master/2000/sander-robert-2000.adoc[src]
+

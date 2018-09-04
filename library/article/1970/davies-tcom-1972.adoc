@@ -3,10 +3,10 @@
 * Reasons to read: parallel work to (Baran 64), packet-switched networks
 * Published: IEEE Transactions on Communications (Volume: 20, Issue: 3, Jun 1972)
 * Links:
-    link:https://doi.org/10.1109/TCOM.1972.1091198[DOI]
+       link:https://doi.org/10.1109/TCOM.1972.1091198[DOI]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/article/1970/davies-tcom-1972.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/article/1970/davies-tcom-1972.pdf[PDF]
+    ┃ link:/library/article/1970/davies-tcom-1972.pdf[PDF]
 endif::[]
 
 

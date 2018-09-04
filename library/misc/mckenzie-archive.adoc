@@ -3,6 +3,7 @@
 * written between 1972-1979
 * see Charles Babbage Institute (CBI) collections
 * Links:
-    link:http://www.cbi.umn.edu/collections/archmss.html[CBI] with identifier 123 ┃ 
-    link:https://archives.lib.umn.edu/repositories/3/resources/242[McKenzie Collection]
+       link:http://www.cbi.umn.edu/collections/archmss.html[CBI] with identifier 123
+    ┃ link:https://archives.lib.umn.edu/repositories/3/resources/242[McKenzie Collection]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/misc/mckenzie-archive.adoc[src]
 

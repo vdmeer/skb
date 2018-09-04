@@ -1,14 +1,14 @@
 === Tutorial
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/talks/tutorial/covaci-nec-1998.adoc[]
-|include::{vdmsite-lib-home}/talks/tutorial/covaci-nec-1999.adoc[]
-|include::{vdmsite-lib-home}/talks/tutorial/vandermeer-isads-1999.adoc[]
-|include::{vdmsite-lib-home}/talks/tutorial/vandermeer-proms-2000.adoc[]
-|include::{vdmsite-lib-home}/talks/tutorial/vandermeer-ict-2001.adoc[]
-|include::{vdmsite-lib-home}/talks/tutorial/fleck-tmf-2006-a.adoc[]
-|include::{vdmsite-lib-home}/talks/tutorial/fleck-tmf-2006-b.adoc[]
-|include::{vdmsite-lib-home}/talks/tutorial/vandermeer-fame_arch-2009.adoc[]
-|include::{vdmsite-lib-home}/talks/tutorial/ethirajulu-ons-2018.adoc[]
+|include::{vdmsite-lib-home}/talks/tutorial/1990/covaci-nec-1998.adoc[]
+|include::{vdmsite-lib-home}/talks/tutorial/1990/covaci-nec-1999.adoc[]
+|include::{vdmsite-lib-home}/talks/tutorial/1990/vandermeer-isads-1999.adoc[]
+|include::{vdmsite-lib-home}/talks/tutorial/2000/vandermeer-proms-2000.adoc[]
+|include::{vdmsite-lib-home}/talks/tutorial/2000/vandermeer-ict-2001.adoc[]
+|include::{vdmsite-lib-home}/talks/tutorial/2000/fleck-tmf-2006-a.adoc[]
+|include::{vdmsite-lib-home}/talks/tutorial/2000/fleck-tmf-2006-b.adoc[]
+|include::{vdmsite-lib-home}/talks/tutorial/2000/vandermeer-fame_arch-2009.adoc[]
+|include::{vdmsite-lib-home}/talks/tutorial/2010/ethirajulu-ons-2018.adoc[]
 |===
 

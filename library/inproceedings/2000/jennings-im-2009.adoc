@@ -4,10 +4,10 @@
 * Published: 2009 IFIP/IEEE International Symposium on Integrated Network Management-Workshops
   ** Workshop: 1st IFIP/IEEE International Workshop on Management of the Future Internet
 * Links:
-    link:https://doi.org/10.1109/INMW.2009.5195942[DOI] ┃
-    link:https://www.researchgate.net/publication/224573892_Challenges_for_Federated_Autonomic_Network_Management_in_the_Future_Internet[ResearchGate]
+       link:https://doi.org/10.1109/INMW.2009.5195942[DOI]
+    ┃ link:https://www.researchgate.net/publication/224573892_Challenges_for_Federated_Autonomic_Network_Management_in_the_Future_Internet[ResearchGate]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/2000/jennings-im-2009.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/inproceedings/2000/jennings-im-2009.pdf[PDF]
+    ┃ link:/library/inproceedings/2000/jennings-im-2009.pdf[PDF]
 endif::[]
 

@@ -4,6 +4,6 @@ _Method and Apparatus for distributed Network Management_, 2018
 * Publication number: WO/2018/024348
 * Publication date: 08.02.2018
 * Links:
-    link:https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2018024348[Wipo]
-
+       link:https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2018024348[Wipo]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/patent/wo/wo2018024348.adoc[src]
 

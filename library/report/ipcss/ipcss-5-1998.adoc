@@ -1,5 +1,0 @@
-*Tom Pfeifer* (editor): _Final Specification, Implementation and Documentation_, 1998
-
-* Project Report: iPCSS - intelligent Personal Communication System - Deliverable 5, 1998
-
-

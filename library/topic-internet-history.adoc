@@ -3,7 +3,7 @@
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
 |include::{vdmsite-lib-home}/misc/mckenzie-archive.adoc[]
-|include::{vdmsite-lib-home}/report/2000/bennett-itif-2009.adoc[]
+|include::{vdmsite-lib-home}/report/technical/2000/bennett-itif-2009.adoc[]
 |include::{vdmsite-lib-home}/article/2010/mckenzie-ieee-2011.adoc[]
 |include::{vdmsite-lib-home}/article/2010/russell-spectrum-2013.adoc[]
 |include::{vdmsite-lib-home}/book/2010/russell-sdos-2014.adoc[]

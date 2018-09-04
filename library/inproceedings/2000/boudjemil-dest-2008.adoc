@@ -3,10 +3,10 @@
 * Authors: Zohra Boudjemil, Trish Mulligan, Claire Fahy, Jason Finnegan, Shane Dempsy
 * Published: 2008 2nd IEEE International Conference on Digital Ecosystems and Technologies (DEST)
 * Links:
-    link:https://doi.org/10.1109/DEST.2008.4635165[DOI]
+       link:https://doi.org/10.1109/DEST.2008.4635165[DOI]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/2000/boudjemil-dest-2008.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/inproceedings/2000/boudjemil-dest-2008.pdf[PDF] ┃
-    link:/library/inproceedings/2000/boudjemil-dest-2008.doc[DOC]
+    ┃ link:/library/inproceedings/2000/boudjemil-dest-2008.pdf[PDF]
+    ┃ link:/library/inproceedings/2000/boudjemil-dest-2008.doc[DOC]
 endif::[]
 

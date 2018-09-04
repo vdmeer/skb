@@ -1,0 +1,10 @@
+*Sven van der Meer* et al.: _Flexible Media and Content Adaptation for Communication Systems_, 2000
+
+* Presenters: Sven van der Meer, Stefan Arbanowski
+* Tutorial: 5th IEEE Conference on Protocols for Multimedia Systems (PROMS 2000)
+* Links:
+       skb: link:https://github.com/vdmeer/skb/tree/master/library/talks/tutorial/2000/vandermeer-proms-2000.adoc[src]
+ifdef::local[]
+    ┃ link:/library/talks/keynote/2000/[Folder]
+endif::[]
+

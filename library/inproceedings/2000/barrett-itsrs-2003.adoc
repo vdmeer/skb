@@ -3,9 +3,9 @@
 * Authors: Keara Barrett, Raymond Carroll, Sven van der Meer
 * Published: IEI/IEE Irish Telecommunications Systems Research Symposium (ITSRS), May 2003
 * Links:
-    link:https://www.researchgate.net/publication/229012648_Investigating_the_Applicability_of_Mobile_IP_and_Cellular_IP_for_Roaming_in_Smart_Environments[ResearchGate]
+       link:https://www.researchgate.net/publication/229012648_Investigating_the_Applicability_of_Mobile_IP_and_Cellular_IP_for_Roaming_in_Smart_Environments[ResearchGate]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/2000/barrett-itsrs-2003.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/inproceedings/2000/barrett-itsrs-2003.pdf[PDF]
+    ┃ link:/library/inproceedings/2000/barrett-itsrs-2003.pdf[PDF]
 endif::[]
 

@@ -2,9 +2,9 @@
 
 * Published: Research Matters, Issue I, Number I, WIT, Waterford, Ireland, 2004
 * Links:
-    link:https://cdn.flipsnack.com/iframehtml5/embed_https.html?hash=fztpfdt1&fullscreen=1&startIndex=9&previous_page=true&t=14030611711403059635&bwd=1&pbs=1&v=4.78[Research Matters]
+       link:https://cdn.flipsnack.com/iframehtml5/embed_https.html?hash=fztpfdt1&fullscreen=1&startIndex=9&previous_page=true&t=14030611711403059635&bwd=1&pbs=1&v=4.78[Research Matters]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/article/2000/vdmeer-wit-2004.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/article/2000/vandermeer-wit-2004.doc[DOC]
+    ┃ link:/library/article/2000/vandermeer-wit-2004.doc[DOC]
 endif::[]
 

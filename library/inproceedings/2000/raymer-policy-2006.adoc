@@ -3,10 +3,10 @@
 * Authors: David Raymer, John Strassner, Elyes Lehtihet, Sven van der Meer
 * Published: Seventh IEEE International Workshop on Policies for Distributed Systems and Networks (POLICY'06)
 * Links:
-    link:https://doi.org/10.1109/POLICY.2006.17[DOI] ┃
-    link:https://www.researchgate.net/publication/4242368_End-to-End_Model_Driven_Policy_Based_Network_Management[ResearchGate]
+       link:https://doi.org/10.1109/POLICY.2006.17[DOI]
+    ┃ link:https://www.researchgate.net/publication/4242368_End-to-End_Model_Driven_Policy_Based_Network_Management[ResearchGate]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/2000/raymer-policy-2006.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/inproceedings/2000/raymer-policy-2006.pdf[PDF]
+    ┃ link:/library/inproceedings/2000/raymer-policy-2006.pdf[PDF]
 endif::[]
 

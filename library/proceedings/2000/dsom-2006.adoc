@@ -6,12 +6,10 @@
 * Publisher: Springer
 * ISBN: 978-3-540-47659-7
 * Links:
-    link:https://doi.org/10.1007/11907466[DOI]
+       link:https://doi.org/10.1007/11907466[DOI]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/proceedings/2000/dsom-2006.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/proceedings/2000/dsom-2006.doc[DOC: CFP] ┃
-    link:/library/proceedings/2000/dsom-2006-flyer-noms.pdf[PDF: NOMS Flyer]
+    ┃ link:/library/proceedings/2000/dsom-2006.doc[DOC: CFP]
+    ┃ link:/library/proceedings/2000/dsom-2006-flyer-noms.pdf[PDF: NOMS Flyer]
 endif::[]
-
-
 

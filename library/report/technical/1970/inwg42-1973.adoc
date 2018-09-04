@@ -1,0 +1,12 @@
+*Louis Pouzin*: _Interconnection of Packet Switched Networks_, 1973
+
+* Reasons to read: first description of a CATENET, including gateway, as packet-switched network
+* Published: October 1973, INWG #42, also as SCH 513.1
+* Links:
+       link:http://iuwg.net/index.php/Louis_Pouzin_/_IRIA[page]
+    ┃ link:http://iuwg.net/images/Pouzin-1973.pdf[PDF]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/report/project/technical/1970/inwg42-1973.adoc[src]
+ifdef::local[]
+    ┃ link:/library/report/tecnichal/1970/[Folder]
+endif::[]
+

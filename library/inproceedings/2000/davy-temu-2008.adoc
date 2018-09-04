@@ -3,12 +3,12 @@
 * Authors: Steven Davy, Claire Fahy, Leigh Griffin, Zohra Boudjemil, Andreas Berl, Andreas Fischer, Hermann de Meer, John Strassner
 * Published: 2008 International Conference on Telecommunications & Multimedia (TEMU)
 * Links:
-    link:http://www.temu.gr/2008/program.html[Conference] ┃
-    link:https://www.researchgate.net/profile/Steven_Davy/publication/228949454_Towards_a_policy-based_autonomic_virtual_network_to_support_differentiated_security_services/links/0912f5090fb97221d2000000.pdf[ResearchGate]
+       link:http://www.temu.gr/2008/program.html[Conference]
+    ┃ link:https://www.researchgate.net/profile/Steven_Davy/publication/228949454_Towards_a_policy-based_autonomic_virtual_network_to_support_differentiated_security_services/links/0912f5090fb97221d2000000.pdf[ResearchGate]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/2000/davy-temu-2008.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/inproceedings/2000/davy-temu-2008.pdf[PDF] ┃
-    link:/library/inproceedings/2000/davy-temu-2008.doc[DOC]
+    ┃ link:/library/inproceedings/2000/davy-temu-2008.pdf[PDF]
+    ┃ link:/library/inproceedings/2000/davy-temu-2008.doc[DOC]
 endif::[]
 
 

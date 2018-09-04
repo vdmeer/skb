@@ -3,8 +3,8 @@
 * Reasons to read: the world limited by dimensions, also a social critic
 * Publisher: Seeley & Co. of London
 * Links:
-    link:https://www.goodreads.com/book/show/22445643-basic-laws-of-arithmetic?from_search=true[Goodreads: en] ┃
-    link:https://www.goodreads.com/book/show/17259742-grundgesetze-der-arithmetik-begriffsschriftlich-abgeleitet-i-ii?from_search=true[Goodreads: de] ┃
-    link:https://korpora.zim.uni-duisburg-essen.de/Frege/[PDF: de]
-
+       link:https://www.goodreads.com/book/show/22445643-basic-laws-of-arithmetic?from_search=true[Goodreads: en]
+    ┃ link:https://www.goodreads.com/book/show/17259742-grundgesetze-der-arithmetik-begriffsschriftlich-abgeleitet-i-ii?from_search=true[Goodreads: de]
+    ┃ link:https://korpora.zim.uni-duisburg-essen.de/Frege/[PDF: de]
+    ┃ skb: https://github.com/vdmeer/skb/tree/master/library/book/1800/frege-basic_laws_of_arithmetic-1893.adoc[src]
 

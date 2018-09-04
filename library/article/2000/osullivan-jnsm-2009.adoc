@@ -3,11 +3,11 @@
 * Authors: Declan O’Sullivan, John Strassner, Sven van der Meer
 * Published: Journal of Network and Systems Management (JNSM), September 2009, Volume 17, Issue 3, pp 231–233
 * Links:
-    link:https://doi.org/10.1007/s10922-009-9131-7[DOI] ┃
-    link:https://www.researchgate.net/publication/220575828_A_Snapshot_of_Ontological_Approaches_for_Network_and_Service_Management[ResearchGate]
+       link:https://doi.org/10.1007/s10922-009-9131-7[DOI]
+    ┃ link:https://www.researchgate.net/publication/220575828_A_Snapshot_of_Ontological_Approaches_for_Network_and_Service_Management[ResearchGate]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/article/2000/osullivan-jnsm-2009.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/article/2000/osullivan-jnsm-2009.pdf[PDF]
+    ┃ link:/library/article/2000/osullivan-jnsm-2009.pdf[PDF]
 endif::[]
 
 

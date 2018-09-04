@@ -4,12 +4,12 @@
 * Reasons to read: tool support for syntactic and semantic translation between models can be achieved
 * Published: 2007 First International Global Information Infrastructure Symposium, GIIS
 * Links:
-    link:https://doi.org/10.1109/GIIS.2007.4404174[DOI] ┃
-    link:https://www.researchgate.net/publication/4299239_A_Model_Based_Approach_for_Policy_Tool_Generation_and_Policy_Analysis[ResearchGate]
+       link:https://doi.org/10.1109/GIIS.2007.4404174[DOI]
+    ┃ link:https://www.researchgate.net/publication/4299239_A_Model_Based_Approach_for_Policy_Tool_Generation_and_Policy_Analysis[ResearchGate]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/2000/barrett-giis-2007.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/inproceedings/2000/barrett-giis-2007.pdf[PDF] ┃ 
-    link:/library/inproceedings/2000/barrett-giis-2007.doc[DOC] ┃ 
-    link:/library/inproceedings/2000/barrett-giis-2007.ppt[PPT]
+    ┃ link:/library/inproceedings/2000/barrett-giis-2007.pdf[PDF]
+    ┃ link:/library/inproceedings/2000/barrett-giis-2007.doc[DOC]
+    ┃ link:/library/inproceedings/2000/barrett-giis-2007.ppt[PPT]
 endif::[]
 

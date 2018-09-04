@@ -1,8 +1,0 @@
-*Stephan Steglich*: _Management of Distributed Objects in Middleware Platforms_, 1998
-
-* Diplomarbeit (M.Sc. Thesis), Technical University Berlin (TUB), Berlin, Germany
-ifdef::local[]
-* Local links:
-    link:/library/masterthesis/steglich-stephan-1998.pdf[PDF]
-endif::[]
-

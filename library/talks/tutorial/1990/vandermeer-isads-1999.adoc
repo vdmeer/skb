@@ -1,0 +1,11 @@
+*Sven van der Meer* et al.: _Management of Autonomous Decentralized Systems_, 1999
+
+* Presenters: Sven van der Meer, Stefan Arbanowski
+* Tutorial: Fourth International Symposium on Autonomous Decentralized Systems (ISADS) - Integration of Heterogeneous Systems
+* Links:
+       skb: link:https://github.com/vdmeer/skb/tree/master/library/talks/tutorial/1990/vandermeer-isads-1999.adoc[src]
+ifdef::local[]
+    ┃ link:/library/talks/tutorial/1990/[Folder]
+endif::[]
+
+

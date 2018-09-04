@@ -3,11 +3,11 @@
 * Authors: Eduard Grasa, Miguel Ponce de Leon, Sven van der Meer, Diego Lopez, Miquel Tarzan
 * Published: 2017 IEEE Conference on Network Function Virtualization and Software Defined Networks (NFV-SDN)
 * Links:
-    link:https://doi.org/10.1109/NFV-SDN.2017.8169850[DOI] ┃
-    link:https://zenodo.org/record/1145668#.W2uJCsJrzCF[Zenodo]
+       link:https://doi.org/10.1109/NFV-SDN.2017.8169850[DOI]
+    ┃ link:https://zenodo.org/record/1145668#.W2uJCsJrzCF[Zenodo]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/2010/grasa-nfvsdn-2017.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/inproceedings/2010/grasa-nfvsdn-2017.pdf[PDF]
+    ┃ link:/library/inproceedings/2010/grasa-nfvsdn-2017.pdf[PDF]
 endif::[]
 
 

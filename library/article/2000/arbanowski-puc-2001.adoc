@@ -3,11 +3,11 @@
 * Authors: Stefan Arbanowski, Sven van der Meer, Stephan Steglich, Radu Popescu-Zeletin
 * Published: Personal and Ubiquitous Computing (PUC), February 2001, Volume 5, Issue 1, pp 34–37
 * Links:
-    link:https://doi.org/10.1007/s007790170026[DOI] ┃
-    link:https://www.researchgate.net/publication/220141881_The_Human_Communication_Space_Towards_I-centric_Communications[ResearchGate]
+       link:https://doi.org/10.1007/s007790170026[DOI]
+    ┃ link:https://www.researchgate.net/publication/220141881_The_Human_Communication_Space_Towards_I-centric_Communications[ResearchGate]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/article/2000/arbanowski-puc-2001.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/article/2000/arbanowski-puc-2001.pdf[PDF]
+    ┃ link:/library/article/2000/arbanowski-puc-2001.pdf[PDF]
 endif::[]
 
 

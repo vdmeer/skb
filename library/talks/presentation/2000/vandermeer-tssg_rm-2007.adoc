@@ -1,0 +1,9 @@
+*Sven van der Meer*: _Publications - A rough Introduction to the Publication Process_, 2007
+
+* Presentation: TSSG Research Modules, Waterford, Ireland, February 7, 2007
+* Links:
+       skb: link:https://github.com/vdmeer/skb/tree/master/library/talks/presentations/2000/vandermeer-tssg_rm-2007.adoc[src]
+ifdef::local[]
+    ┃ link:/library/talks/presentation/2000/[Folder]
+endif::[]
+

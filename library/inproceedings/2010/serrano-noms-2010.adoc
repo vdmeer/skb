@@ -3,13 +3,13 @@
 * Authors: Martín Serrano, Sven van Der Meer, Viliam Holub, John Murphy, John Strassner
 * Published: 2010 IEEE/IFIP Network Operations and Management Symposium, NOMS 2010
 * Links:
-    link:https://doi.org/10.1109/NOMS.2010.5488357[DOI] ┃
-    link:https://www.researchgate.net/publication/220707544_Federation_a_matter_of_autonomic_management_in_the_Future_Internet?_sg=m_5P2FtkKbfTZtQTiSEBj0UleJuOxovxvPuGgSvGqmUAA9ymv4NF49x83-RheT4AfNd3q8RsCAiHbYerVPZ6_s0UxnZ9KlbyQUSH-Cd0.nFt_QzpWL-Kmctv_kRHw9YwBJDWA8H8EQwmz9wiJ4wwx7lc23wU1v9BXla-hlzqrZW5f23h7P3mRUiomscLXVg[ResearchGate]
+       link:https://doi.org/10.1109/NOMS.2010.5488357[DOI]
+    ┃ link:https://www.researchgate.net/publication/220707544_Federation_a_matter_of_autonomic_management_in_the_Future_Internet?_sg=m_5P2FtkKbfTZtQTiSEBj0UleJuOxovxvPuGgSvGqmUAA9ymv4NF49x83-RheT4AfNd3q8RsCAiHbYerVPZ6_s0UxnZ9KlbyQUSH-Cd0.nFt_QzpWL-Kmctv_kRHw9YwBJDWA8H8EQwmz9wiJ4wwx7lc23wU1v9BXla-hlzqrZW5f23h7P3mRUiomscLXVg[ResearchGate]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/2010/serrano-noms-2010.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/inproceedings/2010/serrano-noms-2010.pdf[PDF] ┃
-    link:/library/inproceedings/2010/serrano-noms-2010.doc[DOC] ┃
-    link:/library/inproceedings/2010/serrano-noms-2010.ppt[PPT]
+    ┃ link:/library/inproceedings/2010/serrano-noms-2010.pdf[PDF]
+    ┃ link:/library/inproceedings/2010/serrano-noms-2010.doc[DOC]
+    ┃ link:/library/inproceedings/2010/serrano-noms-2010.ppt[PPT]
 endif::[]
 
 

@@ -3,10 +3,10 @@
 * Authors: Sven van der Meer
 * Published: 2009 Sixth IEEE Conference and Workshops on Engineering of Autonomic and Autonomous Systems
 * Links:
-    link:https://doi.org/10.1109/EASe.2009.15[DOI] ┃
-    link:https://www.researchgate.net/publication/228749839_Architectural_Artefacts_for_Autonomic_Distributed_Systems-_Contract_Language[ResearchGate]
+       link:https://doi.org/10.1109/EASe.2009.15[DOI]
+    ┃ link:https://www.researchgate.net/publication/228749839_Architectural_Artefacts_for_Autonomic_Distributed_Systems-_Contract_Language[ResearchGate]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/2000/vandermeer-ease-2009-a.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/inproceedings/2000/vandermeer-ease-2009-a.pdf[PDF]
+    ┃ link:/library/inproceedings/2000/vandermeer-ease-2009-a.pdf[PDF]
 endif::[]
 

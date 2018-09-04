@@ -3,9 +3,9 @@
 * Authors: Martín Serrano, Sven van der Meer, Viliam Holub, John Murphy, John Strassner
 * Published: Systemics and Informatics World Network, Vol. 11, August 2010, pp. 137-150
 * Links:
-    link:http://siwn.org.uk/press/sai/siwn0011.htm[SIWN]
+       link:http://siwn.org.uk/press/sai/siwn0011.htm[SIWN]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/article/2010/serrano-siwn-2010.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/article/2010/serrano-siwn-2010.pdf[PDF]
+    ┃ link:/library/article/2010/serrano-siwn-2010.pdf[PDF]
 endif::[]
 

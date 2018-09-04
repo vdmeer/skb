@@ -1,5 +1,0 @@
-*Joel J. Fleck II* et al.: _NGOSS Contracts (TMF053B) - Contract Architectural Specifications_, 2006
-
-* Presenters: Joel J. Fleck II, Sven van der Meer
-* Invited Talk: Team Action Week America 2006, Boston, MA, United States, July 16-20, 2006
-

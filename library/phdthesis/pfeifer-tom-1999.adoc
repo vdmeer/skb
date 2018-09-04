@@ -1,8 +1,0 @@
-*Tom Pfeifer*: _Automatic Conversion of Communication Media_, 1999
-
-* Doktorarbeit (PhD Thesis), Technical University Berlin (TUB), Berlin, Germany
-ifdef::local[]
-* Local links:
-    link:/library/phdthesis/pfeifer-tom-1999.pdf[PDF]
-endif::[]
-

@@ -2,6 +2,6 @@
 
 * Reasons to read: to understand engineering, how engineers think and feel about their profession
 * Links:
-    link:https://www.goodreads.com/book/show/1203186.The_Existential_Pleasures_of_Engineering[Goodreads]
-
+       link:https://www.goodreads.com/book/show/1203186.The_Existential_Pleasures_of_Engineering[Goodreads]
+    ┃ skb: https://github.com/vdmeer/skb/tree/master/library/book/1970/florman-engineering-1976.adoc[src]
 

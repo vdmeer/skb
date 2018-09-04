@@ -21,6 +21,7 @@ Event Condition Action (ECA) rules appear first in active databases (Dayal, 1988
 A defined event triggers the evaluation of a defined set of queries (condition) and a defined action is executed if the condition is satisfied.
 The processing of rules is strongly associated to database transactions.
 Event types for ECA are defined as database operation, temporal, and external notification.
+An architecture for an active database management system with CA and ECA policies is described in (McCarthy, 1989).
 
 Policy as a paradigm for network management was defined by Sloman's Imperial College research team.
 This work was, at least partially, based on ODP and OSI's network management (Sloman, 1990), also introducing domains.
@@ -47,12 +48,13 @@ We have summarized today’s challenges for policy-based management in [39] and 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
 |include::{vdmsite-lib-home}/article/1970/hansen-cacm-1970.adoc[]
-|include::{vdmsite-lib-home}/report/1970/bell-mitre-1973.adoc[]
+|include::{vdmsite-lib-home}/report/technical/1970/bell-mitre-1973.adoc[]
 |include::{vdmsite-lib-home}/inproceedings/1970/levin-sosp-1975.adoc[]
 |include::{vdmsite-lib-home}/article/1970/rouse-tsmc-1979.adoc[]
 |include::{vdmsite-lib-home}/article/1980/jomier-tase-1981.adoc[]
 |include::{vdmsite-lib-home}/article/1980/kamoun-tacom-1981.adoc[]
 |include::{vdmsite-lib-home}/article/1980/dayal-sigmod-1988.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/1980/mccarthy-sigmod-1989.adoc[]
 |include::{vdmsite-lib-home}/inproceedings/1980/robinson-ftdcs-1988.adoc[]
 |include::{vdmsite-lib-home}/inproceedings/1980/twidle-ftdcs-1988.adoc[]
 |include::{vdmsite-lib-home}/inproceedings/1980/dobson-ssp-1989.adoc[]

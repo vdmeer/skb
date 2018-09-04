@@ -1,0 +1,11 @@
+*Sven van der Meer*: _Introduction to DEN-ng for SFI SRC FAME_, 2009
+
+* Tutorial: FAME Architecture Workshop 1, Dublin, Ireland, May 26, 2009
+* Links:
+       skb: link:https://github.com/vdmeer/skb/tree/master/library/talks/tutorial/2000/vandermeer-fame_arch-2009.adoc[src]
+ifdef::local[]
+* Links:
+    ┃ link:/library/talks/keynote/2000/[Folder]
+endif::[]
+
+

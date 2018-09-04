@@ -1,0 +1,10 @@
+*Sven van der Meer* (ed.): _M-Zones Programme Work Plan - Proposal for Restructuring_, 2004
+
+* Project Report: M-Zones - Managed Zones - Deliverable D0.1, September 9, 2004
+* Editors: Sven van der Meer, Dirk Pesch, Dave Lewis
+* Links:
+       skb: link:https://github.com/vdmeer/skb/tree/master/library/report/project/m-zones/m-zones-d01-2004.adoc[src]
+ifdef::local[]
+    ┃ link:/library/report/project/m-zones/[Folder]
+endif::[]
+

@@ -3,9 +3,9 @@
 * Reasons to read: separate static and dynamic policies for memory allocation, static: memory allocated at scheduling time, dynamic: memory evolves with process
 * Published: IEEE Transactions on Software Engineering (Volume: SE-7, Issue: 4, July 1981)
 * Links:
-    link:https://doi.org/10.1109/TSE.1981.234540[DOI]
+       link:https://doi.org/10.1109/TSE.1981.234540[DOI]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/article/1980/jomier-tase-1981.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/article/1980/jomier-tase-1981.pdf[PDF]
+    ┃ link:/library/article/1980/jomier-tase-1981.pdf[PDF]
 endif::[]
 

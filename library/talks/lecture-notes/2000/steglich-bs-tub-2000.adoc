@@ -1,0 +1,10 @@
+*Stephan Steglich*: _Betriebssysteme und mobile Endgeräte _, 2000
+
+* Lecturer: Stephan Steglich
+* Lecture: Sommersemester 2000 (SS00), Technical University Berlin
+* Links:
+       skb: link:https://github.com/vdmeer/skb/tree/master/library/talks/lecture-notes/2000/steglich-bs-tub-2000.adoc[src]
+ifdef::local[]
+    ┃ link:/library/talks/lecture-notes/2000/[Folder]
+endif::[]
+

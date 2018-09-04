@@ -3,12 +3,12 @@
 * Authors: John Keeney, Owen Conlan, Viliam Holub, Miao Wang, Laetitia Chapel, Martín Serrano, Sven van der Meer
 * Published: 12th IFIP/IEEE International Symposium on Integrated Network Management (IM 2011) and Workshops
 * Links:
-    link:https://doi.org/10.1109/INM.2011.5990649[DOI] ┃
-    link:https://www.researchgate.net/publication/221294013_A_Semantic_Monitoring_and_Management_Framework_for_End-to-end_Servicess[ResearchGate]
+       link:https://doi.org/10.1109/INM.2011.5990649[DOI]
+    ┃ link:https://www.researchgate.net/publication/221294013_A_Semantic_Monitoring_and_Management_Framework_for_End-to-end_Servicess[ResearchGate]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/2010/keeney-im-2011.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/inproceedings/2010/keeney-im-2011.pdf[PDF] ┃
-    link:/library/inproceedings/2010/keeney-im-2011.ppt[PPT]
+    ┃ link:/library/inproceedings/2010/keeney-im-2011.pdf[PDF]
+    ┃ link:/library/inproceedings/2010/keeney-im-2011.ppt[PPT]
 endif::[]
 
 

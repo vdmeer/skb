@@ -1,8 +1,0 @@
-*Stefan Franz*: _Job and Stream Control in Heterogeneous Hardware and Software Architectures_, 1998
-
-* Diplomarbeit (M.Sc. Thesis), Technical University Berlin (TUB), Berlin, Germany
-ifdef::local[]
-* Local links:
-    link:/library/masterthesis/franz-stefan-1998.pdf[PDF]
-endif::[]
-

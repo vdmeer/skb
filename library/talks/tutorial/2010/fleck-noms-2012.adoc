@@ -1,0 +1,10 @@
+*Joel Fleck II*: _Model Driven Semantic Management_, 2012
+
+* Presenters: Joel Fleck II
+* Tutorial: 2012 IEEE/IFIP Network Operations and Management Symposium NOMS 2012
+* Links:
+       skb: link:https://github.com/vdmeer/skb/tree/master/library/talks/tutorial/2010/fleck-noms-2012.adoc[src]
+ifdef::local[]
+    ┃ link:/library/talks/tutorial/2010/[Folder]
+endif::[]
+

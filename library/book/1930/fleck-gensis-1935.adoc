@@ -2,7 +2,7 @@
 
 * Reasons to read: philosophy of science, social process of science
 * Links:
-    link:https://en.wikipedia.org/wiki/The_Structure_of_Scientific_Revolutions[Wikipedia] ┃
-    link:https://www.goodreads.com/book/show/202695.Genesis_and_Development_of_a_Scientific_Fact[Goodreads]
-
+       link:https://en.wikipedia.org/wiki/The_Structure_of_Scientific_Revolutions[Wikipedia]
+    ┃ link:https://www.goodreads.com/book/show/202695.Genesis_and_Development_of_a_Scientific_Fact[Goodreads]
+    ┃ skb: https://github.com/vdmeer/skb/tree/master/library/book/1930/fleck-gensis-1935.adoc[src]
 

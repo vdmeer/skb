@@ -1,0 +1,10 @@
+*Sven van der Meer* (ed.): _AlbatrOSS Initial Architecture_, 2002
+
+* Project Report: AlbatrOSS - IST FP5 Project IST-2001-34780, Deliverable D3 (WP3), October 3, 2002
+* Editors: Sven van der Meer, Conor Ryan
+* Links:
+       skb: link:https://github.com/vdmeer/skb/tree/master/library/report/project/albatross/albatross-d3-2002.adoc[src]
+ifdef::local[]
+    ┃ link:/library/report/project/fame/[Folder]
+endif::[]
+

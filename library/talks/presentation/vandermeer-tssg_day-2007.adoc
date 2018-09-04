@@ -1,8 +1,0 @@
-*Sven van der Meer*: _The Area formerly known as Network Management_, 2007
-
-* Presentation: TSSG Basic Research Day, WIT, Waterford, Ireland, November 21, 2007
-ifdef::local[]
-* Local links:
-    link:/library/talks/presentation/vandermeer-tssg_day-2007.ppt[PPT]
-endif::[]
-

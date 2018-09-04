@@ -2,10 +2,9 @@
 
 * Publisher: Morgan Kaufman
 * Links:
-    link:https://www.sciencedirect.com/science/book/9781558608597[ScienceDirect]
+       link:https://www.sciencedirect.com/science/book/9781558608597[ScienceDirect]
+    ┃ skb: https://github.com/vdmeer/skb/tree/master/library/book/2004/strassner-pbm-2004.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/book/2000/strassner-pbm-2004.pdf[PDF] ┃
-    link:/library/book/2000/strassner-pbm-2004.bib[BibTeX]
+    ┃ link:/library/book/2000/[Folder]
 endif::[]
 

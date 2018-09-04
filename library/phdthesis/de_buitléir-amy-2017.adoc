@@ -1,8 +1,0 @@
-*Amy de Buitléir*: _Data Mining Using Artificial Life with Popperian-level Intelligence_, 2017
-
-* Ph.D. Thesis, Athlone Institute of Technology (AIT), Athlone, Ireland
-ifdef::local[]
-* Local links:
-    link:/library/phdthesis/de_buitléir-amy-2017.pdf[PDF]
-endif::[]
-

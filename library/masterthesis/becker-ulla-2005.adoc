@@ -1,8 +1,0 @@
-*Ulla Becker*: _An Approach for Quality Assurance Management in decentralised Software Engineering Environments in context of Small and Medium-Sized Enterprises_, 2005
-
-* Diplomarbeit (M.Sc. Thesis), Fachhochschule Karlsruhe, Karlsruhe, Germany
-ifdef::local[]
-* Local links:
-    link:/library/masterthesis/becker-ulla-2005.pdf[PDF]
-endif::[]
-

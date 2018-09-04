@@ -2,8 +2,8 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/masterthesis/vandermeer-sven-1996.adoc[]
-|include::{vdmsite-lib-home}/phdthesis/vandermeer-sven-2002.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/1990/vandermeer-sven-1996.adoc[]
+|include::{vdmsite-lib-home}/thesis/phd/2000/vandermeer-sven-2002.adoc[]
 |===
 
 

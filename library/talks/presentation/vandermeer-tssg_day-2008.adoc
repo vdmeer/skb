@@ -1,8 +1,0 @@
-*Sven van der Meer*: _Basic Research - Autonomics and beyond_, 2008
-
-* Presentation: TSSG Research Day, WIT, Waterford, Ireland, December 5, 2008
-ifdef::local[]
-* Local links:
-    link:/library/talks/presentation/vandermeer-tssg_day-2008.ppt[PPT]
-endif::[]
-

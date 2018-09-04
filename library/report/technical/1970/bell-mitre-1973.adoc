@@ -1,0 +1,11 @@
+*D. Elliott Bell, Leonard J. LaPadula*: _Secure Computer Systems: Mathematical Foundations_, 1973
+
+* Reasons to read: access control _rules_ to govern system security, relation _W_ provides rules of access _control_ governing system security, rule helps system in any state to decide on request and move to next state
+* Published: MITRE Technical Report 2547, Volume I, March 1, 1973
+* Links:
+       link:http://www-personal.umich.edu/~cja/LPS12b/refs/belllapadula1.pdf[PDF]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/report/project/technical/1970/bell-mitre-1973.adoc[src]
+ifdef::local[]
+    ┃ link:/library/report/tecnichal/1970/[Folder]
+endif::[]
+

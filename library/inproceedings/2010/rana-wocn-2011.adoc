@@ -3,11 +3,11 @@
 * Authors: Annie Ibrahim Rana, Brendan Jennings, Mícheál Ó Foghlú, Sven van der Meer
 * Published:  2011 Eighth International Conference on Wireless and Optical Communications Networks, WOCN 2011
 * Links:
-    link:https://doi.org/10.1109/WOCN.2011.5872937[DOI] ┃
-    link:https://www.researchgate.net/publication/221217008_Autonomic_policy-based_HAN_traffic_classification_using_augmented_meta_model_for_policy_translation?_sg=KCFhbQ8ZTbCpphBseEoh1PZDjFMf7Mh6X28NN3wFy-2r4op_WhkSMr5H8GMVy9w2vnJbvxLJc3R2TmgbyW-Xcus0GwXN_KzfY4nPf3WC.2YmP0Q-nuh5bToCAyRFhaGOYci1zNGIRTArZoJO4zpH6zhRIDawVIUWhK2TlYjyLVNte5Q-7Zg9xEJwd0AvCcw[ResearchGate]
+       link:https://doi.org/10.1109/WOCN.2011.5872937[DOI]
+    ┃ link:https://www.researchgate.net/publication/221217008_Autonomic_policy-based_HAN_traffic_classification_using_augmented_meta_model_for_policy_translation?_sg=KCFhbQ8ZTbCpphBseEoh1PZDjFMf7Mh6X28NN3wFy-2r4op_WhkSMr5H8GMVy9w2vnJbvxLJc3R2TmgbyW-Xcus0GwXN_KzfY4nPf3WC.2YmP0Q-nuh5bToCAyRFhaGOYci1zNGIRTArZoJO4zpH6zhRIDawVIUWhK2TlYjyLVNte5Q-7Zg9xEJwd0AvCcw[ResearchGate]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/2010/rana-wocn-2011.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/inproceedings/2010/rana-wocn-2011[PDF]
+    ┃ link:/library/inproceedings/2010/rana-wocn-2011[PDF]
 endif::[]
 
 

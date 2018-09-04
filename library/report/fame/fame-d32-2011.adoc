@@ -1,9 +1,0 @@
-*David Malone*: _FAME: Integrated Demonstrations_, 2011
-
-* Project Report: FAME - Federated, Autonomic Management of End-to-End Services - Deliverable D3.2, March 21, 2011
-ifdef::local[]
-* Local links:
-    link:/library/report/fame/fame-d32-2011.pdf[PDF]
-endif::[]
-
-

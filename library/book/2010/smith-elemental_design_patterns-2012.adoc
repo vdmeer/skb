@@ -3,14 +3,14 @@
 * Reasons to read: scientific approach to software pattern (not OO-software-patterns), comprehensive graphical language
 * Publisher: Addison-Wesley Professional
 * Links:
-    link:https://www.goodreads.com/book/show/12343712-elemental-design-patterns?ac=1&from_search=true[Goodreads] ┃
-    link:http://www.cs.unc.edu/techreports/02-011.pdf[PDF: technical report] ┃
-    link:https://www.researchgate.net/profile/P_Stotts/publication/4016067_Elemental_design_patterns_A_formal_semantics_for_composition_of_OO_software_architecture/links/53edebd00cf2981ada173ad5.pdf[PDF: paper] ┃
-    link:https://www.unc.edu/~stotts/comp723/EDP.pptx[PPTX]
+       link:https://www.goodreads.com/book/show/12343712-elemental-design-patterns?ac=1&from_search=true[Goodreads]
+    ┃ link:http://www.cs.unc.edu/techreports/02-011.pdf[PDF: technical report]
+    ┃ link:https://www.researchgate.net/profile/P_Stotts/publication/4016067_Elemental_design_patterns_A_formal_semantics_for_composition_of_OO_software_architecture/links/53edebd00cf2981ada173ad5.pdf[PDF: paper]
+    ┃ link:https://www.unc.edu/~stotts/comp723/EDP.pptx[PPTX]
+    ┃ skb: https://github.com/vdmeer/skb/tree/master/library/book/2010/smith-elemental_design_patterns-2012.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/book/2010/smith-elemental_design_patterns-2012-report.pdf[PDF: Report] ┃
-    link:/library/book/2010/smith-elemental_design_patterns-2012.pptx[PPTX]
+    ┃ link:/library/book/2010/smith-elemental_design_patterns-2012-report.pdf[PDF: Report] ┃
+    ┃ link:/library/book/2010/smith-elemental_design_patterns-2012.pptx[PPTX]
 endif::[]
 
 

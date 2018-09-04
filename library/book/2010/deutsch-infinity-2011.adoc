@@ -3,7 +3,8 @@
 * Reasons to read: error is the normal state of our knowledge, good and bad philosophy
 * Publisher: Viking
 * Links:
-    link:https://en.wikipedia.org/wiki/The_Beginning_of_Infinity[Wikipedia] ┃
-    link:https://www.goodreads.com/book/show/10483171-the-beginning-of-infinity?from_search=true[Goodreads]
+       link:https://en.wikipedia.org/wiki/The_Beginning_of_Infinity[Wikipedia]
+    ┃ link:https://www.goodreads.com/book/show/10483171-the-beginning-of-infinity?from_search=true[Goodreads]
+    ┃ skb: https://github.com/vdmeer/skb/tree/master/library/book/2010/deutsch-infinity-2011.adoc[src]
 
 

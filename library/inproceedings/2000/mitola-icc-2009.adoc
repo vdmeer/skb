@@ -3,9 +3,9 @@
 * Reasons to read: survey of policy languages, here cognitive radio
 * Published: 2009 IEEE International Conference on Communications
 * Links:
-    link:https://doi.org/10.1109/ICC.2009.5198831[DOI]
+       link:https://doi.org/10.1109/ICC.2009.5198831[DOI]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/2000/mitola-icc-2009.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/inproceedings/2000/mitola-icc-2009.pdf[PDF]
+    ┃ link:/library/inproceedings/2000/mitola-icc-2009.pdf[PDF]
 endif::[]
 

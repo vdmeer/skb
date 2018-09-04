@@ -1,11 +1,12 @@
-*William B. Rouse, Sandra H. Rouse*: _A Model-Based Approach to Policy Analysis in Library Networks_, 1979
+*William B. Rouse* et al.: _A Model-Based Approach to Policy Analysis in Library Networks_, 1979
 
+* Authors: William B. Rouse, Sandra H. Rouse
 * Reasons to read: policy to control sharing resources, rules for the _control_ of how to share resources (and rule analysis)
 * Published: IEEE Transactions on Systems, Man, and Cybernetics (Volume: 9, Issue: 9, Sept. 1979)
 * Links:
-    link:https://doi.org/10.1109/TSMC.1979.4310274[DOI]
+       link:https://doi.org/10.1109/TSMC.1979.4310274[DOI]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/article/1979/rouse-tsmc-1979.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/article/1970/rouse-tsmc-1979.pdf[PDF]
+    ┃ link:/library/article/1970/rouse-tsmc-1979.pdf[PDF]
 endif::[]
 

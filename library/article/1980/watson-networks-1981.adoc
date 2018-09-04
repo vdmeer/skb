@@ -5,11 +5,11 @@
 * Also published as IEN193
 * Published: Computer Networks (1976), Volume 5, Issue 1, February 1981, Pages 47-56
 * Links:
-    link:https://doi.org/10.1016/0376-5075(81)90031-3[DOI] ┃
-    link:https://www.rfc-editor.org/ien/ien193.pdf[PDF: IEN193]
+       link:https://doi.org/10.1016/0376-5075(81)90031-3[DOI]
+    ┃ link:https://www.rfc-editor.org/ien/ien193.pdf[PDF: IEN193]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/article/1980/watson-networks-1981.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/article/1980/watson-networks-1981.pdf[PDF]
+    ┃ link:/library/article/1980/watson-networks-1981.pdf[PDF]
 endif::[]
 
 

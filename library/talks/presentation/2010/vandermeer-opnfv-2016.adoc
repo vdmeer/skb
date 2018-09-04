@@ -1,0 +1,15 @@
+*Sven van der Meer* et al.: _A-CORD (Analytics CORD)_, 2016
+
+Presenter: Sven van der Meer
+* Authors: Srikanth Vavilapalli, Sven van der Meer
+* Presentation: OP-NFV Summit 2016, Berlin, Germany, June 20-23, 2016
+  ** Workshop: ONOS + CORD Mini Summit, June 20, 2016
+* Links:
+       link:http://events17.linuxfoundation.org/events/archive/2016/opnfv-summit[Event]
+    ┃ link:http://opencord.org/wp-content/uploads/2016/04/ACORD-ONS2016.pdf[PDF: original]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/talks/presentations/2010/vandermeer-opnfv-2016.adoc[src]
+ifdef::local[]
+    ┃ link:/library/talks/presentation/2010/[Folder]
+endif::[]
+
+

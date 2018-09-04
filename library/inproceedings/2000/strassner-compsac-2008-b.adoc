@@ -4,10 +4,10 @@
 * Published: 2008 32nd Annual IEEE International Computer Software and Applications Conference
   ** Workshop: MDDAS
 * Links:
-    link:https://doi.org/10.1109/COMPSAC.2008.270[DOI] ┃
-    link:https://www.researchgate.net/publication/221028611_MDDAS_2008_Workshop_Organization[ResearchGate]
+       link:https://doi.org/10.1109/COMPSAC.2008.270[DOI]
+    ┃ link:https://www.researchgate.net/publication/221028611_MDDAS_2008_Workshop_Organization[ResearchGate]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/2000/strassner-compsac-2008-b.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/inproceedings/2000/strassner-compsac-2008-b.pdf[PDF]
+    ┃ link:/library/inproceedings/2000/strassner-compsac-2008-b.pdf[PDF]
 endif::[]
 

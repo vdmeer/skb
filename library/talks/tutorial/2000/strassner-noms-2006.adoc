@@ -1,0 +1,10 @@
+*John Strassner* et al.: _Autonomics Systems and Networks: Theory and Practice_, 2006
+
+* Presenters: John Strassner, Jeff Kephart
+* Tutorial: 2006 IEEE/IFIP Network Operations and Management Symposium NOMS 2006
+* Links:
+       skb: link:https://github.com/vdmeer/skb/tree/master/library/talks/tutorial/2000/strassner-noms-2006.adoc[src]
+ifdef::local[]
+    ┃ link:/library/talks/tutorial/2000/[Folder]
+endif::[]
+

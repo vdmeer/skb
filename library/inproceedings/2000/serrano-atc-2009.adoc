@@ -4,11 +4,11 @@
 * Published: International Conference on Autonomic and Trusted Computing, ATC 2009: Autonomic and Trusted Computing pp 249-267
 * Part of: Lecture Notes in Computer Science book series (LNCS, volume 5586)
 * Links:
-    link:https://doi.org/10.1007/978-3-642-02704-8_19[DOI] ┃
-    link:https://www.researchgate.net/publication/229031779_Trust_and_Reputation_Policy-Based_Mechanisms_for_Self-protection_in_Autonomic_Communications[ResearchGate]
+       link:https://doi.org/10.1007/978-3-642-02704-8_19[DOI]
+    ┃ link:https://www.researchgate.net/publication/229031779_Trust_and_Reputation_Policy-Based_Mechanisms_for_Self-protection_in_Autonomic_Communications[ResearchGate]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/2000/serrano-atc-2009.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/inproceedings/2000/serrano-atc-2009.pdf[PDF]
+    ┃ link:/library/inproceedings/2000/serrano-atc-2009.pdf[PDF]
 endif::[]
 
 

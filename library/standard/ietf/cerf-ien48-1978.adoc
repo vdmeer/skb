@@ -2,14 +2,13 @@
 
 * Reasons to read: IETF/IEN version of CATENET
 * Published: IETF IEN (Internet Experiment Note Index) #48, July 1978
-* Links:
-    link:https://www.ietf.org/rfc/ien/ien48.txt[TXT] ┃
-    link:https://www.rfc-editor.org/ien/scanned/ien48.pdf[PDF]
 * IETF RFC 2775 states on page 4 "[...] the catenet concept (a network of networks) was first described by Cerf in 1978 [IEN 48] following an earlier suggestion by Pouzin in 1974 [CATENET] [...]"
-** see link:https://www.rfc-editor.org/rfc/pdfrfc/rfc2775.txt.pdf[RFC 2775],
+  ** see link:https://www.rfc-editor.org/rfc/pdfrfc/rfc2775.txt.pdf[RFC 2775],
+* Links:
+       link:https://www.ietf.org/rfc/ien/ien48.txt[TXT]
+    ┃ link:https://www.rfc-editor.org/ien/scanned/ien48.pdf[PDF]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/standard/ietf/cerf-ien48-1978.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/standard/ietf/cerf-ien48-1978.txt[TXT] ┃
-    link:/library/standard/ietf/cerf-ien48-1978.pdf[PDF]
+    ┃ link:/library/standard/ietf/[Folder]
 endif::[]
 

@@ -3,13 +3,13 @@
 * Reasons to read: introduction to mathematics and the more fundamental "Principia Mathematica"
 * Publisher: George Allen & Unwin, Ltd, London
 * Links:
-    link:https://en.wikipedia.org/wiki/Introduction_to_Mathematical_Philosophy[Wikipedia] ┃
-    link:https://www.goodreads.com/book/show/31886.Introduction_to_Mathematical_Philosophy?ac=1&from_search=true[Goodreads] ┃
-    link:https://archive.org/details/introductiontoma00russuoft[PDF: old typeset] ┃
-    link:http://people.umass.edu/klement/russell-imp.html[Online at umass]
+       link:https://en.wikipedia.org/wiki/Introduction_to_Mathematical_Philosophy[Wikipedia]
+    ┃ link:https://www.goodreads.com/book/show/31886.Introduction_to_Mathematical_Philosophy?ac=1&from_search=true[Goodreads]
+    ┃ link:https://archive.org/details/introductiontoma00russuoft[PDF: old typeset]
+    ┃ link:http://people.umass.edu/klement/russell-imp.html[Online at umass]
+    ┃ skb: https://github.com/vdmeer/skb/tree/master/library/book/1910/russel-mathematical_philosophy-1919.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/book/1910/russel-mathematical_philosophy-1919.pdf[PDF]
+    ┃ link:/library/book/1910/russel-mathematical_philosophy-1919.pdf[PDF]
 endif::[]
 
 

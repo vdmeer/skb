@@ -1,0 +1,6 @@
+*Joel J. Fleck II* et al.: _NGOSS Contract Fingerprints - A Tool for Identifying and Facilitating Re-Use of NGOSS Contracts_, 2006
+
+* Presenters: Joel J. Fleck II, Sven van der Meer, Martin Huddleston
+* Invited Talk: TeleManagement World Americas 2006, Dallas, TX, United States, December 4-7, 2006
+* Links:
+    skb: link:https://github.com/vdmeer/skb/tree/master/library/talks/invited-talk/2000/fleck-tmf-2006-b.adoc[src]

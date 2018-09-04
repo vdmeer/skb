@@ -1,5 +1,0 @@
-*Tom Pfeifer* (editor): _Early Implementations of Predefined Converter Chains and Service Gateways_, 1997
-
-* Project Report: iPCSS - intelligent Personal Communication System - Deliverable 2, 1997
-
-

@@ -3,10 +3,10 @@
 * Authors: Steven Latré, Sven van der Meer, Filip De Turck, John Strassner, James Won-Ki Hong
 * Published: 2010 IEEE/IFIP Network Operations and Management Symposium - NOMS 2010
 * Links:
-    link:https://doi.org/10.1109/NOMS.2010.5488448[DOI] ┃
-    link:https://www.researchgate.net/publication/220707548_Ontological_generation_of_filter_rules_for_context_exchange_in_autonomic_multimedia_networks[ResearchGate]
+       link:https://doi.org/10.1109/NOMS.2010.5488448[DOI]
+    ┃ link:https://www.researchgate.net/publication/220707548_Ontological_generation_of_filter_rules_for_context_exchange_in_autonomic_multimedia_networks[ResearchGate]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/2010/latré-noms-2010.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/inproceedings/2010/latré-noms-2010.pdf[PDF]
+    ┃ link:/library/inproceedings/2010/latré-noms-2010.pdf[PDF]
 endif::[]
 

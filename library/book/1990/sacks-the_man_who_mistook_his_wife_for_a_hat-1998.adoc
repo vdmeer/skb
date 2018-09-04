@@ -3,6 +3,7 @@
 * Reasons to read: aberrations of the human mind, contribute to Maturana’s view
 * Publisher: Touchstone
 * Links:
-    link:https://www.goodreads.com/book/show/63697.The_Man_Who_Mistook_His_Wife_for_a_Hat_and_Other_Clinical_Tales?from_search=true[Goodreads]
+       link:https://www.goodreads.com/book/show/63697.The_Man_Who_Mistook_His_Wife_for_a_Hat_and_Other_Clinical_Tales?from_search=true[Goodreads]
+    ┃ skb: https://github.com/vdmeer/skb/tree/master/library/book/1990/sacks-the_man_who_mistook_his_wife_for_a_hat-1998.adoc[src]
 
 

@@ -1,0 +1,6 @@
+*Willie Donnelly* et al.: _AMCNS Integrated Site Visit Presentation_, 2006
+
+* Project Report: AMCNS - Autonomic Management of Communication Networks and Servicess - Site Visit, November 16, 2006
+* Authors: Willie Donnelly, John Strassner, Sven van der Meer, Brendan Jennings, Sasitharan Balasubramaniam, Dmitri Botvich, Mícheál Ó Foghlú
+* Links:
+    skb: link:https://github.com/vdmeer/skb/tree/master/library/report/project/amcns/amcns-2006-b.adoc[src]

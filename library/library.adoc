@@ -12,11 +12,7 @@ include::{vdmsite-lib-home}/inproceedings.adoc[]
 
 include::{vdmsite-lib-home}/misc.adoc[]
 
-include::{vdmsite-lib-home}/masterthesis.adoc[]
-
 include::{vdmsite-lib-home}/patent.adoc[]
-
-include::{vdmsite-lib-home}/phdthesis.adoc[]
 
 include::{vdmsite-lib-home}/proceedings.adoc[]
 
@@ -25,6 +21,8 @@ include::{vdmsite-lib-home}/report.adoc[]
 include::{vdmsite-lib-home}/standard.adoc[]
 
 include::{vdmsite-lib-home}/talks.adoc[]
+
+include::{vdmsite-lib-home}/thesis.adoc[]
 
 include::{vdmsite-lib-home}/unpublished.adoc[]
 

@@ -4,10 +4,10 @@
 * Published: IEEE International Workshop on Modelling Autonomic Communications Environments, MACE 2008: Modelling Autonomic Communications Environments pp 102-107
 * Part of the Lecture Notes in Computer Science book series (LNCS, volume 5276)
 * Links:
-    link:https://doi.org/10.1007/978-3-540-87355-6_9[DOI] ┃
-    link:https://www.researchgate.net/publication/221326611_Towards_an_Information_Model_That_Supports_Service-Aware_Self-managing_Virtual_Resources[ResearchGate]
+       link:https://doi.org/10.1007/978-3-540-87355-6_9[DOI]
+    ┃ link:https://www.researchgate.net/publication/221326611_Towards_an_Information_Model_That_Supports_Service-Aware_Self-managing_Virtual_Resources[ResearchGate]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/2000/fahy-mace-2008.adoc[src]
 ifdef::local[]
-* Local links:
-    link:/library/inproceedings/2000/fahy-mace-2008.pdf[PDF]
+    ┃ link:/library/inproceedings/2000/fahy-mace-2008.pdf[PDF]
 endif::[]
 

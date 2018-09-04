@@ -3,6 +3,7 @@
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
 |include::{vdmsite-lib-home}/proceedings/2000/dsom-2006.adoc[]
+|include::{vdmsite-lib-home}/proceedings/2010/itt-2013.adoc[]
 |===
 
 

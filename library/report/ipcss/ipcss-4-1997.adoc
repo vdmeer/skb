@@ -1,5 +1,0 @@
-*Tom Pfeifer* (editor): _Computational Model and CORBA based implementations_, 1997
-
-* Project Report: iPCSS - intelligent Personal Communication System - Deliverable 4, 1997
-
-

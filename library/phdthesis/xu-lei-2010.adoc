@@ -1,8 +1,0 @@
-*Lei Xu*: _Automating the Generation, Deployment and Application of Charging Schemes for Composed Communications Services_, 2010
-
-* Ph.D. Thesis, Waterford Institute of Technology (WIT), Waterford, Ireland
-ifdef::local[]
-* Local links:
-    link:/library/phdthesis/xu-lei-2010.pdf[PDF]
-endif::[]
-

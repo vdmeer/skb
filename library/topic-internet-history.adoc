@@ -11,17 +11,16 @@
 // @author Sven van der Meer (vdmeer.sven@mykolab.com)
 //
 
-== Internet History
+= Research Notes - Internet History
+Sven van_der_Meer
 
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::{vdmsite-lib-home}/misc/mckenzie-archive.adoc[]
-|include::{vdmsite-lib-home}/report/technical/2000/bennett-itif-2009.adoc[]
-|include::{vdmsite-lib-home}/article/2010/mckenzie-ieee-2011.adoc[]
-|include::{vdmsite-lib-home}/article/2010/russell-spectrum-2013.adoc[]
-|include::{vdmsite-lib-home}/book/2010/russell-sdos-2014.adoc[]
-|include::{vdmsite-lib-home}/article/2010/russell-tc-2014.adoc[]
-|include::{vdmsite-lib-home}/article/2010/day-ieee-2016.adoc[]
-|===
+:description: research notes for the history of the Internet
+:keywords: SKB, research notes, history, Internet
 
+:pygments-linenums-mode: table
+:toc:
+:toclevels: 4
+:icons: font
+
+include::{vdmsite-lib-home}/research-notes/topic-internet-history.adoc[]
 

@@ -11,7 +11,7 @@
 // @author Sven van der Meer (vdmeer.sven@mykolab.com)
 //
 
-== SKB - Research Library - Collection
+== SKB - Research Library - Collections
 
 Coolections in my research library.
 Entries are grouped by century and decade.

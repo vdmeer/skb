@@ -11,9 +11,9 @@
 // @author Sven van der Meer (vdmeer.sven@mykolab.com)
 //
 
-== SKB - Research Library - Report
+== SKB - Research Library - Reports
 
-Reportss in my research library.
+Reports in my research library.
 Entries are primarily grouped by type (technical, project, white paper) and secondary by decade or project name.
 A compiled version of all reports is hosted on link:https://vdmeer.github.io/library/report.html[GH Pages].
 

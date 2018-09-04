@@ -11,8 +11,9 @@
 // @author Sven van der Meer (vdmeer.sven@mykolab.com)
 //
 
-== SKB - My Research Library
+== SKB - Research Library
 
+This is my research library.
 I used to have several places for references and notes, from SQL databases to JSON and YAML files, and of course hand-written notes.
 Now I am consolidating all of that in this library.
 

@@ -1,38 +1,27 @@
-== Proceedings
-
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::{vdmsite-lib-home}/proceedings/2000/dsom-2006.adoc[]
-|include::{vdmsite-lib-home}/proceedings/2010/itt-2013.adoc[]
-|===
-
-
-=== MACE
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::{vdmsite-lib-home}/proceedings/mace/mace-2006.adoc[]
-|include::{vdmsite-lib-home}/proceedings/mace/mace-2007.adoc[]
-|include::{vdmsite-lib-home}/proceedings/mace/mace-2008.adoc[]
-|include::{vdmsite-lib-home}/proceedings/mace/mace-2009.adoc[]
-|include::{vdmsite-lib-home}/proceedings/mace/mace-2010.adoc[]
-|===
+//
+// ============LICENSE_START=======================================================
+//  Copyright (C) 2018 Sven van der Meer. All rights reserved.
+// ================================================================================
+// This file is licensed under the CREATIVE COMMONS ATTRIBUTION 4.0 INTERNATIONAL LICENSE
+// Full license text at https://creativecommons.org/licenses/by/4.0/legalcode
+// 
+// SPDX-License-Identifier: CC-BY-4.0
+// ============LICENSE_END=========================================================
+//
+// @author Sven van der Meer (vdmeer.sven@mykolab.com)
+//
 
 
-=== MUCS
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::{vdmsite-lib-home}/proceedings/mucs/mucs-2003.adoc[]
-|include::{vdmsite-lib-home}/proceedings/mucs/mucs-2004.adoc[]
-|include::{vdmsite-lib-home}/proceedings/mucs/mucs-2006.adoc[]
-|include::{vdmsite-lib-home}/proceedings/mucs/mucs-2007.adoc[]
-|include::{vdmsite-lib-home}/proceedings/mucs/mucs-2008.adoc[]
-|include::{vdmsite-lib-home}/proceedings/mucs/mucs-2009.adoc[]
-|include::{vdmsite-lib-home}/proceedings/mucs/mucs-2010.adoc[]
-|include::{vdmsite-lib-home}/proceedings/mucs/mucs-2011.adoc[]
-|include::{vdmsite-lib-home}/proceedings/mucs/mucs-2012.adoc[]
-|include::{vdmsite-lib-home}/proceedings/mucs/mucs-2013.adoc[]
-|include::{vdmsite-lib-home}/proceedings/mucs/mucs-2014.adoc[]
-|include::{vdmsite-lib-home}/proceedings/mucs/mucs-2015.adoc[]
-|include::{vdmsite-lib-home}/proceedings/mucs/mucs-2016.adoc[]
-|===
+= SKB Research Library - Proceedings
+Sven van_der_Meer
+
+:description: proceedings in my research libray
+:keywords: SKB, library, references, proceedings
+
+:pygments-linenums-mode: table
+:toc:
+:toclevels: 4
+:icons: font
+
+include::{vdmsite-lib-home}/proceedings/proceedings.adoc[]
 

@@ -11,15 +11,9 @@
 // @author Sven van der Meer (vdmeer.sven@mykolab.com)
 //
 
-== Cybernetics
-
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/book/1950/neurath-how_machines_work-1954.adoc[]
-|include::{vdmsite-lib-home}/book/1950/ashby-w-ross-intro_cybernetics-1956.adoc[]
-|include::{vdmsite-lib-home}/book/1960/wiener-norbert-cybernetics-1965.adoc[]
-|include::{vdmsite-lib-home}/report/technical/1970/maturana-biology-of-cognition-1970.adoc[]
-|include::{vdmsite-lib-home}/book/1980/maturana_tree_of_knowledge-1987.adoc[]
-|include::{vdmsite-lib-home}/online/2010/dubberly-cybernetics-2015.adoc[]
+|include::{vdmsite-lib-home}/collection/2000/calisti-aanc-2008.adoc[]
 |===
+
 

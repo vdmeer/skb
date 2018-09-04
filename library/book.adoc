@@ -1,121 +1,27 @@
-== Book
-
-=== 1600
-
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::{vdmsite-lib-home}/book/1600/newton-regulae_philosophandi-1687.adoc[]
-|===
-
-
-=== 1700
-
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::{vdmsite-lib-home}/book/1700/leibniz-monadology-1714.adoc[]
-|===
+//
+// ============LICENSE_START=======================================================
+//  Copyright (C) 2018 Sven van der Meer. All rights reserved.
+// ================================================================================
+// This file is licensed under the CREATIVE COMMONS ATTRIBUTION 4.0 INTERNATIONAL LICENSE
+// Full license text at https://creativecommons.org/licenses/by/4.0/legalcode
+// 
+// SPDX-License-Identifier: CC-BY-4.0
+// ============LICENSE_END=========================================================
+//
+// @author Sven van der Meer (vdmeer.sven@mykolab.com)
+//
 
 
-=== 1800
+= SKB Research Library - Books
+Sven van_der_Meer
 
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::{vdmsite-lib-home}/book/1800/abbott-edwin-a-flatland-1884.adoc[]
-|include::{vdmsite-lib-home}/book/1800/frege-basic_laws_of_arithmetic-1893.adoc[]
-|===
+:description: books in my research libray
+:keywords: SKB, library, references, books
 
+:pygments-linenums-mode: table
+:toc:
+:toclevels: 4
+:icons: font
 
-=== 1900
-
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::{vdmsite-lib-home}/book/1910/russel-mathematical_philosophy-1919.adoc[]
-|===
-
-
-=== 1920
-
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::{vdmsite-lib-home}/book/1920/wittgenstein-ludwig-tractatus-1922.adoc[]
-|===
-
-
-=== 1930
-
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::{vdmsite-lib-home}/book/1930/fleck-gensis-1935.adoc[]
-|===
-
-
-=== 1950
-
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::{vdmsite-lib-home}/book/1950/dr-seuss-sneetches-1953.adoc[]
-|include::{vdmsite-lib-home}/book/1950/neurath-how_machines_work-1954.adoc[]
-|include::{vdmsite-lib-home}/book/1950/needham-science_and_civilisation_in_china-1954.adoc[]
-|include::{vdmsite-lib-home}/book/1950/ashby-w-ross-intro_cybernetics-1956.adoc[]
-|include::{vdmsite-lib-home}/book/1950/popper-scientific-discovery-1959.adoc[]
-|===
-
-=== 1960
-
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::{vdmsite-lib-home}/book/1960/kuhn-scientific_revolutions-1962.adoc[]
-|include::{vdmsite-lib-home}/book/1960/wiener-norbert-cybernetics-1965.adoc[]
-|===
-
-=== 1970
-
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::{vdmsite-lib-home}/book/1970/macarthur-geographical_ecology-1972.adoc[]
-|include::{vdmsite-lib-home}/book/1970/lakatos-proofs_and_refutations-1976.adoc[]
-|include::{vdmsite-lib-home}/book/1970/florman-engineering-1976.adoc[]
-|include::{vdmsite-lib-home}/book/1970/alexander-pattern_language-1977.adoc[]
-|include::{vdmsite-lib-home}/book/1970/alexander-timeless-1979.adoc[]
-|===
-
-
-=== 1980
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::{vdmsite-lib-home}/book/1980/maturana_tree_of_knowledge-1987.adoc[]
-|===
-
-
-=== 1990
-
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::{vdmsite-lib-home}/book/1990/edelman-bright_air_brilliant_fire-1992.adoc[]
-|include::{vdmsite-lib-home}/book/1990/kaufmann-origins_of_order-1993.adoc[]
-|include::{vdmsite-lib-home}/book/1990/kaufmann-home_in_the_universe-1996.adoc[]
-|include::{vdmsite-lib-home}/book/1990/sacks-the_man_who_mistook_his_wife_for_a_hat-1998.adoc[]
-|===
-
-
-=== 2000
-
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::{vdmsite-lib-home}/book/2000/sacks-seeing_voices-2000.adoc[]
-|include::{vdmsite-lib-home}/book/2000/strassner-pbm-2004.adoc[]
-|include::{vdmsite-lib-home}/book/2000/smolin-trouble_with_physics-2006.adoc[]
-|include::{vdmsite-lib-home}/book/2000/gould-richness_of_life-2006.adoc[]
-|include::{vdmsite-lib-home}/book/2000/day-john-pna-2007.adoc[]
-|===
-
-
-=== 2010
-
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::{vdmsite-lib-home}/book/2010/deutsch-infinity-2011.adoc[]
-|include::{vdmsite-lib-home}/book/2010/smith-elemental_design_patterns-2012.adoc[]
-|include::{vdmsite-lib-home}/book/2010/russell-sdos-2014.adoc[]
-|===
+include::{vdmsite-lib-home}/book/book.adoc[]
 

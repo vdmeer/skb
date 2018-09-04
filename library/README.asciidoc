@@ -1,3 +1,16 @@
+//
+// ============LICENSE_START=======================================================
+//  Copyright (C) 2018 Sven van der Meer. All rights reserved.
+// ================================================================================
+// This file is licensed under the CREATIVE COMMONS ATTRIBUTION 4.0 INTERNATIONAL LICENSE
+// Full license text at https://creativecommons.org/licenses/by/4.0/legalcode
+// 
+// SPDX-License-Identifier: CC-BY-4.0
+// ============LICENSE_END=========================================================
+//
+// @author Sven van der Meer (vdmeer.sven@mykolab.com)
+//
+
 == SKB - My Research Library
 
 I used to have several places for references and notes, from SQL databases to JSON and YAML files, and of course hand-written notes.
@@ -53,6 +66,7 @@ Talks are a bit different, here I separate keynotes from tutorials, invited talk
 | `inbook.adoc`         | book chapters                                                  | link:https://vdmeer.github.io/library/inbook.html[GH Pages]
 | `inproceedings.adoc`  | conference and workshop papers                                 | link:https://vdmeer.github.io/library/inproceedings.html[GH Pages]
 | `misc.adoc`           | items that don't fit anywhere else                             | link:https://vdmeer.github.io/library/misc.html[GH Pages]
+| `movie.adoc`          | movies, films                                                  | link:https://vdmeer.github.io/library/movie.html[GH Pages]
 | `online.adoc`         | online publications                                            | link:https://vdmeer.github.io/library/online.html[GH Pages]
 | `patent.adoc`         | patents                                                        | link:https://vdmeer.github.io/library/patent.html[GH Pages]
 | `proceedings.adoc`    | conference proceedings                                         | link:https://vdmeer.github.io/library/proceedings.html[GH Pages]

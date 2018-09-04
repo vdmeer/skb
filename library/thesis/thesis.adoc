@@ -1,0 +1,99 @@
+//
+// ============LICENSE_START=======================================================
+//  Copyright (C) 2018 Sven van der Meer. All rights reserved.
+// ================================================================================
+// This file is licensed under the CREATIVE COMMONS ATTRIBUTION 4.0 INTERNATIONAL LICENSE
+// Full license text at https://creativecommons.org/licenses/by/4.0/legalcode
+// 
+// SPDX-License-Identifier: CC-BY-4.0
+// ============LICENSE_END=========================================================
+//
+// @author Sven van der Meer (vdmeer.sven@mykolab.com)
+//
+
+== Habilitation
+
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::{vdmsite-lib-home}/thesis/habil/1990/magedanz-thomas-1999.adoc[]
+|===
+
+
+
+== PhD Thesis
+
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::{vdmsite-lib-home}/thesis/phd/1990/pras-aiko-1995.adoc[]
+|include::{vdmsite-lib-home}/thesis/phd/2000/vandermeer-sven-2002.adoc[]
+|include::{vdmsite-lib-home}/thesis/phd/1990/pfeifer-tom-1999.adoc[]
+|include::{vdmsite-lib-home}/thesis/phd/2000/fieldings-roy-2000.adoc[]
+|include::{vdmsite-lib-home}/thesis/phd/2000/jennings-brendan-2001.adoc[]
+|include::{vdmsite-lib-home}/thesis/phd/2000/osullivan-declan-2006.adoc[]
+|include::{vdmsite-lib-home}/thesis/phd/2000/davy-steven-2008.adoc[]
+|include::{vdmsite-lib-home}/thesis/phd/2000/barret-keara-2009.adoc[]
+|include::{vdmsite-lib-home}/thesis/phd/2000/strassner-john-2009.adoc[]
+|include::{vdmsite-lib-home}/thesis/phd/2010/xu-lei-2010.adoc[]
+|include::{vdmsite-lib-home}/thesis/phd/2010/frank-korbinian-2011.adoc[]
+|include::{vdmsite-lib-home}/thesis/phd/2010/verstichel-stijn-2011.adoc[]
+|include::{vdmsite-lib-home}/thesis/phd/2010/griffin-leigh-2012.adoc[]
+|include::{vdmsite-lib-home}/thesis/phd/2010/fallon-liam-2013.adoc[]
+|include::{vdmsite-lib-home}/thesis/phd/2010/veselý-vladimír-2015.adoc[]
+|include::{vdmsite-lib-home}/thesis/phd/2010/de_buitléir-amy-2017.adoc[]
+|===
+
+
+
+
+== Master Thesis
+
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+
+|include::{vdmsite-lib-home}/thesis/master/1990/gadegast-frank-1995.adoc[]
+
+|include::{vdmsite-lib-home}/thesis/master/1990/vandermeer-sven-1996.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/1990/arbanowski-stefan-1996.adoc[]
+
+|include::{vdmsite-lib-home}/thesis/master/1990/dannert-andreas-1998.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/1990/franz-stefan-1998.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/1990/steglich-stephan-1998.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/1990/zell-markus-1998.adoc[]
+
+|include::{vdmsite-lib-home}/thesis/master/1990/huenerberg-jens-1999.adoc[]
+
+|include::{vdmsite-lib-home}/thesis/master/2000/dini-manuela_ionelia-2000.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/2000/dutkowski-simon-2000.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/2000/karow-lars-2000.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/2000/mbedi-elie-2000.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/2000/sander-robert-2000.adoc[]
+
+|include::{vdmsite-lib-home}/thesis/master/2000/bozinovic_mador-stipe-2001.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/2000/fritzsch-wolfram-2001.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/2000/machias-alexandros-2001.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/2000/mu-hong-2001.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/2000/schuster-mario-2001.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/2000/singh-multani-mandeep-2001.adoc[]
+
+|include::{vdmsite-lib-home}/thesis/master/2000/cu-ie-2002.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/2000/fahner-michael-2002.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/2000/huenerberg-philipp-2002.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/2000/nsang-aaron-2002.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/2000/raza-syed-2002.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/2000/riedinger-jan-2002.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/2000/schoenfeld-jochen-2002.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/2000/sparkowsky-alexander-2002.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/2000/von_kattchee-joern-2002.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/2000/wepiwe-giscard-2002.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/2000/yin-ming-2002.adoc[]
+
+|include::{vdmsite-lib-home}/thesis/master/2000/cawley-darach-2004.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/2000/oconnor-robert-2004.adoc[]
+
+|include::{vdmsite-lib-home}/thesis/master/2000/becker-ulla-2005.adoc[]
+
+|include::{vdmsite-lib-home}/thesis/master/2000/feeney-martin-2006.adoc[]
+|include::{vdmsite-lib-home}/thesis/master/2000/morris-teri-2006.adoc[]
+|===
+
+

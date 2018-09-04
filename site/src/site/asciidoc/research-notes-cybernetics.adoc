@@ -1,1 +1,3 @@
-include::{vdmsite-lib-home}/topic-cybernetics.adoc[]
+== Research Notes - Cybernetics
+
+include::{vdmsite-lib-home}/research-notes/topic-cybernetics.adoc[leveloffset=+1]

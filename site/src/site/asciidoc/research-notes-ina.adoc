@@ -1,1 +1,3 @@
-include::{vdmsite-lib-home}/topic-ina.adoc[]
+== Research Notes - Introduction to Network Architecture
+
+include::{vdmsite-lib-home}/research-notes/topic-ina.adoc[leveloffset=+1]

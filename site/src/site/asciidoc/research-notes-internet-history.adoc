@@ -1,1 +1,3 @@
-include::{vdmsite-lib-home}/topic-internet-history.adoc[]
+== Research Notes - Internet History
+
+include::{vdmsite-lib-home}/research-notes/topic-internet-history.adoc[leveloffset=+1]

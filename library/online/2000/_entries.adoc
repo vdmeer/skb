@@ -11,9 +11,8 @@
 // @author Sven van der Meer (vdmeer.sven@mykolab.com)
 //
 
-== 2000
-include::{vdmsite-lib-home}/online/2000/_entries.adoc[]
-
-== 2010
-include::{vdmsite-lib-home}/online/2000/_entries.adoc[]
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::{vdmsite-lib-home}/online/2000/pelkey-entrepreneurial_capitalism-2007.adoc[]
+|===
 

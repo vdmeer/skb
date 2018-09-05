@@ -11,9 +11,9 @@
 // @author Sven van der Meer (vdmeer.sven@mykolab.com)
 //
 
-== 2000
-include::{vdmsite-lib-home}/online/2000/_entries.adoc[]
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::{vdmsite-lib-home}/movie/1990/rosencrantz-and-guildenstern-are-dead-1991.adoc[]
+|===
 
-== 2010
-include::{vdmsite-lib-home}/online/2000/_entries.adoc[]
 

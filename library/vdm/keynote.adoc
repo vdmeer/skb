@@ -11,7 +11,7 @@
 // @author Sven van der Meer (vdmeer.sven@mykolab.com)
 //
 
-=== Keynote
+== Keynote
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
 |include::{vdmsite-lib-home}/talks/keynote/2010/vandermeer-monami-2012.adoc[]

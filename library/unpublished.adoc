@@ -11,7 +11,6 @@
 // @author Sven van der Meer (vdmeer.sven@mykolab.com)
 //
 
-
 = SKB Research Library - Unpublished
 Sven van_der_Meer
 

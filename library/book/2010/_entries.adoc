@@ -11,6 +11,10 @@
 // @author Sven van der Meer (vdmeer.sven@mykolab.com)
 //
 
-== 2000
-include::{vdmsite-lib-home}/collection/2000/_entries.adoc[]
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::{vdmsite-lib-home}/book/2010/deutsch-infinity-2011.adoc[]
+|include::{vdmsite-lib-home}/book/2010/russell-sdos-2014.adoc[]
+|include::{vdmsite-lib-home}/book/2010/smith-elemental_design_patterns-2012.adoc[]
+|===
 

@@ -11,7 +11,8 @@ echo "  building library with attributes: $attributes"
 for file in `ls *.adoc`
 do
     echo "  -> ${file%.*}"
-    asciidoctor $file -a toc=left $attributes -a vdmsite-lib-home=/cygdrive/v/dev/github/skb/library
+    lib_home=`pwd`
+    asciidoctor $file -a toc=left $attributes -a vdmsite-lib-home=$lib_home
     chmod 644 ${file%.*}.html
 done
 

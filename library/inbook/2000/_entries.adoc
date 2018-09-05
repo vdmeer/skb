@@ -11,6 +11,10 @@
 // @author Sven van der Meer (vdmeer.sven@mykolab.com)
 //
 
-== 2000
-include::{vdmsite-lib-home}/collection/2000/_entries.adoc[]
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::{vdmsite-lib-home}/inbook/2000/fahy-aanc-2008.adoc[]
+|include::{vdmsite-lib-home}/inbook/2000/vandermeer-aanc-2008.adoc[]
+|===
+
 

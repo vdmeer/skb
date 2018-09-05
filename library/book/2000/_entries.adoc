@@ -11,6 +11,12 @@
 // @author Sven van der Meer (vdmeer.sven@mykolab.com)
 //
 
-== 2000
-include::{vdmsite-lib-home}/collection/2000/_entries.adoc[]
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::{vdmsite-lib-home}/book/2000/day-john-pna-2007.adoc[]
+|include::{vdmsite-lib-home}/book/2000/gould-richness_of_life-2006.adoc[]
+|include::{vdmsite-lib-home}/book/2000/sacks-seeing_voices-2000.adoc[]
+|include::{vdmsite-lib-home}/book/2000/smolin-trouble_with_physics-2006.adoc[]
+|include::{vdmsite-lib-home}/book/2000/strassner-pbm-2004.adoc[]
+|===
 

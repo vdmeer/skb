@@ -11,6 +11,12 @@
 // @author Sven van der Meer (vdmeer.sven@mykolab.com)
 //
 
-== 2000
-include::{vdmsite-lib-home}/collection/2000/_entries.adoc[]
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::{vdmsite-lib-home}/book/1970/alexander-pattern_language-1977.adoc[]
+|include::{vdmsite-lib-home}/book/1970/alexander-timeless-1979.adoc[]
+|include::{vdmsite-lib-home}/book/1970/florman-engineering-1976.adoc[]
+|include::{vdmsite-lib-home}/book/1970/lakatos-proofs_and_refutations-1976.adoc[]
+|include::{vdmsite-lib-home}/book/1970/macarthur-geographical_ecology-1972.adoc[]
+|===
 

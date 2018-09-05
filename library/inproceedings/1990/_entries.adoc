@@ -11,6 +11,14 @@
 // @author Sven van der Meer (vdmeer.sven@mykolab.com)
 //
 
-== 2000
-include::{vdmsite-lib-home}/collection/2000/_entries.adoc[]
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::{vdmsite-lib-home}/inproceedings/1990/arbanowski-iscc-1999.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/1990/miller-elp-1993.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/1990/pfeifer-africom-1998.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/1990/sloman-ftdcs-1990.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/1990/vandermeer-comcon-1999.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/1990/vandermeer-huc-1999.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/1990/vandermeer-isads-1999.adoc[]
+|===
 

@@ -11,6 +11,11 @@
 // @author Sven van der Meer (vdmeer.sven@mykolab.com)
 //
 
-== 2000
-include::{vdmsite-lib-home}/collection/2000/_entries.adoc[]
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::{vdmsite-lib-home}/inproceedings/1970/levin-sosp-1975.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/1970/metcalf-acm-1972.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/1970/pouzin-afips-1976.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/1970/watson-ddmcn-1979.adoc[]
+|===
 

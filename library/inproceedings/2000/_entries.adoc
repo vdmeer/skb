@@ -1,0 +1,85 @@
+//
+// ============LICENSE_START=======================================================
+//  Copyright (C) 2018 Sven van der Meer. All rights reserved.
+// ================================================================================
+// This file is licensed under the CREATIVE COMMONS ATTRIBUTION 4.0 INTERNATIONAL LICENSE
+// Full license text at https://creativecommons.org/licenses/by/4.0/legalcode
+// 
+// SPDX-License-Identifier: CC-BY-4.0
+// ============LICENSE_END=========================================================
+//
+// @author Sven van der Meer (vdmeer.sven@mykolab.com)
+//
+
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::{vdmsite-lib-home}/inproceedings/2000/arbanowski-smartnet-2000.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/arbanowski-wuc-2000.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/balasubramaniam-policy-2006.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/barrett-giis-2007.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/barrett-itsrs-2003.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/barrett-mace-2007.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/barrett-mucs-2004.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/boudjemil-dest-2008.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/carroll-compsac-2008.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/carroll-dsom-2006.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/carroll-giis-2007.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/carroll-noms-2006.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/davy-ccnc-2006.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/davy-euro_mgov-2005.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/davy-im-2009.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/davy-itt-2005.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/davy-lanoms-2007.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/davy-temu-2008.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/deussen-mace-2007.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/dudkowski-im-2009.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/fahy-mace-2008.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/foley-echallenges-2005.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/ghamri-doudane-hpovua-2004.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/jennings-hpovua-2005.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/jennings-im-2009.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/lehtihet-mmns-2005.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/mitola-icc-2009.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/morris-ssmo-2007.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/oconnor-isict-2003.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/osmani-cis-2005.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/osmani-mhci-2005.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/phan-aswec-2008.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/raymer-ease-2008.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/raymer-policy-2006.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/schmutzler-ehealth-2008.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/serrano-aims-2007.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/serrano-atc-2009.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/strassner-apnoms-2008.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/strassner-compsac-2008-a.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/strassner-compsac-2008-b.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/strassner-echallenges-2009.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/strassner-icac-2008.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/strassner-icfn-2009.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/strassner-icufn-2009.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/strassner-icumt-2009.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/strassner-mace-2009.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/strassner-noms-2008.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/vandermeer-bcn-2006.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/vandermeer-ease-2009-a.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/vandermeer-ease-2009-b.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/vandermeer-echallenges-2004.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/vandermeer-hpovua-2005.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/vandermeer-hpsua-2008.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/vandermeer-ict-2001.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/vandermeer-im-2005.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/vandermeer-in-2000.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/vandermeer-in-2001.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/vandermeer-mace-2006.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/vandermeer-mace-2007.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/vandermeer-motos3-2006.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/vandermeer-mucs-2003-a.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/vandermeer-mucs-2003-b.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/vandermeer-proms-2000.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/vandermeer-smartnet-2000.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/white-iceis-2005.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/white-ie-2005.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/zach-eurescom-2005.adoc[]
+|===
+
+

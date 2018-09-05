@@ -11,6 +11,12 @@
 // @author Sven van der Meer (vdmeer.sven@mykolab.com)
 //
 
-== 2000
-include::{vdmsite-lib-home}/collection/2000/_entries.adoc[]
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::{vdmsite-lib-home}/book/1950/ashby-w-ross-intro_cybernetics-1956.adoc[]
+|include::{vdmsite-lib-home}/book/1950/dr-seuss-sneetches-1953.adoc[]
+|include::{vdmsite-lib-home}/book/1950/needham-science_and_civilisation_in_china-1954.adoc[]
+|include::{vdmsite-lib-home}/book/1950/neurath-how_machines_work-1954.adoc[]
+|include::{vdmsite-lib-home}/book/1950/popper-scientific-discovery-1959.adoc[]
+|===
 

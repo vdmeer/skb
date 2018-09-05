@@ -11,6 +11,12 @@
 // @author Sven van der Meer (vdmeer.sven@mykolab.com)
 //
 
-== 2000
-include::{vdmsite-lib-home}/collection/2000/_entries.adoc[]
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::{vdmsite-lib-home}/article/1970/davies-tcom-1972.adoc[]
+|include::{vdmsite-lib-home}/article/1970/dijkstra-ai-1971.adoc[]
+|include::{vdmsite-lib-home}/article/1970/hansen-cacm-1970.adoc[]
+|include::{vdmsite-lib-home}/article/1970/rouse-tsmc-1979.adoc[]
+|include::{vdmsite-lib-home}/article/1970/watson-networks-1976.adoc[]
+|===
 

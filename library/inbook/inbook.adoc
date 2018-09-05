@@ -12,39 +12,17 @@
 //
 
 == 1700
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::{vdmsite-lib-home}/inbook/1700/goethe-zauberlehrling-1797.adoc[]
-|===
-
+include::{vdmsite-lib-home}/inbook/1700/_entries.adoc[]
 
 == 1800
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::{vdmsite-lib-home}/inbook/1800/irving-rib_van_winkle-1819.adoc[]
-|===
-
+include::{vdmsite-lib-home}/inbook/1800/_entries.adoc[]
 
 == 1970
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::{vdmsite-lib-home}/inbook/1970/saltzer-lncs-1978.adoc[]
-|===
-
+include::{vdmsite-lib-home}/inbook/1970/_entries.adoc[]
 
 == 2000
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::{vdmsite-lib-home}/inbook/2000/vandermeer-aanc-2008.adoc[]
-|include::{vdmsite-lib-home}/inbook/2000/fahy-aanc-2008.adoc[]
-|===
-
+include::{vdmsite-lib-home}/inbook/2000/_entries.adoc[]
 
 == 2010
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::{vdmsite-lib-home}/inbook/2010/jennings-autonomics-2010.adoc[]
-|include::{vdmsite-lib-home}/inbook/2010/vandermeer-arcfire-2016.adoc[]
-|===
-
+include::{vdmsite-lib-home}/inbook/2010/_entries.adoc[]
 

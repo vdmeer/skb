@@ -1,0 +1,26 @@
+//
+// ============LICENSE_START=======================================================
+//  Copyright (C) 2018 Sven van der Meer. All rights reserved.
+// ================================================================================
+// This file is licensed under the CREATIVE COMMONS ATTRIBUTION 4.0 INTERNATIONAL LICENSE
+// Full license text at https://creativecommons.org/licenses/by/4.0/legalcode
+// 
+// SPDX-License-Identifier: CC-BY-4.0
+// ============LICENSE_END=========================================================
+//
+// @author Sven van der Meer (vdmeer.sven@mykolab.com)
+//
+
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::{vdmsite-lib-home}/talks/tutorial/2000/fleck-tmf-2006-a.adoc[]
+|include::{vdmsite-lib-home}/talks/tutorial/2000/fleck-tmf-2006-b.adoc[]
+|include::{vdmsite-lib-home}/talks/tutorial/2000/magedanz-in-2000.adoc[]
+|include::{vdmsite-lib-home}/talks/tutorial/2000/strassner-im-2005.adoc[]
+|include::{vdmsite-lib-home}/talks/tutorial/2000/strassner-noms-2006.adoc[]
+|include::{vdmsite-lib-home}/talks/tutorial/2000/strassner-noms-2008.adoc[]
+|include::{vdmsite-lib-home}/talks/tutorial/2000/vandermeer-fame_arch-2009.adoc[]
+|include::{vdmsite-lib-home}/talks/tutorial/2000/vandermeer-ict-2001.adoc[]
+|include::{vdmsite-lib-home}/talks/tutorial/2000/vandermeer-proms-2000.adoc[]
+|===
+

@@ -1,0 +1,26 @@
+//
+// ============LICENSE_START=======================================================
+//  Copyright (C) 2018 Sven van der Meer. All rights reserved.
+// ================================================================================
+// This file is licensed under the CREATIVE COMMONS ATTRIBUTION 4.0 INTERNATIONAL LICENSE
+// Full license text at https://creativecommons.org/licenses/by/4.0/legalcode
+// 
+// SPDX-License-Identifier: CC-BY-4.0
+// ============LICENSE_END=========================================================
+//
+// @author Sven van der Meer (vdmeer.sven@mykolab.com)
+//
+
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::{vdmsite-lib-home}/talks/invited-talk/2000/arbanowski-datacom-2000.adoc[]
+|include::{vdmsite-lib-home}/talks/invited-talk/2000/carroll-ircset-2004.adoc[]
+|include::{vdmsite-lib-home}/talks/invited-talk/2000/fleck-tmf-2006-a.adoc[]
+|include::{vdmsite-lib-home}/talks/invited-talk/2000/fleck-tmf-2006-b.adoc[]
+|include::{vdmsite-lib-home}/talks/invited-talk/2000/vandermeer-acf-2006.adoc[]
+|include::{vdmsite-lib-home}/talks/invited-talk/2000/vandermeer-acf-2008-a.adoc[]
+|include::{vdmsite-lib-home}/talks/invited-talk/2000/vandermeer-acf-2008-b.adoc[]
+|include::{vdmsite-lib-home}/talks/invited-talk/2000/vandermeer-euronetlab-2004.adoc[]
+|include::{vdmsite-lib-home}/talks/invited-talk/2000/vandermeer-hp_virtual-2009.adoc[]
+|===
+

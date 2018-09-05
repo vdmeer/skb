@@ -11,7 +11,8 @@
 // @author Sven van der Meer (vdmeer.sven@mykolab.com)
 //
 
-== 2000
-include::{vdmsite-lib-home}/unpublished/2000/_entries.adoc[]
+=== 1990
+include::{vdmsite-lib-home}/thesis/master/1990/_entries.adoc[]
 
-
+=== 2000
+include::{vdmsite-lib-home}/thesis/master/2000/_entries.adoc[]

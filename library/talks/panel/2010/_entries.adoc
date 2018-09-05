@@ -11,7 +11,10 @@
 // @author Sven van der Meer (vdmeer.sven@mykolab.com)
 //
 
-== 2000
-include::{vdmsite-lib-home}/unpublished/2000/_entries.adoc[]
 
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::{vdmsite-lib-home}/talks/panel/2010/vandermeer-im-2013.adoc[]
+|include::{vdmsite-lib-home}/talks/panel/2010/vandermeer-im-2015.adoc[]
+|===
 

@@ -1,0 +1,30 @@
+//
+// ============LICENSE_START=======================================================
+//  Copyright (C) 2018 Sven van der Meer. All rights reserved.
+// ================================================================================
+// This file is licensed under the CREATIVE COMMONS ATTRIBUTION 4.0 INTERNATIONAL LICENSE
+// Full license text at https://creativecommons.org/licenses/by/4.0/legalcode
+// 
+// SPDX-License-Identifier: CC-BY-4.0
+// ============LICENSE_END=========================================================
+//
+// @author Sven van der Meer (vdmeer.sven@mykolab.com)
+//
+
+
+
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::{vdmsite-lib-home}/talks/lecture-notes/1990/arbanowski-dia-tub-1998.adoc[]
+|include::{vdmsite-lib-home}/talks/lecture-notes/1990/arbanowski-dia-tub-1999.adoc[]
+|include::{vdmsite-lib-home}/talks/lecture-notes/1990/bb-tub-1998.adoc[]
+|include::{vdmsite-lib-home}/talks/lecture-notes/1990/bb-tub-1999.adoc[]
+|include::{vdmsite-lib-home}/talks/lecture-notes/1990/carle-ip-tub-1997.adoc[]
+|include::{vdmsite-lib-home}/talks/lecture-notes/1990/magedanz-in-tub-1998.adoc[]
+|include::{vdmsite-lib-home}/talks/lecture-notes/1990/magedanz-in-tub-1999.adoc[]
+|include::{vdmsite-lib-home}/talks/lecture-notes/1990/mcuc-tub-1999.adoc[]
+|include::{vdmsite-lib-home}/talks/lecture-notes/1990/steglich-bs-tub-1999.adoc[]
+|include::{vdmsite-lib-home}/talks/lecture-notes/1990/vandermeer-mvs-tub-1998.adoc[]
+|include::{vdmsite-lib-home}/talks/lecture-notes/1990/vandermeer-mvs-tub-1999.adoc[]
+|===
+

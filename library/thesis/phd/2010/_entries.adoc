@@ -11,7 +11,14 @@
 // @author Sven van der Meer (vdmeer.sven@mykolab.com)
 //
 
-== 2000
-include::{vdmsite-lib-home}/unpublished/2000/_entries.adoc[]
-
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::{vdmsite-lib-home}/thesis/phd/2010/xu-lei-2010.adoc[]
+|include::{vdmsite-lib-home}/thesis/phd/2010/frank-korbinian-2011.adoc[]
+|include::{vdmsite-lib-home}/thesis/phd/2010/verstichel-stijn-2011.adoc[]
+|include::{vdmsite-lib-home}/thesis/phd/2010/griffin-leigh-2012.adoc[]
+|include::{vdmsite-lib-home}/thesis/phd/2010/fallon-liam-2013.adoc[]
+|include::{vdmsite-lib-home}/thesis/phd/2010/veselý-vladimír-2015.adoc[]
+|include::{vdmsite-lib-home}/thesis/phd/2010/de_buitléir-amy-2017.adoc[]
+|===
 

@@ -12,16 +12,8 @@
 //
 
 == TM Forum
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::{vdmsite-lib-home}/standard/tmf/tmf053b-2006.adoc[]
-|include::{vdmsite-lib-home}/standard/tmf/tmf053-2006.adoc[]
-|include::{vdmsite-lib-home}/standard/tmf/tmf053-2005.adoc[]
-|===
+include::{vdmsite-lib-home}/standard/tmf/_entries.adoc[]
 
 == IETF
-[cols="a", grid=rows, frame=none, %autowidth.stretch]
-|===
-|include::{vdmsite-lib-home}/standard/ietf/cerf-ien48-1978.adoc[]
-|include::{vdmsite-lib-home}/standard/ietf/strassner-supa-2017.adoc[]
-|===
+include::{vdmsite-lib-home}/standard/ietf/_entries.adoc[]
+

@@ -11,7 +11,9 @@
 // @author Sven van der Meer (vdmeer.sven@mykolab.com)
 //
 
-== 2000
-include::{vdmsite-lib-home}/unpublished/2000/_entries.adoc[]
+=== 2000
+include::{vdmsite-lib-home}/talks/invited-talk/2000/_entries.adoc[]
 
+=== 2010
+include::{vdmsite-lib-home}/talks/invited-talk/2010/_entries.adoc[]
 

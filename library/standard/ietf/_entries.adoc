@@ -11,7 +11,8 @@
 // @author Sven van der Meer (vdmeer.sven@mykolab.com)
 //
 
-== 2000
-include::{vdmsite-lib-home}/unpublished/2000/_entries.adoc[]
-
-
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::{vdmsite-lib-home}/standard/ietf/cerf-ien48-1978.adoc[]
+|include::{vdmsite-lib-home}/standard/ietf/strassner-supa-2017.adoc[]
+|===

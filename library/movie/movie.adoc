@@ -12,9 +12,8 @@
 //
 
 == 1970
-include::{vdmsite-lib-home}/movie/1970/animal-house-1978.adoc[]
-|include::{vdmsite-lib-home}/movie/1970/_entries.adoc[]
+include::{vdmsite-lib-home}/movie/1970/_entries.adoc[]
 
 == 1990
-|include::{vdmsite-lib-home}/movie/1990/_entries.adoc[]
+include::{vdmsite-lib-home}/movie/1990/_entries.adoc[]
 

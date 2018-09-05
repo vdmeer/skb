@@ -10,15 +10,15 @@ link:#lecture_notes[Lecture Notes] ┃
 link:#presentation[Presentation]
 
 
-include::{vdmsite-lib-home}/vdm/keynote.adoc[]
+include::{vdmsite-lib-home}/vdm/keynote.adoc[leveloffset=+1]
 
-include::{vdmsite-lib-home}/vdm/invited-talk.adoc[]
+include::{vdmsite-lib-home}/vdm/invited-talk.adoc[leveloffset=+1]
 
-include::{vdmsite-lib-home}/vdm/panel.adoc[]
+include::{vdmsite-lib-home}/vdm/panel.adoc[leveloffset=+1]
 
-include::{vdmsite-lib-home}/vdm/tutorial.adoc[]
+include::{vdmsite-lib-home}/vdm/tutorial.adoc[leveloffset=+1]
 
-include::{vdmsite-lib-home}/vdm/lecture-notes.adoc[]
+include::{vdmsite-lib-home}/vdm/lecture-notes.adoc[leveloffset=+1]
 
-include::{vdmsite-lib-home}/vdm/presentation.adoc[]
+include::{vdmsite-lib-home}/vdm/presentation.adoc[leveloffset=+1]
 

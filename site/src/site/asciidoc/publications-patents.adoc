@@ -1,4 +1,4 @@
 :title: Patents
 
-include::{vdmsite-lib-home}/vdm/patents.adoc[leveloffset=-1]
+include::{vdmsite-lib-home}/vdm/patents.adoc[]
 

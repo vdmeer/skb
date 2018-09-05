@@ -1,4 +1,4 @@
 :title: Standards / SDO
 
-include::{vdmsite-lib-home}/vdm/standards.adoc[leveloffset=-1]
+include::{vdmsite-lib-home}/vdm/standards.adoc[]
 

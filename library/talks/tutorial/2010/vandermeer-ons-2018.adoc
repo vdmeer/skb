@@ -7,7 +7,7 @@
     ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/talks/tutorial/2010/vandermeer-ons-2018.adoc[src],
             link:https://github.com/vdmeer/skb/tree/master/library/talks/tutorial/2010/vandermeer-ons-2018.yaml[yaml],
             link:https://github.com/vdmeer/skb/tree/master/library/talks/tutorial/2010/vandermeer-ons-2018.bib[bib],
-            link:https://github.com/vdmeer/skb/tree/master/library/talks/tutorial/2010/vandermeer-ons-2018.biblatex.bib[biblatex]
+            link:https://github.com/vdmeer/skb/tree/master/library/talks/tutorial/2010/vandermeer-ons-2018-biblatex.bib[biblatex]
 ifdef::local[]
     ┃ link:/library/talks/tutorial/2010/ons-2018/[Folder] ┃
 endif::[]

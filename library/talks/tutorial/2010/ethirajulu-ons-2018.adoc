@@ -1,4 +1,4 @@
-*Balaji Ethirajulu* et al.: _Taming Policy Complexity: From Theory to Execution_, 2018
+_Taming Policy Complexity: From Theory to Execution_, 2018
 
 * Presenters: Balaji Ethirajulu, Stephen Terrill, Sven van der Meer, Liam Fallon
 * Ericsson Tutorial: Linux Foundation Open Networking Summit North America 2018 (ONS), Los Angeles, CA, USA, March 26-29, 2018
@@ -6,9 +6,10 @@
   ** Stephen Terrill: _5G as an Innovation Platform, Use Cases, Technology Enablers and Implications_, link:https://onsna18.sched.com/event/EFjs/ericsson-tutorial-5g-as-an-innovation-platform-use-cases-technology-enablers-and-implications-stephen-terrill-ericsson[Session] ┃link:https://schd.ws/hosted_files/onsna18/91/ONS%20Tutorial-pa2.pdf[PDF]
   ** Sven van der Meer: _Policy 2.0 - Using Theory and Design Patterns to Design and Build Immutable Policy Infrastructure for Automation_, link:https://onsna18.sched.com/event/EFju/ericsson-tutorial-policy-20-using-theory-and-design-patterns-to-design-and-build-immutable-policy-infrastructure-for-automation-sven-van-der-meer-ericsson[Session] ┃ link:https://schd.ws/hosted_files/onsna18/ac/2018-03-upt-ons.pdf[PDF]
   ** Liam Fallon: _Demonstration of Adaptive Policy_, link:https://onsna18.sched.com/event/EFjw/ericsson-tutorial-demonstration-of-adaptive-policy-liam-fallon-ericsson[Session]
-Links:
+* Links:
        link:https://onsna18.sched.com/event/DmOj/tutorial-taming-policy-complexity-from-theory-to-execution-presented-by-ericsson[Event]
-    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/talks/tutorial/2010/ethirajulu-ons-2018.adoc[src]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/talks/tutorial/2010/ethirajulu-ons-2018.adoc[src],
+            link:https://github.com/vdmeer/skb/tree/master/library/talks/tutorial/2010/ethirajulu-ons-2018.yaml[yaml]
 ifdef::local[]
     ┃ link:/library/talks/tutorial/2010/ons-2018/[Folder] ┃
 endif::[]

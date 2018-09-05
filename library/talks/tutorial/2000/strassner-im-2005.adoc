@@ -1,9 +1,10 @@
 *John Strassner*: _Autonomic Networking - Theory and Practice_, 2005
 
-* Presenters: John Strassner
 * Tutorial: 2005 IFIP/IEEE Symposium on Integrated Network and Service Management (IM), IM 2005
 * Links:
-       skb: link:https://github.com/vdmeer/skb/tree/master/library/talks/tutorial/2000/strassner-im-2005.adoc[src]
+       link:http://im2005.ieee-im.org/[Conference]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/talks/tutorial/2000/strassner-im-2005.adoc[src],
+            link:https://github.com/vdmeer/skb/tree/master/library/talks/tutorial/2000/strassner-im-2005.yaml[yaml]
 ifdef::local[]
     ┃ link:/library/talks/tutorial/2000/[Folder]
 endif::[]

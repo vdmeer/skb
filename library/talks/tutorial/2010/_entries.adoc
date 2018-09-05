@@ -15,5 +15,6 @@
 |===
 |include::{vdmsite-lib-home}/talks/tutorial/2010/ethirajulu-ons-2018.adoc[]
 |include::{vdmsite-lib-home}/talks/tutorial/2010/fleck-noms-2012.adoc[]
+|include::{vdmsite-lib-home}/talks/tutorial/2010/vandermeer-ons-2018.adoc[]
 |===
 

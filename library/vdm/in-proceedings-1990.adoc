@@ -14,11 +14,11 @@
 === 1998/99
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/inproceedings/1990/pfeifer-africom-1998.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/1990/vandermeer-isads-1999.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/1990/vandermeer-huc-1999.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/1990/arbanowski-iscc-1999.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/1990/vandermeer-comcon-1999.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/1990/pfeifer-1998-africom.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/1990/vandermeer-1999-isads.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/1990/vandermeer-1999-huc.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/1990/arbanowski-1999-iscc.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/1990/vandermeer-1999-comcon.adoc[]
 |===
 
 

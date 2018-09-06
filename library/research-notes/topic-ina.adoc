@@ -28,11 +28,11 @@ Provide a list of papers, articles, books and the like important to understand n
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/book/1950/ashby-w-ross-intro_cybernetics-1956.adoc[]
-|include::{vdmsite-lib-home}/book/1960/wiener-norbert-cybernetics-1965.adoc[]
-|include::{vdmsite-lib-home}/report/technical/1970/maturana-biology-of-cognition-1970.adoc[]
-|include::{vdmsite-lib-home}/book/1980/maturana_tree_of_knowledge-1987.adoc[]
-|include::{vdmsite-lib-home}/online/2010/dubberly-cybernetics-2015.adoc[]
+|include::{vdmsite-lib-home}/book/1950/ashby-1956-intro_cybernetics.adoc[]
+|include::{vdmsite-lib-home}/book/1960/wiener-1965-cybernetics.adoc[]
+|include::{vdmsite-lib-home}/report/technical/1970/maturana-1970-biology_of_cognition.adoc[]
+|include::{vdmsite-lib-home}/book/1980/maturana-1987-tree_of_knowledge.adoc[]
+|include::{vdmsite-lib-home}/online/2010/dubberly-2015-cybernetics.adoc[]
 |===
 
 
@@ -41,10 +41,10 @@ Provide a list of papers, articles, books and the like important to understand n
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/book/1970/alexander-pattern_language-1977.adoc[]
-|include::{vdmsite-lib-home}/book/1970/alexander-timeless-1979.adoc[]
-|include::{vdmsite-lib-home}/book/2000/day-john-pna-2007.adoc[]
-|include::{vdmsite-lib-home}/book/2010/smith-elemental_design_patterns-2012.adoc[]
+|include::{vdmsite-lib-home}/book/1970/alexander-1977-pattern_language.adoc[]
+|include::{vdmsite-lib-home}/book/1970/alexander-1979-timeless.adoc[]
+|include::{vdmsite-lib-home}/book/2000/day-2007-pna.adoc[]
+|include::{vdmsite-lib-home}/book/2010/smith-2012-elemental_design_patterns.adoc[]
 |===
 
 
@@ -53,26 +53,26 @@ Provide a list of papers, articles, books and the like important to understand n
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/book/1600/newton-regulae_philosophandi-1687.adoc[]
-|include::{vdmsite-lib-home}/book/1700/leibniz-monadology-1714.adoc[]
-|include::{vdmsite-lib-home}/article/1800/frege-sense-and-meaning-1892.adoc[]
-|include::{vdmsite-lib-home}/book/1800/frege-basic_laws_of_arithmetic-1893.adoc[]
-|include::{vdmsite-lib-home}/book/1910/russel-mathematical_philosophy-1919.adoc[]
-|include::{vdmsite-lib-home}/book/1920/wittgenstein-ludwig-tractatus-1922.adoc[]
-|include::{vdmsite-lib-home}/book/1950/needham-science_and_civilisation_in_china-1954.adoc[]
-|include::{vdmsite-lib-home}/book/1950/popper-scientific-discovery-1959.adoc[]
-|include::{vdmsite-lib-home}/book/1970/macarthur-geographical_ecology-1972.adoc[]
-|include::{vdmsite-lib-home}/book/1970/lakatos-proofs_and_refutations-1976.adoc[]
-|include::{vdmsite-lib-home}/book/1970/florman-engineering-1976.adoc[]
-|include::{vdmsite-lib-home}/book/1990/edelman-bright_air_brilliant_fire-1992.adoc[]
-|include::{vdmsite-lib-home}/book/1990/kaufmann-origins_of_order-1993.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/1990/miller-elp-1993.adoc[]
-|include::{vdmsite-lib-home}/book/1990/kaufmann-home_in_the_universe-1996.adoc[]
-|include::{vdmsite-lib-home}/book/1990/sacks-the_man_who_mistook_his_wife_for_a_hat-1998.adoc[]
-|include::{vdmsite-lib-home}/book/2000/sacks-seeing_voices-2000.adoc[]
-|include::{vdmsite-lib-home}/book/2000/smolin-trouble_with_physics-2006.adoc[]
-|include::{vdmsite-lib-home}/book/2000/gould-richness_of_life-2006.adoc[]
-|include::{vdmsite-lib-home}/book/2010/deutsch-infinity-2011.adoc[]
+|include::{vdmsite-lib-home}/book/1600/newton-1687-regulae_philosophandi.adoc[]
+|include::{vdmsite-lib-home}/book/1700/leibniz-1714-monadology.adoc[]
+|include::{vdmsite-lib-home}/article/1800/frege-1892-sense-and-meaning.adoc[]
+|include::{vdmsite-lib-home}/book/1800/frege-1893-basic_laws_of_arithmetic.adoc[]
+|include::{vdmsite-lib-home}/book/1910/russel-1919-mathematical_philosophy.adoc[]
+|include::{vdmsite-lib-home}/book/1920/wittgenstein-1922-tractatus.adoc[]
+|include::{vdmsite-lib-home}/book/1950/needham-1954-science_and_civilisation_in_china.adoc[]
+|include::{vdmsite-lib-home}/book/1950/popper-1959-scientific_discovery.adoc[]
+|include::{vdmsite-lib-home}/book/1970/macarthur-1972-geographical_ecology.adoc[]
+|include::{vdmsite-lib-home}/book/1970/lakatos-1976-proofs_and_refutations.adoc[]
+|include::{vdmsite-lib-home}/book/1970/florman-1976-engineering.adoc[]
+|include::{vdmsite-lib-home}/book/1990/edelman-1992-bright_air_brilliant_fire.adoc[]
+|include::{vdmsite-lib-home}/book/1990/kaufmann-1993-origins_of_order.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/1990/miller-1993-elp.adoc[]
+|include::{vdmsite-lib-home}/book/1990/kaufmann-1996-home_in_the_universe.adoc[]
+|include::{vdmsite-lib-home}/book/1990/sacks-1998-the_man_who_mistook_his_wife_for_a_hat.adoc[]
+|include::{vdmsite-lib-home}/book/2000/sacks-2000-seeing_voices.adoc[]
+|include::{vdmsite-lib-home}/book/2000/smolin-2006-trouble_with_physics.adoc[]
+|include::{vdmsite-lib-home}/book/2000/gould-2006-richness_of_life.adoc[]
+|include::{vdmsite-lib-home}/book/2010/deutsch-2011-infinity.adoc[]
 |===
 
 
@@ -85,8 +85,8 @@ Provide a list of papers, articles, books and the like important to understand n
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/book/1930/fleck-gensis-1935.adoc[]
-|include::{vdmsite-lib-home}/book/1960/kuhn-scientific_revolutions-1962.adoc[]
+|include::{vdmsite-lib-home}/book/1930/fleck-1935-gensis.adoc[]
+|include::{vdmsite-lib-home}/book/1960/kuhn-1962-scientific_revolutions.adoc[]
 |===
 
 
@@ -94,10 +94,10 @@ Provide a list of papers, articles, books and the like important to understand n
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/article/1960/dijkstra-cacm-1968.adoc[]
-|include::{vdmsite-lib-home}/article/1970/dijkstra-ai-1971.adoc[]
-|include::{vdmsite-lib-home}/article/1980/bachman-compstd-1982.adoc[]
-|include::{vdmsite-lib-home}/article/1980/bachman-networks-1982.adoc[]
+|include::{vdmsite-lib-home}/article/1960/dijkstra-1968-cacm.adoc[]
+|include::{vdmsite-lib-home}/article/1970/dijkstra-1971-ai.adoc[]
+|include::{vdmsite-lib-home}/article/1980/bachman-1982-compstd.adoc[]
+|include::{vdmsite-lib-home}/article/1980/bachman-1982-networks.adoc[]
 |===
 
 
@@ -105,8 +105,8 @@ Provide a list of papers, articles, books and the like important to understand n
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/article/1970/hansen-cacm-1970.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/1970/levin-sosp-1975.adoc[]
+|include::{vdmsite-lib-home}/article/1970/hansen-1970-cacm.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/1970/levin-1975-sosp.adoc[]
 |===
 
 
@@ -114,7 +114,7 @@ Provide a list of papers, articles, books and the like important to understand n
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/inproceedings/1970/metcalf-acm-1972.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/1970/metcalf-1972-acm.adoc[]
 |===
 
 
@@ -122,12 +122,12 @@ Provide a list of papers, articles, books and the like important to understand n
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/article/1970/watson-networks-1976.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/1970/watson-ddmcn-1979.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/1980/watson-tas-1980.adoc[]
-|include::{vdmsite-lib-home}/article/1980/watson-networks-1981.adoc[]
-|include::{vdmsite-lib-home}/report/technical/1980/watson-delta_t-1981.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/1980/watson-lcn-1989.adoc[]
+|include::{vdmsite-lib-home}/article/1970/watson-1976-networks.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/1970/watson-1979-ddmcn.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/1980/watson-1980-tas.adoc[]
+|include::{vdmsite-lib-home}/article/1980/watson-1981-networks.adoc[]
+|include::{vdmsite-lib-home}/report/technical/1980/watson-1981-delta_t.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/1980/watson-1989-lcn.adoc[]
 |===
 
 
@@ -135,9 +135,9 @@ Provide a list of papers, articles, books and the like important to understand n
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/inproceedings/1970/shoch-compcon-1978.adoc[]
-|include::{vdmsite-lib-home}/inbook/1970/saltzer-lncs-1978.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/1980/saltzer-lcn-1982.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/1970/shoch-1978-compcon.adoc[]
+|include::{vdmsite-lib-home}/inbook/1970/saltzer-1978-lncs.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/1980/saltzer-1982-lcn.adoc[]
 |===
 
 
@@ -154,7 +154,7 @@ This context is also important to understand not only when, but also how (and of
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/online/2000/pelkey-entrepreneurial_capitalism-2007.adoc[]
+|include::{vdmsite-lib-home}/online/2000/pelkey-2007-entrepreneurial_capitalism.adoc[]
 |===
 
 
@@ -163,12 +163,12 @@ This context is also important to understand not only when, but also how (and of
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
 |include::{vdmsite-lib-home}/misc/mckenzie-archive.adoc[]
-|include::{vdmsite-lib-home}/report/technical/2000/bennett-itif-2009.adoc[]
-|include::{vdmsite-lib-home}/article/2010/mckenzie-ieee-2011.adoc[]
-|include::{vdmsite-lib-home}/article/2010/russell-spectrum-2013.adoc[]
-|include::{vdmsite-lib-home}/book/2010/russell-sdos-2014.adoc[]
-|include::{vdmsite-lib-home}/article/2010/russell-tc-2014.adoc[]
-|include::{vdmsite-lib-home}/article/2010/day-ieee-2016.adoc[]
+|include::{vdmsite-lib-home}/report/technical/2000/bennett-2009-itif.adoc[]
+|include::{vdmsite-lib-home}/article/2010/mckenzie-2011-ieee.adoc[]
+|include::{vdmsite-lib-home}/article/2010/russell-2013-spectrum.adoc[]
+|include::{vdmsite-lib-home}/book/2010/russell-2014-sdos.adoc[]
+|include::{vdmsite-lib-home}/article/2010/russell-2014-tc.adoc[]
+|include::{vdmsite-lib-home}/article/2010/day-2016-ieee.adoc[]
 |===
 
 
@@ -182,8 +182,8 @@ Documents are listed in historic order.
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/report/technical/1960/baran-distr_comm_nework-1964.adoc[]
-|include::{vdmsite-lib-home}/article/1970/davies-tcom-1972.adoc[]
+|include::{vdmsite-lib-home}/report/technical/1960/baran-1964-distr_comm_nework.adoc[]
+|include::{vdmsite-lib-home}/article/1970/davies-1972-tcom.adoc[]
 |include::{vdmsite-lib-home}/report/technical/1970/inwg42-1973.adoc[]
 |include::{vdmsite-lib-home}/report/technical/1970/inwg60-1974.adoc[]
 |include::{vdmsite-lib-home}/standard/ietf/cerf-ien48-1978.adoc[]
@@ -195,7 +195,7 @@ Technological and political dimensions of circuit switching and introduction to 
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/inproceedings/1970/pouzin-afips-1976.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/1970/pouzin-1976-afips.adoc[]
 |===
 
 
@@ -203,11 +203,11 @@ Technological and political dimensions of circuit switching and introduction to 
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/inbook/1700/goethe-zauberlehrling-1797.adoc[]
-|include::{vdmsite-lib-home}/inbook/1800/irving-rib_van_winkle-1819.adoc[]
-|include::{vdmsite-lib-home}/book/1800/abbott-edwin-a-flatland-1884.adoc[]
-|include::{vdmsite-lib-home}/book/1950/dr-seuss-sneetches-1953.adoc[]
-|include::{vdmsite-lib-home}/book/1950/neurath-how_machines_work-1954.adoc[]
+|include::{vdmsite-lib-home}/inbook/1700/goethe-1797-zauberlehrling.adoc[]
+|include::{vdmsite-lib-home}/inbook/1800/irving-1819-rib_van_winkle.adoc[]
+|include::{vdmsite-lib-home}/book/1800/abbott-1884-a-flatland.adoc[]
+|include::{vdmsite-lib-home}/book/1950/dr-seuss-1953-sneetches.adoc[]
+|include::{vdmsite-lib-home}/book/1950/neurath-1954-how_machines_work.adoc[]
 |===
 
 
@@ -215,9 +215,9 @@ Movies (Films)
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/movie/1990/rosencrantz-and-guildenstern-are-dead-1991.adoc[]
-|include::{vdmsite-lib-home}/movie/1970/animal-house-1978.adoc[]
-|include::{vdmsite-lib-home}/movie/1970/monty-python-and-the-holy-grail-1975.adoc[]
+|include::{vdmsite-lib-home}/movie/1990/1991-rosencrantz-and-guildenstern-are-dead.adoc[]
+|include::{vdmsite-lib-home}/movie/1970/1978-animal-house.adoc[]
+|include::{vdmsite-lib-home}/movie/1970/1975-monty-python-and-the-holy-grail.adoc[]
 |===
 
 

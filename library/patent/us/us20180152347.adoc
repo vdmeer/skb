@@ -1,9 +1,0 @@
-_Network Function Virtualisation_, 2018
-
-* Authors: Prudhvi Dhandu, Kandhasamy Narayanan Premnath, Sven van der Meer
-* Publication number: 20180152347
-* Publication date: 31.05.2018
-* Links:
-       link:https://patentscope.wipo.int/search/en/detail.jsf?docId=US219390559[Wipo]
-    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/patent/us/us20180152347.adoc[src]
-

@@ -1,0 +1,14 @@
+*Cian Foley* et al.: _Instant Messaging as a Platform for the Realisation of at True Ubiquitous Computing Environment_, 2005
+
+* Authors: Cian Foley, Barry Downes, Eamonn de Leastar, Sven van der Meer
+* Published: 15th eChallenges Conf. (e-2005)
+* Published in: Paul Cunningham, Miriam Cunningham (eds.): Innovation and the Knowledge Economy: Issues, Applications, Case Studies 
+* Links:
+       link:https://www.researchgate.net/publication/228556403_Instant_Messaging_as_a_Platform_for_the_Realisation_of_a_true_Ubiquitous_Computing_Environment[ResearchGate]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/2000/foley-2005-echallenges.adoc[src]
+ifdef::local[]
+    ┃ link:/library/inproceedings/2000/foley-2005-echallenges.pdf[PDF]
+    ┃ link:/library/inproceedings/2000/foley-2005-echallenges.doc[DOC]
+    ┃ link:/library/inproceedings/2000/foley-2005-echallenges.ppt[PPT]
+endif::[]
+

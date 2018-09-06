@@ -11,9 +11,6 @@
 // @author Sven van der Meer (vdmeer.sven@mykolab.com)
 //
 
-== US
-include::{vdmsite-lib-home}/patent/us/_entries.adoc[]
-
-== WO
-include::{vdmsite-lib-home}/patent/wo/_entries.adoc[]
+== 2013
+include::{vdmsite-lib-home}/patent/2010/_entries.adoc[]
 

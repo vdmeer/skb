@@ -1,0 +1,10 @@
+*Sven van der Meer*: _SFI PI Cluster Autonomic Management of Communications Networks and Services - Basic Research: current Results and Future Work_, 2008
+
+* Presentation: TSSG/CIM Autonomics Workshop, Waterford, Ireland, July 11, 2008
+* Links:
+       skb: link:https://github.com/vdmeer/skb/tree/master/library/talks/presentations/2000/vandermeer-2008-tssg_cim-a.adoc[src]
+ifdef::local[]
+    ┃ link:/library/talks/presentation/2000/[Folder]
+endif::[]
+
+

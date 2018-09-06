@@ -13,8 +13,8 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/talks/tutorial/2010/ethirajulu-ons-2018.adoc[]
-|include::{vdmsite-lib-home}/talks/tutorial/2010/fleck-noms-2012.adoc[]
-|include::{vdmsite-lib-home}/talks/tutorial/2010/vandermeer-ons-2018.adoc[]
+|include::{vdmsite-lib-home}/talks/tutorial/2010/ethirajulu-2018-ons.adoc[]
+|include::{vdmsite-lib-home}/talks/tutorial/2010/fleck-2012-noms.adoc[]
+|include::{vdmsite-lib-home}/talks/tutorial/2010/vandermeer-2018-ons.adoc[]
 |===
 

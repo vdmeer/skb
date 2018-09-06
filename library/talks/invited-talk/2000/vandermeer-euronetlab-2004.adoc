@@ -1,5 +1,0 @@
-*Sven van der Meer*: _Management of Smart Spaces_, 2004
-
-* Invited Talk: Euronetlab Seminar, Paris, France, May 5, 2004
-* Links:
-    skb: link:https://github.com/vdmeer/skb/tree/master/library/talks/invited-talk/2000/vandermeer-euronetlab-2004.adoc[src]

@@ -1,0 +1,14 @@
+*Jaime Martín Serrano* et al.: _Ontology-Based Management for Context Integration in Pervasive Services Operations_, 2007
+
+* Authors: Jaime Martín Serrano, Joan Serrat, Sven van der Meer, Mícheál Ó Foghlú
+* Published: IFIP International Conference on Autonomous Infrastructure, Management and Security, AIMS 2007: Inter-Domain Management pp 35-48
+* Part of: Lecture Notes in Computer Science book series (LNCS, volume 4543)
+* Links:
+       link:https://doi.org/10.1007/978-3-540-72986-0_4[DOI]
+    ┃ link:https://www.researchgate.net/publication/221632266_Ontology-Based_Management_for_Context_Integration_in_Pervasive_Services_Operations[ResearchGate]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/2000/serrano-2007-aims.adoc[src]
+ifdef::local[]
+    ┃ link:/library/inproceedings/2000/serrano-2007-aims.pdf[PDF]
+endif::[]
+
+

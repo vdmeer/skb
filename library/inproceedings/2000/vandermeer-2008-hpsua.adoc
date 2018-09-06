@@ -1,0 +1,13 @@
+*Sven van der Meer* et al.: _Traceability Maps: a Tool for Managing Software Artifacts_, 2008
+
+* Authors: Sven van der Meer, Joel J. Fleck II
+* Published: 15th Workshop of the HP Software University Association (HP-SUA 2008)
+* Links:
+       link:https://www.researchgate.net/publication/228855561_Traceability_Maps_as_a_Conceptual_Tool_for_Managing_Software_Artifacts?_sg=wExwnZMAk2XQEyK9siHzWVBpS9ViCgoL0IVZr0nDJJ2BSrZczRpYa7SvOWNdPGXbeojeLh4N2Sa_EYjfw9rgNcmCITXOZAfKpcZoOERW.cjA0ObbPnfGG2eNPITYi14Dia42eY-RxgHkty3gTZeTSWvJSwtiF5W87u5GOxhWE7qUoFuLL07EQPZt3RuULqA[ResearchGate]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/2000/vandermeer-2008-hpsua.adoc[src]
+ifdef::local[]
+    ┃ link:/library/inproceedings/2000/vandermeer-2008-hpsua.pdf[PDF]
+    ┃ link:/library/inproceedings/2000/vandermeer-2008-hpsua.doc[DOC]
+    ┃ link:/library/inproceedings/2000/vandermeer-2008-hpsua.ppt[PPT]
+endif::[]
+

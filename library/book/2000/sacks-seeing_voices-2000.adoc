@@ -1,8 +1,0 @@
-*Oliver Sacks*: _Seeing Voices_, 2000
-
-* Reasons to read: aberrations of the human mind, contribute to Maturana’s view
-* Publisher: Vintage
-* Links:
-       link:https://www.goodreads.com/book/show/66723.Seeing_Voices[Goodreads]
-    ┃ skb: https://github.com/vdmeer/skb/tree/master/library/book/2000/sacks-seeing_voices-2000.adoc[src]
-

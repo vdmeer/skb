@@ -1,9 +1,0 @@
-*Sven van der Meer*: _Building a DEN-ng Policy Infrastructure_, 2010
-
-* Invited Talk: FAME Industrial Day, Dublin, Ireland, April 29, 2010
-* Links:
-       skb: link:https://github.com/vdmeer/skb/tree/master/library/talks/invited-talk/2010/vandermeer-fame_industry-2010.adoc[src]
-ifdef::local[]
-    ┃ link:/library/talks/invited-talk/2010/[Folder]
-endif::[]
-

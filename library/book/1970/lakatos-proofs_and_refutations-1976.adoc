@@ -1,9 +1,0 @@
-*Imre Lakatos*: _Proofs and Refutations_, 1976
-
-* Reasons to read: the way of thinking, “listen to the problem”
-* Publisher: Cambridge University Press 
-* Links:
-       link:https://en.wikipedia.org/wiki/Proofs_and_Refutations[Wikipedia]
-    ┃ link:https://www.goodreads.com/book/show/434707.Proofs_and_Refutations?from_search=true[Goodreads]
-    ┃ skb: https://github.com/vdmeer/skb/tree/master/library/book/1970/lakatos-proofs_and_refutations-1976.adoc[src]
-

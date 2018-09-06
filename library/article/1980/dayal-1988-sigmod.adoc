@@ -1,0 +1,21 @@
+*Umeshwar Dayal* et al.: _The HiPAC project: combining active databases and timing constraints_, 1988
+
+* Authors: Umeshwar Dayal, Barbara Blaustein, Alejandro Buchmann, Sharma Chakravarthy, Meichun Hsu, R. Ledin, Dennis R. McCarthy, Arnon Rosenthal, S. Sarin, M. J. Carey, Miron Livny, R. Jauhari
+* Reasons to read: origin of Event Condition Action (ECA) rules
+  ** Defines ECA rules – Event, Condition, Action
+     *** Event triggers rule, i.e. condition evaluation
+     *** Condition is set of queries
+     *** Action is executed when rule is triggered and condition is satisfied
+  ** Processing rules is strongly related to database transactions
+  ** Two couplings are defined: E-C and C-A
+  ** Event types: database operation, temporal, external notification
+  ** Funded by DARPA
+* Published: ACM SIGMOD Record - Special Issue on Real-Time Database Systems, Volume 17 Issue 1, March, 1988, Pages 51 - 70 
+* Links:
+       link:https://doi.org/10.1145/44203.44208[DOI]
+    ┃ link:https://www.researchgate.net/publication/234790486_The_HiPAC_project_Combining_Active_Databases_and_Timing_Constraints[ResearchGate]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/article/1980/dayal-1988-sigmod.adoc[src]
+ifdef::local[]
+    ┃ link:/library/article/1980/dayal-1988-sigmod.pdf[PDF]
+endif::[]
+

@@ -17,3 +17,5 @@ Conference papers in my research library.
 Entries are grouped by century and decade.
 A compiled version of all conference papers is hosted on link:https://vdmeer.github.io/library/inproceedings.html[GH Pages].
 
+The naming scheme for in-proceedings items is `[author family name]-[year]-[conference acronym]`.
+Entries are grouped by century or decade.

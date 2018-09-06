@@ -1,0 +1,8 @@
+*Robert MacArthur*: _Geographical Ecology: Patterns in the Distribution of Species_, 1972
+
+* Reasons to read: island of biogeography, "A field cannot consider itself a science until it can progress beyond natural history"
+* Publisher: Vintage
+* Links:
+       link:https://www.goodreads.com/book/show/3023147-geographical-ecology[Goodreads]
+    ┃ skb: https://github.com/vdmeer/skb/tree/master/library/book/1970/macarthur-1972-geographical_ecology.adoc[src]
+

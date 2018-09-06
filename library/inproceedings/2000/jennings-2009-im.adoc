@@ -1,0 +1,13 @@
+*Brendan Jennings* et al.: _Challenges for Federated, Autonomic Network Management in the Future Internet_, 2009
+
+* Authors: Brendan Jennings, Rob Brennan, Willie Donnelly, Simon N. Foley, Dave Lewis, Declan O'Sullivan, John Strassner, Sven van der Meer
+* Published: 2009 IFIP/IEEE International Symposium on Integrated Network Management-Workshops
+  ** Workshop: 1st IFIP/IEEE International Workshop on Management of the Future Internet
+* Links:
+       link:https://doi.org/10.1109/INMW.2009.5195942[DOI]
+    ┃ link:https://www.researchgate.net/publication/224573892_Challenges_for_Federated_Autonomic_Network_Management_in_the_Future_Internet[ResearchGate]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/2000/jennings-2009-im.adoc[src]
+ifdef::local[]
+    ┃ link:/library/inproceedings/2000/jennings-2009-im.pdf[PDF]
+endif::[]
+

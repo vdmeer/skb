@@ -14,8 +14,8 @@
 === 2011
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/inproceedings/2010/rana-wocn-2011.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/2010/keeney-im-2011.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2010/rana-2011-wocn.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2010/keeney-2011-im.adoc[]
 |===
 
 

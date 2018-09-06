@@ -1,0 +1,9 @@
+*John Boyd*: _Organic Design for Command and Control_, 1987
+
+* Reasons to read: military use of OODA loop
+* Links:
+       link:http://www.dnipogo.org/boyd/organic_design.pdf[PDF]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/unpublished/1980/boyd-1987-odcc.adoc[src]
+ifdef::local[]
+    ┃ link:/library/unpublished/1980/[Folder]
+endif::[]

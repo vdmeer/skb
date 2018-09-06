@@ -1,0 +1,10 @@
+*Stephan Steglich*: _Betriebssysteme_, 1999
+
+* Lecturer: Stephan Steglich
+* Lecture: Sommersemester 1999 (SS99), Technical University Berlin
+* Links:
+       skb: link:https://github.com/vdmeer/skb/tree/master/library/talks/lecture-notes/1990/steglich-1999-bs-tub.adoc[src]
+ifdef::local[]
+    ┃ link:/library/talks/lecture-notes/1990/[Folder]
+endif::[]
+

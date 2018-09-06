@@ -1,0 +1,13 @@
+*David Raymer* et al.: _From Autonomic Computing to Autonomic Networking: An Architectural Perspective_, 2008
+
+* Authors: David Raymer, Sven van der Meer, John Strassner
+* Published: Fifth IEEE Workshop on Engineering of Autonomic and Autonomous Systems (ease 2008)
+* Links:
+       link:https://doi.org/10.1109/EASe.2008.26[DOI]
+    ┃ link:https://www.researchgate.net/publication/4329413_From_Autonomic_Computing_to_Autonomic_Networking_An_Architectural_Perspective[ResearchGate]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/2000/raymer-2008-ease.adoc[src]
+ifdef::local[]
+    ┃ link:/library/inproceedings/2000/raymer-2008-ease.pdf[PDF]
+    ┃ link:/library/inproceedings/2000/raymer-2008-ease.doc[DOC]
+endif::[]
+

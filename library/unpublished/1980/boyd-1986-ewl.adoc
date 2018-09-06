@@ -1,0 +1,10 @@
+*John Boyd*: _The Essence of Winning and Losing_, 1986
+
+* Reasons to read: OODA loop
+* Links:
+       link:https://fasttransients.files.wordpress.com/2010/03/essence_of_winning_losing.pdf[PDF]
+    ┃ link:https://www.danford.net/boyd/essence.htm[Discussion]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/unpublished/1980/boyd-1986-ewl.adoc[src]
+ifdef::local[]
+    ┃ link:/library/unpublished/1980/[Folder]
+endif::[]

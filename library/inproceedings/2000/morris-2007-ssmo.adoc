@@ -1,0 +1,15 @@
+*Teri Morris* et al.: _A Discussion on Policy-based Management using Context Mobility in Ad-Hoc Networking_, 2007
+
+* Authors: Teri Morris, Sven van der Meer, Brendan Jennings
+* Reasons to read: tool support for syntactic and semantic translation between models can be achieved
+* Published: 2007 First International Global Information Infrastructure Symposium, GIIS
+  ** Workshop: 1st Alcatel-Lucent/Université d'Evry/Telenor Seamless Service MObility (SSMO) Workshop
+* Links:
+       link:https://www.researchgate.net/publication/238687661_A_Discussion_on_Policy-based_Management_using_Context_Mobility_in_Ad-Hoc_Networking[ResearchGate]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/2000/morris-2007-ssmo.adoc[src]
+ifdef::local[]
+    ┃ link:/library/inproceedings/2000/morris-2007-ssmo.pdf[PDF]
+    ┃ link:/library/inproceedings/2000/morris-2007-ssmo.doc[DOC]
+    ┃ link:/library/inproceedings/2000/morris-2007-ssmo.ppt[PPT]
+endif::[]
+

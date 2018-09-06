@@ -14,15 +14,15 @@
 === 2009
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/inproceedings/2000/serrano-atc-2009.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/2000/strassner-icumt-2009.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/2000/strassner-mace-2009.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/2000/vandermeer-ease-2009-a.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/2000/vandermeer-ease-2009-b.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/2000/strassner-echallenges-2009.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/2000/strassner-icufn-2009.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/2000/strassner-icfn-2009.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/2000/jennings-im-2009.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/serrano-2009-atc.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/strassner-2009-icumt.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/strassner-2009-mace.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/vandermeer-2009-ease-a.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/vandermeer-2009-ease-b.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/strassner-2009-echallenges.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/strassner-2009-icufn.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/strassner-2009-icfn.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/jennings-2009-im.adoc[]
 |===
 
 

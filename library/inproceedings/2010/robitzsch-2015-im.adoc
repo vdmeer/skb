@@ -1,0 +1,16 @@
+*Sebastian Robitzsch* et al.: _E-stream: Towards pattern centric network incident discovery and corrective action recommendation in telecommunication networks_, 2015
+
+* Authors: Sebastian Robitzsch, Faisal Zaman, Zhiguo Qu, John Keeney, Sven van der Meer, Gabriel-Miro Muntean
+* Published: 2015 IFIP/IEEE International Symposium on Integrated Network Management (IM)
+* Links:
+       link:https://doi.org/10.1109/INM.2015.7140390[DOI]
+    ┃ link:https://www.researchgate.net/publication/277932043_E-Stream_Towards_Pattern_Centric_Network_Incident_Discovery_and_Corrective_Action_Recommendation_in_Telecommunication_Networks[ResearchGate]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/2010/robitzsch-2015-im.adoc[src]
+ifdef::local[]
+    ┃ link:/library/inproceedings/2010/robitzsch-2015-im.pdf[PDF]
+    ┃ link:/library/inproceedings/2010/robitzsch-2015-im.7z[7z]
+    ┃ link:/library/inproceedings/2010/robitzsch-2015-im-poster.pdf[PDF: poster]
+    ┃ link:/library/inproceedings/2010/robitzsch-2015-im-poster.pptx[PPTX: poster]
+endif::[]
+
+

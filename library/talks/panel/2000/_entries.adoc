@@ -13,8 +13,8 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/talks/panel/2000/vandermeer-dsom-2006.adoc[]
-|include::{vdmsite-lib-home}/talks/panel/2000/vandermeer-mucs-2004.adoc[]
-|include::{vdmsite-lib-home}/talks/panel/2000/vandermeer-ssmo-2007.adoc[]
+|include::{vdmsite-lib-home}/talks/panel/2000/vandermeer-2006-dsom.adoc[]
+|include::{vdmsite-lib-home}/talks/panel/2000/vandermeer-2004-mucs.adoc[]
+|include::{vdmsite-lib-home}/talks/panel/2000/vandermeer-2007-ssmo.adoc[]
 |===
 

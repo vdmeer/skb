@@ -17,4 +17,5 @@ Standards and publications by Standard Defining Organisations (SDO) in my resear
 Entries are grouped by SDO.
 A compiled version of all standard items is hosted on link:https://vdmeer.github.io/library/standard.html[GH Pages].
 
-
+The naming scheme for in-standards varies with the standardization organization.
+Entries are grouped by standard organisation.

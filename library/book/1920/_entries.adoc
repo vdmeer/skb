@@ -13,6 +13,6 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/book/1920/wittgenstein-ludwig-tractatus-1922.adoc[]
+|include::{vdmsite-lib-home}/book/1920/wittgenstein-1922-tractatus.adoc[]
 |===
 

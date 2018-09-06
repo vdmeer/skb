@@ -17,3 +17,6 @@ Movies in my research library.
 Entries are grouped by decade.
 A compiled version of all miscellaneous items is hosted on link:https://vdmeer.github.io/library/movie.html[GH Pages].
 
+The naming scheme for movies is `[year]-[movie name]`.
+In some occasions, the movie name is abbreviated.
+Entries are grouped by decade.

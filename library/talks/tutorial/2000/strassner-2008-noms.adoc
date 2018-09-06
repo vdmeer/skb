@@ -1,0 +1,10 @@
+*John Strassner*: _Autonomic Systems and Networks: Theory and Practice_, 2008
+
+* Tutorial: 2008 IEEE/IFIP Network Operations and Management Symposium (NOMS 2008)
+* Links:
+       skb: link:https://github.com/vdmeer/skb/tree/master/library/talks/tutorial/2000/strassner-2008-noms.adoc[src],
+            link:https://github.com/vdmeer/skb/tree/master/library/talks/tutorial/2000/strassner-2008-noms.yaml[yaml]
+ifdef::local[]
+    ┃ link:/library/talks/tutorial/2000/[Folder]
+endif::[]
+

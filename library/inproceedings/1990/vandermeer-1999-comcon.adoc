@@ -1,0 +1,7 @@
+*Sven van der Meer* et al.: _Environment-aware Applications: Integrating Mobile Communications and Ubiquitous Computing_, 1999
+
+* Authors: Sven van der Meer, Stefan Arbanowski, Radu Popescu-Zeletin
+* Published: 7th Annual International Conference on Advances in Communication and Control (COMCON 1999), pp 415-428, Athens, Greece, June 28 - July 2, 1999
+* Links:
+    skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/1990/vandermeer-1999-comcon.adoc[src]
+

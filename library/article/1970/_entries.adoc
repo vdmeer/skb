@@ -13,10 +13,10 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/article/1970/davies-tcom-1972.adoc[]
-|include::{vdmsite-lib-home}/article/1970/dijkstra-ai-1971.adoc[]
-|include::{vdmsite-lib-home}/article/1970/hansen-cacm-1970.adoc[]
-|include::{vdmsite-lib-home}/article/1970/rouse-tsmc-1979.adoc[]
-|include::{vdmsite-lib-home}/article/1970/watson-networks-1976.adoc[]
+|include::{vdmsite-lib-home}/article/1970/davies-1972-tcom.adoc[]
+|include::{vdmsite-lib-home}/article/1970/dijkstra-1971-ai.adoc[]
+|include::{vdmsite-lib-home}/article/1970/hansen-1970-cacm.adoc[]
+|include::{vdmsite-lib-home}/article/1970/rouse-1979-tsmc.adoc[]
+|include::{vdmsite-lib-home}/article/1970/watson-1976-networks.adoc[]
 |===
 

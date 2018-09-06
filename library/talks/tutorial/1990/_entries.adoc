@@ -13,8 +13,8 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/talks/tutorial/1990/covaci-nec-1998.adoc[]
-|include::{vdmsite-lib-home}/talks/tutorial/1990/covaci-nec-1999.adoc[]
-|include::{vdmsite-lib-home}/talks/tutorial/1990/vandermeer-isads-1999.adoc[]
+|include::{vdmsite-lib-home}/talks/tutorial/1990/covaci-1998-nec.adoc[]
+|include::{vdmsite-lib-home}/talks/tutorial/1990/covaci-1999-nec.adoc[]
+|include::{vdmsite-lib-home}/talks/tutorial/1990/vandermeer-1999-isads.adoc[]
 |===
 

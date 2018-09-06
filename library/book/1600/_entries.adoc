@@ -13,6 +13,6 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/book/1600/newton-regulae_philosophandi-1687.adoc[]
+|include::{vdmsite-lib-home}/book/1600/newton-1687-regulae_philosophandi.adoc[]
 |===
 

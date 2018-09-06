@@ -17,3 +17,5 @@ Articles in my research library.
 Entries are grouped by century and decade.
 A compiled version of all articles is hosted on link:https://vdmeer.github.io/library/article.html[GH Pages].
 
+The naming scheme for articles is `[author family name]-[year]-[journal abbreviations]`.
+Entries are grouped by century or decade.

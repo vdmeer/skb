@@ -13,6 +13,6 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/book/1980/maturana_tree_of_knowledge-1987.adoc[]
+|include::{vdmsite-lib-home}/book/1980/maturana-1987-tree_of_knowledge.adoc[]
 |===
 

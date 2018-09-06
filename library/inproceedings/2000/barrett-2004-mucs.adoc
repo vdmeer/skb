@@ -1,0 +1,7 @@
+*Keara Barrett* et al.: _User-Centric Management of Ubiquitous Environments - Challenges \& Initial Solutions_, 2004
+
+* Authors: Keara Barrett, Ray Carroll, Venet Osmani, Sven van der Meer
+* Published: 2nd International Workshop on Management of Ubiquitous Communications and Services (MUCS 2004), Dublin, Ireland, December 12-13, 2004
+*Links:
+    skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/2000/barrett-2004-mucs.adoc[src]
+

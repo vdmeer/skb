@@ -1,0 +1,11 @@
+*Stefan Arbanowski*: _Dienstplattformen und Intelligente Mobile Agenten_, 1998
+
+* Lecturer: Stefan Arbanowski
+* Lecture: Sommersemester 1998 (SS98), Technical University Berlin
+  ** also known as: Management von verteilten Systemen (MvS)
+* Links:
+       skb: link:https://github.com/vdmeer/skb/tree/master/library/talks/lecture-notes/1990/arbanowski-1998-dia-tub.adoc[src]
+ifdef::local[]
+    ┃ link:/library/talks/lecture-notes/1990/[Folder]
+endif::[]
+

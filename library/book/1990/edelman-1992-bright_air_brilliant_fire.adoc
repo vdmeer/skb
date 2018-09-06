@@ -1,0 +1,8 @@
+*Gerald Edelman*: _Bright Air Brilliant Fire_, 1992
+
+* Reasons to read: theory of Neural Darwinism feeds into Maturana quite nicely, the application of Edelman in Sacks’ Seeing Voices
+* Publisher: Basic Books
+* Links:
+       link:https://www.goodreads.com/book/show/1120112.Bright_Air_Brilliant_Fire[Goodreads]
+    ┃ skb: https://github.com/vdmeer/skb/tree/master/library/book/1990/edelman-1992-bright_air_brilliant_fire.adoc[src]
+

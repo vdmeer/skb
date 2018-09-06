@@ -13,11 +13,11 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/article/1980/bachman-compstd-1982.adoc[]
-|include::{vdmsite-lib-home}/article/1980/bachman-networks-1982.adoc[]
-|include::{vdmsite-lib-home}/article/1980/dayal-sigmod-1988.adoc[]
-|include::{vdmsite-lib-home}/article/1980/jomier-tase-1981.adoc[]
-|include::{vdmsite-lib-home}/article/1980/kamoun-tacom-1981.adoc[]
-|include::{vdmsite-lib-home}/article/1980/watson-networks-1981.adoc[]
+|include::{vdmsite-lib-home}/article/1980/bachman-1982-compstd.adoc[]
+|include::{vdmsite-lib-home}/article/1980/bachman-1982-networks.adoc[]
+|include::{vdmsite-lib-home}/article/1980/dayal-1988-sigmod.adoc[]
+|include::{vdmsite-lib-home}/article/1980/jomier-1981-tase.adoc[]
+|include::{vdmsite-lib-home}/article/1980/kamoun-1981-tacom.adoc[]
+|include::{vdmsite-lib-home}/article/1980/watson-1981-networks.adoc[]
 |===
 

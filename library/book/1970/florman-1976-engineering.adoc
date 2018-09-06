@@ -1,0 +1,7 @@
+*Samuel C. Florman*: _The Existential Pleasures of Engineering_, 1976
+
+* Reasons to read: to understand engineering, how engineers think and feel about their profession
+* Links:
+       link:https://www.goodreads.com/book/show/1203186.The_Existential_Pleasures_of_Engineering[Goodreads]
+    ┃ skb: https://github.com/vdmeer/skb/tree/master/library/book/1970/florman-1976-engineering.adoc[src]
+

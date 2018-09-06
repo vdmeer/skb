@@ -1,0 +1,13 @@
+*Dominique Dudkowski* et al.: _A Model Based Approach to Autonomic Management of Virtual Networks_, 2009
+
+* Authors: Dominique Dudkowski, Marcus Brunner, Giorgio Nunzi, Chiara Mingardi, Chris Foley, Miguel Ponce de Leon, Catalin Meirosu, Susanne Engberg
+* Published: 2009 IFIP/IEEE Symposium on Integrated Network and Service Management (IM), IM 2009
+* Links:
+       link:https://doi.org/10.1109/INM.2009.5188858[DOI]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/2000/dudkowski-2009-im.adoc[src]
+ifdef::local[]
+    ┃ link:/library/inproceedings/2000/dudkowski-2009-im.pdf[PDF]
+    ┃ link:/library/inproceedings/2000/dudkowski-2009-im.doc[DOC]
+    ┃ link:/library/inproceedings/2000/dudkowski-2009-im.ppt[PPT]
+endif::[]
+

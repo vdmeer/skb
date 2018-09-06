@@ -13,6 +13,6 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/online/2000/pelkey-entrepreneurial_capitalism-2007.adoc[]
+|include::{vdmsite-lib-home}/online/2000/pelkey-2007-entrepreneurial_capitalism.adoc[]
 |===
 

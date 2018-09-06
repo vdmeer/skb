@@ -13,9 +13,9 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/book/1990/edelman-bright_air_brilliant_fire-1992.adoc[]
-|include::{vdmsite-lib-home}/book/1990/kaufmann-home_in_the_universe-1996.adoc[]
-|include::{vdmsite-lib-home}/book/1990/kaufmann-origins_of_order-1993.adoc[]
-|include::{vdmsite-lib-home}/book/1990/sacks-the_man_who_mistook_his_wife_for_a_hat-1998.adoc[]
+|include::{vdmsite-lib-home}/book/1990/edelman-1992-bright_air_brilliant_fire.adoc[]
+|include::{vdmsite-lib-home}/book/1990/kaufmann-1996-home_in_the_universe.adoc[]
+|include::{vdmsite-lib-home}/book/1990/kaufmann-1993-origins_of_order.adoc[]
+|include::{vdmsite-lib-home}/book/1990/sacks-1998-the_man_who_mistook_his_wife_for_a_hat.adoc[]
 |===
 

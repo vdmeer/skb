@@ -17,4 +17,6 @@ Book chapters in my research library.
 Entries are grouped by century and decade.
 A compiled version of all in-book items is hosted on link:https://vdmeer.github.io/library/inbook.html[GH Pages].
 
-
+The naming scheme for in-book items is `[author family name]-[year]-[title]`.
+In some occasions, the title is abbreviated.
+Entries are grouped by century or decade.

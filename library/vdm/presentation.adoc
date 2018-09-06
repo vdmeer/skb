@@ -12,20 +12,33 @@
 //
 
 == Presentation
+
+===2000
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/talks/presentation/2000/vandermeer-tssg_rm-2006.adoc[]
-|include::{vdmsite-lib-home}/talks/presentation/2000/vandermeer-tssg_rm-2007.adoc[]
-|include::{vdmsite-lib-home}/talks/presentation/2000/vandermeer-tssg_day-2007.adoc[]
-|include::{vdmsite-lib-home}/talks/presentation/2000/vandermeer-tssg_cim-2008-a.adoc[]
-|include::{vdmsite-lib-home}/talks/presentation/2000/vandermeer-tssg_cim-2008-b.adoc[]
-|include::{vdmsite-lib-home}/talks/presentation/2000/vandermeer-tssg_day-2008.adoc[]
-|include::{vdmsite-lib-home}/talks/presentation/2000/vandermeer-tssg_rm-2009.adoc[]
-|include::{vdmsite-lib-home}/talks/presentation/2010/vandermeer-ieee_sdn-2016.adoc[]
-|include::{vdmsite-lib-home}/talks/presentation/2010/vandermeer-opnfv-2016.adoc[]
-|include::{vdmsite-lib-home}/talks/presentation/2010/vandermeer-techday_ireland-2016.adoc[]
-|include::{vdmsite-lib-home}/talks/presentation/2010/vandermeer-nmrg-2018.adoc[]
-|include::{vdmsite-lib-home}/talks/presentation/2010/vandermeer-rina-2018.adoc[]
+|include::{vdmsite-lib-home}/talks/presentation/2000/vandermeer-2006-tssg_rm.adoc[]
+|include::{vdmsite-lib-home}/talks/presentation/2000/vandermeer-2007-tssg_day.adoc[]
+|include::{vdmsite-lib-home}/talks/presentation/2000/vandermeer-2007-tssg_rm.adoc[]
+|include::{vdmsite-lib-home}/talks/presentation/2000/vandermeer-2008-tssg_cim-a.adoc[]
+|include::{vdmsite-lib-home}/talks/presentation/2000/vandermeer-2008-tssg_cim-b.adoc[]
+|include::{vdmsite-lib-home}/talks/presentation/2000/vandermeer-2008-tssg_day.adoc[]
+|include::{vdmsite-lib-home}/talks/presentation/2000/vandermeer-2009-tssg_rm.adoc[]
+|===
+
+
+=== 2010
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::{vdmsite-lib-home}/talks/presentation/2010/vandermeer-2015-r_d_summit.adoc[]
+|include::{vdmsite-lib-home}/talks/presentation/2010/vandermeer-2016-ieee_sdn.adoc[]
+|include::{vdmsite-lib-home}/talks/presentation/2010/vandermeer-2016-opnfv.adoc[]
+|include::{vdmsite-lib-home}/talks/presentation/2010/vandermeer-2016-pol_summit-a.adoc[]
+|include::{vdmsite-lib-home}/talks/presentation/2010/vandermeer-2016-pol_summit-b.adoc[]
+|include::{vdmsite-lib-home}/talks/presentation/2010/vandermeer-2016-techday_ireland.adoc[]
+|include::{vdmsite-lib-home}/talks/presentation/2010/vandermeer-2018-lmi_primetime.adoc[]
+|include::{vdmsite-lib-home}/talks/presentation/2010/vandermeer-2018-nmrg.adoc[]
+|include::{vdmsite-lib-home}/talks/presentation/2010/vandermeer-2018-onap_pf.adoc[]
+|include::{vdmsite-lib-home}/talks/presentation/2010/vandermeer-2018-rina.adoc[]
 |===
 
 

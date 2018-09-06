@@ -13,6 +13,6 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/book/1930/fleck-gensis-1935.adoc[]
+|include::{vdmsite-lib-home}/book/1930/fleck-1935-gensis.adoc[]
 |===
 

@@ -13,16 +13,16 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/talks/lecture-notes/2000/arbanowski-dvs-tub-2000.adoc[]
-|include::{vdmsite-lib-home}/talks/lecture-notes/2000/magedanz-in-tub-2000.adoc[]
-|include::{vdmsite-lib-home}/talks/lecture-notes/2000/magedanz-in-tub-2001.adoc[]
-|include::{vdmsite-lib-home}/talks/lecture-notes/2000/magedanz-in-tub-2002.adoc[]
-|include::{vdmsite-lib-home}/talks/lecture-notes/2000/steglich-bs-tub-2000.adoc[]
+|include::{vdmsite-lib-home}/talks/lecture-notes/2000/arbanowski-2000-dvs-tub.adoc[]
+|include::{vdmsite-lib-home}/talks/lecture-notes/2000/magedanz-2000-in-tub.adoc[]
+|include::{vdmsite-lib-home}/talks/lecture-notes/2000/magedanz-2001-in-tub.adoc[]
+|include::{vdmsite-lib-home}/talks/lecture-notes/2000/magedanz-2002-in-tub.adoc[]
+|include::{vdmsite-lib-home}/talks/lecture-notes/2000/steglich-2000-bs-tub.adoc[]
 |include::{vdmsite-lib-home}/talks/lecture-notes/2000/umts-tub-2001.adoc[]
 |include::{vdmsite-lib-home}/talks/lecture-notes/2000/umts-tub-2002.adoc[]
-|include::{vdmsite-lib-home}/talks/lecture-notes/2000/vandermeer-cm-wit-2006.adoc[]
-|include::{vdmsite-lib-home}/talks/lecture-notes/2000/vandermeer-mvs-tub-2000.adoc[]
-|include::{vdmsite-lib-home}/talks/lecture-notes/2000/vandermeer-mvs-tub-2001.adoc[]
-|include::{vdmsite-lib-home}/talks/lecture-notes/2000/vandermeer-mvs-tub-2002.adoc[]
+|include::{vdmsite-lib-home}/talks/lecture-notes/2000/vandermeer-2000-mvs-tub.adoc[]
+|include::{vdmsite-lib-home}/talks/lecture-notes/2000/vandermeer-2001-mvs-tub.adoc[]
+|include::{vdmsite-lib-home}/talks/lecture-notes/2000/vandermeer-2002-mvs-tub.adoc[]
+|include::{vdmsite-lib-home}/talks/lecture-notes/2000/vandermeer-2006-cm-wit.adoc[]
 |===
 

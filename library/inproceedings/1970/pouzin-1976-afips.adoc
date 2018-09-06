@@ -1,0 +1,13 @@
+*Louis Pouzin*: _Virtual circuits vs. datagrams: technical and political problems_, 1976
+
+* Reasons to read: Technological and political dimensions of circuit switching and introduction to datagrams
+* Published: AFIPS '76 Proceedings of the National Computer Conference and Exposition, June 7-10, 1976, pages 483-494
+* See also slide/page 8 link:http://psoc.i2cat.net/node/58?_ga=2.193825709.104808469.1532427731-481173131.1530045137[here] (for computer networks)
+* Links:
+       link:https://doi.org/10.1145/1499799.1499870[DOI]
+    ┃ link:https://www.computer.org/csdl/proceedings/afips/1976/5084/00/50840483.pdf[PDF: computer.org]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/1970/pouzin-1976-afips.adoc[src]
+ifdef::local[]
+    ┃ link:/library/inproceedings/1970/pouzin-1976-afips.pdf[PDF]
+endif::[]
+

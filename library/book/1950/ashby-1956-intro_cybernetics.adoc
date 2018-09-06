@@ -1,0 +1,16 @@
+*W. Ross Ashby*: _An Introduction to Cybernetics_, 1956
+
+* Reasons to read: cybernetics into, Law of Requisite Variety
+* Publisher: John Wiley & Sons
+* Links:
+       link:https://www.goodreads.com/book/show/583911.An_Introduction_to_Cybernetics?ac=1&from_search=true[Goodreads]
+    ┃ link:https://archive.org/details/introductiontocy00ashb[pdf: original typeset]
+    ┃ link:http://pespmc1.vub.ac.be/books/IntroCyb.pdf[pdf: new typeset]
+    ┃ link:https://www.panarchy.org/ashby/variety.1956.html[discussion on requisite variety]
+    ┃ link:https://en.wikiquote.org/wiki/W._Ross_Ashby[WikiQoutes]
+    ┃ skb: https://github.com/vdmeer/skb/tree/master/library/book/1950/ashby-1956-intro_cybernetics.adoc[src]
+ifdef::local[]
+    ┃ link:/library/book/1950/ashby-1956-intro_cybernetics.pdf[PDF orig]
+    ┃ link:/library/book/1950/ashby-1956-intro_cybernetics-new.pdf[PDF new] 
+endif::[]
+

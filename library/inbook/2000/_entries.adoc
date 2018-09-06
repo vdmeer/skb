@@ -13,8 +13,8 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/inbook/2000/fahy-aanc-2008.adoc[]
-|include::{vdmsite-lib-home}/inbook/2000/vandermeer-aanc-2008.adoc[]
+|include::{vdmsite-lib-home}/inbook/2000/fahy-2008-aanc.adoc[]
+|include::{vdmsite-lib-home}/inbook/2000/vandermeer-2008-aanc.adoc[]
 |===
 
 

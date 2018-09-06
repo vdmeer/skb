@@ -1,0 +1,12 @@
+*Theodor Seuss Geisel* (Dr. Seuss): _The Sneetches and Other Stories_, 1953
+
+* Publisher: Redbook (magazines), Random House (book)
+* Reasons to read: Ms McCave "too many Daves" as metaphor for too many things with the same name
+* Links:
+       link:https://en.wikipedia.org/wiki/The_Sneetches_and_Other_Stories[Wikipedia]
+    ┃ link:https://www.goodreads.com/book/show/105549.The_Sneetches_and_Other_Stories?from_search=true[Goodreads]
+    ┃ link:https://en.wikipedia.org/wiki/The_Sneetches_and_Other_Stories#%22Too_Many_Daves%22[Wikipedia: Too Many Dave's]
+    ┃ link:http://www.mit.edu/people/dpolicar/writing/poetry/poems/tooManyDaves.html[Poem]
+    ┃ link:https://www.youtube.com/watch?v=gCsQM0KNXhU[Animation: youtube]
+    ┃ skb: https://github.com/vdmeer/skb/tree/master/library/book/1950/dr-seuss-1953-sneetches.adoc[src]
+

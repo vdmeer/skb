@@ -1,0 +1,6 @@
+*Sven van der Meer*: _APEX Overview_, 2016
+
+* Presentation: 2016 Ericsson Policy Summit (Day 2), Kista, Sweden, May 10-11, 2016
+* Links:
+    skb: link:https://github.com/vdmeer/skb/tree/master/library/talks/presentations/2010/vandermeer-2016-pol_summit-b.adoc[src]
+

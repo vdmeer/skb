@@ -1,9 +1,0 @@
-*Sven van der Meer*: _Architectures and Models of Distributed Systems - Learn to read, understand, design them_, 2009
-
-* Presentation: TSSG Research Modules, Waterford, Ireland, December 5, 2009
-* Links:
-       skb: link:https://github.com/vdmeer/skb/tree/master/library/talks/presentations/2000/vandermeer-tssg_rm-2009.adoc[src]
-ifdef::local[]
-    ┃ link:/library/talks/presentation/2000/[Folder]
-endif::[]
-

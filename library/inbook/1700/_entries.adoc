@@ -13,6 +13,6 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/inbook/1700/goethe-zauberlehrling-1797.adoc[]
+|include::{vdmsite-lib-home}/inbook/1700/goethe-1797-zauberlehrling.adoc[]
 |===
 

@@ -1,0 +1,13 @@
+*Ray Carroll* et al.: _Policy and Profile: Enabling Self-knowledge for Autonomic Systems_, 2006
+
+* Authors: Ray Carroll, John Strassner, Greg W. Cox, Sven van der Meer
+* Published: International Workshop on Distributed Systems: Operations and Management, DSOM 2006: Large Scale Management of Distributed Systems pp 239-245
+* Part of: Lecture Notes in Computer Science book series (LNCS, volume 4269)
+* Links:
+       link:https://doi.org/10.1007/11907466_22[DOI]
+    ┃ link:https://www.researchgate.net/publication/220926858_Policy_and_Profile_Enabling_Self-knowledge_for_Autonomic_Systems?_sg=hVo8zZvpObcrNBoVHkpGiZ9S94bQeueNOx70LGAhh1ijGM4cDWTuvbopSd4sHaYDEGxa5LbgtrukS5-jKNMGmZctc5nq45M2-bYXk3Qq.ssArx7acVdgoyAlPjWuD06h5CC_E7If3NfysCA4FT7bNgyUPNv82vzC1Wu9HYWxdQciLLFcoz-GoALFw4m8-Ng[ResearchGate]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/2000/carroll-2006-dsom.adoc[src]
+ifdef::local[]
+    ┃ link:/library/inproceedings/2000/carroll-2006-dsom.pdf[PDF]
+endif::[]
+

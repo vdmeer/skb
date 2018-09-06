@@ -1,0 +1,11 @@
+*Johan Wolfgang von Goethe*: _Der Zauberlehrling_ (_The Sorcerer's Apprentice_), 1797
+
+* Reasons to read: metaphor using "Die ich rief, die Geister werd ich nun nicht los." ("The spirits that I called", or "Spirits I have conjured, no longer pay me heed.")
+* Published: Friedrich Schiller's Musen-Almanach, 1798
+* Links:
+       link:https://en.wikipedia.org/wiki/The_Sorcerer%27s_Apprentice[Wikipedia: English]
+    ┃ link:https://de.wikipedia.org/wiki/Der_Zauberlehrling[Wikipedia: Deutsch with text]
+    ┃ link:https://www.youtube.com/watch?v=Rrm8usaH0sM[Fantasia Cartoon]
+    ┃ link:http://www.gygatext.ch/english_translations_zurich_sorcerers_apprentice.html[a translation]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inbook/1700/goethe-1797-zauberlehrling.adoc[src]
+

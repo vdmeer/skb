@@ -1,0 +1,11 @@
+_Management of Broadband Networks I_, 1998
+
+* Presenters: Stefan Covaci, Ingo Busse, Sven van der Meer
+* Tutorial: NEC Europe Ltd., C&C Research Laboratory, Berlin, Germany, October 15-16, 1998
+* Links:
+       skb: link:https://github.com/vdmeer/skb/tree/master/library/talks/tutorial/1990/covaci-1998-nec.adoc[src],
+            link:https://github.com/vdmeer/skb/tree/master/library/talks/tutorial/1990/covaci-1998-nec.yaml[yaml]
+ifdef::local[]
+    ┃ link:/library/talks/tutorial/1990/[Folder]
+endif::[]
+

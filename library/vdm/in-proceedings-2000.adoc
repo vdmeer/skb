@@ -14,11 +14,11 @@
 === 2000
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/inproceedings/2000/vandermeer-in-2000.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/2000/vandermeer-smartnet-2000.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/2000/arbanowski-smartnet-2000.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/2000/vandermeer-proms-2000.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/2000/arbanowski-wuc-2000.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/vandermeer-2000-in.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/vandermeer-2000-smartnet.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/arbanowski-2000-smartnet.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/vandermeer-2000-proms.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2000/arbanowski-2000-wuc.adoc[]
 |===
 
 

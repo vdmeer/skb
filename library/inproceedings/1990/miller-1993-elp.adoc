@@ -1,0 +1,19 @@
+*Dale Miller*: _A Proposal for Modules in λProlog_, 1993
+
+* Reasons to read: introduces the turing machine syndrome
+* Related: Alberto Momigliano and Mario Ornaghi, Proof-Theoretic and Higher-Order Extensions of Logic Programming, LNCS 6125, 2010
+    ** Links:
+        link:https://rd.springer.com/chapter/10.1007%2F978-3-642-14309-0_12[springer]
+    ** Quote: "This outcome [...] has been named 'recreating the Turing Machine' syndrome [Miller]: starting from a computationally clean and semantically motivated language, one tends to add external mechanisms in order to make it suitable for programming-in-the-large. This inevitably tends to clutter the formal definition of the language (if any), making trusting the language itself and thus reasoning about it problematic."
+* Published:  International Workshop on Extensions of Logic Programming, ELP 1993: Extensions of Logic Programming, pp 206-221
+* Links:
+       link:https://doi.org/10.1007/3-540-58025-5_58[DOI]
+    ┃ link:https://link.springer.com/chapter/10.1007/3-540-58025-5_58#citeas[ELP93]
+    ┃ link:https://link.springer.com/content/pdf/10.1007%2F3-540-58025-5_58.pdf[PDF:elp]
+    ┃ link:https://www.researchgate.net/publication/241604108_A_Proposal_for_Modules_in_Prolog_Preliminary_Draft[Draft text]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/1990/miller-1993-elp.adoc[src]
+ifdef::local[]
+    ┃ link:/library/inproceedings/1990/miller-1993-elp.pdf[PDF]
+endif::[]
+
+

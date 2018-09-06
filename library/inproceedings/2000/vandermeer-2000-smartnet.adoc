@@ -1,0 +1,14 @@
+*Sven van der Meer* et al.: _Service Interoperability through advanced Media Gateways_, 2000
+
+* Authors: Sven van der Meer, Stefan Arbanowski
+* Published: International Conference on Intelligence in Networks, SMARTNET 2000: Telecommunication Network Intelligence, Vienna, Austria, September 18-22, 2000
+* Part of: IFIP — The International Federation for Information Processing book series (IFIPAICT, volume 50), pp 583-595
+* Links:
+       link:https://doi.org/10.1007/978-0-387-35522-1_35[DOI]
+    ┃ link:https://www.researchgate.net/publication/220962207_Service_Interoperability_through_Advanced_Media_Gateways[ResearchGate]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/2000/vandermeer-2000-smartnet.adoc[src]
+ifdef::local[]
+    ┃ link:/library/inproceedings/2000/vandermeer-2000-smartnet.pdf[PDF]
+    ┃ link:/library/inproceedings/2000/vandermeer-2000-smartnet.7z[7z]
+endif::[]
+

@@ -1,0 +1,12 @@
+*Eamonn Power* et al.: _Architecture & Implementation of a Testbeds Repository_, 2010
+
+* Authors: Eamonn Power, Zohra Boudjemil, Shane Fox
+* Published: 2010 International Conference on Telecommunications & Multimedia (TEMU), July 2010, Chania, Crete, Greece
+* Links:
+       link:https://www.researchgate.net/profile/Eamonn_Power/publication/267795341_Architecture_Implementation_of_a_Testbeds_Repository/links/55547d2808ae6943a86f671b.pdf[ResearchGate]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/2010/power-2010-temu.adoc[src]
+ifdef::local[]
+    ┃ link:/library/inproceedings/2010/power-2010-temu.pdf[PDF]
+endif::[]
+
+

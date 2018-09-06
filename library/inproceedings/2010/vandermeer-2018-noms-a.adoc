@@ -1,0 +1,15 @@
+*Sven van der Meer* et al.: _Taming Policy Complexity: Model to Execution_, 2018
+
+* Authors: Sven van der Meer, John Keeney, Liam Fallon
+* Published: 2018 IEEE/IFIP Network Operations and Management Symposium, NOMS 2018
+* Links:
+       link:https://doi.org/10.1109/NOMS.2018.8406172[DOI]
+    ┃ link:https://www.researchgate.net/publication/325057975_Taming_Policy_Complexity_Model_to_Execution[ResearchGate]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/2010/vandermeer-2018-noms-a.adoc[src]
+ifdef::local[]
+    ┃ link:/library/inproceedings/2010/vandermeer-2018-noms-a.pdf[PDF]
+    ┃ link:/library/inproceedings/2010/vandermeer-2018-noms-a.pptx[PPTX]
+    ┃ link:/library/inproceedings/2010/vandermeer-2018-noms-a.7z[7z]
+endif::[]
+
+

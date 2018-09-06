@@ -1,0 +1,14 @@
+*Martín Serrano* et al.: _Trust and Reputation Policy-Based Mechanisms for Self-protection in Autonomic Communications_, 2009
+
+* Authors: Martín Serrano, Sven van der Meer, John Strassner, Stefano De Paoli, Aphra Kerr, Cristiano Storni
+* Published: International Conference on Autonomic and Trusted Computing, ATC 2009: Autonomic and Trusted Computing pp 249-267
+* Part of: Lecture Notes in Computer Science book series (LNCS, volume 5586)
+* Links:
+       link:https://doi.org/10.1007/978-3-642-02704-8_19[DOI]
+    ┃ link:https://www.researchgate.net/publication/229031779_Trust_and_Reputation_Policy-Based_Mechanisms_for_Self-protection_in_Autonomic_Communications[ResearchGate]
+    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/inproceedings/2000/serrano-2009-atc.adoc[src]
+ifdef::local[]
+    ┃ link:/library/inproceedings/2000/serrano-2009-atc.pdf[PDF]
+endif::[]
+
+

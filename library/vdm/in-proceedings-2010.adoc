@@ -14,12 +14,12 @@
 === 2010
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/inproceedings/2010/vandermeer-icufn-2010.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/2010/strassner-percom-2010.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/2010/latré-noms-2010.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/2010/serrano-noms-2010.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/2010/phelan-mace-2010.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/2010/boudjemil-uksim-2010.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2010/vandermeer-2010-icufn.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2010/strassner-2010-percom.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2010/latré-2010-noms.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2010/serrano-2010-noms.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2010/phelan-2010-mace.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/2010/boudjemil-2010-uksim.adoc[]
 |===
 
 

@@ -14,11 +14,11 @@
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
 |include::{vdmsite-lib-home}/inproceedings/1980/dobson-1989-ssp.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/1980/mccarthy-1989-sigmod.adoc[]
 |include::{vdmsite-lib-home}/inproceedings/1980/robinson-1988-ftdcs.adoc[]
 |include::{vdmsite-lib-home}/inproceedings/1980/saltzer-1982-lcn.adoc[]
 |include::{vdmsite-lib-home}/inproceedings/1980/twidle-1988-ftdcs.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/1980/watson-1989-lcn.adoc[]
 |include::{vdmsite-lib-home}/inproceedings/1980/watson-1980-tas.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/1980/mccarthy-1989-sigmod.adoc[]
+|include::{vdmsite-lib-home}/inproceedings/1980/watson-1989-lcn.adoc[]
 |===
 

@@ -13,7 +13,7 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/movie/1970/1978-animal-house.adoc[]
 |include::{vdmsite-lib-home}/movie/1970/1975-monty-python-and-the-holy-grail.adoc[]
+|include::{vdmsite-lib-home}/movie/1970/1978-animal-house.adoc[]
 |===
 

@@ -19,8 +19,8 @@
 |include::{vdmsite-lib-home}/talks/tutorial/2000/strassner-2005-im.adoc[]
 |include::{vdmsite-lib-home}/talks/tutorial/2000/strassner-2006-noms.adoc[]
 |include::{vdmsite-lib-home}/talks/tutorial/2000/strassner-2008-noms.adoc[]
-|include::{vdmsite-lib-home}/talks/tutorial/2000/vandermeer-2009-fame_arch.adoc[]
-|include::{vdmsite-lib-home}/talks/tutorial/2000/vandermeer-2001-ict.adoc[]
 |include::{vdmsite-lib-home}/talks/tutorial/2000/vandermeer-2000-proms.adoc[]
+|include::{vdmsite-lib-home}/talks/tutorial/2000/vandermeer-2001-ict.adoc[]
+|include::{vdmsite-lib-home}/talks/tutorial/2000/vandermeer-2009-fame_arch.adoc[]
 |===
 

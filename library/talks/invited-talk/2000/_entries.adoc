@@ -17,10 +17,10 @@
 |include::{vdmsite-lib-home}/talks/invited-talk/2000/carroll-2004-ircset.adoc[]
 |include::{vdmsite-lib-home}/talks/invited-talk/2000/fleck-2006-tmf-a.adoc[]
 |include::{vdmsite-lib-home}/talks/invited-talk/2000/fleck-2006-tmf-b.adoc[]
+|include::{vdmsite-lib-home}/talks/invited-talk/2000/vandermeer-2004-euronetlab.adoc[]
 |include::{vdmsite-lib-home}/talks/invited-talk/2000/vandermeer-2006-acf.adoc[]
 |include::{vdmsite-lib-home}/talks/invited-talk/2000/vandermeer-2008-acf-a.adoc[]
 |include::{vdmsite-lib-home}/talks/invited-talk/2000/vandermeer-2008-acf-b.adoc[]
-|include::{vdmsite-lib-home}/talks/invited-talk/2000/vandermeer-2004-euronetlab.adoc[]
 |include::{vdmsite-lib-home}/talks/invited-talk/2000/vandermeer-2009-hp_virtual.adoc[]
 |===
 

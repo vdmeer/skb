@@ -1,5 +1,7 @@
 #!/bin/env bash
 
+cp ../site-skb/src/site/xdoc/library.xml src/site/xdoc/research-library.xml
+
 mvn clean site
 
 sed -i.bak 's/<li class="active "><\/li>/<li class="active ">Reports<\/li>/g' target/site/reports.html

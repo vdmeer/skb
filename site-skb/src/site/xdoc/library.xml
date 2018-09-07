@@ -3,12 +3,12 @@
 <document>
 
     <properties>
-        <title>SKB Library</title>
+        <title>Library</title>
         <author email="vdmeer dot sven at mykolab dot com">Sven van der Meer</author>
     </properties>
 
     <body>
-        <section name="SKB Library">
+        <section name="Library">
             <p class="narrow large">
                 I do maintain my own research library.
                 Essentially published (and some not formally published) items.
@@ -26,11 +26,13 @@
                         <td>Complete library</td>
                         <td>All items I have in my library, frequently updated when I add items or fix errors.</td>
                         <td><a href="https://vdmeer.github.io/skb/library/library.html">GH pages</a></td>
+                        <td><a href="https://github.com/vdmeer/skb/blob/master/library/library.adoc">source</a></td>
                     </tr>
                     <tr>
                         <td>My own publications</td>
-                        <td>Complete set of my own publications, using the same source files as the experience part of thus site.</td>
+                        <td>Complete set of my own publications.</td>
                         <td><a href="https://vdmeer.github.io/skb/library/vdm.html">GH pages</a></td>
+                        <td><a href="https://github.com/vdmeer/skb/blob/master/library/vdm.adoc">source</a></td>
                     </tr>
                 </table>
             </p>
@@ -42,76 +44,91 @@
                         <td>Articles</td>
                         <td>(journal) articles</td>
                         <td><a href="https://vdmeer.github.io/skb/library/article.html">GH pages</a></td>
+                        <td><a href="https://github.com/vdmeer/skb/blob/master/library/article.adoc">source</a></td>
                     </tr>
                     <tr>
                         <td>Book</td>
                         <td>books, sorted by century and decade</td>
                         <td><a href="https://vdmeer.github.io/skb/library/book.html">GH pages</a></td>
+                        <td><a href="https://github.com/vdmeer/skb/blob/master/library/book.adoc">source</a></td>
                     </tr>
                     <tr>
                         <td>Collection</td>
                         <td>collections, similar to proceedings, books with chapters written by different authors</td>
                         <td><a href="https://vdmeer.github.io/skb/library/collection.html">GH pages</a></td>
+                        <td><a href="https://github.com/vdmeer/skb/blob/master/library/collection.adoc">source</a></td>
                     </tr>
                     <tr>
                         <td>in Book</td>
                         <td>book chapters that can be attributed to individual authors, like chapters of a collection or proceeding</td>
                         <td><a href="https://vdmeer.github.io/skb/library/inbook.html">GH pages</a></td>
+                        <td><a href="https://github.com/vdmeer/skb/blob/master/library/inbook.adoc">source</a></td>
                     </tr>
                     <tr>
                         <td>in Proceedings</td>
                         <td>chapters (or sections) of a proceeding, i.e. conference papers</td>
                         <td><a href="https://vdmeer.github.io/skb/library/inproceedings.html">GH pages</a></td>
+                        <td><a href="https://github.com/vdmeer/skb/blob/master/library/inproceedings.adoc">source</a></td>
                     </tr>
                     <tr>
                         <td>Misc</td>
                         <td>items that do not fit into any other category</td>
                         <td><a href="https://vdmeer.github.io/skb/library/misc.html">GH pages</a></td>
+                        <td><a href="https://github.com/vdmeer/skb/blob/master/library/misc.adoc">source</a></td>
                     </tr>
                     <tr>
                         <td>Movie</td>
                         <td>movies, films</td>
                         <td><a href="https://vdmeer.github.io/skb/library/movie.html">GH pages</a></td>
+                        <td><a href="https://github.com/vdmeer/skb/blob/master/library/movie.adoc">source</a></td>
                     </tr>
                     <tr>
                         <td>Online</td>
                         <td>publications that are made online, such as websites or online manuals</td>
                         <td><a href="https://vdmeer.github.io/skb/library/online.html">GH pages</a></td>
+                        <td><a href="https://github.com/vdmeer/skb/blob/master/library/online.adoc">source</a></td>
                     </tr>
                     <tr>
                         <td>Patent</td>
                         <td>simply patents</td>
                         <td><a href="https://vdmeer.github.io/skb/library/patent.html">GH pages</a></td>
+                        <td><a href="https://github.com/vdmeer/skb/blob/master/library/patent.adoc">source</a></td>
                     </tr>
                     <tr>
                         <td>Proceedings</td>
                         <td>proceedings (as an alias for collection), usually the proceeding of a conference</td>
                         <td><a href="https://vdmeer.github.io/skb/library/proceedings.html">GH pages</a></td>
+                        <td><a href="https://github.com/vdmeer/skb/blob/master/library/proceedings.adoc">source</a></td>
                     </tr>
                     <tr>
                         <td>Report</td>
                         <td>a technical report, or a project report</td>
                         <td><a href="https://vdmeer.github.io/skb/library/report.html">GH pages</a></td>
+                        <td><a href="https://github.com/vdmeer/skb/blob/master/library/report.adoc">source</a></td>
                     </tr>
                     <tr>
                         <td>Standard</td>
                         <td>standards and other publications by a Standard Defining Organisation (SDO)</td>
                         <td><a href="https://vdmeer.github.io/skb/library/standard.html">GH pages</a></td>
+                        <td><a href="https://github.com/vdmeer/skb/blob/master/library/standard.adoc">source</a></td>
                     </tr>
                     <tr>
                         <td>Talks</td>
                         <td>talks as an uber-category for keynotes, tutorials, lecture notes, invited talks, presentations</td>
                         <td><a href="https://vdmeer.github.io/skb/library/talks.html">GH pages</a></td>
+                        <td><a href="https://github.com/vdmeer/skb/blob/master/library/talks.adoc">source</a></td>
                     </tr>
                     <tr>
                         <td>Thesis</td>
                         <td>an M.Sc. thesis, Diploamarbeit, Ph.D. thesis, Doktorarbeit, Habilitation</td>
                         <td><a href="https://vdmeer.github.io/skb/library/thesis.html">GH pages</a></td>
+                        <td><a href="https://github.com/vdmeer/skb/blob/master/library/thesis.adoc">source</a></td>
                     </tr>
                     <tr>
                         <td>Unpublished</td>
                         <td>an item that is not formally published (or not published at all)</td>
                         <td><a href="https://vdmeer.github.io/skb/library/unpublished.html">GH pages</a></td>
+                        <td><a href="https://github.com/vdmeer/skb/blob/master/library/unpublished.adoc">source</a></td>
                     </tr>
                 </table>
             </p>

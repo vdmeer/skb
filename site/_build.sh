@@ -2,10 +2,10 @@
 
 mvn clean site -DvdmSite
 
-sed -i.bak 's/<li class="active "><\/li>/<li class="active ">Technical Reports<\/li>/g' target/site/tech-reports.html
-rm target/site/tech-reports.html.bak
-sed -i.bak 's/x2013; <\/title>/x2013; Technical Reports<\/title>/g' target/site/tech-reports.html
-rm target/site/tech-reports.html.bak
+sed -i.bak 's/<li class="active "><\/li>/<li class="active ">Reports<\/li>/g' target/site/reports.html
+rm target/site/reports.html.bak
+sed -i.bak 's/x2013; <\/title>/x2013; Reports<\/title>/g' target/site/reports.html
+rm target/site/reports.html.bak
 
 sed -i.bak 's/<li class="active "><\/li>/<li class="active ">Talks<\/li>/g' target/site/talks.html
 rm target/site/talks.html.bak

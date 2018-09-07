@@ -34,7 +34,7 @@
                     <item href="publications-books.html" name="Books and similar Items" />
                     <item href="publications-articles.html" name="Articles" />
                     <item href="publications-inproceedings.html" name="in Proceedings" />
-                    <item href="tech-reports.html" name="Technical Reports" />
+                    <item href="reports.html" name="Reports" />
                     <item href="publications-standards.html" name="Standards / SDO" />
                     <item href="publications-patents.html" name="Patents" />
                 </item>

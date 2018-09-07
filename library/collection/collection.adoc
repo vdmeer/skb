@@ -12,5 +12,5 @@
 //
 
 == 2000
-include::{vdmsite-lib-home}/collection/2000/_entries.adoc[]
+include::{skb-library-home}/collection/2000/_entries.adoc[]
 

@@ -14,10 +14,10 @@
 === 2003
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/inproceedings/2000/oconnor-2003-isict.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/2000/barrett-2003-itsrs.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/2000/vandermeer-2003-mucs-a.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/2000/vandermeer-2003-mucs-b.adoc[]
+|include::{skb-library-home}/inproceedings/2000/oconnor-2003-isict.adoc[]
+|include::{skb-library-home}/inproceedings/2000/barrett-2003-itsrs.adoc[]
+|include::{skb-library-home}/inproceedings/2000/vandermeer-2003-mucs-a.adoc[]
+|include::{skb-library-home}/inproceedings/2000/vandermeer-2003-mucs-b.adoc[]
 |===
 
 

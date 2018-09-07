@@ -14,14 +14,14 @@
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
 
-|include::{vdmsite-lib-home}/thesis/master/1990/gadegast-frank-1995.adoc[]
-|include::{vdmsite-lib-home}/thesis/master/1990/vandermeer-sven-1996.adoc[]
-|include::{vdmsite-lib-home}/thesis/master/1990/arbanowski-stefan-1996.adoc[]
-|include::{vdmsite-lib-home}/thesis/master/1990/dannert-andreas-1998.adoc[]
-|include::{vdmsite-lib-home}/thesis/master/1990/franz-stefan-1998.adoc[]
-|include::{vdmsite-lib-home}/thesis/master/1990/steglich-stephan-1998.adoc[]
-|include::{vdmsite-lib-home}/thesis/master/1990/zell-markus-1998.adoc[]
-|include::{vdmsite-lib-home}/thesis/master/1990/huenerberg-jens-1999.adoc[]
+|include::{skb-library-home}/thesis/master/1990/gadegast-frank-1995.adoc[]
+|include::{skb-library-home}/thesis/master/1990/vandermeer-sven-1996.adoc[]
+|include::{skb-library-home}/thesis/master/1990/arbanowski-stefan-1996.adoc[]
+|include::{skb-library-home}/thesis/master/1990/dannert-andreas-1998.adoc[]
+|include::{skb-library-home}/thesis/master/1990/franz-stefan-1998.adoc[]
+|include::{skb-library-home}/thesis/master/1990/steglich-stephan-1998.adoc[]
+|include::{skb-library-home}/thesis/master/1990/zell-markus-1998.adoc[]
+|include::{skb-library-home}/thesis/master/1990/huenerberg-jens-1999.adoc[]
 |===
 
 

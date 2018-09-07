@@ -13,6 +13,6 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/report/technical/1960/baran-1964-distr_comm_nework.adoc[]
+|include::{skb-library-home}/report/technical/1960/baran-1964-distr_comm_nework.adoc[]
 |===
 

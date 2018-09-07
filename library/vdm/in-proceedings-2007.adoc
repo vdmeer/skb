@@ -14,14 +14,14 @@
 === 2007
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/inproceedings/2000/barrett-2007-giis.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/2000/barrett-2007-mace.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/2000/serrano-2007-aims.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/2000/davy-2007-lanoms.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/2000/carroll-2007-giis.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/2000/morris-2007-ssmo.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/2000/vandermeer-2007-mace.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/2000/deussen-2007-mace.adoc[]
+|include::{skb-library-home}/inproceedings/2000/barrett-2007-giis.adoc[]
+|include::{skb-library-home}/inproceedings/2000/barrett-2007-mace.adoc[]
+|include::{skb-library-home}/inproceedings/2000/serrano-2007-aims.adoc[]
+|include::{skb-library-home}/inproceedings/2000/davy-2007-lanoms.adoc[]
+|include::{skb-library-home}/inproceedings/2000/carroll-2007-giis.adoc[]
+|include::{skb-library-home}/inproceedings/2000/morris-2007-ssmo.adoc[]
+|include::{skb-library-home}/inproceedings/2000/vandermeer-2007-mace.adoc[]
+|include::{skb-library-home}/inproceedings/2000/deussen-2007-mace.adoc[]
 |===
 
 

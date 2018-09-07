@@ -13,12 +13,12 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/thesis/phd/2000/vandermeer-sven-2002.adoc[]
-|include::{vdmsite-lib-home}/thesis/phd/2000/fieldings-roy-2000.adoc[]
-|include::{vdmsite-lib-home}/thesis/phd/2000/jennings-brendan-2001.adoc[]
-|include::{vdmsite-lib-home}/thesis/phd/2000/osullivan-declan-2006.adoc[]
-|include::{vdmsite-lib-home}/thesis/phd/2000/davy-steven-2008.adoc[]
-|include::{vdmsite-lib-home}/thesis/phd/2000/barret-keara-2009.adoc[]
-|include::{vdmsite-lib-home}/thesis/phd/2000/strassner-john-2009.adoc[]
+|include::{skb-library-home}/thesis/phd/2000/vandermeer-sven-2002.adoc[]
+|include::{skb-library-home}/thesis/phd/2000/fieldings-roy-2000.adoc[]
+|include::{skb-library-home}/thesis/phd/2000/jennings-brendan-2001.adoc[]
+|include::{skb-library-home}/thesis/phd/2000/osullivan-declan-2006.adoc[]
+|include::{skb-library-home}/thesis/phd/2000/davy-steven-2008.adoc[]
+|include::{skb-library-home}/thesis/phd/2000/barret-keara-2009.adoc[]
+|include::{skb-library-home}/thesis/phd/2000/strassner-john-2009.adoc[]
 |===
 

@@ -13,12 +13,12 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/inproceedings/1990/arbanowski-1999-iscc.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/1990/miller-1993-elp.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/1990/pfeifer-1998-africom.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/1990/sloman-1990-ftdcs.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/1990/vandermeer-1999-comcon.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/1990/vandermeer-1999-huc.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/1990/vandermeer-1999-isads.adoc[]
+|include::{skb-library-home}/inproceedings/1990/arbanowski-1999-iscc.adoc[]
+|include::{skb-library-home}/inproceedings/1990/miller-1993-elp.adoc[]
+|include::{skb-library-home}/inproceedings/1990/pfeifer-1998-africom.adoc[]
+|include::{skb-library-home}/inproceedings/1990/sloman-1990-ftdcs.adoc[]
+|include::{skb-library-home}/inproceedings/1990/vandermeer-1999-comcon.adoc[]
+|include::{skb-library-home}/inproceedings/1990/vandermeer-1999-huc.adoc[]
+|include::{skb-library-home}/inproceedings/1990/vandermeer-1999-isads.adoc[]
 |===
 

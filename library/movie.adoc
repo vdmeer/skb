@@ -23,6 +23,6 @@ Sven van_der_Meer
 :toclevels: 4
 :icons: font
 
-include::{vdmsite-lib-home}/movie/movie.adoc[]
+include::{skb-library-home}/movie/movie.adoc[]
 
 

@@ -12,5 +12,5 @@
 //
 
 === 2010
-include::{vdmsite-lib-home}/talks/keynote/2010/_entries.adoc[]
+include::{skb-library-home}/talks/keynote/2010/_entries.adoc[]
 

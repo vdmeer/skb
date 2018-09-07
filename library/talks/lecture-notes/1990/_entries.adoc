@@ -15,16 +15,16 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/talks/lecture-notes/1990/arbanowski-1998-dia-tub.adoc[]
-|include::{vdmsite-lib-home}/talks/lecture-notes/1990/arbanowski-1999-dia-tub.adoc[]
-|include::{vdmsite-lib-home}/talks/lecture-notes/1990/bb-tub-1998.adoc[]
-|include::{vdmsite-lib-home}/talks/lecture-notes/1990/bb-tub-1999.adoc[]
-|include::{vdmsite-lib-home}/talks/lecture-notes/1990/carle-1997-ip-tub.adoc[]
-|include::{vdmsite-lib-home}/talks/lecture-notes/1990/magedanz-1998-in-tub.adoc[]
-|include::{vdmsite-lib-home}/talks/lecture-notes/1990/magedanz-1999-in-tub.adoc[]
-|include::{vdmsite-lib-home}/talks/lecture-notes/1990/mcuc-tub-1999.adoc[]
-|include::{vdmsite-lib-home}/talks/lecture-notes/1990/steglich-1999-bs-tub.adoc[]
-|include::{vdmsite-lib-home}/talks/lecture-notes/1990/vandermeer-1998-mvs-tub.adoc[]
-|include::{vdmsite-lib-home}/talks/lecture-notes/1990/vandermeer-1999-mvs-tub.adoc[]
+|include::{skb-library-home}/talks/lecture-notes/1990/arbanowski-1998-dia-tub.adoc[]
+|include::{skb-library-home}/talks/lecture-notes/1990/arbanowski-1999-dia-tub.adoc[]
+|include::{skb-library-home}/talks/lecture-notes/1990/bb-tub-1998.adoc[]
+|include::{skb-library-home}/talks/lecture-notes/1990/bb-tub-1999.adoc[]
+|include::{skb-library-home}/talks/lecture-notes/1990/carle-1997-ip-tub.adoc[]
+|include::{skb-library-home}/talks/lecture-notes/1990/magedanz-1998-in-tub.adoc[]
+|include::{skb-library-home}/talks/lecture-notes/1990/magedanz-1999-in-tub.adoc[]
+|include::{skb-library-home}/talks/lecture-notes/1990/mcuc-tub-1999.adoc[]
+|include::{skb-library-home}/talks/lecture-notes/1990/steglich-1999-bs-tub.adoc[]
+|include::{skb-library-home}/talks/lecture-notes/1990/vandermeer-1998-mvs-tub.adoc[]
+|include::{skb-library-home}/talks/lecture-notes/1990/vandermeer-1999-mvs-tub.adoc[]
 |===
 

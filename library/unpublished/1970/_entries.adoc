@@ -13,7 +13,7 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/unpublished/1970/boyd-1976-dac.adoc[]
-|include::{vdmsite-lib-home}/unpublished/1970/boyd-1976-poc.adoc[]
+|include::{skb-library-home}/unpublished/1970/boyd-1976-dac.adoc[]
+|include::{skb-library-home}/unpublished/1970/boyd-1976-poc.adoc[]
 |===
 

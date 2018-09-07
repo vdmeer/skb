@@ -13,7 +13,7 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/online/2010/dubberly-2015-cybernetics.adoc[]
+|include::{skb-library-home}/online/2010/dubberly-2015-cybernetics.adoc[]
 |===
 
 

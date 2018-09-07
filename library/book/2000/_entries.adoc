@@ -13,10 +13,10 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/book/2000/day-2007-pna.adoc[]
-|include::{vdmsite-lib-home}/book/2000/gould-2006-richness_of_life.adoc[]
-|include::{vdmsite-lib-home}/book/2000/sacks-2000-seeing_voices.adoc[]
-|include::{vdmsite-lib-home}/book/2000/smolin-2006-trouble_with_physics.adoc[]
-|include::{vdmsite-lib-home}/book/2000/strassner-2004-pbm.adoc[]
+|include::{skb-library-home}/book/2000/day-2007-pna.adoc[]
+|include::{skb-library-home}/book/2000/gould-2006-richness_of_life.adoc[]
+|include::{skb-library-home}/book/2000/sacks-2000-seeing_voices.adoc[]
+|include::{skb-library-home}/book/2000/smolin-2006-trouble_with_physics.adoc[]
+|include::{skb-library-home}/book/2000/strassner-2004-pbm.adoc[]
 |===
 

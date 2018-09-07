@@ -23,5 +23,5 @@ Sven van_der_Meer
 :toclevels: 4
 :icons: font
 
-include::{vdmsite-lib-home}/proceedings/proceedings.adoc[]
+include::{skb-library-home}/proceedings/proceedings.adoc[]
 

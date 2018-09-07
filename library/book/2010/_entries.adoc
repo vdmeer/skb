@@ -13,8 +13,8 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/book/2010/deutsch-2011-infinity.adoc[]
-|include::{vdmsite-lib-home}/book/2010/russell-2014-sdos.adoc[]
-|include::{vdmsite-lib-home}/book/2010/smith-2012-elemental_design_patterns.adoc[]
+|include::{skb-library-home}/book/2010/deutsch-2011-infinity.adoc[]
+|include::{skb-library-home}/book/2010/russell-2014-sdos.adoc[]
+|include::{skb-library-home}/book/2010/smith-2012-elemental_design_patterns.adoc[]
 |===
 

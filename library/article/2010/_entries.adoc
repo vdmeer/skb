@@ -13,15 +13,15 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/article/2010/brennan-2010-commag.adoc[]
-|include::{vdmsite-lib-home}/article/2010/day-2016-ieee.adoc[]
-|include::{vdmsite-lib-home}/article/2010/han-2012-cn.adoc[]
-|include::{vdmsite-lib-home}/article/2010/mckenzie-2011-ieee.adoc[]
-|include::{vdmsite-lib-home}/article/2010/robitzsch-2017-network.adoc[]
-|include::{vdmsite-lib-home}/article/2010/russell-2013-spectrum.adoc[]
-|include::{vdmsite-lib-home}/article/2010/russell-2014-tc.adoc[]
-|include::{vdmsite-lib-home}/article/2010/serrano-2010-siwn.adoc[]
-|include::{vdmsite-lib-home}/article/2010/vandermeer-2016-softwarization.adoc[]
-|include::{vdmsite-lib-home}/article/2010/zaman-2015-commag.adoc[]
+|include::{skb-library-home}/article/2010/brennan-2010-commag.adoc[]
+|include::{skb-library-home}/article/2010/day-2016-ieee.adoc[]
+|include::{skb-library-home}/article/2010/han-2012-cn.adoc[]
+|include::{skb-library-home}/article/2010/mckenzie-2011-ieee.adoc[]
+|include::{skb-library-home}/article/2010/robitzsch-2017-network.adoc[]
+|include::{skb-library-home}/article/2010/russell-2013-spectrum.adoc[]
+|include::{skb-library-home}/article/2010/russell-2014-tc.adoc[]
+|include::{skb-library-home}/article/2010/serrano-2010-siwn.adoc[]
+|include::{skb-library-home}/article/2010/vandermeer-2016-softwarization.adoc[]
+|include::{skb-library-home}/article/2010/zaman-2015-commag.adoc[]
 |===
 

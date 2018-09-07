@@ -12,20 +12,20 @@
 //
 
 == 1970
-include::{vdmsite-lib-home}/inproceedings/1970/_entries.adoc[]
+include::{skb-library-home}/inproceedings/1970/_entries.adoc[]
 
 
 == 1980
-include::{vdmsite-lib-home}/inproceedings/1980/_entries.adoc[]
+include::{skb-library-home}/inproceedings/1980/_entries.adoc[]
 
 
 == 1990
-include::{vdmsite-lib-home}/inproceedings/1990/_entries.adoc[]
+include::{skb-library-home}/inproceedings/1990/_entries.adoc[]
 
 
 == 2000
-include::{vdmsite-lib-home}/inproceedings/2000/_entries.adoc[]
+include::{skb-library-home}/inproceedings/2000/_entries.adoc[]
 
 == 2010
-include::{vdmsite-lib-home}/inproceedings/2010/_entries.adoc[]
+include::{skb-library-home}/inproceedings/2010/_entries.adoc[]
 

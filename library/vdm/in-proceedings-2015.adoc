@@ -14,9 +14,9 @@
 === 2015
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/inproceedings/2010/vandermeer-2015-cnsm.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/2010/robitzsch-2015-im.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/2010/zaman-2015-im.adoc[]
+|include::{skb-library-home}/inproceedings/2010/vandermeer-2015-cnsm.adoc[]
+|include::{skb-library-home}/inproceedings/2010/robitzsch-2015-im.adoc[]
+|include::{skb-library-home}/inproceedings/2010/zaman-2015-im.adoc[]
 |===
 
 

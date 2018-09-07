@@ -22,5 +22,5 @@ Sven van_der_Meer
 :toclevels: 4
 :icons: font
 
-include::{vdmsite-lib-home}/vdm/vdm.adoc[]
+include::{skb-library-home}/vdm/vdm.adoc[]
 

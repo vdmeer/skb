@@ -13,17 +13,17 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/article/2000/arbanowski-2001-ife.adoc[]
-|include::{vdmsite-lib-home}/article/2000/arbanowski-2001-puc.adoc[]
-|include::{vdmsite-lib-home}/article/2000/boutaba-2007-jnsm.adoc[]
-|include::{vdmsite-lib-home}/article/2000/davy-2008-comcom.adoc[]
-|include::{vdmsite-lib-home}/article/2000/jennings-2007-commag.adoc[]
-|include::{vdmsite-lib-home}/article/2000/osullivan-2009-jnsm.adoc[]
-|include::{vdmsite-lib-home}/article/2000/stone-2001-network.adoc[]
-|include::{vdmsite-lib-home}/article/2000/strassner-2009-jnsm-a.adoc[]
-|include::{vdmsite-lib-home}/article/2000/strassner-2009-jnsm-b.adoc[]
-|include::{vdmsite-lib-home}/article/2000/vandermeer-2004-wit.adoc[]
-|include::{vdmsite-lib-home}/article/2000/yagüe-2006-jias.adoc[]
+|include::{skb-library-home}/article/2000/arbanowski-2001-ife.adoc[]
+|include::{skb-library-home}/article/2000/arbanowski-2001-puc.adoc[]
+|include::{skb-library-home}/article/2000/boutaba-2007-jnsm.adoc[]
+|include::{skb-library-home}/article/2000/davy-2008-comcom.adoc[]
+|include::{skb-library-home}/article/2000/jennings-2007-commag.adoc[]
+|include::{skb-library-home}/article/2000/osullivan-2009-jnsm.adoc[]
+|include::{skb-library-home}/article/2000/stone-2001-network.adoc[]
+|include::{skb-library-home}/article/2000/strassner-2009-jnsm-a.adoc[]
+|include::{skb-library-home}/article/2000/strassner-2009-jnsm-b.adoc[]
+|include::{skb-library-home}/article/2000/vandermeer-2004-wit.adoc[]
+|include::{skb-library-home}/article/2000/yagüe-2006-jias.adoc[]
 |===
 
 

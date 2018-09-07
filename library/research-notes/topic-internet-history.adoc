@@ -13,13 +13,13 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/misc/mckenzie-archive.adoc[]
-|include::{vdmsite-lib-home}/report/technical/2000/bennett-2009-itif.adoc[]
-|include::{vdmsite-lib-home}/article/2010/mckenzie-2011-ieee.adoc[]
-|include::{vdmsite-lib-home}/article/2010/russell-2013-spectrum.adoc[]
-|include::{vdmsite-lib-home}/book/2010/russell-2014-sdos.adoc[]
-|include::{vdmsite-lib-home}/article/2010/russell-2014-tc.adoc[]
-|include::{vdmsite-lib-home}/article/2010/day-2016-ieee.adoc[]
+|include::{skb-library-home}/misc/mckenzie-archive.adoc[]
+|include::{skb-library-home}/report/technical/2000/bennett-2009-itif.adoc[]
+|include::{skb-library-home}/article/2010/mckenzie-2011-ieee.adoc[]
+|include::{skb-library-home}/article/2010/russell-2013-spectrum.adoc[]
+|include::{skb-library-home}/book/2010/russell-2014-sdos.adoc[]
+|include::{skb-library-home}/article/2010/russell-2014-tc.adoc[]
+|include::{skb-library-home}/article/2010/day-2016-ieee.adoc[]
 |===
 
 

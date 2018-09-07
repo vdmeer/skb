@@ -14,10 +14,10 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/proceedings/mace/mace-2006.adoc[]
-|include::{vdmsite-lib-home}/proceedings/mace/mace-2007.adoc[]
-|include::{vdmsite-lib-home}/proceedings/mace/mace-2008.adoc[]
-|include::{vdmsite-lib-home}/proceedings/mace/mace-2009.adoc[]
-|include::{vdmsite-lib-home}/proceedings/mace/mace-2010.adoc[]
+|include::{skb-library-home}/proceedings/mace/mace-2006.adoc[]
+|include::{skb-library-home}/proceedings/mace/mace-2007.adoc[]
+|include::{skb-library-home}/proceedings/mace/mace-2008.adoc[]
+|include::{skb-library-home}/proceedings/mace/mace-2009.adoc[]
+|include::{skb-library-home}/proceedings/mace/mace-2010.adoc[]
 |===
 

@@ -13,7 +13,7 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/movie/1990/1991-rosencrantz-and-guildenstern-are-dead.adoc[]
+|include::{skb-library-home}/movie/1990/1991-rosencrantz-and-guildenstern-are-dead.adoc[]
 |===
 
 

@@ -13,8 +13,8 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/standard/tmf/tmf053-2005.adoc[]
-|include::{vdmsite-lib-home}/standard/tmf/tmf053-2006.adoc[]
-|include::{vdmsite-lib-home}/standard/tmf/tmf053b-2006.adoc[]
+|include::{skb-library-home}/standard/tmf/tmf053-2005.adoc[]
+|include::{skb-library-home}/standard/tmf/tmf053-2006.adoc[]
+|include::{skb-library-home}/standard/tmf/tmf053b-2006.adoc[]
 |===
 

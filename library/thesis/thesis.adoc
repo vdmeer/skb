@@ -12,12 +12,12 @@
 //
 
 == Habilitation
-include::{vdmsite-lib-home}/thesis/habil/habil.adoc[]
+include::{skb-library-home}/thesis/habil/habil.adoc[]
 
 == PhD
-include::{vdmsite-lib-home}/thesis/phd/phd.adoc[]
+include::{skb-library-home}/thesis/phd/phd.adoc[]
 
 == M.Sc. / Diplom
-include::{vdmsite-lib-home}/thesis/master/master.adoc[]
+include::{skb-library-home}/thesis/master/master.adoc[]
 
 

@@ -13,7 +13,7 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/book/1960/kuhn-1962-scientific_revolutions.adoc[]
-|include::{vdmsite-lib-home}/book/1960/wiener-1965-cybernetics.adoc[]
+|include::{skb-library-home}/book/1960/kuhn-1962-scientific_revolutions.adoc[]
+|include::{skb-library-home}/book/1960/wiener-1965-cybernetics.adoc[]
 |===
 

@@ -13,7 +13,7 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/book/1910/russel-1919-mathematical_philosophy.adoc[]
+|include::{skb-library-home}/book/1910/russel-1919-mathematical_philosophy.adoc[]
 |===
 
 

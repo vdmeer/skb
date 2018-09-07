@@ -13,6 +13,6 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/book/1700/leibniz-1714-monadology.adoc[]
+|include::{skb-library-home}/book/1700/leibniz-1714-monadology.adoc[]
 |===
 

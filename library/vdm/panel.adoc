@@ -14,11 +14,11 @@
 == Panel
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/talks/panel/2000/vandermeer-2004-mucs.adoc[]
-|include::{vdmsite-lib-home}/talks/panel/2000/vandermeer-2006-dsom.adoc[]
-|include::{vdmsite-lib-home}/talks/panel/2000/vandermeer-2007-ssmo.adoc[]
-|include::{vdmsite-lib-home}/talks/panel/2010/vandermeer-2013-im.adoc[]
-|include::{vdmsite-lib-home}/talks/panel/2010/vandermeer-2015-im.adoc[]
+|include::{skb-library-home}/talks/panel/2000/vandermeer-2004-mucs.adoc[]
+|include::{skb-library-home}/talks/panel/2000/vandermeer-2006-dsom.adoc[]
+|include::{skb-library-home}/talks/panel/2000/vandermeer-2007-ssmo.adoc[]
+|include::{skb-library-home}/talks/panel/2010/vandermeer-2013-im.adoc[]
+|include::{skb-library-home}/talks/panel/2010/vandermeer-2015-im.adoc[]
 |===
 
 

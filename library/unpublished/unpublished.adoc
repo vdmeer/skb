@@ -13,12 +13,12 @@
 
 
 == 1970
-include::{vdmsite-lib-home}/unpublished/1970/_entries.adoc[]
+include::{skb-library-home}/unpublished/1970/_entries.adoc[]
 
 == 1980
-include::{vdmsite-lib-home}/unpublished/1980/_entries.adoc[]
+include::{skb-library-home}/unpublished/1980/_entries.adoc[]
 
 == 2000
-include::{vdmsite-lib-home}/unpublished/2000/_entries.adoc[]
+include::{skb-library-home}/unpublished/2000/_entries.adoc[]
 
 

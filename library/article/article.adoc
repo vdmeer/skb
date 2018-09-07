@@ -12,23 +12,23 @@
 //
 
 == 1800
-include::{vdmsite-lib-home}/article/1800/_entries.adoc[]
+include::{skb-library-home}/article/1800/_entries.adoc[]
 
 == 1960
-include::{vdmsite-lib-home}/article/1960/_entries.adoc[]
+include::{skb-library-home}/article/1960/_entries.adoc[]
 
 == 1970
-include::{vdmsite-lib-home}/article/1970/_entries.adoc[]
+include::{skb-library-home}/article/1970/_entries.adoc[]
 
 == 1980
-include::{vdmsite-lib-home}/article/1980/_entries.adoc[]
+include::{skb-library-home}/article/1980/_entries.adoc[]
 
 == 1990
-include::{vdmsite-lib-home}/article/1990/_entries.adoc[]
+include::{skb-library-home}/article/1990/_entries.adoc[]
 
 == 2000
-include::{vdmsite-lib-home}/article/2000/_entries.adoc[]
+include::{skb-library-home}/article/2000/_entries.adoc[]
 
 == 2010
-include::{vdmsite-lib-home}/article/2010/_entries.adoc[]
+include::{skb-library-home}/article/2010/_entries.adoc[]
 

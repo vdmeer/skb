@@ -13,10 +13,10 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/book/1970/alexander-1977-pattern_language.adoc[]
-|include::{vdmsite-lib-home}/book/1970/alexander-1979-timeless.adoc[]
-|include::{vdmsite-lib-home}/book/1970/florman-1976-engineering.adoc[]
-|include::{vdmsite-lib-home}/book/1970/lakatos-1976-proofs_and_refutations.adoc[]
-|include::{vdmsite-lib-home}/book/1970/macarthur-1972-geographical_ecology.adoc[]
+|include::{skb-library-home}/book/1970/alexander-1977-pattern_language.adoc[]
+|include::{skb-library-home}/book/1970/alexander-1979-timeless.adoc[]
+|include::{skb-library-home}/book/1970/florman-1976-engineering.adoc[]
+|include::{skb-library-home}/book/1970/lakatos-1976-proofs_and_refutations.adoc[]
+|include::{skb-library-home}/book/1970/macarthur-1972-geographical_ecology.adoc[]
 |===
 

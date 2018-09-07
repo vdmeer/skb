@@ -12,14 +12,14 @@
 //
 
 == 2000
-include::{vdmsite-lib-home}/proceedings/2000/_entries.adoc[]
+include::{skb-library-home}/proceedings/2000/_entries.adoc[]
 
 2010
-include::{vdmsite-lib-home}/proceedings/2010/_entries.adoc[]
+include::{skb-library-home}/proceedings/2010/_entries.adoc[]
 
 == MACE
-include::{vdmsite-lib-home}/proceedings/mace/_entries.adoc[]
+include::{skb-library-home}/proceedings/mace/_entries.adoc[]
 
 == MUCS
-include::{vdmsite-lib-home}/proceedings/mucs/_entries.adoc[]
+include::{skb-library-home}/proceedings/mucs/_entries.adoc[]
 

@@ -13,10 +13,10 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/book/1950/ashby-1956-intro_cybernetics.adoc[]
-|include::{vdmsite-lib-home}/book/1950/dr-seuss-1953-sneetches.adoc[]
-|include::{vdmsite-lib-home}/book/1950/needham-1954-science_and_civilisation_in_china.adoc[]
-|include::{vdmsite-lib-home}/book/1950/neurath-1954-how_machines_work.adoc[]
-|include::{vdmsite-lib-home}/book/1950/popper-1959-scientific_discovery.adoc[]
+|include::{skb-library-home}/book/1950/ashby-1956-intro_cybernetics.adoc[]
+|include::{skb-library-home}/book/1950/dr-seuss-1953-sneetches.adoc[]
+|include::{skb-library-home}/book/1950/needham-1954-science_and_civilisation_in_china.adoc[]
+|include::{skb-library-home}/book/1950/neurath-1954-how_machines_work.adoc[]
+|include::{skb-library-home}/book/1950/popper-1959-scientific_discovery.adoc[]
 |===
 

@@ -13,6 +13,6 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/thesis/habil/1990/magedanz-thomas-1999.adoc[]
+|include::{skb-library-home}/thesis/habil/1990/magedanz-thomas-1999.adoc[]
 |===
 

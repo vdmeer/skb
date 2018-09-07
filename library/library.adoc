@@ -24,63 +24,63 @@ Sven van_der_Meer
 
 
 == Articles
-include::{vdmsite-lib-home}/article/article.adoc[leveloffset=+1]
+include::{skb-library-home}/article/article.adoc[leveloffset=+1]
 
 
 == Books
-include::{vdmsite-lib-home}/book/book.adoc[leveloffset=+1]
+include::{skb-library-home}/book/book.adoc[leveloffset=+1]
 
 
 == Collections
-include::{vdmsite-lib-home}/collection/collection.adoc[leveloffset=+1]
+include::{skb-library-home}/collection/collection.adoc[leveloffset=+1]
 
 
 == in Book
-include::{vdmsite-lib-home}/inbook/inbook.adoc[leveloffset=+1]
+include::{skb-library-home}/inbook/inbook.adoc[leveloffset=+1]
 
 
 == in Proceedings
-include::{vdmsite-lib-home}/inproceedings/inproceedings.adoc[leveloffset=+1]
+include::{skb-library-home}/inproceedings/inproceedings.adoc[leveloffset=+1]
 
 
 == Miscellaneous
-include::{vdmsite-lib-home}/misc/misc.adoc[leveloffset=+1]
+include::{skb-library-home}/misc/misc.adoc[leveloffset=+1]
 
 
 == Movies
-include::{vdmsite-lib-home}/movie/movie.adoc[leveloffset=+1]
+include::{skb-library-home}/movie/movie.adoc[leveloffset=+1]
 
 
 == Online
-include::{vdmsite-lib-home}/online/online.adoc[leveloffset=+1]
+include::{skb-library-home}/online/online.adoc[leveloffset=+1]
 
 
 == Patent
-include::{vdmsite-lib-home}/patent/patent.adoc[leveloffset=+1]
+include::{skb-library-home}/patent/patent.adoc[leveloffset=+1]
 
 
 == Proceedings
-include::{vdmsite-lib-home}/proceedings/proceedings.adoc[leveloffset=+1]
+include::{skb-library-home}/proceedings/proceedings.adoc[leveloffset=+1]
 
 
 == Reports
-include::{vdmsite-lib-home}/report/report.adoc[leveloffset=+1]
+include::{skb-library-home}/report/report.adoc[leveloffset=+1]
 
 
 == Standards
-include::{vdmsite-lib-home}/standard/standard.adoc[leveloffset=+1]
+include::{skb-library-home}/standard/standard.adoc[leveloffset=+1]
 
 
 == Talks
-include::{vdmsite-lib-home}/talks/talks.adoc[leveloffset=+1]
+include::{skb-library-home}/talks/talks.adoc[leveloffset=+1]
 
 
 == Thesis
-include::{vdmsite-lib-home}/thesis/thesis.adoc[leveloffset=+1]
+include::{skb-library-home}/thesis/thesis.adoc[leveloffset=+1]
 
 
 == Unpublished
-include::{vdmsite-lib-home}/unpublished/unpublished.adoc[leveloffset=+1]
+include::{skb-library-home}/unpublished/unpublished.adoc[leveloffset=+1]
 
 
 

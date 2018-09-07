@@ -12,5 +12,5 @@
 //
 
 === 1990
-include::{vdmsite-lib-home}/thesis/habil/1990/_entries.adoc[]
+include::{skb-library-home}/thesis/habil/1990/_entries.adoc[]
 

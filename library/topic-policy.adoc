@@ -22,6 +22,6 @@ Sven van_der_Meer
 :toclevels: 4
 :icons: font
 
-include::{vdmsite-lib-home}/research-notes/topic-policy.adoc[]
+include::{skb-library-home}/research-notes/topic-policy.adoc[]
 
 

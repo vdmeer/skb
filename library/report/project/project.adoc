@@ -13,26 +13,26 @@
 
 
 === iPCSS
-include::{vdmsite-lib-home}/report/project/ipcss/_entries.adoc[]
+include::{skb-library-home}/report/project/ipcss/_entries.adoc[]
 
 === AlbatrOSS
-include::{vdmsite-lib-home}/report/project/albatross/_entries.adoc[]
+include::{skb-library-home}/report/project/albatross/_entries.adoc[]
 
 === M-Zones
-include::{vdmsite-lib-home}/report/project/m-zones/_entries.adoc[]
+include::{skb-library-home}/report/project/m-zones/_entries.adoc[]
 
 === P1855
-include::{vdmsite-lib-home}/report/project/P1855/_entries.adoc[]
+include::{skb-library-home}/report/project/P1855/_entries.adoc[]
 
 === AMCNS
-include::{vdmsite-lib-home}/report/project/amcns/_entries.adoc[]
+include::{skb-library-home}/report/project/amcns/_entries.adoc[]
 
 === FAME
-include::{vdmsite-lib-home}/report/project/fame/_entries.adoc[]
+include::{skb-library-home}/report/project/fame/_entries.adoc[]
 
 === PRISTINE
-include::{vdmsite-lib-home}/report/project/pristine/_entries.adoc[]
+include::{skb-library-home}/report/project/pristine/_entries.adoc[]
 
 === ARCFIRE
-include::{vdmsite-lib-home}/report/project/arcfire/_entries.adoc[]
+include::{skb-library-home}/report/project/arcfire/_entries.adoc[]
 

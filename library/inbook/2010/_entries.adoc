@@ -13,8 +13,8 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/inbook/2010/jennings-2010-autonomics.adoc[]
-|include::{vdmsite-lib-home}/inbook/2010/vandermeer-2016-arcfire.adoc[]
+|include::{skb-library-home}/inbook/2010/jennings-2010-autonomics.adoc[]
+|include::{skb-library-home}/inbook/2010/vandermeer-2016-arcfire.adoc[]
 |===
 
 

@@ -12,14 +12,14 @@
 //
 
 == 1960
-include::{vdmsite-lib-home}/report/technical/1960/_entries.adoc[]
+include::{skb-library-home}/report/technical/1960/_entries.adoc[]
 
 == 1970
-include::{vdmsite-lib-home}/report/technical/1970/_entries.adoc[]
+include::{skb-library-home}/report/technical/1970/_entries.adoc[]
 
 == 1980
-include::{vdmsite-lib-home}/report/technical/1980/_entries.adoc[]
+include::{skb-library-home}/report/technical/1980/_entries.adoc[]
 
 == 2000
-include::{vdmsite-lib-home}/report/technical/2000/_entries.adoc[]
+include::{skb-library-home}/report/technical/2000/_entries.adoc[]
 

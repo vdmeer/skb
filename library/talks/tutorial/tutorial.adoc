@@ -12,12 +12,12 @@
 //
 
 === 1990
-include::{vdmsite-lib-home}/talks/tutorial/1990/_entries.adoc[]
+include::{skb-library-home}/talks/tutorial/1990/_entries.adoc[]
 
 === 2000
-include::{vdmsite-lib-home}/talks/tutorial/2000/_entries.adoc[]
+include::{skb-library-home}/talks/tutorial/2000/_entries.adoc[]
 
 === 2010
-include::{vdmsite-lib-home}/talks/tutorial/2010/_entries.adoc[]
+include::{skb-library-home}/talks/tutorial/2010/_entries.adoc[]
 
 

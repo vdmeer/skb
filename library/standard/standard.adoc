@@ -12,8 +12,8 @@
 //
 
 == TM Forum
-include::{vdmsite-lib-home}/standard/tmf/_entries.adoc[]
+include::{skb-library-home}/standard/tmf/_entries.adoc[]
 
 == IETF
-include::{vdmsite-lib-home}/standard/ietf/_entries.adoc[]
+include::{skb-library-home}/standard/ietf/_entries.adoc[]
 

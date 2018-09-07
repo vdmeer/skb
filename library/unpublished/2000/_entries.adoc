@@ -13,6 +13,6 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/unpublished/2000/damianou-2002-ic.adoc[]
+|include::{skb-library-home}/unpublished/2000/damianou-2002-ic.adoc[]
 |===
 

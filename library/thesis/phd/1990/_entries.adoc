@@ -13,8 +13,8 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/thesis/phd/1990/pras-aiko-1995.adoc[]
-|include::{vdmsite-lib-home}/thesis/phd/1990/pfeifer-tom-1999.adoc[]
+|include::{skb-library-home}/thesis/phd/1990/pras-aiko-1995.adoc[]
+|include::{skb-library-home}/thesis/phd/1990/pfeifer-tom-1999.adoc[]
 |===
 
 

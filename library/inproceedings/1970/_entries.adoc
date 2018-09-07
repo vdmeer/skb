@@ -13,10 +13,10 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/inproceedings/1970/levin-1975-sosp.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/1970/metcalf-1972-acm.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/1970/pouzin-1976-afips.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/1970/shoch-1978-compcon.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/1970/watson-1979-ddmcn.adoc[]
+|include::{skb-library-home}/inproceedings/1970/levin-1975-sosp.adoc[]
+|include::{skb-library-home}/inproceedings/1970/metcalf-1972-acm.adoc[]
+|include::{skb-library-home}/inproceedings/1970/pouzin-1976-afips.adoc[]
+|include::{skb-library-home}/inproceedings/1970/shoch-1978-compcon.adoc[]
+|include::{skb-library-home}/inproceedings/1970/watson-1979-ddmcn.adoc[]
 |===
 

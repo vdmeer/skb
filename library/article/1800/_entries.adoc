@@ -13,6 +13,6 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/article/1800/frege-1892-sense-and-meaning.adoc[]
+|include::{skb-library-home}/article/1800/frege-1892-sense-and-meaning.adoc[]
 |===
 

@@ -12,8 +12,8 @@
 //
 
 == Technical Report
-include::{vdmsite-lib-home}/report/technical/technical.adoc[]
+include::{skb-library-home}/report/technical/technical.adoc[]
 
 == Project Report
-include::{vdmsite-lib-home}/report/project/project.adoc[]
+include::{skb-library-home}/report/project/project.adoc[]
 

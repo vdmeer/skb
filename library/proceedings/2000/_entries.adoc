@@ -13,6 +13,6 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/proceedings/2000/dsom-2006.adoc[]
+|include::{skb-library-home}/proceedings/2000/dsom-2006.adoc[]
 |===
 

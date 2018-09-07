@@ -13,6 +13,6 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/proceedings/2010/itt-2013.adoc[]
+|include::{skb-library-home}/proceedings/2010/itt-2013.adoc[]
 |===
 

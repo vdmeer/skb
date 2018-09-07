@@ -12,8 +12,8 @@
 //
 
 === 2000
-include::{vdmsite-lib-home}/talks/panel/2000/_entries.adoc[]
+include::{skb-library-home}/talks/panel/2000/_entries.adoc[]
 
 === 2010
-include::{vdmsite-lib-home}/talks/panel/2010/_entries.adoc[]
+include::{skb-library-home}/talks/panel/2010/_entries.adoc[]
 

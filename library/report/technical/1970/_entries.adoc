@@ -13,9 +13,9 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/report/technical/1970/bell-1973-mitre.adoc[]
-|include::{vdmsite-lib-home}/report/technical/1970/inwg42-1973.adoc[]
-|include::{vdmsite-lib-home}/report/technical/1970/inwg60-1974.adoc[]
-|include::{vdmsite-lib-home}/report/technical/1970/maturana-1970-biology_of_cognition.adoc[]
+|include::{skb-library-home}/report/technical/1970/bell-1973-mitre.adoc[]
+|include::{skb-library-home}/report/technical/1970/inwg42-1973.adoc[]
+|include::{skb-library-home}/report/technical/1970/inwg60-1974.adoc[]
+|include::{skb-library-home}/report/technical/1970/maturana-1970-biology_of_cognition.adoc[]
 |===
 

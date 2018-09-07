@@ -13,7 +13,7 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/book/1800/abbott-1884-a-flatland.adoc[]
-|include::{vdmsite-lib-home}/book/1800/frege-1893-basic_laws_of_arithmetic.adoc[]
+|include::{skb-library-home}/book/1800/abbott-1884-a-flatland.adoc[]
+|include::{skb-library-home}/book/1800/frege-1893-basic_laws_of_arithmetic.adoc[]
 |===
 

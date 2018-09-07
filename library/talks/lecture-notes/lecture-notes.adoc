@@ -12,8 +12,8 @@
 //
 
 === 1990
-include::{vdmsite-lib-home}/talks/lecture-notes/1990/_entries.adoc[]
+include::{skb-library-home}/talks/lecture-notes/1990/_entries.adoc[]
 
 === 2000
-include::{vdmsite-lib-home}/talks/lecture-notes/2000/_entries.adoc[]
+include::{skb-library-home}/talks/lecture-notes/2000/_entries.adoc[]
 

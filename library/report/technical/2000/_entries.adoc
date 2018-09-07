@@ -13,6 +13,6 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/report/technical/2000/bennett-2009-itif.adoc[]
+|include::{skb-library-home}/report/technical/2000/bennett-2009-itif.adoc[]
 |===
 

@@ -14,18 +14,18 @@
 == Articles
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/article/2000/arbanowski-2001-puc.adoc[]
-|include::{vdmsite-lib-home}/article/2000/arbanowski-2001-ife.adoc[]
-|include::{vdmsite-lib-home}/article/2000/vandermeer-2004-wit.adoc[]
-|include::{vdmsite-lib-home}/article/2000/jennings-2007-commag.adoc[]
-|include::{vdmsite-lib-home}/article/2000/strassner-2009-jnsm-a.adoc[]
-|include::{vdmsite-lib-home}/article/2000/strassner-2009-jnsm-b.adoc[]
-|include::{vdmsite-lib-home}/article/2000/osullivan-2009-jnsm.adoc[]
-|include::{vdmsite-lib-home}/article/2010/brennan-2010-commag.adoc[]
-|include::{vdmsite-lib-home}/article/2010/serrano-2010-siwn.adoc[]
-|include::{vdmsite-lib-home}/article/2010/zaman-2015-commag.adoc[]
-|include::{vdmsite-lib-home}/article/2010/vandermeer-2016-softwarization.adoc[]
-|include::{vdmsite-lib-home}/article/2010/robitzsch-2017-network.adoc[]
+|include::{skb-library-home}/article/2000/arbanowski-2001-puc.adoc[]
+|include::{skb-library-home}/article/2000/arbanowski-2001-ife.adoc[]
+|include::{skb-library-home}/article/2000/vandermeer-2004-wit.adoc[]
+|include::{skb-library-home}/article/2000/jennings-2007-commag.adoc[]
+|include::{skb-library-home}/article/2000/strassner-2009-jnsm-a.adoc[]
+|include::{skb-library-home}/article/2000/strassner-2009-jnsm-b.adoc[]
+|include::{skb-library-home}/article/2000/osullivan-2009-jnsm.adoc[]
+|include::{skb-library-home}/article/2010/brennan-2010-commag.adoc[]
+|include::{skb-library-home}/article/2010/serrano-2010-siwn.adoc[]
+|include::{skb-library-home}/article/2010/zaman-2015-commag.adoc[]
+|include::{skb-library-home}/article/2010/vandermeer-2016-softwarization.adoc[]
+|include::{skb-library-home}/article/2010/robitzsch-2017-network.adoc[]
 |===
 
 

@@ -14,13 +14,13 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/talks/presentation/2000/vandermeer-2006-tssg_rm.adoc[]
-|include::{vdmsite-lib-home}/talks/presentation/2000/vandermeer-2007-tssg_day.adoc[]
-|include::{vdmsite-lib-home}/talks/presentation/2000/vandermeer-2007-tssg_rm.adoc[]
-|include::{vdmsite-lib-home}/talks/presentation/2000/vandermeer-2008-tssg_cim-a.adoc[]
-|include::{vdmsite-lib-home}/talks/presentation/2000/vandermeer-2008-tssg_cim-b.adoc[]
-|include::{vdmsite-lib-home}/talks/presentation/2000/vandermeer-2008-tssg_day.adoc[]
-|include::{vdmsite-lib-home}/talks/presentation/2000/vandermeer-2009-tssg_rm.adoc[]
+|include::{skb-library-home}/talks/presentation/2000/vandermeer-2006-tssg_rm.adoc[]
+|include::{skb-library-home}/talks/presentation/2000/vandermeer-2007-tssg_day.adoc[]
+|include::{skb-library-home}/talks/presentation/2000/vandermeer-2007-tssg_rm.adoc[]
+|include::{skb-library-home}/talks/presentation/2000/vandermeer-2008-tssg_cim-a.adoc[]
+|include::{skb-library-home}/talks/presentation/2000/vandermeer-2008-tssg_cim-b.adoc[]
+|include::{skb-library-home}/talks/presentation/2000/vandermeer-2008-tssg_day.adoc[]
+|include::{skb-library-home}/talks/presentation/2000/vandermeer-2009-tssg_rm.adoc[]
 |===
 
 

@@ -14,9 +14,9 @@
 === 2014
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/inproceedings/2010/zaman-2014-noms.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/2010/keeney-2014-cnsm.adoc[]
-|include::{vdmsite-lib-home}/inproceedings/2010/yuan-2014-percom.adoc[]
+|include::{skb-library-home}/inproceedings/2010/zaman-2014-noms.adoc[]
+|include::{skb-library-home}/inproceedings/2010/keeney-2014-cnsm.adoc[]
+|include::{skb-library-home}/inproceedings/2010/yuan-2014-percom.adoc[]
 |===
 
 

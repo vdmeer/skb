@@ -14,14 +14,14 @@
 == Lecture Notes
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/talks/lecture-notes/1990/bb-tub-1998.adoc[]
-|include::{vdmsite-lib-home}/talks/lecture-notes/1990/vandermeer-1998-mvs-tub.adoc[]
-|include::{vdmsite-lib-home}/talks/lecture-notes/1990/bb-tub-1999.adoc[]
-|include::{vdmsite-lib-home}/talks/lecture-notes/1990/vandermeer-1999-mvs-tub.adoc[]
-|include::{vdmsite-lib-home}/talks/lecture-notes/1990/mcuc-tub-1999.adoc[]
-|include::{vdmsite-lib-home}/talks/lecture-notes/2000/vandermeer-2000-mvs-tub.adoc[]
-|include::{vdmsite-lib-home}/talks/lecture-notes/2000/vandermeer-2001-mvs-tub.adoc[]
-|include::{vdmsite-lib-home}/talks/lecture-notes/2000/vandermeer-2002-mvs-tub.adoc[]
-|include::{vdmsite-lib-home}/talks/lecture-notes/2000/vandermeer-2006-cm-wit.adoc[]
+|include::{skb-library-home}/talks/lecture-notes/1990/bb-tub-1998.adoc[]
+|include::{skb-library-home}/talks/lecture-notes/1990/vandermeer-1998-mvs-tub.adoc[]
+|include::{skb-library-home}/talks/lecture-notes/1990/bb-tub-1999.adoc[]
+|include::{skb-library-home}/talks/lecture-notes/1990/vandermeer-1999-mvs-tub.adoc[]
+|include::{skb-library-home}/talks/lecture-notes/1990/mcuc-tub-1999.adoc[]
+|include::{skb-library-home}/talks/lecture-notes/2000/vandermeer-2000-mvs-tub.adoc[]
+|include::{skb-library-home}/talks/lecture-notes/2000/vandermeer-2001-mvs-tub.adoc[]
+|include::{skb-library-home}/talks/lecture-notes/2000/vandermeer-2002-mvs-tub.adoc[]
+|include::{skb-library-home}/talks/lecture-notes/2000/vandermeer-2006-cm-wit.adoc[]
 |===
 

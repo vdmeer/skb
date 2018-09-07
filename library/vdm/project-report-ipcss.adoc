@@ -15,12 +15,12 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{vdmsite-lib-home}/report/project/ipcss/ipcss-0-1995.adoc[]
-|include::{vdmsite-lib-home}/report/project/ipcss/ipcss-1-1996.adoc[]
-|include::{vdmsite-lib-home}/report/project/ipcss/ipcss-2-1997.adoc[]
-|include::{vdmsite-lib-home}/report/project/ipcss/ipcss-3-1997.adoc[]
-|include::{vdmsite-lib-home}/report/project/ipcss/ipcss-4-1997.adoc[]
-|include::{vdmsite-lib-home}/report/project/ipcss/ipcss-5-1998.adoc[]
+|include::{skb-library-home}/report/project/ipcss/ipcss-0-1995.adoc[]
+|include::{skb-library-home}/report/project/ipcss/ipcss-1-1996.adoc[]
+|include::{skb-library-home}/report/project/ipcss/ipcss-2-1997.adoc[]
+|include::{skb-library-home}/report/project/ipcss/ipcss-3-1997.adoc[]
+|include::{skb-library-home}/report/project/ipcss/ipcss-4-1997.adoc[]
+|include::{skb-library-home}/report/project/ipcss/ipcss-5-1998.adoc[]
 |===
 
 

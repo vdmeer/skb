@@ -1,6 +1,6 @@
 #!/bin/env bash
 
-mvn clean site -DvdmSite
+mvn clean site
 
 sed -i.bak 's/<li class="active "><\/li>/<li class="active ">Reports<\/li>/g' target/site/reports.html
 rm target/site/reports.html.bak
@@ -62,11 +62,5 @@ sed -i.bak 's/<li class="active "><\/li>/<li class="active ">Research Notes - In
 rm target/site/research-notes-internet-history.html.bak
 sed -i.bak 's/x2013; <\/title>/x2013; Research Notes - Internet History<\/title>/g' target/site/research-notes-internet-history.html
 rm target/site/research-notes-internet-history.html.bak
-
-#sed -i.bak 's/<li class="active "><\/li>/<li class="active ">Research Library<\/li>/g' target/site/research-library.html
-#rm target/site/research-library.html.bak
-#sed -i.bak 's/x2013; <\/title>/x2013; Research Library<\/title>/g' target/site/research-library.html
-#rm target/site/research-library.html.bak
-
 
 

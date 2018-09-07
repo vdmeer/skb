@@ -15,7 +15,7 @@
 
 Coolections in my research library.
 Entries are grouped by century and decade.
-A compiled version of all collections is hosted on link:https://vdmeer.github.io/library/collection.html[GH Pages].
+A compiled version of all collections is hosted on link:https://vdmeer.github.io/skb/library/collection.html[GH Pages].
 
 The naming scheme for collections is `[author family name]-[year]-[collection title]`.
 In some occasions, the collection title is abbreviated.

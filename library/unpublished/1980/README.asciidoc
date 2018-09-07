@@ -14,5 +14,5 @@
 == SKB - Research Library - Unpublished - 1980-1989
 
 Unpublished (or not formally published) items in my research library between 1980 and 1989.
-A compiled version of all unpublished items is hosted on link:https://vdmeer.github.io/library/unpublished.html[GH Pages].
+A compiled version of all unpublished items is hosted on link:https://vdmeer.github.io/skb/library/unpublished.html[GH Pages].
 

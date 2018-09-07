@@ -15,5 +15,5 @@
 
 All of my own publications.
 Entries are grouped by an entry type (mostly BibLaTeX types) and decade.
-A compiled version of all my publications is hosted on link:https://vdmeer.github.io/library/vdm.html[GH Pages].
+A compiled version of all my publications is hosted on link:https://vdmeer.github.io/skb/library/vdm.html[GH Pages].
 

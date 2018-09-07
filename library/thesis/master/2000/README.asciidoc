@@ -14,5 +14,5 @@
 == SKB - Research Library - Masterthesis - 2000-2009
 
 Masterthesis' and Diplomarbeiten in my research library from 2000 to 2009.
-A compiled version of all thesis' is hosted on link:https://vdmeer.github.io/library/thesis.html[GH Pages].
+A compiled version of all thesis' is hosted on link:https://vdmeer.github.io/skb/library/thesis.html[GH Pages].
 

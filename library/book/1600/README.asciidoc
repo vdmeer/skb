@@ -14,5 +14,5 @@
 == SKB - Research Library - Books - 1600-1699
 
 Books in my research library from 1600 to 1699.
-A compiled version of all books is hosted on link:https://vdmeer.github.io/library/book.html[GH Pages].
+A compiled version of all books is hosted on link:https://vdmeer.github.io/skb/library/book.html[GH Pages].
 

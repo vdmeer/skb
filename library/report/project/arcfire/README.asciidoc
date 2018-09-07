@@ -14,6 +14,6 @@
 == SKB - Research Library - Reports - Project - ARCFIRE
 
 Project reports from the European H2020 project Large-scale RINA Experimentation on FIRE+ (ARCFIRE).
-A compiled version of all reports is hosted on link:https://vdmeer.github.io/library/report.html[GH Pages].
+A compiled version of all reports is hosted on link:https://vdmeer.github.io/skb/library/report.html[GH Pages].
 
 

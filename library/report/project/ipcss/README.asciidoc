@@ -14,6 +14,6 @@
 == SKB - Research Library - Reports - Project - iPCSS
 
 Project reports from the German project intelligent Personal Communication System (iPCSS).
-A compiled version of all reports is hosted on link:https://vdmeer.github.io/library/report.html[GH Pages].
+A compiled version of all reports is hosted on link:https://vdmeer.github.io/skb/library/report.html[GH Pages].
 
 

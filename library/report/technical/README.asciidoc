@@ -15,7 +15,7 @@
 
 Technical reports in my research library.
 Entries are grouped by decade.
-A compiled version of all reports is hosted on link:https://vdmeer.github.io/library/report.html[GH Pages].
+A compiled version of all reports is hosted on link:https://vdmeer.github.io/skb/library/report.html[GH Pages].
 
 The naming scheme for technical reports is `[author family name]-[year]-[title]`.
 In some occasions the author name is substituted with an orgarnisation or report specific string.

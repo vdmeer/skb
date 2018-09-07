@@ -14,5 +14,5 @@
 == SKB - Research Library - Books - 1910-1919
 
 Books in my research library from 1910 to 1919.
-A compiled version of all books is hosted on link:https://vdmeer.github.io/library/book.html[GH Pages].
+A compiled version of all books is hosted on link:https://vdmeer.github.io/skb/library/book.html[GH Pages].
 

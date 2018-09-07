@@ -14,6 +14,6 @@
 == SKB - Research Library - Reports - Project - P1855
 
 Project reports from the Eurescom project P1855 - Autonomic Computing & Networking – The operators' vision on technologies, opportunities, risks and adoption roadmap.
-A compiled version of all reports is hosted on link:https://vdmeer.github.io/library/report.html[GH Pages].
+A compiled version of all reports is hosted on link:https://vdmeer.github.io/skb/library/report.html[GH Pages].
 
 

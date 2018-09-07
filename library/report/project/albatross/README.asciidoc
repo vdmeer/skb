@@ -14,6 +14,6 @@
 == SKB - Research Library - Reports - Project - AlbatrOSS
 
 Project reports from the European FP5 project Architecture for Location-based Application of Third Generation Operation Support System (AlbatrOSS).
-A compiled version of all reports is hosted on link:https://vdmeer.github.io/library/report.html[GH Pages].
+A compiled version of all reports is hosted on link:https://vdmeer.github.io/skb/library/report.html[GH Pages].
 
 

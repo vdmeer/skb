@@ -14,5 +14,5 @@
 == SKB - Research Library - Phdhesis - 1990-1999
 
 Phdthesis' and Doktorbeiten in my research library from 1990 to 1999.
-A compiled version of all thesis' is hosted on link:https://vdmeer.github.io/library/thesis.html[GH Pages].
+A compiled version of all thesis' is hosted on link:https://vdmeer.github.io/skb/library/thesis.html[GH Pages].
 

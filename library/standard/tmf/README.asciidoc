@@ -14,6 +14,6 @@
 == SKB - Research Library - Standards - TM Forum
 
 TM Forum standards in my research library.
-A compiled version of all standard items is hosted on link:https://vdmeer.github.io/library/standard.html[GH Pages].
+A compiled version of all standard items is hosted on link:https://vdmeer.github.io/skb/library/standard.html[GH Pages].
 
 

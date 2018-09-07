@@ -14,6 +14,6 @@
 == SKB - Research Library - in Book - 2000-2009
 
 Book chapters in my research library from 2000 to 2009.
-A compiled version of all in-book items is hosted on link:https://vdmeer.github.io/library/inbook.html[GH Pages].
+A compiled version of all in-book items is hosted on link:https://vdmeer.github.io/skb/library/inbook.html[GH Pages].
 
 

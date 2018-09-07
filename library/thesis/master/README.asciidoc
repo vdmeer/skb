@@ -15,5 +15,5 @@
 
 Masterthesis' and Diplomarbeiten in my research library.
 Entries are grouped by decade.
-A compiled version of all thesis' is hosted on link:https://vdmeer.github.io/library/thesis.html[GH Pages].
+A compiled version of all thesis' is hosted on link:https://vdmeer.github.io/skb/library/thesis.html[GH Pages].
 

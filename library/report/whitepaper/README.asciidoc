@@ -15,6 +15,6 @@
 
 Whitepapers in my research library.
 Entries are grouped by decade.
-A compiled version of all reports is hosted on link:https://vdmeer.github.io/library/report.html[GH Pages].
+A compiled version of all reports is hosted on link:https://vdmeer.github.io/skb/library/report.html[GH Pages].
 
 

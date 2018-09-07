@@ -14,6 +14,6 @@
 == SKB - Research Library - Technical Reporst - 1960-1969
 
 Technical reports in my research library from 1960 to 1969.
-A compiled version of all reports is hosted on link:https://vdmeer.github.io/library/report.html[GH Pages].
+A compiled version of all reports is hosted on link:https://vdmeer.github.io/skb/library/report.html[GH Pages].
 
 

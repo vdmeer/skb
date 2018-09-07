@@ -14,5 +14,5 @@
 == SKB - Research Library - in Proceedings - 1970-1979
 
 Conference papers in my research library from 1970 to 1979.
-A compiled version of all conference papers is hosted on link:https://vdmeer.github.io/library/inproceedings.html[GH Pages].
+A compiled version of all conference papers is hosted on link:https://vdmeer.github.io/skb/library/inproceedings.html[GH Pages].
 

@@ -14,5 +14,5 @@
 == SKB - Research Library - Proceedings - MACE
 
 Proceedings in my research library from the IEEE International Workshop on Modelling Autonomic Communications Environments (MACE).
-A compiled version of all proceedings is hosted on link:https://vdmeer.github.io/library/proceedings.html[GH Pages].
+A compiled version of all proceedings is hosted on link:https://vdmeer.github.io/skb/library/proceedings.html[GH Pages].
 

@@ -14,5 +14,5 @@
 == SKB - Research Library - Articles - 1970-1979
 
 Articles in my research library from 1970 to 1979.
-A compiled version of all articles is hosted on link:https://vdmeer.github.io/library/article.html[GH Pages].
+A compiled version of all articles is hosted on link:https://vdmeer.github.io/skb/library/article.html[GH Pages].
 

@@ -14,6 +14,6 @@
 == SKB - Research Library - Talks - Tutorials - 1990-1999
 
 Tutorials in my research library from 1990 to 1999.
-A compiled version of all talks is hosted on link:https://vdmeer.github.io/library/talks.html[GH Pages].
+A compiled version of all talks is hosted on link:https://vdmeer.github.io/skb/library/talks.html[GH Pages].
 
 

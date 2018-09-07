@@ -14,5 +14,5 @@
 == SKB - Research Library - Books - 1960-1969
 
 Books in my research library from 1960 to 1969.
-A compiled version of all books is hosted on link:https://vdmeer.github.io/library/book.html[GH Pages].
+A compiled version of all books is hosted on link:https://vdmeer.github.io/skb/library/book.html[GH Pages].
 

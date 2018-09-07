@@ -15,5 +15,5 @@
 
 Unpublished (or not formally published) items in my research library.
 Entries are grouped by decade.
-A compiled version of all unpublished items is hosted on link:https://vdmeer.github.io/library/unpublished.html[GH Pages].
+A compiled version of all unpublished items is hosted on link:https://vdmeer.github.io/skb/library/unpublished.html[GH Pages].
 

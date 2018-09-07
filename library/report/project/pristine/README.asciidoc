@@ -14,6 +14,6 @@
 == SKB - Research Library - Reports - Project - PRISTINE
 
 Project reports from the European FP7 project Programmability In RINA for European Supremacy of Virtualised Networks (PRISTINE).
-A compiled version of all reports is hosted on link:https://vdmeer.github.io/library/report.html[GH Pages].
+A compiled version of all reports is hosted on link:https://vdmeer.github.io/skb/library/report.html[GH Pages].
 
 

@@ -15,6 +15,6 @@
 
 Panels in my research library.
 Entries are group by decade.
-A compiled version of all talks is hosted on link:https://vdmeer.github.io/library/talks.html[GH Pages].
+A compiled version of all talks is hosted on link:https://vdmeer.github.io/skb/library/talks.html[GH Pages].
 
 

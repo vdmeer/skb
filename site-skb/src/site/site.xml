@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="VDMEER-SKB">
+    <bannerLeft>
+        <name/>
+        <title/>
+    </bannerLeft>
+
+    <body>
+        <head>
+            <![CDATA[<link href="https://fonts.googleapis.com/css?family=Lora|Roboto+Condensed" rel="stylesheet" />]]>
+        </head>
+
+        <menu name="skb">
+            <item href="index.html" name="Wellcome" />
+            <item href="library.html" name="Library" collapse="true">
+            <item href="research-notes.html" name="Research Notes" collapse="false">
+                <item href="research-notes-policy.html" name="Policy-based Management" />
+                <item href="research-notes-ina.html" name="INA" />
+                <item href="research-notes-cybernetics.html" name="Cybernetics" />
+                <item href="research-notes-internet-history.html" name="Internet History" />
+            </item>
+            </item>
+        </menu>
+
+<!--
+        <menu ref="reports" inherit="top"/>
+        <menu ref="modules"/> 
+-->
+
+        <breadcrumbs>
+            <item name="vdmeer" href="http://www.vandermeer.de"/>
+            <item name="skb" href="index.html"/>
+        </breadcrumbs>
+
+        <footer>
+            <![CDATA[
+                <p>
+                    Copyright &copy; 2018 Sven van der Meer. All rights reserved.
+                </p>
+                <p>
+                    <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a> This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+                </p>
+            ]]>
+        </footer>
+    </body>
+
+    <publishDate position="right"/>
+    <version position="right"/>
+    <poweredBy>
+        <logo name="maven-site" href="https://maven.apache.org/plugins/maven-site-plugin" img="images/logos/build-by-maven-black.png"/>
+        <logo name="asciidoctor" href="https://asciidoctor.org" img="images/logos/asciidoctor-transparent.png"/>
+    </poweredBy>
+
+    <skin>
+        <groupId>org.apache.maven.skins</groupId>
+        <artifactId>maven-fluido-skin</artifactId>
+        <version>1.5</version>
+    </skin>
+</project>

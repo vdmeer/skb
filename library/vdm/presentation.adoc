@@ -13,7 +13,7 @@
 
 == Presentation
 
-===2000
+=== 2000
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
 |include::{vdmsite-lib-home}/talks/presentation/2000/vandermeer-2006-tssg_rm.adoc[]

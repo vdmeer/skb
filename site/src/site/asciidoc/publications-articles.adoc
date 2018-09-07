@@ -1,3 +1,0 @@
-:title: Articles
-
-include::{vdmsite-lib-home}/vdm/articles.adoc[]

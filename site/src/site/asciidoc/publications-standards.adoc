@@ -1,4 +1,0 @@
-:title: Standards / SDO
-
-include::{vdmsite-lib-home}/vdm/standards.adoc[]
-

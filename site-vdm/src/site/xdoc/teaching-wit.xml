@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document>
+
+    <properties>
+        <title>Teaching - WIT/TSSG</title>
+        <author email="vdmeer dot sven at mykolab dot com">Sven van der Meer</author>
+    </properties>
+
+    <body>
+        <section name="Teaching - WIT/TSSG">
+
+            <subsection name="TSSG M.Sc. Programme">
+                <table>
+                    <tr>
+                        <th style="white-space:nowrap; font-weight: bold; font-size: 1.25em" colspan="2">TSSG M.Sc. Programme, Master by Research, TSSG, WIT</th>
+                    </tr>
+                    <tr>
+                        <td width="50%">
+                            <b>2002</b>
+                            <ul>
+                                <li>Ensuring End-To-End QoS</li>
+                                <li>Real-Time Groupware Services</li>
+                                <li>Smart Services, Smart Spaces</li>
+                                <li>Context &amp; Context-awareness</li>
+                                <li>Telecommunication Management</li>
+                            </ul>
+                            </td>
+                        <td width="50%">
+                            <b>2003</b>
+                            <ul>
+                                <li>Intra-domain and Inter-domain Management of Smart Spaces</li>
+                                <li>Context Management, Middleware in Smart Space Management</li>
+                                <li>Smart Spaces &amp; Middleware &amp; Jini</li>
+                                <li>Agents &amp; Parlay &amp; Service Creation Environments &amp; Application Servers</li>
+                                <li>Macro and Micro Mobility in Smart Environments</li>
+                                <li>Usability of Mobile Devices</li>
+                                <li>Present and Future Organisational Models for Wireless Networks</li>
+                                <li>Smart Device Components</li>
+                                <li>Technologies for Engineering Smart Spaces</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>2004</b>
+                            <ul>
+                                <li>Smart Services &amp; Smart Spaces</li>
+                                <li>Context-Aware Wireless Services</li>
+                                <li>Fraud Detection</li>
+                                <li>QoS in Converging Networks</li>
+                                <li>Management Functionality for Ubiquitous Computing Environments</li>
+                                <li>Parlay, Mobile Agents</li>
+                                <li>Design Principles for Smart Space Management</li>
+                                <li>Ubiquitous Management</li>
+                                <li>Infrastructure Requirements for Smart Spaces and Managed Zones</li>
+                                <li>Task Driven Service Composition</li>
+                                <li>Resources Discovery and Management Using Policies in Smart Spaces</li>
+                            </ul>
+                            </td>
+                        <td>
+                            <b>2005</b>
+                            <ul>
+                                <li>Autonomic Management of Ubiquitous Computing Environments</li>
+                                <li>Security Aspects in Smart Spaces</li>
+                                <li>User-Centric Management of Ubiquitous Environments</li>
+                                <li>Access Control in Smart Space Environments</li>
+                                <li>Adapting Access Rights to the Changing User Profiles</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </subsection>
+
+            <subsection name="WIT B.Sc. Applied Computing">
+                <table>
+                    <tr>
+                        <th style="white-space:nowrap; font-weight: bold; font-size: 1.25em" colspan="2">B.Sc. Applied Computing, 4<sup>th</sup> Year Elective, WIT</th>
+                    </tr>
+                    <tr>
+                        <td width="50%">
+                            <b>2003</b>
+                            <ul>
+                                <li>Communication Services (Telephony, Video Streaming, Interactive Voice Response, Email, Groupware &amp; Community services, Instant Messaging &amp; Chat, WWW, FTP), Fixed Network Architecture (Element, Network, Management &amp; Service layers, Call Control, Intelligent Network Services)</li>
+                                <li>Mobile Network Architecture (GSM, GPRS &amp; CDMA, UMTS, 3GPP, 4G and beyond (802.11x, UWB))</li>
+                                <li>IPv4/IPv6 Internet Architecture</li>
+                                <li>Communications Middleware</li>
+                                <li>Next Generation IP Services (H323 &amp; SIP, XMPP &amp; SIMPLE</li>
+                                <li>QoS (DiffServ, IntServ, MPLS), NG Internet &amp; Internet 2)</li>
+                                <li>OSA/Parlay/JAIN Service Development (Service Architecture, Authentication, authorisation &amp; session mgmt, Call control, Presence &amp; availability management, Location based services, User Interactions)</li>
+                                <li>Lab Work</li>
+                            </ul>
+                        </td>
+                        <td width="50%">
+                            <b>2004</b>
+                            <ul>
+                                <li>Introduction (Concepts, Architectures, Frameworks, Methodologies, Terminologies)</li>
+                                <li>Communication Networks (Standardisation Bodies, Classification of Networks, Service and Protocol, Logical Architecture of Networks, IEEE 802.x LANs, LAN Internetworking, Structured Cabling)</li>
+                                <li>Intelligent Networks (Drivers, Objectives, Services, Architecture, PSTN, POTS, SS7, Service Examples, Evolution)</li>
+                                <li>Telecommunication Management Networks (Overview, Information Architecture, Functional Architecture, Physical Architecture, Logical Layered Architecture, ATM Network Management with TMN)</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </subsection>
+
+            <subsection name="TSSG Ph.D. Programme">
+                <table>
+                    <tr>
+                        <th style="white-space:nowrap; font-weight: bold; font-size: 1.25em">TSSG Ph.D. Programme, TSSG, WIT</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li><b>2005 - 2007</b>: <i>Management of User Centric Information in Ubiquitous Environments</i></li>
+                                <li><b>2005 - 2011</b>: <i>Dynamic Adaptation of Policies in Ubiquitous Environments</i></li>
+                                <li><b>2005 - 2011</b>: <i>Dynamic Abstraction and Provisioning of Context Information</i></li>
+                                <li><b>2005 - 2007</b>: <i>Coordinated Adaptation of Session-based Composite Services</i></li>
+                                <li><b>2008 - 2011</b>: <i>Managing Virtual Infrastructure</i></li>                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </subsection>
+
+            <subsection name="WIT M.Sc. Computing">
+                <table>
+                    <tr>
+                        <th style="white-space:nowrap; font-weight: bold; font-size: 1.25em" colspan="2">M.Sc. Computing, Module: Communications Management, WIT</th>
+                    </tr>
+                    <tr>
+                        <td width="50%">
+                            <b>2006</b>
+                            <ul>
+                                <li>Basic Principles</li>
+                                <li>Architectures: SNMP, OSI, TMN, Examples</li>
+                                <li>Universal Communication System &amp; IMS</li>
+                                <li>Middlware and Application Management</li>
+                                <li>Policy-based Management &amp; NGOSS</li>
+                                <li>guest talks: Joel Fleck II (HP) and John Strassner (Motorola)</li>
+                            </ul>
+                        </td>
+                        <td width="50%">
+                            <b>2007</b>
+                            <ul>
+                                <li>Modelling Governing Mechanisms</li>
+                                <li>Modelling and Management: A non-traditional introduction into - modelling communications management</li>
+                                <li>Modelling Example: Universal Communications Systems</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </subsection>
+
+        </section>
+    </body>
+</document>

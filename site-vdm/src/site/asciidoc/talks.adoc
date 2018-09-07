@@ -1,0 +1,24 @@
+:title: Talks
+
+== Talks
+
+link:#keynote[Keynote] ┃
+link:#invited_talk[Invited Talk] ┃
+link:#panel[Panel] ┃
+link:#tutorial[Tutorial] ┃
+link:#lecture_notes[Lecture Notes] ┃
+link:#presentation[Presentation]
+
+
+include::{skb-library-home}/vdm/keynote.adoc[leveloffset=+1]
+
+include::{skb-library-home}/vdm/invited-talk.adoc[leveloffset=+1]
+
+include::{skb-library-home}/vdm/panel.adoc[leveloffset=+1]
+
+include::{skb-library-home}/vdm/tutorial.adoc[leveloffset=+1]
+
+include::{skb-library-home}/vdm/lecture-notes.adoc[leveloffset=+1]
+
+include::{skb-library-home}/vdm/presentation.adoc[leveloffset=+1]
+

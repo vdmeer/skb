@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document>
+
+    <properties>
+        <title>Projects: Ericsson</title>
+        <author email="vdmeer dot sven at mykolab dot com">Sven van der Meer</author>
+    </properties>
+
+    <body>
+        <section name="Projects: Ericsson">
+
+            <subsection name="EI: E-Stream">
+                <table>
+                <tr>
+                    <td><b>E-Stream</b></td>
+                    <td>Innovative Performance Management System for Heterogeneous Networks</td>
+                    <td>EI IP (Innovation Partnership)</td>
+                </tr>
+                <tr>
+                    <td><b>Link</b>: <a href="https://web.archive.org/web/*/www.estream-project.com/">Archive.org</a> ┃ <a href="https://twitter.com/estreamproject">Twitter</a> ┃ <a href="https://www.researchgate.net/project/E-Stream">ResearchGate</a></td>
+                    <td><b>Start</b>: 2012-09, <b>End</b>: 2014-08</td>
+                    <td><b>Budget</b>: €590k (EI and Ericsson contributions)</td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Description</b><br />
+                        This project investigated the applicability of Predictive Analytics to target gaps in the analysis phase, while the use of Recommender Systems has been investigated to address gaps in the planning stage.
+                        Key objectives:
+                        <ul>
+                            <li>Develop more intelligent monitoring data filtering/selection mechanisms at collection time, to collect useful information only, thereby supporting analysis at, or just after collection time.</li>
+                            <li>Develop algorithms to pre-process low-level monitoring data, events and performance indicators to facilitate data correlation and normalisation, a key difficulty with current monitoring approaches.</li>
+                            <li>Develop the logic and algorithms required to translate available lower-level network status information relating to network performance (for example alarms from individual network elements) and specified action responses to problems, into a representation that allows network management actions to be assessed in terms of the subsequent benefits affected in the network.</li>
+                            <li>Investigate the use of (deductive) data mining techniques and (inductive) predictive analytics to identify temporal and causal signatures of errors or avoidable degradations, which can then be used to predict the occurrence of such events.</li>
+                            <li>Study the use of recommender systems, coupled with the outputs of predictive analytics, to identify candidate corrective actions before or as the need for such actions becomes apparent to the human operator.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Partners</b> (all Ireland): DCU, Ericsson
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Role</b>: Proposal (contribution), Ericsson Project Lead
+                    </td>
+                </tr>
+                </table>
+            </subsection>
+
+            <subsection name="FP 7: PRISTINE">
+                <table>
+                <tr>
+                    <td><b>PRISTINE</b></td>
+                    <td>Programmability In RINA for European  Supremacy of Virtualised Networks</td>
+                    <td>EU Framework 7 STReP</td>
+                </tr>
+                <tr>
+                    <td><b>Link</b>: <a href="http://ict-pristine.eu/">Pristine</a> ┃ <a href="https://twitter.com/ictpristine">Twitter</a> ┃ <a href="https://web.archive.org/web/*/www.ict-pristine.eu/">Archive.org</a></td>
+                    <td><b>Start</b>: 2014-01, <b>End</b>: 2016-06</td>
+                    <td><b>Budget</b>: €5.034M, EU Contribution €3.337M</td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Description</b><br />
+                        PRISTINE is designing &amp; implementing the innovative internals of the RINA clean-slate architecture. This includes the programmable functions for: supporting congestion control, providing protection / resilience, facilitating more efficient topological routing, and multi-layer management for handling configuration, performance and security.
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Partners</b>: WIT/TSSG (Ireland), i2CAT (Spain), TID (Spain), Ericsson (Ireland), Nextworks (Italy), Thales (UK), Nexedi (France), BISDN (Germany), ATOS (Spain), Juniper (Germany), University of Oslo (Norway), Brno University of Technology (Czech Republic), Telecom Sud Paris (France), CREATE-NET (Italy), iMinds (Belgium), Predictable Nework Solutions (UK)
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Role</b>: Proposal (contributions), WP 5 Co-lead
+                    </td>
+                </tr>
+                </table>
+            </subsection>
+
+            <subsection name="H2020: ARCFIRE">
+                <table>
+                <tr>
+                    <td><b>ARCFIRE</b></td>
+                    <td>Large-scale RINA Experimentation on FIRE+</td>
+                    <td>EU H2020 RIA (Research and Innovation Action)</td>
+                </tr>
+                <tr>
+                    <td><b>Link</b>: <a href="http://ict-arcfire.eu/">Arcfire</a> ┃ <a href="https://twitter.com/ictarcfire">Twitter</a> ┃ <a href="https://web.archive.org/web/*/www.ict-arcfire.eu/">Archive.org</a></td>
+                    <td><b>Start</b>: 2016-01-01, <b>End</b>: 2018-06-30</td>
+                    <td><b>Budget</b>: €1.2M (LMI: €310k)</td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Description</b><br />
+                        ARCFIRE brings RINA (Recursive InterNetwork Architecture) from labs into the real-world. RINA is an innovative <i>back-to-basics</i> architecture that facilitates full integration between distributed computing and networking. 
+                        RINA addresses the challenges that drive the move from specialised hardware to almost completely virtualised infrastructure.
+                        The next shift, 5G, now is the right time for ARCFIRE to provide experimental evidence of RINA's benefits, at large scale, in compelling and realistic business cases.
+                        How does it work?
+                        <ol>
+                            <li>Facilitate comparison of converged operator networks using RINA to operator’s current network designs;</li>
+                            <li>Produce a robust RINA software suite ready for Europe to engage in large-scale deployments and long-living experiments;</li>
+                            <li>Provide relevant experimental evidence of RINA benefits to network operators, their equipment vendors, application developers and end-users;</li>
+                            <li>Build on the EU FI community and raise the number of organisations involved in RINA deployment; and</li>
+                            <li>Enhance the FIRE+ infrastructure with ready to use RINA software.</li>
+                        </ol>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Partners</b>: Ericsson (Ireland), i2CAT (Spain), TID (Spain), Nextworks (Italy), iMinds (Belgium), Univeristy of Boston (USA)
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Role</b>: Proposal (contributions), Project Coordinator, WP 1 Lead (as coordinator), T2.2 Lead, T3.2 Lead, T4.2 Lead
+                    </td>
+                </tr>
+                </table>
+            </subsection>
+        </section>
+    </body>
+</document>
+
+
+<!--
+            <subsection name="###: ###">
+                <table>
+                <tr>
+                    <td><b>###</b></td>
+                    <td>###</td>
+                    <td>###</td>
+                </tr>
+                <tr>
+                    <td><b>Link</b>: <a href="###">###</a> ┃ <a href="https://web.archive.org/web/*/###/">Archive.org</a></td>
+                    <td><b>Start</b>: ###, <b>End</b>: ###</td>
+                    <td><b>Budget</b>: €###</td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Description</b><br />
+                        ###
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Partners</b>: ###
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Role</b>: ###
+                    </td>
+                </tr>
+                </table>
+            </subsection>
+-->
+
+
+

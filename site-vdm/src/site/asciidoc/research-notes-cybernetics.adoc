@@ -1,0 +1,3 @@
+== Research Notes - Cybernetics
+
+include::{skb-library-home}/research-notes/topic-cybernetics.adoc[leveloffset=+1]

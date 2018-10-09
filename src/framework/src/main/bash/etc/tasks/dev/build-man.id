@@ -11,7 +11,7 @@ MODES="dev"
 DESCRIPTION="builds the manual for different targets"
 EXEC_PATH=bin/tasks/dev
 
-TaskRequire $ID param SKB_TOOL opt
+TaskRequire $ID param SKB_FW_TOOL opt
 
 TaskRequire $ID dep jre8 opt
 TaskRequire $ID dep asciidoctor opt

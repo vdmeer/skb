@@ -20,4 +20,4 @@ find /opt/skb/framework/etc -type f -perm 664
 find /opt/skb/framework/man -type f -perm 644
 find /opt/skb/framework/scenarios -type f -perm 644
 
-mkdir /opt/skb/framework/cache
+mkdir -p /opt/skb/framework/cache

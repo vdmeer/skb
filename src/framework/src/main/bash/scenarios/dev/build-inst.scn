@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+##
+# Scenario: build-inst - builds installation artifacts: cache and manual
+##
+## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
+## @version    v0.0.0
+##
+
+#// Description: builds installation artifacts: cache and manual
+#// MODES=dev
+
+bdc -abc
+bdman -bc --text --pdf --manp --html

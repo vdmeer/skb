@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+##
+# Identity for Shell command wait
+##
+## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
+## @version    v0.0.0
+##
+
+SHORT=w
+ARGUMENT=SEC
+DESCRIPTION="wait for SEC seconds"

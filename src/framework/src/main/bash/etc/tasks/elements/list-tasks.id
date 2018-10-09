@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+##
+## Identity for task list-tasks
+##
+## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
+## @version    v0.0.0
+##
+
+ALIAS=lt
+MODES="dev build use"
+DESCRIPTION="lists tasks"
+EXEC_PATH=bin/tasks/elements

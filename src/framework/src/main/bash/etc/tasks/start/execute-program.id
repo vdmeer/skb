@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+##
+## Identity for task execute-program
+##
+## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
+## @version    v0.0.0
+##
+
+ALIAS=ep
+MODES="dev build use"
+DESCRIPTION="executes a program with several options"
+EXEC_PATH=bin/tasks/start
+
+TaskRequire $ID task start-xterm opt

@@ -1,0 +1,7 @@
+Sets the command to start a new X terminal (Xterm) with substitution strings for title and command. 
+The title substitution string is `%TITLE%`. 
+The command substitution string is `%COMMAND%`. 
+For most X terminals, it is best to use an open ended CLI option for the program, i.e. a CLI option that takes everything until the end of the command line. 
+Most X terminal variants can be started using `xterm -T %TITLE% -e %COMMAND%`. 
+For `mintty` on Cygwin this variable should be `mintty -t %TITLE% %COMMAND%`. 
+For an XFCE4 terminal, e.g. on Ubuntu, this variable should be `xfce4-terminal --disable-server --title='%TITLE%' -x %COMMAND%`.

@@ -1,0 +1,4 @@
+Internal error: unresolved CLI options. 
+This error points to a bug in the software. 
+It means that the shell or a task were presented with unexpected CLI options. 
+Those options should have been processed by the program.

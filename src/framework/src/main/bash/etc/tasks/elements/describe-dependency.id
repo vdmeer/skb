@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+##
+## Identity for task describe-dependency
+##
+## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
+## @version    v0.0.0
+##
+
+ALIAS=dd
+MODES="dev build use"
+DESCRIPTION="describes a dependency"
+EXEC_PATH=bin/tasks/elements

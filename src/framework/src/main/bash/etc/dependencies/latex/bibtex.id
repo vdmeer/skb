@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+##
+## Identity for dependency bibtex
+##
+## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
+## @version    v0.0.0
+##
+
+DESCRIPTION="bibliography processor in LaTeX"
+COMMAND=bibtex

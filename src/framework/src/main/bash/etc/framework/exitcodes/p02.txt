@@ -1,0 +1,10 @@
+        The temporary configuration file the program uses  to  share  settings
+        between shell and  tasks  already  exists.  This  means  that  another
+        instance of this program (or a program using  the  same  configuration
+        file) is running. Check if the existing file should be used and  start
+        with CLI option `--force`. If not, then change  the  setting  for  the
+        temporary configuration file. See  parameters  for  details.  In  rare
+        occasions, when the program  terminates  suddenly,  the  configuration
+        might not have  been  removed.  In  those  cases,  please  remove  the
+        temporary configuration file and start the program again.             
+                                                                              

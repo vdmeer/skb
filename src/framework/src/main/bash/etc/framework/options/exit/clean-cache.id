@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+##
+## Identity for CLI option clean-cache
+##
+## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
+## @version    v0.0.0
+##
+
+SHORT=c
+
+DESCRIPTION="cleans the application cache"

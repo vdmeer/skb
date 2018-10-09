@@ -1,0 +1,3 @@
+This task will clean, i.e. remove all create artifacts. 
+It starts calling the `--clean` option of all tasks starting with `build-` and `compile-`. 
+Then it will remove the `target` directory.

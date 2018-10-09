@@ -1,0 +1,6 @@
+        Apache Maven is required by some tasks to build artifacts. One example
+        is the SKB site, which is build  using  the  Maven  site  plugin.  The
+        dependency here requires an installed version 3  or  lager  of  Apache
+        Maven.    For    Maven    documentation    and    installation     see
+        https://maven.apache.org/.                                            
+                                                                              

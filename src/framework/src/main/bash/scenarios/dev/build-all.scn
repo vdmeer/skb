@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+##
+# Scenario: build-all - creates all artifacts for framework / application
+##
+## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
+## @version    v0.0.0
+##
+
+#// Description: builds artifacts: maps, screens, manual sources, manual
+#// MODES=dev
+
+bdmaps -abc
+bdman -b --src
+bdman -abc

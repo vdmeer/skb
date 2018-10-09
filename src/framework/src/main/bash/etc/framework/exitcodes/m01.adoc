@@ -1,0 +1,3 @@
+The program was not executed with _bash_ version 4 (or later). 
+Since it uses associative arrays, _bash_ 4 is a requirement to run the program. 
+Please install _bash_ version 4 or later.

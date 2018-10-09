@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+##
+## Identity for task build-cache
+##
+## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
+## @version    v0.0.0
+##
+
+ALIAS=bdc
+MODES="dev"
+DESCRIPTION="builds cache for screens and maps"
+EXEC_PATH=bin/tasks/dev
+
+TaskRequire $ID dir ${CONFIG_MAP["HOME"]}/cache

@@ -1,0 +1,3 @@
+Internal error: development issue. 
+The program did run into an unexpected error, which comes from a bug or development issues. 
+An error message should have been provided detailing the problem.

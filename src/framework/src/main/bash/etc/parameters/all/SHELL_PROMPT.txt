@@ -1,0 +1,5 @@
+        This option sets the prompt  for  the  shell.  The  default  value  is
+        `$FLAVOR: `. Since it is interpreted  on  load,  it  can  contain  any
+        command or script. It has full  access  to  all  framework  functions,
+        including color and effect printing.                                  
+                                                                              

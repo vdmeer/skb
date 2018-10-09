@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+##
+## Identity for CLI option mode
+##
+## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
+## @version    v0.0.0
+##
+
+SHORT=M
+ARGUMENT=MODE
+DESCRIPTION="set application mode: dev, build, use"

@@ -1,0 +1,2 @@
+rootProject.name = 'skb-framework'
+rootProject.buildFileName = "distribution.build"

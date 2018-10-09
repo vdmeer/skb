@@ -1,0 +1,5 @@
+One of the last steps of the initialization is to test for required external dependencies. 
+Most of them will have been defined by the tasks the program did load earlier. 
+This error code is used when one or more of those dependencies could not be found. 
+Note: the program will only terminate with the error code when the CLI option `--dependencies` is used. 
+In any other cases, tasks that require a dependency that is missing will simply (and quietly) be disabled.

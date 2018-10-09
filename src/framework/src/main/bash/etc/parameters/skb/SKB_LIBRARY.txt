@@ -1,0 +1,4 @@
+        Sets the directory for the SKB library.  This  directory  can  contain
+        actual publication artifacts, such as PDF files  or  sources  and  any
+        other material. The folder structure for the library is not fixed.    
+                                                                              

@@ -1,0 +1,3 @@
+Success. 
+If any command line option was used, then processing this option was successful. 
+If the shell was started, then it terminated successfully.

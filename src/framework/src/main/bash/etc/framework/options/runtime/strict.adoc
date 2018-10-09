@@ -1,0 +1,4 @@
+Runs the program in strict mode. 
+Here, all missing task dependencies are treated as errors. 
+Errors cause the program to fail initialization. 
+If not in strict mode, missing task dependencies result in the respective task not being loaded. 

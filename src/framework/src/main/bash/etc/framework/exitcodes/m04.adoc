@@ -1,0 +1,3 @@
+No home directory found. 
+The setting for home directory did either not point to a directory or the directory is not accessible. 
+Check the setting or the directory.

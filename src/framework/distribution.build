@@ -1,0 +1,96 @@
+
+plugins {
+    id "nebula.ospackage" version "4.6.0"
+    id "base"
+    id "distribution"
+}
+
+
+version = '0.0.0'
+description = 'SKB Framework'
+
+
+defaultTasks 'deb', 'rpm', 'tgz'
+
+ospackage {
+    preInstall file('src/package/preInstall.sh')
+    postInstall file('src/package/postInstall.sh')
+    preUninstall file('src/package/preUninstall.sh')
+    postUninstall file('src/package/postUninstall.sh')
+
+    priority = 'optional'
+    maintainer = 'Sven van der Meer <vdmeer.sven@mykolab.com>'
+    packageDescription = 'SKB Framework'
+    distribution = 'development'
+
+    into '/opt/skb/framework'
+
+    from('src/main/bash/bin') {
+        fileMode 0555
+        into 'bin'
+    }
+    from('src/main/bash/etc') {
+        fileMode 0664
+        into 'etc'
+    }
+    from('src/main/bash/man') {
+        fileMode 0444
+        into 'man'
+    }
+    from('src/main/bash/doc') {
+        fileMode 0444
+        into 'doc'
+    }
+    from('src/main/bash/scenarios') {
+        fileMode 0444
+        into 'scenarios'
+    }
+    from('build/libs') {
+        fileMode 0555
+        into 'bin/java'
+    }
+}
+
+task deb(type: Deb) {
+    archiveName = project.name + '-' + project.version + '.deb'
+    link('/usr/local/bin/skb-framework', '/opt/skb/framework/bin/skb-framework')
+    link('/usr/local/share/man/man1/skb-framework.1', '/opt/skb/framework/man/man1/skb-framework.1')
+}
+
+task rpm(type: Rpm) {
+    archiveName = project.name + '-' + project.version + '.rpm'
+    link('/usr/local/bin/skb-framework', '/opt/skb/framework/bin/skb-framework')
+    link('/usr/local/share/man/man1/skb-framework.1', '/opt/skb/framework/man/man1/skb-framework.1')
+}
+
+task tgz(type: Tar){
+    //project.ext.startDir = baseName +'-' + version
+    project.ext.startDir = baseName
+    extension = 'tar.gz'
+    compression = Compression.GZIP
+
+    from('src/main/bash/bin') {
+        fileMode 0555
+        into  project.ext.startDir + '/bin'
+    }
+    from('src/main/bash/etc') {
+        fileMode 0664
+        into  project.ext.startDir + '/etc'
+    }
+    from('src/main/bash/man') {
+        fileMode 0664
+        into  project.ext.startDir + '/man'
+    }
+    from('src/main/bash/doc') {
+        fileMode 0664
+        into  project.ext.startDir + '/doc'
+    }
+    from('src/main/bash/scenarios') {
+        fileMode 0664
+        into  project.ext.startDir + '/scenarios'
+    }
+    from('build/libs') {
+        fileMode 0444
+        into  project.ext.startDir + '/bin/java'
+    }
+}

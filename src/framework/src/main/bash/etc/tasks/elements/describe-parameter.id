@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+##
+## Identity for task describe-parameter
+##
+## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
+## @version    v0.0.0
+##
+
+ALIAS=dp
+MODES="dev build use"
+DESCRIPTION="describes a parameter"
+EXEC_PATH=bin/tasks/elements

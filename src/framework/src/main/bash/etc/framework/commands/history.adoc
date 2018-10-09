@@ -1,0 +1,5 @@
+Shows the history of shell commands. 
+Each command, once executed, is automatically added to the history, if the previous command was not exactly the same. 
+The history accepts an optional parameter _NUMBER_. 
+When a number (an integer) is given, the command with that number in the history will be executed. 
+If the number does not exist in the history, an error is printed.

@@ -1,0 +1,7 @@
+        Internal error: no configuration found. This error is  issued  by  the
+        configuration test script. It means that  the  shell  or  a  task  was
+        started outside the program. Please start the program and then use the
+        shell to execute tasks. In case this error status appears when a  task
+        was started from inside the shell, the installation is broken  or  the
+        software has a bug.                                                   
+                                                                              

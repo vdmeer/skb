@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+##
+## Identity for dependency pyyaml
+##
+## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
+## @version    v0.0.0
+##
+
+DESCRIPTION="YAML processor for Python3"
+REQUIRES=python3
+COMMAND="$FW_HOME/bin/scripts/python-module.sh yaml"

@@ -1,0 +1,4 @@
+        A task has found an error in its command line.  This  happens  when  a
+        task is parsing the command line  and  detects  one  or  more  unknown
+        options. Detailed error messages should have been printed.            
+                                                                              

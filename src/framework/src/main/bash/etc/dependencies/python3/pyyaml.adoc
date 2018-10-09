@@ -1,0 +1,4 @@
+Used by a some tasks that use Python3 to process YAML files.
+All of them require a python3 installation and PY-YAML installed to be executed.
+To install _pyyaml_, run for instance pip as `pip3 install pyyaml`
+For further information see the pyyaml home page: https://github.com/yaml/pyyaml .

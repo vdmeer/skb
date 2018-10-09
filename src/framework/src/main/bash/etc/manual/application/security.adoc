@@ -1,0 +1,4 @@
+This program executes arbitrary bash scripts, commands, and other programs (such as python scripts). 
+The number of attack vectors for this tool is virtually endless. 
+A simple attack is to create a local script in the target directory, which will be run if requested.
+Therefore, this tool should be used with care, probably by a dedicated user with limited access rights on the underlying operating system.

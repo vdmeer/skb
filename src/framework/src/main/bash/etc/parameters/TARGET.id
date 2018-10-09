@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+##
+## Identity for parameter TARGET
+##
+## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
+## @version    v0.0.0
+##
+
+DESCRIPTION="target folder"
+DEFAULT_VALUE=
+
+IS_DIRECTORY_CD=yes

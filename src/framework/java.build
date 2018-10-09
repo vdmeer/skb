@@ -1,0 +1,33 @@
+
+plugins {
+    id 'application'
+    id 'com.github.johnrengelman.shadow' version '4.0.1'
+}
+
+
+version = '0.0.0'
+description = 'SKB Framework Java Tool'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+defaultTasks 'java', 'shadowJar'
+
+repositories {
+    mavenCentral()
+}
+dependencies {
+    compile 'de.vandermeer:asciiparagraph:0.1.1'
+    compile 'de.vandermeer:asciilist:0.0.5'
+    testCompile 'junit:junit:4.12'
+}
+mainClassName = 'de.vandermeer.skb.framework.Tool'
+
+jar {
+    baseName = 'skb-framework-tool'
+}
+shadowJar {
+    mergeServiceFiles()
+    exclude 'CHANGELOG.*'
+    exclude 'README.*'
+}

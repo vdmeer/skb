@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+##
+# Identity for Shell command history
+##
+## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
+## @version    v0.0.0
+##
+
+SHORT=!
+ARGUMENT=NUMBER
+DESCRIPTION="show history or run history command"

@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+##
+## Identity for task start-browser
+##
+## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
+## @version    v0.0.0
+##
+
+ALIAS=spdf
+MODES="dev build use"
+DESCRIPTION="start a PDF reader with a PDF document"
+EXEC_PATH=bin/tasks/start
+
+TaskRequire $ID param PDF_READER opt

@@ -586,7 +586,7 @@ BuildManualCore() {
 BuildSrcPath() {
     local ADOC_PATH=$1
     local LEVEL=$2
-    local JAR=${CONFIG_MAP["SKB_TOOL"]}
+    local JAR=${CONFIG_MAP["SKB_FW_TOOL"]}
     local FILE
     local TARGET
 
@@ -600,8 +600,8 @@ BuildSrcPath() {
 
 BuildSrc() {
     ConsoleInfo "  -->" "build src"
-    if [ -z ${CONFIG_MAP["SKB_TOOL"]:-} ]; then
-        ConsoleError " ->" "src: no setting for SKB_TOOL found, cannot build"
+    if [ -z ${CONFIG_MAP["SKB_FW_TOOL"]:-} ]; then
+        ConsoleError " ->" "src: no setting for SKB_FW_TOOL found, cannot build"
         return
     fi
     if [ ! -z ${TESTED_DEPENDENCIES["jre8"]:-} ]; then

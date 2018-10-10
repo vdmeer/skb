@@ -101,6 +101,7 @@ while true; do
             ;;
         -h | --help)
             printf "\n   options\n"
+            BuildTaskHelpLine a all "<none>" "set all targets" $PRINT_PADDING
             BuildTaskHelpLine b build   "<none>"    "builds cache, requires a target"                   $PRINT_PADDING
             BuildTaskHelpLine c clean   "<none>"    "removes all cached maps and screens"               $PRINT_PADDING
             BuildTaskHelpLine d decl    "<none>"    "set all declaration targets"                       $PRINT_PADDING
@@ -108,7 +109,6 @@ while true; do
             BuildTaskHelpLine l list    "<none>"    "set all list targets"                              $PRINT_PADDING
             BuildTaskHelpLine t tab     "<none>"    "set all table targets"                             $PRINT_PADDING
             printf "\n   targets\n"
-            BuildTaskHelpLine a all "<none>" "set all targets" $PRINT_PADDING
 
             BuildTaskHelpLine "<none>" cmd-decl "<none>" "target: command declarations" $PRINT_PADDING
             BuildTaskHelpLine "<none>" cmd-tab "<none>" "target: command table" $PRINT_PADDING

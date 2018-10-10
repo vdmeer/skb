@@ -25,14 +25,16 @@ if [ -z ${__FW_LOADER_FLAVOR:-} ]; then
     export __FW_LOADER_SCRIPTNAME="$0"
     export __FW_LOADER_APPNAME="SKB Framework"
 
-    SF_HOME="`dirname \"$0\"`"
-    SF_HOME="`(cd \"$SF_HOME/..\" && pwd)`"
+    SF_HOME=$(readlink $0)
+    SF_HOME=${SF_HOME%/*}
+    SF_HOME=${SF_HOME%/*}
     export SF_HOME
 fi
 
-LOADER_PATH="`dirname \"$0\"`"
-LOADER_PATH="`(cd \"$LOADER_PATH\" && pwd)`"
+LOADER_PATH=$(readlink $0)
+LOADER_PATH=${LOADER_PATH%/*}
 $LOADER_PATH/loader/loader.sh $*
 __errno=$?
 exit $__errno
+
 

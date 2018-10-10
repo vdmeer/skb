@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+##
+## Identity for task cloc-inst
+##
+## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
+## @version    v0.0.0
+##
+
+ALIAS=cloci
+MODES="dev build use"
+DESCRIPTION="counts lines of code of an installation"
+EXEC_PATH=bin/tasks/mode-build
+
+TaskRequire $ID dep cloc opt

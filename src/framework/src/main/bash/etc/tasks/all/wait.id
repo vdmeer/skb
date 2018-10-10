@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+##
+## Identity for task wait
+##
+## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
+## @version    v0.0.0
+##
+
+ALIAS=w
+MODES="dev build use"
+DESCRIPTION="sleep for specified time"
+EXEC_PATH=bin/tasks/all

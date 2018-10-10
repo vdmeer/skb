@@ -156,20 +156,6 @@ FWInterpreter() {
             ShellAddCmdHistory
             ;;
 
-        wait | w)
-            printf "\n    wait/w requires the time in seconds as argument\n\n"
-            ;;
-        "wait "*)
-            SARG=${SCMD#*wait }
-            ShellCmdWait
-            ShellAddCmdHistory
-            ;;
-        "w "*)
-            SARG=${SCMD#*w }
-            ShellCmdWait
-            ShellAddCmdHistory
-            ;;
-
         "" | "#" | "#"* | "# "*)
             ;;
         *)

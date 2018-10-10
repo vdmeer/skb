@@ -135,7 +135,14 @@ fi
 
 case $TIMES in
     '' | *[!0-9.]* | '.' | *.*.*)
-        ConsoleError " ->" "repeat requires a number, got '$TIMES'"
+        ConsoleError " ->" "repeat times requires a number, got '$TIMES'"
+        exit 5
+        ;;
+esac
+
+case $WAIT in
+    '' | *[!0-9.]* | '.' | *.*.*)
+        ConsoleError " ->" "wait requires a number, got '$WAIT'"
         exit 5
         ;;
 esac
@@ -152,6 +159,7 @@ for (( _repeat=1; _repeat<=$TIMES; _repeat++ )); do
     printf "\n\n"
     SARG=$SCENARIO
     ShellCmdExecuteScenario
+    sleep $WAIT
     printf "\n"
 done
 

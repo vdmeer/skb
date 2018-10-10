@@ -21,7 +21,7 @@
 #-------------------------------------------------------------------------------
 
 ##
-## repeat-task - repeats a task
+## wait - sleep for specified time
 ##
 ## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
 ## @version    v0.0.0
@@ -59,20 +59,17 @@ ConsoleResetWarnings
 ##
 ## set local variables
 ##
-TIMES=1
-TASK=
-WAIT=1
-ARGS=
+SECONDS=1
 
 
 
 ##
 ## set CLI options and parse CLI
 ##
-CLI_OPTIONS=ht:w:
-CLI_LONG_OPTIONS=help,times:,wait:
+CLI_OPTIONS=hs:
+CLI_LONG_OPTIONS=help,seconds:
 
-! PARSED=$(getopt --options "$CLI_OPTIONS" --longoptions "$CLI_LONG_OPTIONS" --name repeat-task -- "$@")
+! PARSED=$(getopt --options "$CLI_OPTIONS" --longoptions "$CLI_LONG_OPTIONS" --name wait -- "$@")
 if [[ ${PIPESTATUS[0]} -ne 0 ]]; then
     ConsoleError "  ->" "unknown CLI options"
     exit 1
@@ -85,28 +82,16 @@ while true; do
         -h | --help)
             printf "\n   options\n"
             BuildTaskHelpLine h help    "<none>"    "print help screen and exit"        $PRINT_PADDING
-            BuildTaskHelpLine t times   "INT"       "repeat INT times"                  $PRINT_PADDING
-            BuildTaskHelpLine w wait    "SEC"       "wait SEC seconds between repeats"  $PRINT_PADDING
+            BuildTaskHelpLine s seconds "SEC"       "wait SEC seconds, default is 1"    $PRINT_PADDING
             exit 0
             ;;
-        -t | --times)
-            TIMES="$2"
-            shift 2
-            ;;
-        -w | --wait)
-            WAIT="$2"
+        -s | --seconds)
+            SECONDS="$2"
             shift 2
             ;;
 
         --)
             shift
-            TASK=${1-}
-            if [ ! -n "$TASK" ]; then
-                ConsoleError "  ->" "a task identifier / name is required"
-                exit 3
-            fi
-            shift
-            ARGS=$(printf '%s' "$*")
             break
             ;;
         *)
@@ -123,49 +108,17 @@ done
 ##
 ############################################################################################
 ERRNO=0
-ConsoleInfo "  -->" "rt: starting task"
+ConsoleInfo "  -->" "wait: starting task"
 
-__found=false
-TASK=$(GetTaskID $TASK)
-for ID in "${!LOADED_TASKS[@]}"; do
-    if [ "$ID" == "$TASK" ]; then
-        __found=true
-        break
-    fi
-done
-
-if [ $__found == false ]; then
-    ConsoleError "  ->" "unknown or unloaded task '$TASK'"
-    exit 4
-fi
-
-case $TIMES in
+case $SECONDS in
     '' | *[!0-9.]* | '.' | *.*.*)
-        ConsoleError " ->" "repeat times requires a number, got '$TIMES'"
+        ConsoleError " ->" "wait requires a number, got '$SECONDS'"
         exit 5
         ;;
 esac
 
-case $WAIT in
-    '' | *[!0-9.]* | '.' | *.*.*)
-        ConsoleError " ->" "wait requires a number, got '$WAIT'"
-        exit 5
-        ;;
-esac
+ConsoleDebug "waiting for $SECONDS seconds"
+sleep $SECONDS
 
-for (( _repeat=1; _repeat<=$TIMES; _repeat++ )); do
-    printf "\n\n    ["
-    PrintColor light-blue "${EFFECTS["INT_BOLD"]}run $_repeat of $TIMES"
-    printf ' %s %s %s' "--" $TASK $ARGS
-    printf "]\n    "
-    printf "${CHAR_MAP["MID_LINE"]}%.0s" {1..76}
-    printf "\n\n"
-    set +e
-    ${TASK_DECL_EXEC[$TASK]} $ARGS
-    set -e
-    sleep $WAIT
-    printf "\n"
-done
-
-ConsoleInfo "  -->" "rt: done"
+ConsoleInfo "  -->" "wait: done"
 exit $ERRNO

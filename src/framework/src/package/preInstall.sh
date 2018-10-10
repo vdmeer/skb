@@ -28,6 +28,7 @@ if ! getent passwd "skbuser" >/dev/null 2>&1
 then
     echo "creating user skbuser . . ."
     useradd -g skbuser skbuser
+    usermod -a -G skbuser skbuser
 fi
 
 # Create the skbuser home directory

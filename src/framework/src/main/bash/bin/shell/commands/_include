@@ -41,5 +41,4 @@ source $FW_HOME/bin/shell/commands/list-scenarios.sh
 source $FW_HOME/bin/shell/commands/manual.sh
 source $FW_HOME/bin/shell/commands/shell-level.sh
 source $FW_HOME/bin/shell/commands/task-level.sh
-source $FW_HOME/bin/shell/commands/wait.sh
 

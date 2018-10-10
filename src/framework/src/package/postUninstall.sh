@@ -13,6 +13,7 @@ if [ "$1" = "upgrade" ]; then
 fi
 
 # Check if a soft link for Framework exists, if so remove it
+echo " ==> removing symlinks"
 if [ -L "/usr/local/bin/skb-framework" ]; then
     rm /usr/local/bin/skb-framework
 fi
@@ -20,28 +21,37 @@ if [ -L "/usr/local/share/man/man1/skb-framework.1" ]; then
     rm /usr/local/share/man/man1/skb-framework.1
 fi
 
+echo " ==> removing /opt/skb-framework"
 rm -fr /opt/skb/framework
 
 if [ -d "/opt/skb" ]; then
-    if [ "`ls /opt/skb|wc -l`" == "0" ]; then
-        # no more SKB software installed, remove directory, user, and group
+    echo " ==> found /opt/skb"
+
+    if [ "`ls /opt/skb | wc -l`" == "0" ]; then
+        echo " ==> empty /opt/skb - removing directory/group/user"
+
+        echo " ==> removing /opt/skb"
         rmdir /opt/skb/
 
         if [ -e "/home/skbuser" ]; then
-            echo "deleting home directory of user skbuser . . ."
+            echo " ==> removing /home/skbuser"
             rm -fr /home/skbuser
         fi
 
         if getent passwd "skbuser" >/dev/null 2>&1
         then
-            echo "deleting user skbuser . . ."
+            echo " ==> deleting user skbuser"
             userdel skbuser
         fi
 
         if getent group "skbuser" >/dev/null 2>&1
         then
-            echo "deleting group skbuser . . ."
+            echo " ==> deleting group skbuser"
             groupdel skbuser
         fi
+
+        echo " ==> done"
+    else
+        echo " ==> none empty /opt/skb - leaving directory/group/user"
     fi
 fi

@@ -23,3 +23,5 @@ mkdir -p /opt/skb/framework/cache
 
 skb-framework -M dev -e bdc -- -abc
 chmod 644 /opt/skb/framework/cache/*
+
+chown -R skbuser:skbuser /opt/skb/framework

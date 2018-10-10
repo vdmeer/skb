@@ -110,6 +110,9 @@ SettingScreen() {
                 ;;
         esac
         str_len=${#sc_str}
+        if [ "$ID" == "SHELL_PROMPT" ]; then
+            str_len=${CONFIG_MAP["PROMPT_LENGTH"]}
+        fi
         padding=$(( 60 - $str_len ))
         printf '%*s' "$padding"
 

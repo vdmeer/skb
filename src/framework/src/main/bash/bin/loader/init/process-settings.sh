@@ -33,6 +33,38 @@
 ##
 
 
+
+##
+## function: ProcessShellPromptLength
+## - special treatment for shell prompt for length
+##
+ProcessShellPromptLength() {
+    local TMP_PRINT_MODE=${CONFIG_MAP["PRINT_MODE"]}
+    CONFIG_MAP["PRINT_MODE"]=text
+
+    local ENV_KEY=${CONFIG_MAP["FLAVOR"]}_SHELL_PROMPT
+    local SPROMPT
+    case ${CONFIG_SRC["SHELL_PROMPT"]} in
+        E)
+            SPROMPT="${!ENV_KEY:-}"
+            CONFIG_MAP["PROMPT_LENGTH"]=${#SPROMPT}
+            ;;
+        F)
+            source ${CONFIG_MAP["CONFIG_FILE"]}
+            SPROMPT="${!ENV_KEY:-}"
+            CONFIG_MAP["PROMPT_LENGTH"]=${#SPROMPT}
+            ;;
+        D)
+            SPROMPT=${PARAM_DECL_DEFVAL[$ENV_KEY]}
+            CONFIG_MAP["PROMPT_LENGTH"]=${#SPROMPT}
+            ;;
+    esac
+
+    CONFIG_MAP["PRINT_MODE"]=$TMP_PRINT_MODE
+}
+
+
+
 ##
 ## function: ProcessSettingsEnvironment
 ## - process settings: envrironment
@@ -55,6 +87,7 @@ ProcessSettingsEnvironment() {
     done
     ConsoleInfo "-->" "done"
 }
+
 
 
 ##
@@ -85,6 +118,7 @@ ProcessSettingsConfig() {
 }
 
 
+
 ##
 ## function: ProcessSettingsDefault
 ## - process settings: default values
@@ -108,6 +142,7 @@ ProcessSettingsDefault() {
 }
 
 
+
 ##
 ## function: ProcessSettings
 ## - process all settings
@@ -116,4 +151,5 @@ ProcessSettings() {
     ProcessSettingsEnvironment
     ProcessSettingsConfig
     ProcessSettingsDefault
+    ProcessShellPromptLength
 }

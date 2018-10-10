@@ -262,48 +262,78 @@ BuildManualCore() {
             printf "\n  "
             ;;
         text)
-            printf "\n  *NAME*\n  "
+            printf "\n  "
+            PrintEffect bold "NAME" text-anon
+            printf "\n  "
             ;;
     esac
-
     printf "%s - " "${CONFIG_MAP["APP_SCRIPT"]}"
     cat ${CONFIG_MAP["MANUAL_SRC"]}/tags/name.txt
     printf "\n\n"
 
     case $TARGET in
         adoc)
-            printf "== SYNOPSIS\n"
+            printf "== SYNOPSIS\n\n"
+            PrintEffect bold "${CONFIG_MAP["APP_SCRIPT"]}" $TARGET
+            printf " "
+            PrintEffect italic "OPTIONS" $TARGET
+            printf "\n\n"
             ;;
-        ansi | text)
+        ansi)
             printf "  "
             PrintEffect bold "SYNOPSIS" $TARGET
+            printf "\n\n    "
+            PrintEffect bold "${CONFIG_MAP["APP_SCRIPT"]}" $TARGET
+            printf " "
+            PrintEffect italic "OPTIONS" $TARGET
+            printf "\n"
+            ;;
+        text)
+            printf "  "
+            PrintEffect bold "SYNOPSIS" text-anon
+            printf "\n\n    "
+            PrintEffect bold "${CONFIG_MAP["APP_SCRIPT"]}" text-anon
+            printf " "
+            PrintEffect italic "OPTIONS" text-anon
+            printf "\n"
             ;;
     esac
-    printf "\n  %s [" "${CONFIG_MAP["APP_SCRIPT"]}"
-    PrintEffect italic "OPTIONS" $TARGET
-    printf "]\n  * will process the options\n\n"
+    printf "    - will process the options\n\n"
 
     case $TARGET in
         adoc)
-            printf "*%s*\n\n" "${CONFIG_MAP["APP_SCRIPT"]}"
+            printf "\n\n"
+            PrintEffect bold "${CONFIG_MAP["APP_SCRIPT"]}" $TARGET
+            printf "\n\n"
             ;;
-        ansi | text)
-            printf "  %s" "${CONFIG_MAP["APP_SCRIPT"]}"
+        ansi)
+            printf "\n\n    "
+            PrintEffect bold "${CONFIG_MAP["APP_SCRIPT"]}" $TARGET
+            printf "\n"
+            ;;
+        text)
+            printf "\n\n    "
+            PrintEffect bold "${CONFIG_MAP["APP_SCRIPT"]}" text-anon
             printf "\n"
             ;;
     esac
 
-    printf "  * will start the interactive shell\n"
-    printf "  * type 'h' or 'help' in the shell for commands\n"
+    printf "    - will start the interactive shell\n"
+    printf "    - type 'h' or 'help' in the shell for commands\n"
     printf "\n"
 
     case $TARGET in
         adoc)
             printf "== DESCRIPTION\n"
             ;;
-        ansi | text)
+        ansi)
             printf "  "
             PrintEffect bold "DESCRIPTION" $TARGET
+            printf "\n  "
+            ;;
+        text)
+            printf "  "
+            PrintEffect bold "DESCRIPTION" text-anon
             printf "\n  "
             ;;
     esac
@@ -317,9 +347,15 @@ BuildManualCore() {
             cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/options.adoc
             printf "\n\n"
             ;;
-        ansi | text)
+        ansi)
             printf "\n\n  "
             PrintEffect bold "OPTIONS" $TARGET
+            printf "\n"
+            cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/options.txt
+            ;;
+        text)
+            printf "\n\n  "
+            PrintEffect bold "OPTIONS" text-anon
             printf "\n"
             cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/options.txt
             ;;
@@ -331,9 +367,15 @@ BuildManualCore() {
             cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/runtime-options.adoc
             printf "\n\n"
             ;;
-        ansi | text)
+        ansi)
             printf "    "
             PrintEffect bold "Runtime OPTIONS" $TARGET
+            printf "\n"
+            cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/runtime-options.txt
+            ;;
+        text)
+            printf "    "
+            PrintEffect bold "Runtime OPTIONS" text-anon
             printf "\n"
             cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/runtime-options.txt
             ;;
@@ -350,9 +392,15 @@ BuildManualCore() {
             cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/exit-options.adoc
             printf "\n\n"
             ;;
-        ansi | text)
+        ansi)
             printf "    "
             PrintEffect bold "Exit OPTIONS" $TARGET
+            printf "\n"
+            cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/exit-options.txt
+            ;;
+        text)
+            printf "    "
+            PrintEffect bold "Exit OPTIONS" text-anon
             printf "\n"
             cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/exit-options.txt
             ;;
@@ -369,9 +417,15 @@ BuildManualCore() {
             cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/parameters.adoc
             printf "\n\n"
             ;;
-        ansi | text)
+        ansi)
             printf "  "
             PrintEffect bold "PARAMETERS" $TARGET
+            printf "\n"
+            cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/parameters.txt
+            ;;
+        text)
+            printf "  "
+            PrintEffect bold "PARAMETERS" text-anon
             printf "\n"
             cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/parameters.txt
             ;;
@@ -388,9 +442,15 @@ BuildManualCore() {
             cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/tasks.adoc
             printf "\n\n"
             ;;
-        ansi | text)
+        ansi)
             printf "  "
             PrintEffect bold "TASKS" $TARGET
+            printf "\n"
+            cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/tasks.txt
+            ;;
+        text)
+            printf "  "
+            PrintEffect bold "TASKS" text-anon
             printf "\n"
             cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/tasks.txt
             ;;
@@ -407,9 +467,15 @@ BuildManualCore() {
             cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/dependencies.adoc
             printf "\n\n"
             ;;
-        ansi | text)
+        ansi)
             printf "  "
             PrintEffect bold "DEPENDENCIES" $TARGET
+            printf "\n"
+            cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/dependencies.txt
+            ;;
+        text)
+            printf "  "
+            PrintEffect bold "DEPENDENCIES" text-anon
             printf "\n"
             cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/dependencies.txt
             ;;
@@ -426,11 +492,17 @@ BuildManualCore() {
             cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/commands.adoc
             printf "\n\n"
             ;;
-        ansi | text)
+        ansi)
             printf "  "
             PrintEffect bold "SHELL COMMANDS" $TARGET
             printf "\n"
             cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/commands.txt
+            ;;
+        text)
+            printf "  "
+            PrintEffect bold "DEPENDENCIES" text-anon
+            printf "\n"
+            cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/dependencies.txt
             ;;
     esac
 
@@ -445,9 +517,15 @@ BuildManualCore() {
             cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/exit-status.adoc
             printf "\n\n"
             ;;
-        ansi | text)
+        ansi)
             printf "  "
             PrintEffect bold "EXIT STATUS" $TARGET
+            printf "\n"
+            cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/exit-status.txt
+            ;;
+        text)
+            printf "  "
+            PrintEffect bold "EXIT STATUS" text-anon
             printf "\n"
             cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/exit-status.txt
             ;;
@@ -460,9 +538,15 @@ BuildManualCore() {
             cat ${CONFIG_MAP["MANUAL_SRC"]}/application/security.adoc
             printf "\n\n"
             ;;
-        ansi | text)
+        ansi)
             printf "  "
             PrintEffect bold "SECURITY CONCERNS" $TARGET
+            printf "\n"
+            cat ${CONFIG_MAP["MANUAL_SRC"]}/application/security.txt
+            ;;
+        text)
+            printf "  "
+            PrintEffect bold "SECURITY CONCERNS" text-anon
             printf "\n"
             cat ${CONFIG_MAP["MANUAL_SRC"]}/application/security.txt
             ;;
@@ -475,9 +559,15 @@ BuildManualCore() {
             cat ${CONFIG_MAP["MANUAL_SRC"]}/application/bugs.adoc
             printf "\n\n"
             ;;
-        ansi | text)
+        ansi)
             printf "  "
             PrintEffect bold "BUGS" $TARGET
+            printf "\n"
+            cat ${CONFIG_MAP["MANUAL_SRC"]}/application/bugs.txt
+            ;;
+        text)
+            printf "  "
+            PrintEffect bold "BUGS" text-anon
             printf "\n"
             cat ${CONFIG_MAP["MANUAL_SRC"]}/application/bugs.txt
             ;;
@@ -490,9 +580,15 @@ BuildManualCore() {
             cat ${CONFIG_MAP["MANUAL_SRC"]}/application/authors.adoc
             printf "\n\n"
             ;;
-        ansi | text)
+        ansi)
             printf "  "
             PrintEffect bold "AUTHORS" $TARGET
+            printf "\n"
+            cat ${CONFIG_MAP["MANUAL_SRC"]}/application/authors.txt
+            ;;
+        text)
+            printf "  "
+            PrintEffect bold "AUTHORS" text-anon
             printf "\n"
             cat ${CONFIG_MAP["MANUAL_SRC"]}/application/authors.txt
             ;;
@@ -505,9 +601,15 @@ BuildManualCore() {
             cat ${CONFIG_MAP["MANUAL_SRC"]}/application/resources.adoc
             printf "\n\n"
             ;;
-        ansi | text)
+        ansi)
             printf "  "
             PrintEffect bold "RESOURCES" $TARGET
+            printf "\n"
+            cat ${CONFIG_MAP["MANUAL_SRC"]}/application/resources.txt
+            ;;
+        text)
+            printf "  "
+            PrintEffect bold "RESOURCES" text-anon
             printf "\n"
             cat ${CONFIG_MAP["MANUAL_SRC"]}/application/resources.txt
             ;;
@@ -520,9 +622,15 @@ BuildManualCore() {
             cat ${CONFIG_MAP["MANUAL_SRC"]}/application/copying.adoc
             printf "\n\n"
             ;;
-        ansi | text)
+        ansi)
             printf "  "
             PrintEffect bold "COPYING" $TARGET
+            printf "\n"
+            cat ${CONFIG_MAP["MANUAL_SRC"]}/application/copying.txt
+            ;;
+        text)
+            printf "  "
+            PrintEffect bold "COPYING" text-anon
             printf "\n"
             cat ${CONFIG_MAP["MANUAL_SRC"]}/application/copying.txt
             ;;
@@ -818,6 +926,7 @@ if [ $DO_BUILD == true ]; then
             manp)   BuildManp ;;
             pdf)    BuildPdf ;;
             text)   BuildText "ansi text" ;;
+            src)    ;;
             *)      ConsoleError " ->" "build, unknown target '$TODO'"
         esac
     done
@@ -833,6 +942,7 @@ if [ $DO_TEST == true ]; then
             manp)   TestManp ;;
             pdf)    TestPdf ;;
             text)   TestText "ansi text" ;;
+            src)    ;;
             *)      ConsoleError " ->" "build, unknown target '$TODO'"
         esac
     done

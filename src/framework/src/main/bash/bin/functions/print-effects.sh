@@ -56,7 +56,8 @@ PrintEffect() {
                 *)              ConsoleError "  -->" "print-effect: unknown effect: $1"
             esac
             ;;
-        adoc | text)
+        text)                   printf "%s" "$2" ;;
+        adoc | text-anon)
             case "$1" in
                 bold)           printf "*%s*" "$2" ;;
                 italic)         printf "_%s_" "$2" ;;

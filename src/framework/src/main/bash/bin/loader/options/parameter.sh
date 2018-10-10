@@ -33,4 +33,4 @@
 ##
 
 
-DescribeParameter ${OPT_CLI_MAP["parameter"]^^} full "enter ${CONFIG_MAP["$PRINT_MODE"]} line-indent"
+DescribeParameter ${OPT_CLI_MAP["parameter"]^^} full "enter ${CONFIG_MAP["PRINT_MODE"]} line-indent"

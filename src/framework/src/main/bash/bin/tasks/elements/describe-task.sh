@@ -288,7 +288,7 @@ keys=($(printf '%s\n' "${keys[@]:-}"|sort))
 
 for i in ${!keys[@]}; do
     ID=${keys[$i]}
-    DescribeTask $ID full "enter $PRINT_MODE line-indent" $PRINT_MODE
+    DescribeTask $ID full "$PRINT_MODE line-indent" $PRINT_MODE
 done
 
 ConsoleInfo "  -->" "dt: done"

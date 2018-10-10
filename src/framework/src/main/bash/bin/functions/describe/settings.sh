@@ -100,7 +100,12 @@ SettingScreen() {
             FLAVOR)
                 PrintEffect bold "$sc_str"
                 ;;
+            FW_HOME | HOME)
+                printf '%s' "$sc_str"
+                ;;
             *)
+                sc_str=${sc_str/${CONFIG_MAP["FW_HOME"]}/\$FW_HOME}
+                sc_str=${sc_str/${CONFIG_MAP["HOME"]}/\$HOME}
                 printf '%s' "$sc_str"
                 ;;
         esac

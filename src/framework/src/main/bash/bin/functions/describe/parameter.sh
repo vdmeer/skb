@@ -95,7 +95,15 @@ DescribeParameter() {
     local ORIGIN=${PARAM_DECL_MAP[$ID]%:::*}
     local DEFAULT_VALUE=${PARAM_DECL_DEFVAL[$ID]}
     if [ "$DEFAULT_VALUE" == "" ]; then
-        DEFAULT_VALUE="<none>"
+        DEFAULT_VALUE="none defined"
+    else
+        DEFAULT_VALUE=${DEFAULT_VALUE/${CONFIG_MAP["FW_HOME"]}/\$FW_HOME}
+        DEFAULT_VALUE=${DEFAULT_VALUE/${CONFIG_MAP["HOME"]}/\$HOME}
+        if [ "${4:-}" == "adoc" ] || [ "${CONFIG_MAP["PRINT_MODE"]}" == "adoc" ]; then
+            DEFAULT_VALUE="\`"$DEFAULT_VALUE"\`"
+        else
+            DEFAULT_VALUE='"'$DEFAULT_VALUE'"'
+        fi
     fi
 
     local TEMPLATE="%ID%"
@@ -103,7 +111,7 @@ DescribeParameter() {
         TEMPLATE+=" - %DESCRIPTION%"
     fi
     if [ "$PRINT_OPTION" == "default-value" ]; then
-        TEMPLATE="\`%DEFAULT_VALUE%\`"
+        TEMPLATE="%DEFAULT_VALUE%"
     fi
     if [ "${4:-}" == "adoc" ] || [ "${CONFIG_MAP["PRINT_MODE"]}" == "adoc" ]; then
         TEMPLATE+=":: "
@@ -120,17 +128,14 @@ DescribeParameter() {
             SPRINT+=${ORIGIN:0:1}
             ;;
         standard | full | default-value)
-            if [ ! -z ${4:-} ]; then
-                local TMP_MODE=${CONFIG_MAP["PRINT_MODE"]}
-                CONFIG_MAP["PRINT_MODE"]=$4
+            local TMP_MODE=${4:-}
+            if [ "$TMP_MODE" == "" ]; then
+                TMP_MODE=${CONFIG_MAP["PRINT_MODE"]}
             fi
-            TEMPLATE=${TEMPLATE//%ID%/$(PrintEffect bold "$ID")}
-            TEMPLATE=${TEMPLATE//%DEFAULT_VALUE%/$(PrintEffect italic "$DEFAULT_VALUE")}
+            TEMPLATE=${TEMPLATE//%ID%/$(PrintEffect bold "$ID" $TMP_MODE)}
+            TEMPLATE=${TEMPLATE//%DEFAULT_VALUE%/$(PrintEffect italic "$DEFAULT_VALUE" $TMP_MODE)}
             TEMPLATE=${TEMPLATE//%DESCRIPTION%/"$DESCRIPTION"}
             SPRINT+=$TEMPLATE
-            if [ ! -z ${4:-} ]; then
-                CONFIG_MAP["PRINT_MODE"]=TMP_MODE
-            fi
             ;;
         *)
             ConsoleError " ->" "describe-param - unknown print option '$PRINT_OPTION'"

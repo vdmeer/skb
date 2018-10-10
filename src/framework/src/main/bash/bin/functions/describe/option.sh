@@ -140,18 +140,15 @@ DescribeOption() {
             SPRINT+=$ORIGIN
             ;;
         standard | full)
-            if [ ! -z ${4:-} ]; then
-                local TMP_MODE=${CONFIG_MAP["PRINT_MODE"]}
-                CONFIG_MAP["PRINT_MODE"]=$4
+            local TMP_MODE=${4:-}
+            if [ "$TMP_MODE" == "" ]; then
+                TMP_MODE=${CONFIG_MAP["PRINT_MODE"]}
             fi
-            TEMPLATE=${TEMPLATE//%SHORT%/$(PrintEffect bold "$SHORT")}
-            TEMPLATE=${TEMPLATE//%LONG%/$(PrintEffect bold "$LONG")}
-            TEMPLATE=${TEMPLATE//%ARGUMENT%/$(PrintColor light-blue "$ARGUMENT")}
+            TEMPLATE=${TEMPLATE//%SHORT%/$(PrintEffect bold "$SHORT" $TMP_MODE)}
+            TEMPLATE=${TEMPLATE//%LONG%/$(PrintEffect bold "$LONG" $TMP_MODE)}
+            TEMPLATE=${TEMPLATE//%ARGUMENT%/$(PrintColor light-blue "$ARGUMENT" $TMP_MODE)}
             TEMPLATE=${TEMPLATE//%DESCRIPTION%/"$DESCRIPTION"}
             SPRINT+=$TEMPLATE
-            if [ ! -z ${4:-} ]; then
-                CONFIG_MAP["PRINT_MODE"]=TMP_MODE
-            fi
             ;;
         *)
             ConsoleError " ->" "describe-task - unknown print option '$PRINT_OPTION'"
@@ -172,6 +169,10 @@ DescribeOption() {
                 cat ${CONFIG_MAP["FW_HOME"]}/${FW_PATH_MAP["OPTIONS"]}/runtime/$SOURCE
                 ;;
         esac
+    fi
+
+    if [ "${4:-}" == "adoc" ] || [ "${CONFIG_MAP["PRINT_MODE"]}" == "adoc" ]; then
+        printf "\n\n"
     fi
 }
 

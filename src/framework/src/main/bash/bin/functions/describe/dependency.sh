@@ -104,16 +104,13 @@ DescribeDependency() {
             SPRINT+=${ORIGIN:0:1}
             ;;
         standard | full)
-            if [ ! -z ${4:-} ]; then
-                local TMP_MODE=${CONFIG_MAP["PRINT_MODE"]}
-                CONFIG_MAP["PRINT_MODE"]=$4
+            local TMP_MODE=${4:-}
+            if [ "$TMP_MODE" == "" ]; then
+                TMP_MODE=${CONFIG_MAP["PRINT_MODE"]}
             fi
-            TEMPLATE=${TEMPLATE//%ID%/$(PrintEffect bold "$ID")}
+            TEMPLATE=${TEMPLATE//%ID%/$(PrintEffect bold "$ID" $TMP_MODE)}
             TEMPLATE=${TEMPLATE//%DESCRIPTION%/"$DESCRIPTION"}
             SPRINT+=$TEMPLATE
-            if [ ! -z ${4:-} ]; then
-                CONFIG_MAP["PRINT_MODE"]=TMP_MODE
-            fi
             ;;
         *)
             ConsoleError " ->" "describe-dependency - unknown print option '$PRINT_OPTION'"
@@ -127,6 +124,10 @@ DescribeDependency() {
     if [ -n "$SOURCE" ]; then
         printf "\n"
         cat $SOURCE
+    fi
+
+    if [ "${4:-}" == "adoc" ] || [ "${CONFIG_MAP["PRINT_MODE"]}" == "adoc" ]; then
+        printf "\n\n"
     fi
 }
 

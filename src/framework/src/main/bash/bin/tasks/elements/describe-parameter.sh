@@ -236,7 +236,7 @@ keys=($(printf '%s\n' "${keys[@]:-}"|sort))
 
 for i in ${!keys[@]}; do
     ID=${keys[$i]}
-    DescribeParameter $ID full "enter $PRINT_MODE line-indent" $PRINT_MODE
+    DescribeParameter $ID full "$PRINT_MODE line-indent" $PRINT_MODE
 done
 
 ConsoleInfo "  -->" "dp: done"

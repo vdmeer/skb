@@ -88,7 +88,7 @@ ShellCmdExecuteTask() {
         TIME=$(date +"%T")
 
         PrintEffect bold "  $ID"
-        PrintEffect italic " $TIME executing task "
+        PrintEffect italic " $TIME executing task"
         if [ -n "$TARG" ]; then
             printf " with option(s): "
             PrintEffect bold "$TARG"

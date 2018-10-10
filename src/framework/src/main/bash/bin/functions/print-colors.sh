@@ -39,10 +39,16 @@
 ## $1: color: black, red, green, brown, blue, purple, cyan, light-gray, dark-gray
 ##            light-red, light-green, yellow, light-blue, light-purple, light-cyan
 ## $2: message
+## $3: print mode, opional
 ## - does not print a line feed
 ##
 PrintColor() {
-    case ${CONFIG_MAP["PRINT_MODE"]} in
+    local PRINT_MODE=${3:-}
+    if [ "$PRINT_MODE" == "" ]; then
+        PRINT_MODE=${CONFIG_MAP["PRINT_MODE"]}
+    fi
+
+    case $PRINT_MODE in
         ansi)
             case "$1" in
                 black)          printf "${COLORS["BLACK"]}" ;;

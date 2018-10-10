@@ -257,8 +257,8 @@ BuildManualCore() {
             printf "== NAME\n"
             ;;
         ansi)
-            printf "\n"
-            PrintEffect bold "  NAME"
+            printf "\n  "
+            PrintEffect bold "NAME" $TARGET
             printf "\n  "
             ;;
         text)
@@ -273,24 +273,15 @@ BuildManualCore() {
     case $TARGET in
         adoc)
             printf "== SYNOPSIS\n"
-            printf "*%s* [_OPTIONS_]\n\n" "${CONFIG_MAP["APP_SCRIPT"]}"
             ;;
-        ansi)
-            PrintEffect bold "  SYNOPSIS"
-            printf "\n"
-            printf "  %s [" "${CONFIG_MAP["APP_SCRIPT"]}"
-            PrintEffect italic "OPTIONS"
-            printf "]"
-            printf "\n"
-            ;;
-        text)
-            printf "  *SYNOPSIS*\n"
-            printf "  %s [_OPTIONS_]\n" "${CONFIG_MAP["APP_SCRIPT"]}"
+        ansi | text)
+            printf "  "
+            PrintEffect bold "SYNOPSIS" $TARGET
             ;;
     esac
-
-    printf "  * will process the options\n"
-    printf "\n"
+    printf "\n  %s [" "${CONFIG_MAP["APP_SCRIPT"]}"
+    PrintEffect italic "OPTIONS" $TARGET
+    printf "]\n  * will process the options\n\n"
 
     case $TARGET in
         adoc)
@@ -310,295 +301,232 @@ BuildManualCore() {
         adoc)
             printf "== DESCRIPTION\n"
             ;;
-        ansi)
-            PrintEffect bold "  DESCRIPTION"
+        ansi | text)
+            printf "  "
+            PrintEffect bold "DESCRIPTION" $TARGET
             printf "\n  "
-            ;;
-        text)
-            printf "  *DESCRIPTION*\n  "
             ;;
     esac
 
     printf "The %s(1) " "${CONFIG_MAP["APP_SCRIPT"]}"
     cat ${CONFIG_MAP["MANUAL_SRC"]}/tags/description.txt
-    printf "\n\n"
 
-
-    printf "\n"
     case $TARGET in
         adoc)
-            printf "== OPTIONS\n"
+            printf "\n\n== OPTIONS\n"
             cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/options.adoc
-            printf "\n"
-            ;;
-        ansi)
-            PrintEffect bold "  OPTIONS"
             printf "\n\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/options.txt
             ;;
-        text)
-            printf "  *OPTIONS*\n\n"
+        ansi | text)
+            printf "\n\n  "
+            PrintEffect bold "OPTIONS" $TARGET
+            printf "\n"
             cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/options.txt
             ;;
     esac
-    printf "\n\n"
 
-
-    printf "\n"
     case $TARGET in
         adoc)
-            printf "=== Runtime OPTIONS\n"
+            printf "\n\n=== Runtime OPTIONS\n"
             cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/runtime-options.adoc
-            printf "\n"
-            ;;
-        ansi)
-            PrintEffect bold "    Runtime OPTIONS"
             printf "\n\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/runtime-options.txt
             ;;
-        text)
-            printf "    *Runtime OPTIONS*\n\n"
+        ansi | text)
+            printf "    "
+            PrintEffect bold "Runtime OPTIONS" $TARGET
+            printf "\n"
             cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/runtime-options.txt
             ;;
     esac
-    printf "\n"
 
     set +e
     ${TASK_DECL_EXEC["describe-option"]} --runtime --print-mode $TARGET
     set -e
-    printf "\n"
 
 
-    printf "\n"
     case $TARGET in
         adoc)
-            printf "=== Exit OPTIONS\n"
+            printf "\n\n=== Exit OPTIONS\n"
             cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/exit-options.adoc
-            printf "\n"
-            ;;
-        ansi)
-            PrintEffect bold "    Exit OPTIONS"
             printf "\n\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/exit-options.txt
             ;;
-        text)
-            printf "    *Exit OPTIONS*\n\n"
+        ansi | text)
+            printf "    "
+            PrintEffect bold "Exit OPTIONS" $TARGET
+            printf "\n"
             cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/exit-options.txt
             ;;
     esac
-    printf "\n"
 
     set +e
     ${TASK_DECL_EXEC["describe-option"]} --exit --print-mode $TARGET
     set -e
-    printf "\n"
 
 
-    printf "\n"
     case $TARGET in
         adoc)
-            printf "== PARAMETERS\n"
+            printf "\n\n== PARAMETERS\n"
             cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/parameters.adoc
-            printf "\n"
-            ;;
-        ansi)
-            PrintEffect bold "  PARAMETERS"
             printf "\n\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/parameters.txt
             ;;
-        text)
-            printf "  *PARAMETERS*\n\n"
+        ansi | text)
+            printf "  "
+            PrintEffect bold "PARAMETERS" $TARGET
+            printf "\n"
             cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/parameters.txt
             ;;
     esac
-    printf "\n"
 
     set +e
     ${TASK_DECL_EXEC["describe-parameter"]} --all --print-mode $TARGET
     set -e
-    printf "\n"
 
 
-    printf "\n"
     case $TARGET in
         adoc)
-            printf "== TASKS\n"
+            printf "\n\n== TASKS\n"
             cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/tasks.adoc
-            printf "\n"
-            ;;
-        ansi)
-            PrintEffect bold "  TASKS"
             printf "\n\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/tasks.txt
             ;;
-        text)
-            printf "  *TASKS*\n\n"
+        ansi | text)
+            printf "  "
+            PrintEffect bold "TASKS" $TARGET
+            printf "\n"
             cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/tasks.txt
             ;;
     esac
-    printf "\n"
 
     set +e
     ${TASK_DECL_EXEC["describe-task"]} --all --print-mode $TARGET
     set -e
-    printf "\n"
 
 
-    printf "\n"
     case $TARGET in
         adoc)
-            printf "== DEPENDENCIES\n"
+            printf "\n\n== DEPENDENCIES\n"
             cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/dependencies.adoc
-            printf "\n"
-            ;;
-        ansi)
-            PrintEffect bold "  DEPENDENCIES"
             printf "\n\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/dependencies.txt
             ;;
-        text)
-            printf "  *DEPENDENCIES*\n\n"
+        ansi | text)
+            printf "  "
+            PrintEffect bold "DEPENDENCIES" $TARGET
+            printf "\n"
             cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/dependencies.txt
             ;;
     esac
-    printf "\n"
 
     set +e
     ${TASK_DECL_EXEC["describe-dependency"]} --all --print-mode $TARGET
     set -e
-    printf "\n"
 
 
-    printf "\n"
     case $TARGET in
         adoc)
-            printf "== SHELL COMMANDS\n"
+            printf "\n\n== SHELL COMMANDS\n"
             cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/commands.adoc
-            printf "\n"
-            ;;
-        ansi)
-            PrintEffect bold "  SHELL COMMANDS"
             printf "\n\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/commands.txt
             ;;
-        text)
-            printf "  *SHELL COMMANDS*\n\n"
+        ansi | text)
+            printf "  "
+            PrintEffect bold "SHELL COMMANDS" $TARGET
+            printf "\n"
             cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/commands.txt
             ;;
     esac
-    printf "\n"
+
+    set +e
+    ${TASK_DECL_EXEC["describe-command"]} --all --print-mode $TARGET
+    set -e
 
 
-    printf "\n"
     case $TARGET in
         adoc)
-            printf "== EXIT STATUS\n"
+            printf "\n\n== EXIT STATUS\n"
             cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/exit-status.adoc
+            printf "\n\n"
+            ;;
+        ansi | text)
+            printf "  "
+            PrintEffect bold "EXIT STATUS" $TARGET
             printf "\n"
-            ;;
-        ansi)
-            PrintEffect bold "  EXIT STATUS"
-            printf "\n\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/exit-status.txt
-            ;;
-        text)
-            printf "  *EXIT STATUS*\n\n"
             cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/exit-status.txt
             ;;
     esac
-    printf "\n"
 
 
-
-    printf "\n"
     case $TARGET in
         adoc)
-            printf "== SECURITY CONCERNS\n"
+            printf "\n\n== SECURITY CONCERNS\n"
             cat ${CONFIG_MAP["MANUAL_SRC"]}/application/security.adoc
-            ;;
-        ansi)
-            PrintEffect bold "  SECURITY CONCERNS"
             printf "\n\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/application/security.txt
             ;;
-        text)
-            printf "  *SECURITY CONCERNS*\n\n"
+        ansi | text)
+            printf "  "
+            PrintEffect bold "SECURITY CONCERNS" $TARGET
+            printf "\n"
             cat ${CONFIG_MAP["MANUAL_SRC"]}/application/security.txt
             ;;
     esac
-    printf "\n"
 
-    printf "\n"
+
     case $TARGET in
         adoc)
-            printf "== BUGS\n"
+            printf "\n\n== BUGS\n"
             cat ${CONFIG_MAP["MANUAL_SRC"]}/application/bugs.adoc
-            ;;
-        ansi)
-            PrintEffect bold "  BUGS"
             printf "\n\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/application/bugs.txt
             ;;
-        text)
-            printf "  *BUGS*\n\n"
+        ansi | text)
+            printf "  "
+            PrintEffect bold "BUGS" $TARGET
+            printf "\n"
             cat ${CONFIG_MAP["MANUAL_SRC"]}/application/bugs.txt
             ;;
     esac
-    printf "\n"
 
-    printf "\n"
+
     case $TARGET in
         adoc)
-            printf "== AUTHORS\n"
+            printf "\n\n== AUTHORS\n"
             cat ${CONFIG_MAP["MANUAL_SRC"]}/application/authors.adoc
-            ;;
-        ansi)
-            PrintEffect bold "  AUTHORS"
             printf "\n\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/application/authors.txt
             ;;
-        text)
-            printf "  *AUTHORS*\n\n"
+        ansi | text)
+            printf "  "
+            PrintEffect bold "AUTHORS" $TARGET
+            printf "\n"
             cat ${CONFIG_MAP["MANUAL_SRC"]}/application/authors.txt
             ;;
     esac
-    printf "\n"
 
-    printf "\n"
+
     case $TARGET in
         adoc)
-            printf "== RESOURCES\n"
+            printf "\n\n== RESOURCES\n"
             cat ${CONFIG_MAP["MANUAL_SRC"]}/application/resources.adoc
-            ;;
-        ansi)
-            PrintEffect bold "  RESOURCES"
             printf "\n\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/application/resources.txt
             ;;
-        text)
-            printf "  *RESOURCES*\n\n"
+        ansi | text)
+            printf "  "
+            PrintEffect bold "RESOURCES" $TARGET
+            printf "\n"
             cat ${CONFIG_MAP["MANUAL_SRC"]}/application/resources.txt
             ;;
     esac
-    printf "\n"
 
-    printf "\n"
+
     case $TARGET in
         adoc)
-            printf "== COPYING\n"
+            printf "\n\n== COPYING\n"
             cat ${CONFIG_MAP["MANUAL_SRC"]}/application/copying.adoc
-            ;;
-        ansi)
-            PrintEffect bold "  COPYING"
             printf "\n\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/application/copying.txt
             ;;
-        text)
-            printf "  *COPYING*\n\n"
+        ansi | text)
+            printf "  "
+            PrintEffect bold "COPYING" $TARGET
+            printf "\n"
             cat ${CONFIG_MAP["MANUAL_SRC"]}/application/copying.txt
             ;;
     esac
-    printf "\n"
 
     printf "\n"
 }

@@ -166,7 +166,7 @@ keys=($(printf '%s\n' "${keys[@]:-}"|sort))
 
 for i in ${!keys[@]}; do
     ID=${keys[$i]}
-    DescribeCommand $ID full "enter $PRINT_MODE line-indent" $PRINT_MODE
+    DescribeCommand $ID full "$PRINT_MODE line-indent" $PRINT_MODE
 done
 
 ConsoleInfo "  -->" "dc: done"

@@ -194,7 +194,7 @@ keys=($(printf '%s\n' "${keys[@]:-}"|sort))
 
 for i in ${!keys[@]}; do
     ID=${keys[$i]}
-    DescribeOption $ID full "enter $PRINT_MODE line-indent" $PRINT_MODE
+    DescribeOption $ID full "$PRINT_MODE line-indent" $PRINT_MODE
 done
 
 ConsoleInfo "  -->" "do: done"

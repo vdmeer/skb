@@ -38,10 +38,16 @@
 ## function: PrintEffect
 ## $1: effect: bold, italic, reverse
 ## $2: message
+## $3: print mode, opional
 ## - does not print a line feed
 ##
 PrintEffect() {
-    case ${CONFIG_MAP["PRINT_MODE"]} in
+    local PRINT_MODE=${3:-}
+    if [ "$PRINT_MODE" == "" ]; then
+        PRINT_MODE=${CONFIG_MAP["PRINT_MODE"]}
+    fi
+
+    case $PRINT_MODE in
         ansi)
             case "$1" in
                 bold)           printf "${EFFECTS["INT_BOLD"]}%s${EFFECTS["INT_FAINT"]}${COLORS["WHITE"]}${COLORS["NORMAL"]}" "$2" ;;
@@ -50,8 +56,7 @@ PrintEffect() {
                 *)              ConsoleError "  -->" "print-effect: unknown effect: $1"
             esac
             ;;
-        text)   printf "%s" "$2" ;;
-        adoc)
+        adoc | text)
             case "$1" in
                 bold)           printf "*%s*" "$2" ;;
                 italic)         printf "_%s_" "$2" ;;

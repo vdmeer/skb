@@ -55,7 +55,7 @@ ProcessShellPromptLength() {
             CONFIG_MAP["PROMPT_LENGTH"]=${#SPROMPT}
             ;;
         D)
-            SPROMPT=${PARAM_DECL_DEFVAL[$ENV_KEY]}
+            SPROMPT=${PARAM_DECL_DEFVAL["SHELL_PROMPT"]}
             CONFIG_MAP["PROMPT_LENGTH"]=${#SPROMPT}
             ;;
     esac

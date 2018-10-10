@@ -298,21 +298,21 @@ BuildManualCore() {
             printf "\n"
             ;;
     esac
-    printf "    - will process the options\n\n"
+    printf "    - will process the options\n"
 
     case $TARGET in
         adoc)
-            printf "\n\n"
+            printf "\n"
             PrintEffect bold "${CONFIG_MAP["APP_SCRIPT"]}" $TARGET
             printf "\n\n"
             ;;
         ansi)
-            printf "\n\n    "
+            printf "\n    "
             PrintEffect bold "${CONFIG_MAP["APP_SCRIPT"]}" $TARGET
             printf "\n"
             ;;
         text)
-            printf "\n\n    "
+            printf "\n    "
             PrintEffect bold "${CONFIG_MAP["APP_SCRIPT"]}" text-anon
             printf "\n"
             ;;

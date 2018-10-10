@@ -22,24 +22,26 @@ fi
 
 rm -fr /opt/skb/framework
 
-if [ "`ls /opt/skb|wc -l`" == "0" ]; then
-    # no more SKB software installed, remove directory, user, and group
-    rmdir /opt/skb/
+if [ -d "/opt/skb" ]; then
+    if [ "`ls /opt/skb|wc -l`" == "0" ]; then
+        # no more SKB software installed, remove directory, user, and group
+        rmdir /opt/skb/
 
-    if [ -e "/home/skbuser" ]; then
-        echo "deleting home directory of user skbuser . . ."
-        rm -fr /home/skbuser
-    fi
+        if [ -e "/home/skbuser" ]; then
+            echo "deleting home directory of user skbuser . . ."
+            rm -fr /home/skbuser
+        fi
 
-    if getent passwd "skbuser" >/dev/null 2>&1
-    then
-        echo "deleting user skbuser . . ."
-        userdel skbuser
-    fi
+        if getent passwd "skbuser" >/dev/null 2>&1
+        then
+            echo "deleting user skbuser . . ."
+            userdel skbuser
+        fi
 
-    if getent group "skbuser" >/dev/null 2>&1
-    then
-        echo "deleting group skbuser . . ."
-        groupdel skbuser
+        if getent group "skbuser" >/dev/null 2>&1
+        then
+            echo "deleting group skbuser . . ."
+            groupdel skbuser
+        fi
     fi
 fi

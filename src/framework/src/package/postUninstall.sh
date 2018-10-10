@@ -27,7 +27,9 @@ rm -fr /opt/skb/framework
 if [ -d "/opt/skb" ]; then
     echo " ==> found /opt/skb"
 
-    if [ "`ls /opt/skb | wc -l`" == "0" ]; then
+    if [ "`ls /opt/skb | wc -l`" != "0" ]; then
+        echo " ==> none empty /opt/skb - leaving directory/group/user"
+    else
         echo " ==> empty /opt/skb - removing directory/group/user"
 
         echo " ==> removing /opt/skb"
@@ -51,7 +53,5 @@ if [ -d "/opt/skb" ]; then
         fi
 
         echo " ==> done"
-    else
-        echo " ==> none empty /opt/skb - leaving directory/group/user"
     fi
 fi

@@ -21,3 +21,6 @@ find /opt/skb/framework/man -type f -perm 644
 find /opt/skb/framework/scenarios -type f -perm 644
 
 mkdir -p /opt/skb/framework/cache
+
+skb-framework -M dev -e bdc -- -abc
+chmod 644 /opt/skb/framework/cache/*

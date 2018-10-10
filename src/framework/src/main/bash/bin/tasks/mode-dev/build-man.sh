@@ -64,6 +64,8 @@ DO_CLEAN=false
 DO_BUILD=false
 DO_TEST=false
 DO_ALL=false
+DO_PRIMARY=false
+DO_SECONDARY=false
 TARGET=
 
 
@@ -71,8 +73,8 @@ TARGET=
 ##
 ## set CLI options and parse CLI
 ##
-CLI_OPTIONS=abcht
-CLI_LONG_OPTIONS=build,clean,help,test,all,html,manp,pdf,text,src
+CLI_OPTIONS=abchpst
+CLI_LONG_OPTIONS=build,clean,help,test,all,adoc,html,manp,pdf,text,src
 
 ! PARSED=$(getopt --options "$CLI_OPTIONS" --longoptions "$CLI_LONG_OPTIONS" --name bdman -- "$@")
 if [[ ${PIPESTATUS[0]} -ne 0 ]]; then
@@ -94,17 +96,20 @@ while true; do
             ;;
         -h | --help)
             printf "\n   options\n"
-            BuildTaskHelpLine a all     "<none>"    "set all targets"                                   $PRINT_PADDING
-            BuildTaskHelpLine b build   "<none>"    "builds a manual (manpage), requires a target"      $PRINT_PADDING
-            BuildTaskHelpLine c clean   "<none>"    "removes all target artifacts"                      $PRINT_PADDING
-            BuildTaskHelpLine h help    "<none>"    "print help screen and exit"                        $PRINT_PADDING
-            BuildTaskHelpLine t test    "<none>"    "test a manual (show results), requires a target"   $PRINT_PADDING
+            BuildTaskHelpLine a all         "<none>"    "set all targets, overwrites other options"         $PRINT_PADDING
+            BuildTaskHelpLine b build       "<none>"    "builds a manual (manpage), requires a target"      $PRINT_PADDING
+            BuildTaskHelpLine c clean       "<none>"    "removes all target artifacts"                      $PRINT_PADDING
+            BuildTaskHelpLine h help        "<none>"    "print help screen and exit"                        $PRINT_PADDING
+            BuildTaskHelpLine p primary     "<none>"    "set all primary targets"                           $PRINT_PADDING
+            BuildTaskHelpLine s secondary   "<none>"    "set all secondary targets"                         $PRINT_PADDING
+            BuildTaskHelpLine t test        "<none>"    "test a manual (show results), requires a target"   $PRINT_PADDING
             printf "\n   targets\n"
-            BuildTaskHelpLine "<none>" html  "<none>" "target: HTML file"                               $PRINT_PADDING
-            BuildTaskHelpLine "<none>" manp  "<none>" "target: man page file"                           $PRINT_PADDING
-            BuildTaskHelpLine "<none>" pdf   "<none>" "target: PDF file)"                               $PRINT_PADDING
-            BuildTaskHelpLine "<none>" text  "<none>" "target: text versions: ansi, text, adoc"         $PRINT_PADDING
-            BuildTaskHelpLine "<none>" src   "<none>" "target: text source files from ADOC"             $PRINT_PADDING
+            BuildTaskHelpLine "<none>" adoc  "<none>" "secondary target: text versions: ansi, text"     $PRINT_PADDING
+            BuildTaskHelpLine "<none>" html  "<none>" "secondary target: HTML file"                     $PRINT_PADDING
+            BuildTaskHelpLine "<none>" manp  "<none>" "secondary target: man page file"                 $PRINT_PADDING
+            BuildTaskHelpLine "<none>" pdf   "<none>" "secondary target: PDF file)"                     $PRINT_PADDING
+            BuildTaskHelpLine "<none>" text  "<none>" "secondary target: text versions: ansi, text"     $PRINT_PADDING
+            BuildTaskHelpLine "<none>" src   "<none>" "primary target: text source files from ADOC"     $PRINT_PADDING
             exit 0
             ;;
 
@@ -116,6 +121,18 @@ while true; do
         -a | --all)
             shift
             DO_ALL=true
+            ;;
+        -p | --primary)
+            shift
+            DO_PRIMARY=true
+            ;;
+        -s | --secondary)
+            shift
+            DO_SECONDARY=true
+            ;;
+        --adoc)
+            shift
+            TARGET=$TARGET" adoc"
             ;;
         --html)
             shift
@@ -148,8 +165,18 @@ while true; do
     esac
 done
 
+
+if [ $DO_PRIMARY == true ]; then
+    TARGET="src"
+fi
+if [ $DO_SECONDARY == true ]; then
+    TARGET="adoc text manp html pdf"
+fi
 if [ $DO_ALL == true ]; then
-    TARGET="html manp pdf text src"
+    TARGET="src adoc text manp html pdf"
+fi
+if [ $DO_ALL == true ]; then
+    TARGET="src adoc text manp html pdf"
 fi
 if [ $DO_BUILD == true ] || [ $DO_TEST == true ]; then
     if [ ! -n "$TARGET" ]; then
@@ -857,19 +884,14 @@ if [ $DO_BUILD == true ]; then
 
     ConsoleInfo "  -->" "build for target(s): $TARGET"
     for TODO in $TARGET; do
-        if [ "$TODO" == "html" ]; then
-            BuildHtml
-        elif [ "$TODO" == "manp" ]; then
-            BuildManp
-        elif [ "$TODO" == "pdf" ]; then
-            BuildPdf
-        elif [ "$TODO" == "text" ]; then
-            BuildText
-        elif [ "$TODO" == "src" ]; then
-            :
-        else
-            ConsoleError " ->" "build, unknown target '$TODO'"
-        fi
+        case $TODO in
+            adoc)   BuildText "adoc" ;;
+            html)   BuildHtml ;;
+            manp)   BuildManp ;;
+            pdf)    BuildPdf ;;
+            text)   BuildText "ansi text" ;;
+            *)      ConsoleError " ->" "build, unknown target '$TODO'"
+        esac
     done
     ConsoleInfo "  -->" "done build"
 fi
@@ -877,19 +899,14 @@ fi
 if [ $DO_TEST == true ]; then
     ConsoleInfo "  -->" "test for target(s): $TARGET"
     for TODO in $TARGET; do
-        if [ "$TODO" == "html" ]; then
-            TestHtml
-        elif [ "$TODO" == "manp" ]; then
-            TestManp
-        elif [ "$TODO" == "pdf" ]; then
-            TestPdf
-        elif [ "$TODO" == "text" ]; then
-            TestText
-        elif [ "$TODO" == "src" ]; then
-            ConsoleWarn " ->" "no test for sources"
-        else
-            ConsoleError " ->" "test, unknown target '$TODO'"
-        fi
+        case $TODO in
+            adoc)   TestText "adoc" ;;
+            html)   TestHtml ;;
+            manp)   TestManp ;;
+            pdf)    TestPdf ;;
+            text)   TestText "ansi text" ;;
+            *)      ConsoleError " ->" "build, unknown target '$TODO'"
+        esac
     done
     ConsoleInfo "  -->" "done test"
 fi

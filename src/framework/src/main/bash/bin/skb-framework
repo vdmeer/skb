@@ -43,6 +43,10 @@ if [[ -z ${__FW_LOADER_FLAVOR:-} ]]; then
         SF_HOME=${SF_HOME%/*}
         export SF_HOME
     fi
+
+    if [[ -z ${SF_HOME} ]]; then
+        printf "  unable to set home, please set SF_HOME\n\n"
+        exit 1
 fi
 
 if [[ -z ${FW_HOME} ]]; then
@@ -50,6 +54,11 @@ if [[ -z ${FW_HOME} ]]; then
     LOADER_PATH=${LOADER_PATH%/*}
 else
     LOADER_PATH=$FW_HOME/bin
+fi
+
+if [[ ! -n "$LOADER_PATH" ]]; then
+    printf "  unable to set framework and loader path, please set FW_HOME\n\n"
+    exit 1
 fi
 $LOADER_PATH/loader/loader.sh $*
 __errno=$?

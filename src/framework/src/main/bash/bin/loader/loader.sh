@@ -39,6 +39,9 @@
 ## put bugs into errors, safer
 set -o errexit -o pipefail -o noclobber -o nounset
 
+## we want files recursivey
+shopt -s globstar
+
 
 ## take start time
 _ts=$(date +%s.%N)

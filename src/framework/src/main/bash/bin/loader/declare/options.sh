@@ -59,7 +59,7 @@ DeclareOptionsOrigin() {
         local DESCRIPTION
         local NO_ERRORS=true
 
-        for file in $(cd $FW_HOME/${FW_PATH_MAP["OPTIONS"]}; find -type f | grep "\.id"); do
+        for file in $FW_HOME/${FW_PATH_MAP["OPTIONS"]}/**/*.id; do
             ID=${file##*/}
             ID=${ID%.*}
 
@@ -71,7 +71,7 @@ DeclareOptionsOrigin() {
                 SHORT=
                 ARGUMENT=
                 DESCRIPTION=
-                source $FW_HOME/${FW_PATH_MAP["OPTIONS"]}/$file
+                source "$file"
 
                 if [[ -z "${DESCRIPTION:-}" ]]; then
                     ConsoleError " ->" "declare option - option '$ID' has no description"
@@ -86,8 +86,8 @@ DeclareOptionsOrigin() {
                     DMAP_OPT_ARG[$ID]=$ARGUMENT
                     DMAP_OPT_DESCR[$ID]=$DESCRIPTION
                     case "$file" in
-                        "./run/"*)  DMAP_OPT_ORIGIN[$ID]=run ;;
-                        "./exit/"*) DMAP_OPT_ORIGIN[$ID]=exit ;;
+                        *"${FW_PATH_MAP["OPTIONS"]}/run/"*)  DMAP_OPT_ORIGIN[$ID]=run ;;
+                        *"${FW_PATH_MAP["OPTIONS"]}/exit/"*) DMAP_OPT_ORIGIN[$ID]=exit ;;
                     esac
                     ConsoleDebug "declared option $ID"
                 fi

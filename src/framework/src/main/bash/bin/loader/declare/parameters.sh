@@ -63,9 +63,9 @@ DeclareParametersOrigin() {
         local files
         local file
 
-        files=$(find -P $PARAM_PATH -type f -name '*.id')
-        if [[ -n "$files" ]]; then
-            for file in $files; do
+#         files=$($PARAM_PATH/**/*.id)
+#         if [[ -n "$files" ]]; then
+            for file in $PARAM_PATH/**/*.id; do
                 ID=${file##*/}
                 ID=${ID%.*}
 
@@ -111,12 +111,12 @@ DeclareParametersOrigin() {
                     ConsoleDebug "declared $ORIGIN:::$ID"
                 fi
             done
-            if [[ $NO_ERRORS == false ]]; then
-                ConsoleError " ->" "declare parameter - could not declare all parameters from '$ORIGIN'"
-            fi
-        else
-            ConsoleWarn "    >" "no parameters (id files) found at '$ORIGIN'"
-        fi
+#             if [[ $NO_ERRORS == false ]]; then
+#                 ConsoleError " ->" "declare parameter - could not declare all parameters from '$ORIGIN'"
+#             fi
+#         else
+#             ConsoleWarn "    >" "no parameters (id files) found at '$ORIGIN'"
+#         fi
     fi
 }
 

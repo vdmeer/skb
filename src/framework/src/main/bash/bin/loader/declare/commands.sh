@@ -61,7 +61,7 @@ DeclareCommandsOrigin() {
         local DESCRIPTION
         local NO_ERRORS=true
 
-        for file in $(cd $FW_HOME/${FW_PATH_MAP["COMMANDS"]}; find -type f | grep "\.id"); do
+        for file in $FW_HOME/${FW_PATH_MAP["COMMANDS"]}/**/*.id; do
             ID=${file##*/}
             ID=${ID%.*}
 
@@ -73,7 +73,7 @@ DeclareCommandsOrigin() {
                 SHORT=
                 ARGUMENT=
                 DESCRIPTION=
-                source $FW_HOME/${FW_PATH_MAP["COMMANDS"]}/$file
+                source "$file"
 
                 if [[ -z "${DESCRIPTION:-}" ]]; then
                     ConsoleError " ->" "declare command - command '$ID' has no description"

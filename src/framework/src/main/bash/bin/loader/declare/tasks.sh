@@ -143,9 +143,9 @@ DeclareTasksOrigin() {
         local files
         local file
 
-        files=$(find -P $TASK_PATH -type f -name '*.id')
-        if [[ -n "$files" ]]; then
-            for file in $files; do
+#         files=$(find -P $TASK_PATH -type f -name '*.id')
+#         if [[ -n "$files" ]]; then
+            for file in $TASK_PATH/**/*.id; do
                 ID=${file##*/}
                 ID=${ID%.*}
 
@@ -234,12 +234,12 @@ DeclareTasksOrigin() {
                     ConsoleDebug "declared $ORIGIN:::$ID with short '$SHORT'"
                 fi
             done
-            if [[ $NO_ERRORS == false ]]; then
-                ConsoleError " ->" "declare task - could not declare all tasks from '$ORIGIN'"
-            fi
-        else
-            ConsoleWarn "    >" "no tasks (id files) found at '$ORIGIN'"
-        fi
+#             if [[ $NO_ERRORS == false ]]; then
+#                 ConsoleError " ->" "declare task - could not declare all tasks from '$ORIGIN'"
+#             fi
+#         else
+#             ConsoleWarn "    >" "no tasks (id files) found at '$ORIGIN'"
+#         fi
     fi
 }
 

@@ -62,9 +62,9 @@ DeclareDependenciesOrigin() {
         local files
         local file
 
-        files=$(find -P $DEPENDENCY_PATH -type f -name '*.id')
-        if [[ -n "$files" ]]; then
-            for file in $files; do
+#         files=$(find -P $DEPENDENCY_PATH -type f -name '*.id')
+#         if [[ -n "$files" ]]; then
+            for file in $DEPENDENCY_PATH/**/*.id; do
                 ID=${file##*/}
                 ID=${ID%.*}
 
@@ -105,12 +105,12 @@ DeclareDependenciesOrigin() {
                     ConsoleDebug "declared $ORIGIN:::$ID"
                 fi
             done
-            if [[ $NO_ERRORS == false ]]; then
-                ConsoleError " ->" "declare dependency - could not declare all dependencies from '$ORIGIN'"
-            fi
-        else
-            ConsoleWarn "    >" "no dependencies (sh files) found at '$ORIGIN'"
-        fi
+#             if [[ $NO_ERRORS == false ]]; then
+#                 ConsoleError " ->" "declare dependency - could not declare all dependencies from '$ORIGIN'"
+#             fi
+#         else
+#             ConsoleWarn "    >" "no dependencies (sh files) found at '$ORIGIN'"
+#         fi
     fi
 }
 

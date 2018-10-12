@@ -47,6 +47,7 @@ if [[ -z ${__FW_LOADER_FLAVOR:-} ]]; then
     if [[ -z ${SF_HOME} ]]; then
         printf "  unable to set home, please set SF_HOME\n\n"
         exit 1
+    fi
 fi
 
 if [[ -z ${FW_HOME} ]]; then

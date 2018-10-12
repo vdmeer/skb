@@ -274,6 +274,24 @@ if ConsoleHasErrors; then printf "\n"; exit 7; fi
 
 
 ##
+## remove any setting in CONFIG_MAP that is a parameter with default, came from "default value" and is not required by task
+## - default value loaded but not requested
+## - can interfer with file/directory tests coming next
+##
+for ID in ${!CONFIG_MAP[@]}; do                                 ## for every setting
+    if [[ ! -z "${DMAP_PARAM_DEFVAL[$ID]:-}" ]]; then           ## if is from parameter that has a default value
+        if [[ "${CONFIG_SRC[$ID]:-}" == "D" ]]; then            ## if the setting is from default value, i.e. not environment or file
+            if [[ -z ${RTMAP_REQUESTED_PARAM[$ID]:-} ]]; then   ## if the parameter is NOT required by any task
+                unset CONFIG_MAP['$ID']                         ## then remove it
+                unset CONFIG_SRC['$ID']                         ## and the source note
+            fi
+        fi
+    fi
+done
+
+
+
+##
 ## test files and directories: for all settings as file or directory, test if they exist
 ##
 ConsoleResetErrors

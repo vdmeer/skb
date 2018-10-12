@@ -46,13 +46,12 @@ TestFiles() {
             ConsoleWarn "    >" "value for parameter '$FILE' not set"
         else
             if [[ ! -f "${CONFIG_MAP[$FILE]}" ]]; then
-                ConsoleError "-> test files:" "not a regular file for parameter '$FILE' as '${CONFIG_MAP[$FILE]}'"
+                ConsoleError "-> test files:" "not a regular file for setting '$FILE' as '${CONFIG_MAP[$FILE]}'"
             fi
             if [[ ! -r "${CONFIG_MAP[$FILE]}" ]]; then
-                ConsoleError "-> test files:" "file not readable for parameter '$FILE' as '${CONFIG_MAP[$FILE]}'"
+                ConsoleError "-> test files:" "file not readable for setting '$FILE' as '${CONFIG_MAP[$FILE]}'"
             fi
         fi
     done
     ConsoleInfo "-->" "done"
 }
-

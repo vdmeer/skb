@@ -38,8 +38,10 @@ if [[ -z ${__FW_LOADER_FLAVOR:-} ]]; then
     export __FW_LOADER_APPNAME="SKB Framework"
 
     case "$OSTYPE" in
-        darwin) SF_HOME=$(readlink $0) ;;
-        *)      SF_HOME=$(readlink -f $0) ;;
+        darwin*)
+            SF_HOME=$(readlink $0) ;;
+        *)
+            SF_HOME=$(readlink -f $0) ;;
     esac
     SF_HOME=${SF_HOME%/*}
     SF_HOME=${SF_HOME%/*}
@@ -47,8 +49,10 @@ if [[ -z ${__FW_LOADER_FLAVOR:-} ]]; then
 fi
 
 case "$OSTYPE" in
-    darwin) LOADER_PATH=$(readlink $0) ;;
-    *)      LOADER_PATH=$(readlink -f $0) ;;
+    darwin*)
+        LOADER_PATH=$(readlink $0) ;;
+    *)
+        LOADER_PATH=$(readlink -f $0) ;;
 esac
 LOADER_PATH=${LOADER_PATH%/*}
 $LOADER_PATH/loader/loader.sh $*

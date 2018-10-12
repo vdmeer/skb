@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+##
+## Identity for parameter CACHE_DIR
+##
+## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
+## @version    v0.0.0
+##
+
+DESCRIPTION="directory for caching settings"
+DEFAULT_VALUE="/var/cache/${CONFIG_MAP["APP_SCRIPT"]}"

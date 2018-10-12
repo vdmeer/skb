@@ -39,11 +39,11 @@ set -o errexit -o pipefail -o noclobber -o nounset
 ## Test if we are run from parent with configuration
 ## - load configuration
 ##
-if [ -z $FW_HOME ] || [ -z $FW_TMP_CONFIG ]; then
+if [ -z ${FW_HOME:-} ] || [ -z ${FW_L1_CONFIG-} ]; then
     printf " ==> please run from framework or application\n\n"
     exit 10
 fi
-source $FW_TMP_CONFIG
+source $FW_L1_CONFIG
 CONFIG_MAP["RUNNING_IN"]="task"
 
 
@@ -130,18 +130,14 @@ if [ "$ALL" == "yes" ]; then
     CMD_ID=
 else
     if [ -n "$CMD_ID" ]; then
-        if [ -z "${CMD_DECL_MAP[$CMD_ID]:-}" ]; then
-            for SHORT in ${!CMD_SHORT_MAP[@]}; do
-                if [ "${CMD_SHORT_MAP[$SHORT]}" == "$CMD_ID" ]; then
-                    CMD_ID=$SHORT
-                    break
-                fi
-            done
+        if [ "${DMAP_CMD[$CMD_ID]:-}" == "--" ]; then
+            if [ ! -z "${DMAP_CMD_SHORT[$CMD_ID]:-}" ]; then
+                CMD_ID="${DMAP_CMD_SHORT[$CMD_ID]}"
+            fi
         fi
-
-        if [ -z ${CMD_DECL_MAP[$CMD_ID]:-} ]; then
-            ConsoleError " ->" "unknown command ID '$CMD_ID'"
-            exit 3
+        if [ ! -n "${DMAP_CMD[$CMD_ID]:-}" ]; then
+            ConsoleError " ->" "describe-command - unknown command ID '$CMD_ID'"
+            return
         fi
     fi
 fi
@@ -154,7 +150,7 @@ fi
 ############################################################################################
 ConsoleInfo "  -->" "dc: starting task"
 
-for ID in ${!CMD_DECL_MAP[@]}; do
+for ID in ${!DMAP_CMD[@]}; do
     if [ -n "$CMD_ID" ]; then
         if [ ! "$CMD_ID" == "$ID" ]; then
             continue

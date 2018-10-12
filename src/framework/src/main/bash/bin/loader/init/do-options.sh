@@ -40,11 +40,13 @@
 DoOptions() {
     local OPTION
 
-    for OPTION in ${!OPT_META_MAP_EXIT[@]}; do
-        if [ "${OPT_CLI_MAP[$OPTION]}" != false ]; then
-            source ${CONFIG_MAP["FW_HOME"]}/bin/loader/options/$OPTION.sh
-            if [ "$OPTION" != "validate" ] && [ "$OPTION" != "execute-task" ]; then
-                DO_EXIT=true
+    for OPTION in ${!DMAP_OPT_ORIGIN[@]}; do
+        if [ "${DMAP_OPT_ORIGIN[$OPTION]}" == "exit" ]; then
+            if [ "${OPT_CLI_MAP[$OPTION]}" != false ]; then
+                source ${CONFIG_MAP["FW_HOME"]}/bin/loader/options/$OPTION.sh
+                if [ ! -n "${OPT_CLI_MAP["execute-task"]}" ]; then
+                    DO_EXIT=true
+                fi
             fi
         fi
     done

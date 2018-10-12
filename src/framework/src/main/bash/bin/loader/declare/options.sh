@@ -33,14 +33,10 @@
 ##
 
 
-declare -A OPT_DECL_MAP             # map/internal for long option, [id]="longoption"
-declare -A OPT_SHORT_MAP            # map/internal for short option, [id]='o' - not set if none
-declare -A OPT_ARG_MAP              # map/internal for argument, [id]="argument" - not set if none
-declare -A OPT_DESCRIPTION_MAP      # map/internal for argument, [id]="argument" - not set if none
-declare -A OPT_CLI_MAP              # map/internal for option being found in CLI, [id]=false (later "yes" if in CLI options)
-
-declare -A OPT_META_MAP_EXIT        # map/internal for option helpers, exit options
-declare -A OPT_META_MAP_RUNTIME     # map/internal for option helpers, runtime options
+declare -A DMAP_OPT_ORIGIN              # map [id]=type (exit, run)
+declare -A DMAP_OPT_SHORT               # map [id]=short-cmd
+declare -A DMAP_OPT_ARG                 # map [id]=argument
+declare -A DMAP_OPT_DESCR               # map [id]="descr-tag-line"
 
 
 
@@ -67,8 +63,8 @@ DeclareOptionsOrigin() {
             ID=${file##*/}
             ID=${ID%.*}
 
-            if [ ! -z ${OPT_DECL_MAP[$ID]:-} ]; then
-                ConsoleError " ->" "internal error: OPT_DECL_MAP for id '$ID' already set"
+            if [ ! -z ${DMAP_OPT_ORIGIN[$ID]:-} ]; then
+                ConsoleError " ->" "internal error: DMAP_OPT_ORIGIN for id '$ID' already set"
             else
                 local HAVE_ERRORS=false
 
@@ -82,32 +78,16 @@ DeclareOptionsOrigin() {
                     HAVE_ERRORS=true
                 fi
 
-                case "$file" in
-                    "./runtime/"*)
-                        if [ ! -z ${OPT_META_MAP_RUNTIME[$ID]:-} ]; then
-                            ConsoleError " ->" "internal error: OPT_META_MAP_RUNTIME for id '$ID' already set"
-                        fi
-                        ;;
-                    "./exit/"*)
-                        if [ ! -z ${OPT_META_MAP_EXIT[$ID]:-} ]; then
-                            ConsoleError " ->" "internal error: OPT_META_MAP_EXIT for id '$ID' already set"
-                        fi
-                        ;;
-                    *)
-                        ;;
-                esac
-
                 if [ $HAVE_ERRORS == true ]; then
                     ConsoleError " ->" "declare option - could not declare option"
                     NO_ERRORS=false
                 else
-                    OPT_DECL_MAP[$ID]=$ID
-                    OPT_SHORT_MAP[$ID]=$SHORT
-                    OPT_ARG_MAP[$ID]=$ARGUMENT
-                    OPT_DESCRIPTION_MAP[$ID]=$DESCRIPTION
+                    DMAP_OPT_SHORT[$ID]=$SHORT
+                    DMAP_OPT_ARG[$ID]=$ARGUMENT
+                    DMAP_OPT_DESCR[$ID]=$DESCRIPTION
                     case "$file" in
-                        "./runtime/"*)  OPT_META_MAP_RUNTIME[$ID]=$ID ;;
-                        "./exit/"*)         OPT_META_MAP_EXIT[$ID]=$ID ;;
+                        "./run/"*)  DMAP_OPT_ORIGIN[$ID]=run ;;
+                        "./exit/"*) DMAP_OPT_ORIGIN[$ID]=exit ;;
                     esac
                     ConsoleDebug "declared option $ID"
                 fi

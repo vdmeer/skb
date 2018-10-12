@@ -39,11 +39,11 @@ set -o errexit -o pipefail -o noclobber -o nounset
 ## Test if we are run from parent with configuration
 ## - load configuration
 ##
-if [ -z $FW_HOME ] || [ -z $FW_TMP_CONFIG ]; then
+if [ -z ${FW_HOME:-} ] || [ -z ${FW_L1_CONFIG-} ]; then
     printf " ==> please run from framework or application\n\n"
     exit 10
 fi
-source $FW_TMP_CONFIG
+source $FW_L1_CONFIG
 CONFIG_MAP["RUNNING_IN"]="task"
 
 
@@ -204,7 +204,7 @@ CONFIG_MAP["STRICT"]=yes
 ConsoleResetErrors
 
 set +e
-${TASK_DECL_EXEC["validate-installation"]} -s --man-src
+${DMAP_TASK_EXEC["validate-installation"]} -s --man-src
 __errno=$?
 set -e
 
@@ -227,14 +227,6 @@ CONFIG_MAP["STRICT"]=$STRICT
 ##
 BuildManualCore() {
     local TARGET=$1
-    case $TARGET in
-        adoc | ansi | text)
-            ;;
-        *)
-            ConsoleError " ->" "build-manual: unknown target '$TARGET'"
-            return
-            ;;
-    esac
 
     local i
     local keys
@@ -261,7 +253,7 @@ BuildManualCore() {
             PrintEffect bold "NAME" $TARGET
             printf "\n  "
             ;;
-        text)
+        text*)
             printf "\n  "
             PrintEffect bold "NAME" text-anon
             printf "\n  "
@@ -279,22 +271,13 @@ BuildManualCore() {
             PrintEffect italic "OPTIONS" $TARGET
             printf "\n\n"
             ;;
-        ansi)
+        ansi | text*)
             printf "  "
             PrintEffect bold "SYNOPSIS" $TARGET
             printf "\n\n    "
             PrintEffect bold "${CONFIG_MAP["APP_SCRIPT"]}" $TARGET
             printf " "
             PrintEffect italic "OPTIONS" $TARGET
-            printf "\n"
-            ;;
-        text)
-            printf "  "
-            PrintEffect bold "SYNOPSIS" text-anon
-            printf "\n\n    "
-            PrintEffect bold "${CONFIG_MAP["APP_SCRIPT"]}" text-anon
-            printf " "
-            PrintEffect italic "OPTIONS" text-anon
             printf "\n"
             ;;
     esac
@@ -306,14 +289,9 @@ BuildManualCore() {
             PrintEffect bold "${CONFIG_MAP["APP_SCRIPT"]}" $TARGET
             printf "\n\n"
             ;;
-        ansi)
+        ansi | text*)
             printf "\n    "
             PrintEffect bold "${CONFIG_MAP["APP_SCRIPT"]}" $TARGET
-            printf "\n"
-            ;;
-        text)
-            printf "\n    "
-            PrintEffect bold "${CONFIG_MAP["APP_SCRIPT"]}" text-anon
             printf "\n"
             ;;
     esac
@@ -326,14 +304,9 @@ BuildManualCore() {
         adoc)
             printf "== DESCRIPTION\n"
             ;;
-        ansi)
+        ansi | text*)
             printf "  "
             PrintEffect bold "DESCRIPTION" $TARGET
-            printf "\n  "
-            ;;
-        text)
-            printf "  "
-            PrintEffect bold "DESCRIPTION" text-anon
             printf "\n  "
             ;;
     esac
@@ -341,195 +314,45 @@ BuildManualCore() {
     printf "The %s(1) " "${CONFIG_MAP["APP_SCRIPT"]}"
     cat ${CONFIG_MAP["MANUAL_SRC"]}/tags/description.txt
 
-    case $TARGET in
-        adoc)
-            printf "\n\n== OPTIONS\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/options.adoc
-            printf "\n\n"
-            ;;
-        ansi)
-            printf "\n\n  "
-            PrintEffect bold "OPTIONS" $TARGET
-            printf "\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/options.txt
-            ;;
-        text)
-            printf "\n\n  "
-            PrintEffect bold "OPTIONS" text-anon
-            printf "\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/options.txt
-            ;;
-    esac
+    DescribeElementOptions
 
-    case $TARGET in
-        adoc)
-            printf "\n\n=== Runtime OPTIONS\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/runtime-options.adoc
-            printf "\n\n"
-            ;;
-        ansi)
-            printf "    "
-            PrintEffect bold "Runtime OPTIONS" $TARGET
-            printf "\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/runtime-options.txt
-            ;;
-        text)
-            printf "    "
-            PrintEffect bold "Runtime OPTIONS" text-anon
-            printf "\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/runtime-options.txt
-            ;;
-    esac
-
+    DescribeElementOptionsRuntime
     set +e
-    ${TASK_DECL_EXEC["describe-option"]} --runtime --print-mode $TARGET
+    ${DMAP_TASK_EXEC["describe-option"]} --run --print-mode $TARGET
     set -e
 
 
-    case $TARGET in
-        adoc)
-            printf "\n\n=== Exit OPTIONS\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/exit-options.adoc
-            printf "\n\n"
-            ;;
-        ansi)
-            printf "    "
-            PrintEffect bold "Exit OPTIONS" $TARGET
-            printf "\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/exit-options.txt
-            ;;
-        text)
-            printf "    "
-            PrintEffect bold "Exit OPTIONS" text-anon
-            printf "\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/exit-options.txt
-            ;;
-    esac
-
+    DescribeElementOptionsExit
     set +e
-    ${TASK_DECL_EXEC["describe-option"]} --exit --print-mode $TARGET
+    ${DMAP_TASK_EXEC["describe-option"]} --exit --print-mode $TARGET
     set -e
 
 
-    case $TARGET in
-        adoc)
-            printf "\n\n== PARAMETERS\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/parameters.adoc
-            printf "\n\n"
-            ;;
-        ansi)
-            printf "  "
-            PrintEffect bold "PARAMETERS" $TARGET
-            printf "\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/parameters.txt
-            ;;
-        text)
-            printf "  "
-            PrintEffect bold "PARAMETERS" text-anon
-            printf "\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/parameters.txt
-            ;;
-    esac
-
+    DescribeElementParameters
     set +e
-    ${TASK_DECL_EXEC["describe-parameter"]} --all --print-mode $TARGET
+    ${DMAP_TASK_EXEC["describe-parameter"]} --all --print-mode $TARGET
     set -e
 
 
-    case $TARGET in
-        adoc)
-            printf "\n\n== TASKS\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/tasks.adoc
-            printf "\n\n"
-            ;;
-        ansi)
-            printf "  "
-            PrintEffect bold "TASKS" $TARGET
-            printf "\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/tasks.txt
-            ;;
-        text)
-            printf "  "
-            PrintEffect bold "TASKS" text-anon
-            printf "\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/tasks.txt
-            ;;
-    esac
-
+    DescribeElementTasks
     set +e
-    ${TASK_DECL_EXEC["describe-task"]} --all --print-mode $TARGET
+    ${DMAP_TASK_EXEC["describe-task"]} --all --print-mode $TARGET
     set -e
 
 
-    case $TARGET in
-        adoc)
-            printf "\n\n== DEPENDENCIES\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/dependencies.adoc
-            printf "\n\n"
-            ;;
-        ansi)
-            printf "  "
-            PrintEffect bold "DEPENDENCIES" $TARGET
-            printf "\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/dependencies.txt
-            ;;
-        text)
-            printf "  "
-            PrintEffect bold "DEPENDENCIES" text-anon
-            printf "\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/dependencies.txt
-            ;;
-    esac
-
+    DescribeElementDependencies
     set +e
-    ${TASK_DECL_EXEC["describe-dependency"]} --all --print-mode $TARGET
+    ${DMAP_TASK_EXEC["describe-dependency"]} --all --print-mode $TARGET
     set -e
 
 
-    case $TARGET in
-        adoc)
-            printf "\n\n== SHELL COMMANDS\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/commands.adoc
-            printf "\n\n"
-            ;;
-        ansi)
-            printf "  "
-            PrintEffect bold "SHELL COMMANDS" $TARGET
-            printf "\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/commands.txt
-            ;;
-        text)
-            printf "  "
-            PrintEffect bold "DEPENDENCIES" text-anon
-            printf "\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/dependencies.txt
-            ;;
-    esac
-
+    DescribeElementDependencies
     set +e
-    ${TASK_DECL_EXEC["describe-command"]} --all --print-mode $TARGET
+    ${DMAP_TASK_EXEC["describe-command"]} --all --print-mode $TARGET
     set -e
 
 
-    case $TARGET in
-        adoc)
-            printf "\n\n== EXIT STATUS\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/exit-status.adoc
-            printf "\n\n"
-            ;;
-        ansi)
-            printf "  "
-            PrintEffect bold "EXIT STATUS" $TARGET
-            printf "\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/exit-status.txt
-            ;;
-        text)
-            printf "  "
-            PrintEffect bold "EXIT STATUS" text-anon
-            printf "\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/exit-status.txt
-            ;;
-    esac
+    DescribeElementExitStatus
 
 
     case $TARGET in
@@ -538,15 +361,9 @@ BuildManualCore() {
             cat ${CONFIG_MAP["MANUAL_SRC"]}/application/security.adoc
             printf "\n\n"
             ;;
-        ansi)
+        ansi | text*)
             printf "  "
             PrintEffect bold "SECURITY CONCERNS" $TARGET
-            printf "\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/application/security.txt
-            ;;
-        text)
-            printf "  "
-            PrintEffect bold "SECURITY CONCERNS" text-anon
             printf "\n"
             cat ${CONFIG_MAP["MANUAL_SRC"]}/application/security.txt
             ;;
@@ -559,15 +376,9 @@ BuildManualCore() {
             cat ${CONFIG_MAP["MANUAL_SRC"]}/application/bugs.adoc
             printf "\n\n"
             ;;
-        ansi)
+        ansi | text*)
             printf "  "
             PrintEffect bold "BUGS" $TARGET
-            printf "\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/application/bugs.txt
-            ;;
-        text)
-            printf "  "
-            PrintEffect bold "BUGS" text-anon
             printf "\n"
             cat ${CONFIG_MAP["MANUAL_SRC"]}/application/bugs.txt
             ;;
@@ -580,15 +391,9 @@ BuildManualCore() {
             cat ${CONFIG_MAP["MANUAL_SRC"]}/application/authors.adoc
             printf "\n\n"
             ;;
-        ansi)
+        ansi | text*)
             printf "  "
             PrintEffect bold "AUTHORS" $TARGET
-            printf "\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/application/authors.txt
-            ;;
-        text)
-            printf "  "
-            PrintEffect bold "AUTHORS" text-anon
             printf "\n"
             cat ${CONFIG_MAP["MANUAL_SRC"]}/application/authors.txt
             ;;
@@ -601,15 +406,9 @@ BuildManualCore() {
             cat ${CONFIG_MAP["MANUAL_SRC"]}/application/resources.adoc
             printf "\n\n"
             ;;
-        ansi)
+        ansi | text*)
             printf "  "
             PrintEffect bold "RESOURCES" $TARGET
-            printf "\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/application/resources.txt
-            ;;
-        text)
-            printf "  "
-            PrintEffect bold "RESOURCES" text-anon
             printf "\n"
             cat ${CONFIG_MAP["MANUAL_SRC"]}/application/resources.txt
             ;;
@@ -622,15 +421,9 @@ BuildManualCore() {
             cat ${CONFIG_MAP["MANUAL_SRC"]}/application/copying.adoc
             printf "\n\n"
             ;;
-        ansi)
+        ansi | text*)
             printf "  "
             PrintEffect bold "COPYING" $TARGET
-            printf "\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/application/copying.txt
-            ;;
-        text)
-            printf "  "
-            PrintEffect bold "COPYING" text-anon
             printf "\n"
             cat ${CONFIG_MAP["MANUAL_SRC"]}/application/copying.txt
             ;;
@@ -667,7 +460,7 @@ BuildSrc() {
         ConsoleError " ->" "src: no setting for SKB_FW_TOOL found, cannot build"
         return
     fi
-    if [ ! -z ${TESTED_DEPENDENCIES["jre8"]:-} ]; then
+    if [ ! -z ${RTMAP_TASK_TESTED["jre8"]:-} ]; then
         ConsoleDebug "build src - manual"
         BuildSrcPath ${CONFIG_MAP["MANUAL_SRC"]} l1
 
@@ -717,12 +510,13 @@ BuildText() {
     local target
     local targets=${1:-}
     if [ ! -n "$targets" ]; then
-        targets="adoc ansi text"
+        targets="adoc ansi text text-anon"
     fi
     local file
 
     ConsoleDebug "build target text"
     for target in $targets; do
+        ConsoleDebug "building: $target"
         file=$MAN_DOC_DIR/${CONFIG_MAP["APP_SCRIPT"]}.$target
         if [ -f $file ]; then
             rm $file
@@ -736,7 +530,7 @@ BuildText() {
 TestText() {
     local targets=${1:-}
     if [ ! -n "$targets" ]; then
-        targets="adoc ansi text"
+        targets="adoc ansi text text-anon"
     fi
     local found=true
     for target in $targets; do
@@ -768,7 +562,7 @@ BuildHtml() {
     if [ ! -f $MAN_ADOC_FILE ]; then
         BuildText adoc
     fi
-    if [ ! -z ${TESTED_DEPENDENCIES["asciidoctor"]:-} ]; then
+    if [ ! -z ${RTMAP_TASK_TESTED["asciidoctor"]:-} ]; then
         if [ -f $MAN_HTML_FILE ]; then
             rm $MAN_HTML_FILE
         fi
@@ -788,9 +582,9 @@ TestHtml() {
         BuildHtml
     fi
     if [ -f $MAN_HTML_FILE ]; then
-        if [ ! -z "${LOADED_TASKS["start-browser"]}" ]; then
+        if [ ! -z "${RTMAP_TASK_LOADED["start-browser"]}" ]; then
             set +e
-            ${TASK_DECL_EXEC["start-browser"]} --url file://$(PathToCygwin $MAN_HTML_FILE)
+            ${DMAP_TASK_EXEC["start-browser"]} --url file://$(PathToCygwin $MAN_HTML_FILE)
             set -e
         else
             ConsoleError " ->" "html: cannot test, task 'start-browser' not loaded"
@@ -812,7 +606,7 @@ BuildManp() {
     if [ ! -f $MAN_ADOC_FILE ]; then
         BuildText adoc
     fi
-    if [ ! -z ${TESTED_DEPENDENCIES["asciidoctor"]:-} ]; then
+    if [ ! -z ${RTMAP_TASK_TESTED["asciidoctor"]:-} ]; then
         if [ -f $MAN_PAGE_FILE ]; then
             rm $MAN_PAGE_FILE
         fi
@@ -850,7 +644,7 @@ BuildPdf() {
     if [ ! -f $MAN_ADOC_FILE ]; then
         BuildText adoc
     fi
-    if [ ! -z ${TESTED_DEPENDENCIES["asciidoctor-pdf"]:-} ]; then
+    if [ ! -z ${RTMAP_TASK_TESTED["asciidoctor-pdf"]:-} ]; then
         if [ -f $MAN_PDF_FILE ]; then
             rm $MAN_PDF_FILE
         fi
@@ -870,9 +664,9 @@ TestPdf() {
         BuildPdf
     fi
     if [ -f $MAN_PDF_FILE ]; then
-        if [ ! -z "${LOADED_TASKS["start-pdf"]}" ]; then
+        if [ ! -z "${RTMAP_TASK_LOADED["start-pdf"]}" ]; then
             set +e
-            ${TASK_DECL_EXEC["start-pdf"]} --file $MAN_PDF_FILE
+            ${DMAP_TASK_EXEC["start-pdf"]} --file $MAN_PDF_FILE
             set -e
         else
             ConsoleError " ->" "pdf: cannot test, task 'start-pdf' not loaded"
@@ -925,7 +719,7 @@ if [ $DO_BUILD == true ]; then
             html)   BuildHtml ;;
             manp)   BuildManp ;;
             pdf)    BuildPdf ;;
-            text)   BuildText "ansi text" ;;
+            text)   BuildText "ansi text text-anon" ;;
             src)    ;;
             *)      ConsoleError " ->" "build, unknown target '$TODO'"
         esac
@@ -941,7 +735,7 @@ if [ $DO_TEST == true ]; then
             html)   TestHtml ;;
             manp)   TestManp ;;
             pdf)    TestPdf ;;
-            text)   TestText "ansi text" ;;
+            text)   TestText "ansi text text-anon" ;;
             src)    ;;
             *)      ConsoleError " ->" "build, unknown target '$TODO'"
         esac

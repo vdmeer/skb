@@ -6,7 +6,7 @@
 ## @version    v0.0.0
 ##
 
-ALIAS=rs
+SHORT=rs
 MODES="dev build use"
 DESCRIPTION="repeats the execution of a scenario"
 EXEC_PATH=bin/tasks/all

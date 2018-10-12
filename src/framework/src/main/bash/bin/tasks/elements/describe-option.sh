@@ -39,11 +39,11 @@ set -o errexit -o pipefail -o noclobber -o nounset
 ## Test if we are run from parent with configuration
 ## - load configuration
 ##
-if [ -z $FW_HOME ] || [ -z $FW_TMP_CONFIG ]; then
+if [ -z ${FW_HOME:-} ] || [ -z ${FW_L1_CONFIG-} ]; then
     printf " ==> please run from framework or application\n\n"
     exit 10
 fi
-source $FW_TMP_CONFIG
+source $FW_L1_CONFIG
 CONFIG_MAP["RUNNING_IN"]="task"
 
 
@@ -63,7 +63,7 @@ ConsoleResetWarnings
 PRINT_MODE=
 OPT_ID=
 EXIT=
-RUNTIME=
+RUN=
 ALL=
 CLI_SET=false
 
@@ -73,7 +73,7 @@ CLI_SET=false
 ## set CLI options and parse CLI
 ##
 CLI_OPTIONS=aehi:p:r
-CLI_LONG_OPTIONS=all,exit,help,id:,print-mode:,runtime
+CLI_LONG_OPTIONS=all,exit,help,id:,print-mode:,run
 
 ! PARSED=$(getopt --options "$CLI_OPTIONS" --longoptions "$CLI_LONG_OPTIONS" --name describe-option -- "$@")
 if [[ ${PIPESTATUS[0]} -ne 0 ]]; then
@@ -98,7 +98,7 @@ while true; do
             BuildTaskHelpLine a all         "<none>"    "all options, disables all other filters"       $PRINT_PADDING
             BuildTaskHelpLine e exit        "<none>"    "only exit options"                             $PRINT_PADDING
             BuildTaskHelpLine i id          "ID"        "option identifier"                             $PRINT_PADDING
-            BuildTaskHelpLine r runtime     "<none>"    "only runtime options"                          $PRINT_PADDING
+            BuildTaskHelpLine r run         "<none>"    "only runtime options"                          $PRINT_PADDING
             exit 0
             ;;
         -e | --exit)
@@ -115,8 +115,8 @@ while true; do
             PRINT_MODE="$2"
             shift 2
             ;;
-        -r | --runtime)
-            RUNTIME=yes
+        -r | --run)
+            RUN=yes
             CLI_SET=true
             shift
             ;;
@@ -141,22 +141,22 @@ if [ ! -n "$PRINT_MODE" ]; then
 fi
 
 if [ "$ALL" == "yes" ]; then
-    EXIT=
-    RUNTIME=yes
+    EXIT=yes
+    RUN=yes
 elif [ $CLI_SET == false ]; then
-    RUNTIME=yes
+    RUN=yes
 else
     if [ -n "$OPT_ID" ]; then
-        if [ -z "${OPT_DECL_MAP[$OPT_ID]:-}" ]; then
-            for SHORT in ${!OPT_SHORT_MAP[@]}; do
-                if [ "${OPT_SHORT_MAP[$SHORT]}" == "$OPT_ID" ]; then
+        if [ -z "${DMAP_OPT_ORIGIN[$OPT_ID]:-}" ]; then
+            for SHORT in ${!DMAP_OPT_SHORT[@]}; do
+                if [ "${DMAP_OPT_SHORT[$SHORT]}" == "$OPT_ID" ]; then
                     OPT_ID=$SHORT
                     break
                 fi
             done
         fi
 
-        if [ -z ${OPT_DECL_MAP[$OPT_ID]:-} ]; then
+        if [ -z ${DMAP_OPT_ORIGIN[$OPT_ID]:-} ]; then
             ConsoleError " ->" "unknown option ID '$OPT_ID'"
             exit 3
         fi
@@ -172,19 +172,19 @@ fi
 ############################################################################################
 ConsoleInfo "  -->" "do: starting task"
 
-for ID in ${!OPT_DECL_MAP[@]}; do
+for ID in ${!DMAP_OPT_ORIGIN[@]}; do
         if [ -n "$OPT_ID" ]; then
         if [ ! "$OPT_ID" == "$ID" ]; then
             continue
         fi
     fi
     if [ -n "$EXIT" ]; then
-        if [ -z "${OPT_META_MAP_EXIT[$ID]:-}" ]; then
+        if [ "${DMAP_OPT_ORIGIN[$ID]:-}" != "exit" ]; then
             continue
         fi
     fi
-    if [ -n "$RUNTIME" ]; then
-        if [ -z "${OPT_META_MAP_RUNTIME[$ID]:-}" ]; then
+    if [ -n "$RUN" ]; then
+        if [ "${DMAP_OPT_ORIGIN[$ID]:-}" != "run" ]; then
             continue
         fi
     fi

@@ -6,7 +6,7 @@
 ## @version    v0.0.0
 ##
 
-ALIAS=lc
+SHORT=lc
 MODES="dev build use"
 DESCRIPTION="lists shell commands"
 EXEC_PATH=bin/tasks/elements

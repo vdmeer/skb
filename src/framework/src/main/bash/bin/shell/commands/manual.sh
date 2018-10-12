@@ -65,9 +65,9 @@ ShellCmdManual() {
             ;;
         pdf)
             if [ -f ${CONFIG_MAP["HOME"]}/doc/manual/${CONFIG_MAP["APP_SCRIPT"]}.pdf ]; then
-                if [ ! -z "${LOADED_TASKS["start-pdf"]}" ]; then
+                if [ ! -z "${RTMAP_TASK_LOADED["start-pdf"]}" ]; then
                     set +e
-                    ${TASK_DECL_EXEC["start-pdf"]} --file ${CONFIG_MAP["HOME"]}/doc/manual/${CONFIG_MAP["APP_SCRIPT"]}.pdf
+                    ${DMAP_TASK_EXEC["start-pdf"]} --file ${CONFIG_MAP["HOME"]}/doc/manual/${CONFIG_MAP["APP_SCRIPT"]}.pdf
                     set -e
                 else
                     ConsoleError " ->" "pdf: cannot show PDF manual, task 'start-pdf' not loaded"
@@ -78,9 +78,9 @@ ShellCmdManual() {
             ;;
         html)
             if [ -f ${CONFIG_MAP["HOME"]}/doc/manual/${CONFIG_MAP["APP_SCRIPT"]}.html ]; then
-                if [ ! -z "${LOADED_TASKS["start-browser"]}" ]; then
+                if [ ! -z "${RTMAP_TASK_LOADED["start-browser"]}" ]; then
                     set +e
-                    ${TASK_DECL_EXEC["start-browser"]} --url file://$(PathToCygwin ${CONFIG_MAP["HOME"]}/doc/manual/${CONFIG_MAP["APP_SCRIPT"]}.html)
+                    ${DMAP_TASK_EXEC["start-browser"]} --url file://$(PathToCygwin ${CONFIG_MAP["HOME"]}/doc/manual/${CONFIG_MAP["APP_SCRIPT"]}.html)
                     set -e
                 else
                     ConsoleError " ->" "html: cannot test, task 'start-browser' not loaded"

@@ -39,11 +39,11 @@ set -o errexit -o pipefail -o noclobber -o nounset
 ## Test if we are run from parent with configuration
 ## - load configuration
 ##
-if [ -z $FW_HOME ] || [ -z $FW_TMP_CONFIG ]; then
+if [ -z ${FW_HOME:-} ] || [ -z ${FW_L1_CONFIG-} ]; then
     printf " ==> please run from framework or application\n\n"
     exit 10
 fi
-source $FW_TMP_CONFIG
+source $FW_L1_CONFIG
 CONFIG_MAP["RUNNING_IN"]="task"
 
 
@@ -119,6 +119,7 @@ esac
 
 ConsoleDebug "waiting for $SECONDS seconds"
 sleep $SECONDS
+# $(echo "$SECONDS-.9" | bc -l)
 
 ConsoleInfo "  -->" "wait: done"
 exit $ERRNO

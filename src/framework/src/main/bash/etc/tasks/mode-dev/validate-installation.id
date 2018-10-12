@@ -6,7 +6,7 @@
 ## @version    v0.0.0
 ##
 
-ALIAS=vi
+SHORT=vi
 MODES="dev"
 DESCRIPTION="validates an installation"
 EXEC_PATH=bin/tasks/mode-dev

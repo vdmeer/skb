@@ -39,11 +39,11 @@ set -o errexit -o pipefail -o noclobber -o nounset
 ## Test if we are run from parent with configuration
 ## - load configuration
 ##
-if [ -z $FW_HOME ] || [ -z $FW_TMP_CONFIG ]; then
+if [ -z ${FW_HOME:-} ] || [ -z ${FW_L1_CONFIG-} ]; then
     printf " ==> please run from framework or application\n\n"
     exit 10
 fi
-source $FW_TMP_CONFIG
+source $FW_L1_CONFIG
 CONFIG_MAP["RUNNING_IN"]="task"
 
 
@@ -63,6 +63,7 @@ ConsoleResetWarnings
 PRINT_MODE=
 TESTED=
 ORIGIN=
+REQUESTED=
 STATUS=
 ALL=
 CLI_SET=false
@@ -72,8 +73,8 @@ CLI_SET=false
 ##
 ## set CLI options and parse CLI
 ##
-CLI_OPTIONS=aho:p:s:t
-CLI_LONG_OPTIONS=all,help,origin:,print-mode:,status:,tested
+CLI_OPTIONS=aho:p:rs:t
+CLI_LONG_OPTIONS=all,help,origin:,print-mode:,requested,status:,tested
 
 ! PARSED=$(getopt --options "$CLI_OPTIONS" --longoptions "$CLI_LONG_OPTIONS" --name list-dependencies -- "$@")
 if [[ ${PIPESTATUS[0]} -ne 0 ]]; then
@@ -97,6 +98,7 @@ while true; do
             printf "\n   filters\n"
             BuildTaskHelpLine a all         "<none>"    "all dependencies, disables all other filters"                              $PRINT_PADDING
             BuildTaskHelpLine o origin      "ORIGIN"    "only dependencies from origin: f(w), a(pp)"                                $PRINT_PADDING
+            BuildTaskHelpLine r requested   "<none>"    "only requested dependencies"                                                $PRINT_PADDING
             BuildTaskHelpLine s status      "STATUS"    "only dependencies with status: success, warnings, errors, not attempted"   $PRINT_PADDING
             BuildTaskHelpLine t tested      "<none>"    "only tested dependencies"                                                  $PRINT_PADDING
             exit 0
@@ -110,6 +112,11 @@ while true; do
             PRINT_MODE="$2"
             CLI_SET=true
             shift 2
+            ;;
+        -r | --requested)
+            REQUESTED=yes
+            CLI_SET=true
+            shift
             ;;
         -s | --status)
             STATUS="$2"
@@ -141,9 +148,10 @@ if [ "$ALL" == "yes" ]; then
     TESTED=
     ORIGIN=
     STATUS=
+    REQUESTED=
     ALL=
 elif [ $CLI_SET == false ]; then
-    TESTED=yes
+    TESTED=
 else
     if [ -n "$ORIGIN" ]; then
         case $ORIGIN in
@@ -193,14 +201,19 @@ printf "${CHAR_MAP["TOP_LINE"]}%.0s" {1..79}
 printf "\n"
 printf " ${EFFECTS["REVERSE_ON"]}Dependency          Description                                             O S${EFFECTS["REVERSE_OFF"]}\n\n"
 
-for ID in ${!DEP_DECL_MAP[@]}; do
+for ID in ${!DMAP_DEP_ORIGIN[@]}; do
+    if [ -n "$REQUESTED" ]; then
+        if [ -z "${RTMAP_REQUESTED_DEP[$ID]:-}" ]; then
+            continue
+        fi
+    fi
     if [ -n "$TESTED" ]; then
-        if [ -z "${TESTED_DEPENDENCIES[$ID]:-}" ]; then
+        if [ -z "${RTMAP_TASK_TESTED[$ID]:-}" ]; then
             continue
         fi
     fi
     if [ -n "$STATUS" ]; then
-        case ${DEP_STATUS_MAP[$ID]} in
+        case ${RTMAP_DEP_STATUS[$ID]} in
             $STATUS)
                 ;;
             *)
@@ -210,7 +223,7 @@ for ID in ${!DEP_DECL_MAP[@]}; do
         #=
     fi
     if [ -n "$ORIGIN" ]; then
-        if [ ! "$ORIGIN" == "${DEP_DECL_MAP[$ID]%:::*}" ]; then
+        if [ ! "$ORIGIN" == "${DMAP_DEP_ORIGIN[$ID]}" ]; then
             continue
         fi
     fi
@@ -220,9 +233,9 @@ keys=($(printf '%s\n' "${keys[@]:-}"|sort))
 
 
 declare -A DEP_TABLE
-FILE=${CONFIG_MAP["FW_HOME"]}/${APP_PATH_MAP["CACHE"]}/dep-tab.${CONFIG_MAP["PRINT_MODE"]}
+FILE=${CONFIG_MAP["CACHE_DIR"]}/dep-tab.${CONFIG_MAP["PRINT_MODE"]}
 if [ -n "$PRINT_MODE" ]; then
-    FILE=${CONFIG_MAP["FW_HOME"]}/${APP_PATH_MAP["CACHE"]}/dep-tab.$PRINT_MODE
+    FILE=${CONFIG_MAP["CACHE_DIR"]}/dep-tab.$PRINT_MODE
 fi
 if [ -f $FILE ]; then
     source $FILE

@@ -6,7 +6,7 @@
 ## @version    v0.0.0
 ##
 
-ALIAS=do
+SHORT=do
 MODES="dev build use"
 DESCRIPTION="describes CLI options"
 EXEC_PATH=bin/tasks/elements

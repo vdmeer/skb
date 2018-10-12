@@ -38,7 +38,7 @@
 ## - describes a command using print options and print features
 ## $1: command id
 ## $2: print option: descr, standard, full
-## $3: print features: none, line-indent, enter, post-line, (adoc, ansi, text)
+## $3: print features: none, line-indent, enter, post-line, (adoc, ansi, text*)
 ## optional $4: print mode (adoc, ansi, text)
 ##
 DescribeCommand() {
@@ -49,16 +49,12 @@ DescribeCommand() {
     local SPRINT=""
     local SHORT
 
-    if [ -z "${CMD_DECL_MAP[$ID]:-}" ]; then
-        for SHORT in ${!CMD_SHORT_MAP[@]}; do
-            if [ "${CMD_SHORT_MAP[$SHORT]}" == "$ID" ]; then
-                ID=$SHORT
-                break
-            fi
-        done
+    if [ "${DMAP_CMD[$ID]:-}" == "--" ]; then
+        if [ ! -z "${DMAP_CMD_SHORT[$ID]:-}" ]; then
+            ID="${DMAP_CMD_SHORT[$ID]}"
+        fi
     fi
-
-    if [ -z "${CMD_DECL_MAP[$ID]:-}" ]; then
+    if [ ! -n "${DMAP_CMD[$ID]:-}" ]; then
         ConsoleError " ->" "describe-command - unknown command ID '$ID'"
         return
     fi
@@ -82,7 +78,7 @@ DescribeCommand() {
             post-line)      POST_LINE="::" ;;
             enter)          ENTER="\n" ;;
             adoc)           SOURCE=${CONFIG_MAP["FW_HOME"]}/${FW_PATH_MAP["COMMANDS"]}/$ID.adoc ;;
-            ansi | text)    SOURCE=${CONFIG_MAP["FW_HOME"]}/${FW_PATH_MAP["COMMANDS"]}/$ID.txt ;;
+            ansi | text*)   SOURCE=${CONFIG_MAP["FW_HOME"]}/${FW_PATH_MAP["COMMANDS"]}/$ID.txt ;;
             none | "")      ;;
             *)
                 ConsoleError " ->" "describe-command - unknown print feature '$PRINT_FEATURE'"
@@ -94,13 +90,13 @@ DescribeCommand() {
     SPRINT=$ENTER
     SPRINT+=$LINE_INDENT
 
-    local DESCRIPTION=${CMD_DESCRIPTION_MAP[$ID]:-}
-    local LONG=${CMD_DECL_MAP[$ID]:-}
-    SHORT=${CMD_SHORT_MAP[$ID]:-}
-    local ARGUMENT=${CMD_ARG_MAP[$ID]:-}
+    local DESCRIPTION=${DMAP_CMD_DESCR[$ID]:-}
+    local LONG=$ID
+    SHORT=${DMAP_CMD[$ID]:-}
+    local ARGUMENT=${DMAP_CMD_ARG[$ID]:-}
 
     local TEMPLATE=""
-    if [ ! -n "$SHORT" ]; then
+    if [ "$SHORT" == "--" ]; then
         TEMPLATE+="%LONG%"
     elif [ ! -n "$LONG" ]; then
         TEMPLATE+="%SHORT%"

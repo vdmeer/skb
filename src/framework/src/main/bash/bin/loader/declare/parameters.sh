@@ -33,9 +33,10 @@
 ##
 
 
-declare -A PARAM_DECL_MAP           # map/export for parameter declarations: [id]="CFG:::file.sh", CFG used as origin, i.e. FW_HOME or HOME
-declare -A PARAM_DECL_DEFVAL        # map/export for decl parameter: [id]="default value"
-declare -A PARAM_DESCRIPTION_MAP    # map/export for parameter description: [id]="tag line"
+declare -A DMAP_PARAM_ORIGIN            # map [id]=origin
+declare -A DMAP_PARAM_DECL              # map [id]=decl-file w/o .id eding
+declare -A DMAP_PARAM_DEFVAL            # map [id]="default value"
+declare -A DMAP_PARAM_DESCR            # map [id]="descr-tag-line"
 
 
 
@@ -95,17 +96,18 @@ DeclareParametersOrigin() {
                     DIRECTORIES_CD=(${DIRECTORIES_CD[@]:-} $ID)
                 fi
 
-                if [ ! -z ${PARAM_DECL_MAP[$ID]:-} ]; then
-                    ConsoleError "    >" "overwriting ${PARAM_DECL_MAP[$ID]%:::*}:::$ID with $ORIGIN:::$ID"
+                if [ ! -z ${DMAP_PARAM_ORIGIN[$ID]:-} ]; then
+                    ConsoleError "    >" "overwriting ${DMAP_PARAM_ORIGIN[$ID]}:::$ID with $ORIGIN:::$ID"
                     HAVE_ERRORS=true
                 fi
                 if [ $HAVE_ERRORS == true ]; then
                     ConsoleError " ->" "declare parameter - could not declare parameter"
                     NO_ERRORS=false
                 else
-                    PARAM_DECL_MAP[$ID]="$ORIGIN:::${file%.*}"
-                    PARAM_DECL_DEFVAL[$ID]="$DEFAULT_VALUE"
-                    PARAM_DESCRIPTION_MAP[$ID]="$DESCRIPTION"
+                    DMAP_PARAM_ORIGIN[$ID]=$ORIGIN
+                    DMAP_PARAM_DECL[$ID]=${file%.*}
+                    DMAP_PARAM_DEFVAL[$ID]="$DEFAULT_VALUE"
+                    DMAP_PARAM_DESCR[$ID]="$DESCRIPTION"
                     ConsoleDebug "declared $ORIGIN:::$ID"
                 fi
             done

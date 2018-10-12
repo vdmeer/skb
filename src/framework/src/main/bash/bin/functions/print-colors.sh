@@ -70,7 +70,7 @@ PrintColor() {
             esac
             printf "%s${COLORS["WHITE"]}${COLORS["NORMAL"]}" "$2"
             ;;
-        text)   printf "%s" "$2" ;;
-        adoc)   printf "%s" "$2" ;;
+        text | text-anon | adoc)
+            printf "%s" "$2" ;;
     esac
 }

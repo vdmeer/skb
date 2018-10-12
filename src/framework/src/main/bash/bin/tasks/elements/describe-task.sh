@@ -39,11 +39,11 @@ set -o errexit -o pipefail -o noclobber -o nounset
 ## Test if we are run from parent with configuration
 ## - load configuration
 ##
-if [ -z $FW_HOME ] || [ -z $FW_TMP_CONFIG ]; then
+if [ -z ${FW_HOME:-} ] || [ -z ${FW_L1_CONFIG-} ]; then
     printf " ==> please run from framework or application\n\n"
     exit 10
 fi
-source $FW_TMP_CONFIG
+source $FW_L1_CONFIG
 CONFIG_MAP["RUNNING_IN"]="task"
 
 
@@ -180,7 +180,7 @@ else
             ConsoleError " ->" "unknown task: $ORIG_TASK"
             exit 3
         else
-            if [ -z ${TASK_DECL_MAP[$TASK_ID]:-} ]; then
+            if [ -z ${DMAP_TASK_ORIGIN[$TASK_ID]:-} ]; then
                 ConsoleError " ->" "unknown task: $ORIG_TASK"
                 exit 3
             fi
@@ -241,25 +241,25 @@ fi
 ############################################################################################
 ConsoleInfo "  -->" "dt: starting task"
 
-for ID in ${!TASK_DECL_MAP[@]}; do
+for ID in ${!DMAP_TASK_ORIGIN[@]}; do
     if [ -n "$TASK_ID" ]; then
         if [ ! "$TASK_ID" == "$ID" ]; then
             continue
         fi
     fi
     if [ -n "$LOADED" ]; then
-        if [ -z "${LOADED_TASKS[$ID]:-}" ]; then
+        if [ -z "${RTMAP_TASK_LOADED[$ID]:-}" ]; then
             continue
         fi
     fi
     if [ -n "$UNLOADED" ]; then
-        if [ -z "${UNLOADED_TASKS[$ID]:-}" ]; then
+        if [ -z "${RTMAP_TASK_UNLOADED[$ID]:-}" ]; then
             continue
         fi
 
     fi
     if [ -n "$STATUS" ]; then
-        case ${TASK_STATUS_MAP[$ID]} in
+        case ${RTMAP_TASK_STATUS[$ID]} in
             $STATUS)
                 ;;
             *)
@@ -269,7 +269,7 @@ for ID in ${!TASK_DECL_MAP[@]}; do
         #=
     fi
     if [ -n "$APP_MODE" ]; then
-        case ${TASK_MODE_MAP[$ID]} in
+        case ${DMAP_TASK_MODES[$ID]} in
             *$APP_MODE*)
                 ;;
             *)
@@ -278,7 +278,7 @@ for ID in ${!TASK_DECL_MAP[@]}; do
         esac
     fi
     if [ -n "$ORIGIN" ]; then
-        if [ ! "$ORIGIN" == "${TASK_DECL_MAP[$ID]%:::*}" ]; then
+        if [ ! "$ORIGIN" == "${DMAP_TASK_ORIGIN[$ID]}" ]; then
             continue
         fi
     fi

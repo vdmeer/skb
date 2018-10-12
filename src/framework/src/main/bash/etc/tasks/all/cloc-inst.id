@@ -6,7 +6,7 @@
 ## @version    v0.0.0
 ##
 
-ALIAS=cloci
+SHORT=cloci
 MODES="dev build use"
 DESCRIPTION="counts lines of code of an installation"
 EXEC_PATH=bin/tasks/mode-build

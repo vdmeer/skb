@@ -39,7 +39,7 @@
 ## - describes a task using print options and print features
 ## $1: task id
 ## $2: print option: descr, origin, origin1, standard, full
-## $3: print features: none, line-indent, enter, post-line, (adoc, ansi, text)
+## $3: print features: none, line-indent, enter, post-line, (adoc, ansi, text*)
 ## optional $4: print mode (adoc, ansi, text)
 ##
 DescribeTask() {
@@ -48,22 +48,22 @@ DescribeTask() {
     local PRINT_FEATURE="${3:-}"
     local SPRINT=""
 
-    local ALIAS
-    if [ -z ${TASK_DECL_MAP[$ID]:-} ]; then
-        for ALIAS in ${!TASK_ALIAS_MAP[@]}; do
-            if [ "$ALIAS" == "$ID" ]; then
-                ID=${TASK_ALIAS_MAP[$ALIAS]}
+    local SHORT
+    if [ -z ${DMAP_TASK_ORIGIN[$ID]:-} ]; then
+        for SHORT in ${!DMAP_TASK_SHORT[@]}; do
+            if [ "$SHORT" == "$ID" ]; then
+                ID=${DMAP_TASK_SHORT[$SHORT]}
                 break
             fi
         done
     fi
-    if [ -z ${TASK_DECL_MAP[$ID]:-} ]; then
+    if [ -z ${DMAP_TASK_ORIGIN[$ID]:-} ]; then
         ConsoleError " ->" "describe-task - unknown task ID '$ID'"
         return
     fi
 
-    for ALIAS in ${!TASK_ALIAS_MAP[@]}; do
-        if [ "${TASK_ALIAS_MAP[$ALIAS]}" == "$ID" ]; then
+    for SHORT in ${!DMAP_TASK_SHORT[@]}; do
+        if [ "${DMAP_TASK_SHORT[$SHORT]}" == "$ID" ]; then
             break
         fi
     done
@@ -86,8 +86,8 @@ DescribeTask() {
             ;;
             post-line)      POST_LINE="::" ;;
             enter)          ENTER="\n" ;;
-            adoc)           SOURCE=${TASK_DECL_MAP[$ID]#*:::}.adoc ;;
-            ansi | text)    SOURCE=${TASK_DECL_MAP[$ID]#*:::}.txt ;;
+            adoc)           SOURCE=${DMAP_TASK_DECL[$ID]}.adoc ;;
+            ansi | text*)   SOURCE=${DMAP_TASK_DECL[$ID]}.txt ;;
             none | "")      ;;
             *)
                 ConsoleError " ->" "describe-task - unknown print feature '$PRINT_FEATURE'"
@@ -99,10 +99,10 @@ DescribeTask() {
     SPRINT=$ENTER
     SPRINT+=$LINE_INDENT
 
-    local DESCRIPTION=${TASK_DESCRIPTION_MAP[$ID]:-}
-    local ORIGIN=${TASK_DECL_MAP[$ID]%:::*}
+    local DESCRIPTION=${DMAP_TASK_DESCR[$ID]:-}
+    local ORIGIN=${DMAP_TASK_ORIGIN[$ID]}
 
-    local TEMPLATE="%ID%, %ALIAS%"
+    local TEMPLATE="%ID%, %SHORT%"
     if [ "$PRINT_OPTION" == "full" ]; then
         TEMPLATE+=" - %DESCRIPTION%"
     fi
@@ -126,7 +126,7 @@ DescribeTask() {
                 TMP_MODE=${CONFIG_MAP["PRINT_MODE"]}
             fi
             TEMPLATE=${TEMPLATE//%ID%/$(PrintEffect bold "$ID" $TMP_MODE)}
-            TEMPLATE=${TEMPLATE//%ALIAS%/$(PrintEffect bold "$ALIAS" $TMP_MODE)}
+            TEMPLATE=${TEMPLATE//%SHORT%/$(PrintEffect bold "$SHORT" $TMP_MODE)}
             TEMPLATE=${TEMPLATE//%DESCRIPTION%/"$DESCRIPTION"}
             SPRINT+=$TEMPLATE
             ;;
@@ -159,23 +159,23 @@ DescribeTask() {
 ##
 DescribeTaskStatus() {
     local ID=$1
-    local ALIAS
+    local SHORT
     local MODE
     local STATUS
 
-    if [ -z ${TASK_DECL_MAP[$ID]:-} ]; then
-        for ALIAS in ${!TASK_ALIAS_MAP[@]}; do
-            if [ "$ALIAS" == "$ID" ]; then
-                ID=${TASK_ALIAS_MAP[$ALIAS]}
+    if [ -z ${DMAP_TASK_ORIGIN[$ID]:-} ]; then
+        for SHORT in ${!DMAP_TASK_SHORT[@]}; do
+            if [ "$SHORT" == "$ID" ]; then
+                ID=${DMAP_TASK_SHORT[$SHORT]}
                 break
             fi
         done
     fi
 
-    if [ -z ${TASK_DECL_MAP[$ID]:-} ]; then
+    if [ -z ${DMAP_TASK_ORIGIN[$ID]:-} ]; then
         ConsoleError " ->" "describe-task/status - unknown task '$ID'"
     else
-        MODE=${TASK_MODE_MAP[$ID]}
+        MODE=${DMAP_TASK_MODES[$ID]}
         case "$MODE" in
             *dev*)
                 PrintColor green ${CHAR_MAP["AVAILABLE"]}
@@ -204,7 +204,7 @@ DescribeTaskStatus() {
         esac
 
         printf " "
-        case ${TASK_STATUS_MAP[$ID]} in
+        case ${RTMAP_TASK_STATUS[$ID]} in
             "N")        PrintColor light-blue ${CHAR_MAP["DIAMOND"]} ;;
             "S")        PrintColor green ${CHAR_MAP["DIAMOND"]} ;;
             "E")        PrintColor light-red ${CHAR_MAP["DIAMOND"]} ;;
@@ -238,22 +238,22 @@ TaskInTable() {
     local ID=$1
     local PRINT_MODE=${2:-}
 
-    local ALIAS
-    if [ -z ${TASK_DECL_MAP[$ID]:-} ]; then
-        for ALIAS in ${!TASK_ALIAS_MAP[@]}; do
-            if [ "$ALIAS" == "$ID" ]; then
-                ID=${TASK_ALIAS_MAP[$ALIAS]}
+    local SHORT
+    if [ -z ${DMAP_TASK_ORIGIN[$ID]:-} ]; then
+        for SHORT in ${!DMAP_TASK_SHORT[@]}; do
+            if [ "$SHORT" == "$ID" ]; then
+                ID=${DMAP_TASK_SHORT[$SHORT]}
                 break
             fi
         done
     fi
-    if [ -z ${TASK_DECL_MAP[$ID]:-} ]; then
+    if [ -z ${DMAP_TASK_ORIGIN[$ID]:-} ]; then
         ConsoleError " ->" "unknown task ID '$ID'"
         return
     fi
 
-    for ALIAS in ${!TASK_ALIAS_MAP[@]}; do
-        if [ "${TASK_ALIAS_MAP[$ALIAS]}" == "$ID" ]; then
+    for SHORT in ${!DMAP_TASK_SHORT[@]}; do
+        if [ "${DMAP_TASK_SHORT[$SHORT]}" == "$ID" ]; then
             break
         fi
     done

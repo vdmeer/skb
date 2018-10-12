@@ -6,7 +6,7 @@
 ## @version    v0.0.0
 ##
 
-ALIAS=dd
+SHORT=dd
 MODES="dev build use"
 DESCRIPTION="describes a dependency"
 EXEC_PATH=bin/tasks/elements

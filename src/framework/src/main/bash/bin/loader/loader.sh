@@ -154,13 +154,22 @@ else
     CONFIG_MAP["APP_NAME"]=$__FW_LOADER_APPNAME
 fi
 source $FW_HOME/bin/loader/declare/app-maps.sh
-if [ -f ${CONFIG_MAP["HOME"]}/${APP_FILE_MAP["VERSION"]} ]; then
-    CONFIG_MAP["VERSION"]=$(cat ${CONFIG_MAP["HOME"]}/${APP_FILE_MAP["VERSION"]})
+if [ -f ${CONFIG_MAP["HOME"]}/etc/version.txt ]; then
+    CONFIG_MAP["VERSION"]=$(cat ${CONFIG_MAP["HOME"]}/etc/version.txt)
 else
-    ConsoleFatal " ->" "no application version found, tried \$HOME/${APP_FILE_MAP["VERSION"]}"
+    ConsoleFatal " ->" "no application version found, tried \$HOME/etc/version.txt"
     printf "\n"
     exit 5
 fi
+
+
+##
+## declare and set parameters, from here on we have setting stuff loaded
+##
+DeclareParameters
+if ConsoleHasErrors; then printf "\n"; exit 4; fi
+source $FW_HOME/bin/loader/init/process-settings.sh
+ProcessSettings
 
 
 
@@ -172,14 +181,15 @@ fi
 ## - exit with code 2 if option declaration failed
 ## - exit with code 3 if parseCLI failed
 ##
-if [ -f ${CONFIG_MAP["HOME"]}/${APP_PATH_MAP["CACHE"]}/opt-decl.map ]; then
-    ConsoleInfo "-->" "declaring options from \$HOME/${APP_PATH_MAP["CACHE"]}/opt-decl.map"
-    source ${CONFIG_MAP["HOME"]}/${APP_PATH_MAP["CACHE"]}/opt-decl.map
+if [ -f ${CONFIG_MAP["CACHE_DIR"]}/opt-decl.map ]; then
+    ConsoleInfo "-->" "declaring options from cache"
+    source ${CONFIG_MAP["CACHE_DIR"]}/opt-decl.map
 else
     DeclareOptions
     if ConsoleHasErrors; then printf "\n"; exit 2; fi
 fi
-for ID in ${!OPT_DECL_MAP[@]}; do
+declare -A OPT_CLI_MAP
+for ID in ${!DMAP_OPT_ORIGIN[@]}; do
     OPT_CLI_MAP[$ID]=false
 done
 
@@ -211,14 +221,19 @@ if [ ${OPT_CLI_MAP["clean-cache"]} != false ]; then
     source ${CONFIG_MAP["FW_HOME"]}/bin/loader/options/clean-cache.sh
     exit 0
 fi
+if [ ${OPT_CLI_MAP["help"]} != false ]; then
+    source ${CONFIG_MAP["FW_HOME"]}/bin/loader/options/help.sh
+    exit 0
+fi
+
 
 
 ##
 ## declare shell artifacts
 ##
-if [ -f ${CONFIG_MAP["HOME"]}/${APP_PATH_MAP["CACHE"]}/cmd-decl.map ]; then
-    ConsoleInfo "-->" "declaring commands from \$HOME/${APP_PATH_MAP["CACHE"]}/cmd-decl.map"
-    source ${CONFIG_MAP["HOME"]}/${APP_PATH_MAP["CACHE"]}/cmd-decl.map
+if [ -f ${CONFIG_MAP["CACHE_DIR"]}/cmd-decl.map ]; then
+    ConsoleInfo "-->" "declaring commands from cache"
+    source ${CONFIG_MAP["CACHE_DIR"]}/cmd-decl.map
 else
     DeclareCommands
 fi
@@ -227,43 +242,28 @@ fi
 
 
 ##
-## Declare FW artifacts: parameters, dependencies, tasks
+## Declare core artifacts: dependencies, tasks
 ## - exit with code 4 if parameters failed
 ## - exit with code 5 if dependencies failed
 ## - exit with code 6 if tasks failed
 ##
-if [ -f ${CONFIG_MAP["HOME"]}/${APP_PATH_MAP["CACHE"]}/param-decl.map ]; then
-    ConsoleInfo "-->" "declaring parameters from \$HOME/${APP_PATH_MAP["CACHE"]}/param-decl.map"
-    source ${CONFIG_MAP["HOME"]}/${APP_PATH_MAP["CACHE"]}/param-decl.map
+if [ -f ${CONFIG_MAP["CACHE_DIR"]}/dep-decl.map ]; then
+    ConsoleInfo "-->" "declaring dependencies from cache"
+    source ${CONFIG_MAP["CACHE_DIR"]}/dep-decl.map
 else
-    DeclareParameters
-    if ConsoleHasErrors; then printf "\n"; exit 4; fi
-fi
-
-if [ -f ${CONFIG_MAP["HOME"]}/${APP_PATH_MAP["CACHE"]}/dep-decl.map ]; then
-    ConsoleInfo "-->" "declaring dependencies from \$HOME/${APP_PATH_MAP["CACHE"]}/dep-decl.map"
-    source ${CONFIG_MAP["HOME"]}/${APP_PATH_MAP["CACHE"]}/dep-decl.map
-else
+    ConsoleInfo "-->" "declaring dependencies from source"
     DeclareDependencies
     if ConsoleHasErrors; then printf "\n"; exit 5; fi
 fi
 
-if [ -f ${CONFIG_MAP["HOME"]}/${APP_PATH_MAP["CACHE"]}/task-decl.map ]; then
-    ConsoleInfo "-->" "declaring tasks from \$HOME/${APP_PATH_MAP["CACHE"]}/task-decl.map"
-    source ${CONFIG_MAP["HOME"]}/${APP_PATH_MAP["CACHE"]}/task-decl.map
+if [ -f ${CONFIG_MAP["CACHE_DIR"]}/task-decl.map ]; then
+    ConsoleInfo "-->" "declaring tasks from cache"
+    source ${CONFIG_MAP["CACHE_DIR"]}/task-decl.map
 else
+    ConsoleInfo "-->" "declaring tasks from source"
     DeclareTasks
     if ConsoleHasErrors; then printf "\n"; exit 6; fi
 fi
-
-
-
-##
-## process all settings (parameters -> CONFIG_MAP)
-##
-source $FW_HOME/bin/loader/init/process-settings.sh
-ProcessSettings
-
 source $FW_HOME/bin/loader/init/process-tasks.sh
 ProcessTasks
 if ConsoleHasErrors; then printf "\n"; exit 7; fi
@@ -337,16 +337,15 @@ tmp_dir=${TMPDIR:-/tmp}/${CONFIG_MAP["APP_SCRIPT"]}
 if [ ! -d $tmp_dir ]; then
     mkdir $tmp_dir
 fi
-CONFIG_MAP["FW_TMP_CONFIG"]=$(mktemp "$tmp_dir/$(date +"%H-%M-%S")-${CONFIG_MAP["APP_MODE"]}-XXX")
-export FW_TMP_CONFIG=${CONFIG_MAP["FW_TMP_CONFIG"]}
-WriteTmpConfig
+CONFIG_MAP["FW_L1_CONFIG"]=$(mktemp "$tmp_dir/$(date +"%H-%M-%S")-${CONFIG_MAP["APP_MODE"]}-XXX")
+export FW_L1_CONFIG=${CONFIG_MAP["FW_L1_CONFIG"]}
+WriteL1Config
 
 
 
 ##
 ## test if we execute a task or run a scenario
 ##
-ConsoleMessage "\n"
 __errno=0
 DO_EXIT=false
 if [ "${OPT_CLI_MAP["execute-task"]}" != false ]; then
@@ -371,11 +370,13 @@ fi
 ##
 ## Remove artifacts (the shell-events just in case)
 ##
-if [ -f $FW_TMP_CONFIG ]; then
-    rm $FW_TMP_CONFIG >& /dev/null
+if [ -f $FW_L1_CONFIG ]; then
+    rm $FW_L1_CONFIG >& /dev/null
+fi
+if [ -d $tmp_dir ] && [ $(ls $tmp_dir | wc -l) == 0 ]; then
+    rmdir $tmp_dir
 fi
 
 ConsoleMessage "\n\nhave a nice day\n\n\n"
-
 exit $__errno
 

@@ -6,7 +6,9 @@
 ## @version    v0.0.0
 ##
 
-ALIAS=lp
+SHORT=lp
 MODES="dev build use"
 DESCRIPTION="lists parameters"
 EXEC_PATH=bin/tasks/elements
+
+TaskRequire $ID param CACHE_DIR opt

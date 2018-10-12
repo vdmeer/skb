@@ -6,7 +6,7 @@
 ## @version    v0.0.0
 ##
 
-ALIAS=lo
+SHORT=lo
 MODES="dev build use"
 DESCRIPTION="lists CLI options"
 EXEC_PATH=bin/tasks/elements

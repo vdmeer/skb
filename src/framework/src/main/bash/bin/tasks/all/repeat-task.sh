@@ -39,11 +39,11 @@ set -o errexit -o pipefail -o noclobber -o nounset
 ## Test if we are run from parent with configuration
 ## - load configuration
 ##
-if [ -z $FW_HOME ] || [ -z $FW_TMP_CONFIG ]; then
+if [ -z ${FW_HOME:-} ] || [ -z ${FW_L1_CONFIG-} ]; then
     printf " ==> please run from framework or application\n\n"
     exit 10
 fi
-source $FW_TMP_CONFIG
+source $FW_L1_CONFIG
 CONFIG_MAP["RUNNING_IN"]="task"
 
 
@@ -127,7 +127,7 @@ ConsoleInfo "  -->" "rt: starting task"
 
 __found=false
 TASK=$(GetTaskID $TASK)
-for ID in "${!LOADED_TASKS[@]}"; do
+for ID in "${!RTMAP_TASK_LOADED[@]}"; do
     if [ "$ID" == "$TASK" ]; then
         __found=true
         break
@@ -161,7 +161,7 @@ for (( _repeat=1; _repeat<=$TIMES; _repeat++ )); do
     printf "${CHAR_MAP["MID_LINE"]}%.0s" {1..76}
     printf "\n\n"
     set +e
-    ${TASK_DECL_EXEC[$TASK]} $ARGS
+    ${DMAP_TASK_EXEC[$TASK]} $ARGS
     set -e
     sleep $WAIT
     printf "\n"

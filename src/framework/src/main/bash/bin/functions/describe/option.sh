@@ -38,7 +38,7 @@
 ## - describes a option using print options and print features
 ## $1: option id
 ## $2: print option: descr, origin, standard, full
-## $3: print features: none, line-indent, sl-indent, enter, post-line, (adoc, ansi, text)
+## $3: print features: none, line-indent, sl-indent, enter, post-line, (adoc, ansi, text*)
 ## optional $4: print mode (adoc, ansi, text)
 ##
 DescribeOption() {
@@ -48,16 +48,16 @@ DescribeOption() {
     local SPRINT=""
     local SHORT
 
-    if [ -z "${OPT_DECL_MAP[$ID]:-}" ]; then
-        for SHORT in ${!OPT_SHORT_MAP[@]}; do
-            if [ "${OPT_SHORT_MAP[$SHORT]}" == "$ID" ]; then
+    if [ -z "${DMAP_OPT_ORIGIN[$ID]:-}" ]; then
+        for SHORT in ${!DMAP_OPT_SHORT[@]}; do
+            if [ "${DMAP_OPT_SHORT[$SHORT]}" == "$ID" ]; then
                 ID=$SHORT
                 break
             fi
         done
     fi
 
-    if [ -z ${OPT_DECL_MAP[$ID]:-} ]; then
+    if [ -z ${DMAP_OPT_ORIGIN[$ID]:-} ]; then
         ConsoleError " ->" "describe-option - unknown option ID '$ID'"
         return
     fi
@@ -83,7 +83,7 @@ DescribeOption() {
             post-line)      POST_LINE="::" ;;
             enter)          ENTER="\n" ;;
             adoc)           SOURCE=$ID.adoc ;;
-            ansi | text)    SOURCE=$ID.txt ;;
+            ansi | text*)   SOURCE=$ID.txt ;;
             none | "")      ;;
             *)
                 ConsoleError " ->" "describe-option - unknown print feature '$PRINT_FEATURE'"
@@ -95,20 +95,12 @@ DescribeOption() {
     SPRINT=$ENTER
     SPRINT+=$LINE_INDENT
 
-    local DESCRIPTION=${OPT_DESCRIPTION_MAP[$ID]:-}
-    local ORIGIN=
-    if [ ! -z ${OPT_META_MAP_EXIT[$ID]:-} ]; then
-        ORIGIN="exit"
-    elif [ ! -z ${OPT_META_MAP_RUNTIME[$ID]:-} ]; then
-        ORIGIN="run"
-    else
-        ConsoleError " ->" "internal error in 'describe-option' option '$ID' metadata missing"
-        return
-    fi
+    local DESCRIPTION=${DMAP_OPT_DESCR[$ID]:-}
+    local ORIGIN=${DMAP_OPT_ORIGIN[$ID]:-}
 
-    local LONG=${OPT_DECL_MAP[$ID]:-}
-    SHORT=${OPT_SHORT_MAP[$ID]:-}
-    local ARGUMENT=${OPT_ARG_MAP[$ID]:-}
+    local LONG=$ID
+    SHORT=${DMAP_OPT_SHORT[$ID]:-}
+    local ARGUMENT=${DMAP_OPT_ARG[$ID]:-}
 
     local TEMPLATE=""
     if [ ! -n "$SHORT" ]; then
@@ -151,7 +143,7 @@ DescribeOption() {
             SPRINT+=$TEMPLATE
             ;;
         *)
-            ConsoleError " ->" "describe-task - unknown print option '$PRINT_OPTION'"
+            ConsoleError " ->" "describe-option - unknown print option '$PRINT_OPTION'"
             return
             ;;
     esac
@@ -166,7 +158,7 @@ DescribeOption() {
                 cat ${CONFIG_MAP["FW_HOME"]}/${FW_PATH_MAP["OPTIONS"]}/exit/$SOURCE
                 ;;
             run)
-                cat ${CONFIG_MAP["FW_HOME"]}/${FW_PATH_MAP["OPTIONS"]}/runtime/$SOURCE
+                cat ${CONFIG_MAP["FW_HOME"]}/${FW_PATH_MAP["OPTIONS"]}/run/$SOURCE
                 ;;
         esac
     fi
@@ -181,7 +173,7 @@ DescribeOption() {
 ##
 ## function: DescribeOptionStatus
 ## - describes the option status
-## $1: task ID
+## $1: option ID
 ##
 DescribeOptionStatus() {
     local ID=$1
@@ -190,18 +182,8 @@ DescribeOptionStatus() {
 
     TEXT=$(DescribeOption $ID origin)
     case $TEXT in
-        exit)
-            case ${CONFIG_MAP["PRINT_MODE"]} in
-                ansi)           SPRINT+=$(PrintColor green $TEXT) ;;
-                text | adoc)    SPRINT+=$TEXT ;;
-            esac
-            ;;
-        run)
-            case ${CONFIG_MAP["PRINT_MODE"]} in
-                ansi)           SPRINT+=$(PrintColor light-blue $TEXT) ;;
-                text | adoc)    SPRINT+=$TEXT ;;
-            esac
-            ;;
+        exit)   SPRINT+=$(PrintColor green $TEXT) ;;
+        run)    SPRINT+=$(PrintColor light-blue $TEXT) ;;
     esac
 
     printf "$SPRINT"

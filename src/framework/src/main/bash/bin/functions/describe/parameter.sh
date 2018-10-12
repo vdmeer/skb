@@ -38,7 +38,7 @@
 ## - describes a parameter using print options and print features
 ## $1: parameter id
 ## $2: print option: descr, origin, origin1, standard, full, default-value
-## $3: print features: none, line-indent, enter, post-line, (adoc, ansi, text)
+## $3: print features: none, line-indent, enter, post-line, (adoc, ansi, text*)
 ## optional $4: print mode (adoc, ansi, text)
 ##
 DescribeParameter() {
@@ -47,7 +47,7 @@ DescribeParameter() {
     local PRINT_FEATURE="${3:-}"
     local SPRINT=""
 
-    if [ -z ${PARAM_DECL_MAP[$ID]:-} ]; then
+    if [ -z ${DMAP_PARAM_ORIGIN[$ID]:-} ]; then
         ConsoleError " ->" "describe-param - unknown parameter '$ID'"
         return
     fi
@@ -73,11 +73,11 @@ DescribeParameter() {
             post-line)      POST_LINE="::" ;;
             enter)          ENTER="\n" ;;
             adoc)
-                SOURCE=${PARAM_DECL_MAP[$ID]#*:::}.adoc
+                SOURCE=${DMAP_PARAM_DECL[$ID]}.adoc
                 DEF_TEMPLATE="\n+\ndefault value:"
                 ;;
-            ansi | text)
-                SOURCE=${PARAM_DECL_MAP[$ID]#*:::}.txt
+            ansi | text*)
+                SOURCE=${DMAP_PARAM_DECL[$ID]}.txt
                 DEF_TEMPLATE="        default value:"
                 ;;
             none | "")      ;;
@@ -91,9 +91,9 @@ DescribeParameter() {
     SPRINT=$ENTER
     SPRINT+=$LINE_INDENT
 
-    local DESCRIPTION=${PARAM_DESCRIPTION_MAP[$ID]:-}
-    local ORIGIN=${PARAM_DECL_MAP[$ID]%:::*}
-    local DEFAULT_VALUE=${PARAM_DECL_DEFVAL[$ID]}
+    local DESCRIPTION=${DMAP_PARAM_DESCR[$ID]:-}
+    local ORIGIN=${DMAP_PARAM_ORIGIN[$ID]}
+    local DEFAULT_VALUE=${DMAP_PARAM_DEFVAL[$ID]}
     if [ "$DEFAULT_VALUE" == "" ]; then
         DEFAULT_VALUE="none defined"
     else
@@ -160,7 +160,7 @@ DescribeParameter() {
 ##
 ## function: DescribeParameterStatus
 ## - describes the parameter status for the parameter screen
-## $1: task ID
+## $1: param ID
 ## optional $2: print mode (adoc, ansi, text)
 ##
 DescribeParameterStatus() {
@@ -168,10 +168,10 @@ DescribeParameterStatus() {
     local DEFAULT
     local STATUS
 
-    if [ -z ${PARAM_DECL_MAP[$ID]:-} ]; then
-        ConsoleError " ->" "describe-parameter/status - unknown task '$ID'"
+    if [ -z ${DMAP_PARAM_ORIGIN[$ID]:-} ]; then
+        ConsoleError " ->" "describe-parameter/status - unknown '$ID'"
     else
-        if [ -n "${PARAM_DECL_DEFVAL[$ID]:-}" ]; then
+        if [ -n "${DMAP_PARAM_DEFVAL[$ID]:-}" ]; then
             PrintColor green ${CHAR_MAP["AVAILABLE"]}
         else
             PrintColor light-red ${CHAR_MAP["NOT_AVAILABLE"]}

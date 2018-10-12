@@ -6,5 +6,5 @@
 ## @version    v##.##.##
 ##
 
-ALIAS=####
+SHORT=####
 DESCRIPTION="####"

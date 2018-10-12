@@ -21,7 +21,7 @@
 #-------------------------------------------------------------------------------
 
 ##
-## start-pdfreader - starts a pdfreader with an optional FILE
+## build-help - builds help files for loader and shell
 ##
 ## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
 ## @version    v0.0.0
@@ -52,6 +52,7 @@ CONFIG_MAP["RUNNING_IN"]="task"
 ## - reset errors and warnings
 ##
 source $FW_HOME/bin/functions/_include
+source $FW_HOME/bin/functions/describe/_include
 ConsoleResetErrors
 ConsoleResetWarnings
 
@@ -59,16 +60,16 @@ ConsoleResetWarnings
 ##
 ## set local variables
 ##
-FILE=
+
 
 
 ##
 ## set CLI options and parse CLI
 ##
-CLI_OPTIONS=hf:
-CLI_LONG_OPTIONS=help,file:
+CLI_OPTIONS=h
+CLI_LONG_OPTIONS=help
 
-! PARSED=$(getopt --options "$CLI_OPTIONS" --longoptions "$CLI_LONG_OPTIONS" --name start-pdf -- "$@")
+! PARSED=$(getopt --options "$CLI_OPTIONS" --longoptions "$CLI_LONG_OPTIONS" --name build-cache -- "$@")
 if [[ ${PIPESTATUS[0]} -ne 0 ]]; then
     ConsoleError "  ->" "unknown CLI options"
     exit 1
@@ -80,14 +81,10 @@ while true; do
     case "$1" in
         -h | --help)
             printf "\n   options\n"
-            BuildTaskHelpLine h help    "<none>"    "print help screen and exit"        $PRINT_PADDING
-            BuildTaskHelpLine f file    "FILE"      "PDF file to open in reader"        $PRINT_PADDING
+            BuildTaskHelpLine h help    "<none>"    "print help screen and exit"                        $PRINT_PADDING
             exit 0
             ;;
-        -f | --file)
-            FILE="$2"
-            shift 2
-            ;;
+
         --)
             shift
             break
@@ -100,35 +97,52 @@ done
 
 
 
+
 ############################################################################################
 ##
 ## ready to go
 ##
 ############################################################################################
-ERRNO=0
-ConsoleInfo "  -->" "spdf: starting task"
+ConsoleInfo "  -->" "bdh: starting task"
+ConsoleResetErrors
 
-if [ -z "${CONFIG_MAP["PDF_READER"]:-}" ]; then
-    ConsoleError "  ->" "no setting for PDF_READER, cannot start any"
-    ConsoleInfo "  -->" "spdf: done"
-    exit 3
-fi
-if [ ! -n "$FILE" ]; then
-    ConsoleError "  ->" "empty file? - '$FILE'"
-    ConsoleInfo "  -->" "spdf: done"
-    exit 4
-fi
-FILE=$(PathToCygwin $FILE)
-if [ ! -r "$FILE" ]; then
-    ConsoleError "  ->" "cannot read file '$FILE'"
-    ConsoleInfo "  -->" "spdf: done"
-    exit 4
+
+PRINT_MODES="ansi text"
+ConsoleInfo "  -->" "build help for options and commands"
+
+if [ ! -d "${CONFIG_MAP["FW_HOME"]}/etc" ]; then
+    ConsoleError " ->" "\$FW_HOME/etc does not exist"
 fi
 
-SCRIPT=${CONFIG_MAP["PDF_READER"]}
-SCRIPT=${SCRIPT//%FILE%/$FILE}
-$SCRIPT &
-ERRNO=$?
+ConsoleDebug "target: command help"
+if [ ! -z "${RTMAP_TASK_LOADED["list-commands"]}" ]; then
+    for MODE in $PRINT_MODES; do
+        FILE=${CONFIG_MAP["FW_HOME"]}/etc/command-help.$MODE
+            if [ -f $FILE ]; then
+            rm $FILE
+        fi
+        set +e
+        ${DMAP_TASK_EXEC["list-commands"]} -l -p $MODE > ${CONFIG_MAP["FW_HOME"]}/etc/command-help.$MODE
+        set -e
+    done
+else
+    ConsoleError " ->" "cmd-list: did not find task 'list-commands', not loaded?"
+fi
 
-ConsoleInfo "  -->" "spdf: done"
-exit $ERRNO
+ConsoleDebug "target: ooption help"
+if [ ! -z "${RTMAP_TASK_LOADED["list-options"]}" ]; then
+    for MODE in $PRINT_MODES; do
+        FILE=${CONFIG_MAP["FW_HOME"]}/etc/option-help.$MODE
+        if [ -f $FILE ]; then
+            rm $FILE
+        fi
+        set +e
+        ${DMAP_TASK_EXEC["list-options"]} -a -l -p $MODE > ${CONFIG_MAP["FW_HOME"]}/etc/option-help.$MODE
+        set -e
+    done
+else
+    ConsoleError " ->" "opt-list: did not find task 'list-options', not loaded?"
+fi
+
+ConsoleInfo "  -->" "bdh: done"
+exit $TASK_ERRORS

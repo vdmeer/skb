@@ -39,11 +39,11 @@ set -o errexit -o pipefail -o noclobber -o nounset
 ## Test if we are run from parent with configuration
 ## - load configuration
 ##
-if [ -z $FW_HOME ] || [ -z $FW_TMP_CONFIG ]; then
+if [ -z ${FW_HOME:-} ] || [ -z ${FW_L1_CONFIG-} ]; then
     printf " ==> please run from framework or application\n\n"
     exit 10
 fi
-source $FW_TMP_CONFIG
+source $FW_L1_CONFIG
 CONFIG_MAP["RUNNING_IN"]="task"
 
 
@@ -137,9 +137,9 @@ if [ $XTERM == true ]; then
     if [ ! -n "$TITLE" ]; then
         TITLE=$PROGRAM
     fi
-    if [ ! -z "${LOADED_TASKS["start-xterm"]}" ]; then
+    if [ ! -z "${RTMAP_TASK_LOADED["start-xterm"]}" ]; then
         set +e
-        ${TASK_DECL_EXEC["start-xterm"]} --title $TITLE -- $PROGRAM $ARGS
+        ${DMAP_TASK_EXEC["start-xterm"]} --title $TITLE -- $PROGRAM $ARGS
         ERRNO=$?
         set -e
     else

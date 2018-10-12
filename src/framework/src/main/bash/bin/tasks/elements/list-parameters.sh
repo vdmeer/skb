@@ -39,11 +39,11 @@ set -o errexit -o pipefail -o noclobber -o nounset
 ## Test if we are run from parent with configuration
 ## - load configuration
 ##
-if [ -z $FW_HOME ] || [ -z $FW_TMP_CONFIG ]; then
+if [ -z ${FW_HOME:-} ] || [ -z ${FW_L1_CONFIG-} ]; then
     printf " ==> please run from framework or application\n\n"
     exit 10
 fi
-source $FW_TMP_CONFIG
+source $FW_L1_CONFIG
 CONFIG_MAP["RUNNING_IN"]="task"
 
 
@@ -63,14 +63,17 @@ ConsoleResetWarnings
 PRINT_MODE=
 TABLE=true
 DEFAULT_TABLE=false
+REQUESTED=
+CLI_SET=false
+ALL=
 
 
 
 ##
 ## set CLI options and parse CLI
 ##
-CLI_OPTIONS=dhp:
-CLI_LONG_OPTIONS=def-table,help,print-mode:
+CLI_OPTIONS=dhp:r
+CLI_LONG_OPTIONS=def-table,help,print-mode:,requested
 
 ! PARSED=$(getopt --options "$CLI_OPTIONS" --longoptions "$CLI_LONG_OPTIONS" --name list-parameters -- "$@")
 if [[ ${PIPESTATUS[0]} -ne 0 ]]; then
@@ -92,7 +95,14 @@ while true; do
             BuildTaskHelpLine d def-table   "<none>"    "print default value table"                     $PRINT_PADDING
             BuildTaskHelpLine h help        "<none>"    "print help screen and exit"                    $PRINT_PADDING
             BuildTaskHelpLine p print-mode  "MODE"      "print mode: ansi, text, adoc"                  $PRINT_PADDING
+            printf "\n   filters\n"
+            BuildTaskHelpLine r requested   "<none>"    "only requested dependencies"                                                $PRINT_PADDING
             exit 0
+            ;;
+        -r | --requested)
+            REQUESTED=yes
+            CLI_SET=true
+            shift
             ;;
         -p | --print-mode)
             PRINT_MODE="$2"
@@ -112,6 +122,61 @@ done
 
 
 ############################################################################################
+## test CLI
+############################################################################################
+if [ "$ALL" == "yes" ]; then
+    REQUESTED=
+    ALL=
+elif [ $CLI_SET == false ]; then
+    ALL=
+# else
+#     if [ -n "$ORIGIN" ]; then
+#         case $ORIGIN in
+#             F| f | fw | framework)
+#                 ORIGIN=FW_HOME
+#                 ;;
+#             A | a | app | application)
+#                 ORIGIN=${CONFIG_MAP["FLAVOR"]}_HOME
+#                 ;;
+#             *)
+#                 ConsoleError "  ->" "unknown origin: $ORIGIN"
+#                 exit 3
+#         esac
+#     fi
+#     if [ -n "$STATUS" ]; then
+#         case $STATUS in
+#             S | s | success)
+#                 STATUS=S
+#                 ;;
+#             E | e | errors | error)
+#                 STATUS=E
+#                 ;;
+#             W | w | warnings | warning)
+#                 STATUS=W
+#                 ;;
+#             N | n | not-attepmted)
+#                 STATUS=N
+#                 ;;
+#             *)
+#                 ConsoleError "  ->" "unknown status: $STATUS"
+#                 exit 3
+#         esac
+#     fi
+fi
+
+for ID in ${!DMAP_PARAM_ORIGIN[@]}; do
+    if [ -n "$REQUESTED" ]; then
+        if [ -z "${RTMAP_REQUESTED_PARAM[$ID]:-}" ]; then
+            continue
+        fi
+    fi
+    keys=(${keys[@]:-} $ID)
+done
+keys=($(printf '%s\n' "${keys[@]:-}"|sort))
+
+
+
+############################################################################################
 ##
 ## function: TABLE
 ##
@@ -122,16 +187,10 @@ PrintTable() {
     printf "\n"
     printf " ${EFFECTS["REVERSE_ON"]}Parameter         Description                                             O D S${EFFECTS["REVERSE_OFF"]}\n\n"
 
-    for i in ${!PARAM_DECL_MAP[@]}; do
-        keys=(${keys[@]:-} $i)
-    done
-    keys=($(printf '%s\n' "${keys[@]:-}"|sort))
-
-
     declare -A PARAM_TABLE
-    FILE=${CONFIG_MAP["FW_HOME"]}/${APP_PATH_MAP["CACHE"]}/param-tab.${CONFIG_MAP["PRINT_MODE"]}
+    FILE=${CONFIG_MAP["CACHE_DIR"]}/param-tab.${CONFIG_MAP["PRINT_MODE"]}
     if [ -n "$PRINT_MODE" ]; then
-        FILE=${CONFIG_MAP["FW_HOME"]}/${APP_PATH_MAP["CACHE"]}/param-tab.$PRINT_MODE
+        FILE=${CONFIG_MAP["CACHE_DIR"]}/param-tab.$PRINT_MODE
     fi
     if [ -f $FILE ]; then
         source $FILE
@@ -172,16 +231,10 @@ PrintDefaultTable() {
     printf "\n"
     printf " ${EFFECTS["REVERSE_ON"]}Parameter         Default Value                                                ${EFFECTS["REVERSE_OFF"]}\n\n"
 
-    for i in ${!PARAM_DECL_MAP[@]}; do
-        keys=(${keys[@]:-} $i)
-    done
-    keys=($(printf '%s\n' "${keys[@]:-}"|sort))
-
-
     declare -A PARAM_TABLE
-    FILE=${CONFIG_MAP["FW_HOME"]}/${APP_PATH_MAP["CACHE"]}/param-tab.${CONFIG_MAP["PRINT_MODE"]}
+    FILE=${CONFIG_MAP["CACHE_DIR"]}/param-tab.${CONFIG_MAP["PRINT_MODE"]}
     if [ -n "$PRINT_MODE" ]; then
-        FILE=${CONFIG_MAP["FW_HOME"]}/${APP_PATH_MAP["CACHE"]}/param-tab.$PRINT_MODE
+        FILE=${CONFIG_MAP["CACHE_DIR"]}/param-tab.$PRINT_MODE
     fi
     if [ -f $FILE ]; then
         source $FILE

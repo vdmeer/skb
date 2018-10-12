@@ -6,7 +6,7 @@
 ## @version    v0.0.0
 ##
 
-ALIAS=rt
+SHORT=rt
 MODES="dev build use"
 DESCRIPTION="repeats the execution of a task"
 EXEC_PATH=bin/tasks/all

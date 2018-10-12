@@ -40,7 +40,6 @@ declare -A FW_PATH_MAP                              # map/export for standard pa
     FW_PATH_MAP["OPTIONS"]="etc/framework/options"                      # path for application options
     FW_PATH_MAP["EXITCODES"]="etc/framework/exitcodes"                  # path for application exist status files
     FW_PATH_MAP["COMMANDS"]="etc/framework/commands"                    # path for application shell command files
-    FW_PATH_MAP["CACHE"]="cache"                                        # path for screen cache files
 
 
 
@@ -52,14 +51,4 @@ declare -A APP_PATH_MAP                             # map/export for standard pa
     APP_PATH_MAP["DEP_DECL"]="etc/dependencies"                         # path for dependency declarations
     APP_PATH_MAP["TASK_DECL"]="etc/tasks"                               # path for task declarations
     APP_PATH_MAP["TASK_SCRIPT"]="bin/tasks"                             # path for task scripts
-    APP_PATH_MAP["CACHE"]="cache"                                       # path for screen cache files
     APP_PATH_MAP["SCENARIOS"]="scenarios"                               # path for scenarios
-
-
-
-##
-## MAP for files in HOME
-## - MANUAL set in loader after flavor is set
-##
-declare -A APP_FILE_MAP                             # map/export for standard files of an application in HOME
-    APP_FILE_MAP["VERSION"]="etc/version.txt"                                   # path for version file

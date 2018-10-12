@@ -39,11 +39,11 @@ set -o errexit -o pipefail -o noclobber -o nounset
 ## Test if we are run from parent with configuration
 ## - load configuration
 ##
-if [ -z $FW_HOME ] || [ -z $FW_TMP_CONFIG ]; then
+if [ -z ${FW_HOME:-} ] || [ -z ${FW_L1_CONFIG-} ]; then
     printf " ==> please run from framework or application\n\n"
     exit 10
 fi
-source $FW_TMP_CONFIG
+source $FW_L1_CONFIG
 CONFIG_MAP["RUNNING_IN"]="task"
 
 
@@ -225,20 +225,20 @@ printf "${CHAR_MAP["TOP_LINE"]}%.0s" {1..79}
 printf "\n"
 printf " ${EFFECTS["REVERSE_ON"]}Task                     Description                                  O D B U S${EFFECTS["REVERSE_OFF"]}\n\n"
 
-for ID in ${!TASK_DECL_MAP[@]}; do
+for ID in ${!DMAP_TASK_ORIGIN[@]}; do
     if [ -n "$LOADED" ]; then
-        if [ -z "${LOADED_TASKS[$ID]:-}" ]; then
+        if [ -z "${RTMAP_TASK_LOADED[$ID]:-}" ]; then
             continue
         fi
     fi
     if [ -n "$UNLOADED" ]; then
-        if [ -z "${UNLOADED_TASKS[$ID]:-}" ]; then
+        if [ -z "${RTMAP_TASK_UNLOADED[$ID]:-}" ]; then
             continue
         fi
 
     fi
     if [ -n "$STATUS" ]; then
-        case ${TASK_STATUS_MAP[$ID]} in
+        case ${RTMAP_TASK_STATUS[$ID]} in
             $STATUS)
                 ;;
             *)
@@ -248,7 +248,7 @@ for ID in ${!TASK_DECL_MAP[@]}; do
         #=
     fi
     if [ -n "$APP_MODE" ]; then
-        case ${TASK_MODE_MAP[$ID]} in
+        case ${DMAP_TASK_MODES[$ID]} in
             *$APP_MODE*)
                 ;;
             *)
@@ -257,7 +257,7 @@ for ID in ${!TASK_DECL_MAP[@]}; do
         esac
     fi
     if [ -n "$ORIGIN" ]; then
-        if [ ! "$ORIGIN" == "${TASK_DECL_MAP[$ID]%:::*}" ]; then
+        if [ ! "$ORIGIN" == "${DMAP_TASK_ORIGIN[$ID]}" ]; then
             continue
         fi
     fi
@@ -267,9 +267,9 @@ keys=($(printf '%s\n' "${keys[@]:-}"|sort))
 
 
 declare -A TASK_TABLE
-FILE=${CONFIG_MAP["FW_HOME"]}/${APP_PATH_MAP["CACHE"]}/task-tab.${CONFIG_MAP["PRINT_MODE"]}
+FILE=${CONFIG_MAP["CACHE_DIR"]}/task-tab.${CONFIG_MAP["PRINT_MODE"]}
 if [ -n "$PRINT_MODE" ]; then
-    FILE=${CONFIG_MAP["FW_HOME"]}/${APP_PATH_MAP["CACHE"]}/task-tab.$PRINT_MODE
+    FILE=${CONFIG_MAP["CACHE_DIR"]}/task-tab.$PRINT_MODE
 fi
 if [ -f $FILE ]; then
     source $FILE

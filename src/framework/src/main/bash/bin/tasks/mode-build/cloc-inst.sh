@@ -39,11 +39,11 @@ set -o errexit -o pipefail -o noclobber -o nounset
 ## Test if we are run from parent with configuration
 ## - load configuration
 ##
-if [ -z $FW_HOME ] || [ -z $FW_TMP_CONFIG ]; then
+if [ -z ${FW_HOME:-} ] || [ -z ${FW_L1_CONFIG-} ]; then
     printf " ==> please run from framework or application\n\n"
     exit 10
 fi
-source $FW_TMP_CONFIG
+source $FW_L1_CONFIG
 CONFIG_MAP["RUNNING_IN"]="task"
 
 
@@ -102,7 +102,7 @@ done
 ############################################################################################
 ConsoleInfo "  -->" "cloci: starting task"
 
-if [ ! -z ${TESTED_DEPENDENCIES["cloc"]:-} ]; then
+if [ ! -z ${RTMAP_TASK_TESTED["cloc"]:-} ]; then
     cloc $(PathToCygwin ${CONFIG_MAP["FW_HOME"]}) --force-lang="Bourne Again Shell",sh
 else
     ConsoleError " ->" "cloc: dependency 'cloc' not loaded, cannot count"

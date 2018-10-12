@@ -39,11 +39,11 @@ set -o errexit -o pipefail -o noclobber -o nounset
 ## Test if we are run from parent with configuration
 ## - load configuration
 ##
-if [ -z $FW_HOME ] || [ -z $FW_TMP_CONFIG ]; then
+if [ -z ${FW_HOME:-} ] || [ -z ${FW_L1_CONFIG-} ]; then
     printf " ==> please run from framework or application\n\n"
     exit 10
 fi
-source $FW_TMP_CONFIG
+source $FW_L1_CONFIG
 CONFIG_MAP["RUNNING_IN"]="task"
 
 
@@ -64,6 +64,7 @@ PRINT_MODE=
 DEP_ID=
 TESTED=
 ORIGIN=
+REQUESTED=
 STATUS=
 ALL=
 CLI_SET=false
@@ -73,8 +74,8 @@ CLI_SET=false
 ##
 ## set CLI options and parse CLI
 ##
-CLI_OPTIONS=ahi:o:p:s:t
-CLI_LONG_OPTIONS=all,help,id:,origin:,print-mode:,status:,tested
+CLI_OPTIONS=ahi:o:p:rs:t
+CLI_LONG_OPTIONS=all,help,id:,origin:,print-mode:,status:,tested,requested
 
 ! PARSED=$(getopt --options "$CLI_OPTIONS" --longoptions "$CLI_LONG_OPTIONS" --name describe-dependency -- "$@")
 if [[ ${PIPESTATUS[0]} -ne 0 ]]; then
@@ -99,6 +100,7 @@ while true; do
             BuildTaskHelpLine a all         "<none>"    "all dependencies, disables all other filters"                              $PRINT_PADDING
             BuildTaskHelpLine i id          "ID"        "dependency identifier"                                                     $PRINT_PADDING
             BuildTaskHelpLine o origin      "ORIGIN"    "only dependencies from origin: f(w), a(pp)"                                $PRINT_PADDING
+            BuildTaskHelpLine r requested   "<none>"    "only requested dependencies"                                                $PRINT_PADDING
             BuildTaskHelpLine s status      "STATUS"    "only dependencies with status: success, warnings, errors, not attempted"   $PRINT_PADDING
             BuildTaskHelpLine t tested      "<none>"    "only tested dependencies"                                                  $PRINT_PADDING
             exit 0
@@ -117,6 +119,11 @@ while true; do
             PRINT_MODE="$2"
             CLI_SET=true
             shift 2
+            ;;
+        -r | --requested)
+            REQUESTED=yes
+            CLI_SET=true
+            shift
             ;;
         -s | --status)
             STATUS="$2"
@@ -152,13 +159,14 @@ if [ "$ALL" == "yes" ]; then
     DEP_ID=
     TESTED=
     ORIGIN=
+    REQUESTED=
     STATUS=
     ALL=
 elif [ $CLI_SET == false ]; then
     TESTED=yes
 else
     if [ -n "$DEP_ID" ]; then
-        if [ -z ${DEP_DECL_MAP[$DEP_ID]:-} ]; then
+        if [ -z ${DMAP_DEP_ORIGIN[$DEP_ID]:-} ]; then
             ConsoleError " ->" "unknown dependency: $DEP_ID"
         fi
     fi
@@ -205,19 +213,24 @@ fi
 ############################################################################################
 ConsoleInfo "  -->" "dd: starting task"
 
-for ID in ${!DEP_DECL_MAP[@]}; do
+for ID in ${!DMAP_DEP_ORIGIN[@]}; do
     if [ -n "$DEP_ID" ]; then
         if [ ! "$DEP_ID" == "$ID" ]; then
             continue
         fi
     fi
+    if [ -n "$REQUESTED" ]; then
+        if [ -z "${RTMAP_REQUESTED_DEP[$ID]:-}" ]; then
+            continue
+        fi
+    fi
     if [ -n "$TESTED" ]; then
-        if [ -z "${TESTED_DEPENDENCIES[$ID]:-}" ]; then
+        if [ -z "${RTMAP_TASK_TESTED[$ID]:-}" ]; then
             continue
         fi
     fi
     if [ -n "$STATUS" ]; then
-        case ${DEP_STATUS_MAP[$ID]} in
+        case ${RTMAP_DEP_STATUS[$ID]} in
             $STATUS)
                 ;;
             *)
@@ -227,7 +240,7 @@ for ID in ${!DEP_DECL_MAP[@]}; do
         #=
     fi
     if [ -n "$ORIGIN" ]; then
-        if [ ! "$ORIGIN" == "${DEP_DECL_MAP[$ID]%:::*}" ]; then
+        if [ ! "$ORIGIN" == "${DMAP_DEP_ORIGIN[$ID]}" ]; then
             continue
         fi
     fi

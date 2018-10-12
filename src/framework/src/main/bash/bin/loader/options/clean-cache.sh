@@ -32,7 +32,7 @@
 ## DO NOT CHANGE CODE BELOW, unless you know what you are doing
 ##
 
-files=$(find -P ${CONFIG_MAP["HOME"]}/${APP_PATH_MAP["CACHE"]} -type f)
+files=$(find -P ${CONFIG_MAP["CACHE_DIR"]} -type f)
 if [ -n "$files" ]; then
     for file in $files; do
         rm $file

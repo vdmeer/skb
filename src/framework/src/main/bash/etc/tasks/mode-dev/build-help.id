@@ -6,9 +6,13 @@
 ## @version    v0.0.0
 ##
 
-SHORT=bdc
+SHORT=bdh
 MODES="dev"
-DESCRIPTION="builds cache for screens and maps"
+DESCRIPTION="builds help files for loader and shell"
 EXEC_PATH=bin/tasks/mode-dev
 
-TaskRequire $ID param CACHE_DIR
+TaskRequire $ID dir ${CONFIG_MAP["FW_HOME"]}/etc
+
+TaskRequire $ID task list-commands
+TaskRequire $ID task list-options
+

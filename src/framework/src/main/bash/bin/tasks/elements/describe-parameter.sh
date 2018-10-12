@@ -39,11 +39,11 @@ set -o errexit -o pipefail -o noclobber -o nounset
 ## Test if we are run from parent with configuration
 ## - load configuration
 ##
-if [ -z $FW_HOME ] || [ -z $FW_TMP_CONFIG ]; then
+if [ -z ${FW_HOME:-} ] || [ -z ${FW_L1_CONFIG-} ]; then
     printf " ==> please run from framework or application\n\n"
     exit 10
 fi
-source $FW_TMP_CONFIG
+source $FW_L1_CONFIG
 CONFIG_MAP["RUNNING_IN"]="task"
 
 
@@ -64,6 +64,7 @@ PRINT_MODE=
 PARAM_ID=
 DEFAULT=
 ORIGIN=
+REQUESTED=
 STATUS=
 ALL=
 CLI_SET=false
@@ -73,8 +74,8 @@ CLI_SET=false
 ##
 ## set CLI options and parse CLI
 ##
-CLI_OPTIONS=adhi:o:p:s:
-CLI_LONG_OPTIONS=all,default,help,id:,origin:,print-mode:,status:
+CLI_OPTIONS=adhi:o:p:rs:
+CLI_LONG_OPTIONS=all,default,help,id:,origin:,print-mode:,requested,status:
 
 ! PARSED=$(getopt --options "$CLI_OPTIONS" --longoptions "$CLI_LONG_OPTIONS" --name describe-parameter -- "$@")
 if [[ ${PIPESTATUS[0]} -ne 0 ]]; then
@@ -107,6 +108,7 @@ while true; do
             BuildTaskHelpLine d default     "<none>"    "only parameters with a defined default value"          $PRINT_PADDING
             BuildTaskHelpLine i id          "ID"        "parameter identifier"                                  $PRINT_PADDING
             BuildTaskHelpLine o origin      "ORIGIN"    "only parameters from origin: f(w), a(pp)"              $PRINT_PADDING
+            BuildTaskHelpLine r requested   "<none>"    "only requested dependencies"                           $PRINT_PADDING
             BuildTaskHelpLine s status      "STATUS"    "only parameter for status: o, f, e, d"                 $PRINT_PADDING
 
             exit 0
@@ -124,6 +126,11 @@ while true; do
         -p | --print-mode)
             PRINT_MODE="$2"
             shift 2
+            ;;
+        -r | --requested)
+            REQUESTED=yes
+            CLI_SET=true
+            shift
             ;;
         -s | --status)
             STATUS="$2"
@@ -154,10 +161,11 @@ if [ "$ALL" == "yes" ] || [ $CLI_SET == false ]; then
     PARAM_ID=
     DEFAULT=
     ORIGIN=
+    REQUESTED=
     STATUS=
 else
     if [ -n "$PARAM_ID" ]; then
-        if [ -z ${PARAM_DECL_MAP[$PARAM_ID]:-} ]; then
+        if [ -z ${DMAP_PARAM_ORIGIN[$PARAM_ID]:-} ]; then
             ConsoleError " ->" "unknown parameter: $PARAM_ID"
             exit 3
         fi
@@ -204,19 +212,24 @@ fi
 ############################################################################################
 ConsoleInfo "  -->" "dp: starting task"
 
-for ID in ${!PARAM_DECL_MAP[@]}; do
+for ID in ${!DMAP_PARAM_ORIGIN[@]}; do
     if [ -n "$PARAM_ID" ]; then
         if [ ! "$PARAM_ID" == "$ID" ]; then
             continue
         fi
     fi
+    if [ -n "$REQUESTED" ]; then
+        if [ -z "${RTMAP_REQUESTED_PARAM[$ID]:-}" ]; then
+            continue
+        fi
+    fi
     if [ -n "$DEFAULT" ]; then
-        if [ ! -n "${PARAM_DECL_DEFVAL[$PARAM_ID]:-}" ]; then
+        if [ ! -n "${DMAP_PARAM_DEFVAL[$PARAM_ID]:-}" ]; then
             continue
         fi
     fi
     if [ -n "$STATUS" ]; then
-        case ${TASK_STATUS_MAP[$ID]} in
+        case ${RTMAP_PARAM_STATUS[$ID]} in
             $STATUS)
                 ;;
             *)
@@ -226,7 +239,7 @@ for ID in ${!PARAM_DECL_MAP[@]}; do
         #=
     fi
     if [ -n "$ORIGIN" ]; then
-        if [ ! "$ORIGIN" == "${TASK_DECL_MAP[$ID]%:::*}" ]; then
+        if [ ! "$ORIGIN" == "${DMAP_PARAM_ORIGIN[$ID]}" ]; then
             continue
         fi
     fi

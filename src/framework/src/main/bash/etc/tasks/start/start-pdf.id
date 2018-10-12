@@ -6,7 +6,7 @@
 ## @version    v0.0.0
 ##
 
-ALIAS=spdf
+SHORT=spdf
 MODES="dev build use"
 DESCRIPTION="start a PDF reader with a PDF document"
 EXEC_PATH=bin/tasks/start

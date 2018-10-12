@@ -39,11 +39,11 @@ set -o errexit -o pipefail -o noclobber -o nounset
 ## Test if we are run from parent with configuration
 ## - load configuration
 ##
-if [ -z $FW_HOME ] || [ -z $FW_TMP_CONFIG ]; then
+if [ -z ${FW_HOME:-} ] || [ -z ${FW_L1_CONFIG-} ]; then
     printf " ==> please run from framework or application\n\n"
     exit 10
 fi
-source $FW_TMP_CONFIG
+source $FW_L1_CONFIG
 CONFIG_MAP["RUNNING_IN"]="task"
 
 
@@ -113,14 +113,14 @@ done
 ############################################################################################
 ERRNO=0
 ConsoleInfo "  -->" "cl: starting task"
-for ID in "${!LOADED_TASKS[@]}"; do
+for ID in "${!RTMAP_TASK_LOADED[@]}"; do
     case $ID in
         build-* | compile-*)
             ConsoleDebug "cl: run clean on task $ID"
             if [ $SIMULATE == true ]; then
-                printf "  ${TASK_DECL_EXEC[$ID]} --clean\n"
+                printf "  ${DMAP_TASK_EXEC[$ID]} --clean\n"
             else
-                ${TASK_DECL_EXEC[$ID]} --clean
+                ${DMAP_TASK_EXEC[$ID]} --clean
             fi
             ;;
     esac

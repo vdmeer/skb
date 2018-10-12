@@ -39,11 +39,11 @@ set -o errexit -o pipefail -o noclobber -o nounset
 ## Test if we are run from parent with configuration
 ## - load configuration
 ##
-if [ -z $FW_HOME ] || [ -z $FW_TMP_CONFIG ]; then
+if [ -z ${FW_HOME:-} ] || [ -z ${FW_L1_CONFIG-} ]; then
     printf " ==> please run from framework or application\n\n"
     exit 10
 fi
-source $FW_TMP_CONFIG
+source $FW_L1_CONFIG
 CONFIG_MAP["RUNNING_IN"]="task"
 
 
@@ -75,10 +75,10 @@ TARGET=
 ##
 CLI_OPTIONS=abcdhlt
 CLI_LONG_OPTIONS=all,build,clean,decl,help,list,tab
-CLI_LONG_OPTIONS+=,cmd-decl,cmd-tab
+CLI_LONG_OPTIONS+=,cmd-decl,cmd-tab,cmd-list
 CLI_LONG_OPTIONS+=,dep-decl,dep-tab
 CLI_LONG_OPTIONS+=,opt-decl,opt-tab,opt-list
-CLI_LONG_OPTIONS+=,param-decl,param-tab
+CLI_LONG_OPTIONS+=,param-tab
 CLI_LONG_OPTIONS+=,task-decl,task-tab
 
 ! PARSED=$(getopt --options "$CLI_OPTIONS" --longoptions "$CLI_LONG_OPTIONS" --name build-cache -- "$@")
@@ -111,16 +111,17 @@ while true; do
             printf "\n   targets\n"
 
             BuildTaskHelpLine "<none>" cmd-decl "<none>" "target: command declarations" $PRINT_PADDING
-            BuildTaskHelpLine "<none>" cmd-tab "<none>" "target: command table" $PRINT_PADDING
-
-            BuildTaskHelpLine "<none>" dep-decl "<none>" "target: dependency decclarations" $PRINT_PADDING
-            BuildTaskHelpLine "<none>" dep-tab "<none>" "target: dependency table" $PRINT_PADDING
+            BuildTaskHelpLine "<none>" cmd-tab  "<none>" "target: command table" $PRINT_PADDING
+            BuildTaskHelpLine "<none>" cmd-list "<none>" "target: command list" $PRINT_PADDING
 
             BuildTaskHelpLine "<none>" opt-decl "<none>" "target: option declarations" $PRINT_PADDING
             BuildTaskHelpLine "<none>" opt-tab "<none>" "target: option table" $PRINT_PADDING
             BuildTaskHelpLine "<none>" opt-list "<none>" "target: option list" $PRINT_PADDING
 
-            BuildTaskHelpLine "<none>" param-decl "<none>" "target: parameter declarations" $PRINT_PADDING
+
+            BuildTaskHelpLine "<none>" dep-decl "<none>" "target: dependency decclarations" $PRINT_PADDING
+            BuildTaskHelpLine "<none>" dep-tab "<none>" "target: dependency table" $PRINT_PADDING
+
             BuildTaskHelpLine "<none>" param-tab "<none>" "target: parameter table" $PRINT_PADDING
 
             BuildTaskHelpLine "<none>" task-decl "<none>" "target: task declarations" $PRINT_PADDING
@@ -149,18 +150,13 @@ while true; do
             shift
             TARGET=$TARGET" cmd-decl"
             ;;
+        --cmd-list)
+            shift
+            TARGET=$TARGET" cmd-list"
+            ;;
         --cmd-tab)
             shift
             TARGET=$TARGET" cmd-tab"
-            ;;
-
-        --dep-decl)
-            shift
-            TARGET=$TARGET" dep-decl"
-            ;;
-        --dep-tab)
-            shift
-            TARGET=$TARGET" dep-tab"
             ;;
 
         --opt-decl)
@@ -176,10 +172,15 @@ while true; do
             TARGET=$TARGET" opt-tab"
             ;;
 
-        --param-decl)
+        --dep-decl)
             shift
-            TARGET=$TARGET" param-decl"
+            TARGET=$TARGET" dep-decl"
             ;;
+        --dep-tab)
+            shift
+            TARGET=$TARGET" dep-tab"
+            ;;
+
         --param-tab)
             shift
             TARGET=$TARGET" param-tab"
@@ -206,16 +207,16 @@ done
 
 
 if [ $DO_DECL == true ]; then
-    TARGET="cmd-decl dep-decl opt-decl param-decl task-decl"
+    TARGET="cmd-decl dep-decl opt-decl task-decl"
 fi
 if [ $DO_LIST == true ]; then
-    TARGET="opt-list"
+    TARGET="cmd-list opt-list"
 fi
 if [ $DO_TAB == true ]; then
     TARGET="cmd-tab dep-tab opt-tab param-tab task-tab"
 fi
 if [ $DO_ALL == true ]; then
-    TARGET="cmd-decl cmd-tab dep-decl dep-tab opt-decl opt-tab opt-list param-decl param-tab task-decl task-tab"
+    TARGET="cmd-decl cmd-tab cmd-list dep-decl dep-tab opt-decl opt-tab opt-list param-tab task-decl task-tab"
 fi
 if [ $DO_BUILD == true ]; then
     if [ ! -n "$TARGET" ]; then
@@ -238,176 +239,181 @@ ConsoleResetErrors
 PRINT_MODES="ansi text"
 
 if [ $DO_CLEAN == true ]; then
-    files=$(find -P ${CONFIG_MAP["HOME"]}/${APP_PATH_MAP["CACHE"]} -type f)
-    if [ -n "$files" ]; then
-        for file in $files; do
-            rm $file
-        done
+    if [ -d ${CONFIG_MAP["CACHE_DIR"]} ]; then
+        files=$(find -P ${CONFIG_MAP["CACHE_DIR"]} -type f)
+        if [ -n "$files" ]; then
+            for file in $files; do
+                rm $file
+            done
+        fi
     fi
 fi
 
 if [ $DO_BUILD == true ]; then
     ConsoleInfo "  -->" "build for target(s): $TARGET"
-    for TODO in $TARGET; do
-        ConsoleDebug "target: $TODO"
-        case $TODO in
-            cmd-decl)
-                FILE=${CONFIG_MAP["HOME"]}/${APP_PATH_MAP["CACHE"]}/cmd-decl.map
-                if [ -f $FILE ]; then
-                    rm $FILE
-                fi
-                declare -p CMD_DECL_MAP > $FILE
-                declare -p CMD_SHORT_MAP >> $FILE
-                declare -p CMD_ARG_MAP >> $FILE
-                declare -p CMD_DESCRIPTION_MAP >> $FILE
-                ;;
-            cmd-tab)
-                for MODE in $PRINT_MODES; do
-                    FILE=${CONFIG_MAP["FW_HOME"]}/${APP_PATH_MAP["CACHE"]}/cmd-tab.$MODE
+
+    if [ ! -d "${CONFIG_MAP["CACHE_DIR"]}" ]; then
+        mkdir -p ${CONFIG_MAP["CACHE_DIR"]}
+    fi
+    if [ ! -d "${CONFIG_MAP["CACHE_DIR"]}" ]; then
+        ConsoleError " ->" "cache directory ${CONFIG_MAP["CACHE_DIR"]} does not exist"
+    else
+        for TODO in $TARGET; do
+            ConsoleDebug "target: $TODO"
+            case $TODO in
+                cmd-decl)
+                    FILE=${CONFIG_MAP["CACHE_DIR"]}/cmd-decl.map
                     if [ -f $FILE ]; then
                         rm $FILE
                     fi
-                    declare -A COMMAND_TABLE
-                    for ID in ${!CMD_DECL_MAP[@]}; do
-                        COMMAND_TABLE[$ID]=$(CommandInTable $ID $MODE)
-                    done
-                    declare -p COMMAND_TABLE > $FILE
-                done
-                ;;
-            dep-decl)
-                FILE=${CONFIG_MAP["HOME"]}/${APP_PATH_MAP["CACHE"]}/dep-decl.map
-                if [ -f $FILE ]; then
-                    rm $FILE
-                fi
-                declare -p DEP_DECL_MAP > $FILE
-                declare -p DEP_DECL_REQ >> $FILE
-                declare -p DEP_COMMAND_MAP >> $FILE
-                declare -p DEP_DESCRIPTION_MAP >> $FILE
-                ;;
-            dep-tab)
-                for MODE in $PRINT_MODES; do
-                    FILE=${CONFIG_MAP["FW_HOME"]}/${APP_PATH_MAP["CACHE"]}/dep-tab.$MODE
-                    if [ -f $FILE ]; then
-                        rm $FILE
-                    fi
-                    declare -A DEP_TABLE
-                    for ID in ${!DEP_DECL_MAP[@]}; do
-                        DEP_TABLE[$ID]=$(DependencyInTable $ID $MODE)
-                    done
-                    declare -p DEP_TABLE > $FILE
-                done
-                ;;
-            opt-decl)
-                FILE=${CONFIG_MAP["HOME"]}/${APP_PATH_MAP["CACHE"]}/opt-decl.map
-                if [ -f $FILE ]; then
-                    rm $FILE
-                fi
-                declare -p OPT_DECL_MAP > $FILE
-                declare -p OPT_SHORT_MAP >> $FILE
-                declare -p OPT_ARG_MAP >> $FILE
-                declare -p OPT_DESCRIPTION_MAP >> $FILE
-                declare -p OPT_META_MAP_EXIT >> $FILE
-                declare -p OPT_META_MAP_RUNTIME >> $FILE
-                ;;
-            opt-tab)
-                for MODE in $PRINT_MODES; do
-                    FILE=${CONFIG_MAP["FW_HOME"]}/${APP_PATH_MAP["CACHE"]}/opt-tab.$MODE
-                    if [ -f $FILE ]; then
-                        rm $FILE
-                    fi
-                    declare -A OPTION_TABLE
-                    for ID in ${!OPT_DECL_MAP[@]}; do
-                        OPTION_TABLE[$ID]=$(OptionInTable $ID $MODE)
-                    done
-                    declare -p OPTION_TABLE > $FILE
-                done
-                ;;
-            opt-list)
-                for MODE in $PRINT_MODES; do
-                    FILE=${CONFIG_MAP["FW_HOME"]}/${APP_PATH_MAP["CACHE"]}/opt-list.$MODE
-                    if [ -f $FILE ]; then
-                        rm $FILE
-                    fi
-                    declare -A OPTION_LIST
-                    for ID in ${!OPT_DECL_MAP[@]}; do
-                        OPTION_LIST[$ID]=$(OptionInList $ID $MODE)
-                    done
-                    declare -p OPTION_LIST > $FILE
-                done
-                if [ ! -z "${LOADED_TASKS["list-options"]}" ]; then
+                    declare -p DMAP_CMD > $FILE
+                    declare -p DMAP_CMD_SHORT >> $FILE
+                    declare -p DMAP_CMD_ARG >> $FILE
+                    declare -p DMAP_CMD_DESCR >> $FILE
+                    ;;
+                cmd-tab)
                     for MODE in $PRINT_MODES; do
-                        FILE=${CONFIG_MAP["FW_HOME"]}/${APP_PATH_MAP["CACHE"]}/opt-list-help.$MODE
+                        FILE=${CONFIG_MAP["CACHE_DIR"]}/cmd-tab.$MODE
                         if [ -f $FILE ]; then
                             rm $FILE
                         fi
-                        set +e
-                        ${TASK_DECL_EXEC["list-options"]} -a -l -p $MODE > ${CONFIG_MAP["FW_HOME"]}/${APP_PATH_MAP["CACHE"]}/opt-list-help.$MODE
-                        set -e
+                        declare -A COMMAND_TABLE
+                        for ID in ${!DMAP_CMD[@]}; do
+                            COMMAND_TABLE[$ID]=$(CommandInTable $ID $MODE)
+                        done
+                        declare -p COMMAND_TABLE > $FILE
                     done
-                else
-                    ConsoleError " ->" "pdf: cannot test, task 'start-pdf' not loaded"
-                fi
-                ;;
-            param-decl)
-                FILE=${CONFIG_MAP["HOME"]}/${APP_PATH_MAP["CACHE"]}/param-decl.map
-                if [ -f $FILE ]; then
-                    rm $FILE
-                fi
-                declare -p PARAM_DECL_MAP > $FILE
-                declare -p PARAM_DECL_DEFVAL >> $FILE
-                declare -p PARAM_DESCRIPTION_MAP >> $FILE
-                declare -p FILES >> $FILE
-                declare -p DIRECTORIES >> $FILE
-                declare -p DIRECTORIES_CD >> $FILE
-                ;;
-            param-tab)
-                for MODE in $PRINT_MODES; do
-                    FILE=${CONFIG_MAP["FW_HOME"]}/${APP_PATH_MAP["CACHE"]}/param-tab.$MODE
-                    if [ -f $FILE ]; then
-                        rm $FILE
-                    fi
-                    declare -A PARAM_TABLE
-                    for ID in ${!PARAM_DECL_MAP[@]}; do
-                        PARAM_TABLE[$ID]=$(ParameterInTable $ID $MODE)
+                    ;;
+                cmd-list)
+                    for MODE in $PRINT_MODES; do
+                        FILE=${CONFIG_MAP["CACHE_DIR"]}/cmd-list.$MODE
+                        if [ -f $FILE ]; then
+                            rm $FILE
+                        fi
+                        declare -A COMMAND_LIST
+                        for ID in ${!DMAP_CMD[@]}; do
+                            COMMAND_LIST[$ID]=$(CommandInList $ID $MODE)
+                        done
+                        declare -p COMMAND_LIST > $FILE
                     done
-                    declare -p PARAM_TABLE > $FILE
-                done
-                ;;
-            task-decl)
-                FILE=${CONFIG_MAP["HOME"]}/${APP_PATH_MAP["CACHE"]}/task-decl.map
-                if [ -f $FILE ]; then
-                    rm $FILE
-                fi
-                declare -p TASK_DECL_MAP > $FILE
-                declare -p TASK_DECL_EXEC >> $FILE
-                declare -p TASK_MODE_MAP >> $FILE
-                declare -p TASK_ALIAS_MAP >> $FILE
-                declare -p TASK_DESCRIPTION_MAP >> $FILE
+                    ;;
 
-                declare -p TASK_REQ_PARAM >> $FILE
-                declare -p TASK_REQ_DEP >> $FILE
-                declare -p TASK_REQ_TASK >> $FILE
-                declare -p TASK_REQ_DIR >> $FILE
-                declare -p TASK_REQ_FILE >> $FILE
-                ;;
-            task-tab)
-                for MODE in $PRINT_MODES; do
-                    FILE=${CONFIG_MAP["FW_HOME"]}/${APP_PATH_MAP["CACHE"]}/task-tab.$MODE
+                opt-decl)
+                    FILE=${CONFIG_MAP["CACHE_DIR"]}/opt-decl.map
                     if [ -f $FILE ]; then
                         rm $FILE
                     fi
-                    declare -A TASK_TABLE
-                    for ID in ${!TASK_DECL_MAP[@]}; do
-                        TASK_TABLE[$ID]=$(TaskInTable $ID $MODE)
+                    declare -p DMAP_OPT_ORIGIN > $FILE
+                    declare -p DMAP_OPT_SHORT >> $FILE
+                    declare -p DMAP_OPT_ARG >> $FILE
+                    declare -p DMAP_OPT_DESCR >> $FILE
+                    ;;
+                opt-tab)
+                    for MODE in $PRINT_MODES; do
+                        FILE=${CONFIG_MAP["CACHE_DIR"]}/opt-tab.$MODE
+                        if [ -f $FILE ]; then
+                            rm $FILE
+                        fi
+                        declare -A OPTION_TABLE
+                        for ID in ${!DMAP_OPT_ORIGIN[@]}; do
+                            OPTION_TABLE[$ID]=$(OptionInTable $ID $MODE)
+                        done
+                        declare -p OPTION_TABLE > $FILE
                     done
-                    declare -p TASK_TABLE > $FILE
-                done
-                ;;
-            *)
-                ConsoleError " ->" "bdc - unknown target $TODO"
-        esac
-        ConsoleDebug "done target - $TODO"
-    done
+                    ;;
+                opt-list)
+                    for MODE in $PRINT_MODES; do
+                        FILE=${CONFIG_MAP["CACHE_DIR"]}/opt-list.$MODE
+                        if [ -f $FILE ]; then
+                            rm $FILE
+                        fi
+                        declare -A OPTION_LIST
+                        for ID in ${!DMAP_OPT_ORIGIN[@]}; do
+                            OPTION_LIST[$ID]=$(OptionInList $ID $MODE)
+                        done
+                        declare -p OPTION_LIST > $FILE
+                    done
+                    ;;
+
+                dep-decl)
+                    FILE=${CONFIG_MAP["CACHE_DIR"]}/dep-decl.map
+                    if [ -f $FILE ]; then
+                        rm $FILE
+                    fi
+                    declare -p DMAP_DEP_ORIGIN > $FILE
+                    declare -p DMAP_DEP_DECL >> $FILE
+                    declare -p DMAP_DEP_REQ_DEP >> $FILE
+                    declare -p DMAP_DEP_CMD >> $FILE
+                    declare -p DMAP_DEP_DESCR >> $FILE
+                    ;;
+                dep-tab)
+                    for MODE in $PRINT_MODES; do
+                        FILE=${CONFIG_MAP["CACHE_DIR"]}/dep-tab.$MODE
+                        if [ -f $FILE ]; then
+                            rm $FILE
+                        fi
+                        declare -A DEP_TABLE
+                        for ID in ${!DMAP_DEP_ORIGIN[@]}; do
+                            DEP_TABLE[$ID]=$(DependencyInTable $ID $MODE)
+                        done
+                        declare -p DEP_TABLE > $FILE
+                    done
+                    ;;
+                param-tab)
+                    for MODE in $PRINT_MODES; do
+                        FILE=${CONFIG_MAP["CACHE_DIR"]}/param-tab.$MODE
+                        if [ -f $FILE ]; then
+                            rm $FILE
+                        fi
+                        declare -A PARAM_TABLE
+                        for ID in ${!DMAP_PARAM_ORIGIN[@]}; do
+                            PARAM_TABLE[$ID]=$(ParameterInTable $ID $MODE)
+                        done
+                        declare -p PARAM_TABLE > $FILE
+                    done
+                    ;;
+                task-decl)
+                    FILE=${CONFIG_MAP["CACHE_DIR"]}/task-decl.map
+                    if [ -f $FILE ]; then
+                        rm $FILE
+                    fi
+                    declare -p DMAP_TASK_ORIGIN > $FILE
+                    declare -p DMAP_TASK_DECL >> $FILE
+                    declare -p DMAP_TASK_EXEC >> $FILE
+                    declare -p DMAP_TASK_MODES >> $FILE
+                    declare -p DMAP_TASK_SHORT >> $FILE
+                    declare -p DMAP_TASK_DESCR >> $FILE
+
+                    declare -p DMAP_TASK_REQ_PARAM_MAN >> $FILE
+                    declare -p DMAP_TASK_REQ_PARAM_OPT >> $FILE
+                    declare -p DMAP_TASK_REQ_DEP_MAN >> $FILE
+                    declare -p DMAP_TASK_REQ_DEP_OPT >> $FILE
+                    declare -p DMAP_TASK_REQ_TASK_MAN >> $FILE
+                    declare -p DMAP_TASK_REQ_TASK_OPT >> $FILE
+                    declare -p DMAP_TASK_REQ_DIR_MAN >> $FILE
+                    declare -p DMAP_TASK_REQ_DIR_OPT >> $FILE
+                    declare -p DMAP_TASK_REQ_FILE_MAN >> $FILE
+                    declare -p DMAP_TASK_REQ_FILE_OPT >> $FILE
+                    ;;
+                task-tab)
+                    for MODE in $PRINT_MODES; do
+                        FILE=${CONFIG_MAP["CACHE_DIR"]}/task-tab.$MODE
+                        if [ -f $FILE ]; then
+                            rm $FILE
+                        fi
+                        declare -A TASK_TABLE
+                        for ID in ${!DMAP_TASK_ORIGIN[@]}; do
+                            TASK_TABLE[$ID]=$(TaskInTable $ID $MODE)
+                        done
+                        declare -p TASK_TABLE > $FILE
+                    done
+                    ;;
+                *)
+                    ConsoleError " ->" "bdc - unknown target $TODO"
+            esac
+            ConsoleDebug "done target - $TODO"
+        done
+    fi
     ConsoleInfo "  -->" "done build"
 fi
 

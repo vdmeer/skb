@@ -6,7 +6,7 @@
 ## @version    v0.0.0
 ##
 
-ALIAS=sx
+SHORT=sx
 MODES="dev build use"
 DESCRIPTION="starts a new Xterm"
 EXEC_PATH=bin/tasks/start

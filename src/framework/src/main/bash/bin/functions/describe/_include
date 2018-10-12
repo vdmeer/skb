@@ -35,6 +35,7 @@
 
 source $FW_HOME/bin/functions/describe/command.sh
 source $FW_HOME/bin/functions/describe/dependency.sh
+source $FW_HOME/bin/functions/describe/elements.sh
 source $FW_HOME/bin/functions/describe/option.sh
 source $FW_HOME/bin/functions/describe/parameter.sh
 source $FW_HOME/bin/functions/describe/settings.sh

@@ -39,11 +39,11 @@ set -o errexit -o pipefail -o noclobber -o nounset
 ## Test if we are run from parent with configuration
 ## - load configuration
 ##
-if [ -z $FW_HOME ] || [ -z $FW_TMP_CONFIG ]; then
+if [ -z ${FW_HOME:-} ] || [ -z ${FW_L1_CONFIG-} ]; then
     printf " ==> please run from framework or application\n\n"
     exit 10
 fi
-source $FW_TMP_CONFIG
+source $FW_L1_CONFIG
 CONFIG_MAP["RUNNING_IN"]="task"
 
 
@@ -203,7 +203,7 @@ ValidateManualSource() {
     if [ ! -d ${CONFIG_MAP["MANUAL_SRC"]}/framework ]; then
         ConsoleError " ->" "did not find tag directory"
     else
-        EXPECTED="framework/commands framework/dependencies framework/exit-options framework/exit-status framework/options framework/parameters framework/runtime-options framework/tasks"
+        EXPECTED="framework/commands framework/dependencies framework/exit-options framework/exit-status framework/options framework/parameters framework/run-options framework/tasks"
         for FILE in $EXPECTED; do
             if [ ! -f ${CONFIG_MAP["MANUAL_SRC"]}/$FILE.adoc ]; then
                 ConsoleWarnStrict "  ->" "missing file $FILE.adoc"
@@ -287,7 +287,7 @@ ValidateCommandDocs() {
 
     local ID
     local SOURCE
-    for ID in ${!CMD_DECL_MAP[@]}; do
+    for ID in ${!DMAP_CMD[@]}; do
         SOURCE=${CONFIG_MAP["FW_HOME"]}/${FW_PATH_MAP["COMMANDS"]}/$ID
         if [ ! -f $SOURCE.adoc ]; then
             ConsoleWarnStrict " ->" "commands '$ID' without ADOC file"
@@ -320,7 +320,7 @@ ValidateCommand() {
         for file in $files; do
             ID=${file##*/}
             ID=${ID%.*}
-            if [ -z ${CMD_DECL_MAP[$ID]:-} ]; then
+            if [ -z ${DMAP_CMD[$ID]:-} ]; then
                 ConsoleError " ->" "validate/cmd - found extra file FW_HOME/${FW_PATH_MAP["COMMANDS"]}, command '$ID' not declared"
             fi
         done
@@ -341,8 +341,8 @@ ValidateDependencyDocs() {
 
     local ID
     local SOURCE
-    for ID in ${!DEP_DECL_MAP[@]}; do
-        SOURCE=${DEP_DECL_MAP[$ID]#*:::}
+    for ID in ${!DMAP_DEP_DECL[@]}; do
+        SOURCE=${DMAP_DEP_DECL[$ID]}
         if [ ! -f $SOURCE.adoc ]; then
             ConsoleWarnStrict " ->" "dependency '$ID' without ADOC file"
         elif [ ! -r $SOURCE.adoc ]; then
@@ -373,7 +373,7 @@ ValidateDependencyOrigin() {
         for file in $files; do
             ID=${file##*/}
             ID=${ID%.*}
-            if [ -z ${DEP_DECL_MAP[$ID]:-} ]; then
+            if [ -z ${DMAP_DEP_ORIGIN[$ID]:-} ]; then
                 ConsoleError " ->" "validate/dep - found extra file $ORIGIN/${APP_PATH_MAP["DEP_DECL"]}, dependency '$ID' not declared"
             fi
         done
@@ -407,15 +407,8 @@ ValidateOptionDocs() {
     local ID
     local SOURCE
     local OPT_PATH
-    for ID in ${!OPT_DECL_MAP[@]}; do
-        OPT_PATH=""
-        if [ ! -z ${OPT_META_MAP_EXIT[$ID]:-} ]; then
-            OPT_PATH="exit"
-        elif [ ! -z ${OPT_META_MAP_RUNTIME[$ID]:-} ]; then
-            OPT_PATH="runtime"
-        else
-            ConsoleWarnStrict " ->" "could not determine path for option '$ID'"
-        fi
+    for ID in ${!DMAP_OPT_ORIGIN[@]}; do
+        OPT_PATH=${DMAP_OPT_ORIGIN[$ID]:-}
         if [ "$OPT_PATH" != "" ]; then
             SOURCE=${CONFIG_MAP["FW_HOME"]}/${FW_PATH_MAP["OPTIONS"]}/$OPT_PATH/$ID
             if [ ! -f $SOURCE.adoc ]; then
@@ -450,7 +443,7 @@ ValidateOption() {
         for file in $files; do
             ID=${file##*/}
             ID=${ID%.*}
-            if [ -z ${OPT_DECL_MAP[$ID]:-} ]; then
+            if [ -z ${DMAP_OPT_ORIGIN[$ID]:-} ]; then
                 ConsoleError " ->" "validate/opt - found extra file FW_HOME/${FW_PATH_MAP["OPTIONS"]}, option '$ID' not declared"
             fi
         done
@@ -471,8 +464,8 @@ ValidateParameterDocs() {
 
     local ID
     local SOURCE
-    for ID in ${!PARAM_DECL_MAP[@]}; do
-        SOURCE=${PARAM_DECL_MAP[$ID]#*:::}
+    for ID in ${!DMAP_PARAM_DECL[@]}; do
+        SOURCE=${DMAP_PARAM_DECL[$ID]}
         if [ ! -f $SOURCE.adoc ]; then
             ConsoleWarnStrict " ->" "parameter '$ID' without ADOC file"
         elif [ ! -r $SOURCE.adoc ]; then
@@ -503,7 +496,7 @@ ValidateParameterOrigin() {
         for file in $files; do
             ID=${file##*/}
             ID=${ID%.*}
-            if [ -z ${PARAM_DECL_MAP[$ID]:-} ]; then
+            if [ -z ${DMAP_PARAM_ORIGIN[$ID]:-} ]; then
                 ConsoleError " ->" "validate/param - found extra file $ORIGIN/${APP_PATH_MAP["PARAM_DECL"]}, parameter '$ID' not declared"
             fi
         done
@@ -536,8 +529,8 @@ ValidateTaskDocs() {
 
     local ID
     local SOURCE
-    for ID in ${!TASK_DECL_MAP[@]}; do
-        SOURCE=${TASK_DECL_MAP[$ID]#*:::}
+    for ID in ${!DMAP_TASK_DECL[@]}; do
+        SOURCE=${DMAP_TASK_DECL[$ID]}
         if [ ! -f $SOURCE.adoc ]; then
             ConsoleWarnStrict " ->" "task '$ID' without ADOC file"
         elif [ ! -r $SOURCE.adoc ]; then
@@ -568,7 +561,7 @@ ValidateTaskOrigin() {
         for file in $files; do
             ID=${file##*/}
             ID=${ID%.*}
-            if [ -z ${TASK_DECL_MAP[$ID]:-} ]; then
+            if [ -z ${DMAP_TASK_DECL[$ID]:-} ]; then
                 ConsoleError " ->" "validate/task - found extra file $ORIGIN/${APP_PATH_MAP["TASK_DECL"]}, task '$ID' not declared"
             fi
         done
@@ -580,7 +573,7 @@ ValidateTaskOrigin() {
         for file in $files; do
             ID=${file##*/}
             ID=${ID%.*}
-            if [ -z ${TASK_DECL_EXEC[$ID]:-} ]; then
+            if [ -z ${DMAP_TASK_EXEC[$ID]:-} ]; then
                 ConsoleError " ->" "validate/task - found extra file $ORIGIN/${APP_PATH_MAP["TASK_SCRIPT"]}, task '$ID' not declared"
             fi
         done

@@ -33,19 +33,11 @@
 ##
 
 
-declare -A DEP_DECL_MAP             # map/export for dependency declarations: [id]="CFG:::file.sh", CFG used as origin, i.e. FW_HOME or HOME
-declare -A DEP_DECL_REQ             # map/export for decl dep: [id]="requires other deps"
-declare -A DEP_COMMAND_MAP          # map/export for dependency commands: [id]="tag-line"
-declare -A DEP_DESCRIPTION_MAP      # map/export for dependency descriptions: [id]="tag-line"
-declare -A DEP_STATUS_MAP           # map/export for dependency status: [id]=[N]ot-done, [S]uccess, [W]arning(s), [E]rrors
-
-declare -A TESTED_DEPENDENCIES      # array/export for tested dependencies
-
-
-##
-## set dummies for the runtime maps, declare errors otherwise
-##
-TESTED_DEPENDENCIES["DUMMY"]=dummy
+declare -A DMAP_DEP_ORIGIN              # map [id]=origin
+declare -A DMAP_DEP_DECL                # map [id]=decl-file w/o .id eding
+declare -A DMAP_DEP_CMD                 # map [id]=exec-script
+declare -A DMAP_DEP_DESCR               # map [id]="descr-tag-line"
+declare -A DMAP_DEP_REQ_DEP             # map [id]=(dep-id, ...)
 
 
 
@@ -97,18 +89,19 @@ DeclareDependenciesOrigin() {
                     REQUIRES=""
                 fi
 
-                if [ ! -z ${DEP_DECL_MAP[$ID]:-} ]; then
-                    ConsoleError "    >" "overwriting ${DEP_DECL_MAP[$ID]%:::*}:::$ID with $ORIGIN:::$ID"
+                if [ ! -z ${DMAP_DEP_ORIGIN[$ID]:-} ]; then
+                    ConsoleError "    >" "overwriting ${DMAP_DEP_ORIGIN[$ID]}:::$ID with $ORIGIN:::$ID"
                     HAVE_ERRORS=true
                 fi
                 if [ $HAVE_ERRORS == true ]; then
                     ConsoleError " ->" "declare dependency - could not declare dependency"
                     NO_ERRORS=false
                 else
-                    DEP_DECL_MAP[$ID]="$ORIGIN:::${file%.*}"
-                    DEP_DECL_REQ[$ID]=$REQUIRES
-                    DEP_DESCRIPTION_MAP[$ID]=$DESCRIPTION
-                    DEP_COMMAND_MAP[$ID]=$COMMAND
+                    DMAP_DEP_ORIGIN[$ID]=$ORIGIN
+                    DMAP_DEP_DECL[$ID]=${file%.*}
+                    DMAP_DEP_REQ_DEP[$ID]=$REQUIRES
+                    DMAP_DEP_DESCR[$ID]=$DESCRIPTION
+                    DMAP_DEP_CMD[$ID]=$COMMAND
                     ConsoleDebug "declared $ORIGIN:::$ID"
                 fi
             done
@@ -134,12 +127,12 @@ DeclareDependenciesOrigin() {
      local req
  
      ConsoleDebug "validate dependency requirements"
-     for ID in "${!DEP_DECL_MAP[@]}"; do
-         ORIGIN=${DEP_DECL_MAP[$ID]%:::*}
-         REQUIRES=${DEP_DECL_REQ[$ID]#*:::}
+     for ID in "${!DMAP_DEP_ORIGIN[@]}"; do
+         ORIGIN=${DMAP_DEP_ORIGIN[$ID]}
+         REQUIRES=${DMAP_DEP_REQ_DEP[$ID]#*:::}
          if [ -n "$REQUIRES" ]; then
              for req in $REQUIRES; do
-                 if [ ${DEP_DECL_MAP[$req]+found} ]; then
+                 if [ ${DMAP_DEP_ORIGIN[$req]+found} ]; then
                      ConsoleDebug "$ID requires $req"
                  else
                      ConsoleError " ->" "declare dependency - $ORIGIN:::$ID requires unknown dependency $req"

@@ -3,3 +3,9 @@ doc/
 man/
 bin/java
 
+etc/command-help.ansi
+etc/command-help.text
+etc/option-help.ansi
+etc/option-help.text
+
+

@@ -47,7 +47,7 @@ ShellCmdExecuteTask() {
         return
     fi
 
-    if [ -z "${LOADED_TASKS[$ID]:-}" ]; then
+    if [ -z "${RTMAP_TASK_LOADED[$ID]:-}" ]; then
         ConsoleError " ->" "task '$ID' unknown or not loaded in mode '${CONFIG_MAP["APP_MODE"]}'"
         printf "\n"
         return
@@ -62,13 +62,17 @@ ShellCmdExecuteTask() {
 
     local DO_EXTRAS=true
     local DO_HELP=false
+    local DO_WAIT=false
     case $ID in
         list-* | describe-*)
             DO_EXTRAS=false
             ;;
+        w | wait)
+            DO_EXTRAS=false
+            DO_WAIT=true
     esac
     case "$TARG" in
-        *" -h "* | *" --help "*)
+        "-h" | "--help" | "-h "* | "--help "* | *" -h" | *" --help")
             DO_EXTRAS=false
             local DO_HELP=true
             ;;
@@ -94,18 +98,19 @@ ShellCmdExecuteTask() {
             PrintEffect bold "$TARG"
         fi
         printf "\n\n"
-        TS=$(date +%s.%N)
     elif $DO_HELP; then
-        SPRINT=$(DescribeTask $TASK full "$PRINT_MODE")
+        SPRINT=$(DescribeTask $TASK full ${CONFIG_MAP["PRINT_MODE"]})
         printf "\n   %s\n" "$SPRINT"
     else
         printf "\n"
     fi
 
+    TS=$(date +%s.%N)
     set +e
-    ${TASK_DECL_EXEC[$ID]} $TARG
+    ${DMAP_TASK_EXEC[$ID]} $TARG
     ERRNO=$?
     set -e
+    TE=$(date +%s.%N)
 
     if $DO_EXTRAS; then
         TE=$(date +%s.%N)
@@ -127,6 +132,9 @@ ShellCmdExecuteTask() {
         printf "\n "
         printf "${CHAR_MAP["TOP_LINE"]}%.0s" {1..79}
         printf "\n\n"
+    elif $DO_WAIT; then
+        RUNTIME=$(echo "$TE-$TS" | bc -l)
+        printf "    wait: $RUNTIME seconds\n"
     else
         printf "\n"
     fi

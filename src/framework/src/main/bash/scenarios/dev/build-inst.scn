@@ -9,5 +9,5 @@
 #// Description: builds installation artifacts: cache and manual
 #// MODES=dev
 
-bdc -abc
-bdman -sbc
+bdh
+bdm -sbc

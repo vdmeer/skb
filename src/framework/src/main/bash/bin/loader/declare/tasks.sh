@@ -33,33 +33,39 @@
 ##
 
 
-declare -A TASK_DECL_MAP            # map/export for tasks: [id]="CFG:::file.sh", CFG used as origin, i.e. FW_HOME or HOME
-declare -A TASK_DECL_EXEC           # map/export for decl task: [id]=executable
-declare -A TASK_MODE_MAP            # map/export for task modes: [id]="modes"
-declare -A TASK_ALIAS_MAP           # map/export for task aliases: [alias]=[task-id]
-declare -A TASK_DESCRIPTION_MAP     # map/export for task descriptions: [id]="tag-line"
-declare -A TASK_STATUS_MAP          # map/export for task status: [id]=[N]ot-done, [S]uccess, [W]arning(s), [E]rrors
+declare -A DMAP_TASK_ORIGIN             # map [id]=origin
+declare -A DMAP_TASK_DECL               # map [id]=decl-file w/o .id eding
+declare -A DMAP_TASK_SHORT              # map [id]=short-cmd
+declare -A DMAP_TASK_EXEC               # map [id]=exec-script
+declare -A DMAP_TASK_DESCR              # map [id]="descr-tag-line"
+declare -A DMAP_TASK_MODES              # map [id]="modes"
 
-declare -A LOADED_TASKS             # array/export for unloaded tasks
-declare -A UNLOADED_TASKS           # array/export for unloaded tasks
+declare -A DMAP_TASK_REQ_PARAM_MAN      # map [id]=(param-id, ...)
+declare -A DMAP_TASK_REQ_PARAM_OPT      # map [id]=(param-id, ...)
+declare -A DMAP_TASK_REQ_DEP_MAN        # map [id]=(dependency-id, ...)
+declare -A DMAP_TASK_REQ_DEP_OPT        # map [id]=(dependency-id, ...)
+declare -A DMAP_TASK_REQ_TASK_MAN       # map [id]=(task-id, ...)
+declare -A DMAP_TASK_REQ_TASK_OPT       # map [id]=(task-id, ...)
+declare -A DMAP_TASK_REQ_DIR_MAN        # map [id]=(dir, ...)
+declare -A DMAP_TASK_REQ_DIR_OPT        # map [id]=(dir, ...)
+declare -A DMAP_TASK_REQ_FILE_MAN       # map [id]=(file, ...)
+declare -A DMAP_TASK_REQ_FILE_OPT       # map [id]=(file, ...)
 
-declare -A TASK_REQ_PARAM           # map/export for task requires parameter, [taskid]=(param-id, ...)
-declare -A TASK_REQ_DEP             # map/export for task requires dependency, [taskid]=(dependency-id, ...)
-declare -A TASK_REQ_TASK            # map/export for task depending on other tasks, [taskid]=(task-id, ...)
-declare -A TASK_REQ_DIR             # map/export for task requires directory, [taskid]=(dir, ...)
-declare -A TASK_REQ_FILE            # map/export for task requires directory, [taskid]=(file, ...)
 
 
 ##
 ## set dummies for the runtime maps, declare errors otherwise
 ##
-LOADED_TASKS["DUMMY"]=dummy
-UNLOADED_TASKS["DUMMY"]=dummy
-TASK_REQ_PARAM["DUMMY"]=HOME
-TASK_REQ_DEP["DUMMY"]=gradle
-TASK_REQ_TASK["DUMMY"]=sb
-TASK_REQ_DIR["DUMMY"]=$FW_HOME
-TASK_REQ_FILE["DUMMY"]=$FW_HOME/etc/version.txt
+DMAP_TASK_REQ_PARAM_MAN["DUMMY"]=dummy
+DMAP_TASK_REQ_PARAM_OPT["DUMMY"]=dummy
+DMAP_TASK_REQ_DEP_MAN["DUMMY"]=dummy
+DMAP_TASK_REQ_DEP_OPT["DUMMY"]=dummy
+DMAP_TASK_REQ_TASK_MAN["DUMMY"]=dummy
+DMAP_TASK_REQ_TASK_OPT["DUMMY"]=dummy
+DMAP_TASK_REQ_DIR_MAN["DUMMY"]=$FW_HOME
+DMAP_TASK_REQ_DIR_OPT["DUMMY"]=$FW_HOME
+DMAP_TASK_REQ_FILE_MAN["DUMMY"]=$FW_HOME/etc/version.txt
+DMAP_TASK_REQ_FILE_OPT["DUMMY"]=$FW_HOME/etc/version.txt
 
 
 
@@ -90,19 +96,24 @@ TaskRequire() {
     ConsoleDebug "task $ID requires '$TYPE' value '$VALUE' option '$OPTIONAL'"
 
     if [ -z $OPTIONAL ]; then
-        OPTIONAL="man:::"
+        case "$TYPE" in
+            param)  DMAP_TASK_REQ_PARAM_MAN[$ID]="${DMAP_TASK_REQ_PARAM_MAN[$ID]:-} $VALUE" ;;
+            dep)    DMAP_TASK_REQ_DEP_MAN[$ID]="${DMAP_TASK_REQ_DEP_MAN[$ID]:-} $VALUE" ;;
+            task)   DMAP_TASK_REQ_TASK_MAN[$ID]="${DMAP_TASK_REQ_TASK_MAN[$ID]:-} $VALUE" ;;
+            dir)    DMAP_TASK_REQ_DIR_MAN[$ID]="${DMAP_TASK_REQ_DIR_MAN[$ID]:-} $VALUE" ;;
+            file)   DMAP_TASK_REQ_FILE_MAN[$ID]="${DMAP_TASK_REQ_FILE_MAN[$ID]:-} $VALUE" ;;
+            *)      ConsoleError " ->" "task-require -task $ID requires unknown type '$TYPE'" ;;
+        esac
     else
-        OPTIONAL="opt:::"
+        case "$TYPE" in
+            param)  DMAP_TASK_REQ_PARAM_OPT[$ID]="${DMAP_TASK_REQ_PARAM_OPT[$ID]:-} $VALUE" ;;
+            dep)    DMAP_TASK_REQ_DEP_OPT[$ID]="${DMAP_TASK_REQ_DEP_OPT[$ID]:-} $VALUE" ;;
+            task)   DMAP_TASK_REQ_TASK_OPT[$ID]="${DMAP_TASK_REQ_TASK_OPT[$ID]:-} $VALUE" ;;
+            dir)    DMAP_TASK_REQ_DIR_OPT[$ID]="${DMAP_TASK_REQ_DIR_OPT[$ID]:-} $VALUE" ;;
+            file)   DMAP_TASK_REQ_FILE_OPT[$ID]="${DMAP_TASK_REQ_FILE_OPT[$ID]:-} $VALUE" ;;
+            *)      ConsoleError " ->" "task-require -task $ID requires unknown type '$TYPE'" ;;
+        esac
     fi
-
-    case "$TYPE" in
-        param)  TASK_REQ_PARAM[$ID]="${TASK_REQ_PARAM[$ID]:-} $OPTIONAL$VALUE" ;;
-        dep)    TASK_REQ_DEP[$ID]="${TASK_REQ_DEP[$ID]:-} $OPTIONAL$VALUE" ;;
-        task)   TASK_REQ_TASK[$ID]="${TASK_REQ_TASK[$ID]:-} $OPTIONAL$VALUE" ;;
-        dir)    TASK_REQ_DIR[$ID]="${TASK_REQ_DIR[$ID]:-} $OPTIONAL$VALUE" ;;
-        file)   TASK_REQ_FILE[$ID]="${TASK_REQ_FILE[$ID]:-} $OPTIONAL$VALUE" ;;
-        *)      ConsoleError " ->" "task-require -task $ID requires unknown type '$TYPE'" ;;
-    esac
 }
 
 
@@ -122,7 +133,7 @@ DeclareTasksOrigin() {
     else
         local ID
         local TEST_ID
-        local ALIAS
+        local SHORT
         local EXECUTABLE
         local EXEC_PATH
         local MODES
@@ -140,7 +151,7 @@ DeclareTasksOrigin() {
 
                 local HAVE_ERRORS=false
 
-                ALIAS=
+                SHORT=
                 EXEC_PATH=
                 EXECUTABLE=
                 MODES=
@@ -182,47 +193,45 @@ DeclareTasksOrigin() {
                     HAVE_ERRORS=true
                 fi
 
-                if [ ! -z ${CMD_DECL_MAP[$ID]:-} ]; then
+                if [ ! -z ${DMAP_CMD[$ID]:-} ]; then
                     ConsoleError " ->" "declare task - task '$ID' already used as long shell command"
                     HAVE_ERRORS=true
                 fi
-                if [ ! -z ${CMD_SHORT_MAP[$ID]:-} ]; then
+                if [ ! -z ${DMAP_CMD[$SHORT]:-} ]; then
+                    ConsoleError " ->" "declare task - task '$ID' short '$SHORT' already used as long shell command"
+                    HAVE_ERRORS=true
+                fi
+
+                if [ ! -z ${DMAP_CMD_SHORT[$ID]:-} ]; then
                     ConsoleError " ->" "declare task - task '$ID' already used as short shell command"
                     HAVE_ERRORS=true
                 fi
-                for TEST_ID in ${!CMD_DECL_MAP[@]}; do
-                    if [ $TEST_ID == $ALIAS ];then
-                        ConsoleError " ->" "declare task - task '$ID' alias '$ALIAS' already used as long shell command"
-                        HAVE_ERRORS=true
-                    fi
-                done
-                for TEST_ID in ${!CMD_SHORT_MAP[@]}; do
-                    if [ "${CMD_SHORT_MAP[$TEST_ID]:-}" == "$ALIAS" ];then
-                        ConsoleError " ->" "declare task - task '$ID' alias '$ALIAS' already used as short shell command"
-                        HAVE_ERRORS=true
-                    fi
-                done
-
-                if [ ! -z ${TASK_DECL_MAP[$ID]:-} ]; then
-                    ConsoleError "    >" "overwriting ${TASK_DECL_MAP[$ID]%:::*}:::$ID with $ORIGIN:::$ID"
+                if [ ! -z ${DMAP_CMD_SHORT[$SHORT]:-} ]; then
+                    ConsoleError " ->" "declare task - task '$ID' short '$SHORT' already used as short shell command"
                     HAVE_ERRORS=true
                 fi
-                if [ ! -z ${ALIAS:-} ] && [ ! -z ${TASK_ALIAS_MAP[${ALIAS:-}]:-} ]; then
-                    ConsoleError "    >" "overwriting task alias from ${TASK_ALIAS_MAP[$ALIAS]} to $ID"
+
+                if [ ! -z ${DMAP_TASK_ORIGIN[$ID]:-} ]; then
+                    ConsoleError "    >" "overwriting ${DMAP_TASK_ORIGIN[$ID]}:::$ID with $ORIGIN:::$ID"
+                    HAVE_ERRORS=true
+                fi
+                if [ ! -z ${SHORT:-} ] && [ ! -z ${DMAP_TASK_SHORT[${SHORT:-}]:-} ]; then
+                    ConsoleError "    >" "overwriting task short from ${DMAP_TASK_SHORT[$SHORT]} to $ID"
                     HAVE_ERRORS=true
                 fi
                 if [ $HAVE_ERRORS == true ]; then
                     ConsoleError " ->" "declare task - could not declare task"
                     NO_ERRORS=false
                 else
-                    TASK_DECL_MAP[$ID]="$ORIGIN:::${file%.*}"
-                    TASK_DECL_EXEC[$ID]=$EXECUTABLE
-                    TASK_MODE_MAP[$ID]="$MODES"
-                    TASK_DESCRIPTION_MAP[$ID]="$DESCRIPTION"
-                    if [ ! -z ${ALIAS:-} ]; then
-                        TASK_ALIAS_MAP[$ALIAS]=$ID
+                    DMAP_TASK_ORIGIN[$ID]=$ORIGIN
+                    DMAP_TASK_DECL[$ID]=${file%.*}
+                    DMAP_TASK_EXEC[$ID]=$EXECUTABLE
+                    DMAP_TASK_MODES[$ID]="$MODES"
+                    DMAP_TASK_DESCR[$ID]="$DESCRIPTION"
+                    if [ ! -z ${SHORT:-} ]; then
+                        DMAP_TASK_SHORT[$SHORT]=$ID
                     fi
-                    ConsoleDebug "declared $ORIGIN:::$ID with alias '$ALIAS'"
+                    ConsoleDebug "declared $ORIGIN:::$ID with short '$SHORT'"
                 fi
             done
             if [ $NO_ERRORS == false ]; then

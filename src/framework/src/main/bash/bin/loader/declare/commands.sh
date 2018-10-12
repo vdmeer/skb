@@ -33,10 +33,11 @@
 ##
 
 
-declare -A CMD_DECL_MAP             # map/internal for long command, [id]="longcommand"
-declare -A CMD_SHORT_MAP            # map/internal for short command, [id]='o' - not set if none
-declare -A CMD_ARG_MAP              # map/internal for argument, [id]="argument" - not set if none
-declare -A CMD_DESCRIPTION_MAP      # map/internal for argument, [id]="argument" - not set if none
+
+declare -A DMAP_CMD                     # map [id]=short | --
+declare -A DMAP_CMD_SHORT               # map [id]=long
+declare -A DMAP_CMD_ARG                 # map [id]=argument
+declare -A DMAP_CMD_DESCR               # map [id]="descr-tag-line"
 
 
 
@@ -64,8 +65,8 @@ DeclareCommandsOrigin() {
             ID=${file##*/}
             ID=${ID%.*}
 
-            if [ ! -z ${CMD_DECL_MAP[$ID]:-} ]; then
-                ConsoleError " ->" "internal error: CMD_DECL_MAP for id '$ID' already set"
+            if [ ! -z ${DMAP_CMD[$ID]:-} ]; then
+                ConsoleError " ->" "internal error: DMAP_CMD for id '$ID' already set"
             else
                 local HAVE_ERRORS=false
 
@@ -83,10 +84,14 @@ DeclareCommandsOrigin() {
                     ConsoleError " ->" "declare command - could not declare command"
                     NO_ERRORS=false
                 else
-                    CMD_DECL_MAP[$ID]=$ID
-                    CMD_SHORT_MAP[$ID]=$SHORT
-                    CMD_ARG_MAP[$ID]=$ARGUMENT
-                    CMD_DESCRIPTION_MAP[$ID]=$DESCRIPTION
+                    if [ -n "$SHORT" ]; then
+                        DMAP_CMD[$ID]=$SHORT
+                        DMAP_CMD_SHORT[$SHORT]=$ID
+                    else
+                        DMAP_CMD[$ID]="--"
+                    fi
+                    DMAP_CMD_ARG[$ID]=$ARGUMENT
+                    DMAP_CMD_DESCR[$ID]=$DESCRIPTION
                     ConsoleDebug "declared command $ID"
                 fi
             fi

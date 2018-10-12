@@ -6,7 +6,7 @@
 ## @version    v0.0.0
 ##
 
-ALIAS=sb
+SHORT=sb
 MODES="dev build use"
 DESCRIPTION="start browser with an optional URL"
 EXEC_PATH=bin/tasks/start

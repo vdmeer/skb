@@ -6,7 +6,7 @@
 ## @version    v0.0.0
 ##
 
-ALIAS=cl
+SHORT=cl
 MODES="dev build"
 DESCRIPTION="removes built artifacts"
 EXEC_PATH=bin/tasks/mode-build

@@ -39,11 +39,11 @@ set -o errexit -o pipefail -o noclobber -o nounset
 ## Test if we are run from parent with configuration
 ## - load configuration
 ##
-if [ -z $FW_HOME ] || [ -z $FW_TMP_CONFIG ]; then
+if [ -z ${FW_HOME:-} ] || [ -z ${FW_L1_CONFIG-} ]; then
     printf " ==> please run from framework or application\n\n"
     exit 10
 fi
-source $FW_TMP_CONFIG
+source $FW_L1_CONFIG
 CONFIG_MAP["RUNNING_IN"]="task"
 
 
@@ -64,7 +64,7 @@ PRINT_MODE=
 LIST=false
 TABLE=true
 EXIT=
-RUNTIME=
+RUN=
 ALL=
 CLI_SET=false
 
@@ -74,7 +74,7 @@ CLI_SET=false
 ## set CLI options and parse CLI
 ##
 CLI_OPTIONS=aehlp:rt
-CLI_LONG_OPTIONS=all,exit,help,list,print-mode:,runtime,table
+CLI_LONG_OPTIONS=all,exit,help,list,print-mode:,run,table
 
 ! PARSED=$(getopt --options "$CLI_OPTIONS" --longoptions "$CLI_LONG_OPTIONS" --name list-options -- "$@")
 if [[ ${PIPESTATUS[0]} -ne 0 ]]; then
@@ -100,7 +100,7 @@ while true; do
             printf "\n   filters\n"
             BuildTaskHelpLine a all         "<none>"    "all options, disables all other filters"       $PRINT_PADDING
             BuildTaskHelpLine e exit        "<none>"    "only exit options"                             $PRINT_PADDING
-            BuildTaskHelpLine r runtime     "<none>"    "only runtime options"                          $PRINT_PADDING
+            BuildTaskHelpLine r run         "<none>"    "only runtime options"                          $PRINT_PADDING
             exit 0
             ;;
         -e | --exit)
@@ -117,8 +117,8 @@ while true; do
             PRINT_MODE="$2"
             shift 2
             ;;
-        -r | --runtime)
-            RUNTIME=yes
+        -r | --run)
+            RUN=yes
             CLI_SET=true
             shift
             ;;
@@ -148,11 +148,11 @@ if [ $LIST == false ] && [ $TABLE == false ]; then
 fi
 
 if [ "$ALL" == "yes" ]; then
-    EXIT=
-    RUNTIME=
+    EXIT=yes
+    RUN=yes
 elif [ $CLI_SET == false ]; then
     EXIT=yes
-    RUNTIME=yes
+    RUN=yes
 fi
 
 
@@ -193,14 +193,15 @@ PrintOptions() {
     local i
     local keys
 
-    for ID in ${!OPT_DECL_MAP[@]}; do
-        if [ -n "$EXIT" ]; then
-            if [ -z "${OPT_META_MAP_EXIT[$ID]:-}" ]; then
+    for ID in ${!DMAP_OPT_ORIGIN[@]}; do
+        if [ -n "$EXIT" ] && [ -n "$RUN" ]; then
+            :
+        elif [ -n "$EXIT" ]; then
+            if [ "${DMAP_OPT_ORIGIN[$ID]}" != "exit"]; then
                 continue
             fi
-        fi
-        if [ -n "$RUNTIME" ]; then
-            if [ -z "${OPT_META_MAP_RUNTIME[$ID]:-}" ]; then
+        elif [ -n "$RUN" ]; then
+            if [ "${DMAP_OPT_ORIGIN[$ID]}" != "run"]; then
                 continue
             fi
         fi
@@ -211,9 +212,9 @@ PrintOptions() {
     case $1 in
         list)
             declare -A OPTION_LIST
-            FILE=${CONFIG_MAP["FW_HOME"]}/${APP_PATH_MAP["CACHE"]}/opt-list.${CONFIG_MAP["PRINT_MODE"]}
+            FILE=${CONFIG_MAP["CACHE_DIR"]}/opt-list.${CONFIG_MAP["PRINT_MODE"]}
             if [ -n "$PRINT_MODE" ]; then
-                FILE=${CONFIG_MAP["FW_HOME"]}/${APP_PATH_MAP["CACHE"]}/opt-list.$PRINT_MODE
+                FILE=${CONFIG_MAP["CACHE_DIR"]}/opt-list.$PRINT_MODE
             fi
             if [ -f $FILE ]; then
                 source $FILE
@@ -221,9 +222,9 @@ PrintOptions() {
             ;;
         table)
             declare -A OPTION_TABLE
-            FILE=${CONFIG_MAP["FW_HOME"]}/${APP_PATH_MAP["CACHE"]}/opt-tab.${CONFIG_MAP["PRINT_MODE"]}
+            FILE=${CONFIG_MAP["CACHE_DIR"]}/opt-tab.${CONFIG_MAP["PRINT_MODE"]}
             if [ -n "$PRINT_MODE" ]; then
-                FILE=${CONFIG_MAP["FW_HOME"]}/${APP_PATH_MAP["CACHE"]}/opt-tab.$PRINT_MODE
+                FILE=${CONFIG_MAP["CACHE_DIR"]}/opt-tab.$PRINT_MODE
             fi
             if [ -f $FILE ]; then
                 source $FILE

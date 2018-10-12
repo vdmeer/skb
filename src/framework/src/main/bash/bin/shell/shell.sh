@@ -40,11 +40,11 @@ set -o errexit -o pipefail -o noclobber -o nounset
 ## Test if we are run from parent with configuration
 ## - load configuration
 ##
-if [ -z $FW_HOME ] || [ -z $FW_TMP_CONFIG ]; then
+if [ -z ${FW_HOME:-} ] || [ -z ${FW_L1_CONFIG-} ]; then
     printf " ==> please run from framework or application\n\n"
     exit 10
 fi
-source $FW_TMP_CONFIG
+source $FW_L1_CONFIG
 CONFIG_MAP["RUNNING_IN"]="shell"
 
 
@@ -59,6 +59,7 @@ source $FW_HOME/bin/functions/describe/_include
 source $FW_HOME/bin/loader/declare/config.sh
 ConsoleResetErrors
 ConsoleResetWarnings
+ConsoleMessage "\n"
 
 
 
@@ -179,8 +180,7 @@ FWShell() {
         STIME=$(date +"%T")
         case "$SCMD" in
             help | h | "?")
-                SCMD="lc"
-                FWInterpreter
+                cat ${CONFIG_MAP["FW_HOME"]}/etc/command-help.${CONFIG_MAP["PRINT_MODE"]}
                 ;;
             !*)
                 SARG=${SCMD#*!}

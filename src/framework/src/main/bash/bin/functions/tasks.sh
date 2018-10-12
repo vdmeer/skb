@@ -36,17 +36,17 @@
 
 ##
 ## function: GetTaskID
-## - returns a task ID for a given ID or ALIAS, empty string if not declared
+## - returns a task ID for a given ID or SHORT, empty string if not declared
 ## $1: ID to process
 ##
 GetTaskID() {
     local ID=$1
 
     if [ ! -z ${ID:-} ]; then
-        if [ -z ${TASK_DECL_MAP[$ID]:-} ]; then
-            for ALIAS in ${!TASK_ALIAS_MAP[@]}; do
-                if [ "$ALIAS" == "$ID" ]; then
-                    printf ${TASK_ALIAS_MAP[$ALIAS]}
+        if [ -z ${DMAP_TASK_ORIGIN[$ID]:-} ]; then
+            for SHORT in ${!DMAP_TASK_SHORT[@]}; do
+                if [ "$SHORT" == "$ID" ]; then
+                    printf ${DMAP_TASK_SHORT[$SHORT]}
                 fi
             done
         else

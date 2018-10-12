@@ -38,7 +38,7 @@
 ## - describes a dependency using print options and print features
 ## $1: dependency id
 ## $2: print option: descr, origin, origin1, standard, full
-## $3: print features: none, line-indent, enter, post-line, (adoc, ansi, text)
+## $3: print features: none, line-indent, enter, post-line, (adoc, ansi, text*)
 ##
 DescribeDependency() {
     local ID=${1:-}
@@ -46,7 +46,7 @@ DescribeDependency() {
     local PRINT_FEATURE=${3:-}
     local SPRINT=""
 
-    if [ -z ${DEP_DECL_MAP[$ID]:-} ]; then
+    if [ -z ${DMAP_DEP_ORIGIN[$ID]:-} ]; then
         ConsoleError " ->" "describe-dependency - unknown dependency ID '$ID'"
         return
     fi
@@ -69,8 +69,8 @@ DescribeDependency() {
             ;;
             post-line)      POST_LINE="::" ;;
             enter)          ENTER="\n" ;;
-            adoc)           SOURCE=${DEP_DECL_MAP[$ID]#*:::}.adoc ;;
-            ansi | text)    SOURCE=${DEP_DECL_MAP[$ID]#*:::}.txt ;;
+            adoc)           SOURCE=${DMAP_DEP_DECL[$ID]}.adoc ;;
+            ansi | text*)   SOURCE=${DMAP_DEP_DECL[$ID]}.txt ;;
             none | "")      ;;
             *)
                 ConsoleError " ->" "describe-dependency - unknown print feature '$PRINT_FEATURE'"
@@ -82,8 +82,8 @@ DescribeDependency() {
     SPRINT=$ENTER
     SPRINT+=$LINE_INDENT
 
-    local ORIGIN=${DEP_DECL_MAP[$ID]%:::*}
-    local DESCRIPTION=${DEP_DESCRIPTION_MAP[$ID]:-}
+    local ORIGIN=${DMAP_DEP_ORIGIN[$ID]}
+    local DESCRIPTION=${DMAP_DEP_DESCR[$ID]:-}
 
     local TEMPLATE="%ID%"
     if [ "$PRINT_OPTION" == "full" ]; then
@@ -143,10 +143,10 @@ DescribeDependencyStatus() {
     local ORIGIN
     local STATUS
 
-    if [ -z ${DEP_DECL_MAP[$ID]:-} ]; then
+    if [ -z ${DMAP_DEP_ORIGIN[$ID]:-} ]; then
         ConsoleError " ->" "help-dep/status - unknown dependency '$ID'"
     else
-        case ${DEP_STATUS_MAP[$ID]} in
+        case ${RTMAP_DEP_STATUS[$ID]} in
             "N")        PrintColor light-blue ${CHAR_MAP["DIAMOND"]} ;;
             "S")        PrintColor green ${CHAR_MAP["DIAMOND"]} ;;
             "E")        PrintColor light-red ${CHAR_MAP["DIAMOND"]} ;;

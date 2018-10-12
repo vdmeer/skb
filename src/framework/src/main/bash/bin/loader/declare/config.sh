@@ -34,69 +34,80 @@
 
 
 ##
-## function: WriteTmpConfig
-## - writes the tmp configuration file
+## function: WriteL1Config
+## - writes level 1 configuration file
 ##
-WriteTmpConfig() {
-    rm ${CONFIG_MAP["FW_TMP_CONFIG"]}
-    echo > ${CONFIG_MAP["FW_TMP_CONFIG"]}
+WriteL1Config() {
+    local file=${CONFIG_MAP["FW_L1_CONFIG"]}
+    rm $file
+    echo > $file
 
-    declare -p CONFIG_MAP >> $FW_TMP_CONFIG
-    declare -p CONFIG_SRC >> $FW_TMP_CONFIG
-    declare -p FW_PATH_MAP >> $FW_TMP_CONFIG
-    declare -p APP_PATH_MAP >> $FW_TMP_CONFIG
-    declare -p APP_FILE_MAP >> $FW_TMP_CONFIG
+    declare -p CONFIG_MAP >> $file
+    declare -p CONFIG_SRC >> $file
+    declare -p FW_PATH_MAP >> $file
+    declare -p APP_PATH_MAP >> $file
 
-    declare -p CHAR_MAP >> $FW_TMP_CONFIG
-    declare -p COLORS >> $FW_TMP_CONFIG
-    declare -p EFFECTS >> $FW_TMP_CONFIG
-
-
-    declare -p OPT_DECL_MAP >> $FW_TMP_CONFIG
-    declare -p OPT_SHORT_MAP >> $FW_TMP_CONFIG
-    declare -p OPT_ARG_MAP >> $FW_TMP_CONFIG
-    declare -p OPT_DESCRIPTION_MAP >> $FW_TMP_CONFIG
-    declare -p OPT_META_MAP_EXIT >> $FW_TMP_CONFIG
-    declare -p OPT_META_MAP_RUNTIME >> $FW_TMP_CONFIG
+    declare -p CHAR_MAP >> $file
+    declare -p COLORS >> $file
+    declare -p EFFECTS >> $file
 
 
-    declare -p CMD_DECL_MAP >> $FW_TMP_CONFIG
-    declare -p CMD_SHORT_MAP >> $FW_TMP_CONFIG
-    declare -p CMD_ARG_MAP >> $FW_TMP_CONFIG
-    declare -p CMD_DESCRIPTION_MAP >> $FW_TMP_CONFIG
+    declare -p DMAP_OPT_ORIGIN >> $file
+    declare -p DMAP_OPT_SHORT >> $file
+    declare -p DMAP_OPT_ARG >> $file
 
 
-    declare -p PARAM_DECL_MAP >> $FW_TMP_CONFIG
-    declare -p PARAM_DECL_DEFVAL >> $FW_TMP_CONFIG
-    declare -p PARAM_DESCRIPTION_MAP >> $FW_TMP_CONFIG
-    declare -p FILES >> $FW_TMP_CONFIG
-    declare -p DIRECTORIES >> $FW_TMP_CONFIG
-    declare -p DIRECTORIES_CD >> $FW_TMP_CONFIG
+    declare -p DMAP_CMD >> $file
+    declare -p DMAP_CMD_SHORT >> $file
+    declare -p DMAP_CMD_ARG >> $file
 
 
-    declare -p DEP_DECL_MAP >> $FW_TMP_CONFIG
-    declare -p DEP_DECL_REQ >> $FW_TMP_CONFIG
-    declare -p DEP_COMMAND_MAP >> $FW_TMP_CONFIG
-    declare -p DEP_DESCRIPTION_MAP >> $FW_TMP_CONFIG
-
-    declare -p TESTED_DEPENDENCIES >> $FW_TMP_CONFIG
-    declare -p DEP_STATUS_MAP >> $FW_TMP_CONFIG
+    declare -p DMAP_PARAM_ORIGIN >> $file
+    declare -p DMAP_PARAM_DECL >> $file
+    declare -p DMAP_PARAM_DEFVAL >> $file
+    declare -p DMAP_PARAM_DESCR >> $file
 
 
-    declare -p TASK_DECL_MAP >> $FW_TMP_CONFIG
-    declare -p TASK_DECL_EXEC >> $FW_TMP_CONFIG
-    declare -p TASK_MODE_MAP >> $FW_TMP_CONFIG
-    declare -p TASK_ALIAS_MAP >> $FW_TMP_CONFIG
-    declare -p TASK_DESCRIPTION_MAP >> $FW_TMP_CONFIG
+    declare -p DMAP_DEP_ORIGIN >> $file
+    declare -p DMAP_DEP_DECL >> $file
+    declare -p DMAP_DEP_REQ_DEP >> $file
+    declare -p DMAP_DEP_CMD >> $file
 
-    declare -p TASK_REQ_PARAM >> $FW_TMP_CONFIG
-    declare -p TASK_REQ_DEP >> $FW_TMP_CONFIG
-    declare -p TASK_REQ_TASK >> $FW_TMP_CONFIG
-    declare -p TASK_REQ_DIR >> $FW_TMP_CONFIG
-    declare -p TASK_REQ_FILE >> $FW_TMP_CONFIG
+    declare -p RTMAP_TASK_TESTED >> $file
+    declare -p RTMAP_DEP_STATUS >> $file
 
-    declare -p LOADED_TASKS >> $FW_TMP_CONFIG
-    declare -p UNLOADED_TASKS >> $FW_TMP_CONFIG
-    declare -p TASK_STATUS_MAP >> $FW_TMP_CONFIG
+
+    declare -p DMAP_TASK_ORIGIN >> $file
+    declare -p DMAP_TASK_DECL >> $file
+    declare -p DMAP_TASK_SHORT >> $file
+    declare -p DMAP_TASK_EXEC >> $file
+    declare -p DMAP_TASK_DESCR >> $file
+    declare -p DMAP_TASK_MODES >> $file
+
+    declare -p DMAP_TASK_REQ_PARAM_MAN >> $file
+    declare -p DMAP_TASK_REQ_PARAM_OPT >> $file
+    declare -p DMAP_TASK_REQ_DEP_MAN >> $file
+    declare -p DMAP_TASK_REQ_DEP_OPT >> $file
+    declare -p DMAP_TASK_REQ_TASK_MAN >> $file
+    declare -p DMAP_TASK_REQ_TASK_OPT >> $file
+    declare -p DMAP_TASK_REQ_DIR_MAN >> $file
+    declare -p DMAP_TASK_REQ_DIR_OPT >> $file
+    declare -p DMAP_TASK_REQ_FILE_MAN >> $file
+    declare -p DMAP_TASK_REQ_FILE_OPT >> $file
+
+    declare -p RTMAP_TASK_STATUS >> $file
+    declare -p RTMAP_TASK_LOADED >> $file
+    declare -p RTMAP_TASK_UNLOADED >> $file
+
+    declare -p FILES >> $file
+    declare -p DIRECTORIES >> $file
+    declare -p DIRECTORIES_CD >> $file
+
+    declare -p RTMAP_REQUESTED_DEP >> $file
+    declare -p RTMAP_REQUESTED_PARAM >> $file
+
+    declare -p DMAP_CMD_DESCR >> $file
+    declare -p DMAP_DEP_DESCR >> $file
+    declare -p DMAP_OPT_DESCR >> $file
+    declare -p DMAP_PARAM_DESCR >> $file
 }
-

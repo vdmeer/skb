@@ -6,7 +6,7 @@
 ## @version    v0.0.0
 ##
 
-ALIAS=dp
+SHORT=dp
 MODES="dev build use"
 DESCRIPTION="describes a parameter"
 EXEC_PATH=bin/tasks/elements

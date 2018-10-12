@@ -6,7 +6,7 @@
 ## @version    v0.0.0
 ##
 
-ALIAS=ep
+SHORT=ep
 MODES="dev build use"
 DESCRIPTION="executes a program with several options"
 EXEC_PATH=bin/tasks/start

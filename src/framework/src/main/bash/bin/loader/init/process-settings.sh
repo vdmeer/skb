@@ -55,7 +55,7 @@ ProcessShellPromptLength() {
             CONFIG_MAP["PROMPT_LENGTH"]=${#SPROMPT}
             ;;
         D)
-            SPROMPT=${PARAM_DECL_DEFVAL["SHELL_PROMPT"]}
+            SPROMPT=${DMAP_PARAM_DEFVAL["SHELL_PROMPT"]}
             CONFIG_MAP["PROMPT_LENGTH"]=${#SPROMPT}
             ;;
     esac
@@ -74,7 +74,7 @@ ProcessSettingsEnvironment() {
     local ENV_KEY
     local KEY
 
-    for KEY in "${!PARAM_DECL_MAP[@]}"; do
+    for KEY in "${!DMAP_PARAM_ORIGIN[@]}"; do
         ENV_KEY=${CONFIG_MAP["FLAVOR"]}_$KEY
         if [ ! -z "${!ENV_KEY:-}" ]; then
             if [ ! -z ${CONFIG_MAP[$KEY]:-} ]; then
@@ -101,7 +101,7 @@ ProcessSettingsConfig() {
 
     if [ -f ${CONFIG_MAP["CONFIG_FILE"]} ]; then
         source ${CONFIG_MAP["CONFIG_FILE"]}
-        for KEY in "${!PARAM_DECL_MAP[@]}"; do
+        for KEY in "${!DMAP_PARAM_ORIGIN[@]}"; do
             ENV_KEY=${CONFIG_MAP["FLAVOR"]}_$KEY
             if [ ! -z "${!ENV_KEY:-}" ]; then
                 if [ -z "${CONFIG_MAP[$KEY]:-}" ]; then
@@ -128,9 +128,9 @@ ProcessSettingsDefault() {
     local DEFAULT_VALUE
     local KEY
 
-    for KEY in "${!PARAM_DECL_DEFVAL[@]}"; do
+    for KEY in "${!DMAP_PARAM_DEFVAL[@]}"; do
         if [ -n "$KEY" ]; then
-            DEFAULT_VALUE=${PARAM_DECL_DEFVAL[$KEY]}
+            DEFAULT_VALUE=${DMAP_PARAM_DEFVAL[$KEY]}
             if [ ! -z ${DEFAULT_VALUE:-} ] && [ -z "${CONFIG_MAP[$KEY]:-}" ]; then
                 CONFIG_MAP[$KEY]="$DEFAULT_VALUE"
                 CONFIG_SRC[$KEY]="D"

@@ -33,7 +33,6 @@
 ##
 
 
-
 ##
 ## function: PrintSettingsLevel
 ## - prints the level (loader, shell, task) in color
@@ -81,7 +80,7 @@ SettingScreen() {
                 PrintSettingsLevel "$sc_str"
                 ;;
             STRICT)
-                if [ $sc_str == false ]; then
+                if [[ $sc_str == false ]]; then
                     printf "false"
                     sc_str="false"
                 else
@@ -110,7 +109,7 @@ SettingScreen() {
                 ;;
         esac
         str_len=${#sc_str}
-        if [ "$ID" == "SHELL_PROMPT" ]; then
+        if [[ "$ID" == "SHELL_PROMPT" ]]; then
             str_len=${CONFIG_MAP["PROMPT_LENGTH"]}
         fi
         padding=$(( 60 - $str_len ))

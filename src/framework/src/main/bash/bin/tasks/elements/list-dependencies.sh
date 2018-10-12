@@ -25,6 +25,7 @@
 ##
 ## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
 ## @version    v0.0.0
+##
 
 
 ##
@@ -39,7 +40,7 @@ set -o errexit -o pipefail -o noclobber -o nounset
 ## Test if we are run from parent with configuration
 ## - load configuration
 ##
-if [ -z ${FW_HOME:-} ] || [ -z ${FW_L1_CONFIG-} ]; then
+if [[ -z ${FW_HOME:-} || -z ${FW_L1_CONFIG-} ]]; then
     printf " ==> please run from framework or application\n\n"
     exit 10
 fi
@@ -144,16 +145,16 @@ done
 ############################################################################################
 ## test CLI
 ############################################################################################
-if [ "$ALL" == "yes" ]; then
+if [[ "$ALL" == "yes" ]]; then
     TESTED=
     ORIGIN=
     STATUS=
     REQUESTED=
     ALL=
-elif [ $CLI_SET == false ]; then
+elif [[ $CLI_SET == false ]]; then
     TESTED=
 else
-    if [ -n "$ORIGIN" ]; then
+    if [[ -n "$ORIGIN" ]]; then
         case $ORIGIN in
             F| f | fw | framework)
                 ORIGIN=FW_HOME
@@ -166,7 +167,7 @@ else
                 exit 3
         esac
     fi
-    if [ -n "$STATUS" ]; then
+    if [[ -n "$STATUS" ]]; then
         case $STATUS in
             S | s | success)
                 STATUS=S
@@ -202,17 +203,17 @@ printf "\n"
 printf " ${EFFECTS["REVERSE_ON"]}Dependency          Description                                             O S${EFFECTS["REVERSE_OFF"]}\n\n"
 
 for ID in ${!DMAP_DEP_ORIGIN[@]}; do
-    if [ -n "$REQUESTED" ]; then
-        if [ -z "${RTMAP_REQUESTED_DEP[$ID]:-}" ]; then
+    if [[ -n "$REQUESTED" ]]; then
+        if [[ -z "${RTMAP_REQUESTED_DEP[$ID]:-}" ]]; then
             continue
         fi
     fi
-    if [ -n "$TESTED" ]; then
-        if [ -z "${RTMAP_TASK_TESTED[$ID]:-}" ]; then
+    if [[ -n "$TESTED" ]]; then
+        if [[ -z "${RTMAP_TASK_TESTED[$ID]:-}" ]]; then
             continue
         fi
     fi
-    if [ -n "$STATUS" ]; then
+    if [[ -n "$STATUS" ]]; then
         case ${RTMAP_DEP_STATUS[$ID]} in
             $STATUS)
                 ;;
@@ -222,8 +223,8 @@ for ID in ${!DMAP_DEP_ORIGIN[@]}; do
         esac
         #=
     fi
-    if [ -n "$ORIGIN" ]; then
-        if [ ! "$ORIGIN" == "${DMAP_DEP_ORIGIN[$ID]}" ]; then
+    if [[ -n "$ORIGIN" ]]; then
+        if [[ ! "$ORIGIN" == "${DMAP_DEP_ORIGIN[$ID]}" ]]; then
             continue
         fi
     fi
@@ -234,16 +235,16 @@ keys=($(printf '%s\n' "${keys[@]:-}"|sort))
 
 declare -A DEP_TABLE
 FILE=${CONFIG_MAP["CACHE_DIR"]}/dep-tab.${CONFIG_MAP["PRINT_MODE"]}
-if [ -n "$PRINT_MODE" ]; then
+if [[ -n "$PRINT_MODE" ]]; then
     FILE=${CONFIG_MAP["CACHE_DIR"]}/dep-tab.$PRINT_MODE
 fi
-if [ -f $FILE ]; then
+if [[ -f $FILE ]]; then
     source $FILE
 fi
 
 for i in ${!keys[@]}; do
     ID=${keys[$i]}
-    if [ -z "${DEP_TABLE[$ID]:-}" ]; then
+    if [[ -z "${DEP_TABLE[$ID]:-}" ]]; then
         DependencyInTable $ID $PRINT_MODE
     else
         printf "${DEP_TABLE[$ID]}"

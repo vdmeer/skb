@@ -25,6 +25,7 @@
 ##
 ## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
 ## @version    v0.0.0
+##
 
 
 ##
@@ -39,7 +40,7 @@ set -o errexit -o pipefail -o noclobber -o nounset
 ## Test if we are run from parent with configuration
 ## - load configuration
 ##
-if [ -z ${FW_HOME:-} ] || [ -z ${FW_L1_CONFIG-} ]; then
+if [[ -z ${FW_HOME:-} || -z ${FW_L1_CONFIG-} ]]; then
     printf " ==> please run from framework or application\n\n"
     exit 10
 fi
@@ -153,24 +154,24 @@ done
 ############################################################################################
 ## test CLI
 ############################################################################################
-if [ ! -n "$PRINT_MODE" ]; then
+if [[ ! -n "$PRINT_MODE" ]]; then
     PRINT_MODE=${CONFIG_MAP["PRINT_MODE"]}
 fi
 
-if [ "$ALL" == "yes" ] || [ $CLI_SET == false ]; then
+if [[ "$ALL" == "yes" || $CLI_SET == false ]]; then
     PARAM_ID=
     DEFAULT=
     ORIGIN=
     REQUESTED=
     STATUS=
 else
-    if [ -n "$PARAM_ID" ]; then
-        if [ -z ${DMAP_PARAM_ORIGIN[$PARAM_ID]:-} ]; then
+    if [[ -n "$PARAM_ID" ]]; then
+        if [[ -z ${DMAP_PARAM_ORIGIN[$PARAM_ID]:-} ]]; then
             ConsoleError " ->" "unknown parameter: $PARAM_ID"
             exit 3
         fi
     fi
-    if [ -n "$ORIGIN" ]; then
+    if [[ -n "$ORIGIN" ]]; then
         case $ORIGIN in
             F| f | fw | framework)
                 ORIGIN=FW_HOME
@@ -183,7 +184,7 @@ else
                 exit 3
         esac
     fi
-    if [ -n "$STATUS" ]; then
+    if [[ -n "$STATUS" ]]; then
         case $STATUS in
             O | o | option)
                 STATUS=O
@@ -213,22 +214,22 @@ fi
 ConsoleInfo "  -->" "dp: starting task"
 
 for ID in ${!DMAP_PARAM_ORIGIN[@]}; do
-    if [ -n "$PARAM_ID" ]; then
-        if [ ! "$PARAM_ID" == "$ID" ]; then
+    if [[ -n "$PARAM_ID" ]]; then
+        if [[ ! "$PARAM_ID" == "$ID" ]]; then
             continue
         fi
     fi
-    if [ -n "$REQUESTED" ]; then
-        if [ -z "${RTMAP_REQUESTED_PARAM[$ID]:-}" ]; then
+    if [[ -n "$REQUESTED" ]]; then
+        if [[ -z "${RTMAP_REQUESTED_PARAM[$ID]:-}" ]]; then
             continue
         fi
     fi
-    if [ -n "$DEFAULT" ]; then
-        if [ ! -n "${DMAP_PARAM_DEFVAL[$PARAM_ID]:-}" ]; then
+    if [[ -n "$DEFAULT" ]]; then
+        if [[ ! -n "${DMAP_PARAM_DEFVAL[$PARAM_ID]:-}" ]]; then
             continue
         fi
     fi
-    if [ -n "$STATUS" ]; then
+    if [[ -n "$STATUS" ]]; then
         case ${RTMAP_PARAM_STATUS[$ID]} in
             $STATUS)
                 ;;
@@ -238,8 +239,8 @@ for ID in ${!DMAP_PARAM_ORIGIN[@]}; do
         esac
         #=
     fi
-    if [ -n "$ORIGIN" ]; then
-        if [ ! "$ORIGIN" == "${DMAP_PARAM_ORIGIN[$ID]}" ]; then
+    if [[ -n "$ORIGIN" ]]; then
+        if [[ ! "$ORIGIN" == "${DMAP_PARAM_ORIGIN[$ID]}" ]]; then
             continue
         fi
     fi

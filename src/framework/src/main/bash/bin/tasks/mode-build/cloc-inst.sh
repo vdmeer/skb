@@ -25,6 +25,7 @@
 ##
 ## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
 ## @version    v0.0.0
+##
 
 
 ##
@@ -39,7 +40,7 @@ set -o errexit -o pipefail -o noclobber -o nounset
 ## Test if we are run from parent with configuration
 ## - load configuration
 ##
-if [ -z ${FW_HOME:-} ] || [ -z ${FW_L1_CONFIG-} ]; then
+if [[ -z ${FW_HOME:-} || -z ${FW_L1_CONFIG-} ]]; then
     printf " ==> please run from framework or application\n\n"
     exit 10
 fi
@@ -102,12 +103,11 @@ done
 ############################################################################################
 ConsoleInfo "  -->" "cloci: starting task"
 
-if [ ! -z ${RTMAP_TASK_TESTED["cloc"]:-} ]; then
+if [[ ! -z ${RTMAP_TASK_TESTED["cloc"]:-} ]]; then
     cloc $(PathToCygwin ${CONFIG_MAP["FW_HOME"]}) --force-lang="Bourne Again Shell",sh
 else
     ConsoleError " ->" "cloc: dependency 'cloc' not loaded, cannot count"
 fi
-
 
 ConsoleInfo "  -->" "cloci: done"
 exit $TASK_ERRORS

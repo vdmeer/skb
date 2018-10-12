@@ -33,7 +33,6 @@
 ##
 
 
-
 ##
 ## function: GetTaskID
 ## - returns a task ID for a given ID or SHORT, empty string if not declared
@@ -42,10 +41,10 @@
 GetTaskID() {
     local ID=$1
 
-    if [ ! -z ${ID:-} ]; then
-        if [ -z ${DMAP_TASK_ORIGIN[$ID]:-} ]; then
+    if [[ ! -z ${ID:-} ]]; then
+        if [[ -z ${DMAP_TASK_ORIGIN[$ID]:-} ]]; then
             for SHORT in ${!DMAP_TASK_SHORT[@]}; do
-                if [ "$SHORT" == "$ID" ]; then
+                if [[ "$SHORT" == "$ID" ]]; then
                     printf ${DMAP_TASK_SHORT[$SHORT]}
                 fi
             done
@@ -76,40 +75,40 @@ BuildTaskHelpLine() {
     local DESCRIPTION=${4:-}
     local LENGTH=${5:-}
 
-    if [ -z $SHORT ]; then
+    if [[ -z $SHORT ]]; then
         ConsoleError "  ->" "build task help: no short option set"
         return
-    elif [ "$SHORT" == "<none>" ]; then
+    elif [[ "$SHORT" == "<none>" ]]; then
         SHORT=
     fi
-    if [ -z $LONG ]; then
+    if [[ -z $LONG ]]; then
         ConsoleError "  ->" "build task help: no long option set"
         return
     fi
-    if [ -z $ARGUMENT ]; then
+    if [[ -z $ARGUMENT ]]; then
         ConsoleError "  ->" "build task help: no argument set"
         return
-    elif [ "$ARGUMENT" == "<none>" ]; then
+    elif [[ "$ARGUMENT" == "<none>" ]]; then
         ARGUMENT=
     else
         ARGUMENT=${ARGUMENT^^}
     fi
-    if [ -z "$DESCRIPTION" ]; then
+    if [[ -z "$DESCRIPTION" ]]; then
         ConsoleError "  ->" "build task help: no description set"
         return
     fi
-    if [ -z $LENGTH ]; then
+    if [[ -z $LENGTH ]]; then
         LENGTH=24
         return
     fi
 
     local TYPE=
-    if [ -n "$ARGUMENT" ]; then
+    if [[ -n "$ARGUMENT" ]]; then
         # options with an argument
-        if [ ! -n "$SHORT" ]; then
+        if [[ ! -n "$SHORT" ]]; then
             # long-argument
             TYPE="la"
-        elif [ ! -n "$LONG" ]; then
+        elif [[ ! -n "$LONG" ]]; then
             # short-argument
             TYPE="sa"
         else
@@ -118,10 +117,10 @@ BuildTaskHelpLine() {
         fi
     else
         # options w/o an argument
-        if [ ! -n "$SHORT" ]; then
+        if [[ ! -n "$SHORT" ]]; then
             # long
             TYPE="l"
-        elif [ ! -n "$LONG" ]; then
+        elif [[ ! -n "$LONG" ]]; then
             # short
             TYPE="s"
         else
@@ -172,7 +171,7 @@ BuildTaskHelpLine() {
     local LINE="       "$LONG" "$ARGUMENT
     local LINE_LENGTH=${#LINE}
     padding=$(( $LENGTH - $LINE_LENGTH ))
-    if [ ! -n "$ARGUMENT" ]; then
+    if [[ ! -n "$ARGUMENT" ]]; then
         padding=$(( $padding +1 ))
     fi
     SPRINT+=$(printf '%*s' "$padding")$DESCRIPTION

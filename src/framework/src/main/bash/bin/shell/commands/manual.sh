@@ -40,7 +40,7 @@
 ShellCmdManual() {
     case "$SARG" in
         "")
-            if [ -f ${CONFIG_MAP["HOME"]}/doc/manual/${CONFIG_MAP["APP_SCRIPT"]}.${CONFIG_MAP["PRINT_MODE"]} ]; then
+            if [[ -f ${CONFIG_MAP["HOME"]}/doc/manual/${CONFIG_MAP["APP_SCRIPT"]}.${CONFIG_MAP["PRINT_MODE"]} ]]; then
                 set +e
                 tput smcup
                 clear
@@ -52,7 +52,7 @@ ShellCmdManual() {
             fi
             ;;
         ansi | text | adoc)
-            if [ -f ${CONFIG_MAP["HOME"]}/doc/manual/${CONFIG_MAP["APP_SCRIPT"]}.$SARG ]; then
+            if [[ -f ${CONFIG_MAP["HOME"]}/doc/manual/${CONFIG_MAP["APP_SCRIPT"]}.$SARG ]]; then
                 set +e
                 tput smcup
                 clear
@@ -64,8 +64,8 @@ ShellCmdManual() {
             fi
             ;;
         pdf)
-            if [ -f ${CONFIG_MAP["HOME"]}/doc/manual/${CONFIG_MAP["APP_SCRIPT"]}.pdf ]; then
-                if [ ! -z "${RTMAP_TASK_LOADED["start-pdf"]}" ]; then
+            if [[ -f ${CONFIG_MAP["HOME"]}/doc/manual/${CONFIG_MAP["APP_SCRIPT"]}.pdf ]]; then
+                if [[ ! -z "${RTMAP_TASK_LOADED["start-pdf"]}" ]]; then
                     set +e
                     ${DMAP_TASK_EXEC["start-pdf"]} --file ${CONFIG_MAP["HOME"]}/doc/manual/${CONFIG_MAP["APP_SCRIPT"]}.pdf
                     set -e
@@ -77,8 +77,8 @@ ShellCmdManual() {
             fi
             ;;
         html)
-            if [ -f ${CONFIG_MAP["HOME"]}/doc/manual/${CONFIG_MAP["APP_SCRIPT"]}.html ]; then
-                if [ ! -z "${RTMAP_TASK_LOADED["start-browser"]}" ]; then
+            if [[ -f ${CONFIG_MAP["HOME"]}/doc/manual/${CONFIG_MAP["APP_SCRIPT"]}.html ]]; then
+                if [[ ! -z "${RTMAP_TASK_LOADED["start-browser"]}" ]]; then
                     set +e
                     ${DMAP_TASK_EXEC["start-browser"]} --url file://$(PathToCygwin ${CONFIG_MAP["HOME"]}/doc/manual/${CONFIG_MAP["APP_SCRIPT"]}.html)
                     set -e
@@ -90,7 +90,7 @@ ShellCmdManual() {
             fi
             ;;
         man)
-            if [ -f ${CONFIG_MAP["HOME"]}/man/man1/${CONFIG_MAP["APP_SCRIPT"]}.1 ]; then
+            if [[ -f ${CONFIG_MAP["HOME"]}/man/man1/${CONFIG_MAP["APP_SCRIPT"]}.1 ]]; then
                 set +e
                 man -M ${CONFIG_MAP["HOME"]}/man ${CONFIG_MAP["APP_SCRIPT"]}
                 set -e

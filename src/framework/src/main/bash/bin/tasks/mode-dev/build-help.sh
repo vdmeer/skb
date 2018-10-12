@@ -25,6 +25,7 @@
 ##
 ## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
 ## @version    v0.0.0
+##
 
 
 ##
@@ -39,7 +40,7 @@ set -o errexit -o pipefail -o noclobber -o nounset
 ## Test if we are run from parent with configuration
 ## - load configuration
 ##
-if [ -z ${FW_HOME:-} ] || [ -z ${FW_L1_CONFIG-} ]; then
+if [[ -z ${FW_HOME:-} || -z ${FW_L1_CONFIG-} ]]; then
     printf " ==> please run from framework or application\n\n"
     exit 10
 fi
@@ -110,15 +111,15 @@ ConsoleResetErrors
 PRINT_MODES="ansi text"
 ConsoleInfo "  -->" "build help for options and commands"
 
-if [ ! -d "${CONFIG_MAP["FW_HOME"]}/etc" ]; then
+if [[ ! -d "${CONFIG_MAP["FW_HOME"]}/etc" ]]; then
     ConsoleError " ->" "\$FW_HOME/etc does not exist"
 fi
 
 ConsoleDebug "target: command help"
-if [ ! -z "${RTMAP_TASK_LOADED["list-commands"]}" ]; then
+if [[ ! -z "${RTMAP_TASK_LOADED["list-commands"]}" ]]; then
     for MODE in $PRINT_MODES; do
         FILE=${CONFIG_MAP["FW_HOME"]}/etc/command-help.$MODE
-            if [ -f $FILE ]; then
+            if [[ -f $FILE ]]; then
             rm $FILE
         fi
         set +e
@@ -130,10 +131,10 @@ else
 fi
 
 ConsoleDebug "target: ooption help"
-if [ ! -z "${RTMAP_TASK_LOADED["list-options"]}" ]; then
+if [[ ! -z "${RTMAP_TASK_LOADED["list-options"]}" ]]; then
     for MODE in $PRINT_MODES; do
         FILE=${CONFIG_MAP["FW_HOME"]}/etc/option-help.$MODE
-        if [ -f $FILE ]; then
+        if [[ -f $FILE ]]; then
             rm $FILE
         fi
         set +e

@@ -33,7 +33,6 @@
 ##
 
 
-
 ##
 ## function: ShellAddCmdHistory
 ## - adds a command to the shell history
@@ -59,18 +58,18 @@ ShellCmdHistory() {
 
     local HSIZE=$(( ${#HISTORY[@]} -1 ))
 
-    if [ "!" == "$CMD" ]; then
+    if [[ "!" == "$CMD" ]]; then
         ## '!!', run last history command
-        if [ "$HSIZE" == "0" ]; then
+        if [[ "$HSIZE" == "0" ]]; then
             printf "\n  history is empty\n\n"
         else
             NUMBER=$(( ${#HISTORY[@]} -1 ))
             SCMD=${HISTORY[$NUMBER]#*:::}
             FWInterpreter
         fi
-    elif [ -n "$CMD" ]; then
+    elif [[ -n "$CMD" ]]; then
         ## something in the command, check
-        if [ ! -z "${HISTORY[$CMD]:-}" ]; then
+        if [[ ! -z "${HISTORY[$CMD]:-}" ]]; then
             SCMD=${HISTORY[$CMD]#*:::}
             FWInterpreter
         else
@@ -84,7 +83,7 @@ ShellCmdHistory() {
         local padding
         local keys
         for i in ${!HISTORY[@]}; do
-            if [ "$i" != "-1" ]; then
+            if [[ "$i" != "-1" ]]; then
                 padding=$(printf "%03d\n" $i)
                 keys=(${keys[@]:-} $padding)
             fi

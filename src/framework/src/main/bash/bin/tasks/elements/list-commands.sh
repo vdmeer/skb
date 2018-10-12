@@ -25,6 +25,7 @@
 ##
 ## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
 ## @version    v0.0.0
+##
 
 
 ##
@@ -39,7 +40,7 @@ set -o errexit -o pipefail -o noclobber -o nounset
 ## Test if we are run from parent with configuration
 ## - load configuration
 ##
-if [ -z ${FW_HOME:-} ] || [ -z ${FW_L1_CONFIG-} ]; then
+if [[ -z ${FW_HOME:-} || -z ${FW_L1_CONFIG-} ]]; then
     printf " ==> please run from framework or application\n\n"
     exit 10
 fi
@@ -119,7 +120,7 @@ done
 ############################################################################################
 ## check CLI
 ############################################################################################
-if [ $LIST == false ] && [ $TABLE == false ]; then
+if [[ $LIST == false && $TABLE == false ]]; then
     ConsoleError "  ->" "no mode set: use list and/or table"
     exit 3
 fi
@@ -177,20 +178,20 @@ PrintCommands() {
         list)
             declare -A COMMAND_LIST
             FILE=${CONFIG_MAP["CACHE_DIR"]}/cmd-list.${CONFIG_MAP["PRINT_MODE"]}
-            if [ -n "$PRINT_MODE" ]; then
+            if [[ -n "$PRINT_MODE" ]]; then
                 FILE=${CONFIG_MAP["CACHE_DIR"]}/cmd-list.$PRINT_MODE
             fi
-            if [ -f $FILE ]; then
+            if [[ -f $FILE ]]; then
                 source $FILE
             fi
             ;;
         table)
             declare -A COMMAND_TABLE
             FILE=${CONFIG_MAP["CACHE_DIR"]}/cmd-tab.${CONFIG_MAP["PRINT_MODE"]}
-            if [ -n "$PRINT_MODE" ]; then
+            if [[ -n "$PRINT_MODE" ]]; then
                 FILE=${CONFIG_MAP["CACHE_DIR"]}/cmd-tab.$PRINT_MODE
             fi
-            if [ -f $FILE ]; then
+            if [[ -f $FILE ]]; then
                 source $FILE
             fi
             ;;
@@ -201,14 +202,14 @@ PrintCommands() {
         case $1 in
             list)
                 printf "   "
-                if [ -z "${COMMAND_LIST[$ID]:-}" ]; then
+                if [[ -z "${COMMAND_LIST[$ID]:-}" ]]; then
                     CommandInList $ID $PRINT_MODE
                 else
                     printf "${COMMAND_LIST[$ID]}"
                 fi
                 ;;
             table)
-                if [ -z "${COMMAND_TABLE[$ID]:-}" ]; then
+                if [[ -z "${COMMAND_TABLE[$ID]:-}" ]]; then
                     CommandInTable $ID $PRINT_MODE
                 else
                     printf "${COMMAND_TABLE[$ID]}"
@@ -230,37 +231,16 @@ PrintCommands() {
 ############################################################################################
 ConsoleInfo "  -->" "lc: starting task"
 
-if [ $LIST == true ]; then
+if [[ $LIST == true ]]; then
     ListTop
     PrintCommands list
     ListBottom
 fi
-if [ $TABLE == true ]; then
+if [[ $TABLE == true ]]; then
     TableTop
     PrintCommands table
     TableBottom
 fi
-
-# declare -A COMMAND_TABLE
-# FILE=${CONFIG_MAP["CACHE_DIR"]}/cmd-tab.${CONFIG_MAP["PRINT_MODE"]}
-# if [ -n "$PRINT_MODE" ]; then
-#     FILE=${CONFIG_MAP["CACHE_DIR"]}/cmd-tab.$PRINT_MODE
-# fi
-# if [ -f $FILE ]; then
-#     source $FILE
-# fi
-# 
-# for i in ${!keys[@]}; do
-#     ID=${keys[$i]}
-#     if [ -z "${COMMAND_TABLE[$ID]:-}" ]; then
-#         CommandInTable $ID $PRINT_MODE
-#     else
-#         printf "${COMMAND_TABLE[$ID]}"
-#     fi
-# #     DescribeCommandStatus $ID $PRINT_MODE
-#     printf "\n"
-# done
-
 
 ConsoleInfo "  -->" "lc: done"
 exit $TASK_ERRORS

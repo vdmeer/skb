@@ -46,7 +46,7 @@ declare -A DMAP_CMD_DESCR               # map [id]="descr-tag-line"
 ## - declares Shell commands from FW_HOME directory
 ##
 DeclareCommandsOrigin() {
-    if [ ! -d $FW_HOME/${FW_PATH_MAP["COMMANDS"]} ]; then
+    if [[ ! -d $FW_HOME/${FW_PATH_MAP["COMMANDS"]} ]]; then
         ConsoleError " ->" "declare-cmd - did not find command directory, tried \$FW_HOME/${FW_PATH_MAP["COMMANDS"]}"
         ConsoleInfo "-->" "done"
     else
@@ -65,7 +65,7 @@ DeclareCommandsOrigin() {
             ID=${file##*/}
             ID=${ID%.*}
 
-            if [ ! -z ${DMAP_CMD[$ID]:-} ]; then
+            if [[ ! -z ${DMAP_CMD[$ID]:-} ]]; then
                 ConsoleError " ->" "internal error: DMAP_CMD for id '$ID' already set"
             else
                 local HAVE_ERRORS=false
@@ -75,16 +75,16 @@ DeclareCommandsOrigin() {
                 DESCRIPTION=
                 source $FW_HOME/${FW_PATH_MAP["COMMANDS"]}/$file
 
-                if [ -z "${DESCRIPTION:-}" ]; then
+                if [[ -z "${DESCRIPTION:-}" ]]; then
                     ConsoleError " ->" "declare command - command '$ID' has no description"
                     HAVE_ERRORS=true
                 fi
 
-                if [ $HAVE_ERRORS == true ]; then
+                if [[ $HAVE_ERRORS == true ]]; then
                     ConsoleError " ->" "declare command - could not declare command"
                     NO_ERRORS=false
                 else
-                    if [ -n "$SHORT" ]; then
+                    if [[ -n "$SHORT" ]]; then
                         DMAP_CMD[$ID]=$SHORT
                         DMAP_CMD_SHORT[$SHORT]=$ID
                     else

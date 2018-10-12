@@ -47,7 +47,7 @@ DescribeParameter() {
     local PRINT_FEATURE="${3:-}"
     local SPRINT=""
 
-    if [ -z ${DMAP_PARAM_ORIGIN[$ID]:-} ]; then
+    if [[ -z ${DMAP_PARAM_ORIGIN[$ID]:-} ]]; then
         ConsoleError " ->" "describe-param - unknown parameter '$ID'"
         return
     fi
@@ -64,8 +64,8 @@ DescribeParameter() {
             line-indent)
                 LINE_INDENT="      "
                 ## exception for adoc, no line indent even if requested
-                if [ -n "${4:-}" ]; then
-                    if [ "$4" == "adoc" ]; then
+                if [[ -n "${4:-}" ]]; then
+                    if [[ "$4" == "adoc" ]]; then
                         LINE_INDENT=
                     fi
                 fi
@@ -94,12 +94,12 @@ DescribeParameter() {
     local DESCRIPTION=${DMAP_PARAM_DESCR[$ID]:-}
     local ORIGIN=${DMAP_PARAM_ORIGIN[$ID]}
     local DEFAULT_VALUE=${DMAP_PARAM_DEFVAL[$ID]}
-    if [ "$DEFAULT_VALUE" == "" ]; then
+    if [[ "$DEFAULT_VALUE" == "" ]]; then
         DEFAULT_VALUE="none defined"
     else
         DEFAULT_VALUE=${DEFAULT_VALUE/${CONFIG_MAP["FW_HOME"]}/\$FW_HOME}
         DEFAULT_VALUE=${DEFAULT_VALUE/${CONFIG_MAP["HOME"]}/\$HOME}
-        if [ "${4:-}" == "adoc" ] || [ "${CONFIG_MAP["PRINT_MODE"]}" == "adoc" ]; then
+        if [[ "${4:-}" == "adoc" || "${CONFIG_MAP["PRINT_MODE"]}" == "adoc" ]]; then
             DEFAULT_VALUE="\`"$DEFAULT_VALUE"\`"
         else
             DEFAULT_VALUE='"'$DEFAULT_VALUE'"'
@@ -107,13 +107,13 @@ DescribeParameter() {
     fi
 
     local TEMPLATE="%ID%"
-    if [ "$PRINT_OPTION" == "full" ]; then
+    if [[ "$PRINT_OPTION" == "full" ]]; then
         TEMPLATE+=" - %DESCRIPTION%"
     fi
-    if [ "$PRINT_OPTION" == "default-value" ]; then
+    if [[ "$PRINT_OPTION" == "default-value" ]]; then
         TEMPLATE="%DEFAULT_VALUE%"
     fi
-    if [ "${4:-}" == "adoc" ] || [ "${CONFIG_MAP["PRINT_MODE"]}" == "adoc" ]; then
+    if [[ "${4:-}" == "adoc" || "${CONFIG_MAP["PRINT_MODE"]}" == "adoc" ]]; then
         TEMPLATE+=":: "
     fi
 
@@ -129,7 +129,7 @@ DescribeParameter() {
             ;;
         standard | full | default-value)
             local TMP_MODE=${4:-}
-            if [ "$TMP_MODE" == "" ]; then
+            if [[ "$TMP_MODE" == "" ]]; then
                 TMP_MODE=${CONFIG_MAP["PRINT_MODE"]}
             fi
             TEMPLATE=${TEMPLATE//%ID%/$(PrintEffect bold "$ID" $TMP_MODE)}
@@ -146,11 +146,11 @@ DescribeParameter() {
     SPRINT+=$POST_LINE
     printf "$SPRINT"
 
-    if [ -n "$SOURCE" ]; then
+    if [[ -n "$SOURCE" ]]; then
         printf "\n"
         cat $SOURCE
     fi
-    if [ -n "$DEF_TEMPLATE" ]; then
+    if [[ -n "$DEF_TEMPLATE" ]]; then
         printf "$DEF_TEMPLATE $DEFAULT_VALUE\n\n"
     fi
 }
@@ -168,10 +168,10 @@ DescribeParameterStatus() {
     local DEFAULT
     local STATUS
 
-    if [ -z ${DMAP_PARAM_ORIGIN[$ID]:-} ]; then
+    if [[ -z ${DMAP_PARAM_ORIGIN[$ID]:-} ]]; then
         ConsoleError " ->" "describe-parameter/status - unknown '$ID'"
     else
-        if [ -n "${DMAP_PARAM_DEFVAL[$ID]:-}" ]; then
+        if [[ -n "${DMAP_PARAM_DEFVAL[$ID]:-}" ]]; then
             PrintColor green ${CHAR_MAP["AVAILABLE"]}
         else
             PrintColor light-red ${CHAR_MAP["NOT_AVAILABLE"]}

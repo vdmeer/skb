@@ -46,7 +46,7 @@ DescribeDependency() {
     local PRINT_FEATURE=${3:-}
     local SPRINT=""
 
-    if [ -z ${DMAP_DEP_ORIGIN[$ID]:-} ]; then
+    if [[ -z ${DMAP_DEP_ORIGIN[$ID]:-} ]]; then
         ConsoleError " ->" "describe-dependency - unknown dependency ID '$ID'"
         return
     fi
@@ -61,8 +61,8 @@ DescribeDependency() {
             line-indent)
                 LINE_INDENT="      "
                 ## exception for adoc, no line indent even if requested
-                if [ -n "${4:-}" ]; then
-                    if [ "$4" == "adoc" ]; then
+                if [[ -n "${4:-}" ]]; then
+                    if [[ "$4" == "adoc" ]]; then
                         LINE_INDENT=
                     fi
                 fi
@@ -86,10 +86,10 @@ DescribeDependency() {
     local DESCRIPTION=${DMAP_DEP_DESCR[$ID]:-}
 
     local TEMPLATE="%ID%"
-    if [ "$PRINT_OPTION" == "full" ]; then
+    if [[ "$PRINT_OPTION" == "full" ]]; then
         TEMPLATE+=" - %DESCRIPTION%"
     fi
-    if [ "${4:-}" == "adoc" ] || [ "${CONFIG_MAP["PRINT_MODE"]}" == "adoc" ]; then
+    if [[ "${4:-}" == "adoc" || "${CONFIG_MAP["PRINT_MODE"]}" == "adoc" ]]; then
         TEMPLATE+=":: "
     fi
 
@@ -105,7 +105,7 @@ DescribeDependency() {
             ;;
         standard | full)
             local TMP_MODE=${4:-}
-            if [ "$TMP_MODE" == "" ]; then
+            if [[ "$TMP_MODE" == "" ]]; then
                 TMP_MODE=${CONFIG_MAP["PRINT_MODE"]}
             fi
             TEMPLATE=${TEMPLATE//%ID%/$(PrintEffect bold "$ID" $TMP_MODE)}
@@ -121,12 +121,12 @@ DescribeDependency() {
     SPRINT+=$POST_LINE
     printf "$SPRINT"
 
-    if [ -n "$SOURCE" ]; then
+    if [[ -n "$SOURCE" ]]; then
         printf "\n"
         cat $SOURCE
     fi
 
-    if [ "${4:-}" == "adoc" ] || [ "${CONFIG_MAP["PRINT_MODE"]}" == "adoc" ]; then
+    if [[ "${4:-}" == "adoc" || "${CONFIG_MAP["PRINT_MODE"]}" == "adoc" ]]; then
         printf "\n\n"
     fi
 }
@@ -143,7 +143,7 @@ DescribeDependencyStatus() {
     local ORIGIN
     local STATUS
 
-    if [ -z ${DMAP_DEP_ORIGIN[$ID]:-} ]; then
+    if [[ -z ${DMAP_DEP_ORIGIN[$ID]:-} ]]; then
         ConsoleError " ->" "help-dep/status - unknown dependency '$ID'"
     else
         case ${RTMAP_DEP_STATUS[$ID]} in

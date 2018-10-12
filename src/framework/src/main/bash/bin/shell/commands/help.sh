@@ -40,7 +40,7 @@
 ShellCmdHelp() {
     local CMD_SCREEN_MAP
     local file=$FW_HOME/${FW_FILE_MAP["CMD_SCREEN"]}
-    if [ ! -f $file ]&& [ ! -r $file ]; then
+    if [[ ! -f $file && ! -r $file ]]; then
         ConsoleError " ->" "did not find map file, tried \$FW_HOME/${FW_FILE_MAP["CMD_SCREEN"]}"
         return
     else

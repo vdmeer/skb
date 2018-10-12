@@ -25,6 +25,7 @@
 ##
 ## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
 ## @version    v0.0.0
+##
 
 
 ##
@@ -39,7 +40,7 @@ set -o errexit -o pipefail -o noclobber -o nounset
 ## Test if we are run from parent with configuration
 ## - load configuration
 ##
-if [ -z ${FW_HOME:-} ] || [ -z ${FW_L1_CONFIG-} ]; then
+if [[ -z ${FW_HOME:-} || -z ${FW_L1_CONFIG-} ]]; then
     printf " ==> please run from framework or application\n\n"
     exit 10
 fi
@@ -122,13 +123,13 @@ done
 ERRNO=0
 ConsoleInfo "  -->" "rs: starting task"
 
-if [ -z $SCENARIO ]; then
+if [[ -z $SCENARIO ]]; then
     ConsoleError "  ->" "a scenario is required"
     exit 3
 fi
 
 FILE=${CONFIG_MAP["FW_HOME"]}/${APP_PATH_MAP["SCENARIOS"]}/$SCENARIO.scn
-if [ ! -f $FILE ]; then
+if [[ ! -f $FILE ]]; then
     ConsoleError " ->" "did not find scenario $SCENARIO"
     return
 fi

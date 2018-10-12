@@ -25,6 +25,7 @@
 ##
 ## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
 ## @version    v0.0.0
+##
 
 
 ##
@@ -39,7 +40,7 @@ set -o errexit -o pipefail -o noclobber -o nounset
 ## Test if we are run from parent with configuration
 ## - load configuration
 ##
-if [ -z ${FW_HOME:-} ] || [ -z ${FW_L1_CONFIG-} ]; then
+if [[ -z ${FW_HOME:-} || -z ${FW_L1_CONFIG-} ]]; then
     printf " ==> please run from framework or application\n\n"
     exit 10
 fi
@@ -166,20 +167,20 @@ while true; do
 done
 
 
-if [ $DO_PRIMARY == true ]; then
+if [[ $DO_PRIMARY == true ]]; then
     TARGET="src"
 fi
-if [ $DO_SECONDARY == true ]; then
+if [[ $DO_SECONDARY == true ]]; then
     TARGET="adoc text manp html pdf"
 fi
-if [ $DO_ALL == true ]; then
+if [[ $DO_ALL == true ]]; then
     TARGET="src adoc text manp html pdf"
 fi
-if [ $DO_ALL == true ]; then
+if [[ $DO_ALL == true ]]; then
     TARGET="src adoc text manp html pdf"
 fi
-if [ $DO_BUILD == true ] || [ $DO_TEST == true ]; then
-    if [ ! -n "$TARGET" ]; then
+if [[ $DO_BUILD == true || $DO_TEST == true ]]; then
+    if [[ ! -n "$TARGET" ]]; then
         ConsoleError " ->" "build/test required, but no target set"
         exit 3
     fi
@@ -456,11 +457,11 @@ BuildSrcPath() {
 
 BuildSrc() {
     ConsoleInfo "  -->" "build src"
-    if [ -z ${CONFIG_MAP["SKB_FW_TOOL"]:-} ]; then
+    if [[ -z ${CONFIG_MAP["SKB_FW_TOOL"]:-} ]]; then
         ConsoleError " ->" "src: no setting for SKB_FW_TOOL found, cannot build"
         return
     fi
-    if [ ! -z ${RTMAP_TASK_TESTED["jre8"]:-} ]; then
+    if [[ ! -z ${RTMAP_TASK_TESTED["jre8"]:-} ]]; then
         ConsoleDebug "build src - manual"
         BuildSrcPath ${CONFIG_MAP["MANUAL_SRC"]} l1
 
@@ -509,7 +510,7 @@ MAN_PDF_FILE=$MAN_DOC_DIR/${CONFIG_MAP["APP_SCRIPT"]}.pdf
 BuildText() {
     local target
     local targets=${1:-}
-    if [ ! -n "$targets" ]; then
+    if [[ ! -n "$targets" ]]; then
         targets="adoc ansi text text-anon"
     fi
     local file
@@ -518,7 +519,7 @@ BuildText() {
     for target in $targets; do
         ConsoleDebug "building: $target"
         file=$MAN_DOC_DIR/${CONFIG_MAP["APP_SCRIPT"]}.$target
-        if [ -f $file ]; then
+        if [[ -f $file ]]; then
             rm $file
         fi
         ConsoleTrace "  for $target"
@@ -529,13 +530,13 @@ BuildText() {
 
 TestText() {
     local targets=${1:-}
-    if [ ! -n "$targets" ]; then
+    if [[ ! -n "$targets" ]]; then
         targets="adoc ansi text text-anon"
     fi
     local found=true
     for target in $targets; do
         file=$MAN_DOC_DIR/${CONFIG_MAP["APP_SCRIPT"]}.$target
-        if [ ! -f $file ]; then
+        if [[ ! -f $file ]]; then
             found=false
         fi
     done
@@ -559,14 +560,14 @@ TestText() {
 ############################################################################################
 BuildHtml() {
     ConsoleDebug "build html"
-    if [ ! -f $MAN_ADOC_FILE ]; then
+    if [[ ! -f $MAN_ADOC_FILE ]]; then
         BuildText adoc
     fi
-    if [ ! -z ${RTMAP_TASK_TESTED["asciidoctor"]:-} ]; then
-        if [ -f $MAN_HTML_FILE ]; then
+    if [[ ! -z ${RTMAP_TASK_TESTED["asciidoctor"]:-} ]]; then
+        if [[ -f $MAN_HTML_FILE ]]; then
             rm $MAN_HTML_FILE
         fi
-        if [ -f $MAN_ADOC_FILE ]; then
+        if [[ -f $MAN_ADOC_FILE ]]; then
             asciidoctor $MAN_ADOC_FILE --backend html -a toc=left
         else
             ConsoleError " ->" "html: problem building ADOC"
@@ -578,11 +579,11 @@ BuildHtml() {
 }
 
 TestHtml() {
-    if [ ! -f $MAN_HTML_FILE ]; then
+    if [[ ! -f $MAN_HTML_FILE ]]; then
         BuildHtml
     fi
-    if [ -f $MAN_HTML_FILE ]; then
-        if [ ! -z "${RTMAP_TASK_LOADED["start-browser"]}" ]; then
+    if [[ -f $MAN_HTML_FILE ]]; then
+        if [[ ! -z "${RTMAP_TASK_LOADED["start-browser"]}" ]]; then
             set +e
             ${DMAP_TASK_EXEC["start-browser"]} --url file://$(PathToCygwin $MAN_HTML_FILE)
             set -e
@@ -603,14 +604,14 @@ TestHtml() {
 ############################################################################################
 BuildManp() {
     ConsoleDebug "build manp"
-    if [ ! -f $MAN_ADOC_FILE ]; then
+    if [[ ! -f $MAN_ADOC_FILE ]]; then
         BuildText adoc
     fi
-    if [ ! -z ${RTMAP_TASK_TESTED["asciidoctor"]:-} ]; then
-        if [ -f $MAN_PAGE_FILE ]; then
+    if [[ ! -z ${RTMAP_TASK_TESTED["asciidoctor"]:-} ]]; then
+        if [[ -f $MAN_PAGE_FILE ]]; then
             rm $MAN_PAGE_FILE
         fi
-        if [ -f $MAN_ADOC_FILE ]; then
+        if [[ -f $MAN_ADOC_FILE ]]; then
             asciidoctor $MAN_ADOC_FILE --backend manpage --destination-dir $MAN_PAGE_DIR
         else
             ConsoleError " ->" "manp: problem building ADOC"
@@ -622,10 +623,10 @@ BuildManp() {
 }
 
 TestManp() {
-    if [ ! -f $MAN_PAGE_FILE ]; then
+    if [[ ! -f $MAN_PAGE_FILE ]]; then
         BuildManp
     fi
-    if [ -f $MAN_PAGE_FILE ]; then
+    if [[ -f $MAN_PAGE_FILE ]]; then
         man -M $MAN_PAGE_DIR/.. ${CONFIG_MAP["APP_SCRIPT"]}
     else
         ConsoleError " ->" "problem building MANP"
@@ -641,14 +642,14 @@ TestManp() {
 ############################################################################################
 BuildPdf() {
     ConsoleDebug "build pdf"
-    if [ ! -f $MAN_ADOC_FILE ]; then
+    if [[ ! -f $MAN_ADOC_FILE ]]; then
         BuildText adoc
     fi
-    if [ ! -z ${RTMAP_TASK_TESTED["asciidoctor-pdf"]:-} ]; then
-        if [ -f $MAN_PDF_FILE ]; then
+    if [[ ! -z ${RTMAP_TASK_TESTED["asciidoctor-pdf"]:-} ]]; then
+        if [[ -f $MAN_PDF_FILE ]]; then
             rm $MAN_PDF_FILE
         fi
-        if [ -f $MAN_ADOC_FILE ]; then
+        if [[ -f $MAN_ADOC_FILE ]]; then
             asciidoctor-pdf $MAN_ADOC_FILE
         else
             ConsoleError " ->" "pdf: problem building ADOC"
@@ -660,11 +661,11 @@ BuildPdf() {
 }
 
 TestPdf() {
-    if [ ! -f $MAN_PDF_FILE ]; then
+    if [[ ! -f $MAN_PDF_FILE ]]; then
         BuildPdf
     fi
-    if [ -f $MAN_PDF_FILE ]; then
-        if [ ! -z "${RTMAP_TASK_LOADED["start-pdf"]}" ]; then
+    if [[ -f $MAN_PDF_FILE ]]; then
+        if [[ ! -z "${RTMAP_TASK_LOADED["start-pdf"]}" ]]; then
             set +e
             ${DMAP_TASK_EXEC["start-pdf"]} --file $MAN_PDF_FILE
             set -e
@@ -683,12 +684,12 @@ TestPdf() {
 ## Now the actual business logic of the task
 ##
 ############################################################################################
-if [ $DO_CLEAN == true ]; then
+if [[ $DO_CLEAN == true ]]; then
     ConsoleInfo "  -->" "clean all targets"
 
     ConsoleDebug "scanning $MAN_PAGE_DIR"
     files=$(find -P $MAN_PAGE_DIR -type f)
-    if [ -n "$files" ]; then
+    if [[ -n "$files" ]]; then
         for file in $files; do
             rm $file
             ConsoleTrace "  removed file $file"
@@ -697,7 +698,7 @@ if [ $DO_CLEAN == true ]; then
 
     ConsoleDebug "scanning $MAN_DOC_DIR"
     files=$(find -P $MAN_DOC_DIR -type f)
-    if [ -n "$files" ]; then
+    if [[ -n "$files" ]]; then
         for file in $files; do
             rm $file
             ConsoleTrace "  removed file $file"
@@ -707,7 +708,7 @@ if [ $DO_CLEAN == true ]; then
     ConsoleInfo "  -->" "done clean"
 fi
 
-if [ $DO_BUILD == true ]; then
+if [[ $DO_BUILD == true ]]; then
     case "$TARGET" in
         *src*)  BuildSrc ;;
     esac
@@ -727,7 +728,7 @@ if [ $DO_BUILD == true ]; then
     ConsoleInfo "  -->" "done build"
 fi
 
-if [ $DO_TEST == true ]; then
+if [[ $DO_TEST == true ]]; then
     ConsoleInfo "  -->" "test for target(s): $TARGET"
     for TODO in $TARGET; do
         case $TODO in

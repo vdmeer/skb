@@ -25,6 +25,7 @@
 ##
 ## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
 ## @version    v0.0.0
+##
 
 
 ##
@@ -39,7 +40,7 @@ set -o errexit -o pipefail -o noclobber -o nounset
 ## Test if we are run from parent with configuration
 ## - load configuration
 ##
-if [ -z ${FW_HOME:-} ] || [ -z ${FW_L1_CONFIG-} ]; then
+if [[ -z ${FW_HOME:-} || -z ${FW_L1_CONFIG-} ]]; then
     printf " ==> please run from framework or application\n\n"
     exit 10
 fi
@@ -151,17 +152,17 @@ done
 ############################################################################################
 ## test CLI
 ############################################################################################
-if [ "$ALL" == "yes" ]; then
+if [[ "$ALL" == "yes" ]]; then
     LOADED=
     UNLOADED=
     APP_MODE=
     ORIGIN=
     STATUS=
-elif [ $CLI_SET == false ]; then
+elif [[ $CLI_SET == false ]]; then
     APP_MODE=${CONFIG_MAP["APP_MODE"]}
     LOADED=yes
 else
-    if [ -n "$ORIGIN" ]; then
+    if [[ -n "$ORIGIN" ]]; then
         case $ORIGIN in
             F| f | fw | framework)
                 ORIGIN=FW_HOME
@@ -174,7 +175,7 @@ else
                 exit 3
         esac
     fi
-    if [ -n "$APP_MODE" ]; then
+    if [[ -n "$APP_MODE" ]]; then
         case $APP_MODE in
             D | d | dev)
                 APP_MODE=dev
@@ -190,7 +191,7 @@ else
                 exit 3
         esac
     fi
-    if [ -n "$STATUS" ]; then
+    if [[ -n "$STATUS" ]]; then
         case $STATUS in
             S | s | success)
                 STATUS=S
@@ -226,18 +227,18 @@ printf "\n"
 printf " ${EFFECTS["REVERSE_ON"]}Task                     Description                                  O D B U S${EFFECTS["REVERSE_OFF"]}\n\n"
 
 for ID in ${!DMAP_TASK_ORIGIN[@]}; do
-    if [ -n "$LOADED" ]; then
-        if [ -z "${RTMAP_TASK_LOADED[$ID]:-}" ]; then
+    if [[ -n "$LOADED" ]]; then
+        if [[ -z "${RTMAP_TASK_LOADED[$ID]:-}" ]]; then
             continue
         fi
     fi
-    if [ -n "$UNLOADED" ]; then
-        if [ -z "${RTMAP_TASK_UNLOADED[$ID]:-}" ]; then
+    if [[ -n "$UNLOADED" ]]; then
+        if [[ -z "${RTMAP_TASK_UNLOADED[$ID]:-}" ]]; then
             continue
         fi
 
     fi
-    if [ -n "$STATUS" ]; then
+    if [[ -n "$STATUS" ]]; then
         case ${RTMAP_TASK_STATUS[$ID]} in
             $STATUS)
                 ;;
@@ -247,7 +248,7 @@ for ID in ${!DMAP_TASK_ORIGIN[@]}; do
         esac
         #=
     fi
-    if [ -n "$APP_MODE" ]; then
+    if [[ -n "$APP_MODE" ]]; then
         case ${DMAP_TASK_MODES[$ID]} in
             *$APP_MODE*)
                 ;;
@@ -256,8 +257,8 @@ for ID in ${!DMAP_TASK_ORIGIN[@]}; do
                 ;;
         esac
     fi
-    if [ -n "$ORIGIN" ]; then
-        if [ ! "$ORIGIN" == "${DMAP_TASK_ORIGIN[$ID]}" ]; then
+    if [[ -n "$ORIGIN" ]]; then
+        if [[ ! "$ORIGIN" == "${DMAP_TASK_ORIGIN[$ID]}" ]]; then
             continue
         fi
     fi
@@ -268,16 +269,16 @@ keys=($(printf '%s\n' "${keys[@]:-}"|sort))
 
 declare -A TASK_TABLE
 FILE=${CONFIG_MAP["CACHE_DIR"]}/task-tab.${CONFIG_MAP["PRINT_MODE"]}
-if [ -n "$PRINT_MODE" ]; then
+if [[ -n "$PRINT_MODE" ]]; then
     FILE=${CONFIG_MAP["CACHE_DIR"]}/task-tab.$PRINT_MODE
 fi
-if [ -f $FILE ]; then
+if [[ -f $FILE ]]; then
     source $FILE
 fi
 
 for i in ${!keys[@]}; do
     ID=${keys[$i]}
-    if [ -z "${TASK_TABLE[$ID]:-}" ]; then
+    if [[ -z "${TASK_TABLE[$ID]:-}" ]]; then
         TaskInTable $ID $PRINT_MODE
     else
         printf "${TASK_TABLE[$ID]}"

@@ -33,7 +33,6 @@
 ##
 
 
-
 ##
 ## DescribeTask
 ## - describes a task using print options and print features
@@ -49,21 +48,21 @@ DescribeTask() {
     local SPRINT=""
 
     local SHORT
-    if [ -z ${DMAP_TASK_ORIGIN[$ID]:-} ]; then
+    if [[ -z ${DMAP_TASK_ORIGIN[$ID]:-} ]]; then
         for SHORT in ${!DMAP_TASK_SHORT[@]}; do
-            if [ "$SHORT" == "$ID" ]; then
+            if [[ "$SHORT" == "$ID" ]]; then
                 ID=${DMAP_TASK_SHORT[$SHORT]}
                 break
             fi
         done
     fi
-    if [ -z ${DMAP_TASK_ORIGIN[$ID]:-} ]; then
+    if [[ -z ${DMAP_TASK_ORIGIN[$ID]:-} ]]; then
         ConsoleError " ->" "describe-task - unknown task ID '$ID'"
         return
     fi
 
     for SHORT in ${!DMAP_TASK_SHORT[@]}; do
-        if [ "${DMAP_TASK_SHORT[$SHORT]}" == "$ID" ]; then
+        if [[ "${DMAP_TASK_SHORT[$SHORT]}" == "$ID" ]]; then
             break
         fi
     done
@@ -78,8 +77,8 @@ DescribeTask() {
             line-indent)
                 LINE_INDENT="      "
                 ## exception for adoc, no line indent even if requested
-                if [ -n "${4:-}" ]; then
-                    if [ "$4" == "adoc" ]; then
+                if [[ -n "${4:-}" ]]; then
+                    if [[ "$4" == "adoc" ]]; then
                         LINE_INDENT=
                     fi
                 fi
@@ -103,10 +102,10 @@ DescribeTask() {
     local ORIGIN=${DMAP_TASK_ORIGIN[$ID]}
 
     local TEMPLATE="%ID%, %SHORT%"
-    if [ "$PRINT_OPTION" == "full" ]; then
+    if [[ "$PRINT_OPTION" == "full" ]]; then
         TEMPLATE+=" - %DESCRIPTION%"
     fi
-    if [ "${4:-}" == "adoc" ] || [ "${CONFIG_MAP["PRINT_MODE"]}" == "adoc" ]; then
+    if [[ "${4:-}" == "adoc" || "${CONFIG_MAP["PRINT_MODE"]}" == "adoc" ]]; then
         TEMPLATE+=":: "
     fi
 
@@ -122,7 +121,7 @@ DescribeTask() {
             ;;
         standard | full)
             local TMP_MODE=${4:-}
-            if [ "$TMP_MODE" == "" ]; then
+            if [[ "$TMP_MODE" == "" ]]; then
                 TMP_MODE=${CONFIG_MAP["PRINT_MODE"]}
             fi
             TEMPLATE=${TEMPLATE//%ID%/$(PrintEffect bold "$ID" $TMP_MODE)}
@@ -139,12 +138,12 @@ DescribeTask() {
     SPRINT+=$POST_LINE
     printf "$SPRINT"
 
-    if [ -n "$SOURCE" ]; then
+    if [[ -n "$SOURCE" ]]; then
         printf "\n"
         cat $SOURCE
     fi
 
-    if [ "${4:-}" == "adoc" ] || [ "${CONFIG_MAP["PRINT_MODE"]}" == "adoc" ]; then
+    if [[ "${4:-}" == "adoc" || "${CONFIG_MAP["PRINT_MODE"]}" == "adoc" ]]; then
         printf "\n\n"
     fi
 }
@@ -163,16 +162,16 @@ DescribeTaskStatus() {
     local MODE
     local STATUS
 
-    if [ -z ${DMAP_TASK_ORIGIN[$ID]:-} ]; then
+    if [[ -z ${DMAP_TASK_ORIGIN[$ID]:-} ]]; then
         for SHORT in ${!DMAP_TASK_SHORT[@]}; do
-            if [ "$SHORT" == "$ID" ]; then
+            if [[ "$SHORT" == "$ID" ]]; then
                 ID=${DMAP_TASK_SHORT[$SHORT]}
                 break
             fi
         done
     fi
 
-    if [ -z ${DMAP_TASK_ORIGIN[$ID]:-} ]; then
+    if [[ -z ${DMAP_TASK_ORIGIN[$ID]:-} ]]; then
         ConsoleError " ->" "describe-task/status - unknown task '$ID'"
     else
         MODE=${DMAP_TASK_MODES[$ID]}
@@ -239,21 +238,21 @@ TaskInTable() {
     local PRINT_MODE=${2:-}
 
     local SHORT
-    if [ -z ${DMAP_TASK_ORIGIN[$ID]:-} ]; then
+    if [[ -z ${DMAP_TASK_ORIGIN[$ID]:-} ]]; then
         for SHORT in ${!DMAP_TASK_SHORT[@]}; do
-            if [ "$SHORT" == "$ID" ]; then
+            if [[ "$SHORT" == "$ID" ]]; then
                 ID=${DMAP_TASK_SHORT[$SHORT]}
                 break
             fi
         done
     fi
-    if [ -z ${DMAP_TASK_ORIGIN[$ID]:-} ]; then
+    if [[ -z ${DMAP_TASK_ORIGIN[$ID]:-} ]]; then
         ConsoleError " ->" "unknown task ID '$ID'"
         return
     fi
 
     for SHORT in ${!DMAP_TASK_SHORT[@]}; do
-        if [ "${DMAP_TASK_SHORT[$SHORT]}" == "$ID" ]; then
+        if [[ "${DMAP_TASK_SHORT[$SHORT]}" == "$ID" ]]; then
             break
         fi
     done

@@ -45,14 +45,14 @@ ShellCmdExecuteScenario() {
     local TASK
     local TARG
 
-    if [ ! -f $FILE ]; then
+    if [[ ! -f $FILE ]]; then
         ConsoleError " ->" "did not find scenario $SARG"
         return
     fi
 
     while IFS='' read -r line || [[ -n "$line" ]]; do
         LENGTH=${#line}
-        if [ "${line:0:1}" != "#" ] && (( LENGTH > 1 )); then
+        if [[ "${line:0:1}" != "#" ]] && (( LENGTH > 1 )); then
             ConsoleResetErrors
             SARG="$line"
             ShellCmdExecuteTask

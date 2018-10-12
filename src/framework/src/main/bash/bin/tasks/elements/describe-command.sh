@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+l#!/usr/bin/env bash
 
 #-------------------------------------------------------------------------------
 # ============LICENSE_START=======================================================
@@ -25,6 +25,7 @@
 ##
 ## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
 ## @version    v0.0.0
+##
 
 
 ##
@@ -39,7 +40,7 @@ set -o errexit -o pipefail -o noclobber -o nounset
 ## Test if we are run from parent with configuration
 ## - load configuration
 ##
-if [ -z ${FW_HOME:-} ] || [ -z ${FW_L1_CONFIG-} ]; then
+if [[ -z ${FW_HOME:-} || -z ${FW_L1_CONFIG-} ]]; then
     printf " ==> please run from framework or application\n\n"
     exit 10
 fi
@@ -122,20 +123,20 @@ done
 ############################################################################################
 ## test CLI
 ############################################################################################
-if [ ! -n "$PRINT_MODE" ]; then
+if [[ ! -n "$PRINT_MODE" ]]; then
     PRINT_MODE=${CONFIG_MAP["PRINT_MODE"]}
 fi
 
-if [ "$ALL" == "yes" ]; then
+if [[ "$ALL" == "yes" ]]; then
     CMD_ID=
 else
-    if [ -n "$CMD_ID" ]; then
-        if [ "${DMAP_CMD[$CMD_ID]:-}" == "--" ]; then
-            if [ ! -z "${DMAP_CMD_SHORT[$CMD_ID]:-}" ]; then
+    if [[ -n "$CMD_ID" ]]; then
+        if [[ "${DMAP_CMD[$CMD_ID]:-}" == "--" ]]; then
+            if [[ ! -z "${DMAP_CMD_SHORT[$CMD_ID]:-}" ]]; then
                 CMD_ID="${DMAP_CMD_SHORT[$CMD_ID]}"
             fi
         fi
-        if [ ! -n "${DMAP_CMD[$CMD_ID]:-}" ]; then
+        if [[ ! -n "${DMAP_CMD[$CMD_ID]:-}" ]]; then
             ConsoleError " ->" "describe-command - unknown command ID '$CMD_ID'"
             return
         fi
@@ -151,8 +152,8 @@ fi
 ConsoleInfo "  -->" "dc: starting task"
 
 for ID in ${!DMAP_CMD[@]}; do
-    if [ -n "$CMD_ID" ]; then
-        if [ ! "$CMD_ID" == "$ID" ]; then
+    if [[ -n "$CMD_ID" ]]; then
+        if [[ ! "$CMD_ID" == "$ID" ]]; then
             continue
         fi
     fi

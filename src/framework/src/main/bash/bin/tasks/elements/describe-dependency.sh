@@ -25,6 +25,7 @@
 ##
 ## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
 ## @version    v0.0.0
+##
 
 
 ##
@@ -39,7 +40,7 @@ set -o errexit -o pipefail -o noclobber -o nounset
 ## Test if we are run from parent with configuration
 ## - load configuration
 ##
-if [ -z ${FW_HOME:-} ] || [ -z ${FW_L1_CONFIG-} ]; then
+if [[ -z ${FW_HOME:-} || -z ${FW_L1_CONFIG-} ]]; then
     printf " ==> please run from framework or application\n\n"
     exit 10
 fi
@@ -151,26 +152,26 @@ done
 ############################################################################################
 ## test CLI
 ############################################################################################
-if [ ! -n "$PRINT_MODE" ]; then
+if [[ ! -n "$PRINT_MODE" ]]; then
     PRINT_MODE=${CONFIG_MAP["PRINT_MODE"]}
 fi
 
-if [ "$ALL" == "yes" ]; then
+if [[ "$ALL" == "yes" ]]; then
     DEP_ID=
     TESTED=
     ORIGIN=
     REQUESTED=
     STATUS=
     ALL=
-elif [ $CLI_SET == false ]; then
+elif [[ $CLI_SET == false ]]; then
     TESTED=yes
 else
-    if [ -n "$DEP_ID" ]; then
-        if [ -z ${DMAP_DEP_ORIGIN[$DEP_ID]:-} ]; then
+    if [[ -n "$DEP_ID" ]]; then
+        if [[ -z ${DMAP_DEP_ORIGIN[$DEP_ID]:-} ]]; then
             ConsoleError " ->" "unknown dependency: $DEP_ID"
         fi
     fi
-    if [ -n "$ORIGIN" ]; then
+    if [[ -n "$ORIGIN" ]]; then
         case $ORIGIN in
             F| f | fw | framework)
                 ORIGIN=FW_HOME
@@ -183,7 +184,7 @@ else
                 exit 3
         esac
     fi
-    if [ -n "$STATUS" ]; then
+    if [[ -n "$STATUS" ]]; then
         case $STATUS in
             S | s | success)
                 STATUS=S
@@ -214,22 +215,22 @@ fi
 ConsoleInfo "  -->" "dd: starting task"
 
 for ID in ${!DMAP_DEP_ORIGIN[@]}; do
-    if [ -n "$DEP_ID" ]; then
-        if [ ! "$DEP_ID" == "$ID" ]; then
+    if [[ -n "$DEP_ID" ]]; then
+        if [[ ! "$DEP_ID" == "$ID" ]]; then
             continue
         fi
     fi
-    if [ -n "$REQUESTED" ]; then
-        if [ -z "${RTMAP_REQUESTED_DEP[$ID]:-}" ]; then
+    if [[ -n "$REQUESTED" ]]; then
+        if [[ -z "${RTMAP_REQUESTED_DEP[$ID]:-}" ]]; then
             continue
         fi
     fi
-    if [ -n "$TESTED" ]; then
-        if [ -z "${RTMAP_TASK_TESTED[$ID]:-}" ]; then
+    if [[ -n "$TESTED" ]]; then
+        if [[ -z "${RTMAP_TASK_TESTED[$ID]:-}" ]]; then
             continue
         fi
     fi
-    if [ -n "$STATUS" ]; then
+    if [[ -n "$STATUS" ]]; then
         case ${RTMAP_DEP_STATUS[$ID]} in
             $STATUS)
                 ;;
@@ -239,8 +240,8 @@ for ID in ${!DMAP_DEP_ORIGIN[@]}; do
         esac
         #=
     fi
-    if [ -n "$ORIGIN" ]; then
-        if [ ! "$ORIGIN" == "${DMAP_DEP_ORIGIN[$ID]}" ]; then
+    if [[ -n "$ORIGIN" ]]; then
+        if [[ ! "$ORIGIN" == "${DMAP_DEP_ORIGIN[$ID]}" ]]; then
             continue
         fi
     fi

@@ -143,7 +143,7 @@ ParseCli() {
                 ;;
             --)
             shift
-                if [ -z ${1:-} ]; then
+                if [[ -z ${1:-} ]]; then
                     break
                 fi
                 CLI_EXTRA_ARGS=$(printf '%s' "$*")

@@ -33,7 +33,6 @@
 ##
 
 
-
 ##
 ## function: PrintEffect
 ## $1: effect: bold, italic, reverse
@@ -43,7 +42,7 @@
 ##
 PrintEffect() {
     local PRINT_MODE=${3:-}
-    if [ "$PRINT_MODE" == "" ]; then
+    if [[ "$PRINT_MODE" == "" ]]; then
         PRINT_MODE=${CONFIG_MAP["PRINT_MODE"]}
     fi
 

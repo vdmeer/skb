@@ -20,7 +20,19 @@
 # ============LICENSE_END=========================================================
 #-------------------------------------------------------------------------------
 
-if [ -z ${__FW_LOADER_FLAVOR:-} ]; then
+##
+## The SKB Framework Application
+##
+## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
+## @version    v0.0.0
+##
+
+
+##
+## DO NOT CHANGE CODE BELOW, unless you know what you are doing
+##
+
+if [[ -z ${__FW_LOADER_FLAVOR:-} ]]; then
     export __FW_LOADER_FLAVOR="SF"
     export __FW_LOADER_SCRIPTNAME="$0"
     export __FW_LOADER_APPNAME="SKB Framework"

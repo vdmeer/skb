@@ -25,6 +25,7 @@
 ##
 ## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
 ## @version    v0.0.0
+##
 
 
 ##
@@ -39,7 +40,7 @@ set -o errexit -o pipefail -o noclobber -o nounset
 ## Test if we are run from parent with configuration
 ## - load configuration
 ##
-if [ -z ${FW_HOME:-} ] || [ -z ${FW_L1_CONFIG-} ]; then
+if [[ -z ${FW_HOME:-} || -z ${FW_L1_CONFIG-} ]]; then
     printf " ==> please run from framework or application\n\n"
     exit 10
 fi
@@ -206,20 +207,20 @@ while true; do
 done
 
 
-if [ $DO_DECL == true ]; then
+if [[ $DO_DECL == true ]]; then
     TARGET="cmd-decl dep-decl opt-decl task-decl"
 fi
-if [ $DO_LIST == true ]; then
+if [[ $DO_LIST == true ]]; then
     TARGET="cmd-list opt-list"
 fi
-if [ $DO_TAB == true ]; then
+if [[ $DO_TAB == true ]]; then
     TARGET="cmd-tab dep-tab opt-tab param-tab task-tab"
 fi
-if [ $DO_ALL == true ]; then
+if [[ $DO_ALL == true ]]; then
     TARGET="cmd-decl cmd-tab cmd-list dep-decl dep-tab opt-decl opt-tab opt-list param-tab task-decl task-tab"
 fi
-if [ $DO_BUILD == true ]; then
-    if [ ! -n "$TARGET" ]; then
+if [[ $DO_BUILD == true ]]; then
+    if [[ ! -n "$TARGET" ]]; then
         ConsoleError " ->" "build required, but no target set"
         exit 3
     fi
@@ -238,10 +239,10 @@ ConsoleResetErrors
 
 PRINT_MODES="ansi text"
 
-if [ $DO_CLEAN == true ]; then
-    if [ -d ${CONFIG_MAP["CACHE_DIR"]} ]; then
+if [[ $DO_CLEAN == true ]]; then
+    if [[ -d ${CONFIG_MAP["CACHE_DIR"]} ]]; then
         files=$(find -P ${CONFIG_MAP["CACHE_DIR"]} -type f)
-        if [ -n "$files" ]; then
+        if [[ -n "$files" ]]; then
             for file in $files; do
                 rm $file
             done
@@ -249,13 +250,13 @@ if [ $DO_CLEAN == true ]; then
     fi
 fi
 
-if [ $DO_BUILD == true ]; then
+if [[ $DO_BUILD == true ]]; then
     ConsoleInfo "  -->" "build for target(s): $TARGET"
 
-    if [ ! -d "${CONFIG_MAP["CACHE_DIR"]}" ]; then
+    if [[ ! -d "${CONFIG_MAP["CACHE_DIR"]}" ]]; then
         mkdir -p ${CONFIG_MAP["CACHE_DIR"]}
     fi
-    if [ ! -d "${CONFIG_MAP["CACHE_DIR"]}" ]; then
+    if [[ ! -d "${CONFIG_MAP["CACHE_DIR"]}" ]]; then
         ConsoleError " ->" "cache directory ${CONFIG_MAP["CACHE_DIR"]} does not exist"
     else
         for TODO in $TARGET; do
@@ -263,7 +264,7 @@ if [ $DO_BUILD == true ]; then
             case $TODO in
                 cmd-decl)
                     FILE=${CONFIG_MAP["CACHE_DIR"]}/cmd-decl.map
-                    if [ -f $FILE ]; then
+                    if [[ -f $FILE ]]; then
                         rm $FILE
                     fi
                     declare -p DMAP_CMD > $FILE
@@ -274,7 +275,7 @@ if [ $DO_BUILD == true ]; then
                 cmd-tab)
                     for MODE in $PRINT_MODES; do
                         FILE=${CONFIG_MAP["CACHE_DIR"]}/cmd-tab.$MODE
-                        if [ -f $FILE ]; then
+                        if [[ -f $FILE ]]; then
                             rm $FILE
                         fi
                         declare -A COMMAND_TABLE
@@ -287,7 +288,7 @@ if [ $DO_BUILD == true ]; then
                 cmd-list)
                     for MODE in $PRINT_MODES; do
                         FILE=${CONFIG_MAP["CACHE_DIR"]}/cmd-list.$MODE
-                        if [ -f $FILE ]; then
+                        if [[ -f $FILE ]]; then
                             rm $FILE
                         fi
                         declare -A COMMAND_LIST
@@ -300,7 +301,7 @@ if [ $DO_BUILD == true ]; then
 
                 opt-decl)
                     FILE=${CONFIG_MAP["CACHE_DIR"]}/opt-decl.map
-                    if [ -f $FILE ]; then
+                    if [[ -f $FILE ]]; then
                         rm $FILE
                     fi
                     declare -p DMAP_OPT_ORIGIN > $FILE
@@ -311,7 +312,7 @@ if [ $DO_BUILD == true ]; then
                 opt-tab)
                     for MODE in $PRINT_MODES; do
                         FILE=${CONFIG_MAP["CACHE_DIR"]}/opt-tab.$MODE
-                        if [ -f $FILE ]; then
+                        if [[ -f $FILE ]]; then
                             rm $FILE
                         fi
                         declare -A OPTION_TABLE
@@ -324,7 +325,7 @@ if [ $DO_BUILD == true ]; then
                 opt-list)
                     for MODE in $PRINT_MODES; do
                         FILE=${CONFIG_MAP["CACHE_DIR"]}/opt-list.$MODE
-                        if [ -f $FILE ]; then
+                        if [[ -f $FILE ]]; then
                             rm $FILE
                         fi
                         declare -A OPTION_LIST
@@ -337,7 +338,7 @@ if [ $DO_BUILD == true ]; then
 
                 dep-decl)
                     FILE=${CONFIG_MAP["CACHE_DIR"]}/dep-decl.map
-                    if [ -f $FILE ]; then
+                    if [[ -f $FILE ]]; then
                         rm $FILE
                     fi
                     declare -p DMAP_DEP_ORIGIN > $FILE
@@ -349,7 +350,7 @@ if [ $DO_BUILD == true ]; then
                 dep-tab)
                     for MODE in $PRINT_MODES; do
                         FILE=${CONFIG_MAP["CACHE_DIR"]}/dep-tab.$MODE
-                        if [ -f $FILE ]; then
+                        if [[ -f $FILE ]]; then
                             rm $FILE
                         fi
                         declare -A DEP_TABLE
@@ -362,7 +363,7 @@ if [ $DO_BUILD == true ]; then
                 param-tab)
                     for MODE in $PRINT_MODES; do
                         FILE=${CONFIG_MAP["CACHE_DIR"]}/param-tab.$MODE
-                        if [ -f $FILE ]; then
+                        if [[ -f $FILE ]]; then
                             rm $FILE
                         fi
                         declare -A PARAM_TABLE
@@ -374,7 +375,7 @@ if [ $DO_BUILD == true ]; then
                     ;;
                 task-decl)
                     FILE=${CONFIG_MAP["CACHE_DIR"]}/task-decl.map
-                    if [ -f $FILE ]; then
+                    if [[ -f $FILE ]]; then
                         rm $FILE
                     fi
                     declare -p DMAP_TASK_ORIGIN > $FILE
@@ -398,7 +399,7 @@ if [ $DO_BUILD == true ]; then
                 task-tab)
                     for MODE in $PRINT_MODES; do
                         FILE=${CONFIG_MAP["CACHE_DIR"]}/task-tab.$MODE
-                        if [ -f $FILE ]; then
+                        if [[ -f $FILE ]]; then
                             rm $FILE
                         fi
                         declare -A TASK_TABLE

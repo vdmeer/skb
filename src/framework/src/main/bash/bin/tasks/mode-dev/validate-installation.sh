@@ -25,6 +25,7 @@
 ##
 ## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
 ## @version    v0.0.0
+##
 
 
 ##
@@ -39,7 +40,7 @@ set -o errexit -o pipefail -o noclobber -o nounset
 ## Test if we are run from parent with configuration
 ## - load configuration
 ##
-if [ -z ${FW_HOME:-} ] || [ -z ${FW_L1_CONFIG-} ]; then
+if [[ -z ${FW_HOME:-} || -z ${FW_L1_CONFIG-} ]]; then
     printf " ==> please run from framework or application\n\n"
     exit 10
 fi
@@ -63,6 +64,7 @@ ConsoleResetWarnings
 DO_ALL=false
 DO_STRICT=false
 TARGET=
+CLI_SET=false
 
 
 
@@ -113,31 +115,38 @@ while true; do
         -a | --all)
             shift
             DO_ALL=true
+            CLI_SET=true
             ;;
         --man-src)
             shift
             TARGET=$TARGET" man-src"
+            CLI_SET=true
             ;;
 
         --cmd)
             shift
             TARGET=$TARGET" cmd"
+            CLI_SET=true
             ;;
         --dep)
             shift
             TARGET=$TARGET" dep"
+            CLI_SET=true
             ;;
         --opt)
             shift
             TARGET=$TARGET" opt"
+            CLI_SET=true
             ;;
         --param)
             shift
             TARGET=$TARGET" param"
+            CLI_SET=true
             ;;
         --task)
             shift
             TARGET=$TARGET" task"
+            CLI_SET=true
             ;;
 
         --)
@@ -151,7 +160,13 @@ while true; do
 done
 
 
-if [ $DO_ALL == true ]; then
+
+############################################################################################
+## test CLI
+############################################################################################
+if [[ $DO_ALL == true ]]; then
+    TARGET="man-src cmd dep opt param task"
+elif [[ $CLI_SET == false ]]; then
     TARGET="man-src cmd dep opt param task"
 fi
 
@@ -173,14 +188,14 @@ ValidateManualSource() {
     local SOURCE
     local DIR=${CONFIG_MAP["MANUAL_SRC"]}
 
-    if [ ! -d ${CONFIG_MAP["MANUAL_SRC"]}/tags ]; then
+    if [[ ! -d ${CONFIG_MAP["MANUAL_SRC"]}/tags ]]; then
         ConsoleError " ->" "did not find tag directory"
     else
         EXPECTED="tags/description tags/name"
         for FILE in $EXPECTED; do
-            if [ ! -f ${CONFIG_MAP["MANUAL_SRC"]}/$FILE.txt ]; then
+            if [[ ! -f ${CONFIG_MAP["MANUAL_SRC"]}/$FILE.txt ]]; then
                 ConsoleWarnStrict "  ->" "missing file $FILE.txt"
-            elif [ ! -r ${CONFIG_MAP["MANUAL_SRC"]}/$FILE.txt ]; then
+            elif [[ ! -r ${CONFIG_MAP["MANUAL_SRC"]}/$FILE.txt ]]; then
                 ConsoleWarnStrict "  ->" "cannot read file $FILE.txt"
             fi
         done
@@ -194,25 +209,25 @@ ValidateManualSource() {
                     found=true
                 fi
             done
-            if [ $found == false ]; then
+            if [[ $found == false ]]; then
                 ConsoleWarnStrict "  ->" "found extra file tags/${FILE##*/}"
             fi
         done
     fi
 
-    if [ ! -d ${CONFIG_MAP["MANUAL_SRC"]}/framework ]; then
+    if [[ ! -d ${CONFIG_MAP["MANUAL_SRC"]}/framework ]]; then
         ConsoleError " ->" "did not find tag directory"
     else
         EXPECTED="framework/commands framework/dependencies framework/exit-options framework/exit-status framework/options framework/parameters framework/run-options framework/tasks"
         for FILE in $EXPECTED; do
-            if [ ! -f ${CONFIG_MAP["MANUAL_SRC"]}/$FILE.adoc ]; then
+            if [[ ! -f ${CONFIG_MAP["MANUAL_SRC"]}/$FILE.adoc ]]; then
                 ConsoleWarnStrict "  ->" "missing file $FILE.adoc"
-            elif [ ! -r ${CONFIG_MAP["MANUAL_SRC"]}/$FILE.adoc ]; then
+            elif [[ ! -r ${CONFIG_MAP["MANUAL_SRC"]}/$FILE.adoc ]]; then
                 ConsoleWarnStrict "  ->" "cannot read file $FILE.adoc"
             fi
-            if [ ! -f ${CONFIG_MAP["MANUAL_SRC"]}/$FILE.txt ]; then
+            if [[ ! -f ${CONFIG_MAP["MANUAL_SRC"]}/$FILE.txt ]]; then
                 ConsoleWarnStrict "  ->" "missing file $FILE.txt"
-            elif [ ! -r ${CONFIG_MAP["MANUAL_SRC"]}/$FILE.txt ]; then
+            elif [[ ! -r ${CONFIG_MAP["MANUAL_SRC"]}/$FILE.txt ]]; then
                 ConsoleWarnStrict "  ->" "cannot read file $FILE.txt"
             fi
         done
@@ -230,25 +245,25 @@ ValidateManualSource() {
                     found=true
                 fi
             done
-            if [ $found == false ]; then
+            if [[ $found == false ]]; then
                 ConsoleWarnStrict "  ->" "found extra file framework/${FILE##*/}"
             fi
         done
     fi
 
-    if [ ! -d ${CONFIG_MAP["MANUAL_SRC"]}/application ]; then
+    if [[ ! -d ${CONFIG_MAP["MANUAL_SRC"]}/application ]]; then
         ConsoleError " ->" "did not find tag directory"
     else
         EXPECTED="application/authors application/bugs application/copying application/resources application/security"
         for FILE in $EXPECTED; do
-            if [ ! -f ${CONFIG_MAP["MANUAL_SRC"]}/$FILE.adoc ]; then
+            if [[ ! -f ${CONFIG_MAP["MANUAL_SRC"]}/$FILE.adoc ]]; then
                 ConsoleWarnStrict "  ->" "missing file $FILE.adoc"
-            elif [ ! -r ${CONFIG_MAP["MANUAL_SRC"]}/$FILE.adoc ]; then
+            elif [[ ! -r ${CONFIG_MAP["MANUAL_SRC"]}/$FILE.adoc ]]; then
                 ConsoleWarnStrict "  ->" "cannot read file $FILE.adoc"
             fi
-            if [ ! -f ${CONFIG_MAP["MANUAL_SRC"]}/$FILE.txt ]; then
+            if [[ ! -f ${CONFIG_MAP["MANUAL_SRC"]}/$FILE.txt ]]; then
                 ConsoleWarnStrict "  ->" "missing file $FILE.txt"
-            elif [ ! -r ${CONFIG_MAP["MANUAL_SRC"]}/$FILE.txt ]; then
+            elif [[ ! -r ${CONFIG_MAP["MANUAL_SRC"]}/$FILE.txt ]]; then
                 ConsoleWarnStrict "  ->" "cannot read file $FILE.txt"
             fi
         done
@@ -266,7 +281,7 @@ ValidateManualSource() {
                     found=true
                 fi
             done
-            if [ $found == false ]; then
+            if [[ $found == false ]]; then
                 ConsoleWarnStrict "  ->" "found extra file application/${FILE##*/}"
             fi
         done
@@ -289,14 +304,14 @@ ValidateCommandDocs() {
     local SOURCE
     for ID in ${!DMAP_CMD[@]}; do
         SOURCE=${CONFIG_MAP["FW_HOME"]}/${FW_PATH_MAP["COMMANDS"]}/$ID
-        if [ ! -f $SOURCE.adoc ]; then
+        if [[ ! -f $SOURCE.adoc ]]; then
             ConsoleWarnStrict " ->" "commands '$ID' without ADOC file"
-        elif [ ! -r $SOURCE.adoc ]; then
+        elif [[ ! -r $SOURCE.adoc ]]; then
             ConsoleWarnStrict " ->" "commands '$ID' ADOC file not readable"
         fi
-        if [ ! -f $SOURCE.txt ]; then
+        if [[ ! -f $SOURCE.txt ]]; then
             ConsoleWarnStrict " ->" "commands '$ID' without TXT file"
-        elif [ ! -r $SOURCE.txt ]; then
+        elif [[ ! -r $SOURCE.txt ]]; then
             ConsoleWarnStrict " ->" "commands '$ID' TXT file not readable"
         fi
     done
@@ -315,12 +330,12 @@ ValidateCommand() {
     local file
 
     ## check that files in the command folder have a corresponding command declaration
-    if [ -d $ORIGIN_PATH/${FW_PATH_MAP["COMMANDS"]} ]; then
+    if [[ -d $ORIGIN_PATH/${FW_PATH_MAP["COMMANDS"]} ]]; then
         files=$(find -P $ORIGIN_PATH/${FW_PATH_MAP["COMMANDS"]} -type f)
         for file in $files; do
             ID=${file##*/}
             ID=${ID%.*}
-            if [ -z ${DMAP_CMD[$ID]:-} ]; then
+            if [[ -z ${DMAP_CMD[$ID]:-} ]]; then
                 ConsoleError " ->" "validate/cmd - found extra file FW_HOME/${FW_PATH_MAP["COMMANDS"]}, command '$ID' not declared"
             fi
         done
@@ -343,14 +358,14 @@ ValidateDependencyDocs() {
     local SOURCE
     for ID in ${!DMAP_DEP_DECL[@]}; do
         SOURCE=${DMAP_DEP_DECL[$ID]}
-        if [ ! -f $SOURCE.adoc ]; then
+        if [[ ! -f $SOURCE.adoc ]]; then
             ConsoleWarnStrict " ->" "dependency '$ID' without ADOC file"
-        elif [ ! -r $SOURCE.adoc ]; then
+        elif [[ ! -r $SOURCE.adoc ]]; then
             ConsoleWarnStrict " ->" "dependency '$ID' ADOC file not readable"
         fi
-        if [ ! -f $SOURCE.txt ]; then
+        if [[ ! -f $SOURCE.txt ]]; then
             ConsoleWarnStrict " ->" "dependency '$ID' without TXT file"
-        elif [ ! -r $SOURCE.txt ]; then
+        elif [[ ! -r $SOURCE.txt ]]; then
             ConsoleWarnStrict " ->" "dependency '$ID' TXT file not readable"
         fi
     done
@@ -368,12 +383,12 @@ ValidateDependencyOrigin() {
     local file
 
     ## check that files in the dependency folder have a corresponding dependency declaration
-    if [ -d $ORIGIN_PATH/${APP_PATH_MAP["DEP_DECL"]} ]; then
+    if [[ -d $ORIGIN_PATH/${APP_PATH_MAP["DEP_DECL"]} ]]; then
         files=$(find -P $ORIGIN_PATH/${APP_PATH_MAP["DEP_DECL"]} -type f)
         for file in $files; do
             ID=${file##*/}
             ID=${ID%.*}
-            if [ -z ${DMAP_DEP_ORIGIN[$ID]:-} ]; then
+            if [[ -z ${DMAP_DEP_ORIGIN[$ID]:-} ]]; then
                 ConsoleError " ->" "validate/dep - found extra file $ORIGIN/${APP_PATH_MAP["DEP_DECL"]}, dependency '$ID' not declared"
             fi
         done
@@ -387,7 +402,7 @@ ValidateDependency() {
 
     ValidateDependencyDocs
     ValidateDependencyOrigin FW_HOME
-    if [ "${CONFIG_MAP["FW_HOME"]}" != "${CONFIG_MAP["HOME"]}" ]; then
+    if [[ "${CONFIG_MAP["FW_HOME"]}" != "${CONFIG_MAP["HOME"]}" ]]; then
         ValidateDependencyOrigin HOME
     fi
 
@@ -409,16 +424,16 @@ ValidateOptionDocs() {
     local OPT_PATH
     for ID in ${!DMAP_OPT_ORIGIN[@]}; do
         OPT_PATH=${DMAP_OPT_ORIGIN[$ID]:-}
-        if [ "$OPT_PATH" != "" ]; then
+        if [[ "$OPT_PATH" != "" ]]; then
             SOURCE=${CONFIG_MAP["FW_HOME"]}/${FW_PATH_MAP["OPTIONS"]}/$OPT_PATH/$ID
-            if [ ! -f $SOURCE.adoc ]; then
+            if [[ ! -f $SOURCE.adoc ]]; then
                 ConsoleWarnStrict " ->" "exit option '$ID' without ADOC file"
-            elif [ ! -r $SOURCE.adoc ]; then
+            elif [[ ! -r $SOURCE.adoc ]]; then
                 ConsoleWarnStrict " ->" "exit option '$ID' ADOC file not readable"
             fi
-            if [ ! -f $SOURCE.txt ]; then
+            if [[ ! -f $SOURCE.txt ]]; then
                 ConsoleWarnStrict " ->" "exit option '$ID' without TXT file"
-            elif [ ! -r $SOURCE.txt ]; then
+            elif [[ ! -r $SOURCE.txt ]]; then
                 ConsoleWarnStrict " ->" "exit option '$ID' TXT file not readable"
             fi
         fi
@@ -438,12 +453,12 @@ ValidateOption() {
     local file
 
     ## check that files in the option folder have a corresponding option declaration
-    if [ -d $ORIGIN_PATH/${FW_PATH_MAP["OPTIONS"]} ]; then
+    if [[ -d $ORIGIN_PATH/${FW_PATH_MAP["OPTIONS"]} ]]; then
         files=$(find -P $ORIGIN_PATH/${FW_PATH_MAP["OPTIONS"]} -type f)
         for file in $files; do
             ID=${file##*/}
             ID=${ID%.*}
-            if [ -z ${DMAP_OPT_ORIGIN[$ID]:-} ]; then
+            if [[ -z ${DMAP_OPT_ORIGIN[$ID]:-} ]]; then
                 ConsoleError " ->" "validate/opt - found extra file FW_HOME/${FW_PATH_MAP["OPTIONS"]}, option '$ID' not declared"
             fi
         done
@@ -466,14 +481,14 @@ ValidateParameterDocs() {
     local SOURCE
     for ID in ${!DMAP_PARAM_DECL[@]}; do
         SOURCE=${DMAP_PARAM_DECL[$ID]}
-        if [ ! -f $SOURCE.adoc ]; then
+        if [[ ! -f $SOURCE.adoc ]]; then
             ConsoleWarnStrict " ->" "parameter '$ID' without ADOC file"
-        elif [ ! -r $SOURCE.adoc ]; then
+        elif [[ ! -r $SOURCE.adoc ]]; then
             ConsoleWarnStrict " ->" "parameter '$ID' ADOC file not readable"
         fi
-        if [ ! -f $SOURCE.txt ]; then
+        if [[ ! -f $SOURCE.txt ]]; then
             ConsoleWarnStrict " ->" "parameter '$ID' without TXT file"
-        elif [ ! -r $SOURCE.txt ]; then
+        elif [[ ! -r $SOURCE.txt ]]; then
             ConsoleWarnStrict " ->" "parameter '$ID' TXT file not readable"
         fi
     done
@@ -491,12 +506,12 @@ ValidateParameterOrigin() {
     local file
 
     ## check that files in the parameter folder have a corresponding parameter declaration
-    if [ -d $ORIGIN_PATH/${APP_PATH_MAP["PARAM_DECL"]} ]; then
+    if [[ -d $ORIGIN_PATH/${APP_PATH_MAP["PARAM_DECL"]} ]]; then
         files=$(find -P $ORIGIN_PATH/${APP_PATH_MAP["PARAM_DECL"]} -type f)
         for file in $files; do
             ID=${file##*/}
             ID=${ID%.*}
-            if [ -z ${DMAP_PARAM_ORIGIN[$ID]:-} ]; then
+            if [[ -z ${DMAP_PARAM_ORIGIN[$ID]:-} ]]; then
                 ConsoleError " ->" "validate/param - found extra file $ORIGIN/${APP_PATH_MAP["PARAM_DECL"]}, parameter '$ID' not declared"
             fi
         done
@@ -510,7 +525,7 @@ ValidateParameter() {
 
     ValidateParameterDocs
     ValidateParameterOrigin FW_HOME
-    if [ "${CONFIG_MAP["FW_HOME"]}" != "${CONFIG_MAP["HOME"]}" ]; then
+    if [[ "${CONFIG_MAP["FW_HOME"]}" != "${CONFIG_MAP["HOME"]}" ]]; then
         ValidateParameterOrigin HOME
     fi
 
@@ -531,14 +546,14 @@ ValidateTaskDocs() {
     local SOURCE
     for ID in ${!DMAP_TASK_DECL[@]}; do
         SOURCE=${DMAP_TASK_DECL[$ID]}
-        if [ ! -f $SOURCE.adoc ]; then
+        if [[ ! -f $SOURCE.adoc ]]; then
             ConsoleWarnStrict " ->" "task '$ID' without ADOC file"
-        elif [ ! -r $SOURCE.adoc ]; then
+        elif [[ ! -r $SOURCE.adoc ]]; then
             ConsoleWarnStrict " ->" "task '$ID' ADOC file not readable"
         fi
-        if [ ! -f $SOURCE.txt ]; then
+        if [[ ! -f $SOURCE.txt ]]; then
             ConsoleWarnStrict " ->" "task '$ID' without TXT file"
-        elif [ ! -r $SOURCE.txt ]; then
+        elif [[ ! -r $SOURCE.txt ]]; then
             ConsoleWarnStrict " ->" "task '$ID' TXT file not readable"
         fi
     done
@@ -556,24 +571,24 @@ ValidateTaskOrigin() {
     local file
 
     ## check that files in the task folder have a corresponding task declaration
-    if [ -d $ORIGIN_PATH/${APP_PATH_MAP["TASK_DECL"]} ]; then
+    if [[ -d $ORIGIN_PATH/${APP_PATH_MAP["TASK_DECL"]} ]]; then
         files=$(find -P $ORIGIN_PATH/${APP_PATH_MAP["TASK_DECL"]} -type f)
         for file in $files; do
             ID=${file##*/}
             ID=${ID%.*}
-            if [ -z ${DMAP_TASK_DECL[$ID]:-} ]; then
+            if [[ -z ${DMAP_TASK_DECL[$ID]:-} ]]; then
                 ConsoleError " ->" "validate/task - found extra file $ORIGIN/${APP_PATH_MAP["TASK_DECL"]}, task '$ID' not declared"
             fi
         done
     fi
 
     ## check for extra files in task executables directory
-    if [ -d $ORIGIN_PATH/${APP_PATH_MAP["TASK_SCRIPT"]} ]; then
+    if [[ -d $ORIGIN_PATH/${APP_PATH_MAP["TASK_SCRIPT"]} ]]; then
         files=$(find -P $ORIGIN_PATH/${APP_PATH_MAP["TASK_SCRIPT"]}  -type f)
         for file in $files; do
             ID=${file##*/}
             ID=${ID%.*}
-            if [ -z ${DMAP_TASK_EXEC[$ID]:-} ]; then
+            if [[ -z ${DMAP_TASK_EXEC[$ID]:-} ]]; then
                 ConsoleError " ->" "validate/task - found extra file $ORIGIN/${APP_PATH_MAP["TASK_SCRIPT"]}, task '$ID' not declared"
             fi
         done
@@ -587,7 +602,7 @@ ValidateTask() {
 
     ValidateTaskDocs
     ValidateTaskOrigin FW_HOME
-    if [ "${CONFIG_MAP["FW_HOME"]}" != "${CONFIG_MAP["HOME"]}" ]; then
+    if [[ "${CONFIG_MAP["FW_HOME"]}" != "${CONFIG_MAP["HOME"]}" ]]; then
         ValidateTaskOrigin HOME
     fi
 

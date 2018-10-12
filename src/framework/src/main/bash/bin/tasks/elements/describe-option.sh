@@ -25,6 +25,7 @@
 ##
 ## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
 ## @version    v0.0.0
+##
 
 
 ##
@@ -39,7 +40,7 @@ set -o errexit -o pipefail -o noclobber -o nounset
 ## Test if we are run from parent with configuration
 ## - load configuration
 ##
-if [ -z ${FW_HOME:-} ] || [ -z ${FW_L1_CONFIG-} ]; then
+if [[ -z ${FW_HOME:-} || -z ${FW_L1_CONFIG-} ]]; then
     printf " ==> please run from framework or application\n\n"
     exit 10
 fi
@@ -136,27 +137,27 @@ done
 ############################################################################################
 ## test CLI
 ############################################################################################
-if [ ! -n "$PRINT_MODE" ]; then
+if [[ ! -n "$PRINT_MODE" ]]; then
     PRINT_MODE=${CONFIG_MAP["PRINT_MODE"]}
 fi
 
-if [ "$ALL" == "yes" ]; then
+if [[ "$ALL" == "yes" ]]; then
     EXIT=yes
     RUN=yes
-elif [ $CLI_SET == false ]; then
+elif [[ $CLI_SET == false ]]; then
     RUN=yes
 else
-    if [ -n "$OPT_ID" ]; then
-        if [ -z "${DMAP_OPT_ORIGIN[$OPT_ID]:-}" ]; then
+    if [[ -n "$OPT_ID" ]]; then
+        if [[ -z "${DMAP_OPT_ORIGIN[$OPT_ID]:-}" ]]; then
             for SHORT in ${!DMAP_OPT_SHORT[@]}; do
-                if [ "${DMAP_OPT_SHORT[$SHORT]}" == "$OPT_ID" ]; then
+                if [[ "${DMAP_OPT_SHORT[$SHORT]}" == "$OPT_ID" ]]; then
                     OPT_ID=$SHORT
                     break
                 fi
             done
         fi
 
-        if [ -z ${DMAP_OPT_ORIGIN[$OPT_ID]:-} ]; then
+        if [[ -z ${DMAP_OPT_ORIGIN[$OPT_ID]:-} ]]; then
             ConsoleError " ->" "unknown option ID '$OPT_ID'"
             exit 3
         fi
@@ -173,18 +174,18 @@ fi
 ConsoleInfo "  -->" "do: starting task"
 
 for ID in ${!DMAP_OPT_ORIGIN[@]}; do
-        if [ -n "$OPT_ID" ]; then
-        if [ ! "$OPT_ID" == "$ID" ]; then
+    if [[ -n "$OPT_ID" ]]; then
+        if [[ ! "$OPT_ID" == "$ID" ]]; then
             continue
         fi
     fi
-    if [ -n "$EXIT" ]; then
-        if [ "${DMAP_OPT_ORIGIN[$ID]:-}" != "exit" ]; then
+    if [[ -n "$EXIT" ]]; then
+        if [[ "${DMAP_OPT_ORIGIN[$ID]:-}" != "exit" ]]; then
             continue
         fi
     fi
-    if [ -n "$RUN" ]; then
-        if [ "${DMAP_OPT_ORIGIN[$ID]:-}" != "run" ]; then
+    if [[ -n "$RUN" ]]; then
+        if [[ "${DMAP_OPT_ORIGIN[$ID]:-}" != "run" ]]; then
             continue
         fi
     fi

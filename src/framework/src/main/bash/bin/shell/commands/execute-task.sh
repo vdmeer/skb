@@ -41,20 +41,20 @@ ShellCmdExecuteTask() {
     local TASK=$(echo $SARG | cut -d' ' -f1)
     ID=$(GetTaskID $TASK)
 
-    if [ ! -n "$ID" ]; then
+    if [[ ! -n "$ID" ]]; then
         ConsoleError " ->" "unknown task '$SARG'"
         printf "\n"
         return
     fi
 
-    if [ -z "${RTMAP_TASK_LOADED[$ID]:-}" ]; then
+    if [[ -z "${RTMAP_TASK_LOADED[$ID]:-}" ]]; then
         ConsoleError " ->" "task '$ID' unknown or not loaded in mode '${CONFIG_MAP["APP_MODE"]}'"
         printf "\n"
         return
     fi
 
     local TARG="$(echo $SARG | cut -d' ' -f2-)"
-    if [ "$TARG" == "$ID" ] || [ "$TARG" == "$TASK" ]; then
+    if [[ "$TARG" == "$ID" || "$TARG" == "$TASK" ]]; then
         TARG=
     fi
 
@@ -93,7 +93,7 @@ ShellCmdExecuteTask() {
 
         PrintEffect bold "  $ID"
         PrintEffect italic " $TIME executing task"
-        if [ -n "$TARG" ]; then
+        if [[ -n "$TARG" ]]; then
             printf " with option(s): "
             PrintEffect bold "$TARG"
         fi
@@ -114,7 +114,7 @@ ShellCmdExecuteTask() {
 
     if $DO_EXTRAS; then
         TE=$(date +%s.%N)
-        if [ $ERRNO != 0 ]; then
+        if [[ $ERRNO != 0 ]]; then
             ConsoleError " ->" "error executing: '$ID $TARG'"
         fi
         printf "\n"
@@ -123,7 +123,7 @@ ShellCmdExecuteTask() {
         RUNTIME=$(echo "$TE-$TS" | bc -l)
         PrintEffect italic " $TIME, $RUNTIME seconds, status: $ERRNO"
         printf " - "
-        if [ $ERRNO == 0 ]; then
+        if [[ $ERRNO == 0 ]]; then
             PrintColor light-green "success"
         else
             PrintColor light-red "error"

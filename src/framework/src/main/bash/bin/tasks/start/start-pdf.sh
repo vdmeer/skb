@@ -25,6 +25,7 @@
 ##
 ## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
 ## @version    v0.0.0
+##
 
 
 ##
@@ -39,7 +40,7 @@ set -o errexit -o pipefail -o noclobber -o nounset
 ## Test if we are run from parent with configuration
 ## - load configuration
 ##
-if [ -z ${FW_HOME:-} ] || [ -z ${FW_L1_CONFIG-} ]; then
+if [[ -z ${FW_HOME:-} || -z ${FW_L1_CONFIG-} ]]; then
     printf " ==> please run from framework or application\n\n"
     exit 10
 fi
@@ -108,18 +109,18 @@ done
 ERRNO=0
 ConsoleInfo "  -->" "spdf: starting task"
 
-if [ -z "${CONFIG_MAP["PDF_READER"]:-}" ]; then
+if [[ -z "${CONFIG_MAP["PDF_READER"]:-}" ]]; then
     ConsoleError "  ->" "no setting for PDF_READER, cannot start any"
     ConsoleInfo "  -->" "spdf: done"
     exit 3
 fi
-if [ ! -n "$FILE" ]; then
+if [[ ! -n "$FILE" ]]; then
     ConsoleError "  ->" "empty file? - '$FILE'"
     ConsoleInfo "  -->" "spdf: done"
     exit 4
 fi
 FILE=$(PathToCygwin $FILE)
-if [ ! -r "$FILE" ]; then
+if [[ ! -r "$FILE" ]]; then
     ConsoleError "  ->" "cannot read file '$FILE'"
     ConsoleInfo "  -->" "spdf: done"
     exit 4

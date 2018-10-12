@@ -25,6 +25,7 @@
 ##
 ## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
 ## @version    v0.0.0
+##
 
 
 ##
@@ -39,7 +40,7 @@ set -o errexit -o pipefail -o noclobber -o nounset
 ## Test if we are run from parent with configuration
 ## - load configuration
 ##
-if [ -z ${FW_HOME:-} ] || [ -z ${FW_L1_CONFIG-} ]; then
+if [[ -z ${FW_HOME:-} || -z ${FW_L1_CONFIG-} ]]; then
     printf " ==> please run from framework or application\n\n"
     exit 10
 fi
@@ -117,7 +118,7 @@ for ID in "${!RTMAP_TASK_LOADED[@]}"; do
     case $ID in
         build-* | compile-*)
             ConsoleDebug "cl: run clean on task $ID"
-            if [ $SIMULATE == true ]; then
+            if [[ $SIMULATE == true ]]; then
                 printf "  ${DMAP_TASK_EXEC[$ID]} --clean\n"
             else
                 ${DMAP_TASK_EXEC[$ID]} --clean
@@ -125,14 +126,14 @@ for ID in "${!RTMAP_TASK_LOADED[@]}"; do
             ;;
     esac
 done
-if [ -z ${CONFIG_MAP["TARGET"]} ]; then
+if [[ -z ${CONFIG_MAP["TARGET"]} ]]; then
     ConsoleDebug "cl: target directory not set"
 else
-    if [ -d ${CONFIG_MAP["TARGET"]} ]; then
+    if [[ -d ${CONFIG_MAP["TARGET"]} ]]; then
         ConsoleDebug "cl: removing target: ${CONFIG_MAP["TARGET"]}"
-        if [ $SIMULATE == true ]; then
+        if [[ $SIMULATE == true ]]; then
             printf "  rm -fr ${CONFIG_MAP["TARGET"]}\n"
-        elif [ $FORCE == true ]; then
+        elif [[ $FORCE == true ]]; then
             rm -fr ${CONFIG_MAP["TARGET"]}
         else
             printf "%s\n" "${CONFIG_MAP["TARGET"]}"

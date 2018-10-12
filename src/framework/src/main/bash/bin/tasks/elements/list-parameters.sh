@@ -25,6 +25,7 @@
 ##
 ## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
 ## @version    v0.0.0
+##
 
 
 ##
@@ -39,7 +40,7 @@ set -o errexit -o pipefail -o noclobber -o nounset
 ## Test if we are run from parent with configuration
 ## - load configuration
 ##
-if [ -z ${FW_HOME:-} ] || [ -z ${FW_L1_CONFIG-} ]; then
+if [[ -z ${FW_HOME:-} || -z ${FW_L1_CONFIG-} ]]; then
     printf " ==> please run from framework or application\n\n"
     exit 10
 fi
@@ -124,10 +125,10 @@ done
 ############################################################################################
 ## test CLI
 ############################################################################################
-if [ "$ALL" == "yes" ]; then
+if [[ "$ALL" == "yes" ]]; then
     REQUESTED=
     ALL=
-elif [ $CLI_SET == false ]; then
+elif [[ $CLI_SET == false ]]; then
     ALL=
 # else
 #     if [ -n "$ORIGIN" ]; then
@@ -165,8 +166,8 @@ elif [ $CLI_SET == false ]; then
 fi
 
 for ID in ${!DMAP_PARAM_ORIGIN[@]}; do
-    if [ -n "$REQUESTED" ]; then
-        if [ -z "${RTMAP_REQUESTED_PARAM[$ID]:-}" ]; then
+    if [[ -n "$REQUESTED" ]]; then
+        if [[ -z "${RTMAP_REQUESTED_PARAM[$ID]:-}" ]]; then
             continue
         fi
     fi
@@ -189,16 +190,16 @@ PrintTable() {
 
     declare -A PARAM_TABLE
     FILE=${CONFIG_MAP["CACHE_DIR"]}/param-tab.${CONFIG_MAP["PRINT_MODE"]}
-    if [ -n "$PRINT_MODE" ]; then
+    if [[ -n "$PRINT_MODE" ]]; then
         FILE=${CONFIG_MAP["CACHE_DIR"]}/param-tab.$PRINT_MODE
     fi
-    if [ -f $FILE ]; then
+    if [[ -f $FILE ]]; then
         source $FILE
     fi
 
     for i in ${!keys[@]}; do
         ID=${keys[$i]}
-        if [ -z "${PARAM_TABLE[$ID]:-}" ]; then
+        if [[ -z "${PARAM_TABLE[$ID]:-}" ]]; then
             ParameterInTable $ID $PRINT_MODE
         else
             printf "${PARAM_TABLE[$ID]}"
@@ -233,10 +234,10 @@ PrintDefaultTable() {
 
     declare -A PARAM_TABLE
     FILE=${CONFIG_MAP["CACHE_DIR"]}/param-tab.${CONFIG_MAP["PRINT_MODE"]}
-    if [ -n "$PRINT_MODE" ]; then
+    if [[ -n "$PRINT_MODE" ]]; then
         FILE=${CONFIG_MAP["CACHE_DIR"]}/param-tab.$PRINT_MODE
     fi
-    if [ -f $FILE ]; then
+    if [[ -f $FILE ]]; then
         source $FILE
     fi
 
@@ -267,7 +268,7 @@ PrintDefaultTable() {
 ############################################################################################
 ConsoleInfo "  -->" "lp: starting task"
 
-if [ $TABLE == true ]; then
+if [[ $TABLE == true ]]; then
     PrintTable
 else
     PrintDefaultTable

@@ -50,7 +50,7 @@ DeclareParametersOrigin() {
 
     ConsoleDebug "scanning $ORIGIN"
     local PARAM_PATH=${CONFIG_MAP[$ORIGIN]}/${APP_PATH_MAP["PARAM_DECL"]}
-    if [ ! -d $PARAM_PATH ]; then
+    if [[ ! -d $PARAM_PATH ]]; then
         ConsoleError " ->" "declare parameter - did not find parameter directory '$PARAM_PATH' at origin '$ORIGIN'"
     else
         local NO_ERRORS=true
@@ -64,7 +64,7 @@ DeclareParametersOrigin() {
         local file
 
         files=$(find -P $PARAM_PATH -type f -name '*.id')
-        if [ -n "$files" ]; then
+        if [[ -n "$files" ]]; then
             for file in $files; do
                 ID=${file##*/}
                 ID=${ID%.*}
@@ -78,29 +78,29 @@ DeclareParametersOrigin() {
                 IS_DIRECTORY_CD=
                 source "$file"
 
-                if [ -z "${DESCRIPTION:-}" ]; then
+                if [[ -z "${DESCRIPTION:-}" ]]; then
                     ConsoleError " ->" "declare param - param '$ID' has no description"
                     HAVE_ERRORS=true
                 fi
 
-                if [ -z ${DEFAULT_VALUE:-} ]; then
+                if [[ -z ${DEFAULT_VALUE:-} ]]; then
                     DEFAULT_VALUE=""
                 fi
-                if [ ! -z ${IS_FILE:-} ]; then
+                if [[ ! -z ${IS_FILE:-} ]]; then
                     FILES=(${FILES[@]:-} $ID)
                 fi
-                if [ ! -z ${IS_DIRECTORY:-} ]; then
+                if [[ ! -z ${IS_DIRECTORY:-} ]]; then
                     DIRECTORIES=(${DIRECTORIES[@]:-} $ID)
                 fi
-                if [ ! -z ${IS_DIRECTORY_CD:-} ]; then
+                if [[ ! -z ${IS_DIRECTORY_CD:-} ]]; then
                     DIRECTORIES_CD=(${DIRECTORIES_CD[@]:-} $ID)
                 fi
 
-                if [ ! -z ${DMAP_PARAM_ORIGIN[$ID]:-} ]; then
+                if [[ ! -z ${DMAP_PARAM_ORIGIN[$ID]:-} ]]; then
                     ConsoleError "    >" "overwriting ${DMAP_PARAM_ORIGIN[$ID]}:::$ID with $ORIGIN:::$ID"
                     HAVE_ERRORS=true
                 fi
-                if [ $HAVE_ERRORS == true ]; then
+                if [[ $HAVE_ERRORS == true ]]; then
                     ConsoleError " ->" "declare parameter - could not declare parameter"
                     NO_ERRORS=false
                 else
@@ -111,7 +111,7 @@ DeclareParametersOrigin() {
                     ConsoleDebug "declared $ORIGIN:::$ID"
                 fi
             done
-            if [ $NO_ERRORS == false ]; then
+            if [[ $NO_ERRORS == false ]]; then
                 ConsoleError " ->" "declare parameter - could not declare all parameters from '$ORIGIN'"
             fi
         else
@@ -131,7 +131,7 @@ DeclareParameters() {
     ConsoleResetErrors
 
     DeclareParametersOrigin FW_HOME
-    if [ "${CONFIG_MAP["FW_HOME"]}" != "$FLAVOR_HOME" ]; then
+    if [[ "${CONFIG_MAP["FW_HOME"]}" != "$FLAVOR_HOME" ]]; then
         DeclareParametersOrigin HOME
     fi
 }

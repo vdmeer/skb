@@ -45,7 +45,7 @@ declare -A DMAP_OPT_DESCR               # map [id]="descr-tag-line"
 ## - declares CLI options from FW_HOME directory
 ##
 DeclareOptionsOrigin() {
-    if [ ! -d $FW_HOME/${FW_PATH_MAP["OPTIONS"]} ]; then
+    if [[ ! -d $FW_HOME/${FW_PATH_MAP["OPTIONS"]} ]]; then
         ConsoleError " ->" "declare-opt - did not find option directory, tried \$FW_HOME/${FW_PATH_MAP["OPTIONS"]}"
         ConsoleInfo "-->" "done"
     else
@@ -63,7 +63,7 @@ DeclareOptionsOrigin() {
             ID=${file##*/}
             ID=${ID%.*}
 
-            if [ ! -z ${DMAP_OPT_ORIGIN[$ID]:-} ]; then
+            if [[ ! -z ${DMAP_OPT_ORIGIN[$ID]:-} ]]; then
                 ConsoleError " ->" "internal error: DMAP_OPT_ORIGIN for id '$ID' already set"
             else
                 local HAVE_ERRORS=false
@@ -73,12 +73,12 @@ DeclareOptionsOrigin() {
                 DESCRIPTION=
                 source $FW_HOME/${FW_PATH_MAP["OPTIONS"]}/$file
 
-                if [ -z "${DESCRIPTION:-}" ]; then
+                if [[ -z "${DESCRIPTION:-}" ]]; then
                     ConsoleError " ->" "declare option - option '$ID' has no description"
                     HAVE_ERRORS=true
                 fi
 
-                if [ $HAVE_ERRORS == true ]; then
+                if [[ $HAVE_ERRORS == true ]]; then
                     ConsoleError " ->" "declare option - could not declare option"
                     NO_ERRORS=false
                 else

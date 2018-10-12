@@ -34,7 +34,7 @@
 
 
 _file="${CONFIG_MAP["HOME"]}/doc/manual/${CONFIG_MAP["APP_SCRIPT"]}.${CONFIG_MAP["PRINT_MODE"]}"
-if [ -f $_file ]; then
+if [[ -f $_file ]]; then
     tput smcup
     clear
     less -r -C -f -M -d $_file

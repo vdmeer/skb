@@ -42,13 +42,13 @@ TestFiles() {
     local FILE
 
     for FILE in ${FILES[@]}; do
-        if [ -z ${CONFIG_MAP[$FILE]:-} ]; then
+        if [[ -z ${CONFIG_MAP[$FILE]:-} ]]; then
             ConsoleWarn "    >" "value for parameter '$FILE' not set"
         else
-            if [ ! -f ${CONFIG_MAP[$FILE]} ]; then
+            if [[ ! -f "${CONFIG_MAP[$FILE]}" ]]; then
                 ConsoleError "-> test files:" "not a regular file for parameter '$FILE' as '${CONFIG_MAP[$FILE]}'"
             fi
-            if [ ! -r ${CONFIG_MAP[$FILE]} ]; then
+            if [[ ! -r "${CONFIG_MAP[$FILE]}" ]]; then
                 ConsoleError "-> test files:" "file not readable for parameter '$FILE' as '${CONFIG_MAP[$FILE]}'"
             fi
         fi

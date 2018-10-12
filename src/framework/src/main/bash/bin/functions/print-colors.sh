@@ -33,7 +33,6 @@
 ##
 
 
-
 ##
 ## function: PrintColor
 ## $1: color: black, red, green, brown, blue, purple, cyan, light-gray, dark-gray
@@ -44,7 +43,7 @@
 ##
 PrintColor() {
     local PRINT_MODE=${3:-}
-    if [ "$PRINT_MODE" == "" ]; then
+    if [[ "$PRINT_MODE" == "" ]]; then
         PRINT_MODE=${CONFIG_MAP["PRINT_MODE"]}
     fi
 

@@ -35,8 +35,6 @@
 ##
 
 
-
-
 ##
 ## function: ConsoleMessage
 ## - prints a message to console
@@ -197,7 +195,7 @@ ConsoleHasErrors() {
 ConsoleWarnStrict() {
     local LEVEL=
 
-    if [ ${CONFIG_MAP["STRICT"]} == "yes" ]; then
+    if [[ ${CONFIG_MAP["STRICT"]} == "yes" ]]; then
         ## all warnings are errors
 
         case ${CONFIG_MAP["RUNNING_IN"]} in
@@ -365,7 +363,7 @@ ConsoleInfo() {
             printf "%s [" "$1"
             PrintColor light-blue "Info"
             printf "] %s\n" "$2"
-            if [ "$2" == "done" ]; then
+            if [[ "$2" == "done" ]]; then
                 printf "\n"
             fi
             ;;

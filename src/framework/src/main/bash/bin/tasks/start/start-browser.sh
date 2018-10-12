@@ -25,6 +25,7 @@
 ##
 ## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
 ## @version    v0.0.0
+##
 
 
 ##
@@ -39,7 +40,7 @@ set -o errexit -o pipefail -o noclobber -o nounset
 ## Test if we are run from parent with configuration
 ## - load configuration
 ##
-if [ -z ${FW_HOME:-} ] || [ -z ${FW_L1_CONFIG-} ]; then
+if [[ -z ${FW_HOME:-} || -z ${FW_L1_CONFIG-} ]]; then
     printf " ==> please run from framework or application\n\n"
     exit 10
 fi
@@ -108,7 +109,7 @@ done
 ERRNO=0
 ConsoleInfo "  -->" "sb: starting task"
 
-if [ -z "${CONFIG_MAP["BROWSER"]:-}" ]; then
+if [[ -z "${CONFIG_MAP["BROWSER"]:-}" ]]; then
     ConsoleError "  ->" "no setting for BROWSER, cannot start any"
     ConsoleInfo "  -->" "sb: done"
     exit 3

@@ -33,7 +33,7 @@
 ##
 
 
-if [ "${CONFIG_MAP["APP_MODE"]}" != "dev" ]; then
+if [[ "${CONFIG_MAP["APP_MODE"]}" != "dev" ]]; then
     ConsoleError " ->" "validate can only run in 'dev' mode"
     DO_EXIT=true
 else

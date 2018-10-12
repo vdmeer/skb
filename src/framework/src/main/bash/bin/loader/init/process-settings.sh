@@ -55,7 +55,7 @@ ProcessShellPromptLength() {
             CONFIG_MAP["PROMPT_LENGTH"]=${#SPROMPT}
             ;;
         D)
-            SPROMPT=${DMAP_PARAM_DEFVAL["SHELL_PROMPT"]}
+            SPROMPT="${DMAP_PARAM_DEFVAL["SHELL_PROMPT"]}"
             CONFIG_MAP["PROMPT_LENGTH"]=${#SPROMPT}
             ;;
     esac
@@ -76,8 +76,8 @@ ProcessSettingsEnvironment() {
 
     for KEY in "${!DMAP_PARAM_ORIGIN[@]}"; do
         ENV_KEY=${CONFIG_MAP["FLAVOR"]}_$KEY
-        if [ ! -z "${!ENV_KEY:-}" ]; then
-            if [ ! -z ${CONFIG_MAP[$KEY]:-} ]; then
+        if [[ ! -z "${!ENV_KEY:-}" ]]; then
+            if [[ ! -z ${CONFIG_MAP[$KEY]:-} ]]; then
                 ConsoleWarn "    >" "overwriting $KEY"
             fi
             CONFIG_MAP[$KEY]="${!ENV_KEY}"
@@ -99,12 +99,12 @@ ProcessSettingsConfig() {
     local ENV_KEY
     local KEY
 
-    if [ -f ${CONFIG_MAP["CONFIG_FILE"]} ]; then
+    if [[ -f ${CONFIG_MAP["CONFIG_FILE"]} ]]; then
         source ${CONFIG_MAP["CONFIG_FILE"]}
         for KEY in "${!DMAP_PARAM_ORIGIN[@]}"; do
             ENV_KEY=${CONFIG_MAP["FLAVOR"]}_$KEY
-            if [ ! -z "${!ENV_KEY:-}" ]; then
-                if [ -z "${CONFIG_MAP[$KEY]:-}" ]; then
+            if [[ ! -z "${!ENV_KEY:-}" ]]; then
+                if [[ -z "${CONFIG_MAP[$KEY]:-}" ]]; then
                     CONFIG_MAP[$KEY]="${!ENV_KEY}"
                     CONFIG_SRC[$KEY]="F"
                     ConsoleDebug "set $KEY = '${CONFIG_MAP[$KEY]}'"
@@ -129,9 +129,9 @@ ProcessSettingsDefault() {
     local KEY
 
     for KEY in "${!DMAP_PARAM_DEFVAL[@]}"; do
-        if [ -n "$KEY" ]; then
+        if [[ -n "$KEY" ]]; then
             DEFAULT_VALUE=${DMAP_PARAM_DEFVAL[$KEY]}
-            if [ ! -z ${DEFAULT_VALUE:-} ] && [ -z "${CONFIG_MAP[$KEY]:-}" ]; then
+            if [[ ! -z ${DEFAULT_VALUE:-} && -z "${CONFIG_MAP[$KEY]:-}" ]]; then
                 CONFIG_MAP[$KEY]="$DEFAULT_VALUE"
                 CONFIG_SRC[$KEY]="D"
                 ConsoleDebug "set $KEY = '${CONFIG_MAP[$KEY]}'"

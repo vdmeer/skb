@@ -36,11 +36,11 @@
 ##
 
 
-if [ -z ${1:-} ];then
+if [[ -z ${1:-} ]];then
     printf "\n"
 else
     $(python3 -c "import $1" 2> /dev/null)
-    if [ "$?" == "0" ]; then
+    if [[ "$?" == "0" ]]; then
         printf "python3 $1\n"
     else
         printf "\n"

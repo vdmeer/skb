@@ -33,7 +33,7 @@
 ##
 
 files=$(find -P ${CONFIG_MAP["CACHE_DIR"]} -type f)
-if [ -n "$files" ]; then
+if [[ -n "$files" ]]; then
     for file in $files; do
         rm $file
     done

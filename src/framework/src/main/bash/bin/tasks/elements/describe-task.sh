@@ -25,6 +25,7 @@
 ##
 ## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
 ## @version    v0.0.0
+##
 
 
 ##
@@ -39,7 +40,7 @@ set -o errexit -o pipefail -o noclobber -o nounset
 ## Test if we are run from parent with configuration
 ## - load configuration
 ##
-if [ -z ${FW_HOME:-} ] || [ -z ${FW_L1_CONFIG-} ]; then
+if [[ -z ${FW_HOME:-} || -z ${FW_L1_CONFIG-} ]]; then
     printf " ==> please run from framework or application\n\n"
     exit 10
 fi
@@ -158,35 +159,35 @@ done
 ############################################################################################
 ## test CLI
 ############################################################################################
-if [ ! -n "$PRINT_MODE" ]; then
+if [[ ! -n "$PRINT_MODE" ]]; then
     PRINT_MODE=${CONFIG_MAP["PRINT_MODE"]}
 fi
 
-if [ "$ALL" == "yes" ]; then
+if [[ "$ALL" == "yes" ]]; then
     TASK_ID=
     LOADED=
     UNLOADED=
     APP_MODE=
     ORIGIN=
     STATUS=
-elif [ $CLI_SET == false ]; then
+elif [[ $CLI_SET == false ]]; then
     APP_MODE=${CONFIG_MAP["APP_MODE"]}
     LOADED=yes
 else
-    if [ -n "$TASK_ID" ]; then
+    if [[ -n "$TASK_ID" ]]; then
         ORIG_TASK=$TASK_ID
         TASK_ID=$(GetTaskID $TASK_ID)
-        if [ -z ${TASK_ID:-} ]; then
+        if [[ -z ${TASK_ID:-} ]]; then
             ConsoleError " ->" "unknown task: $ORIG_TASK"
             exit 3
         else
-            if [ -z ${DMAP_TASK_ORIGIN[$TASK_ID]:-} ]; then
+            if [[ -z ${DMAP_TASK_ORIGIN[$TASK_ID]:-} ]]; then
                 ConsoleError " ->" "unknown task: $ORIG_TASK"
                 exit 3
             fi
         fi
     fi
-    if [ -n "$ORIGIN" ]; then
+    if [[ -n "$ORIGIN" ]]; then
         case $ORIGIN in
             F| f | fw | framework)
                 ORIGIN=FW_HOME
@@ -199,7 +200,7 @@ else
                 exit 3
         esac
     fi
-    if [ -n "$APP_MODE" ]; then
+    if [[ -n "$APP_MODE" ]]; then
         case $APP_MODE in
             d | dev)
                 APP_MODE=dev
@@ -215,7 +216,7 @@ else
                 exit 3
         esac
     fi
-    if [ -n "$STATUS" ]; then
+    if [[ -n "$STATUS" ]]; then
         case $STATUS in
             s | success)
                 STATUS=S
@@ -242,23 +243,23 @@ fi
 ConsoleInfo "  -->" "dt: starting task"
 
 for ID in ${!DMAP_TASK_ORIGIN[@]}; do
-    if [ -n "$TASK_ID" ]; then
-        if [ ! "$TASK_ID" == "$ID" ]; then
+    if [[ -n "$TASK_ID" ]]; then
+        if [[ ! "$TASK_ID" == "$ID" ]]; then
             continue
         fi
     fi
-    if [ -n "$LOADED" ]; then
-        if [ -z "${RTMAP_TASK_LOADED[$ID]:-}" ]; then
+    if [[ -n "$LOADED" ]]; then
+        if [[ -z "${RTMAP_TASK_LOADED[$ID]:-}" ]]; then
             continue
         fi
     fi
-    if [ -n "$UNLOADED" ]; then
-        if [ -z "${RTMAP_TASK_UNLOADED[$ID]:-}" ]; then
+    if [[ -n "$UNLOADED" ]]; then
+        if [[ -z "${RTMAP_TASK_UNLOADED[$ID]:-}" ]]; then
             continue
         fi
 
     fi
-    if [ -n "$STATUS" ]; then
+    if [[ -n "$STATUS" ]]; then
         case ${RTMAP_TASK_STATUS[$ID]} in
             $STATUS)
                 ;;
@@ -268,7 +269,7 @@ for ID in ${!DMAP_TASK_ORIGIN[@]}; do
         esac
         #=
     fi
-    if [ -n "$APP_MODE" ]; then
+    if [[ -n "$APP_MODE" ]]; then
         case ${DMAP_TASK_MODES[$ID]} in
             *$APP_MODE*)
                 ;;
@@ -277,8 +278,8 @@ for ID in ${!DMAP_TASK_ORIGIN[@]}; do
                 ;;
         esac
     fi
-    if [ -n "$ORIGIN" ]; then
-        if [ ! "$ORIGIN" == "${DMAP_TASK_ORIGIN[$ID]}" ]; then
+    if [[ -n "$ORIGIN" ]]; then
+        if [[ ! "$ORIGIN" == "${DMAP_TASK_ORIGIN[$ID]}" ]]; then
             continue
         fi
     fi

@@ -25,6 +25,7 @@
 ##
 ## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
 ## @version    v0.0.0
+##
 
 
 ##
@@ -39,7 +40,7 @@ set -o errexit -o pipefail -o noclobber -o nounset
 ## Test if we are run from parent with configuration
 ## - load configuration
 ##
-if [ -z ${FW_HOME:-} ] || [ -z ${FW_L1_CONFIG-} ]; then
+if [[ -z ${FW_HOME:-} || -z ${FW_L1_CONFIG-} ]]; then
     printf " ==> please run from framework or application\n\n"
     exit 10
 fi
@@ -101,7 +102,7 @@ while true; do
         --)
             shift
             TASK=${1-}
-            if [ ! -n "$TASK" ]; then
+            if [[ ! -n "$TASK" ]]; then
                 ConsoleError "  ->" "a task identifier / name is required"
                 exit 3
             fi
@@ -128,13 +129,13 @@ ConsoleInfo "  -->" "rt: starting task"
 __found=false
 TASK=$(GetTaskID $TASK)
 for ID in "${!RTMAP_TASK_LOADED[@]}"; do
-    if [ "$ID" == "$TASK" ]; then
+    if [[ "$ID" == "$TASK" ]]; then
         __found=true
         break
     fi
 done
 
-if [ $__found == false ]; then
+if [[ $__found == false ]]; then
     ConsoleError "  ->" "unknown or unloaded task '$TASK'"
     exit 4
 fi

@@ -61,8 +61,8 @@ RTMAP_REQUESTED_PARAM["DUMMY"]=dummy
 ## $1: warning argument
 ##
 MissingReqIsError() {
-    if [ -n "$WARN" ]; then
-        if [ ${CONFIG_MAP["STRICT"]} == true ]; then
+    if [[ -n "$WARN" ]]; then
+        if [[ ${CONFIG_MAP["STRICT"]} == true ]]; then
             return 0
         else
             return 1
@@ -84,24 +84,24 @@ CalculateNewArtifactStatus() {
     local ST_OLD=$1
     local ST_NEW=$2
 
-    case $ST_OLD in
+    case "$ST_OLD" in
         N)
-            echo $ST_NEW
+            echo "$ST_NEW"
             ;;
         E)
-            case $ST_NEW in
+            case "$ST_NEW" in
                 N)  echo N ;;
                 *)  echo E ;;
             esac
             ;;
         W)
-            case $ST_NEW in
+            case "$ST_NEW" in
                 N | S | W)  echo W ;;
                 E)          echo E ;;
             esac
             ;;
         S)
-            case $ST_NEW in
+            case "$ST_NEW" in
                 N | S)      echo S ;;
                 W)          echo W ;;
                 E)          echo E ;;
@@ -128,7 +128,7 @@ SetArtifactStatus() {
 
     case "$ARTIFACT_TYPE" in
         dep)
-            if [ -z ${DMAP_DEP_ORIGIN[$ID]:-} ]; then
+            if [[ -z ${DMAP_DEP_ORIGIN[$ID]:-} ]]; then
                 ConsoleError " ->" "set-artifact-status - unknown dependency '$ID'"
                 return
             fi
@@ -136,7 +136,7 @@ SetArtifactStatus() {
             ;;
         task)
             ID=$(GetTaskID $ID)
-            if [ -z ${DMAP_TASK_ORIGIN[$ID]:-} ]; then
+            if [[ -z ${DMAP_TASK_ORIGIN[$ID]:-} ]]; then
                 ConsoleError " ->" "set-artifact-status - unknown task '$ID'"
                 return
             fi
@@ -176,16 +176,16 @@ ProcessTaskReqParam() {
     local ID=$1
     local PARAM
 
-    if [ ! -z "${DMAP_TASK_REQ_PARAM_MAN[$ID]:-}" ]; then
+    if [[ ! -z "${DMAP_TASK_REQ_PARAM_MAN[$ID]:-}" ]]; then
         for PARAM in ${DMAP_TASK_REQ_PARAM_MAN[$ID]}; do
             ConsoleTrace "   $ID - param man $PARAM"
-            if [ -z ${DMAP_PARAM_ORIGIN[$PARAM]:-} ]; then
+            if [[ -z ${DMAP_PARAM_ORIGIN[$PARAM]:-} ]]; then
                 ConsoleError " ->" "process-task/param - $ID unknown parameter '$PARAM'"
                 RTMAP_TASK_UNLOADED[$ID]="${RTMAP_TASK_UNLOADED[$ID]:-} par-id::$PARAM"
                 SetArtifactStatus task $ID E
             else
                 RTMAP_REQUESTED_PARAM[$PARAM]=$PARAM
-                if [ -z "${CONFIG_MAP[$PARAM]:-}" ]; then
+                if [[ -z "${CONFIG_MAP[$PARAM]:-}" ]]; then
                     ConsoleError " ->" "process-task/param - $ID with unset parameter '$PARAM'"
                     RTMAP_TASK_UNLOADED[$ID]="${RTMAP_TASK_UNLOADED[$ID]:-} par-set::$PARAM"
                     SetArtifactStatus task $ID E
@@ -199,18 +199,18 @@ ProcessTaskReqParam() {
         done
     fi
 
-    if [ ! -z "${DMAP_TASK_REQ_PARAM_OPT[$ID]:-}" ]; then
+    if [[ ! -z "${DMAP_TASK_REQ_PARAM_OPT[$ID]:-}" ]]; then
         for PARAM in ${DMAP_TASK_REQ_PARAM_OPT[$ID]}; do
             ConsoleTrace "   $ID - param opt $PARAM"
-            if [ -z ${DMAP_PARAM_ORIGIN[$PARAM]:-} ]; then
+            if [[ -z ${DMAP_PARAM_ORIGIN[$PARAM]:-} ]]; then
                 ConsoleError " ->" "process-task/param - $ID unknown parameter '$PARAM'"
                 RTMAP_TASK_UNLOADED[$ID]="${RTMAP_TASK_UNLOADED[$ID]:-} par-id::$PARAM"
                 SetArtifactStatus task $ID E
             else
                 RTMAP_REQUESTED_PARAM[$PARAM]=$PARAM
-                if [ -z "${CONFIG_MAP[$PARAM]:-}" ]; then
+                if [[ -z "${CONFIG_MAP[$PARAM]:-}" ]]; then
                     ConsoleWarnStrict " ->" "process-task/param - $ID with unset parameter '$PARAM'"
-                    if [ ${CONFIG_MAP["STRICT"]} == "yes" ]; then
+                    if [[ ${CONFIG_MAP["STRICT"]} == "yes" ]]; then
                         RTMAP_TASK_UNLOADED[$ID]="${RTMAP_TASK_UNLOADED[$ID]:-} par-set::$PARAM"
                         SetArtifactStatus task $ID E
                     else
@@ -241,20 +241,20 @@ TestDependency() {
     local DEP=$1
 
     RTMAP_REQUESTED_DEP[$DEP]=[$DEP]
-    if [ "${RTMAP_TASK_TESTED[$DEP]:-}" == "ok" ]; then
+    if [[ "${RTMAP_TASK_TESTED[$DEP]:-}" == "ok" ]]; then
         ConsoleDebug "process-task/dep - dependency '$DEP' already tested"
     else
         ConsoleDebug "process-task/dep - testing dependency '$DEP'"
         local COMMAND=${DMAP_DEP_CMD[$DEP]}
-        if [ "${COMMAND:0:1}" == "/" ];then
-            if [ -n "$($COMMAND)" ]; then
+        if [[ "${COMMAND:0:1}" == "/" ]];then
+            if [[ -n "$($COMMAND)" ]]; then
                 RTMAP_TASK_TESTED[$DEP]="ok"
                 SetArtifactStatus dep $DEP S
             else
                 SetArtifactStatus dep $DEP E
             fi
         else
-            if [ -x "$(command -v $COMMAND)" ]; then
+            if [[ -x "$(command -v $COMMAND)" ]]; then
                 RTMAP_TASK_TESTED[$DEP]="ok"
                 SetArtifactStatus dep $DEP S
             else
@@ -275,16 +275,16 @@ ProcessTaskReqDep() {
     local ID=$1
     local DEP
 
-    if [ ! -z "${DMAP_TASK_REQ_DEP_MAN[$ID]:-}" ]; then
+    if [[ ! -z "${DMAP_TASK_REQ_DEP_MAN[$ID]:-}" ]]; then
         for DEP in ${DMAP_TASK_REQ_DEP_MAN[$ID]}; do
             ConsoleTrace "   $ID - dep man $DEP"
-            if [ -z ${DMAP_DEP_ORIGIN[$DEP]:-} ]; then
+            if [[ -z ${DMAP_DEP_ORIGIN[$DEP]:-} ]]; then
                 ConsoleError " ->" "process-task/dep - $ID unknown dependency '$DEP'"
                 RTMAP_TASK_UNLOADED[$ID]="${RTMAP_TASK_UNLOADED[$ID]:-} dep-id::$DEP"
                 SetArtifactStatus task $ID E
             else
                 TestDependency $DEP
-                if [ "${RTMAP_TASK_TESTED[$DEP]:-}" == "ok" ]; then
+                if [[ "${RTMAP_TASK_TESTED[$DEP]:-}" == "ok" ]]; then
                     SetArtifactStatus task $ID S
 #                                 RTMAP_TASK_LOADED[$ID]="${RTMAP_TASK_LOADED[$ID]:-} dep"
                     RTMAP_TASK_LOADED[$ID]=ok
@@ -298,16 +298,16 @@ ProcessTaskReqDep() {
         done
     fi
 
-    if [ ! -z "${DMAP_TASK_REQ_DEP_OPT[$ID]:-}" ]; then
+    if [[ ! -z "${DMAP_TASK_REQ_DEP_OPT[$ID]:-}" ]]; then
         for DEP in ${DMAP_TASK_REQ_DEP_OPT[$ID]}; do
             ConsoleTrace "   $ID - dep opt $DEP"
-            if [ -z ${DMAP_DEP_ORIGIN[$DEP]:-} ]; then
+            if [[ -z ${DMAP_DEP_ORIGIN[$DEP]:-} ]]; then
                 ConsoleError " ->" "process-task/dep - $ID unknown dependency '$DEP'"
                 RTMAP_TASK_UNLOADED[$ID]="${RTMAP_TASK_UNLOADED[$ID]:-} dep-id::$DEP"
                 SetArtifactStatus task $ID E
             else
                 TestDependency $DEP
-                if [ "${RTMAP_TASK_TESTED[$DEP]:-}" == "ok" ]; then
+                if [[ "${RTMAP_TASK_TESTED[$DEP]:-}" == "ok" ]]; then
                     RTMAP_TASK_TESTED[$DEP]="ok"
                     SetArtifactStatus task $ID S
 #                                 RTMAP_TASK_LOADED[$ID]="${RTMAP_TASK_LOADED[$ID]:-} dep"
@@ -315,7 +315,7 @@ ProcessTaskReqDep() {
                     ConsoleDebug "process-task/dep - processed '$ID' for dependency '$DEP' with success"
                 else
                     ConsoleWarnStrict " ->" "process-task/dep - $ID dependency '$DEP' not found"
-                    if [ ${CONFIG_MAP["STRICT"]} == "yes" ]; then
+                    if [[ ${CONFIG_MAP["STRICT"]} == "yes" ]]; then
                         RTMAP_TASK_UNLOADED[$ID]="${RTMAP_TASK_UNLOADED[$ID]:-} dep-cmd::$DEP"
                         SetArtifactStatus task $ID E
                     else
@@ -341,15 +341,15 @@ ProcessTaskReqTask() {
     local ID=$1
     local TASK
 
-    if [ ! -z "${DMAP_TASK_REQ_TASK_MAN[$ID]:-}" ]; then
+    if [[ ! -z "${DMAP_TASK_REQ_TASK_MAN[$ID]:-}" ]]; then
         for TASK in ${DMAP_TASK_REQ_TASK_MAN[$ID]}; do
             ConsoleTrace "   $ID - task man $TASK"
-            if [ -z ${DMAP_TASK_ORIGIN[$TASK]:-} ]; then
+            if [[ -z ${DMAP_TASK_ORIGIN[$TASK]:-} ]]; then
                 ConsoleError " ->" "process-task/task - $ID unknown task '$TASK'"
                 RTMAP_TASK_UNLOADED[$ID]="${RTMAP_TASK_UNLOADED[$ID]:-} task-id::$TASK"
                 SetArtifactStatus task $ID E
             else
-                if [ ! -z "${RTMAP_TASK_UNLOADED[$TASK]:-}" ]; then
+                if [[ ! -z "${RTMAP_TASK_UNLOADED[$TASK]:-}" ]]; then
                     ConsoleError " ->" "process-task/task - $ID with unloaded task '$TASK'"
                     RTMAP_TASK_UNLOADED[$ID]="${RTMAP_TASK_UNLOADED[$ID]:-} task-set::$TASK"
                     SetArtifactStatus task $ID E
@@ -363,17 +363,17 @@ ProcessTaskReqTask() {
         done
     fi
 
-    if [ ! -z "${DMAP_TASK_REQ_TASK_OPT[$ID]:-}" ]; then
+    if [[ ! -z "${DMAP_TASK_REQ_TASK_OPT[$ID]:-}" ]]; then
         for TASK in ${DMAP_TASK_REQ_TASK_OPT[$ID]}; do
             ConsoleTrace "   $ID - task opt $TASK"
-            if [ -z ${DMAP_TASK_ORIGIN[$TASK]:-} ]; then
+            if [[ -z ${DMAP_TASK_ORIGIN[$TASK]:-} ]]; then
                 ConsoleError " ->" "process-task/task - $ID unknown task '$TASK'"
                 RTMAP_TASK_UNLOADED[$ID]="${RTMAP_TASK_UNLOADED[$ID]:-} task-id::$TASK"
                 SetArtifactStatus task $ID E
             else
-                if [ ! -z "${RTMAP_TASK_UNLOADED[$TASK]:-}" ]; then
+                if [[ ! -z "${RTMAP_TASK_UNLOADED[$TASK]:-}" ]]; then
                     ConsoleWarnStrict " ->" "process-task/task - $ID with unloaded task '$TASK'"
-                    if [ ${CONFIG_MAP["STRICT"]} == "yes" ]; then
+                    if [[ ${CONFIG_MAP["STRICT"]} == "yes" ]]; then
                         RTMAP_TASK_UNLOADED[$ID]="${RTMAP_TASK_UNLOADED[$ID]:-} task-set::$TASK"
                         SetArtifactStatus task $ID E
                     else
@@ -404,10 +404,10 @@ ProcessTaskReqDir() {
     local ID=$1
     local DIR
 
-    if [ ! -z "${DMAP_TASK_REQ_DIR_MAN[$ID]:-}" ]; then
+    if [[ ! -z "${DMAP_TASK_REQ_DIR_MAN[$ID]:-}" ]]; then
         for DIR in ${DMAP_TASK_REQ_DIR_MAN[$ID]}; do
             ConsoleTrace "   $ID - dir man $DIR"
-            if [ ! -d $DIR ]; then
+            if [[ ! -d $DIR ]]; then
                 ConsoleError " ->" "process-task/dir - $ID not a directory '$DIR'"
                 RTMAP_TASK_UNLOADED[$ID]="${RTMAP_TASK_UNLOADED[$ID]:-} dir::$DIR"
                 SetArtifactStatus task $ID E
@@ -420,12 +420,12 @@ ProcessTaskReqDir() {
         done
     fi
 
-    if [ ! -z "${DMAP_TASK_REQ_DIR_OPT[$ID]:-}" ]; then
+    if [[ ! -z "${DMAP_TASK_REQ_DIR_OPT[$ID]:-}" ]]; then
         for DIR in ${DMAP_TASK_REQ_DIR_OPT[$ID]}; do
             ConsoleTrace "   $ID - dir opt $DIR"
-            if [ ! -d $DIR ]; then
+            if [[ ! -d $DIR ]]; then
                 ConsoleWarnStrict " ->" "process-task/dir - $ID not a directory '$DIR'"
-                if [ ${CONFIG_MAP["STRICT"]} == "yes" ]; then
+                if [[ ${CONFIG_MAP["STRICT"]} == "yes" ]]; then
                     RTMAP_TASK_UNLOADED[$ID]="${RTMAP_TASK_UNLOADED[$ID]:-} dir::$DIR"
                     SetArtifactStatus task $ID E
                 else
@@ -455,10 +455,10 @@ ProcessTaskReqFile() {
     local ID=$1
     local FILE
 
-    if [ ! -z "${DMAP_TASK_REQ_FILE_MAN[$ID]:-}" ]; then
+    if [[ ! -z "${DMAP_TASK_REQ_FILE_MAN[$ID]:-}" ]]; then
         for FILE in ${DMAP_TASK_REQ_FILE_MAN[$ID]}; do
             ConsoleTrace "   $ID - file man $FILE"
-            if [ ! -f $FILE ]; then
+            if [[ ! -f $FILE ]]; then
                 ConsoleError " ->" "process-task/file - $ID not a file '$FILE'"
                 RTMAP_TASK_UNLOADED[$ID]="${RTMAP_TASK_UNLOADED[$ID]:-} file::$FILE"
                 SetArtifactStatus task $ID E
@@ -471,12 +471,12 @@ ProcessTaskReqFile() {
         done
     fi
 
-    if [ ! -z "${DMAP_TASK_REQ_FILE_OPT[$ID]:-}" ]; then
+    if [[ ! -z "${DMAP_TASK_REQ_FILE_OPT[$ID]:-}" ]]; then
         for FILE in ${DMAP_TASK_REQ_FILE_OPT[$ID]}; do
             ConsoleTrace "   $ID - file opt $FILE"
-            if [ ! -f $FILE ]; then
+            if [[ ! -f $FILE ]]; then
                 ConsoleWarnStrict " ->" "process-task/file - $ID not a file '$FILE'"
-                if [ ${CONFIG_MAP["STRICT"]} == "yes" ]; then
+                if [[ ${CONFIG_MAP["STRICT"]} == "yes" ]]; then
                     RTMAP_TASK_UNLOADED[$ID]="${RTMAP_TASK_UNLOADED[$ID]:-} file::$FILE"
                     SetArtifactStatus task $ID E
                 else
@@ -548,7 +548,7 @@ ProcessTasks() {
 
     ## now remove all tasks from RTMAP_TASK_LOADED that are in RTMAP_TASK_UNLOADED
     for ID in "${!RTMAP_TASK_UNLOADED[@]}"; do
-        if [ ! -z "${RTMAP_TASK_LOADED[$ID]:-}" ]; then
+        if [[ ! -z "${RTMAP_TASK_LOADED[$ID]:-}" ]]; then
             unset RTMAP_TASK_LOADED[$ID]
         fi
     done

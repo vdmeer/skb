@@ -25,6 +25,7 @@
 ##
 ## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
 ## @version    v0.0.0
+##
 
 
 ##
@@ -39,7 +40,7 @@ set -o errexit -o pipefail -o noclobber -o nounset
 ## Test if we are run from parent with configuration
 ## - load configuration
 ##
-if [ -z ${FW_HOME:-} ] || [ -z ${FW_L1_CONFIG-} ]; then
+if [[ -z ${FW_HOME:-} || -z ${FW_L1_CONFIG-} ]]; then
     printf " ==> please run from framework or application\n\n"
     exit 10
 fi
@@ -142,15 +143,15 @@ done
 ############################################################################################
 ## check CLI
 ############################################################################################
-if [ $LIST == false ] && [ $TABLE == false ]; then
+if [[ $LIST == false && $TABLE == false ]]; then
     ConsoleError "  ->" "no mode set: use list and/or table"
     exit 3
 fi
 
-if [ "$ALL" == "yes" ]; then
+if [[ "$ALL" == "yes" ]]; then
     EXIT=yes
     RUN=yes
-elif [ $CLI_SET == false ]; then
+elif [[ $CLI_SET == false ]]; then
     EXIT=yes
     RUN=yes
 fi
@@ -194,14 +195,14 @@ PrintOptions() {
     local keys
 
     for ID in ${!DMAP_OPT_ORIGIN[@]}; do
-        if [ -n "$EXIT" ] && [ -n "$RUN" ]; then
+        if [[ -n "$EXIT" &&-n "$RUN" ]]; then
             :
-        elif [ -n "$EXIT" ]; then
-            if [ "${DMAP_OPT_ORIGIN[$ID]}" != "exit"]; then
+        elif [[ -n "$EXIT" ]]; then
+            if [[ "${DMAP_OPT_ORIGIN[$ID]}" != "exit" ]]; then
                 continue
             fi
-        elif [ -n "$RUN" ]; then
-            if [ "${DMAP_OPT_ORIGIN[$ID]}" != "run"]; then
+        elif [[ -n "$RUN" ]]; then
+            if [[ "${DMAP_OPT_ORIGIN[$ID]}" != "run" ]]; then
                 continue
             fi
         fi
@@ -213,20 +214,20 @@ PrintOptions() {
         list)
             declare -A OPTION_LIST
             FILE=${CONFIG_MAP["CACHE_DIR"]}/opt-list.${CONFIG_MAP["PRINT_MODE"]}
-            if [ -n "$PRINT_MODE" ]; then
+            if [[ -n "$PRINT_MODE" ]]; then
                 FILE=${CONFIG_MAP["CACHE_DIR"]}/opt-list.$PRINT_MODE
             fi
-            if [ -f $FILE ]; then
+            if [[ -f $FILE ]]; then
                 source $FILE
             fi
             ;;
         table)
             declare -A OPTION_TABLE
             FILE=${CONFIG_MAP["CACHE_DIR"]}/opt-tab.${CONFIG_MAP["PRINT_MODE"]}
-            if [ -n "$PRINT_MODE" ]; then
+            if [[ -n "$PRINT_MODE" ]]; then
                 FILE=${CONFIG_MAP["CACHE_DIR"]}/opt-tab.$PRINT_MODE
             fi
-            if [ -f $FILE ]; then
+            if [[ -f $FILE ]]; then
                 source $FILE
             fi
             ;;
@@ -237,14 +238,14 @@ PrintOptions() {
         case $1 in
             list)
                 printf "   "
-                if [ -z "${OPTION_LIST[$ID]:-}" ]; then
+                if [[ -z "${OPTION_LIST[$ID]:-}" ]]; then
                     OptionInList $ID $PRINT_MODE
                 else
                     printf "${OPTION_LIST[$ID]}"
                 fi
                 ;;
             table)
-                if [ -z "${OPTION_TABLE[$ID]:-}" ]; then
+                if [[ -z "${OPTION_TABLE[$ID]:-}" ]]; then
                     OptionInTable $ID $PRINT_MODE
                 else
                     printf "${OPTION_TABLE[$ID]}"
@@ -265,12 +266,12 @@ PrintOptions() {
 ############################################################################################
 ConsoleInfo "  -->" "lo: starting task"
 
-if [ $LIST == true ]; then
+if [[ $LIST == true ]]; then
     ListTop
     PrintOptions list
     ListBottom
 fi
-if [ $TABLE == true ]; then
+if [[ $TABLE == true ]]; then
     TableTop
     PrintOptions table
     TableBottom

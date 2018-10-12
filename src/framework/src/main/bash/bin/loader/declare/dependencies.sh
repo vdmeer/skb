@@ -51,7 +51,7 @@ DeclareDependenciesOrigin() {
 
     ConsoleDebug "scanning $ORIGIN"
     local DEPENDENCY_PATH=${CONFIG_MAP[$ORIGIN]}/${APP_PATH_MAP["DEP_DECL"]}
-    if [ ! -d $DEPENDENCY_PATH ]; then
+    if [[ ! -d $DEPENDENCY_PATH ]]; then
         ConsoleError " ->" "declare dependency - did not find dependency directory '$DEPENDENCY_PATH' at origin '$ORIGIN'"
     else
         local NO_ERRORS=true
@@ -63,7 +63,7 @@ DeclareDependenciesOrigin() {
         local file
 
         files=$(find -P $DEPENDENCY_PATH -type f -name '*.id')
-        if [ -n "$files" ]; then
+        if [[ -n "$files" ]]; then
             for file in $files; do
                 ID=${file##*/}
                 ID=${ID%.*}
@@ -75,25 +75,25 @@ DeclareDependenciesOrigin() {
                 REQUIRES=
                 source "$file"
 
-                if [ -z "${DESCRIPTION:-}" ]; then
+                if [[ -z "${DESCRIPTION:-}" ]]; then
                     ConsoleError " ->" "declare dependency - dependency '$ID' has no description"
                     HAVE_ERRORS=true
                 fi
 
-                if [ -z "${COMMAND:-}" ]; then
+                if [[ -z "${COMMAND:-}" ]]; then
                     ConsoleError " ->" "declare dependency - dependency '$ID' has no command to test"
                     HAVE_ERRORS=true
                 fi
 
-                if [ -z "${REQUIRES:-}" ]; then
+                if [[ -z "${REQUIRES:-}" ]]; then
                     REQUIRES=""
                 fi
 
-                if [ ! -z ${DMAP_DEP_ORIGIN[$ID]:-} ]; then
+                if [[ ! -z ${DMAP_DEP_ORIGIN[$ID]:-} ]]; then
                     ConsoleError "    >" "overwriting ${DMAP_DEP_ORIGIN[$ID]}:::$ID with $ORIGIN:::$ID"
                     HAVE_ERRORS=true
                 fi
-                if [ $HAVE_ERRORS == true ]; then
+                if [[ $HAVE_ERRORS == true ]]; then
                     ConsoleError " ->" "declare dependency - could not declare dependency"
                     NO_ERRORS=false
                 else
@@ -105,7 +105,7 @@ DeclareDependenciesOrigin() {
                     ConsoleDebug "declared $ORIGIN:::$ID"
                 fi
             done
-            if [ $NO_ERRORS == false ]; then
+            if [[ $NO_ERRORS == false ]]; then
                 ConsoleError " ->" "declare dependency - could not declare all dependencies from '$ORIGIN'"
             fi
         else
@@ -130,9 +130,9 @@ DeclareDependenciesOrigin() {
      for ID in "${!DMAP_DEP_ORIGIN[@]}"; do
          ORIGIN=${DMAP_DEP_ORIGIN[$ID]}
          REQUIRES=${DMAP_DEP_REQ_DEP[$ID]#*:::}
-         if [ -n "$REQUIRES" ]; then
+         if [[ -n "$REQUIRES" ]]; then
              for req in $REQUIRES; do
-                 if [ ${DMAP_DEP_ORIGIN[$req]+found} ]; then
+                 if [[ ${DMAP_DEP_ORIGIN[$req]+found} ]]; then
                      ConsoleDebug "$ID requires $req"
                  else
                      ConsoleError " ->" "declare dependency - $ORIGIN:::$ID requires unknown dependency $req"
@@ -154,7 +154,7 @@ DeclareDependencies() {
     ConsoleResetErrors
 
     DeclareDependenciesOrigin FW_HOME
-    if [ "${CONFIG_MAP["FW_HOME"]}" != "$FLAVOR_HOME" ]; then
+    if [[ "${CONFIG_MAP["FW_HOME"]}" != "$FLAVOR_HOME" ]]; then
         DeclareDependenciesOrigin HOME
     fi
     ValidateDependencyRequirements

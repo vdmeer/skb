@@ -51,7 +51,7 @@ _ts=$(date +%s.%N)
 ##
 ## - exit with code 1 if we did not find a core requirements
 ##
-if [ "${BASH_VERSION:0:1}" -lt 4 ] ; then
+if [[ "${BASH_VERSION:0:1}" -lt 4 ]]; then
     printf " ==> no bash version >4, required for associative arrays\n\n"
     exit 1
 fi
@@ -109,14 +109,14 @@ source $FW_HOME/bin/loader/init/parse-cli.sh
 #### - exit with code 4: if no flavor set, not setting found (internal error), no FLAOVOR_HOME set, or not a directoy
 #### - exit with code 5: if script name or application name are missing
 ##
-if [ -z ${__FW_LOADER_FLAVOR:-} ]; then
+if [[ -z ${__FW_LOADER_FLAVOR:-} ]]; then
     ConsoleFatal " ->" "interal error: no flavor set"
     printf "\n"
     exit 4
 else
     CONFIG_MAP["FLAVOR"]=$__FW_LOADER_FLAVOR
     CONFIG_SRC["FLAVOR"]="E"
-    if [ -z ${CONFIG_MAP["FLAVOR"]} ]; then
+    if [[ -z ${CONFIG_MAP["FLAVOR"]} ]]; then
         ## did not find FLAVOR
         ConsoleFatal " ->" "internal error: did not find setting for flavor"
         printf "\n"
@@ -126,11 +126,11 @@ else
     FLAVOR_HOME="${CONFIG_MAP["FLAVOR"]}_HOME"
     CONFIG_MAP["HOME"]=${!FLAVOR_HOME:-}
     CONFIG_SRC["HOME"]="E"
-    if [ -z ${CONFIG_MAP["HOME"]:-} ]; then
+    if [[ -z ${CONFIG_MAP["HOME"]:-} ]]; then
         ConsoleFatal " ->" "did not find environment setting for application home, tried \$${CONFIG_MAP["FLAVOR"]}_HOME"
         printf "\n"
         exit 4
-    elif [ ! -d ${CONFIG_MAP["HOME"]} ]; then
+    elif [[ ! -d ${CONFIG_MAP["HOME"]} ]]; then
         ## found home, but is no directory
         ConsoleFatal " ->" "\$${CONFIG_MAP["FLAVOR"]}_HOME set as ${CONFIG_MAP["HOME"]} does not point to a directory"
         printf "\n"
@@ -139,14 +139,14 @@ else
 fi
 export FLAVOR_HOME=${CONFIG_MAP["HOME"]}
 
-if [ -z ${__FW_LOADER_SCRIPTNAME:-} ]; then
+if [[ -z ${__FW_LOADER_SCRIPTNAME:-} ]]; then
     ConsoleFatal " ->" "interal error: no application script name set"
     printf "\n"
     exit 5
 else
     CONFIG_MAP["APP_SCRIPT"]=${__FW_LOADER_SCRIPTNAME##*/}
 fi
-if [ -z "${__FW_LOADER_APPNAME:-}" ]; then
+if [[ -z "${__FW_LOADER_APPNAME:-}" ]]; then
     ConsoleFatal " ->" "interal error: no application name set"
     printf "\n"
     exit 5
@@ -154,7 +154,7 @@ else
     CONFIG_MAP["APP_NAME"]=$__FW_LOADER_APPNAME
 fi
 source $FW_HOME/bin/loader/declare/app-maps.sh
-if [ -f ${CONFIG_MAP["HOME"]}/etc/version.txt ]; then
+if [[ -f ${CONFIG_MAP["HOME"]}/etc/version.txt ]]; then
     CONFIG_MAP["VERSION"]=$(cat ${CONFIG_MAP["HOME"]}/etc/version.txt)
 else
     ConsoleFatal " ->" "no application version found, tried \$HOME/etc/version.txt"
@@ -181,7 +181,7 @@ ProcessSettings
 ## - exit with code 2 if option declaration failed
 ## - exit with code 3 if parseCLI failed
 ##
-if [ -f ${CONFIG_MAP["CACHE_DIR"]}/opt-decl.map ]; then
+if [[ -f ${CONFIG_MAP["CACHE_DIR"]}/opt-decl.map ]]; then
     ConsoleInfo "-->" "declaring options from cache"
     source ${CONFIG_MAP["CACHE_DIR"]}/opt-decl.map
 else
@@ -216,12 +216,12 @@ case "${CONFIG_MAP["PRINT_MODE"]:-}" in
         ;;
 esac
 ## sneak on clean-cache to prevent errors here starting the clean
-if [ ${OPT_CLI_MAP["clean-cache"]} != false ]; then
+if [[ ${OPT_CLI_MAP["clean-cache"]} != false ]]; then
     ConsoleInfo "-->" "cleaning cache and exit"
     source ${CONFIG_MAP["FW_HOME"]}/bin/loader/options/clean-cache.sh
     exit 0
 fi
-if [ ${OPT_CLI_MAP["help"]} != false ]; then
+if [[ ${OPT_CLI_MAP["help"]} != false ]]; then
     source ${CONFIG_MAP["FW_HOME"]}/bin/loader/options/help.sh
     exit 0
 fi
@@ -231,7 +231,7 @@ fi
 ##
 ## declare shell artifacts
 ##
-if [ -f ${CONFIG_MAP["CACHE_DIR"]}/cmd-decl.map ]; then
+if [[ -f ${CONFIG_MAP["CACHE_DIR"]}/cmd-decl.map ]]; then
     ConsoleInfo "-->" "declaring commands from cache"
     source ${CONFIG_MAP["CACHE_DIR"]}/cmd-decl.map
 else
@@ -247,7 +247,7 @@ fi
 ## - exit with code 5 if dependencies failed
 ## - exit with code 6 if tasks failed
 ##
-if [ -f ${CONFIG_MAP["CACHE_DIR"]}/dep-decl.map ]; then
+if [[ -f ${CONFIG_MAP["CACHE_DIR"]}/dep-decl.map ]]; then
     ConsoleInfo "-->" "declaring dependencies from cache"
     source ${CONFIG_MAP["CACHE_DIR"]}/dep-decl.map
 else
@@ -256,7 +256,7 @@ else
     if ConsoleHasErrors; then printf "\n"; exit 5; fi
 fi
 
-if [ -f ${CONFIG_MAP["CACHE_DIR"]}/task-decl.map ]; then
+if [[ -f ${CONFIG_MAP["CACHE_DIR"]}/task-decl.map ]]; then
     ConsoleInfo "-->" "declaring tasks from cache"
     source ${CONFIG_MAP["CACHE_DIR"]}/task-decl.map
 else
@@ -319,7 +319,7 @@ source $FW_HOME/bin/loader/init/do-options.sh
 DoOptions
 if ConsoleHasErrors; then printf "\n"; exit 9; fi
 
-if [ $DO_EXIT == true ]; then
+if [[ $DO_EXIT == true ]]; then
     _te=$(date +%s.%N)
     _exec_time=$_te-$_ts
     ConsoleInfo "-->" "execution time: $(echo $_exec_time | bc -l) sec"
@@ -334,7 +334,7 @@ fi
 ## - write runtime configurations to temporary configuration file
 ##
 tmp_dir=${TMPDIR:-/tmp}/${CONFIG_MAP["APP_SCRIPT"]}
-if [ ! -d $tmp_dir ]; then
+if [[ ! -d $tmp_dir ]]; then
     mkdir $tmp_dir
 fi
 CONFIG_MAP["FW_L1_CONFIG"]=$(mktemp "$tmp_dir/$(date +"%H-%M-%S")-${CONFIG_MAP["APP_MODE"]}-XXX")
@@ -348,20 +348,20 @@ WriteL1Config
 ##
 __errno=0
 DO_EXIT=false
-if [ "${OPT_CLI_MAP["execute-task"]}" != false ]; then
+if [[ "${OPT_CLI_MAP["execute-task"]}" != false ]]; then
     echo ${OPT_CLI_MAP["execute-task"]} | $FW_HOME/bin/shell/shell.sh
     __et=$?
     __errno=$((__errno + __et))
     DO_EXIT=true
 fi
-if [ ${OPT_CLI_MAP["run-scenario"]} != false ]; then
+if [[ ${OPT_CLI_MAP["run-scenario"]} != false ]]; then
     echo "es ${OPT_CLI_MAP["run-scenario"]}" | $FW_HOME/bin/shell/shell.sh
    __et=$?
     __errno=$((__errno + __et))
     DO_EXIT=true
 fi
 
-if [ $DO_EXIT == false ]; then
+if [[ $DO_EXIT == false ]]; then
     $FW_HOME/bin/shell/shell.sh
     __errno=$?
 fi
@@ -370,10 +370,10 @@ fi
 ##
 ## Remove artifacts (the shell-events just in case)
 ##
-if [ -f $FW_L1_CONFIG ]; then
+if [[ -f $FW_L1_CONFIG ]]; then
     rm $FW_L1_CONFIG >& /dev/null
 fi
-if [ -d $tmp_dir ] && [ $(ls $tmp_dir | wc -l) == 0 ]; then
+if [[ -d $tmp_dir && $(ls $tmp_dir | wc -l) == 0 ]]; then
     rmdir $tmp_dir
 fi
 

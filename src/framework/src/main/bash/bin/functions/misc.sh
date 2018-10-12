@@ -41,7 +41,7 @@
 ## use: VARIABLE=$(PathToCygwin "path")
 ##
 PathToCygwin() {
-    if [ ${CONFIG_MAP["SYSTEM"]} == "CYGWIN" ]; then
+    if [[ ${CONFIG_MAP["SYSTEM"]} == "CYGWIN" ]]; then
         echo "`cygpath -m $1`"
     else
         echo $1

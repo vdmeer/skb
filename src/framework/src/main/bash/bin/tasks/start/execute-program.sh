@@ -25,6 +25,7 @@
 ##
 ## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
 ## @version    v0.0.0
+##
 
 
 ##
@@ -39,7 +40,7 @@ set -o errexit -o pipefail -o noclobber -o nounset
 ## Test if we are run from parent with configuration
 ## - load configuration
 ##
-if [ -z ${FW_HOME:-} ] || [ -z ${FW_L1_CONFIG-} ]; then
+if [[ -z ${FW_HOME:-} || -z ${FW_L1_CONFIG-} ]]; then
     printf " ==> please run from framework or application\n\n"
     exit 10
 fi
@@ -91,7 +92,7 @@ while true; do
             BuildTaskHelpLine b background  "<none>"    "run program in background"                     $PRINT_PADDING
             BuildTaskHelpLine h help        "<none>"    "print help screen and exit"                    $PRINT_PADDING
             BuildTaskHelpLine t title       "TITLE"     "title for the XTerm, default: program name"    $PRINT_PADDING
-            BuildTaskHelpLine x xterm       "<none>"    "start a new XTerm and execut program"          $PRINT_PADDING
+            BuildTaskHelpLine x xterm       "<none>"    "start a new XTerm and execute program"         $PRINT_PADDING
             exit 0
             ;;
         -t | --title)
@@ -104,7 +105,7 @@ while true; do
             ;;
         --)
             shift
-            if [ -z ${1:-} ]; then
+            if [[ -z ${1:-} ]]; then
                 break
             fi
             PROGRAM=$1
@@ -128,16 +129,16 @@ done
 ERRNO=0
 ConsoleInfo "  -->" "ep: starting task"
 
-if [ -z $PROGRAM ]; then
+if [[ -z $PROGRAM ]]; then
     ConsoleError "  ->" "no program given to execute"
     exit 3
 fi
 
-if [ $XTERM == true ]; then
-    if [ ! -n "$TITLE" ]; then
+if [[ $XTERM == true ]]; then
+    if [[ ! -n "$TITLE" ]]; then
         TITLE=$PROGRAM
     fi
-    if [ ! -z "${RTMAP_TASK_LOADED["start-xterm"]}" ]; then
+    if [[ ! -z "${RTMAP_TASK_LOADED["start-xterm"]}" ]]; then
         set +e
         ${DMAP_TASK_EXEC["start-xterm"]} --title $TITLE -- $PROGRAM $ARGS
         ERRNO=$?
@@ -149,7 +150,7 @@ if [ $XTERM == true ]; then
     fi
 else
     SCRIPT=$PROGRAM" "$ARGS
-    if [ $BACKGROUND == true ]; then
+    if [[ $BACKGROUND == true ]]; then
         SCRIPT+=" &"
     fi
     set +e

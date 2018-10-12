@@ -47,7 +47,7 @@ ShellCmdListScenarios() {
 
     declare -A SC_MAP
 
-    if [ -d ${CONFIG_MAP["FW_HOME"]}/${APP_PATH_MAP["SCENARIOS"]} ]; then
+    if [[ -d ${CONFIG_MAP["FW_HOME"]}/${APP_PATH_MAP["SCENARIOS"]} ]]; then
         for FILE in $(cd ${CONFIG_MAP["FW_HOME"]}/${APP_PATH_MAP["SCENARIOS"]}; find -type f | grep "\.scn"); do
             SPRINT=
             DESCRIPTION=$(cat ${CONFIG_MAP["FW_HOME"]}/${APP_PATH_MAP["SCENARIOS"]}/$FILE | grep Description:)

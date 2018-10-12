@@ -49,12 +49,12 @@ DescribeCommand() {
     local SPRINT=""
     local SHORT
 
-    if [ "${DMAP_CMD[$ID]:-}" == "--" ]; then
-        if [ ! -z "${DMAP_CMD_SHORT[$ID]:-}" ]; then
+    if [[ "${DMAP_CMD[$ID]:-}" == "--" ]]; then
+        if [[ ! -z "${DMAP_CMD_SHORT[$ID]:-}" ]]; then
             ID="${DMAP_CMD_SHORT[$ID]}"
         fi
     fi
-    if [ ! -n "${DMAP_CMD[$ID]:-}" ]; then
+    if [[ ! -n "${DMAP_CMD[$ID]:-}" ]]; then
         ConsoleError " ->" "describe-command - unknown command ID '$ID'"
         return
     fi
@@ -69,8 +69,8 @@ DescribeCommand() {
             line-indent)
                 LINE_INDENT="      "
                 ## exception for adoc, no line indent even if requested
-                if [ -n "${4:-}" ]; then
-                    if [ "$4" == "adoc" ]; then
+                if [[ -n "${4:-}" ]]; then
+                    if [[ "$4" == "adoc" ]]; then
                         LINE_INDENT=
                     fi
                 fi
@@ -96,20 +96,20 @@ DescribeCommand() {
     local ARGUMENT=${DMAP_CMD_ARG[$ID]:-}
 
     local TEMPLATE=""
-    if [ "$SHORT" == "--" ]; then
+    if [[ "$SHORT" == "--" ]]; then
         TEMPLATE+="%LONG%"
-    elif [ ! -n "$LONG" ]; then
+    elif [[ ! -n "$LONG" ]]; then
         TEMPLATE+="%SHORT%"
     else
         TEMPLATE+="%SHORT%, %LONG%"
     fi
-    if [ -n "$ARGUMENT" ]; then
+    if [[ -n "$ARGUMENT" ]]; then
         TEMPLATE+=" %ARGUMENT%"
     fi
-    if [ "$PRINT_OPTION" == "full" ]; then
+    if [[ "$PRINT_OPTION" == "full" ]]; then
         TEMPLATE+=" - %DESCRIPTION%"
     fi
-    if [ "${4:-}" == "adoc" ] || [ "${CONFIG_MAP["PRINT_MODE"]}" == "adoc" ]; then
+    if [[ "${4:-}" == "adoc" || "${CONFIG_MAP["PRINT_MODE"]}" == "adoc" ]]; then
         TEMPLATE+=":: "
     fi
 
@@ -119,7 +119,7 @@ DescribeCommand() {
             ;;
         standard | full)
             local TMP_MODE=${4:-}
-            if [ "$TMP_MODE" == "" ]; then
+            if [[ "$TMP_MODE" == "" ]]; then
                 TMP_MODE=${CONFIG_MAP["PRINT_MODE"]}
             fi
             TEMPLATE=${TEMPLATE//%SHORT%/$(PrintEffect bold "$SHORT" $TMP_MODE)}
@@ -137,12 +137,12 @@ DescribeCommand() {
     SPRINT+=$POST_LINE
     printf %b "$SPRINT"
 
-    if [ -n "$SOURCE" ]; then
+    if [[ -n "$SOURCE" ]]; then
         printf "\n"
         cat $SOURCE
     fi
 
-    if [ "${4:-}" == "adoc" ] || [ "${CONFIG_MAP["PRINT_MODE"]}" == "adoc" ]; then
+    if [[ "${4:-}" == "adoc" || "${CONFIG_MAP["PRINT_MODE"]}" == "adoc" ]]; then
         printf "\n\n"
     fi
 }

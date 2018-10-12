@@ -42,10 +42,10 @@ TestReadDirectories() {
     local DIR
 
     for DIR in ${DIRECTORIES[@]}; do
-        if [ -z ${CONFIG_MAP[$DIR]:-} ]; then
+        if [[ -z ${CONFIG_MAP[$DIR]:-} ]]; then
             ConsoleWarn "    >" "value for $DIR not set"
         else
-            if [ ! -d ${CONFIG_MAP[$DIR]} ]; then
+            if [[ ! -d "${CONFIG_MAP[$DIR]}" ]]; then
                 ConsoleError "-> test directories:" "not a redable directory for $DIR as ${CONFIG_MAP[$DIR]}"
             fi
         fi
@@ -66,13 +66,13 @@ TestCDDirectories() {
     local MD_ERR
 
     for DIR in ${DIRECTORIES_CD[@]}; do
-        if [ -z ${CONFIG_MAP[$DIR]:-} ]; then
+        if [[ -z ${CONFIG_MAP[$DIR]:-} ]]; then
             ConsoleWarn "    >" "value for $DIR not set"
         else
             if ConsoleIsDebug; then MD_OPT="$MD_OPT -v"; fi
             mkdir $MD_OPT ${CONFIG_MAP[$DIR]} 2> /dev/null
             MD_ERR=$?
-            if (( $MD_ERR != 0 )) || [ ! -d ${CONFIG_MAP[$DIR]} ]; then
+            if (( $MD_ERR != 0 )) || [[ ! -d ${CONFIG_MAP[$DIR]} ]]; then
                 ConsoleError "-> test directories:" "not a directory for $DIR as ${CONFIG_MAP[$DIR]}, tried mkdir"
             fi
         fi

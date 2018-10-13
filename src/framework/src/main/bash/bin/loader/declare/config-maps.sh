@@ -35,8 +35,3 @@
 
 declare -A CONFIG_MAP               # map/export for main configuration, keys are less FLAVOR
 declare -A CONFIG_SRC               # map/export for configuration source, i.e. where a setting comes from: [E]nv, [F]ile (.skb), [D]efault, CLI [O]ption
-
-declare -a DIRECTORIES              # array/internal as read-only directories (used for testing parameters)
-declare -a DIRECTORIES_CD           # array/internal as create/delete directories (used for testing parameters)
-
-declare -a FILES                    # array/internal files (used for testing parameters)

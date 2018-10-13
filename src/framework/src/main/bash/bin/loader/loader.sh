@@ -228,6 +228,11 @@ if [[ ${OPT_CLI_MAP["help"]} != false ]]; then
     source ${CONFIG_MAP["FW_HOME"]}/bin/loader/options/help.sh
     exit 0
 fi
+if [[ ${OPT_CLI_MAP["version"]} != false ]]; then
+    source ${CONFIG_MAP["FW_HOME"]}/bin/loader/options/version.sh
+    exit 0
+fi
+
 
 
 
@@ -270,36 +275,6 @@ fi
 source $FW_HOME/bin/loader/init/process-tasks.sh
 ProcessTasks
 if ConsoleHasErrors; then printf "\n"; exit 7; fi
-
-
-
-##
-## remove any setting in CONFIG_MAP that is a parameter with default, came from "default value" and is not required by task
-## - default value loaded but not requested
-## - can interfer with file/directory tests coming next
-##
-for ID in ${!CONFIG_MAP[@]}; do                                 ## for every setting
-    if [[ ! -z "${DMAP_PARAM_DEFVAL[$ID]:-}" ]]; then           ## if is from parameter that has a default value
-        if [[ "${CONFIG_SRC[$ID]:-}" == "D" ]]; then            ## if the setting is from default value, i.e. not environment or file
-            if [[ -z ${RTMAP_REQUESTED_PARAM[$ID]:-} ]]; then   ## if the parameter is NOT required by any task
-                unset CONFIG_MAP['$ID']                         ## then remove it
-                unset CONFIG_SRC['$ID']                         ## and the source note
-            fi
-        fi
-    fi
-done
-
-
-
-##
-## test files and directories: for all settings as file or directory, test if they exist
-##
-ConsoleResetErrors
-source $FW_HOME/bin/loader/init/test-files.sh
-TestFiles
-source $FW_HOME/bin/loader/init/test-directories.sh
-TestDirectories
-if ConsoleHasErrors; then printf "\n"; exit 8; fi
 
 
 
@@ -368,21 +343,18 @@ WriteL1Config
 ## test if we execute a task or run a scenario
 ##
 __errno=0
-DO_EXIT=false
 if [[ "${OPT_CLI_MAP["execute-task"]}" != false ]]; then
     echo ${OPT_CLI_MAP["execute-task"]} | $FW_HOME/bin/shell/shell.sh
     __et=$?
     __errno=$((__errno + __et))
-    DO_EXIT=true
 fi
 if [[ ${OPT_CLI_MAP["run-scenario"]} != false ]]; then
     echo "es ${OPT_CLI_MAP["run-scenario"]}" | $FW_HOME/bin/shell/shell.sh
    __et=$?
     __errno=$((__errno + __et))
-    DO_EXIT=true
 fi
 
-if [[ $DO_EXIT == false ]]; then
+if [[ $DO_EXIT_2 == false ]]; then
     $FW_HOME/bin/shell/shell.sh
     __errno=$?
 fi

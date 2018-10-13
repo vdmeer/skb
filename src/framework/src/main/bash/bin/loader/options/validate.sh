@@ -41,3 +41,4 @@ else
     CONFIG_MAP["SHELL-LEVEL"]=off
     OPT_CLI_MAP["execute-task"]="validate-installation -sa"
 fi
+DO_EXIT_2=true

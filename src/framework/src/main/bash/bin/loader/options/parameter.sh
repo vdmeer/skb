@@ -34,3 +34,4 @@
 
 
 DescribeParameter ${OPT_CLI_MAP["parameter"]^^} full "enter ${CONFIG_MAP["PRINT_MODE"]} line-indent"
+DO_EXIT=true

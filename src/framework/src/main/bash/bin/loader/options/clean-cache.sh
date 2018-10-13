@@ -38,3 +38,4 @@ if [[ -n "$files" ]]; then
         rm $file
     done
 fi
+DO_EXIT=true

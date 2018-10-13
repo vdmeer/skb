@@ -168,6 +168,80 @@ SetArtifactStatus() {
 
 
 ##
+## function ProcessTaskTestFile
+## - tests a file for existence
+## $1: setting ID (parameter ID)
+## $2: man | opt
+## $3: task ID for messages
+##
+ProcessTaskTestFile() {
+    if [[ ! -f "${CONFIG_MAP[$1]}" ]]; then
+        ConsoleWarnStrict "  ->" "test files for task $3: not a regular file for setting '$1' as '${CONFIG_MAP[$1]}'"
+        if [[ ( "$2" == opt && ${CONFIG_MAP["STRICT"]} == "yes" ) || "$2" == man ]]; then
+            return 1
+        else
+            return 0
+        fi
+    fi
+    if [[ ! -r "${CONFIG_MAP[$1]}" ]]; then
+        ConsoleWarnStrict "  ->" "test files for task $3: file not readable for setting '$1' as '${CONFIG_MAP[$1]}'"
+        if [[ ( "$2" == opt && ${CONFIG_MAP["STRICT"]} == "yes" ) || "$2" == man ]]; then
+            return 1
+        else
+            return 0
+        fi
+    fi
+    return 0
+}
+
+
+
+##
+## function ProcessTaskTestDir
+## - tests a file for existence
+## $1: setting ID (parameter ID)
+## $2: man | opt
+## $3: task ID for messages
+##
+ProcessTaskTestDir() {
+    if [[ ! -d "${CONFIG_MAP[$1]}" ]]; then
+        ConsoleWarnStrict "  ->" "test directories for task $3: not a redable directory for $1 as ${CONFIG_MAP[$1]}"
+        if [[ ( "$2" == opt && ${CONFIG_MAP["STRICT"]} == "yes" ) || "$2" == man ]]; then
+            return 1
+        else
+            return 0
+        fi
+    fi
+    return 0
+}
+
+
+
+##
+## function ProcessTaskTestDirCD
+## - tests a file for existence
+## $1: setting ID (parameter ID)
+## $2: man | opt
+## $3: task ID for messages
+##
+ProcessTaskTestDirCD() {
+    if ConsoleIsDebug; then MD_OPT="$MD_OPT -v"; fi
+    mkdir $MD_OPT ${CONFIG_MAP[$1]} 2> /dev/null
+    MD_ERR=$?
+    if (( $MD_ERR != 0 )) || [[ ! -d ${CONFIG_MAP[$1]} ]]; then
+        ConsoleWarnStrict "  ->" "test directories-cd for task $3: not a directory for $1 as ${CONFIG_MAP[$1]}, tried mkdir"
+        if [[ ( "$2" == opt && ${CONFIG_MAP["STRICT"]} == "yes" ) || "$2" == man ]]; then
+            return 1
+        else
+            return 0
+        fi
+    fi
+    return 0
+}
+
+
+
+##
 ## function: ProcessTaskReqParam
 ## - tests all required parameters for a task
 ## $1: task id
@@ -175,9 +249,11 @@ SetArtifactStatus() {
 ProcessTaskReqParam() {
     local ID=$1
     local PARAM
+    local FOUND
 
     if [[ ! -z "${DMAP_TASK_REQ_PARAM_MAN[$ID]:-}" ]]; then
         for PARAM in ${DMAP_TASK_REQ_PARAM_MAN[$ID]}; do
+            FOUND=false
             ConsoleTrace "   $ID - param man $PARAM"
             if [[ -z ${DMAP_PARAM_ORIGIN[$PARAM]:-} ]]; then
                 ConsoleError " ->" "process-task/param - $ID unknown parameter '$PARAM'"
@@ -190,10 +266,35 @@ ProcessTaskReqParam() {
                     RTMAP_TASK_UNLOADED[$ID]="${RTMAP_TASK_UNLOADED[$ID]:-} par-set::$PARAM"
                     SetArtifactStatus task $ID E
                 else
-                    SetArtifactStatus task $ID S
+                    case ${DMAP_PARAM_IS[$PARAM]:-} in
+                        file)
+                            ProcessTaskTestFile "$PARAM" man $ID
+                            if [[ $? ]]; then
+                                FOUND=true
+                            fi
+                            ;;
+                        dir)
+                            ProcessTaskTestDir "$PARAM" man $ID
+                            if [[ $? ]]; then
+                                FOUND=true
+                                fi
+                            ;;
+                        dir-cd)
+                            ProcessTaskTestDirCD "$PARAM" man $ID
+                            if [[ $? ]]; then
+                                FOUND=true
+                                fi
+                                ;;
+                        *)
+                            FOUND=true
+                            ;;
+                    esac
+                    if [[ $FOUND == true ]]; then
+                        SetArtifactStatus task $ID S
 #                         RTMAP_TASK_LOADED[$ID]="${RTMAP_TASK_LOADED[$ID]:-} param"
-                    RTMAP_TASK_LOADED[$ID]=ok
-                    ConsoleDebug "process-task/param - processed '$ID' for parameter '$PARAM' with success"
+                        RTMAP_TASK_LOADED[$ID]=ok
+                        ConsoleDebug "process-task/param - processed '$ID' for parameter '$PARAM' with success"
+                    fi
                 fi
             fi
         done
@@ -201,6 +302,7 @@ ProcessTaskReqParam() {
 
     if [[ ! -z "${DMAP_TASK_REQ_PARAM_OPT[$ID]:-}" ]]; then
         for PARAM in ${DMAP_TASK_REQ_PARAM_OPT[$ID]}; do
+            FOUND=false
             ConsoleTrace "   $ID - param opt $PARAM"
             if [[ -z ${DMAP_PARAM_ORIGIN[$PARAM]:-} ]]; then
                 ConsoleError " ->" "process-task/param - $ID unknown parameter '$PARAM'"
@@ -220,10 +322,38 @@ ProcessTaskReqParam() {
                         ConsoleDebug "process-task/param - processed '$ID' for parameter '$PARAM' with warn"
                     fi
                 else
-                    SetArtifactStatus task $ID S
+                    case ${DMAP_PARAM_IS[$PARAM]:-} in
+                        file)
+                            ProcessTaskTestFile "$PARAM" opt $ID
+                            if [[ $? ]]; then
+                                FOUND=true
+                            fi
+                            ;;
+                        dir)
+                            ProcessTaskTestDir "$PARAM" opt $ID
+                            if [[ $? ]]; then
+                                FOUND=true
+                                fi
+                            ;;
+                        dir-cd)
+                            ProcessTaskTestDirCD "$PARAM" opt $ID
+                            if [[ $? ]]; then
+                                FOUND=true
+                                fi
+                                ;;
+                        *)
+                            FOUND=true
+                            ;;
+                    esac
+                    if [[ $FOUND ]]; then
+                        SetArtifactStatus task $ID S
 #                             RTMAP_TASK_LOADED[$ID]="${RTMAP_TASK_LOADED[$ID]:-} param"
-                    RTMAP_TASK_LOADED[$ID]=ok
-                    ConsoleDebug "process-task/param - processed '$ID' for parameter '$PARAM' with success"
+                        RTMAP_TASK_LOADED[$ID]=ok
+                        ConsoleDebug "process-task/param - processed '$ID' for parameter '$PARAM' with success"
+                    else
+                        RTMAP_TASK_UNLOADED[$ID]="${RTMAP_TASK_UNLOADED[$ID]:-} par-set::$PARAM"
+                        SetArtifactStatus task $ID E
+                    fi
                 fi
             fi
         done
@@ -550,6 +680,23 @@ ProcessTasks() {
     for ID in "${!RTMAP_TASK_UNLOADED[@]}"; do
         if [[ ! -z "${RTMAP_TASK_LOADED[$ID]:-}" ]]; then
             unset RTMAP_TASK_LOADED[$ID]
+        fi
+    done
+
+    ## remove any setting in CONFIG_MAP that should not be there
+    ## - default value loaded but not requested
+    for ID in ${!CONFIG_MAP[@]}; do                                         ## for every setting
+        if [[ ! -z "${DMAP_PARAM_DEFVAL[$ID]:-}" ]]; then                   ## if is from parameter that has a default value
+            if [[ "${CONFIG_SRC[$ID]:-}" == "D" ]]; then                    ## if the setting is from default value, i.e. not environment or file
+                if [[ -z ${RTMAP_REQUESTED_PARAM[$ID]:-} ]]; then           ## if the parameter is NOT required by any task (and not file/directory in next line)
+                    case ${DMAP_PARAM_IS[$ID]:-} in
+                        file | dir | dir-cd)                                ## if parameter is file or directory
+                            unset CONFIG_MAP['$ID']                             ## then remove it
+                            unset CONFIG_SRC['$ID']                             ## and the source note
+                            ;;
+                    esac
+                fi
+            fi
         fi
     done
 

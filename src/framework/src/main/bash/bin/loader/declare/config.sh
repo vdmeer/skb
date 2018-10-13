@@ -66,6 +66,7 @@ WriteL1Config() {
     declare -p DMAP_PARAM_DECL >> $file
     declare -p DMAP_PARAM_DEFVAL >> $file
     declare -p DMAP_PARAM_DESCR >> $file
+    declare -p DMAP_PARAM_IS >> $file
 
 
     declare -p DMAP_DEP_ORIGIN >> $file
@@ -98,10 +99,6 @@ WriteL1Config() {
     declare -p RTMAP_TASK_STATUS >> $file
     declare -p RTMAP_TASK_LOADED >> $file
     declare -p RTMAP_TASK_UNLOADED >> $file
-
-    declare -p FILES >> $file
-    declare -p DIRECTORIES >> $file
-    declare -p DIRECTORIES_CD >> $file
 
     declare -p RTMAP_REQUESTED_DEP >> $file
     declare -p RTMAP_REQUESTED_PARAM >> $file

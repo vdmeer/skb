@@ -42,3 +42,4 @@ if [[ -f $_file ]]; then
 else
     ConsoleError " ->" "manual - no manual file, tried \$HOME/doc/manual/${CONFIG_MAP["APP_SCRIPT"]}.${CONFIG_MAP["PRINT_MODE"]}"
 fi
+DO_EXIT=true

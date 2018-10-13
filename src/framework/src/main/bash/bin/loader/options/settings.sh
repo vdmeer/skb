@@ -35,3 +35,4 @@
 
 source ${CONFIG_MAP["FW_HOME"]}/bin/functions/describe/settings.sh
 SettingScreen
+DO_EXIT=true

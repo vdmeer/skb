@@ -32,35 +32,56 @@
 ## DO NOT CHANGE CODE BELOW, unless you know what you are doing
 ##
 
+## we should load the framework itself, so SF_HOME
 if [[ -z ${__FW_LOADER_FLAVOR:-} ]]; then
     export __FW_LOADER_FLAVOR="SF"
     export __FW_LOADER_SCRIPTNAME="$0"
     export __FW_LOADER_APPNAME="SKB Framework"
 
-    if [[ -z ${SF_HOME} ]]; then
+    ## try readline to find where we are
+    if [[ -z ${SF_HOME:-} ]]; then
         SF_HOME=$(readlink -f $0)
         SF_HOME=${SF_HOME%/*}
         SF_HOME=${SF_HOME%/*}
         export SF_HOME
     fi
-
+    ## try \$0 to find where we are
     if [[ -z ${SF_HOME:-} ]]; then
-        printf "  unable to set home, please set SF_HOME\n\n"
+        SF_HOME=$(dirname $0)
+        SF_HOME=$(cd $SF_HOME/..; pwd)
+        export SF_HOME
+    fi
+    if [[ -z ${SF_HOME:-} ]]; then
+        printf "  unable to set home \$SF_HOME (tried environment, readlink, and dirname \$0)\n"
+        printf "  please set SF_HOME\n\n"
         exit 1
     fi
+    FW_HOME=$SF_HOME
 fi
 
-if [[ -z ${FW_HOME} ]]; then
-    LOADER_PATH=$(readlink -f $0)
-    LOADER_PATH=${LOADER_PATH%/*}
-else
-    LOADER_PATH=$FW_HOME/bin
+## try to find where we are
+if [[ -z ${FW_HOME:-} ]]; then
+    FW_HOME=$(readlink -f $0)
+    FW_HOME=${FW_HOME%/*}
+    FW_HOME=${FW_HOME%/*}
+    export FW_HOME
+fi
+if [[ -z ${FW_HOME:-} ]]; then
+    FW_HOME=$(dirname $0)
+    FW_HOME=$(cd $FW_HOME/..; pwd)
+    export FW_HOME
 fi
 
-if [[ ! -n "$LOADER_PATH" ]]; then
-    printf "  unable to set framework and loader path, please set FW_HOME\n\n"
+if [[ -z ${FW_HOME:-} ]]; then
+    printf "  unable to set framework home \$FW_HOME (tried environment, readlink, and dirname \$0)\n"
+    printf "  please set SF_HOME\n\n"
+    exit 1
+elif [[ ! -x $FW_HOME/bin/loader/loader.sh ]]; then
+    printf "  did find/set \$FW_HOME, but did not find loader\n"
+    printf "  tried$FW_HOME/bin/loader/loader.sh\n\n"
     exit 1
 fi
-$LOADER_PATH/loader/loader.sh $*
+
+$FW_HOME/bin/loader/loader.sh $*
 __errno=$?
 exit $__errno

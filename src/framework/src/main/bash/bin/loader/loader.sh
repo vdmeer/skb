@@ -354,10 +354,11 @@ if [[ ${OPT_CLI_MAP["run-scenario"]} != false ]]; then
     __errno=$((__errno + __et))
 fi
 
-if [[ $DO_EXIT_2 == false ]]; then
+if [[ ${DO_EXIT_2:-} != false ]]; then
     $FW_HOME/bin/shell/shell.sh
     __errno=$?
 fi
+
 
 
 ##

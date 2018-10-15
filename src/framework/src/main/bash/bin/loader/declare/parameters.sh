@@ -56,7 +56,7 @@ DeclareParametersOrigin() {
     ConsoleDebug "scanning $ORIGIN"
     local PARAM_PATH=${CONFIG_MAP[$ORIGIN]}/${APP_PATH_MAP["PARAM_DECL"]}
     if [[ ! -d $PARAM_PATH ]]; then
-        ConsoleError " ->" "declare parameter - did not find parameter directory '$PARAM_PATH' at origin '$ORIGIN'"
+        ConsoleWarn " ->" "declare parameter - did not find parameter directory '$PARAM_PATH' at origin '$ORIGIN'"
     else
         local NO_ERRORS=true
         local ID
@@ -69,6 +69,9 @@ DeclareParametersOrigin() {
         local file
 
         for file in $PARAM_PATH/**/*.id; do
+            if [ ! -f $file ]; then
+                continue    ## avoid any strange file, and empty directory
+            fi
             ID=${file##*/}
             ID=${ID%.*}
 

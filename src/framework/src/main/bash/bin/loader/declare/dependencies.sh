@@ -52,7 +52,7 @@ DeclareDependenciesOrigin() {
     ConsoleDebug "scanning $ORIGIN"
     local DEPENDENCY_PATH=${CONFIG_MAP[$ORIGIN]}/${APP_PATH_MAP["DEP_DECL"]}
     if [[ ! -d $DEPENDENCY_PATH ]]; then
-        ConsoleError " ->" "declare dependency - did not find dependency directory '$DEPENDENCY_PATH' at origin '$ORIGIN'"
+        ConsoleWarn " ->" "declare dependency - did not find dependency directory '$DEPENDENCY_PATH' at origin '$ORIGIN'"
     else
         local NO_ERRORS=true
         local ID
@@ -62,55 +62,50 @@ DeclareDependenciesOrigin() {
         local files
         local file
 
-#         files=$(find -P $DEPENDENCY_PATH -type f -name '*.id')
-#         if [[ -n "$files" ]]; then
-            for file in $DEPENDENCY_PATH/**/*.id; do
-                ID=${file##*/}
-                ID=${ID%.*}
+        for file in $DEPENDENCY_PATH/**/*.id; do
+            if [ ! -f $file ]; then
+                continue    ## avoid any strange file, and empty directory
+            fi
+            ID=${file##*/}
+            ID=${ID%.*}
 
-                local HAVE_ERRORS=false
+            local HAVE_ERRORS=false
 
-                COMMAND=
-                DESCRIPTION=
-                REQUIRES=
-                source "$file"
+            COMMAND=
+            DESCRIPTION=
+            REQUIRES=
+            source "$file"
 
-                if [[ -z "${DESCRIPTION:-}" ]]; then
-                    ConsoleError " ->" "declare dependency - dependency '$ID' has no description"
-                    HAVE_ERRORS=true
-                fi
+            if [[ -z "${DESCRIPTION:-}" ]]; then
+                ConsoleError " ->" "declare dependency - dependency '$ID' has no description"
+                HAVE_ERRORS=true
+            fi
 
-                if [[ -z "${COMMAND:-}" ]]; then
-                    ConsoleError " ->" "declare dependency - dependency '$ID' has no command to test"
-                    HAVE_ERRORS=true
-                fi
+            if [[ -z "${COMMAND:-}" ]]; then
+                ConsoleError " ->" "declare dependency - dependency '$ID' has no command to test"
+                HAVE_ERRORS=true
+            fi
 
-                if [[ -z "${REQUIRES:-}" ]]; then
-                    REQUIRES=""
-                fi
+            if [[ -z "${REQUIRES:-}" ]]; then
+                REQUIRES=""
+            fi
 
-                if [[ ! -z ${DMAP_DEP_ORIGIN[$ID]:-} ]]; then
-                    ConsoleError "    >" "overwriting ${DMAP_DEP_ORIGIN[$ID]}:::$ID with $ORIGIN:::$ID"
-                    HAVE_ERRORS=true
-                fi
-                if [[ $HAVE_ERRORS == true ]]; then
-                    ConsoleError " ->" "declare dependency - could not declare dependency"
-                    NO_ERRORS=false
-                else
-                    DMAP_DEP_ORIGIN[$ID]=$ORIGIN
-                    DMAP_DEP_DECL[$ID]=${file%.*}
-                    DMAP_DEP_REQ_DEP[$ID]=$REQUIRES
-                    DMAP_DEP_DESCR[$ID]=$DESCRIPTION
-                    DMAP_DEP_CMD[$ID]=$COMMAND
-                    ConsoleDebug "declared $ORIGIN:::$ID"
-                fi
-            done
-#             if [[ $NO_ERRORS == false ]]; then
-#                 ConsoleError " ->" "declare dependency - could not declare all dependencies from '$ORIGIN'"
-#             fi
-#         else
-#             ConsoleWarn "    >" "no dependencies (sh files) found at '$ORIGIN'"
-#         fi
+            if [[ ! -z ${DMAP_DEP_ORIGIN[$ID]:-} ]]; then
+                ConsoleError "    >" "overwriting ${DMAP_DEP_ORIGIN[$ID]}:::$ID with $ORIGIN:::$ID"
+                HAVE_ERRORS=true
+            fi
+            if [[ $HAVE_ERRORS == true ]]; then
+                ConsoleError " ->" "declare dependency - could not declare dependency"
+                NO_ERRORS=false
+            else
+                DMAP_DEP_ORIGIN[$ID]=$ORIGIN
+                DMAP_DEP_DECL[$ID]=${file%.*}
+                DMAP_DEP_REQ_DEP[$ID]=$REQUIRES
+                DMAP_DEP_DESCR[$ID]=$DESCRIPTION
+                DMAP_DEP_CMD[$ID]=$COMMAND
+                ConsoleDebug "declared $ORIGIN:::$ID"
+            fi
+        done
     fi
 }
 

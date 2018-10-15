@@ -129,7 +129,7 @@ DeclareTasksOrigin() {
     ConsoleDebug "scanning $ORIGIN"
     local TASK_PATH=${CONFIG_MAP[$ORIGIN]}/${APP_PATH_MAP["TASK_DECL"]}
     if [[ ! -d $TASK_PATH ]]; then
-        ConsoleError " ->" "declare task - did not find task directory '$TASK_PATH' at origin '$ORIGIN'"
+        ConsoleWarn " ->" "declare task - did not find task directory '$TASK_PATH' at origin '$ORIGIN'"
     else
         local ID
         local TEST_ID
@@ -143,103 +143,98 @@ DeclareTasksOrigin() {
         local files
         local file
 
-#         files=$(find -P $TASK_PATH -type f -name '*.id')
-#         if [[ -n "$files" ]]; then
-            for file in $TASK_PATH/**/*.id; do
-                ID=${file##*/}
-                ID=${ID%.*}
+        for file in $TASK_PATH/**/*.id; do
+            if [ ! -f $file ]; then
+                continue    ## avoid any strange file, and empty directory
+            fi
+            ID=${file##*/}
+            ID=${ID%.*}
 
-                local HAVE_ERRORS=false
+            local HAVE_ERRORS=false
 
-                SHORT=
-                EXEC_PATH=
-                EXECUTABLE=
-                MODES=
-                DESCRIPTION=
-                source "$file"
+            SHORT=
+            EXEC_PATH=
+            EXECUTABLE=
+            MODES=
+            DESCRIPTION=
+            source "$file"
 
-                if [[ -z ${EXEC_PATH:-} ]]; then
-                    EXECUTABLE=${CONFIG_MAP[$ORIGIN]}/${APP_PATH_MAP["TASK_SCRIPT"]}/$ID.sh
-                else
-                    EXECUTABLE=${CONFIG_MAP[$ORIGIN]}/$EXEC_PATH/$ID.sh
-                fi
-                if [[ ! -f $EXECUTABLE ]]; then
-                    ConsoleError " ->" "declare task - task '$ID' without script (executable)"
-                    HAVE_ERRORS=true
-                elif [[ ! -x $EXECUTABLE ]]; then
-                    ConsoleError " ->" "declare task - task '$ID' script not executable"
-                    HAVE_ERRORS=true
-                fi
+            if [[ -z ${EXEC_PATH:-} ]]; then
+                EXECUTABLE=${CONFIG_MAP[$ORIGIN]}/${APP_PATH_MAP["TASK_SCRIPT"]}/$ID.sh
+            else
+                EXECUTABLE=${CONFIG_MAP[$ORIGIN]}/$EXEC_PATH/$ID.sh
+            fi
+            if [[ ! -f $EXECUTABLE ]]; then
+                ConsoleError " ->" "declare task - task '$ID' without script (executable)"
+                HAVE_ERRORS=true
+            elif [[ ! -x $EXECUTABLE ]]; then
+                ConsoleError " ->" "declare task - task '$ID' script not executable"
+                HAVE_ERRORS=true
+            fi
 
-                if [[ -z "${MODES:-}" ]]; then
-                    ConsoleError " ->" "declare task - task '$ID' has no modes defined"
-                    HAVE_ERRORS=true
-                else
-                    for mode in $MODES; do
-                        case $mode in
-                            dev | build | use)
-                                ConsoleDebug "task '$ID' found mode '$mode'"
-                                ;;
-                            *)
-                                ConsoleError " ->" "declare task - task '$ID' with unknown mode '$mode'"
-                                HAVE_ERRORS=true
-                                ;;
-                        esac
-                    done
-                fi
+            if [[ -z "${MODES:-}" ]]; then
+                ConsoleError " ->" "declare task - task '$ID' has no modes defined"
+                HAVE_ERRORS=true
+            else
+                for mode in $MODES; do
+                    case $mode in
+                        dev | build | use)
+                            ConsoleDebug "task '$ID' found mode '$mode'"
+                            ;;
+                        *)
+                            ConsoleError " ->" "declare task - task '$ID' with unknown mode '$mode'"
+                            HAVE_ERRORS=true
+                            ;;
+                    esac
+                done
+            fi
 
-                if [[ -z "${DESCRIPTION:-}" ]]; then
-                    ConsoleError " ->" "declare task - task '$ID' has no description"
-                    HAVE_ERRORS=true
-                fi
+            if [[ -z "${DESCRIPTION:-}" ]]; then
+                ConsoleError " ->" "declare task - task '$ID' has no description"
+                HAVE_ERRORS=true
+            fi
 
-                if [[ ! -z ${DMAP_CMD[$ID]:-} ]]; then
-                    ConsoleError " ->" "declare task - task '$ID' already used as long shell command"
-                    HAVE_ERRORS=true
-                fi
-                if [[ ! -z ${DMAP_CMD[$SHORT]:-} ]]; then
-                    ConsoleError " ->" "declare task - task '$ID' short '$SHORT' already used as long shell command"
-                    HAVE_ERRORS=true
-                fi
+            if [[ ! -z ${DMAP_CMD[$ID]:-} ]]; then
+                ConsoleError " ->" "declare task - task '$ID' already used as long shell command"
+                HAVE_ERRORS=true
+            fi
+            if [[ ! -z ${DMAP_CMD[$SHORT]:-} ]]; then
+                ConsoleError " ->" "declare task - task '$ID' short '$SHORT' already used as long shell command"
+                HAVE_ERRORS=true
+            fi
 
-                if [[ ! -z ${DMAP_CMD_SHORT[$ID]:-} ]]; then
-                    ConsoleError " ->" "declare task - task '$ID' already used as short shell command"
-                    HAVE_ERRORS=true
-                fi
-                if [[ ! -z ${DMAP_CMD_SHORT[$SHORT]:-} ]]; then
-                    ConsoleError " ->" "declare task - task '$ID' short '$SHORT' already used as short shell command"
-                    HAVE_ERRORS=true
-                fi
+            if [[ ! -z ${DMAP_CMD_SHORT[$ID]:-} ]]; then
+                ConsoleError " ->" "declare task - task '$ID' already used as short shell command"
+                HAVE_ERRORS=true
+            fi
+            if [[ ! -z ${DMAP_CMD_SHORT[$SHORT]:-} ]]; then
+                ConsoleError " ->" "declare task - task '$ID' short '$SHORT' already used as short shell command"
+                HAVE_ERRORS=true
+            fi
 
-                if [[ ! -z ${DMAP_TASK_ORIGIN[$ID]:-} ]]; then
-                    ConsoleError "    >" "overwriting ${DMAP_TASK_ORIGIN[$ID]}:::$ID with $ORIGIN:::$ID"
-                    HAVE_ERRORS=true
+            if [[ ! -z ${DMAP_TASK_ORIGIN[$ID]:-} ]]; then
+                ConsoleError "    >" "overwriting ${DMAP_TASK_ORIGIN[$ID]}:::$ID with $ORIGIN:::$ID"
+                HAVE_ERRORS=true
+            fi
+            if [[ ! -z ${SHORT:-} && ! -z ${DMAP_TASK_SHORT[${SHORT:-}]:-} ]]; then
+                ConsoleError "    >" "overwriting task short from ${DMAP_TASK_SHORT[$SHORT]} to $ID"
+                HAVE_ERRORS=true
+            fi
+            if [[ $HAVE_ERRORS == true ]]; then
+                ConsoleError " ->" "declare task - could not declare task"
+                NO_ERRORS=false
+            else
+                DMAP_TASK_ORIGIN[$ID]=$ORIGIN
+                DMAP_TASK_DECL[$ID]=${file%.*}
+                DMAP_TASK_EXEC[$ID]=$EXECUTABLE
+                DMAP_TASK_MODES[$ID]="$MODES"
+                DMAP_TASK_DESCR[$ID]="$DESCRIPTION"
+                if [[ ! -z ${SHORT:-} ]]; then
+                    DMAP_TASK_SHORT[$SHORT]=$ID
                 fi
-                if [[ ! -z ${SHORT:-} && ! -z ${DMAP_TASK_SHORT[${SHORT:-}]:-} ]]; then
-                    ConsoleError "    >" "overwriting task short from ${DMAP_TASK_SHORT[$SHORT]} to $ID"
-                    HAVE_ERRORS=true
-                fi
-                if [[ $HAVE_ERRORS == true ]]; then
-                    ConsoleError " ->" "declare task - could not declare task"
-                    NO_ERRORS=false
-                else
-                    DMAP_TASK_ORIGIN[$ID]=$ORIGIN
-                    DMAP_TASK_DECL[$ID]=${file%.*}
-                    DMAP_TASK_EXEC[$ID]=$EXECUTABLE
-                    DMAP_TASK_MODES[$ID]="$MODES"
-                    DMAP_TASK_DESCR[$ID]="$DESCRIPTION"
-                    if [[ ! -z ${SHORT:-} ]]; then
-                        DMAP_TASK_SHORT[$SHORT]=$ID
-                    fi
-                    ConsoleDebug "declared $ORIGIN:::$ID with short '$SHORT'"
-                fi
-            done
-#             if [[ $NO_ERRORS == false ]]; then
-#                 ConsoleError " ->" "declare task - could not declare all tasks from '$ORIGIN'"
-#             fi
-#         else
-#             ConsoleWarn "    >" "no tasks (id files) found at '$ORIGIN'"
-#         fi
+                ConsoleDebug "declared $ORIGIN:::$ID with short '$SHORT'"
+            fi
+        done
     fi
 }
 

@@ -62,6 +62,7 @@ ParseCli() {
     ConsoleDebug "getopt passed"
     eval set -- "$PARSED"
     DO_EXIT=false
+    DO_EXIT_2=false
     CLI_EXTRA_ARGS=
 
     ConsoleDebug "looping through options"

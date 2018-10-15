@@ -19,9 +19,7 @@ find /opt/skb/framework/etc -type f -perm 664
 find /opt/skb/framework/man -type f -perm 644
 find /opt/skb/framework/scenarios -type f -perm 644
 
-mkdir -p /opt/skb/framework/cache
-
-skb-framework -M dev -e bdc -- -abc
-chmod 664 /opt/skb/framework/cache/*
-
 chown -R skbuser:skbuser /opt/skb/framework
+
+mkdir -p /var/cache/skb-framework
+chown -R skbuser:skbuser /var/cache/skb-framework

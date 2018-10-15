@@ -24,6 +24,9 @@ fi
 echo " ==> removing /opt/skb-framework"
 rm -fr /opt/skb/framework
 
+echo " ==> removing /var/cache/skb-framework"
+rm -fr /var/cache/skb-framework
+
 if [ -d "/opt/skb" ]; then
     echo " ==> found /opt/skb"
 

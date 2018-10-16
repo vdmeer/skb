@@ -67,17 +67,32 @@ DO_TEST=false
 DO_ALL=false
 DO_PRIMARY=false
 DO_SECONDARY=false
+REQUESTED=false
+LOADED=false
 TARGET=
+
+NO_AUTHORS=false
+NO_BUGS=false
+NO_COMMANDS=false
+NO_COPYING=false
+NO_DEPS=false
+NO_EXITSTATUS=false
+NO_OPTIONS=false
+NO_PARAMS=false
+NO_RESOURCES=false
+NO_SECURITY=false
+NO_TASKS=false
 
 
 
 ##
 ## set CLI options and parse CLI
 ##
-CLI_OPTIONS=abchpst
-CLI_LONG_OPTIONS=build,clean,help,test,all,adoc,html,manp,pdf,text,src
+CLI_OPTIONS=abchprst
+CLI_LONG_OPTIONS=build,clean,help,test,all,adoc,html,manp,pdf,text,src,requested
+CLI_LONG_OPTIONS+=,no-authors,no-bugs,no-commands,no-copying,no-deps,no,exitstatus,no-options,no-params,no-resources,no-security,no-tasks
 
-! PARSED=$(getopt --options "$CLI_OPTIONS" --longoptions "$CLI_LONG_OPTIONS" --name bdman -- "$@")
+! PARSED=$(getopt --options "$CLI_OPTIONS" --longoptions "$CLI_LONG_OPTIONS" --name build-manual -- "$@")
 if [[ ${PIPESTATUS[0]} -ne 0 ]]; then
     ConsoleError "  ->" "unknown CLI options"
     exit 1
@@ -85,6 +100,7 @@ fi
 eval set -- "$PARSED"
 
 PRINT_PADDING=19
+PRINT_PADDING_FILTERS=24
 while true; do
     case "$1" in
         -b | --build)
@@ -101,19 +117,41 @@ while true; do
             BuildTaskHelpLine b build       "<none>"    "builds a manual (manpage), requires a target"      $PRINT_PADDING
             BuildTaskHelpLine c clean       "<none>"    "removes all target artifacts"                      $PRINT_PADDING
             BuildTaskHelpLine h help        "<none>"    "print help screen and exit"                        $PRINT_PADDING
+            BuildTaskHelpLine l loaded      "<none>"    "only show loaded tasks"                            $PRINT_PADDING
             BuildTaskHelpLine p primary     "<none>"    "set all primary targets"                           $PRINT_PADDING
+            BuildTaskHelpLine r requested   "<none>"    "only show requested dependencies and parameters"   $PRINT_PADDING
             BuildTaskHelpLine s secondary   "<none>"    "set all secondary targets"                         $PRINT_PADDING
             BuildTaskHelpLine t test        "<none>"    "test a manual (show results), requires a target"   $PRINT_PADDING
             printf "\n   targets\n"
-            BuildTaskHelpLine "<none>" adoc  "<none>" "secondary target: text versions: ansi, text"     $PRINT_PADDING
-            BuildTaskHelpLine "<none>" html  "<none>" "secondary target: HTML file"                     $PRINT_PADDING
-            BuildTaskHelpLine "<none>" manp  "<none>" "secondary target: man page file"                 $PRINT_PADDING
-            BuildTaskHelpLine "<none>" pdf   "<none>" "secondary target: PDF file)"                     $PRINT_PADDING
-            BuildTaskHelpLine "<none>" text  "<none>" "secondary target: text versions: ansi, text"     $PRINT_PADDING
-            BuildTaskHelpLine "<none>" src   "<none>" "primary target: text source files from ADOC"     $PRINT_PADDING
+            BuildTaskHelpLine "<none>" adoc  "<none>" "secondary target: text versions: ansi, text"         $PRINT_PADDING
+            BuildTaskHelpLine "<none>" html  "<none>" "secondary target: HTML file"                         $PRINT_PADDING
+            BuildTaskHelpLine "<none>" manp  "<none>" "secondary target: man page file"                     $PRINT_PADDING
+            BuildTaskHelpLine "<none>" pdf   "<none>" "secondary target: PDF file)"                         $PRINT_PADDING
+            BuildTaskHelpLine "<none>" text  "<none>" "secondary target: text versions: ansi, text"         $PRINT_PADDING
+            BuildTaskHelpLine "<none>" src   "<none>" "primary target: text source files from ADOC"         $PRINT_PADDING
+            printf "\n   filters\n"
+            BuildTaskHelpLine "<none>" no-authors       "<none>" "do not include authors"                   $PRINT_PADDING_FILTERS
+            BuildTaskHelpLine "<none>" no-bugs          "<none>" "do not include bugs"                      $PRINT_PADDING_FILTERS
+            BuildTaskHelpLine "<none>" no-commands      "<none>" "do not include commands"                  $PRINT_PADDING_FILTERS
+            BuildTaskHelpLine "<none>" no-copying       "<none>" "do not include copying"                   $PRINT_PADDING_FILTERS
+            BuildTaskHelpLine "<none>" no-deps          "<none>" "do not include dependencies"              $PRINT_PADDING_FILTERS
+            BuildTaskHelpLine "<none>" no-exitstatus    "<none>" "do not include exit status"               $PRINT_PADDING_FILTERS
+            BuildTaskHelpLine "<none>" no-options       "<none>" "do not include options"                   $PRINT_PADDING_FILTERS
+            BuildTaskHelpLine "<none>" no-params        "<none>" "do not include parameters"                $PRINT_PADDING_FILTERS
+            BuildTaskHelpLine "<none>" no-resources     "<none>" "do not include resources"                 $PRINT_PADDING_FILTERS
+            BuildTaskHelpLine "<none>" no-security      "<none>" "do not include security"                  $PRINT_PADDING_FILTERS
+            BuildTaskHelpLine "<none>" no-tasks         "<none>" "do not include tasks"                     $PRINT_PADDING_FILTERS
             exit 0
             ;;
 
+        -l | --loaded)
+            shift
+            LOADED=true
+            ;;
+        -r | --requested)
+            shift
+            REQUESTED=true
+            ;;
         -t | --test)
             shift
             DO_TEST=true
@@ -156,6 +194,52 @@ while true; do
             TARGET=$TARGET" src"
             ;;
 
+        --no-authors)
+            shift
+            NO_AUTHORS=true
+            ;;
+        --no-bugs)
+            shift
+            NO_BUGS=true
+            ;;
+        --no-commands)
+            shift
+            NO_COMMANDS=true
+            ;;
+        --no-copying)
+            shift
+            NO_COPYING=true
+            ;;
+        --no-deps)
+            shift
+            NO_DEPS=true
+            ;;
+        --no-exitstatus)
+            shift
+            NO_EXITSTATUS=true
+            ;;
+        --no-options)
+            shift
+            NO_OPTIONS=true
+            ;;
+        --no-params)
+            shift
+            NO_PARAMS=true
+            ;;
+        --no-resources)
+            shift
+            NO_RESOURCES=true
+            ;;
+        --no-security)
+            shift
+            NO_SECURITY=true
+            ;;
+        --no-tasks)
+            shift
+            NO_TASKS=true
+            ;;
+
+
         --)
             shift
             break
@@ -186,6 +270,16 @@ if [[ $DO_BUILD == true || $DO_TEST == true ]]; then
     fi
 fi
 
+if [[ "$REQUESTED" == false ]]; then
+    REQUESTED="--all"
+else
+    REQUESTED="--requested"
+fi
+if [[ "$LOADED" == false ]]; then
+    LOADED="--all"
+else
+    LOADED="--loaded"
+fi
 
 
 ############################################################################################
@@ -193,7 +287,7 @@ fi
 ## ready to go
 ##
 ############################################################################################
-ConsoleInfo "  -->" "bdman: starting task"
+ConsoleInfo "  -->" "bm: starting task"
 
 
 
@@ -205,13 +299,13 @@ CONFIG_MAP["STRICT"]=yes
 ConsoleResetErrors
 
 set +e
-${DMAP_TASK_EXEC["validate-installation"]} -s --man-src
+${DMAP_TASK_EXEC["validate-installation"]} --strict --man-src
 __errno=$?
 set -e
 
 if (( $__errno > 0 )); then
-    ConsoleError " ->" "bdman: found documentation errors, cannot continue"
-    ConsoleInfo "  -->" "bdman: done"
+    ConsoleError " ->" "bm: found documentation errors, cannot continue"
+    ConsoleInfo "  -->" "bm: done"
     exit 4
 fi
 CONFIG_MAP["STRICT"]=$STRICT
@@ -240,10 +334,10 @@ BuildManualCore() {
     case $TARGET in
         adoc)
             printf "= %s(1)\n" "${CONFIG_MAP["APP_SCRIPT"]}"
-            printf "Sven van der Meer\n"
+            printf "%s\n" "$(cat ${CONFIG_MAP["MANUAL_SRC"]}/tags/authors.txt)"
             printf ":doctype: manpage\n"
-            printf ":man manual: SKB Builder Manual\n"
-            printf ":man source: SKB Builder %s\n" "${CONFIG_MAP["VERSION"]}"
+            printf ":man manual: %s Manual\n" "${CONFIG_MAP["APP_NAME"]}"
+            printf ":man source: %s %s\n" "${CONFIG_MAP["APP_NAME"]}" "${CONFIG_MAP["VERSION"]}"
             printf ":page-layout: base\n"
 #             printf ":toc: left\n"
             printf ":toclevels: 4\n\n"
@@ -301,134 +395,74 @@ BuildManualCore() {
     printf "    - type 'h' or 'help' in the shell for commands\n"
     printf "\n"
 
-    case $TARGET in
-        adoc)
-            printf "== DESCRIPTION\n"
-            ;;
-        ansi | text*)
-            printf "  "
-            PrintEffect bold "DESCRIPTION" $TARGET
-            printf "\n  "
-            ;;
-    esac
 
-    printf "The %s(1) " "${CONFIG_MAP["APP_SCRIPT"]}"
-    cat ${CONFIG_MAP["MANUAL_SRC"]}/tags/description.txt
+    DescribeApplicationDescription
 
-    DescribeElementOptions
+    if [[ "$NO_OPTIONS" == false ]]; then
+        DescribeElementOptions
 
-    DescribeElementOptionsRuntime
-    set +e
-    ${DMAP_TASK_EXEC["describe-option"]} --run --print-mode $TARGET
-    set -e
+        DescribeElementOptionsRuntime
+        set +e
+        ${DMAP_TASK_EXEC["describe-option"]} --run --print-mode $TARGET
+        set -e
 
+        DescribeElementOptionsExit
+        set +e
+        ${DMAP_TASK_EXEC["describe-option"]} --exit --print-mode $TARGET
+        set -e
+    fi
 
-    DescribeElementOptionsExit
-    set +e
-    ${DMAP_TASK_EXEC["describe-option"]} --exit --print-mode $TARGET
-    set -e
+    if [[ "$NO_PARAMS" == false ]]; then
+        DescribeElementParameters
+        set +e
+        ${DMAP_TASK_EXEC["describe-parameter"]} $REQUESTED --print-mode $TARGET
+        set -e
+    fi
 
+    if [[ "$NO_TASKS" == false ]]; then
+        DescribeElementTasks
+        set +e
+        ${DMAP_TASK_EXEC["describe-task"]} $LOADED --print-mode $TARGET
+        set -e
+    fi
 
-    DescribeElementParameters
-    set +e
-    ${DMAP_TASK_EXEC["describe-parameter"]} --all --print-mode $TARGET
-    set -e
+    if [[ "$NO_DEPS" == false ]]; then
+        DescribeElementDependencies
+        set +e
+        ${DMAP_TASK_EXEC["describe-dependency"]} $REQUESTED --print-mode $TARGET
+        set -e
+    fi
 
+    if [[ "$NO_COMMANDS" == false ]]; then
+        DescribeElementCommands
+        set +e
+        ${DMAP_TASK_EXEC["describe-command"]} --all --print-mode $TARGET
+        set -e
+    fi
 
-    DescribeElementTasks
-    set +e
-    ${DMAP_TASK_EXEC["describe-task"]} --all --print-mode $TARGET
-    set -e
+    if [[ "$NO_EXITSTATUS" == false ]]; then
+        DescribeElementExitStatus
+    fi
 
+    if [[ "$NO_SECURITY" == false ]]; then
+        DescribeApplicationSecurity
+    fi
 
-    DescribeElementDependencies
-    set +e
-    ${DMAP_TASK_EXEC["describe-dependency"]} --all --print-mode $TARGET
-    set -e
+    if [[ "$NO_BUGS" == false ]]; then
+        DescribeApplicationBugs
+    fi
 
+    if [[ "$NO_AUTHORS" == false ]]; then
+        DescribeApplicationAuthors
+    fi
 
-    DescribeElementDependencies
-    set +e
-    ${DMAP_TASK_EXEC["describe-command"]} --all --print-mode $TARGET
-    set -e
+    if [[ "$NO_RESOURCES" == false ]]; then
+        DescribeApplicationResources
+    fi
 
-
-    DescribeElementExitStatus
-
-
-    case $TARGET in
-        adoc)
-            printf "\n\n== SECURITY CONCERNS\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/application/security.adoc
-            printf "\n\n"
-            ;;
-        ansi | text*)
-            printf "  "
-            PrintEffect bold "SECURITY CONCERNS" $TARGET
-            printf "\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/application/security.txt
-            ;;
-    esac
-
-
-    case $TARGET in
-        adoc)
-            printf "\n\n== BUGS\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/application/bugs.adoc
-            printf "\n\n"
-            ;;
-        ansi | text*)
-            printf "  "
-            PrintEffect bold "BUGS" $TARGET
-            printf "\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/application/bugs.txt
-            ;;
-    esac
-
-
-    case $TARGET in
-        adoc)
-            printf "\n\n== AUTHORS\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/application/authors.adoc
-            printf "\n\n"
-            ;;
-        ansi | text*)
-            printf "  "
-            PrintEffect bold "AUTHORS" $TARGET
-            printf "\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/application/authors.txt
-            ;;
-    esac
-
-
-    case $TARGET in
-        adoc)
-            printf "\n\n== RESOURCES\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/application/resources.adoc
-            printf "\n\n"
-            ;;
-        ansi | text*)
-            printf "  "
-            PrintEffect bold "RESOURCES" $TARGET
-            printf "\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/application/resources.txt
-            ;;
-    esac
-
-
-    case $TARGET in
-        adoc)
-            printf "\n\n== COPYING\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/application/copying.adoc
-            printf "\n\n"
-            ;;
-        ansi | text*)
-            printf "  "
-            PrintEffect bold "COPYING" $TARGET
-            printf "\n"
-            cat ${CONFIG_MAP["MANUAL_SRC"]}/application/copying.txt
-            ;;
-    esac
+    if [[ "$NO_COPYING" == false ]]; then
+        DescribeApplicationCopying
+    fi
 
     printf "\n"
 }
@@ -744,5 +778,5 @@ if [[ $DO_TEST == true ]]; then
     ConsoleInfo "  -->" "done test"
 fi
 
-ConsoleInfo "  -->" "bdman: done"
+ConsoleInfo "  -->" "bm: done"
 exit $TASK_ERRORS

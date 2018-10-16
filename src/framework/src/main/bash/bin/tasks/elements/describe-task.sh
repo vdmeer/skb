@@ -21,7 +21,7 @@
 #-------------------------------------------------------------------------------
 
 ##
-## describe-task - describe-task
+## describe-task - describes a task or tasks
 ##
 ## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
 ## @version    v0.0.0

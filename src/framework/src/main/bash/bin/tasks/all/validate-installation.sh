@@ -191,7 +191,7 @@ ValidateManualSource() {
     if [[ ! -d ${CONFIG_MAP["MANUAL_SRC"]}/tags ]]; then
         ConsoleError " ->" "did not find tag directory"
     else
-        EXPECTED="tags/description tags/name"
+        EXPECTED="tags/name tags/authors"
         for FILE in $EXPECTED; do
             if [[ ! -f ${CONFIG_MAP["MANUAL_SRC"]}/$FILE.txt ]]; then
                 ConsoleWarnStrict "  ->" "missing file $FILE.txt"
@@ -254,7 +254,7 @@ ValidateManualSource() {
     if [[ ! -d ${CONFIG_MAP["MANUAL_SRC"]}/application ]]; then
         ConsoleError " ->" "did not find tag directory"
     else
-        EXPECTED="application/authors application/bugs application/copying application/resources application/security"
+        EXPECTED="application/description application/authors application/bugs application/copying application/resources application/security"
         for FILE in $EXPECTED; do
             if [[ ! -f ${CONFIG_MAP["MANUAL_SRC"]}/$FILE.adoc ]]; then
                 ConsoleWarnStrict "  ->" "missing file $FILE.adoc"
@@ -622,7 +622,9 @@ ConsoleResetErrors
 ConsoleInfo "  -->" "validate target(s): $TARGET"
 
 OLD_STRICT=${CONFIG_MAP["STRICT"]}
-CONFIG_MAP["STRICT"]=yes
+if [[ "$DO_STRICT" == true ]]; then
+    CONFIG_MAP["STRICT"]=yes
+fi
 for TODO in $TARGET; do
     ConsoleDebug "target: $TODO"
     case $TODO in

@@ -69,7 +69,7 @@ ConsoleResetWarnings
 CLI_OPTIONS=fhs
 CLI_LONG_OPTIONS=force,help,simulate
 
-! PARSED=$(getopt --options "$CLI_OPTIONS" --longoptions "$CLI_LONG_OPTIONS" --name clean -- "$@")
+! PARSED=$(getopt --options "$CLI_OPTIONS" --longoptions "$CLI_LONG_OPTIONS" --name cloc-inst -- "$@")
 if [[ ${PIPESTATUS[0]} -ne 0 ]]; then
     ConsoleError "  ->" "unknown CLI options"
     exit 1

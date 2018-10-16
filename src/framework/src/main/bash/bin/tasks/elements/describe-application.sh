@@ -21,7 +21,7 @@
 #-------------------------------------------------------------------------------
 
 ##
-## describe-command - describes a command or commands
+## describe-application - describes the application
 ##
 ## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
 ## @version    v0.0.0
@@ -53,7 +53,7 @@ CONFIG_MAP["RUNNING_IN"]="task"
 ## - reset errors and warnings
 ##
 source $FW_HOME/bin/functions/_include
-source $FW_HOME/bin/functions/describe/command.sh
+source $FW_HOME/bin/functions/describe/_include
 ConsoleResetErrors
 ConsoleResetWarnings
 
@@ -62,7 +62,12 @@ ConsoleResetWarnings
 ## set local variables
 ##
 PRINT_MODE=
-CMD_ID=
+APP=
+AUTHORS=
+BUGS=
+COPYING=
+RESOURCES=
+SECURITY=
 ALL=
 CLI_SET=false
 
@@ -71,10 +76,11 @@ CLI_SET=false
 ##
 ## set CLI options and parse CLI
 ##
-CLI_OPTIONS=ahi:p:
-CLI_LONG_OPTIONS=all,help,id:,print-mode:
+CLI_OPTIONS=ahp:
+CLI_LONG_OPTIONS=all,help,print-mode:
+CLI_LONG_OPTIONS+=,app,authors,bugs,copying,resources,security
 
-! PARSED=$(getopt --options "$CLI_OPTIONS" --longoptions "$CLI_LONG_OPTIONS" --name describe-command -- "$@")
+! PARSED=$(getopt --options "$CLI_OPTIONS" --longoptions "$CLI_LONG_OPTIONS" --name describe-application -- "$@")
 if [[ ${PIPESTATUS[0]} -ne 0 ]]; then
     ConsoleError "  ->" "unknown CLI options"
     exit 1
@@ -84,28 +90,61 @@ eval set -- "$PARSED"
 PRINT_PADDING=25
 while true; do
     case "$1" in
+        -h | --help)
+            printf "\n   options\n"
+            BuildTaskHelpLine h help        "<none>"    "print help screen and exit"    $PRINT_PADDING
+            BuildTaskHelpLine p print-mode  "MODE"      "print mode: ansi, text, adoc"  $PRINT_PADDING
+
+            printf "\n   filters\n"
+            BuildTaskHelpLine a all               "<none>"   "all application aspects"              $PRINT_PADDING
+            BuildTaskHelpLine "<none>" app        "<none>"   "include application description"      $PRINT_PADDING
+            BuildTaskHelpLine "<none>" authors    "<none>"   "include authors"                      $PRINT_PADDING
+            BuildTaskHelpLine "<none>" bugs       "<none>"   "include bugs"                         $PRINT_PADDING
+            BuildTaskHelpLine "<none>" copying    "<none>"   "include copying"                      $PRINT_PADDING
+            BuildTaskHelpLine "<none>" resources  "<none>"   "include resources"                    $PRINT_PADDING
+            BuildTaskHelpLine "<none>" security   "<none>"   "include security"                     $PRINT_PADDING
+            exit 0
+            ;;
+
+        -p | --print-mode)
+            PRINT_MODE="$2"
+            shift 2
+            ;;
+
         -a | --all)
             ALL=yes
             CLI_SET=true
             shift
             ;;
-        -h | --help)
-            printf "\n   options\n"
-            BuildTaskHelpLine h help        "<none>"    "print help screen and exit"    $PRINT_PADDING
-            BuildTaskHelpLine p print-mode  "MODE"      "print mode: ansi, text, adoc"  $PRINT_PADDING
-            printf "\n   filters\n"
-            BuildTaskHelpLine a all         "<none>"    "all commands, disables all other filters"  $PRINT_PADDING
-            BuildTaskHelpLine i id          "ID"        "command identifier"                        $PRINT_PADDING
-            exit 0
-            ;;
-        -i | --id)
-            CMD_ID="$2"
+        --app)
+            APP=yes
             CLI_SET=true
-            shift 2
+            shift
             ;;
-        -p | --print-mode)
-            PRINT_MODE="$2"
-            shift 2
+        --authors)
+            AUTHORS=yes
+            CLI_SET=true
+            shift
+            ;;
+        --bugs)
+            BUGS=yes
+            CLI_SET=true
+            shift
+            ;;
+        --copying)
+            COPYING=yes
+            CLI_SET=true
+            shift
+            ;;
+        --resources)
+            RESOURCES=yes
+            CLI_SET=true
+            shift
+            ;;
+        --security)
+            SECURITY=yes
+            CLI_SET=true
+            shift
             ;;
 
         --)
@@ -126,22 +165,17 @@ done
 if [[ ! -n "$PRINT_MODE" ]]; then
     PRINT_MODE=${CONFIG_MAP["PRINT_MODE"]}
 fi
+TARGET=$PRINT_MODE
 
-if [[ "$ALL" == "yes" ]]; then
-    CMD_ID=
-else
-    if [[ -n "$CMD_ID" ]]; then
-        if [[ "${DMAP_CMD[$CMD_ID]:-}" == "--" ]]; then
-            if [[ ! -z "${DMAP_CMD_SHORT[$CMD_ID]:-}" ]]; then
-                CMD_ID="${DMAP_CMD_SHORT[$CMD_ID]}"
-            fi
-        fi
-        if [[ ! -n "${DMAP_CMD[$CMD_ID]:-}" ]]; then
-            ConsoleError " ->" "describe-command - unknown command ID '$CMD_ID'"
-            return
-        fi
-    fi
+if [[ "$ALL" == "yes" || $CLI_SET == false ]]; then
+    APP=yes
+    AUTHORS=yes
+    BUGS=yes
+    COPYING=yes
+    RESOURCES=yes
+    SECURITY=yes
 fi
+
 
 
 ############################################################################################
@@ -149,22 +183,45 @@ fi
 ## ready to go
 ##
 ############################################################################################
-ConsoleInfo "  -->" "dc: starting task"
+ConsoleInfo "  -->" "da: starting task"
 
-for ID in ${!DMAP_CMD[@]}; do
-    if [[ -n "$CMD_ID" ]]; then
-        if [[ ! "$CMD_ID" == "$ID" ]]; then
-            continue
-        fi
-    fi
-    keys=(${keys[@]:-} $ID)
-done
-keys=($(printf '%s\n' "${keys[@]:-}"|sort))
+if [[ "$APP" == "yes" ]]; then
+    DescribeApplicationDescription
+fi
 
-for i in ${!keys[@]}; do
-    ID=${keys[$i]}
-    DescribeCommand $ID full "$PRINT_MODE line-indent" $PRINT_MODE
-done
+#     DescribeElementOptions
+#     DescribeElementOptionsRuntime
+#     DescribeElementOptionsExit
+# 
+#     DescribeElementParameters
+# 
+#     DescribeElementTasks
+# 
+#     DescribeElementDependencies
+# 
+#     DescribeElementCommands
+# 
+#     DescribeElementExitStatus
 
-ConsoleInfo "  -->" "dc: done"
+if [[ "$SECURITY" == "yes" ]]; then
+    DescribeApplicationSecurity
+fi
+
+if [[ "$BUGS" == "yes" ]]; then
+    DescribeApplicationBugs
+fi
+
+if [[ "$AUTHORS" == "yes" ]]; then
+    DescribeApplicationAuthors
+fi
+
+if [[ "$RESOURCES" == "yes" ]]; then
+    DescribeApplicationResources
+fi
+
+if [[ "$COPYING" == "yes" ]]; then
+    DescribeApplicationCopying
+fi
+
+ConsoleInfo "  -->" "da: done"
 exit $TASK_ERRORS

@@ -33,12 +33,7 @@
 ##
 
 
-if [[ "${CONFIG_MAP["APP_MODE"]}" != "dev" ]]; then
-    ConsoleError " ->" "validate can only run in 'dev' mode"
-    DO_EXIT=true
-else
-    CONFIG_MAP["LOADER-LEVEL"]=off
-    CONFIG_MAP["SHELL-LEVEL"]=off
-    OPT_CLI_MAP["execute-task"]="validate-installation -sa"
-fi
+CONFIG_MAP["LOADER-LEVEL"]=off
+CONFIG_MAP["SHELL-LEVEL"]=off
+OPT_CLI_MAP["execute-task"]="validate-installation -sa"
 DO_EXIT_2=true

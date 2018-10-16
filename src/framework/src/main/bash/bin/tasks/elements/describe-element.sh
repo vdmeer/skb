@@ -21,7 +21,7 @@
 #-------------------------------------------------------------------------------
 
 ##
-## describe-command - describes a command or commands
+## describe-element - describes the elements of an application
 ##
 ## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
 ## @version    v0.0.0
@@ -53,7 +53,7 @@ CONFIG_MAP["RUNNING_IN"]="task"
 ## - reset errors and warnings
 ##
 source $FW_HOME/bin/functions/_include
-source $FW_HOME/bin/functions/describe/command.sh
+source $FW_HOME/bin/functions/describe/_include
 ConsoleResetErrors
 ConsoleResetWarnings
 
@@ -62,7 +62,12 @@ ConsoleResetWarnings
 ## set local variables
 ##
 PRINT_MODE=
-CMD_ID=
+COMMANDS=
+DEPENDENCIES=
+EXITSTATUS=
+OPTIONS=
+PARAMETERS=
+TASKS=
 ALL=
 CLI_SET=false
 
@@ -71,10 +76,11 @@ CLI_SET=false
 ##
 ## set CLI options and parse CLI
 ##
-CLI_OPTIONS=ahi:p:
-CLI_LONG_OPTIONS=all,help,id:,print-mode:
+CLI_OPTIONS=ahp:
+CLI_LONG_OPTIONS=all,help,print-mode:
+CLI_LONG_OPTIONS+=,commands,dependencies,exitstatus,options,parameters,tasks
 
-! PARSED=$(getopt --options "$CLI_OPTIONS" --longoptions "$CLI_LONG_OPTIONS" --name describe-command -- "$@")
+! PARSED=$(getopt --options "$CLI_OPTIONS" --longoptions "$CLI_LONG_OPTIONS" --name describe-element -- "$@")
 if [[ ${PIPESTATUS[0]} -ne 0 ]]; then
     ConsoleError "  ->" "unknown CLI options"
     exit 1
@@ -84,28 +90,61 @@ eval set -- "$PARSED"
 PRINT_PADDING=25
 while true; do
     case "$1" in
+        -h | --help)
+            printf "\n   options\n"
+            BuildTaskHelpLine h help        "<none>"    "print help screen and exit"    $PRINT_PADDING
+            BuildTaskHelpLine p print-mode  "MODE"      "print mode: ansi, text, adoc"  $PRINT_PADDING
+
+            printf "\n   filters\n"
+            BuildTaskHelpLine a all                 "<none>"   "all application aspects"              $PRINT_PADDING
+            BuildTaskHelpLine "<none>" commands     "<none>"   "include application description"      $PRINT_PADDING
+            BuildTaskHelpLine "<none>" dependencies "<none>"   "include authors"                      $PRINT_PADDING
+            BuildTaskHelpLine "<none>" exitstatus   "<none>"   "include bugs"                         $PRINT_PADDING
+            BuildTaskHelpLine "<none>" options      "<none>"   "include copying"                      $PRINT_PADDING
+            BuildTaskHelpLine "<none>" parameters   "<none>"   "include resources"                    $PRINT_PADDING
+            BuildTaskHelpLine "<none>" tasks        "<none>"   "include security"                     $PRINT_PADDING
+            exit 0
+            ;;
+
+        -p | --print-mode)
+            PRINT_MODE="$2"
+            shift 2
+            ;;
+
         -a | --all)
             ALL=yes
             CLI_SET=true
             shift
             ;;
-        -h | --help)
-            printf "\n   options\n"
-            BuildTaskHelpLine h help        "<none>"    "print help screen and exit"    $PRINT_PADDING
-            BuildTaskHelpLine p print-mode  "MODE"      "print mode: ansi, text, adoc"  $PRINT_PADDING
-            printf "\n   filters\n"
-            BuildTaskHelpLine a all         "<none>"    "all commands, disables all other filters"  $PRINT_PADDING
-            BuildTaskHelpLine i id          "ID"        "command identifier"                        $PRINT_PADDING
-            exit 0
-            ;;
-        -i | --id)
-            CMD_ID="$2"
+        --commands)
+            COMMANDS=yes
             CLI_SET=true
-            shift 2
+            shift
             ;;
-        -p | --print-mode)
-            PRINT_MODE="$2"
-            shift 2
+        --dependencies)
+            DEPENDENCIES=yes
+            CLI_SET=true
+            shift
+            ;;
+        --exitstatus)
+            EXITSTATUS=yes
+            CLI_SET=true
+            shift
+            ;;
+        --options)
+            OPTIONS=yes
+            CLI_SET=true
+            shift
+            ;;
+        --parameters)
+            PARAMETERS=yes
+            CLI_SET=true
+            shift
+            ;;
+        --tasks)
+            TASKS=yes
+            CLI_SET=true
+            shift
             ;;
 
         --)
@@ -126,22 +165,17 @@ done
 if [[ ! -n "$PRINT_MODE" ]]; then
     PRINT_MODE=${CONFIG_MAP["PRINT_MODE"]}
 fi
+TARGET=$PRINT_MODE
 
-if [[ "$ALL" == "yes" ]]; then
-    CMD_ID=
-else
-    if [[ -n "$CMD_ID" ]]; then
-        if [[ "${DMAP_CMD[$CMD_ID]:-}" == "--" ]]; then
-            if [[ ! -z "${DMAP_CMD_SHORT[$CMD_ID]:-}" ]]; then
-                CMD_ID="${DMAP_CMD_SHORT[$CMD_ID]}"
-            fi
-        fi
-        if [[ ! -n "${DMAP_CMD[$CMD_ID]:-}" ]]; then
-            ConsoleError " ->" "describe-command - unknown command ID '$CMD_ID'"
-            return
-        fi
-    fi
+if [[ "$ALL" == "yes" || $CLI_SET == false ]]; then
+    COMMANDS=yes
+    DEPENDENCIES=yes
+    EXITSTATUS=yes
+    OPTIONS=yes
+    PARAMETERS=yes
+    TASKS=yes
 fi
+
 
 
 ############################################################################################
@@ -149,22 +183,33 @@ fi
 ## ready to go
 ##
 ############################################################################################
-ConsoleInfo "  -->" "dc: starting task"
+ConsoleInfo "  -->" "de: starting task"
 
-for ID in ${!DMAP_CMD[@]}; do
-    if [[ -n "$CMD_ID" ]]; then
-        if [[ ! "$CMD_ID" == "$ID" ]]; then
-            continue
-        fi
-    fi
-    keys=(${keys[@]:-} $ID)
-done
-keys=($(printf '%s\n' "${keys[@]:-}"|sort))
+if [[ "$OPTIONS" == "yes" ]]; then
+    DescribeElementOptions
+    DescribeElementOptionsRuntime
+    DescribeElementOptionsExit
+fi
 
-for i in ${!keys[@]}; do
-    ID=${keys[$i]}
-    DescribeCommand $ID full "$PRINT_MODE line-indent" $PRINT_MODE
-done
+if [[ "$PARAMETERS" == "yes" ]]; then 
+    DescribeElementParameters
+fi
 
-ConsoleInfo "  -->" "dc: done"
+if [[ "$TASKS" == "yes" ]]; then
+    DescribeElementTasks
+fi
+
+if [[ "$DEPENDENCIES" == "yes" ]]; then
+    DescribeElementDependencies
+fi
+
+if [[ "$COMMANDS" == "yes" ]]; then
+    DescribeElementCommands
+fi
+
+if [[ "$EXITSTATUS" == "yes" ]]; then
+    DescribeElementExitStatus
+fi
+
+ConsoleInfo "  -->" "de: done"
 exit $TASK_ERRORS

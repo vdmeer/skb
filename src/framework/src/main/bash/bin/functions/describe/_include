@@ -33,6 +33,7 @@
 ##
 
 
+source $FW_HOME/bin/functions/describe/application.sh
 source $FW_HOME/bin/functions/describe/command.sh
 source $FW_HOME/bin/functions/describe/dependency.sh
 source $FW_HOME/bin/functions/describe/elements.sh

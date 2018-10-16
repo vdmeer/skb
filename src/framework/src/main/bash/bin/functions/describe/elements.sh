@@ -21,7 +21,7 @@
 #-------------------------------------------------------------------------------
 
 ##
-## Describe: element description, e.e pre-text for the manual 
+## Describe: element description, e.g pre-text for the manual 
 ##
 ## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
 ## @version    v0.0.0
@@ -67,7 +67,7 @@ DescribeElementOptions() {
             printf "\n\n"
             ;;
         ansi | text*)
-            printf "\n\n  "
+            printf "  "
             PrintEffect bold "OPTIONS" $TARGET
             printf "\n"
             cat ${CONFIG_MAP["MANUAL_SRC"]}/framework/options.txt

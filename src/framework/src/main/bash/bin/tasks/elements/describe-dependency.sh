@@ -21,7 +21,7 @@
 #-------------------------------------------------------------------------------
 
 ##
-## describe-dependency - describe-dependency
+## describe-dependency - describes a dependency or dependencies
 ##
 ## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
 ## @version    v0.0.0

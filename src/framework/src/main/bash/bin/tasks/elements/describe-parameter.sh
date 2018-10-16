@@ -21,7 +21,7 @@
 #-------------------------------------------------------------------------------
 
 ##
-## describe-parameter - describe-parameter
+## describe-parameter - describes a parameter or parameters
 ##
 ## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
 ## @version    v0.0.0
@@ -101,7 +101,6 @@ while true; do
         -h | --help)
             printf "\n   options\n"
             BuildTaskHelpLine h help        "<none>"    "print help screen and exit"    $PRINT_PADDING
-            
             BuildTaskHelpLine p print-mode  "MODE"      "print mode: ansi, text, adoc"  $PRINT_PADDING
 
             printf "\n   filters\n"

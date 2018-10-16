@@ -56,7 +56,7 @@ ConsoleMessage() {
 
     case $LEVEL in
         all | fatal | error | warn-strict | warn | info | debug | trace)
-            printf %b "$1"
+            printf %b "$1" 1>&2
             ;;
         off)
             ;;
@@ -73,6 +73,7 @@ ConsoleMessage() {
 ##
 ConsoleFatal() {
     local LEVEL=
+    local SPRINT
     case ${CONFIG_MAP["RUNNING_IN"]} in
         loader)
             LOADER_ERRORS=$(($LOADER_ERRORS + 1))
@@ -90,9 +91,10 @@ ConsoleFatal() {
 
     case $LEVEL in
         all | fatal | error | warn-strict | warn | info | debug | trace)
-            printf "%s [" "$1"
-            PrintColor red "Fatal"
-            printf "] %s\n" "$2"
+            SPRINT=$(printf "%s [" "$1")
+            SPRINT+=$(PrintColor red "Fatal")
+            SPRINT+=$(printf "] %s\n" "$2")
+            printf "$SPRINT" 1>&2
             ;;
         off)
             ;;
@@ -109,6 +111,7 @@ ConsoleFatal() {
 ##
 ConsoleError() {
     local LEVEL=
+    local SPRINT
     case ${CONFIG_MAP["RUNNING_IN"]} in
         loader)
             LOADER_ERRORS=$(($LOADER_ERRORS + 1))
@@ -126,9 +129,10 @@ ConsoleError() {
 
     case $LEVEL in
         all | error | warn-strict | warn | info | debug | trace)
-            printf "%s [" "$1"
-            PrintColor light-red "Error"
-            printf "] %s\n" "$2"
+            SPRINT=$(printf "%s [" "$1")
+            SPRINT+=$(PrintColor light-red "Error")
+            SPRINT+=$(printf "] %s\n" "$2")
+            printf "$SPRINT" 1>&2
             ;;
         *)
             ;;
@@ -194,6 +198,7 @@ ConsoleHasErrors() {
 ##
 ConsoleWarnStrict() {
     local LEVEL=
+    local SPRINT
 
     if [[ ${CONFIG_MAP["STRICT"]} == "yes" ]]; then
         ## all warnings are errors
@@ -214,11 +219,12 @@ ConsoleWarnStrict() {
         esac
         case $LEVEL in
             all | error | warn-strict | warn | info | debug | trace)
-                printf "%s [" "$1"
-                PrintColor light-red "Error"
-                printf "/"
-                PrintColor yellow "strict"
-                printf "] %s\n" "$2"
+                SPRINT=$(printf "%s [" "$1")
+                SPRINT+=$(PrintColor light-red "Error")
+                SPRINT+=$(printf "/")
+                SPRINT+=$(PrintColor yellow "strict")
+                SPRINT+=$(printf "] %s\n" "$2")
+                printf "$SPRINT" 1>&2
                 ;;
             *)
                 ;;
@@ -241,11 +247,12 @@ ConsoleWarnStrict() {
         esac
         case $LEVEL in
             all | warn-strict | warn | info | debug | trace)
-                printf "%s [" "$1"
-                PrintColor yellow "Warning"
-                printf "/"
-                PrintColor light-red "strict"
-                printf "] %s\n" "$2"
+                SPRINT=$(printf "%s [" "$1")
+                SPRINT+=$(PrintColor yellow "Warning")
+                SPRINT+=$(printf "/")
+                SPRINT+=$(PrintColor light-red "strict")
+                SPRINT+=$(printf "] %s\n" "$2")
+                printf "$SPRINT" 1>&2
                 ;;
             *)
                 ;;
@@ -263,6 +270,7 @@ ConsoleWarnStrict() {
 ##
 ConsoleWarn() {
     local LEVEL=
+    local SPRINT
     case ${CONFIG_MAP["RUNNING_IN"]} in
         loader)
             LOADER_WARNINGS=$(($LOADER_WARNINGS + 1))
@@ -279,9 +287,10 @@ ConsoleWarn() {
     esac
     case ${CONFIG_MAP["LOADER-LEVEL"]} in
         all | warn | info | debug | trace)
-            printf "%s [" "$1"
-            PrintColor yellow "Warning"
-            printf "] %s\n" "$2"
+            SPRINT=$(printf "%s [" "$1")
+            SPRINT+=$(PrintColor yellow "Warning")
+            SPRINT+=$(printf "] %s\n" "$2")
+            printf "$SPRINT" 1>&2
             ;;
         *)
             ;;
@@ -347,6 +356,7 @@ ConsoleHasWarnings() {
 ##
 ConsoleInfo() {
     local LEVEL=
+    local SPRINT
     case ${CONFIG_MAP["RUNNING_IN"]} in
         loader)
             LEVEL=${CONFIG_MAP["LOADER-LEVEL"]}
@@ -360,12 +370,13 @@ ConsoleInfo() {
     esac
     case $LEVEL in
         all | info | debug | trace)
-            printf "%s [" "$1"
-            PrintColor light-blue "Info"
-            printf "] %s\n" "$2"
+            SPRINT=$(printf "%s [" "$1")
+            SPRINT+=$(PrintColor light-blue "Info")
+            SPRINT+=$(printf "] %s\n" "$2")
             if [[ "$2" == "done" ]]; then
-                printf "\n"
+                SPRINT+=$(printf "\n")
             fi
+            printf "$SPRINT" 1>&2
             ;;
         *)
             ;;
@@ -381,6 +392,7 @@ ConsoleInfo() {
 ##
 ConsoleDebug() {
     local LEVEL=
+    local SPRINT
     case ${CONFIG_MAP["RUNNING_IN"]} in
         loader)
             LEVEL=${CONFIG_MAP["LOADER-LEVEL"]}
@@ -394,8 +406,9 @@ ConsoleDebug() {
     esac
     case $LEVEL in
         all | debug | trace)
-            PrintEffect bold "    >"
-            printf " %s\n" "$1"
+            SPRINT=$(PrintEffect bold "    >")
+            SPRINT+=$(printf " %s\n" "$1")
+            printf "$SPRINT" 1>&2
             ;;
         *)
             ;;
@@ -411,6 +424,7 @@ ConsoleDebug() {
 ##
 ConsoleTrace() {
     local LEVEL=
+    local SPRINT
     case ${CONFIG_MAP["RUNNING_IN"]} in
         loader)
             LEVEL=${CONFIG_MAP["LOADER-LEVEL"]}
@@ -424,8 +438,9 @@ ConsoleTrace() {
     esac
     case $LEVEL in
         all | trace)
-            PrintEffect italic "    >"
-            printf " %s\n" "$1"
+            SPRINT=$(PrintEffect italic "    >")
+            SPRINT+=$(printf " %s\n" "$1")
+            printf "$SPRINT" 1>&2
             ;;
         *)
             ;;

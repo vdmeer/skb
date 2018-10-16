@@ -73,8 +73,8 @@ ALL=
 ##
 ## set CLI options and parse CLI
 ##
-CLI_OPTIONS=dhp:r
-CLI_LONG_OPTIONS=def-table,help,print-mode:,requested
+CLI_OPTIONS=adhp:r
+CLI_LONG_OPTIONS=all,def-table,help,print-mode:,requested
 
 ! PARSED=$(getopt --options "$CLI_OPTIONS" --longoptions "$CLI_LONG_OPTIONS" --name list-parameters -- "$@")
 if [[ ${PIPESTATUS[0]} -ne 0 ]]; then
@@ -86,6 +86,11 @@ eval set -- "$PARSED"
 PRINT_PADDING=25
 while true; do
     case "$1" in
+        -a | --all)
+            ALL=yes
+            CLI_SET=true
+            shift
+            ;;
         -d | --def-table)
             shift
             DEFAULT_TABLE=true
@@ -97,7 +102,8 @@ while true; do
             BuildTaskHelpLine h help        "<none>"    "print help screen and exit"                    $PRINT_PADDING
             BuildTaskHelpLine p print-mode  "MODE"      "print mode: ansi, text, adoc"                  $PRINT_PADDING
             printf "\n   filters\n"
-            BuildTaskHelpLine r requested   "<none>"    "only requested dependencies"                                                $PRINT_PADDING
+            BuildTaskHelpLine a all         "<none>"    "all options, disables all other filters"       $PRINT_PADDING
+            BuildTaskHelpLine r requested   "<none>"    "only requested dependencies"                   $PRINT_PADDING
             exit 0
             ;;
         -r | --requested)
@@ -130,39 +136,6 @@ if [[ "$ALL" == "yes" ]]; then
     ALL=
 elif [[ $CLI_SET == false ]]; then
     ALL=
-# else
-#     if [ -n "$ORIGIN" ]; then
-#         case $ORIGIN in
-#             F| f | fw | framework)
-#                 ORIGIN=FW_HOME
-#                 ;;
-#             A | a | app | application)
-#                 ORIGIN=${CONFIG_MAP["FLAVOR"]}_HOME
-#                 ;;
-#             *)
-#                 ConsoleError "  ->" "unknown origin: $ORIGIN"
-#                 exit 3
-#         esac
-#     fi
-#     if [ -n "$STATUS" ]; then
-#         case $STATUS in
-#             S | s | success)
-#                 STATUS=S
-#                 ;;
-#             E | e | errors | error)
-#                 STATUS=E
-#                 ;;
-#             W | w | warnings | warning)
-#                 STATUS=W
-#                 ;;
-#             N | n | not-attepmted)
-#                 STATUS=N
-#                 ;;
-#             *)
-#                 ConsoleError "  ->" "unknown status: $STATUS"
-#                 exit 3
-#         esac
-#     fi
 fi
 
 for ID in ${!DMAP_PARAM_ORIGIN[@]}; do

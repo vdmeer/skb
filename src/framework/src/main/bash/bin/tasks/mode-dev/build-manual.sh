@@ -21,7 +21,7 @@
 #-------------------------------------------------------------------------------
 
 ##
-## build-man - builds the manual for different targets
+## build-manual - builds the manual for different targets
 ##
 ## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
 ## @version    v0.0.0

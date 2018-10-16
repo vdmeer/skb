@@ -21,7 +21,7 @@
 #-------------------------------------------------------------------------------
 
 ##
-## Shell: function for shell command - shell-level
+## Shell: function for shell command - strict
 ##
 ## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
 ## @version    v0.0.0
@@ -34,17 +34,15 @@
 
 
 ##
-## function: ShellCmdShellLevel
-## - sets a new shell (console) level
+## function: ShellCmdStrict
+## - alter the strict mode of the application
 ##
-ShellCmdShellLevel() {
-    case $SARG in
-        all | fatal | error | warn-strict | warn | info | debug | trace)
-            CONFIG_MAP["SHELL-LEVEL"]=$SARG
-            printf "  set shell level to $SARG\n"
-            ;;
-        *)
-            ConsoleError " ->" "unknown level '$SARG'"
-            ;;
-    esac
+ShellCmdStrict() {
+    if [[ "${CONFIG_MAP["STRICT"]}" == false ]]; then
+        CONFIG_MAP["STRICT"]=true
+    else
+        CONFIG_MAP["STRICT"]=false
+    fi
+    WriteL1Config
+    printf "  set strict mode to level to ${CONFIG_MAP["STRICT"]} and wrote CONFIG_MAP\n"
 }

@@ -131,11 +131,18 @@ FWInterpreter() {
             printf "\033c"
             ShellAddCmdHistory
             ;;
+
         settings | "settings "* | s | "s "*)
             SettingScreen
             printf "\n"
             ShellAddCmdHistory
             ;;
+
+        strict | "strict "*)
+            ShellCmdStrict
+            ShellAddCmdHistory
+            ;;
+
         time | "time "* | t | "t "*)
             printf "\n    %s\n\n" "$STIME"
             ShellAddCmdHistory

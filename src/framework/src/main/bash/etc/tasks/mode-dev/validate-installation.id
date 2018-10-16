@@ -7,6 +7,6 @@
 ##
 
 SHORT=vi
-MODES="dev"
+MODES="dev build use"
 DESCRIPTION="validates an installation"
-EXEC_PATH=bin/tasks/mode-dev
+EXEC_PATH=bin/tasks/all

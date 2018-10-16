@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+##
+## Identity for task describe-element
+##
+## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
+## @version    v0.0.0
+##
+
+SHORT=de
+MODES="dev build use"
+DESCRIPTION="describes the elements of an application"
+EXEC_PATH=bin/tasks/elements
+
+TaskRequire $ID param MANUAL_SRC

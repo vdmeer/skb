@@ -1,2 +1,2 @@
-        Name of a PDF reader.                                                 
+    This application does...                                                  
                                                                               

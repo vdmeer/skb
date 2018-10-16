@@ -6,10 +6,10 @@
 ## @version    v0.0.0
 ##
 
-SHORT=bdm
-MODES="dev"
+SHORT=bm
+MODES="dev build use"
 DESCRIPTION="builds the manual for different targets"
-EXEC_PATH=bin/tasks/mode-dev
+EXEC_PATH=bin/tasks/all
 
 TaskRequire $ID param SKB_FW_TOOL opt
 

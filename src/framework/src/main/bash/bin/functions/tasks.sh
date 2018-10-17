@@ -141,7 +141,7 @@ BuildTaskHelpLine() {
                 sl)     SPRINT+=$(PrintEffect bold -$SHORT)" | "$(PrintEffect bold --$LONG) ;;
             esac
             ;;
-        text)
+        text-anon)
             case $TYPE in
                 la)     SPRINT+="     *--"$LONG"* _"$ARGUMENT"_" ;;
                 sa)     SPRINT+="*-"$SHORT"* _"$ARGUMENT"_" ;;
@@ -151,7 +151,7 @@ BuildTaskHelpLine() {
                 sl)     SPRINT+="*-"$SHORT"* | *--"$LONG"*" ;;
             esac
             ;;
-        plain)
+        text)
             case $TYPE in
                 la)     SPRINT+="     --"$LONG" "$ARGUMENT ;;
                 sa)     SPRINT+="-"$SHORT" "$ARGUMENT ;;

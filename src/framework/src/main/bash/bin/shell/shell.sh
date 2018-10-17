@@ -54,6 +54,7 @@ CONFIG_MAP["RUNNING_IN"]="shell"
 ## - reset errors and warnings
 ##
 source $FW_HOME/bin/loader/declare/config.sh
+source $FW_HOME/bin/loader/init/process-settings.sh
 source $FW_HOME/bin/shell/commands/_include
 source $FW_HOME/bin/functions/_include
 source $FW_HOME/bin/functions/describe/task.sh

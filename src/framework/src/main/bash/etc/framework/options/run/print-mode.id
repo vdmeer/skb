@@ -8,4 +8,4 @@
 
 SHORT=P
 ARGUMENT=MODE
-DESCRIPTION="sets the print mode: ansi, text, plain"
+DESCRIPTION="sets the print mode: ansi, text, text-anon"

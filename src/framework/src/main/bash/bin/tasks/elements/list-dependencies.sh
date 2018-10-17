@@ -197,79 +197,91 @@ fi
 ############################################################################################
 ConsoleInfo "  -->" "ld: starting task"
 
-printf "\n "
-printf "${CHAR_MAP["TOP_LINE"]}%.0s" {1..79}
-printf "\n"
-printf " ${EFFECTS["REVERSE_ON"]}Dependency          Description                                             O S${EFFECTS["REVERSE_OFF"]}\n\n"
+if (( $DEP_LINE_MIN_LENGTH > $COLUMNS )); then
+    ConsoleError "  ->" "not enough columns for table, need $DEP_LINE_MIN_LENGTH found $COLUMNS"
+else
+    printf "\n "
+    for ((x = 1; x < $COLUMNS; x++)); do
+        printf %s "${CHAR_MAP["TOP_LINE"]}"
+    done
+    printf "\n ${EFFECTS["REVERSE_ON"]}Dependency"
+    printf "%*s" "$((DEP_PADDING - 10))" ''
+    printf "Description"
+    printf '%*s' "$((DESCRIPTION_LENGTH - 11))" ''
+    printf "O S${EFFECTS["REVERSE_OFF"]}\n\n"
 
-for ID in ${!DMAP_DEP_ORIGIN[@]}; do
-    if [[ -n "$REQUESTED" ]]; then
-        if [[ -z "${RTMAP_REQUESTED_DEP[$ID]:-}" ]]; then
-            continue
-        fi
-    fi
-    if [[ -n "$TESTED" ]]; then
-        if [[ -z "${RTMAP_TASK_TESTED[$ID]:-}" ]]; then
-            continue
-        fi
-    fi
-    if [[ -n "$STATUS" ]]; then
-        case ${RTMAP_DEP_STATUS[$ID]} in
-            $STATUS)
-                ;;
-            *)
+    for ID in ${!DMAP_DEP_ORIGIN[@]}; do
+        if [[ -n "$REQUESTED" ]]; then
+            if [[ -z "${RTMAP_REQUESTED_DEP[$ID]:-}" ]]; then
                 continue
-                ;;
-        esac
-        #=
-    fi
-    if [[ -n "$ORIGIN" ]]; then
-        if [[ ! "$ORIGIN" == "${DMAP_DEP_ORIGIN[$ID]}" ]]; then
-            continue
+            fi
         fi
+        if [[ -n "$TESTED" ]]; then
+            if [[ -z "${RTMAP_TASK_TESTED[$ID]:-}" ]]; then
+                continue
+            fi
+        fi
+        if [[ -n "$STATUS" ]]; then
+            case ${RTMAP_DEP_STATUS[$ID]} in
+                $STATUS)
+                    ;;
+                *)
+                    continue
+                    ;;
+            esac
+            #=
+        fi
+        if [[ -n "$ORIGIN" ]]; then
+            if [[ ! "$ORIGIN" == "${DMAP_DEP_ORIGIN[$ID]}" ]]; then
+                continue
+            fi
+        fi
+        keys=(${keys[@]:-} $ID)
+    done
+    keys=($(printf '%s\n' "${keys[@]:-}"|sort))
+
+    declare -A DEP_TABLE
+    FILE=${CONFIG_MAP["CACHE_DIR"]}/dep-tab.${CONFIG_MAP["PRINT_MODE"]}
+    if [[ -n "$PRINT_MODE" ]]; then
+        FILE=${CONFIG_MAP["CACHE_DIR"]}/dep-tab.$PRINT_MODE
     fi
-    keys=(${keys[@]:-} $ID)
-done
-keys=($(printf '%s\n' "${keys[@]:-}"|sort))
-
-
-declare -A DEP_TABLE
-FILE=${CONFIG_MAP["CACHE_DIR"]}/dep-tab.${CONFIG_MAP["PRINT_MODE"]}
-if [[ -n "$PRINT_MODE" ]]; then
-    FILE=${CONFIG_MAP["CACHE_DIR"]}/dep-tab.$PRINT_MODE
-fi
-if [[ -f $FILE ]]; then
-    source $FILE
-fi
-
-for i in ${!keys[@]}; do
-    ID=${keys[$i]}
-    if [[ -z "${DEP_TABLE[$ID]:-}" ]]; then
-        DependencyInTable $ID $PRINT_MODE
-    else
-        printf "${DEP_TABLE[$ID]}"
+    if [[ -f $FILE ]]; then
+        source $FILE
     fi
-    DescribeDependencyStatus $ID $PRINT_MODE
-    printf "\n"
-done
 
-printf " "
-printf "${CHAR_MAP["MID_LINE"]}%.0s" {1..79}
-printf "\n\n"
+    for i in ${!keys[@]}; do
+        ID=${keys[$i]}
+        if [[ -z "${DEP_TABLE[$ID]:-}" ]]; then
+            DependencyInTable $ID $PRINT_MODE
+        else
+            printf "${DEP_TABLE[$ID]}"
+        fi
+        DescribeDependencyStatus $ID $PRINT_MODE
+        printf "\n"
+    done
 
-printf " flags: (O) origin, (S) status\n"
+    printf " "
+    for ((x = 1; x < $COLUMNS; x++)); do
+        printf %s "${CHAR_MAP["MID_LINE"]}"
+    done
+    printf "\n\n"
 
-printf " colors: "
-PrintColor light-green ${CHAR_MAP["LEGEND"]}
-printf " success, "
-PrintColor light-blue ${CHAR_MAP["LEGEND"]}
-printf " not attempted, "
-PrintColor light-red ${CHAR_MAP["LEGEND"]}
-printf " errors"
+    printf " flags: (O) origin, (S) status\n"
 
-printf "\n\n "
-printf "${CHAR_MAP["BOTTOM_LINE"]}%.0s" {1..79}
-printf "\n\n"
+    printf " colors: "
+    PrintColor light-green ${CHAR_MAP["LEGEND"]}
+    printf " success, "
+    PrintColor light-blue ${CHAR_MAP["LEGEND"]}
+    printf " not attempted, "
+    PrintColor light-red ${CHAR_MAP["LEGEND"]}
+    printf " errors"
+
+    printf "\n\n "
+    for ((x = 1; x < $COLUMNS; x++)); do
+        printf %s "${CHAR_MAP["BOTTOM_LINE"]}"
+    done
+    printf "\n\n"
+fi
 
 ConsoleInfo "  -->" "ld: done"
 exit $TASK_ERRORS

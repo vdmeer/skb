@@ -32,12 +32,19 @@
 ## DO NOT CHANGE CODE BELOW, unless you know what you are doing
 ##
 
+TASK_PADDING=27
+TASK_STATUS_LENGHT=9
+TASK_LINE_MIN_LENGTH=49
+COLUMNS=$(tput cols)
+COLUMNS=$((COLUMNS - 2))
+DESCRIPTION_LENGTH=$((COLUMNS - TASK_PADDING - TASK_STATUS_LENGHT - 1))
+
 
 ##
 ## DescribeTask
 ## - describes a task using print options and print features
 ## $1: task id
-## $2: print option: descr, origin, origin1, standard, full
+## $2: print option: standard, full
 ## $3: print features: none, line-indent, enter, post-line, (adoc, ansi, text*)
 ## optional $4: print mode (adoc, ansi, text)
 ##
@@ -99,7 +106,6 @@ DescribeTask() {
     SPRINT+=$LINE_INDENT
 
     local DESCRIPTION=${DMAP_TASK_DESCR[$ID]:-}
-    local ORIGIN=${DMAP_TASK_ORIGIN[$ID]}
 
     local TEMPLATE="%ID%, %SHORT%"
     if [[ "$PRINT_OPTION" == "full" ]]; then
@@ -110,15 +116,6 @@ DescribeTask() {
     fi
 
     case "$PRINT_OPTION" in
-        descr)
-            SPRINT+=$DESCRIPTION
-            ;;
-        origin)
-            SPRINT+=$ORIGIN
-            ;;
-        origin1)
-            SPRINT+=${ORIGIN:0:1}
-            ;;
         standard | full)
             local TMP_MODE=${4:-}
             if [[ "$TMP_MODE" == "" ]]; then
@@ -161,6 +158,9 @@ DescribeTaskStatus() {
     local SHORT
     local MODE
     local STATUS
+    local DESCRIPTION
+    local DESCR_EFFECTIVE
+    local PADDING
 
     if [[ -z ${DMAP_TASK_ORIGIN[$ID]:-} ]]; then
         for SHORT in ${!DMAP_TASK_SHORT[@]}; do
@@ -174,6 +174,19 @@ DescribeTaskStatus() {
     if [[ -z ${DMAP_TASK_ORIGIN[$ID]:-} ]]; then
         ConsoleError " ->" "describe-task/status - unknown task '$ID'"
     else
+        DESCRIPTION=${DMAP_TASK_DESCR[$ID]}
+        if [[ "${#DESCRIPTION}" -le "$DESCRIPTION_LENGTH" ]]; then
+            printf "%s" "$DESCRIPTION"
+            DESCR_EFFECTIVE=${#DESCRIPTION}
+            PADDING=$((DESCRIPTION_LENGTH - DESCR_EFFECTIVE))
+            printf '%*s' "$PADDING"
+        else
+            DESCR_EFFECTIVE=$((DESCRIPTION_LENGTH - 4))
+            printf "%s... " "${DESCRIPTION:0:$DESCR_EFFECTIVE}"
+        fi
+
+        printf "%s " "${DMAP_TASK_ORIGIN[$ID]:0:1}"
+
         MODE=${DMAP_TASK_MODES[$ID]}
         case "$MODE" in
             *dev*)
@@ -257,26 +270,15 @@ TaskInTable() {
         fi
     done
 
-    local TEXT
     local padding
     local str_len
     local SPRINT
 
-    SPRINT=""
-    SPRINT=$SPRINT" "$(DescribeTask $ID standard "none" $PRINT_MODE)
+    SPRINT=" "$(DescribeTask $ID standard "none" $PRINT_MODE)
 
     str_len=$(TaskStringLength $ID standard "none" text)
-    padding=$(( 25 - $str_len ))
+    padding=$((TASK_PADDING - $str_len))
     SPRINT=$SPRINT$(printf '%*s' "$padding")
-
-    TEXT=$(DescribeTask $ID descr "none" $PRINT_MODE)
-    SPRINT=$SPRINT$TEXT
-
-    str_len=${#TEXT}
-    padding=$(( 45 - $str_len ))
-    SPRINT=$SPRINT$(printf '%*s' "$padding")
-
-    SPRINT=$SPRINT$(DescribeTask $ID origin1 "none" $PRINT_MODE)" "
 
     printf "$SPRINT"
 }

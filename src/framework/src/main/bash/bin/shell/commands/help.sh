@@ -38,6 +38,9 @@
 ## - print command help screen
 ##
 ShellCmdHelp() {
+    local COLUMNS=$(tput cols)
+    COLUMNS=$((COLUMNS - 2))
+
     local CMD_SCREEN_MAP
     local file=$FW_HOME/${FW_FILE_MAP["CMD_SCREEN"]}
     if [[ ! -f $file && ! -r $file ]]; then
@@ -60,7 +63,9 @@ ShellCmdHelp() {
     done
 
     printf " "
-    printf "${CHAR_MAP["MID_LINE"]}%.0s" {1..79}
+    for ((x = 1; x < $COLUMNS; x++)); do
+        printf %s "${CHAR_MAP["TOP_LINE"]}"
+    done
     printf "\n\n"
 
     printf " All other input will be treated as an attempt to run a task with parameters.\n\n"

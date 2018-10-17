@@ -27,6 +27,13 @@
 ## @version    v0.0.0
 ##
 
+CMD_PADDING=32
+CMD_STATUS_LENGHT=0
+CMD_LINE_MIN_LENGTH=49
+COLUMNS=$(tput cols)
+COLUMNS=$((COLUMNS - 2))
+DESCRIPTION_LENGTH=$((COLUMNS - CMD_PADDING - CMD_STATUS_LENGHT - 1))
+
 
 ##
 ## DO NOT CHANGE CODE BELOW, unless you know what you are doing
@@ -37,7 +44,7 @@
 ## DescribeCommand
 ## - describes a command using print options and print features
 ## $1: command id
-## $2: print option: descr, standard, full
+## $2: print option: standard, full
 ## $3: print features: none, line-indent, enter, post-line, (adoc, ansi, text*)
 ## optional $4: print mode (adoc, ansi, text)
 ##
@@ -114,9 +121,6 @@ DescribeCommand() {
     fi
 
     case "$PRINT_OPTION" in
-        descr)
-            SPRINT+=$DESCRIPTION
-            ;;
         standard | full)
             local TMP_MODE=${4:-}
             if [[ "$TMP_MODE" == "" ]]; then
@@ -163,31 +167,32 @@ CommandStringLength() {
 
 
 ##
-## function: CommandInList
-## - main command details for list views
-## $1: ID
-## optional $2: print mode (adoc, ansi, text)
+## function: DescribeCommandStatus
+## - describes the command status for the task screen
+## $1: command ID
+## optional $2: indentation adjustment
 ##
-CommandInList() {
+DescribeCommandStatus() {
     local ID=$1
-    local PRINT_MODE=${2:-}
+    local ADJUST=${2:-0}
+    local DESCRIPTION
+    local DESCR_EFFECTIVE
+    local PADDING
 
-    local TEXT
-    local padding
-    local str_len
-    local SPRINT
-
-    SPRINT=""
-    SPRINT+=" "$(DescribeCommand $ID standard "none" $PRINT_MODE)
-
-    str_len=$(CommandStringLength $ID standard "none" text)
-    padding=$(( 32 - $str_len ))
-    SPRINT+=$(printf '%*s' "$padding")
-
-    TEXT=$(DescribeCommand $ID descr "none" $PRINT_MODE)
-    SPRINT+=$TEXT
-
-    printf "$SPRINT"
+    if [[ -z ${DMAP_CMD[$ID]:-} ]]; then
+        ConsoleError " ->" "describe-cmd/status - unknown command '$ID'"
+    else
+        DESCRIPTION=${DMAP_CMD_DESCR[$ID]}
+        if [[ "${#DESCRIPTION}" -le "$DESCRIPTION_LENGTH" ]]; then
+            printf "%s" "$DESCRIPTION"
+            DESCR_EFFECTIVE=${#DESCRIPTION}
+            PADDING=$((DESCRIPTION_LENGTH - DESCR_EFFECTIVE - ADJUST))
+            printf '%*s' "$PADDING"
+        else
+            DESCR_EFFECTIVE=$((DESCRIPTION_LENGTH - 4 - ADJUST))
+            printf "%s... " "${DESCRIPTION:0:$DESCR_EFFECTIVE}"
+        fi
+    fi
 }
 
 
@@ -202,16 +207,15 @@ CommandInTable() {
     local ID=$1
     local PRINT_MODE=${2:-}
 
+    local padding
+    local str_len
     local SPRINT
-    local TEXT
 
-    SPRINT=$(CommandInList $1 $PRINT_MODE)
+    SPRINT=" "$(DescribeCommand $ID standard "none" $PRINT_MODE)
 
-    TEXT=$(DescribeCommand $ID descr "none" $PRINT_MODE)
-    str_len=${#TEXT}
-    padding=$(( 48 - $str_len ))
-    SPRINT+=$(printf '%*s' "$padding")
+    str_len=$(CommandStringLength $ID standard "none" text)
+    padding=$((CMD_PADDING - $str_len))
+    SPRINT=$SPRINT$(printf '%*s' "$padding")
 
     printf "$SPRINT"
 }
-

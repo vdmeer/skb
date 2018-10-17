@@ -38,6 +38,9 @@
 ## - lists scenarios
 ##
 ShellCmdListScenarios() {
+local COLUMNS=$(tput cols)
+    COLUMNS=$((COLUMNS - 2))
+
     local FILE
     local DESCRIPTION
     local SPRINT
@@ -70,7 +73,9 @@ ShellCmdListScenarios() {
     keys=($(printf '%s\n' "${keys[@]:-}"|sort))
 
     printf "\n "
-    printf "${CHAR_MAP["TOP_LINE"]}%.0s" {1..79}
+    for ((x = 1; x < $COLUMNS; x++)); do
+        printf %s "${CHAR_MAP["TOP_LINE"]}"
+    done
     printf "\n"
     printf " ${EFFECTS["REVERSE_ON"]}Scenario"
     padding=$(( $MAX_LEN - 8 ))
@@ -88,6 +93,8 @@ ShellCmdListScenarios() {
     done
 
     printf "\n "
-    printf "${CHAR_MAP["TOP_LINE"]}%.0s" {1..79}
+    for ((x = 1; x < $COLUMNS; x++)); do
+        printf %s "${CHAR_MAP["TOP_LINE"]}"
+    done
     printf "\n\n"
 }

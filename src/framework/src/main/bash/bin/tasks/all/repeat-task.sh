@@ -154,12 +154,16 @@ case $WAIT in
         ;;
 esac
 
+COLUMNS=$(tput cols)
+COLUMNS=$((COLUMNS - 5))
 for (( _repeat=1; _repeat<=$TIMES; _repeat++ )); do
     printf "\n\n    ["
     PrintColor light-blue "${EFFECTS["INT_BOLD"]}run $_repeat of $TIMES"
     printf ' %s %s %s' "--" $TASK $ARGS
     printf "]\n    "
-    printf "${CHAR_MAP["MID_LINE"]}%.0s" {1..76}
+    for ((x = 1; x < $COLUMNS; x++)); do
+        printf %s "${CHAR_MAP["MID_LINE"]}"
+    done
     printf "\n\n"
     set +e
     ${DMAP_TASK_EXEC[$TASK]} $ARGS

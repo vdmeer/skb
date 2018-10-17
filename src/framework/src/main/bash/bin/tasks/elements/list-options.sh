@@ -156,6 +156,14 @@ elif [[ $CLI_SET == false ]]; then
     RUN=yes
 fi
 
+declare -A OPTION_TABLE
+FILE=${CONFIG_MAP["CACHE_DIR"]}/opt-tab.${CONFIG_MAP["PRINT_MODE"]}
+if [[ -n "$PRINT_MODE" ]]; then
+    FILE=${CONFIG_MAP["CACHE_DIR"]}/opt-tab.$PRINT_MODE
+fi
+if [[ -f $FILE ]]; then
+    source $FILE
+fi
 
 
 ############################################################################################
@@ -163,14 +171,21 @@ fi
 ############################################################################################
 function TableTop() {
     printf "\n "
-    printf "${CHAR_MAP["TOP_LINE"]}%.0s" {1..79}
-    printf "\n"
-    printf " ${EFFECTS["REVERSE_ON"]}Option                     Description                                     Type${EFFECTS["REVERSE_OFF"]}\n\n"
+    for ((x = 1; x < $COLUMNS; x++)); do
+        printf %s "${CHAR_MAP["TOP_LINE"]}"
+    done
+    printf "\n ${EFFECTS["REVERSE_ON"]}Option"
+    printf "%*s" "$((OPT_PADDING - 6))" ''
+    printf "Description"
+    printf '%*s' "$((DESCRIPTION_LENGTH - 11))" ''
+    printf "Type${EFFECTS["REVERSE_OFF"]}\n\n"
 }
 
 function TableBottom() {
     printf " "
-    printf "${CHAR_MAP["BOTTOM_LINE"]}%.0s" {1..79}
+    for ((x = 1; x < $COLUMNS; x++)); do
+        printf %s "${CHAR_MAP["BOTTOM_LINE"]}"
+    done
     printf "\n\n"
 }
 
@@ -210,39 +225,17 @@ PrintOptions() {
     done
     keys=($(printf '%s\n' "${keys[@]:-}"|sort))
 
-    case $1 in
-        list)
-            declare -A OPTION_LIST
-            FILE=${CONFIG_MAP["CACHE_DIR"]}/opt-list.${CONFIG_MAP["PRINT_MODE"]}
-            if [[ -n "$PRINT_MODE" ]]; then
-                FILE=${CONFIG_MAP["CACHE_DIR"]}/opt-list.$PRINT_MODE
-            fi
-            if [[ -f $FILE ]]; then
-                source $FILE
-            fi
-            ;;
-        table)
-            declare -A OPTION_TABLE
-            FILE=${CONFIG_MAP["CACHE_DIR"]}/opt-tab.${CONFIG_MAP["PRINT_MODE"]}
-            if [[ -n "$PRINT_MODE" ]]; then
-                FILE=${CONFIG_MAP["CACHE_DIR"]}/opt-tab.$PRINT_MODE
-            fi
-            if [[ -f $FILE ]]; then
-                source $FILE
-            fi
-            ;;
-    esac
-
     for i in ${!keys[@]}; do
         ID=${keys[$i]}
         case $1 in
             list)
                 printf "   "
-                if [[ -z "${OPTION_LIST[$ID]:-}" ]]; then
-                    OptionInList $ID $PRINT_MODE
+                if [[ -z "${OPTION_TABLE[$ID]:-}" ]]; then
+                    OptionInTable $ID $PRINT_MODE
                 else
-                    printf "${OPTION_LIST[$ID]}"
+                    printf "${OPTION_TABLE[$ID]}"
                 fi
+                DescribeOptionDescription $ID 3
                 ;;
             table)
                 if [[ -z "${OPTION_TABLE[$ID]:-}" ]]; then
@@ -250,7 +243,8 @@ PrintOptions() {
                 else
                     printf "${OPTION_TABLE[$ID]}"
                 fi
-                DescribeOptionStatus $ID $PRINT_MODE
+                DescribeOptionDescription $ID
+                DescribeOptionStatus $ID
                 ;;
         esac
         printf "\n"

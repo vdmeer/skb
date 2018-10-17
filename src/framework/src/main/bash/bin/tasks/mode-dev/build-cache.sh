@@ -65,7 +65,6 @@ DO_BUILD=false
 DO_CLEAN=false
 DO_ALL=false
 DO_DECL=false
-DO_LIST=false
 DO_TAB=false
 TARGET=
 
@@ -75,10 +74,10 @@ TARGET=
 ## set CLI options and parse CLI
 ##
 CLI_OPTIONS=abcdhlt
-CLI_LONG_OPTIONS=all,build,clean,decl,help,list,tab
-CLI_LONG_OPTIONS+=,cmd-decl,cmd-tab,cmd-list
+CLI_LONG_OPTIONS=all,build,clean,decl,help,tab
+CLI_LONG_OPTIONS+=,cmd-decl,cmd-tab
 CLI_LONG_OPTIONS+=,dep-decl,dep-tab
-CLI_LONG_OPTIONS+=,opt-decl,opt-tab,opt-list
+CLI_LONG_OPTIONS+=,opt-decl,opt-tab
 CLI_LONG_OPTIONS+=,param-tab
 CLI_LONG_OPTIONS+=,task-decl,task-tab
 
@@ -107,17 +106,14 @@ while true; do
             BuildTaskHelpLine c clean   "<none>"    "removes all cached maps and screens"               $PRINT_PADDING
             BuildTaskHelpLine d decl    "<none>"    "set all declaration targets"                       $PRINT_PADDING
             BuildTaskHelpLine h help    "<none>"    "print help screen and exit"                        $PRINT_PADDING
-            BuildTaskHelpLine l list    "<none>"    "set all list targets"                              $PRINT_PADDING
             BuildTaskHelpLine t tab     "<none>"    "set all table targets"                             $PRINT_PADDING
             printf "\n   targets\n"
 
             BuildTaskHelpLine "<none>" cmd-decl "<none>" "target: command declarations" $PRINT_PADDING
             BuildTaskHelpLine "<none>" cmd-tab  "<none>" "target: command table" $PRINT_PADDING
-            BuildTaskHelpLine "<none>" cmd-list "<none>" "target: command list" $PRINT_PADDING
 
             BuildTaskHelpLine "<none>" opt-decl "<none>" "target: option declarations" $PRINT_PADDING
             BuildTaskHelpLine "<none>" opt-tab "<none>" "target: option table" $PRINT_PADDING
-            BuildTaskHelpLine "<none>" opt-list "<none>" "target: option list" $PRINT_PADDING
 
 
             BuildTaskHelpLine "<none>" dep-decl "<none>" "target: dependency decclarations" $PRINT_PADDING
@@ -138,10 +134,6 @@ while true; do
             shift
             DO_DECL=true
             ;;
-        -l | --list)
-            shift
-            DO_LIST=true
-            ;;
         -t | --tab)
             shift
             DO_TAB=true
@@ -151,10 +143,6 @@ while true; do
             shift
             TARGET=$TARGET" cmd-decl"
             ;;
-        --cmd-list)
-            shift
-            TARGET=$TARGET" cmd-list"
-            ;;
         --cmd-tab)
             shift
             TARGET=$TARGET" cmd-tab"
@@ -163,10 +151,6 @@ while true; do
         --opt-decl)
             shift
             TARGET=$TARGET" opt-decl"
-            ;;
-        --opt-list)
-            shift
-            TARGET=$TARGET" opt-list"
             ;;
         --opt-tab)
             shift
@@ -210,14 +194,11 @@ done
 if [[ $DO_DECL == true ]]; then
     TARGET="cmd-decl dep-decl opt-decl task-decl"
 fi
-if [[ $DO_LIST == true ]]; then
-    TARGET="cmd-list opt-list"
-fi
 if [[ $DO_TAB == true ]]; then
     TARGET="cmd-tab dep-tab opt-tab param-tab task-tab"
 fi
 if [[ $DO_ALL == true ]]; then
-    TARGET="cmd-decl cmd-tab cmd-list dep-decl dep-tab opt-decl opt-tab opt-list param-tab task-decl task-tab"
+    TARGET="cmd-decl cmd-tab dep-decl dep-tab opt-decl opt-tab param-tab task-decl task-tab"
 fi
 if [[ $DO_BUILD == true ]]; then
     if [[ ! -n "$TARGET" ]]; then
@@ -285,19 +266,6 @@ if [[ $DO_BUILD == true ]]; then
                         declare -p COMMAND_TABLE > $FILE
                     done
                     ;;
-                cmd-list)
-                    for MODE in $PRINT_MODES; do
-                        FILE=${CONFIG_MAP["CACHE_DIR"]}/cmd-list.$MODE
-                        if [[ -f $FILE ]]; then
-                            rm $FILE
-                        fi
-                        declare -A COMMAND_LIST
-                        for ID in ${!DMAP_CMD[@]}; do
-                            COMMAND_LIST[$ID]=$(CommandInList $ID $MODE)
-                        done
-                        declare -p COMMAND_LIST > $FILE
-                    done
-                    ;;
 
                 opt-decl)
                     FILE=${CONFIG_MAP["CACHE_DIR"]}/opt-decl.map
@@ -320,19 +288,6 @@ if [[ $DO_BUILD == true ]]; then
                             OPTION_TABLE[$ID]=$(OptionInTable $ID $MODE)
                         done
                         declare -p OPTION_TABLE > $FILE
-                    done
-                    ;;
-                opt-list)
-                    for MODE in $PRINT_MODES; do
-                        FILE=${CONFIG_MAP["CACHE_DIR"]}/opt-list.$MODE
-                        if [[ -f $FILE ]]; then
-                            rm $FILE
-                        fi
-                        declare -A OPTION_LIST
-                        for ID in ${!DMAP_OPT_ORIGIN[@]}; do
-                            OPTION_LIST[$ID]=$(OptionInList $ID $MODE)
-                        done
-                        declare -p OPTION_LIST > $FILE
                     done
                     ;;
 

@@ -32,12 +32,19 @@
 ## DO NOT CHANGE CODE BELOW, unless you know what you are doing
 ##
 
+OPT_PADDING=27
+OPT_STATUS_LENGHT=4
+OPT_LINE_MIN_LENGTH=49
+COLUMNS=$(tput cols)
+COLUMNS=$((COLUMNS - 2))
+DESCRIPTION_LENGTH=$((COLUMNS - OPT_PADDING - OPT_STATUS_LENGHT - 1))
+
 
 ##
 ## DescribeOption
 ## - describes a option using print options and print features
 ## $1: option id
-## $2: print option: descr, origin, standard, full
+## $2: print option: standard, full
 ## $3: print features: none, line-indent, sl-indent, enter, post-line, (adoc, ansi, text*)
 ## optional $4: print mode (adoc, ansi, text)
 ##
@@ -96,7 +103,6 @@ DescribeOption() {
     SPRINT+=$LINE_INDENT
 
     local DESCRIPTION=${DMAP_OPT_DESCR[$ID]:-}
-    local ORIGIN=${DMAP_OPT_ORIGIN[$ID]:-}
 
     local LONG=$ID
     SHORT=${DMAP_OPT_SHORT[$ID]:-}
@@ -125,12 +131,6 @@ DescribeOption() {
     fi
 
     case "$PRINT_OPTION" in
-        descr)
-            SPRINT+=$DESCRIPTION
-            ;;
-        origin)
-            SPRINT+=$ORIGIN
-            ;;
         standard | full)
             local TMP_MODE=${4:-}
             if [[ "$TMP_MODE" == "" ]]; then
@@ -171,22 +171,55 @@ DescribeOption() {
 
 
 ##
+## function: DescribeOptionDescription
+## - describes the option description
+## $1: option ID
+## optional $2: indentation adjustment
+##
+DescribeOptionDescription() {
+    local ID=$1
+    local ADJUST=${2:-0}
+    local DESCRIPTION
+    local DESCR_EFFECTIVE
+    local PADDING
+
+    if [[ -z ${DMAP_OPT_ORIGIN[$ID]:-} ]]; then
+        ConsoleError " ->" "describe-opt/status - unknown option '$ID'"
+    else
+        DESCRIPTION=${DMAP_OPT_DESCR[$ID]}
+        if [[ "${#DESCRIPTION}" -le "$DESCRIPTION_LENGTH" ]]; then
+            printf "%s" "$DESCRIPTION"
+            DESCR_EFFECTIVE=${#DESCRIPTION}
+            PADDING=$((DESCRIPTION_LENGTH - DESCR_EFFECTIVE - ADJUST))
+            printf '%*s' "$PADDING"
+        else
+            DESCR_EFFECTIVE=$((DESCRIPTION_LENGTH - 4 - ADJUST))
+            printf "%s... " "${DESCRIPTION:0:$DESCR_EFFECTIVE}"
+        fi
+    fi
+}
+
+
+
+##
 ## function: DescribeOptionStatus
 ## - describes the option status
 ## $1: option ID
 ##
 DescribeOptionStatus() {
     local ID=$1
-    local TEXT
-    local SPRINT=""
+    local ORIGIN
 
-    TEXT=$(DescribeOption $ID origin)
-    case $TEXT in
-        exit)   SPRINT+=$(PrintColor green $TEXT) ;;
-        run)    SPRINT+=$(PrintColor light-blue $TEXT) ;;
-    esac
-
-    printf "$SPRINT"
+    if [[ -z ${DMAP_OPT_ORIGIN[$ID]:-} ]]; then
+        ConsoleError " ->" "describe-opt/status - unknown option '$ID'"
+    else
+        ORIGIN=${DMAP_OPT_ORIGIN[$ID]}
+        case $ORIGIN in
+            exit)   PrintColor green $ORIGIN ;;
+            run)    PrintColor light-blue $ORIGIN ;;
+            *)      ConsoleError " ->" "describe-opt/status - unknown origin '$ORIGIN'"
+        esac
+    fi
 }
 
 
@@ -205,38 +238,6 @@ OptionStringLength() {
 
 
 ##
-## function: OptionInList
-## - main option details for list views
-## $1: ID
-## optional $2: print mode (adoc, ansi, text)
-##
-OptionInList() {
-    local ID=$1
-    local PRINT_MODE=${2:-}
-
-    local TEXT
-    local padding
-    local str_len
-    local SPRINT
-
-    SPRINT=""
-
-    TEXT=$(DescribeOption $ID standard sl-indent $PRINT_MODE)
-    SPRINT+=" "$TEXT
-
-    str_len=$(OptionStringLength $ID standard sl-indent text)
-    padding=$(( 27 - $str_len ))
-    SPRINT+=$(printf '%*s' "$padding")
-
-    TEXT=$(DescribeOption $ID descr "none" $PRINT_MODE)
-    SPRINT+=$TEXT
-
-    printf "$SPRINT"
-}
-
-
-
-##
 ## function: OptionInTable
 ## - main option details for table views
 ## $1: ID
@@ -246,16 +247,15 @@ OptionInTable() {
     local ID=$1
     local PRINT_MODE=${2:-}
 
+    local padding
+    local str_len
     local SPRINT
-    local TEXT
 
-    SPRINT=$(OptionInList $1 $PRINT_MODE)
+    SPRINT=" "$(DescribeOption $ID standard sl-indent $PRINT_MODE)
 
-    TEXT=$(DescribeOption $ID descr "none" $PRINT_MODE)
-    str_len=${#TEXT}
-    padding=$(( 48 - $str_len ))
-    SPRINT+=$(printf '%*s' "$padding")
+    str_len=$(OptionStringLength $ID standard sl-indent text)
+    padding=$((OPT_PADDING - $str_len))
+    SPRINT=$SPRINT$(printf '%*s' "$padding")
 
     printf "$SPRINT"
 }
-

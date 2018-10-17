@@ -151,12 +151,16 @@ esac
 source ${CONFIG_MAP["FW_HOME"]}/bin/shell/commands/execute-scenario.sh
 source ${CONFIG_MAP["FW_HOME"]}/bin/shell/commands/execute-task.sh
 
+COLUMNS=$(tput cols)
+COLUMNS=$((COLUMNS - 5))
 for (( _repeat=1; _repeat<=$TIMES; _repeat++ )); do
     printf "\n\n    ["
     PrintColor light-blue "run $_repeat of $TIMES"
     printf ' %s %s' "--" $SCENARIO
     printf "]\n    "
-    printf "${CHAR_MAP["MID_LINE"]}%.0s" {1..76}
+    for ((x = 1; x < $COLUMNS; x++)); do
+        printf %s "${CHAR_MAP["MID_LINE"]}"
+    done
     printf "\n\n"
     SARG=$SCENARIO
     ShellCmdExecuteScenario

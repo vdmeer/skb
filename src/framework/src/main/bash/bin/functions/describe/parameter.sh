@@ -32,12 +32,19 @@
 ## DO NOT CHANGE CODE BELOW, unless you know what you are doing
 ##
 
+PARAM_PADDING=18
+PARAM_STATUS_LENGHT=5
+PARAM_LINE_MIN_LENGTH=45
+COLUMNS=$(tput cols)
+COLUMNS=$((COLUMNS - 2))
+DESCRIPTION_LENGTH=$((COLUMNS - PARAM_PADDING - PARAM_STATUS_LENGHT - 1))
+
 
 ##
 ## DescribeParameter
 ## - describes a parameter using print options and print features
 ## $1: parameter id
-## $2: print option: descr, origin, origin1, standard, full, default-value
+## $2: print option: standard, full, default-value
 ## $3: print features: none, line-indent, enter, post-line, (adoc, ansi, text*)
 ## optional $4: print mode (adoc, ansi, text)
 ##
@@ -92,19 +99,7 @@ DescribeParameter() {
     SPRINT+=$LINE_INDENT
 
     local DESCRIPTION=${DMAP_PARAM_DESCR[$ID]:-}
-    local ORIGIN=${DMAP_PARAM_ORIGIN[$ID]}
-    local DEFAULT_VALUE=${DMAP_PARAM_DEFVAL[$ID]}
-    if [[ "$DEFAULT_VALUE" == "" ]]; then
-        DEFAULT_VALUE="none defined"
-    else
-        DEFAULT_VALUE=${DEFAULT_VALUE/${CONFIG_MAP["FW_HOME"]}/\$FW_HOME}
-        DEFAULT_VALUE=${DEFAULT_VALUE/${CONFIG_MAP["HOME"]}/\$HOME}
-        if [[ "${4:-}" == "adoc" || "${CONFIG_MAP["PRINT_MODE"]}" == "adoc" ]]; then
-            DEFAULT_VALUE="\`"$DEFAULT_VALUE"\`"
-        else
-            DEFAULT_VALUE='"'$DEFAULT_VALUE'"'
-        fi
-    fi
+    local DEFAULT_VALUE=$(DescribeParameterDefValue $ID $4)
 
     local TEMPLATE="%ID%"
     if [[ "$PRINT_OPTION" == "full" ]]; then
@@ -118,15 +113,6 @@ DescribeParameter() {
     fi
 
     case "$PRINT_OPTION" in
-        descr)
-            SPRINT+=$DESCRIPTION
-            ;;
-        origin)
-            SPRINT+=$ORIGIN
-            ;;
-        origin1)
-            SPRINT+=${ORIGIN:0:1}
-            ;;
         standard | full | default-value)
             local TMP_MODE=${4:-}
             if [[ "$TMP_MODE" == "" ]]; then
@@ -158,6 +144,30 @@ DescribeParameter() {
 
 
 ##
+## function: DescribeParameterDefValue
+## - describes the parameter default value
+## $1: param ID
+## optional $2: print mode (adoc, ansi, text)
+##
+DescribeParameterDefValue() {
+    local DEFAULT_VALUE=${DMAP_PARAM_DEFVAL[$ID]}
+    if [[ "$DEFAULT_VALUE" == "" ]]; then
+        DEFAULT_VALUE="none defined"
+    else
+        DEFAULT_VALUE=${DEFAULT_VALUE/${CONFIG_MAP["FW_HOME"]}/\$FW_HOME}
+        DEFAULT_VALUE=${DEFAULT_VALUE/${CONFIG_MAP["HOME"]}/\$HOME}
+        if [[ "${2:-}" == "adoc" || "${CONFIG_MAP["PRINT_MODE"]}" == "adoc" ]]; then
+            DEFAULT_VALUE="\`"$DEFAULT_VALUE"\`"
+        else
+            DEFAULT_VALUE='"'$DEFAULT_VALUE'"'
+        fi
+    fi
+    printf "%s" "$DEFAULT_VALUE"
+}
+
+
+
+##
 ## function: DescribeParameterStatus
 ## - describes the parameter status for the parameter screen
 ## $1: param ID
@@ -171,6 +181,19 @@ DescribeParameterStatus() {
     if [[ -z ${DMAP_PARAM_ORIGIN[$ID]:-} ]]; then
         ConsoleError " ->" "describe-parameter/status - unknown '$ID'"
     else
+        DESCRIPTION=${DMAP_PARAM_DESCR[$ID]}
+        if [[ "${#DESCRIPTION}" -le "$DESCRIPTION_LENGTH" ]]; then
+            printf "%s" "$DESCRIPTION"
+            DESCR_EFFECTIVE=${#DESCRIPTION}
+            PADDING=$((DESCRIPTION_LENGTH - DESCR_EFFECTIVE))
+            printf '%*s' "$PADDING"
+        else
+            DESCR_EFFECTIVE=$((DESCRIPTION_LENGTH - 4))
+            printf "%s... " "${DESCRIPTION:0:$DESCR_EFFECTIVE}"
+        fi
+
+        printf "%s " "${DMAP_PARAM_ORIGIN[$ID]:0:1}"
+
         if [[ -n "${DMAP_PARAM_DEFVAL[$ID]:-}" ]]; then
             PrintColor green ${CHAR_MAP["AVAILABLE"]}
         else
@@ -212,26 +235,15 @@ ParameterInTable() {
     local ID=$1
     local PRINT_MODE=${2:-}
 
-    local TEXT
     local padding
     local str_len
     local SPRINT
 
-    SPRINT=""
-    SPRINT=$SPRINT" "$(DescribeParameter $ID standard "none" $PRINT_MODE)
+    SPRINT=" "$(DescribeParameter $ID standard "none" $PRINT_MODE)
 
     str_len=$(ParameterStringLength $ID standard "none" text)
-    padding=$(( 18 - $str_len ))
+    padding=$((PARAM_PADDING - $str_len))
     SPRINT=$SPRINT$(printf '%*s' "$padding")
-
-    TEXT=$(DescribeParameter $ID descr "none" $PRINT_MODE)
-    SPRINT=$SPRINT$TEXT
-
-    str_len=${#TEXT}
-    padding=$(( 56 - $str_len ))
-    SPRINT=$SPRINT$(printf '%*s' "$padding")
-
-    SPRINT=$SPRINT$(DescribeParameter $ID origin1 "none" $PRINT_MODE)" "
 
     printf "$SPRINT"
 }

@@ -221,99 +221,111 @@ fi
 ############################################################################################
 ConsoleInfo "  -->" "lt: starting task"
 
-printf "\n "
-printf "${CHAR_MAP["TOP_LINE"]}%.0s" {1..79}
-printf "\n"
-printf " ${EFFECTS["REVERSE_ON"]}Task                     Description                                  O D B U S${EFFECTS["REVERSE_OFF"]}\n\n"
+if (( $TASK_LINE_MIN_LENGTH > $COLUMNS )); then
+    ConsoleError "  ->" "not enough columns for table, need $TASK_LINE_MIN_LENGTH found $COLUMNS"
+else
+    printf "\n "
+    for ((x = 1; x < $COLUMNS; x++)); do
+        printf %s "${CHAR_MAP["TOP_LINE"]}"
+    done
+    printf "\n ${EFFECTS["REVERSE_ON"]}Task"
+    printf "%*s" "$((TASK_PADDING - 4))" ''
+    printf "Description"
+    printf '%*s' "$((DESCRIPTION_LENGTH - 11))" ''
+    printf "O D B U S${EFFECTS["REVERSE_OFF"]}\n\n"
 
-for ID in ${!DMAP_TASK_ORIGIN[@]}; do
-    if [[ -n "$LOADED" ]]; then
-        if [[ -z "${RTMAP_TASK_LOADED[$ID]:-}" ]]; then
-            continue
-        fi
-    fi
-    if [[ -n "$UNLOADED" ]]; then
-        if [[ -z "${RTMAP_TASK_UNLOADED[$ID]:-}" ]]; then
-            continue
-        fi
-
-    fi
-    if [[ -n "$STATUS" ]]; then
-        case ${RTMAP_TASK_STATUS[$ID]} in
-            $STATUS)
-                ;;
-            *)
+    for ID in ${!DMAP_TASK_ORIGIN[@]}; do
+        if [[ -n "$LOADED" ]]; then
+            if [[ -z "${RTMAP_TASK_LOADED[$ID]:-}" ]]; then
                 continue
-                ;;
-        esac
-        #=
-    fi
-    if [[ -n "$APP_MODE" ]]; then
-        case ${DMAP_TASK_MODES[$ID]} in
-            *$APP_MODE*)
-                ;;
-            *)
-                continue
-                ;;
-        esac
-    fi
-    if [[ -n "$ORIGIN" ]]; then
-        if [[ ! "$ORIGIN" == "${DMAP_TASK_ORIGIN[$ID]}" ]]; then
-            continue
+            fi
         fi
+        if [[ -n "$UNLOADED" ]]; then
+            if [[ -z "${RTMAP_TASK_UNLOADED[$ID]:-}" ]]; then
+                continue
+            fi
+
+        fi
+        if [[ -n "$STATUS" ]]; then
+            case ${RTMAP_TASK_STATUS[$ID]} in
+                $STATUS)
+                    ;;
+                *)
+                    continue
+                    ;;
+            esac
+            #=
+        fi
+        if [[ -n "$APP_MODE" ]]; then
+            case ${DMAP_TASK_MODES[$ID]} in
+                *$APP_MODE*)
+                    ;;
+                *)
+                    continue
+                    ;;
+            esac
+        fi
+        if [[ -n "$ORIGIN" ]]; then
+            if [[ ! "$ORIGIN" == "${DMAP_TASK_ORIGIN[$ID]}" ]]; then
+                continue
+            fi
+        fi
+        keys=(${keys[@]:-} $ID)
+    done
+    keys=($(printf '%s\n' "${keys[@]:-}"|sort))
+
+    declare -A TASK_TABLE
+    FILE=${CONFIG_MAP["CACHE_DIR"]}/task-tab.${CONFIG_MAP["PRINT_MODE"]}
+    if [[ -n "$PRINT_MODE" ]]; then
+        FILE=${CONFIG_MAP["CACHE_DIR"]}/task-tab.$PRINT_MODE
     fi
-    keys=(${keys[@]:-} $ID)
-done
-keys=($(printf '%s\n' "${keys[@]:-}"|sort))
-
-
-declare -A TASK_TABLE
-FILE=${CONFIG_MAP["CACHE_DIR"]}/task-tab.${CONFIG_MAP["PRINT_MODE"]}
-if [[ -n "$PRINT_MODE" ]]; then
-    FILE=${CONFIG_MAP["CACHE_DIR"]}/task-tab.$PRINT_MODE
-fi
-if [[ -f $FILE ]]; then
-    source $FILE
-fi
-
-for i in ${!keys[@]}; do
-    ID=${keys[$i]}
-    if [[ -z "${TASK_TABLE[$ID]:-}" ]]; then
-        TaskInTable $ID $PRINT_MODE
-    else
-        printf "${TASK_TABLE[$ID]}"
+    if [[ -f $FILE ]]; then
+        source $FILE
     fi
-    DescribeTaskStatus $ID $PRINT_MODE
+
+    for i in ${!keys[@]}; do
+        ID=${keys[$i]}
+        if [[ -z "${TASK_TABLE[$ID]:-}" ]]; then
+            TaskInTable $ID $PRINT_MODE
+        else
+            printf "${TASK_TABLE[$ID]}"
+        fi
+        DescribeTaskStatus $ID $PRINT_MODE
+        printf "\n"
+    done
+
+    printf " "
+    for ((x = 1; x < $COLUMNS; x++)); do
+        printf %s "${CHAR_MAP["MID_LINE"]}"
+    done
+    printf "\n\n"
+
+    printf " flags: (O) Origin, (D) development, (B) build, (U) use, (S) status\n"
+    printf " - icons: "
+    PrintColor light-green ${CHAR_MAP["AVAILABLE"]}
+    printf " defined, "
+    PrintColor light-red ${CHAR_MAP["NOT_AVAILABLE"]}
+    printf " not defined"
+
     printf "\n"
-done
+    printf " - colors: "
+    PrintColor light-green ${CHAR_MAP["LEGEND"]}
+    printf " success, "
+    PrintColor light-blue ${CHAR_MAP["LEGEND"]}
+    printf " not attempted, "
+    PrintColor yellow ${CHAR_MAP["LEGEND"]}
+    printf " warnings, "
+    PrintColor light-red ${CHAR_MAP["LEGEND"]}
+    printf " errors, "
+    PrintColor light-cyan ${CHAR_MAP["LEGEND"]}
+    printf " reverted"
 
-printf " "
-printf "${CHAR_MAP["MID_LINE"]}%.0s" {1..79}
-printf "\n\n"
-
-printf " flags: (O) Origin, (D) development, (B) build, (U) use, (S) status\n"
-printf " - icons: "
-PrintColor light-green ${CHAR_MAP["AVAILABLE"]}
-printf " defined, "
-PrintColor light-red ${CHAR_MAP["NOT_AVAILABLE"]}
-printf " not defined"
-
-printf "\n"
-printf " - colors: "
-PrintColor light-green ${CHAR_MAP["LEGEND"]}
-printf " success, "
-PrintColor light-blue ${CHAR_MAP["LEGEND"]}
-printf " not attempted, "
-PrintColor yellow ${CHAR_MAP["LEGEND"]}
-printf " warnings, "
-PrintColor light-red ${CHAR_MAP["LEGEND"]}
-printf " errors, "
-PrintColor light-cyan ${CHAR_MAP["LEGEND"]}
-printf " reverted"
-
-printf "\n\n "
-printf "${CHAR_MAP["BOTTOM_LINE"]}%.0s" {1..79}
-printf "\n\n"
+    printf "\n\n "
+    for ((x = 1; x < $COLUMNS; x++)); do
+        printf %s "${CHAR_MAP["BOTTOM_LINE"]}"
+    done
+    printf "\n\n"
+fi
 
 ConsoleInfo "  -->" "lt: done"
 exit $TASK_ERRORS

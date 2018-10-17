@@ -148,6 +148,14 @@ for ID in ${!DMAP_PARAM_ORIGIN[@]}; do
 done
 keys=($(printf '%s\n' "${keys[@]:-}"|sort))
 
+declare -A PARAM_TABLE
+FILE=${CONFIG_MAP["CACHE_DIR"]}/param-tab.${CONFIG_MAP["PRINT_MODE"]}
+if [[ -n "$PRINT_MODE" ]]; then
+    FILE=${CONFIG_MAP["CACHE_DIR"]}/param-tab.$PRINT_MODE
+fi
+if [[ -f $FILE ]]; then
+    source $FILE
+fi
 
 
 ############################################################################################
@@ -157,18 +165,14 @@ keys=($(printf '%s\n' "${keys[@]:-}"|sort))
 ############################################################################################
 PrintTable() {
     printf "\n "
-    printf "${CHAR_MAP["TOP_LINE"]}%.0s" {1..79}
-    printf "\n"
-    printf " ${EFFECTS["REVERSE_ON"]}Parameter         Description                                             O D S${EFFECTS["REVERSE_OFF"]}\n\n"
-
-    declare -A PARAM_TABLE
-    FILE=${CONFIG_MAP["CACHE_DIR"]}/param-tab.${CONFIG_MAP["PRINT_MODE"]}
-    if [[ -n "$PRINT_MODE" ]]; then
-        FILE=${CONFIG_MAP["CACHE_DIR"]}/param-tab.$PRINT_MODE
-    fi
-    if [[ -f $FILE ]]; then
-        source $FILE
-    fi
+    for ((x = 1; x < $COLUMNS; x++)); do
+        printf %s "${CHAR_MAP["TOP_LINE"]}"
+    done
+    printf "\n ${EFFECTS["REVERSE_ON"]}Parameter"
+    printf "%*s" "$((PARAM_PADDING - 9))" ''
+    printf "Description"
+    printf '%*s' "$((DESCRIPTION_LENGTH - 11))" ''
+    printf "O D S${EFFECTS["REVERSE_OFF"]}\n\n"
 
     for i in ${!keys[@]}; do
         ID=${keys[$i]}
@@ -182,13 +186,17 @@ PrintTable() {
     done
 
     printf " "
-    printf "${CHAR_MAP["MID_LINE"]}%.0s" {1..79}
+    for ((x = 1; x < $COLUMNS; x++)); do
+        printf %s "${CHAR_MAP["MID_LINE"]}"
+    done
     printf "\n\n"
 
     printf " define parameters in environemnt or '.skb' with prefix: '${CONFIG_MAP["FLAVOR"]}_'"
 
     printf "\n\n "
-    printf "${CHAR_MAP["BOTTOM_LINE"]}%.0s" {1..79}
+    for ((x = 1; x < $COLUMNS; x++)); do
+        printf %s "${CHAR_MAP["BOTTOM_LINE"]}"
+    done
     printf "\n\n"
 }
 
@@ -200,35 +208,29 @@ PrintTable() {
 ##
 ############################################################################################
 PrintDefaultTable() {
-    printf "\n "
-    printf "${CHAR_MAP["TOP_LINE"]}%.0s" {1..79}
-    printf "\n"
-    printf " ${EFFECTS["REVERSE_ON"]}Parameter         Default Value                                                ${EFFECTS["REVERSE_OFF"]}\n\n"
+    local DEFAULT_VALUE
 
-    declare -A PARAM_TABLE
-    FILE=${CONFIG_MAP["CACHE_DIR"]}/param-tab.${CONFIG_MAP["PRINT_MODE"]}
-    if [[ -n "$PRINT_MODE" ]]; then
-        FILE=${CONFIG_MAP["CACHE_DIR"]}/param-tab.$PRINT_MODE
-    fi
-    if [[ -f $FILE ]]; then
-        source $FILE
-    fi
+    printf "\n ${EFFECTS["REVERSE_ON"]}Parameter"
+    printf "%*s" "$((PARAM_PADDING - 9))" ''
+    printf "Default Value"
+    printf '%*s' "$((DESCRIPTION_LENGTH - 8))" ''
+    printf "${EFFECTS["REVERSE_OFF"]}\n\n"
 
     for i in ${!keys[@]}; do
         SPRINT=""
         ID=${keys[$i]}
-        SPRINT+=$(printf " ")
-        SPRINT+=$(DescribeParameter $ID standard "none" $PRINT_MODE)
-
-        str_len=$(ParameterStringLength $ID standard "none" text)
-        padding=$(( 18 - $str_len ))
-        SPRINT=$SPRINT$(printf '%*s' "$padding")
-        SPRINT+=$(DescribeParameter $ID default-value "none" $PRINT_MODE)
-        printf "$SPRINT\n"
+        if [[ -z "${PARAM_TABLE[$ID]:-}" ]]; then
+            ParameterInTable $ID $PRINT_MODE
+        else
+            printf "${PARAM_TABLE[$ID]}"
+        fi
+        printf "%s\n" "$(DescribeParameterDefValue $ID $PRINT_MODE)"
     done
 
     printf "\n "
-    printf "${CHAR_MAP["BOTTOM_LINE"]}%.0s" {1..79}
+    for ((x = 1; x < $COLUMNS; x++)); do
+        printf %s "${CHAR_MAP["BOTTOM_LINE"]}"
+    done
     printf "\n\n"
 }
 
@@ -241,10 +243,14 @@ PrintDefaultTable() {
 ############################################################################################
 ConsoleInfo "  -->" "lp: starting task"
 
-if [[ $TABLE == true ]]; then
-    PrintTable
-else
-    PrintDefaultTable
+if (( $PARAM_LINE_MIN_LENGTH > $COLUMNS )); then
+    ConsoleError "  ->" "not enough columns for table, need $PARAM_LINE_MIN_LENGTH found $COLUMNS"
+    else
+    if [[ $TABLE == true ]]; then
+        PrintTable
+    else
+        PrintDefaultTable
+    fi
 fi
 
 ConsoleInfo "  -->" "lp: done"

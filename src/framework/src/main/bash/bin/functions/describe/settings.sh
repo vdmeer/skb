@@ -60,21 +60,38 @@ PrintSettingsLevel() {
 ## - prints settings, i.e. CONFIG_MAP
 ##
 SettingScreen() {
+    local STATUS_PADDING=17
+    local STATUS_STATUS_LENGHT=1
+    local STATUS_LINE_MIN_LENGTH=30
+    local COLUMNS=$(tput cols)
+    local COLUMNS=$((COLUMNS - 2))
+    local VALUE_LENGTH=$((COLUMNS - STATUS_PADDING - STATUS_STATUS_LENGHT - 1))
+
     local ID
     local VALUE
     local padding
     local str_len
     local sc_str
+    local padding
+    local VALUE_EFFECTIVE
 
     printf "\n "
-    printf "${CHAR_MAP["TOP_LINE"]}%.0s" {1..79}
-    printf "\n"
-    printf " ${EFFECTS["REVERSE_ON"]}Name             Value                                                        S${EFFECTS["REVERSE_OFF"]}\n\n"
+    for ((x = 1; x < $COLUMNS; x++)); do
+        printf %s "${CHAR_MAP["TOP_LINE"]}"
+    done
+    printf "\n ${EFFECTS["REVERSE_ON"]}Name"
+    printf "%*s" "$((STATUS_PADDING - 4))" ''
+    printf "Value"
+    printf '%*s' "$((VALUE_LENGTH - 5))" ''
+    printf "S${EFFECTS["REVERSE_OFF"]}\n\n"
 
     for ID in ${!CONFIG_MAP[@]}; do
-        printf " %-17s" "$ID"
-        sc_str=${CONFIG_MAP[$ID]}
+        printf " %s" "$ID"
+        str_len=${#ID}
+        padding=$((STATUS_PADDING - $str_len))
+        printf '%*s' "$padding"
 
+        sc_str=${CONFIG_MAP[$ID]}
         case $ID in
             LOADER-LEVEL | SHELL-LEVEL | TASK-LEVEL)
                 PrintSettingsLevel "$sc_str"
@@ -108,14 +125,12 @@ SettingScreen() {
                 printf '%s' "$sc_str"
                 ;;
         esac
-        str_len=${#sc_str}
-        if [[ "$ID" == "SHELL_PROMPT" ]]; then
-            str_len=${CONFIG_MAP["PROMPT_LENGTH"]}
-        fi
-        padding=$(( 60 - $str_len ))
-        printf '%*s' "$padding"
 
-        printf " "
+        str_len=${#sc_str}
+        VALUE_EFFECTIVE=${#sc_str}
+        PADDING=$((VALUE_LENGTH - VALUE_EFFECTIVE))
+        printf '%*s' "$PADDING"
+
         case ${CONFIG_SRC[$ID]:-} in
             "E")    PrintColor green        ${CHAR_MAP["DIAMOND"]} ;;
             "F")    PrintColor yellow       ${CHAR_MAP["DIAMOND"]} ;;
@@ -127,7 +142,9 @@ SettingScreen() {
     done | sort -t : -k 2n
 
     printf " "
-    printf "${CHAR_MAP["MID_LINE"]}%.0s" {1..79}
+    for ((x = 1; x < $COLUMNS; x++)); do
+        printf %s "${CHAR_MAP["MID_LINE"]}"
+    done
     printf "\n\n"
 
     printf " source:"
@@ -138,6 +155,8 @@ SettingScreen() {
     printf " default ";         PrintColor light-red    ${CHAR_MAP["LEGEND"]}
 
     printf "\n\n "
-    printf "${CHAR_MAP["BOTTOM_LINE"]}%.0s" {1..79}
+    for ((x = 1; x < $COLUMNS; x++)); do
+        printf %s "${CHAR_MAP["BOTTOM_LINE"]}"
+    done
     printf "\n\n"
 }

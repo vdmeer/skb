@@ -125,6 +125,14 @@ if [[ $LIST == false && $TABLE == false ]]; then
     exit 3
 fi
 
+declare -A COMMAND_TABLE
+FILE=${CONFIG_MAP["CACHE_DIR"]}/cmd-tab.${CONFIG_MAP["PRINT_MODE"]}
+if [[ -n "$PRINT_MODE" ]]; then
+    FILE=${CONFIG_MAP["CACHE_DIR"]}/cmd-tab.$PRINT_MODE
+fi
+if [[ -f $FILE ]]; then
+    source $FILE
+fi
 
 
 ############################################################################################
@@ -132,21 +140,30 @@ fi
 ############################################################################################
 function TableTop() {
     printf "\n "
-    printf "${CHAR_MAP["TOP_LINE"]}%.0s" {1..79}
-    printf "\n"
-    printf " ${EFFECTS["REVERSE_ON"]}Command                         Description                                    ${EFFECTS["REVERSE_OFF"]}\n\n"
+    for ((x = 1; x < $COLUMNS; x++)); do
+        printf %s "${CHAR_MAP["TOP_LINE"]}"
+    done
+    printf "\n ${EFFECTS["REVERSE_ON"]}Command"
+    printf "%*s" "$((CMD_PADDING - 7))" ''
+    printf "Description"
+    printf '%*s' "$((DESCRIPTION_LENGTH - 11))" ''
+    printf "${EFFECTS["REVERSE_OFF"]}\n\n"
 }
 
 function TableBottom() {
     printf " "
-    printf "${CHAR_MAP["MID_LINE"]}%.0s" {1..79}
+    for ((x = 1; x < $COLUMNS; x++)); do
+        printf %s "${CHAR_MAP["MID_LINE"]}"
+    done
     printf "\n\n"
 
     printf " All other input will be treated as an attempt to run a task with parameters.\n"
     printf " 'list-tasks' or 'lt' for a list of all tasks.\n\n"
 
     printf " "
-    printf "${CHAR_MAP["BOTTOM_LINE"]}%.0s" {1..79}
+    for ((x = 1; x < $COLUMNS; x++)); do
+        printf %s "${CHAR_MAP["BOTTOM_LINE"]}"
+    done
     printf "\n\n"
 }
 
@@ -174,39 +191,17 @@ PrintCommands() {
     done
     keys=($(printf '%s\n' "${keys[@]:-}"|sort))
 
-    case $1 in
-        list)
-            declare -A COMMAND_LIST
-            FILE=${CONFIG_MAP["CACHE_DIR"]}/cmd-list.${CONFIG_MAP["PRINT_MODE"]}
-            if [[ -n "$PRINT_MODE" ]]; then
-                FILE=${CONFIG_MAP["CACHE_DIR"]}/cmd-list.$PRINT_MODE
-            fi
-            if [[ -f $FILE ]]; then
-                source $FILE
-            fi
-            ;;
-        table)
-            declare -A COMMAND_TABLE
-            FILE=${CONFIG_MAP["CACHE_DIR"]}/cmd-tab.${CONFIG_MAP["PRINT_MODE"]}
-            if [[ -n "$PRINT_MODE" ]]; then
-                FILE=${CONFIG_MAP["CACHE_DIR"]}/cmd-tab.$PRINT_MODE
-            fi
-            if [[ -f $FILE ]]; then
-                source $FILE
-            fi
-            ;;
-    esac
-
     for i in ${!keys[@]}; do
         ID=${keys[$i]}
         case $1 in
             list)
                 printf "   "
-                if [[ -z "${COMMAND_LIST[$ID]:-}" ]]; then
-                    CommandInList $ID $PRINT_MODE
+                if [[ -z "${COMMAND_TABLE[$ID]:-}" ]]; then
+                    CommandInTable $ID $PRINT_MODE
                 else
-                    printf "${COMMAND_LIST[$ID]}"
+                    printf "${COMMAND_TABLE[$ID]}"
                 fi
+                DescribeCommandStatus $ID 3
                 ;;
             table)
                 if [[ -z "${COMMAND_TABLE[$ID]:-}" ]]; then
@@ -214,13 +209,12 @@ PrintCommands() {
                 else
                     printf "${COMMAND_TABLE[$ID]}"
                 fi
-#                 DescribeCommandStatus $ID $PRINT_MODE
+                DescribeCommandStatus $ID
                 ;;
         esac
         printf "\n"
     done
 }
-
 
 
 

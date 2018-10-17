@@ -32,12 +32,19 @@
 ## DO NOT CHANGE CODE BELOW, unless you know what you are doing
 ##
 
+DEP_PADDING=20
+DEP_STATUS_LENGHT=3
+DEP_LINE_MIN_LENGTH=43
+COLUMNS=$(tput cols)
+COLUMNS=$((COLUMNS - 2))
+DESCRIPTION_LENGTH=$((COLUMNS - DEP_PADDING - DEP_STATUS_LENGHT - 1))
+
 
 ##
 ## DescribeDependency
 ## - describes a dependency using print options and print features
 ## $1: dependency id
-## $2: print option: descr, origin, origin1, standard, full
+## $2: print option: standard, full
 ## $3: print features: none, line-indent, enter, post-line, (adoc, ansi, text*)
 ##
 DescribeDependency() {
@@ -82,7 +89,6 @@ DescribeDependency() {
     SPRINT=$ENTER
     SPRINT+=$LINE_INDENT
 
-    local ORIGIN=${DMAP_DEP_ORIGIN[$ID]}
     local DESCRIPTION=${DMAP_DEP_DESCR[$ID]:-}
 
     local TEMPLATE="%ID%"
@@ -94,15 +100,6 @@ DescribeDependency() {
     fi
 
     case "$PRINT_OPTION" in
-        descr)
-            SPRINT+=$DESCRIPTION
-            ;;
-        origin)
-            SPRINT+=$ORIGIN
-            ;;
-        origin1)
-            SPRINT+=${ORIGIN:0:1}
-            ;;
         standard | full)
             local TMP_MODE=${4:-}
             if [[ "$TMP_MODE" == "" ]]; then
@@ -146,6 +143,20 @@ DescribeDependencyStatus() {
     if [[ -z ${DMAP_DEP_ORIGIN[$ID]:-} ]]; then
         ConsoleError " ->" "help-dep/status - unknown dependency '$ID'"
     else
+
+        DESCRIPTION=${DMAP_DEP_DESCR[$ID]}
+        if [[ "${#DESCRIPTION}" -le "$DESCRIPTION_LENGTH" ]]; then
+            printf "%s" "$DESCRIPTION"
+            DESCR_EFFECTIVE=${#DESCRIPTION}
+            PADDING=$((DESCRIPTION_LENGTH - DESCR_EFFECTIVE))
+            printf '%*s' "$PADDING"
+        else
+            DESCR_EFFECTIVE=$((DESCRIPTION_LENGTH - 4))
+            printf "%s... " "${DESCRIPTION:0:$DESCR_EFFECTIVE}"
+        fi
+
+        printf "%s " "${DMAP_DEP_ORIGIN[$ID]:0:1}"
+
         case ${RTMAP_DEP_STATUS[$ID]} in
             "N")        PrintColor light-blue ${CHAR_MAP["DIAMOND"]} ;;
             "S")        PrintColor green ${CHAR_MAP["DIAMOND"]} ;;
@@ -180,26 +191,15 @@ DependencyInTable() {
     local ID=$1
     local PRINT_MODE=${2:-}
 
-    local TEXT
     local padding
     local str_len
     local SPRINT
 
-    SPRINT=""
-    SPRINT=$SPRINT" "$(DescribeDependency $ID standard "none" $PRINT_MODE)
+    SPRINT=" "$(DescribeDependency $ID standard "none" $PRINT_MODE)
 
     str_len=$(DependencyStringLength $ID standard "none" text)
-    padding=$(( 20 - $str_len ))
+    padding=$((DEP_PADDING - $str_len))
     SPRINT=$SPRINT$(printf '%*s' "$padding")
-
-    TEXT=$(DescribeDependency $ID descr "none" $PRINT_MODE)
-    SPRINT=$SPRINT$TEXT
-
-    str_len=${#TEXT}
-    padding=$(( 56 - $str_len ))
-    SPRINT=$SPRINT$(printf '%*s' "$padding")
-
-    SPRINT=$SPRINT$(DescribeDependency $ID origin1 "none" $PRINT_MODE)" "
 
     printf "$SPRINT"
 }

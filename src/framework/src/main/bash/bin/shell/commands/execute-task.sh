@@ -38,6 +38,9 @@
 ## - executes a task
 ##
 ShellCmdExecuteTask() {
+    local COLUMNS=$(tput cols)
+    COLUMNS=$((COLUMNS - 2))
+
     local TASK=$(echo $SARG | cut -d' ' -f1)
     ID=$(GetTaskID $TASK)
 
@@ -86,7 +89,9 @@ ShellCmdExecuteTask() {
 
     if $DO_EXTRAS; then
         printf "\n "
-        printf "${CHAR_MAP["TOP_LINE"]}%.0s" {1..79}
+        for ((x = 1; x < $COLUMNS; x++)); do
+            printf %s "${CHAR_MAP["TOP_LINE"]}"
+        done
         printf "\n"
 
         TIME=$(date +"%T")
@@ -130,7 +135,9 @@ ShellCmdExecuteTask() {
         fi
 
         printf "\n "
-        printf "${CHAR_MAP["TOP_LINE"]}%.0s" {1..79}
+        for ((x = 1; x < $COLUMNS; x++)); do
+            printf %s "${CHAR_MAP["TOP_LINE"]}"
+        done
         printf "\n\n"
     elif $DO_WAIT; then
         RUNTIME=$(echo "$TE-$TS" | bc -l)

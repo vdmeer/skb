@@ -11,7 +11,7 @@ mkdir -p src/main/bash/bin/java
 cp build/libs/skb-framework-tool-0.0.0-all.jar src/main/bash/bin/java
 
 #TOOL_DIR=`(cd build/libs;pwd)`
-#export SF_SKB_FW_TOOL=$TOOL_DIR/skb-framework-tool-0.0.0-all.jar
+export SF_SKB_FW_TOOL=$TOOL_DIR/skb-framework-tool-0.0.0-all.jar
 src/main/bash/bin/skb-framework -c
 src/main/bash/bin/skb-framework -M dev -e bdh -S off
 src/main/bash/bin/skb-framework -h

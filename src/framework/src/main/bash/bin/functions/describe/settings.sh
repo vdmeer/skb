@@ -104,7 +104,7 @@ SettingScreen() {
                     sc_str="true"
                 fi
                 ;;
-            MODE)
+            APP_MODE)
                 case "$sc_str" in
                     dev)    PrintColor light-red        $sc_str ;;
                     build)  PrintColor yellow           $sc_str ;;

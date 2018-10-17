@@ -33,8 +33,9 @@
 ##
 
 
+source $FW_HOME/bin/functions/print-ansi.sh
 source $FW_HOME/bin/functions/console.sh
 source $FW_HOME/bin/functions/misc.sh
-source $FW_HOME/bin/functions/print-colors.sh
-source $FW_HOME/bin/functions/print-effects.sh
+source $FW_HOME/bin/functions/print.sh
+source $FW_HOME/bin/functions/prompt.sh
 source $FW_HOME/bin/functions/tasks.sh

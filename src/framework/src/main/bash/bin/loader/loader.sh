@@ -167,6 +167,22 @@ fi
 
 
 ##
+## sneak in CLI for application mode
+##
+case "$@" in
+    *"-D"*)
+        CONFIG_MAP["APP_MODE"]="dev"
+        CONFIG_SRC["APP_MODE"]="O"
+        ;;
+    *"-B"*)
+        CONFIG_MAP["APP_MODE"]="build"
+        CONFIG_SRC["APP_MODE"]="O"
+        ;;
+esac
+
+
+
+##
 ## declare and set parameters, from here on we have setting stuff loaded
 ##
 DeclareParameters
@@ -198,16 +214,6 @@ done
 
 ParseCli $@
 if ConsoleHasErrors; then printf "\n"; exit 3; fi
-case "${CONFIG_MAP["APP_MODE"]:-}" in
-    dev | build | use)
-        ConsoleInfo "-->" "found application mode '${CONFIG_MAP["APP_MODE"]}'"
-        ;;
-    *)
-        ConsoleWarn "-->" "unknown application mode '${CONFIG_MAP["APP_MODE"]}', assuming 'use'"
-        CONFIG_MAP["APP_MODE"]=use
-        CONFIG_SRC["APP_MODE"]=""
-        ;;
-esac
 case "${CONFIG_MAP["PRINT_MODE"]:-}" in
     ansi | text | adoc)
         ConsoleInfo "-->" "found print mode '${CONFIG_MAP["PRINT_MODE"]}'"

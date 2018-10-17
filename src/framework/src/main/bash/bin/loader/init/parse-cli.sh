@@ -43,13 +43,13 @@ ParseCli() {
     ConsoleInfo "-->" "parse-cli"
     ConsoleResetErrors
 
-    local CLI_OPTIONS=cd:e:hL:M:mo:p:P:r:sS:T:vV
+    local CLI_OPTIONS=BcDd:e:hL:mo:p:P:r:sS:T:vV
 
     local CLI_LONG_OPTIONS=loader-level:,shell-level:,task-level:
-    CLI_LONG_OPTIONS+=,manual,mode:,run-scenario:,settings,version,validate,help
+    CLI_LONG_OPTIONS+=,manual,run-scenario:,settings,version,validate,help
     CLI_LONG_OPTIONS+=,option:,parameter:,dependency:
     CLI_LONG_OPTIONS+=,strict
-    CLI_LONG_OPTIONS+=,print-mode:,clean-cache,execute-task:
+    CLI_LONG_OPTIONS+=,print-mode:,clean-cache,execute-task:,build-mode,dev-mode
 
     ConsoleDebug "running getopt"
     local PARSED
@@ -68,8 +68,18 @@ ParseCli() {
     ConsoleDebug "looping through options"
     while true; do
         case "$1" in
+            -B | --build-mode)
+#                 CONFIG_MAP["APP_MODE"]="build"
+#                 CONFIG_SRC["APP_MODE"]="O"
+                shift 1
+                ;;
             -c | --clean-cache)
                 OPT_CLI_MAP["clean-cache"]=true
+                shift 1
+                ;;
+            -D | --dev-mode)
+#                 CONFIG_MAP["APP_MODE"]="dev"
+#                 CONFIG_SRC["APP_MODE"]="O"
                 shift 1
                 ;;
             -d | --dependency)
@@ -87,11 +97,6 @@ ParseCli() {
             -L | --loader-level)
                 CONFIG_MAP["LOADER-LEVEL"]="$2"
                 CONFIG_SRC["LOADER-LEVEL"]="O"
-                shift 2
-                ;;
-            -M | --mode)
-                CONFIG_MAP["APP_MODE"]="$2"
-                CONFIG_SRC["APP_MODE"]="O"
                 shift 2
                 ;;
             -m | --manual)

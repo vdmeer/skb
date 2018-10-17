@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+##
+## Identity for task manual
+##
+## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
+## @version    v0.0.0
+##
+
+SHORT=m
+MODES="dev build use"
+DESCRIPTION="shows the manual in various versions"
+EXEC_PATH=bin/tasks/all
+
+TaskRequire $ID task start-browser opt
+TaskRequire $ID task start-pdf opt
+
+TaskRequire $ID dir ${CONFIG_MAP["HOME"]}/doc/manual

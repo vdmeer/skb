@@ -33,6 +33,7 @@
 ##
 
 
-source ${CONFIG_MAP["FW_HOME"]}/bin/functions/describe/settings.sh
-SettingScreen
-DO_EXIT=true
+CONFIG_MAP["LOADER-LEVEL"]=off
+CONFIG_MAP["SHELL-LEVEL"]=off
+OPT_CLI_MAP["execute-task"]="settings "$CLI_EXTRA_ARGS
+DO_EXIT_2=true

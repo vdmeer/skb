@@ -53,10 +53,11 @@ CONFIG_MAP["RUNNING_IN"]="shell"
 ## load main functions
 ## - reset errors and warnings
 ##
+source $FW_HOME/bin/loader/declare/config.sh
 source $FW_HOME/bin/shell/commands/_include
 source $FW_HOME/bin/functions/_include
-source $FW_HOME/bin/functions/describe/_include
-source $FW_HOME/bin/loader/declare/config.sh
+source $FW_HOME/bin/functions/describe/task.sh
+
 ConsoleResetErrors
 ConsoleResetWarnings
 ConsoleMessage "\n"
@@ -132,11 +133,20 @@ FWInterpreter() {
             ShellAddCmdHistory
             ;;
 
-        settings | "settings "* | s | "s "*)
-            SettingScreen
-            printf "\n"
+        print-mode | p)
+            printf "\n    print-mode/p requires a new mode as argument\n\n"
+            ;;
+        "print-mode "*)
+            SARG=${SCMD#*print-mode }
+            ShellCmdPrintMode
             ShellAddCmdHistory
             ;;
+        "p "*)
+            SARG=${SCMD#*p }
+            ShellCmdPrintMode
+            ShellAddCmdHistory
+            ;;
+
 
         strict | "strict "*)
             ShellCmdStrict
@@ -145,22 +155,6 @@ FWInterpreter() {
 
         time | "time "* | t | "t "*)
             printf "\n    %s\n\n" "$STIME"
-            ShellAddCmdHistory
-            ;;
-
-        manual | m)
-            SARG=""
-            ShellCmdManual
-            ShellAddCmdHistory
-            ;;
-        "manual "*)
-            SARG=${SCMD#*manual }
-            ShellCmdManual
-            ShellAddCmdHistory
-            ;;
-        "m "*)
-            SARG=${SCMD#*m }
-            ShellCmdManual
             ShellAddCmdHistory
             ;;
 

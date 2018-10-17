@@ -38,8 +38,7 @@ source $FW_HOME/bin/shell/commands/execute-task.sh
 source $FW_HOME/bin/shell/commands/help.sh
 source $FW_HOME/bin/shell/commands/history.sh
 source $FW_HOME/bin/shell/commands/list-scenarios.sh
-source $FW_HOME/bin/shell/commands/manual.sh
+source $FW_HOME/bin/shell/commands/print-mode.sh
 source $FW_HOME/bin/shell/commands/shell-level.sh
 source $FW_HOME/bin/shell/commands/strict.sh
 source $FW_HOME/bin/shell/commands/task-level.sh
-

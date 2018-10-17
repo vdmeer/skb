@@ -76,7 +76,7 @@ CLI_SET=false
 ## set CLI options and parse CLI
 ##
 CLI_OPTIONS=ahlm:o:p:s:u
-CLI_LONG_OPTIONS=all,mode:,help,loaded,origin:print-mode:,status:,unloaded
+CLI_LONG_OPTIONS=all,mode:,help,loaded,origin:,print-mode:,status:,unloaded
 
 ! PARSED=$(getopt --options "$CLI_OPTIONS" --longoptions "$CLI_LONG_OPTIONS" --name list-tasks -- "$@")
 if [[ ${PIPESTATUS[0]} -ne 0 ]]; then

@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 ##
-# Identity for Shell command manual
+# Identity for Shell command print-mode
 ##
 ## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
 ## @version    v0.0.0
 ##
 
-SHORT=m
-ARGUMENT=TYPE
-DESCRIPTION="shows the manual for a given type"
+SHORT=p
+ARGUMENT=MODE
+DESCRIPTION="set the print mode"

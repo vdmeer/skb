@@ -623,7 +623,7 @@ ConsoleInfo "  -->" "validate target(s): $TARGET"
 
 OLD_STRICT=${CONFIG_MAP["STRICT"]}
 if [[ "$DO_STRICT" == true ]]; then
-    CONFIG_MAP["STRICT"]=yes
+    CONFIG_MAP["STRICT"]=on
 fi
 for TODO in $TARGET; do
     ConsoleDebug "target: $TODO"

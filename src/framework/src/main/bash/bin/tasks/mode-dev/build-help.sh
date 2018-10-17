@@ -61,14 +61,15 @@ ConsoleResetWarnings
 ##
 ## set local variables
 ##
+DO_CLEAN=false
 
 
 
 ##
 ## set CLI options and parse CLI
 ##
-CLI_OPTIONS=h
-CLI_LONG_OPTIONS=help
+CLI_OPTIONS=ch
+CLI_LONG_OPTIONS=clean,help
 
 ! PARSED=$(getopt --options "$CLI_OPTIONS" --longoptions "$CLI_LONG_OPTIONS" --name build-help -- "$@")
 if [[ ${PIPESTATUS[0]} -ne 0 ]]; then
@@ -80,8 +81,13 @@ eval set -- "$PARSED"
 PRINT_PADDING=19
 while true; do
     case "$1" in
+        -c | --clean)
+            DO_CLEAN=true
+            shift
+            ;;
         -h | --help)
             printf "\n   options\n"
+            BuildTaskHelpLine c clean   "<none>"    "added by convention, does nothing"                 $PRINT_PADDING
             BuildTaskHelpLine h help    "<none>"    "print help screen and exit"                        $PRINT_PADDING
             exit 0
             ;;
@@ -108,6 +114,11 @@ ConsoleInfo "  -->" "bdh: starting task"
 ConsoleResetErrors
 
 
+if [[ $DO_CLEAN == true ]]; then
+    ConsoleInfo "  -->" "bdh: done"
+    exit 0
+fi
+
 PRINT_MODES="ansi text"
 ConsoleInfo "  -->" "build help for options and commands"
 
@@ -130,7 +141,7 @@ else
     ConsoleError " ->" "cmd-list: did not find task 'list-commands', not loaded?"
 fi
 
-ConsoleDebug "target: ooption help"
+ConsoleDebug "target: option help"
 if [[ ! -z "${RTMAP_TASK_LOADED["list-options"]}" ]]; then
     for MODE in $PRINT_MODES; do
         FILE=${CONFIG_MAP["FW_HOME"]}/etc/option-help.$MODE

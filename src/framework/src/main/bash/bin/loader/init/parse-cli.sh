@@ -130,7 +130,7 @@ ParseCli() {
                 shift 2
                 ;;
             --strict)
-                CONFIG_MAP["STRICT"]="yes"
+                CONFIG_MAP["STRICT"]="on"
                 CONFIG_SRC["STRICT"]="O"
                 shift
                 ;;

@@ -202,7 +202,7 @@ ConsoleWarnStrict() {
     local LEVEL=
     local SPRINT
 
-    if [[ ${CONFIG_MAP["STRICT"]} == "yes" ]]; then
+    if [[ ${CONFIG_MAP["STRICT"]} == "on" ]]; then
         ## all warnings are errors
 
         case ${CONFIG_MAP["RUNNING_IN"]} in

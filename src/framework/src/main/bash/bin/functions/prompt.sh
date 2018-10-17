@@ -21,7 +21,7 @@
 #-------------------------------------------------------------------------------
 
 ##
-## Shell: function for shell command - strict
+## Functions for different prompts
 ##
 ## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
 ## @version    v0.0.0
@@ -34,15 +34,11 @@
 
 
 ##
-## function: ShellCmdStrict
-## - alter the strict mode of the application
+## function: PromptSfMode
+## - prints the application flavour and the mode in brakets
 ##
-ShellCmdStrict() {
-    if [[ "${CONFIG_MAP["STRICT"]}" == "off" ]]; then
-        CONFIG_MAP["STRICT"]="on"
-    else
-        CONFIG_MAP["STRICT"]="off"
-    fi
-    WriteL1Config
-    printf "  set strict mode to ${CONFIG_MAP["STRICT"]} and wrote CONFIG_MAP\n"
+PromptSfMode() {
+    printf "%s(" ${CONFIG_MAP["FLAVOR"],,}
+    PrintAppMode
+    printf "): \n"
 }

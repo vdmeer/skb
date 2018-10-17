@@ -62,7 +62,7 @@ RTMAP_REQUESTED_PARAM["DUMMY"]=dummy
 ##
 MissingReqIsError() {
     if [[ -n "$WARN" ]]; then
-        if [[ ${CONFIG_MAP["STRICT"]} == true ]]; then
+        if [[ "${CONFIG_MAP["STRICT"]}" == "on" ]]; then
             return 0
         else
             return 1
@@ -177,7 +177,7 @@ SetArtifactStatus() {
 ProcessTaskTestFile() {
     if [[ ! -f "${CONFIG_MAP[$1]}" ]]; then
         ConsoleWarnStrict "  ->" "test files for task $3: not a regular file for setting '$1' as '${CONFIG_MAP[$1]}'"
-        if [[ ( "$2" == opt && ${CONFIG_MAP["STRICT"]} == "yes" ) || "$2" == man ]]; then
+        if [[ ( "$2" == opt && "${CONFIG_MAP["STRICT"]}" == "on" ) || "$2" == man ]]; then
             return 1
         else
             return 0
@@ -185,7 +185,7 @@ ProcessTaskTestFile() {
     fi
     if [[ ! -r "${CONFIG_MAP[$1]}" ]]; then
         ConsoleWarnStrict "  ->" "test files for task $3: file not readable for setting '$1' as '${CONFIG_MAP[$1]}'"
-        if [[ ( "$2" == opt && ${CONFIG_MAP["STRICT"]} == "yes" ) || "$2" == man ]]; then
+        if [[ ( "$2" == opt && "${CONFIG_MAP["STRICT"]}" == "on" ) || "$2" == man ]]; then
             return 1
         else
             return 0
@@ -206,7 +206,7 @@ ProcessTaskTestFile() {
 ProcessTaskTestDir() {
     if [[ ! -d "${CONFIG_MAP[$1]}" ]]; then
         ConsoleWarnStrict "  ->" "test directories for task $3: not a redable directory for $1 as ${CONFIG_MAP[$1]}"
-        if [[ ( "$2" == opt && ${CONFIG_MAP["STRICT"]} == "yes" ) || "$2" == man ]]; then
+        if [[ ( "$2" == opt && "${CONFIG_MAP["STRICT"]}" == "on" ) || "$2" == man ]]; then
             return 1
         else
             return 0
@@ -230,7 +230,7 @@ ProcessTaskTestDirCD() {
     MD_ERR=$?
     if (( $MD_ERR != 0 )) || [[ ! -d ${CONFIG_MAP[$1]} ]]; then
         ConsoleWarnStrict "  ->" "test directories-cd for task $3: not a directory for $1 as ${CONFIG_MAP[$1]}, tried mkdir"
-        if [[ ( "$2" == opt && ${CONFIG_MAP["STRICT"]} == "yes" ) || "$2" == man ]]; then
+        if [[ ( "$2" == opt && "${CONFIG_MAP["STRICT"]}" == "on" ) || "$2" == man ]]; then
             return 1
         else
             return 0
@@ -312,7 +312,7 @@ ProcessTaskReqParam() {
                 RTMAP_REQUESTED_PARAM[$PARAM]=$PARAM
                 if [[ -z "${CONFIG_MAP[$PARAM]:-}" ]]; then
                     ConsoleWarnStrict " ->" "process-task/param - $ID with unset parameter '$PARAM'"
-                    if [[ ${CONFIG_MAP["STRICT"]} == "yes" ]]; then
+                    if [[ "${CONFIG_MAP["STRICT"]}" == "on" ]]; then
                         RTMAP_TASK_UNLOADED[$ID]="${RTMAP_TASK_UNLOADED[$ID]:-} par-set::$PARAM"
                         SetArtifactStatus task $ID E
                     else
@@ -445,7 +445,7 @@ ProcessTaskReqDep() {
                     ConsoleDebug "process-task/dep - processed '$ID' for dependency '$DEP' with success"
                 else
                     ConsoleWarnStrict " ->" "process-task/dep - $ID dependency '$DEP' not found"
-                    if [[ ${CONFIG_MAP["STRICT"]} == "yes" ]]; then
+                    if [[ "${CONFIG_MAP["STRICT"]}" == "on" ]]; then
                         RTMAP_TASK_UNLOADED[$ID]="${RTMAP_TASK_UNLOADED[$ID]:-} dep-cmd::$DEP"
                         SetArtifactStatus task $ID E
                     else
@@ -503,7 +503,7 @@ ProcessTaskReqTask() {
             else
                 if [[ ! -z "${RTMAP_TASK_UNLOADED[$TASK]:-}" ]]; then
                     ConsoleWarnStrict " ->" "process-task/task - $ID with unloaded task '$TASK'"
-                    if [[ ${CONFIG_MAP["STRICT"]} == "yes" ]]; then
+                    if [[ "${CONFIG_MAP["STRICT"]}" == "on" ]]; then
                         RTMAP_TASK_UNLOADED[$ID]="${RTMAP_TASK_UNLOADED[$ID]:-} task-set::$TASK"
                         SetArtifactStatus task $ID E
                     else
@@ -555,7 +555,7 @@ ProcessTaskReqDir() {
             ConsoleTrace "   $ID - dir opt $DIR"
             if [[ ! -d $DIR ]]; then
                 ConsoleWarnStrict " ->" "process-task/dir - $ID not a directory '$DIR'"
-                if [[ ${CONFIG_MAP["STRICT"]} == "yes" ]]; then
+                if [[ "${CONFIG_MAP["STRICT"]}" == "on" ]]; then
                     RTMAP_TASK_UNLOADED[$ID]="${RTMAP_TASK_UNLOADED[$ID]:-} dir::$DIR"
                     SetArtifactStatus task $ID E
                 else
@@ -606,7 +606,7 @@ ProcessTaskReqFile() {
             ConsoleTrace "   $ID - file opt $FILE"
             if [[ ! -f $FILE ]]; then
                 ConsoleWarnStrict " ->" "process-task/file - $ID not a file '$FILE'"
-                if [[ ${CONFIG_MAP["STRICT"]} == "yes" ]]; then
+                if [[ "${CONFIG_MAP["STRICT"]}" == "on" ]]; then
                     RTMAP_TASK_UNLOADED[$ID]="${RTMAP_TASK_UNLOADED[$ID]:-} file::$FILE"
                     SetArtifactStatus task $ID E
                 else

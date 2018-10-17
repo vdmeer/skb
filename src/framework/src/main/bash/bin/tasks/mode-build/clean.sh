@@ -126,7 +126,7 @@ for ID in "${!RTMAP_TASK_LOADED[@]}"; do
             ;;
     esac
 done
-if [[ -z ${CONFIG_MAP["TARGET"]} ]]; then
+if [[ -z ${CONFIG_MAP["TARGET"]:-} ]]; then
     ConsoleDebug "cl: target directory not set"
 else
     if [[ -d ${CONFIG_MAP["TARGET"]} ]]; then

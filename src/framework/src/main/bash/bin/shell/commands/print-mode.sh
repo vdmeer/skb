@@ -21,7 +21,7 @@
 #-------------------------------------------------------------------------------
 
 ##
-## Shell: function for shell command - strict
+## Shell: function for shell command - print-mode
 ##
 ## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
 ## @version    v0.0.0
@@ -34,15 +34,18 @@
 
 
 ##
-## function: ShellCmdStrict
-## - alter the strict mode of the application
+## function: ShellCmdPrintMode
+## - set the print mode
 ##
-ShellCmdStrict() {
-    if [[ "${CONFIG_MAP["STRICT"]}" == "off" ]]; then
-        CONFIG_MAP["STRICT"]="on"
-    else
-        CONFIG_MAP["STRICT"]="off"
-    fi
-    WriteL1Config
-    printf "  set strict mode to ${CONFIG_MAP["STRICT"]} and wrote CONFIG_MAP\n"
+ShellCmdPrintMode() {
+    case "$SARG" in
+        ansi | text | text-anon)
+            CONFIG_MAP["PRINT_MODE"]=$SARG
+            WriteL1Config
+            printf "  set print mode to ${CONFIG_MAP["PRINT_MODE"]} and wrote CONFIG_MAP\n"
+            ;;
+        *)
+            ConsoleError " ->" "unknown print mode '$SARG'"
+            ;;
+    esac
 }

@@ -295,7 +295,7 @@ ConsoleInfo "  -->" "bm: starting task"
 ## validate documentation first, exit in errors
 ############################################################################################
 STRICT=${CONFIG_MAP["STRICT"]}
-CONFIG_MAP["STRICT"]=yes
+CONFIG_MAP["STRICT"]=on
 ConsoleResetErrors
 
 set +e
@@ -350,7 +350,7 @@ BuildManualCore() {
             ;;
         text*)
             printf "\n  "
-            PrintEffect bold "NAME" text-anon
+            PrintEffect bold "NAME" $TARGET
             printf "\n  "
             ;;
     esac

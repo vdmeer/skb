@@ -85,7 +85,7 @@ export FW_HOME
 CONFIG_MAP["RUNNING_IN"]="loader"                   # we are in the loader, shell/tasks will change this to "shell" or "task"
 CONFIG_MAP["SYSTEM"]=$(uname -s | cut -c1-6)        # set system, e.g. for Cygwin path conversions
 CONFIG_MAP["CONFIG_FILE"]="$HOME/.skb"              # config file, in user's home directory
-CONFIG_MAP["STRICT"]=false                          # not strict, yet (change with --strict)
+CONFIG_MAP["STRICT"]=off                            # not strict, yet (change with --strict)
 CONFIG_MAP["LOADER-LEVEL"]="warn-strict"            # output level for loader, change with --loader-level, set to "debug" for early code debugging
 CONFIG_MAP["SHELL-LEVEL"]="error"                   # output level for shell, change with --shell-level
 CONFIG_MAP["TASK-LEVEL"]="error"                    # output level for tasks, change with --task-level
@@ -166,6 +166,7 @@ else
 fi
 
 
+
 ##
 ## sneak in CLI for application mode
 ##
@@ -219,9 +220,9 @@ case "${CONFIG_MAP["PRINT_MODE"]:-}" in
         ConsoleInfo "-->" "found print mode '${CONFIG_MAP["PRINT_MODE"]}'"
         ;;
     *)
-        ConsoleWarn "-->" "unknown print mode '${CONFIG_MAP["PRINT_MODE"]}', assuming 'ansi'"
         CONFIG_MAP["PRINT_MODE"]=ansi
-        CONFIG_SRC["PRINT_MODE"]=""
+        CONFIG_SRC["PRINT_MODE"]=
+        ConsoleWarn "-->" "unknown print mode '${CONFIG_MAP["PRINT_MODE"]}', assuming 'ansi'"
         ;;
 esac
 ## sneak on clean-cache to prevent errors here starting the clean
@@ -238,7 +239,6 @@ if [[ ${OPT_CLI_MAP["version"]} != false ]]; then
     source ${CONFIG_MAP["FW_HOME"]}/bin/loader/options/version.sh
     exit 0
 fi
-
 
 
 

@@ -99,7 +99,7 @@ DescribeParameter() {
     SPRINT+=$LINE_INDENT
 
     local DESCRIPTION=${DMAP_PARAM_DESCR[$ID]:-}
-    local DEFAULT_VALUE=$(DescribeParameterDefValue $ID $4)
+    local DEFAULT_VALUE=$(DescribeParameterDefValue $ID ${4:-})
 
     local TEMPLATE="%ID%"
     if [[ "$PRINT_OPTION" == "full" ]]; then

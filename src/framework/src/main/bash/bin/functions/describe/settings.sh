@@ -73,7 +73,6 @@ SettingScreen() {
     local str_len
     local sc_str
     local padding
-    local VALUE_EFFECTIVE
 
     printf "\n "
     for ((x = 1; x < $COLUMNS; x++)); do
@@ -127,8 +126,10 @@ SettingScreen() {
         esac
 
         str_len=${#sc_str}
-        VALUE_EFFECTIVE=${#sc_str}
-        PADDING=$((VALUE_LENGTH - VALUE_EFFECTIVE))
+        if [[ "$ID" == "SHELL_PROMPT" ]]; then
+            str_len=${CONFIG_MAP["PROMPT_LENGTH"]}
+        fi
+        PADDING=$((VALUE_LENGTH - str_len))
         printf '%*s' "$PADDING"
 
         case ${CONFIG_SRC[$ID]:-} in

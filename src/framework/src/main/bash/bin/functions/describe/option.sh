@@ -153,7 +153,7 @@ DescribeOption() {
 
     if [[ -n "$SOURCE" ]]; then
         printf "\n"
-        case $ORIGIN in
+        case "${DMAP_OPT_ORIGIN[$ID]}" in
             exit)
                 cat ${CONFIG_MAP["FW_HOME"]}/${FW_PATH_MAP["OPTIONS"]}/exit/$SOURCE
                 ;;

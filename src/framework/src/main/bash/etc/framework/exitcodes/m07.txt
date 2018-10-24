@@ -1,7 +1,0 @@
-        During initialization, all parameters for directories are tested.  One
-        or more of those tests failed. This can happen for parameters that  do
-        not (but should) point to a (readable) directory. It can  also  happen
-        for directories that will be created if they do  not  exist,  and  the
-        creation failed. In any case, detailed error message  will  have  been
-        printed.                                                              
-                                                                              

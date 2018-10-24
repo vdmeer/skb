@@ -1,5 +1,0 @@
-Available tasks (from `bin/tasks` in the program home directory) are loaded. 
-Several tests are run for each task while loading. 
-If any of those tests failed, this error code will be used on exit. 
-Any error here is a development issue (or bug). 
-Detailed error messages with have been printed.

@@ -1,3 +1,0 @@
-Sets the command and URL substitution to start a web browser with a given URL.  
-The URL substitution string has the form `%URL%`. 
-To start for instance Firefox, this variable should be set to `firefox --new-tab %URL%`.

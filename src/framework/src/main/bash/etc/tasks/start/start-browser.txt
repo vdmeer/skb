@@ -1,4 +1,0 @@
-        Starts a browser (or uses an existing instance) to show  a  URL.  This
-        task uses the parameter `EXEC_BROWSER` as a template.  It  substitutes
-        the URL in the parameter value with the requested URL.                
-                                                                              

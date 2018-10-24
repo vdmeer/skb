@@ -1,4 +1,0 @@
-Internal error: configuration file not readable.
-The shell (or a task) tried to read the temporary configuration file. 
-The file exists, but is not readable. 
-This might point to other users executing the program with the same configuration file setting on the same machine.

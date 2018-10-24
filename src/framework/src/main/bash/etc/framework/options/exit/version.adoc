@@ -1,2 +1,0 @@
-Prints the program name, the string 'version' and the actual version of the program. 
-The version is taken from `$HOME/etc/version.txt`

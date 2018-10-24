@@ -1,8 +1,0 @@
-        This option points  to  the  SKB  Framework  Tool.  This  tool  is  an
-        executable JAR. It is  used  to  convert  paragraphs  and  lists  into
-        justified text with pre-defined margins and other parameters. This  is
-        done using the SKB _asciiparagraph_ and  _asciilist_  implementations.
-        This setting is required to build the manual sources (text files) from
-        the original ADOC files. In a standard installation, the JAR  will  be
-        available in the `bin/java` folder of the framework.                  
-                                                                              

@@ -1,3 +1,0 @@
-Runs a scenario from a file, i.e. the commands in the scenario file. 
-The file is automatically loaded from the scenario directory. 
-The file extension is optional.

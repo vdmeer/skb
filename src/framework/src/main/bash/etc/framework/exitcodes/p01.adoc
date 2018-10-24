@@ -1,4 +1,0 @@
-The program detected an unknown argument in the command line. 
-Some CLI optiont (or argument) was used that the program does not understand. 
-If `--help` does not show this option, than it is unknown. 
-If the help screen does show the options, than there is a bug in the software.

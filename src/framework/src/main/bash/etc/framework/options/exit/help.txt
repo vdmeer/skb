@@ -1,3 +1,0 @@
-        Shows a help screen with all command line  options.  The  options  are
-        sorted alphabetically.                                                
-                                                                              

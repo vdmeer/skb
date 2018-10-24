@@ -1,2 +1,0 @@
-        Starts an XTERM                                                       
-                                                                              

@@ -1,2 +1,0 @@
-Prints current settings after processing all environment settings. 
-Note: setting identifiers differ from parameter names, they do not have the prefix 'SB_'.

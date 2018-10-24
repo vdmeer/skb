@@ -1,6 +1,0 @@
-        Asciidoctor is a tool (or rather tool chain) that takes files  written
-        in AsciiDoc (or ADOC)  and  produces  various  output  formats.  These
-        formats are supported by backends Standard backends are PDF  and  HTML
-        Others are supported by plugins. For details on  Asciidoctor  and  its
-        installation see https://asciidoctor.org/ .                           
-                                                                              

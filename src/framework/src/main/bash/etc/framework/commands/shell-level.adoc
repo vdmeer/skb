@@ -1,2 +1,0 @@
-Wait for the given number of seconds before the next command is executed. 
-The action here is a simply sleep.

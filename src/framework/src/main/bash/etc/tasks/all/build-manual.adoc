@@ -1,9 +1,0 @@
-Builds the manual
-Without options, nothing happens
-All options can be used at the same time, task will run in right order.
-`test` will automatically build if target does not exist
-ADOC and text (--adoc, --text) will be shown using `cat`
-Man page (--man) will be shown using `man`
-PDF (--pdf) will be shown using a PDF viewer
-HTML (--html) will be shown using web browser
-Build all targets: bman --all -b -c

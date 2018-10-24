@@ -1,5 +1,0 @@
-        A given scenario (file) was not found. The program  was  started  with
-        the `--scenario`option and a given file. However  the  file  does  not
-        exist or is not readable. Check the CLI option and the  file  and  run
-        again.                                                                
-                                                                              

@@ -1,5 +1,0 @@
-        The program requires a setting for its home directory. The setting can
-        be done in the environment or via a configuration file. If the setting
-        is not found, the initialization will terminate with  this  code.  See
-        parameters (_HOME_) for details.                                      
-                                                                              

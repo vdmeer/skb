@@ -1,6 +1,0 @@
-        Parameter documentation is missing. This is a  development  error,  or
-        bug. It is detected during initialization, when  the  availability  of
-        documentation for parameters is tested while parameters  are  defined.
-        The documentation is used for the manpage, the user manual, as well as
-        for the manual the program can print at runtime.                      
-                                                                              

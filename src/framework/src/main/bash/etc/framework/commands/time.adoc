@@ -1,3 +1,0 @@
-Prints the current time as HH:mm:ss. 
-This can come in handy when no other clock or watch is available. 
-It is a separate command because the prompt should not be overloaded.

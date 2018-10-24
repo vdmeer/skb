@@ -1,4 +1,0 @@
-        Exits the shell and the program. If the program  was  not  started  in
-        forced mode (see CLI option `--force`),  the  temporary  configuration
-        file will be removed. The exit status is `0`.                         
-                                                                              

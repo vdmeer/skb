@@ -1,3 +1,0 @@
-    *Project web site:* https://vdmeer.github.io/skb *Git source  repository:*
-    https://github.com/vdmeer/skb                                             
-                                                                              

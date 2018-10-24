@@ -1,4 +1,0 @@
-Prints this manual. 
-The text is typest using bold and italic terminal features. 
-Descriptions of parameters and tasks are taken from the actual parameter and task definitions. 
-It is the same text as in the actual system manual.

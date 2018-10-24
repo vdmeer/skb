@@ -1,9 +1,0 @@
-        Internal error: configuration test script not  found.  The  shell  and
-        every task need a script to test the configuration. They  are  looking
-        for this script when started. The location of the  script  is  in  the
-        home directory `bin/__test-cfg.sh`. In the simplest case, the shell or
-        a task was started outside the program.  Simple  use  the  program  to
-        start shell or tasks. If the program was used, then  the  installation
-        is broken. Either the script does not exist, or it is not  executable.
-        In both cases, the installation needs to be fixed.                    
-                                                                              

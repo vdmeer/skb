@@ -1,9 +1,0 @@
-*Dave Lewis*: _WP2 Report_, 2004
-
-* Project Report: M-Zones - Managed Zones - Deliverable D2.3, September 14, 2004
-* Links:
-       skb: link:https://github.com/vdmeer/skb/tree/master/library/report/project/m-zones/m-zones-d23-2004.adoc[src]
-ifdef::local[]
-    ┃ link:/library/report/project/m-zones/[Folder]
-endif::[]
-

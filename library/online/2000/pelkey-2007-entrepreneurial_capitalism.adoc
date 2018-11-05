@@ -1,8 +1,0 @@
-*James L. Pelkey*: _Entrepreneurial Capitalism and Innovation: A History of Computer Communications, 1968-1988_, 2007
-
-* Reasons to read: many links to historic background, including people and important topics
-* Publisher: online hypertext book, printed version expected in 2019
-* Links:
-       link:http://www.historyofcomputercommunications.info/Book/BookIndex.html[online]
-    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/online/2000/pelkey-2007-entrepreneurial_capitalism.adoc[src]
-

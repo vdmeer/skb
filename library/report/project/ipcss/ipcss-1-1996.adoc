@@ -1,6 +1,0 @@
-*Tom Pfeifer* (editor): _State-of-the-Art analysis and preliminary iPCSS definition_, 1996
-
-* Project Report: iPCSS - intelligent Personal Communication System - Deliverable 1, 1996
-* Links:
-    skb: link:https://github.com/vdmeer/skb/tree/master/library/report/project/ipcss/ipcss-1-1996.adoc[src]
-

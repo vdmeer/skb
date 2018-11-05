@@ -1,4 +1,0 @@
-:title: Patents
-
-include::{skb-library-home}/vdm/patents.adoc[]
-

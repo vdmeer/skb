@@ -1,6 +1,0 @@
-*Martin Feeney*: _Autonomic Management of Ubiquitous Computing Environments_, 2006
-
-* M.Sc. Thesis, Waterford Institute of Technology (WIT), Waterford, Ireland
-* Links:
-    skb: link:https://github.com/vdmeer/skb/tree/master/library/thesis/master/2000/feeney-martin-2006.adoc[src]
-

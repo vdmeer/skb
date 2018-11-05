@@ -1,9 +1,0 @@
-*Roy Thomas Fielding*: _Architectural Styles and the Design of Network-based Software Architectures_, 2000
-
-* Ph.D. Thesis, University of California, Irvine, USA
-* Links:
-       skb: link:https://github.com/vdmeer/skb/tree/master/library/thesis/phd/2000/fieldings-roy-2000.adoc[src]
-ifdef::local[]
-    ┃ link:/library/thesis/phd/2000/[Folder]
-endif::[]
-

@@ -1,9 +1,0 @@
-*Declan O'Sullivan* (ed.): _State of Art Surveys_, 2003
-
-* Project Report: M-Zones - Managed Zones - Deliverable D1.1, Release 2, May, 2003
-* Links:
-skb: link:https://github.com/vdmeer/skb/tree/master/library/report/project/m-zones/m-zones-d11-2003.adoc[src]
-ifdef::local[]
-    ┃ link:/library/report/project/m-zones/[Folder]
-endif::[]
-

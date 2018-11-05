@@ -1,9 +1,0 @@
-*Keara Barrett*: _A Framework for the Semantic Translation of Policy Language Concepts_, 2009
-
-* Ph.D. Thesis, Waterford Institute of Technology (WIT), Waterford, Ireland
-* Links:
-       skb: link:https://github.com/vdmeer/skb/tree/master/library/thesis/phd/2000/barret-keara-2009.adoc[src]
-ifdef::local[]
-    ┃ link:/library/thesis/phd/2000/[Folder]
-endif::[]
-

@@ -6,3 +6,5 @@ target/
 .project
 .gradle
 *.7z
+
+tests/

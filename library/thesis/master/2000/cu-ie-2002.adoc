@@ -1,6 +1,0 @@
-*Ie Cu*: _Bridging HAVi stack and 1394 devices: the Implementation of the Windows Driver Model_, 2002
-
-* Diplomarbeit (M.Sc. Thesis), Technical University Berlin (TUB), Berlin, Germany
-* Links:
-    skb: link:https://github.com/vdmeer/skb/tree/master/library/thesis/master/2000/cu-ie-2002.adoc[src]
-

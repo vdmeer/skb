@@ -1,9 +1,0 @@
-*Mario Schuster*: _An Open Service Platform for Context and Location Aware Applications_, 2001
-
-* Diplomarbeit (M.Sc. Thesis), Technical University Berlin (TUB), Berlin, Germany
-* Links:
-       skb: link:https://github.com/vdmeer/skb/tree/master/library/thesis/master/2000/schuster-mario-2001.adoc[src]
-ifdef::local[]
-    ┃ link:/library/thesis/master/2000/[Folder]
-endif::[]
-

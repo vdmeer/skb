@@ -1,7 +1,0 @@
-*Vincent Wade*: _Can Ubiquitous Computing Environments be Trusted to Self-Managed?_, 2004
-
-* Panel: 2nd International Workshop on Management of Ubiquitous Communications and Services (MUCS 2004), December 12-13, 2004
-* Panel Chair: Vincent Wade
-* Panelists: John Strassner, Sven van der Meer
-* Links:
-    skb: link:https://github.com/vdmeer/skb/tree/master/library/talks/panel/2000/vandermeer-2004-mucs.adoc[src]

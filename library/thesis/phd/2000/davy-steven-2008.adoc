@@ -1,9 +1,0 @@
-*Stephen Davy*: _Harnessing Information Models and Ontologies for Policy Conflict Analysis_, 2008
-
-* Ph.D. Thesis, Waterford Institute of Technology (WIT), Waterford, Ireland
-* Links:
-       skb: link:https://github.com/vdmeer/skb/tree/master/library/thesis/phd/2000/davy-steven-2008.adoc[src]
-ifdef::local[]
-    ┃ link:/library/thesis/phd/2000/[Folder]
-endif::[]
-

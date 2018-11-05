@@ -1,0 +1,4 @@
+:title: Patents
+
+include::{skb-data-home}/library/vdm/patents.adoc[]
+

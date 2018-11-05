@@ -1,6 +1,0 @@
-*Lars Karow*: _Internet Weather Report - the users perspective_, 2000
-
-* Diplomarbeit (M.Sc. Thesis), Technical University Berlin (TUB), Berlin, Germany
-* Links:
-    skb: link:https://github.com/vdmeer/skb/tree/master/library/thesis/master/2000/karow-lars-2000.adoc[src]
-

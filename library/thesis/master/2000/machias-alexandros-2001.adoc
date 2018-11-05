@@ -1,6 +1,0 @@
-*Alexandros Machias*: _Design und Implementierung einer mehrsprachigen Datenbankmanagement-Applikation zur dezentralen Datenpflege_, 2001
-
-* Diplomarbeit (M.Sc. Thesis), Technical University Berlin (TUB), Berlin, Germany
-* Links:
-    skb: link:https://github.com/vdmeer/skb/tree/master/library/thesis/master/2000/machias-alexandros-2001.adoc[src]
-

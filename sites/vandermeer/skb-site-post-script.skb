@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+##
+## Pre script for site skb-framework
+##
+## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
+## @version    v0.0.0
+##
+
+MvnSitePostScript() {
+    MvnSiteFixAdoc target/site/reports                              Reports
+    MvnSiteFixAdoc target/site/talks                                Talks
+
+    MvnSiteFixAdoc target/site/publications-books                   "Books \&amp; Similar"
+    MvnSiteFixAdoc target/site/publications-articles                Articles
+    MvnSiteFixAdoc target/site/publications-inproceedings           "in Proceedings"
+    MvnSiteFixAdoc target/site/publications-standards               Standards
+    MvnSiteFixAdoc target/site/publications-patents                 Patents
+
+    MvnSiteFixAdoc target/site/teaching-supervision                 Supervision
+
+    MvnSiteFixAdoc target/site/research-notes-policy                "Research Notes - Policy-based Management"
+    MvnSiteFixAdoc target/site/research-notes-cybernetics           "Research Notes - Cybernetics"
+    MvnSiteFixAdoc target/site/research-notes-ina                   "Research Notes - INA"
+    MvnSiteFixAdoc target/site/research-notes-internet-history      "Research Notes - Internet History"
+}

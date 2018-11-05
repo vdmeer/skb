@@ -1,6 +1,0 @@
-*Sven van der Meer* (ed.): _AMCNS Annual Report Year 3_, 2008
-
-* Project Report: AMCNS - Autonomic Management of Communication Networks and Servicess - Annual Report Y3, February 2, 2008
-* Links:
-    skb: link:https://github.com/vdmeer/skb/tree/master/library/report/project/amcns/amcns2008.adoc[src]
-

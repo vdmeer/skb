@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+##
+## Identity for site skb-framework
+##
+## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
+## @version    v0.0.0
+##
+
+ID=vdm
+DESCRIPTION="site for www.vandermeer.de"

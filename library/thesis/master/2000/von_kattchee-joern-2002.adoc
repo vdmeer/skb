@@ -1,6 +1,0 @@
-*Jörn von Kattchée*: _Design und Implementierung einer CORBA/SOAP-Bridge_, 2002
-
-* Diplomarbeit (M.Sc. Thesis), Technical University Berlin (TUB), Berlin, Germany
-* Links:
-    skb: link:https://github.com/vdmeer/skb/tree/master/library/thesis/master/2000/von_kattchee-joern-2002.adoc[src]
-

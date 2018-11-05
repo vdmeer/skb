@@ -1,9 +1,0 @@
-*Sven van der Meer*: _Building a DEN-ng Autonomic Management System - How do they do it?_, 2010
-
-* Invited Talk: WCU Seminar, POSTECH, Pohang, Korea, June 14, 2010
-* Links:
-       skb: link:https://github.com/vdmeer/skb/tree/master/library/talks/invited-talk/2010/vandermeer-2010-postech.adoc[src]
-ifdef::local[]
-    ┃ link:/library/talks/invited-talk/2010/[Folder]
-endif::[]
-

@@ -1,0 +1,3 @@
+:title: Articles
+
+include::{skb-data-home}/library/vdm/articles.adoc[]

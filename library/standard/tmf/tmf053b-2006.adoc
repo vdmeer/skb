@@ -1,6 +1,0 @@
-*Sven van der Meer* (ed): _NGOSS Architecture Technology Neutral Specification - Contract Description: Business and System Views_, 2006
-
-* Published: TM Forum, NGOSS Release 6.3, TNA Release 6.3, Document Version 5.1, 2006
-* Links:
-    skb: link:https://github.com/vdmeer/skb/tree/master/library/standard/tmf/tmf053b-2006.adoc[src]
-

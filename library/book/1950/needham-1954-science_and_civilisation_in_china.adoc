@@ -1,8 +1,0 @@
-*Joseph Needham*: _Science and Civilisation in China_, 1954
-
-* Reasons to read: the West was only one to make the leap from artisan to science
-* Publisher: Cambridge University Press
-* Links:
-       link:https://en.wikipedia.org/wiki/Science_and_Civilisation_in_China[Wikipedia]
-    ┃ skb: https://github.com/vdmeer/skb/tree/master/library/book/1950/needham-1954-science_and_civilisation_in_china.adoc[src]
-

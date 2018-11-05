@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>de.vandermeer</groupId>
+    <artifactId>site-skb</artifactId>
+    <version>0.0.0</version>
+    <packaging>pom</packaging>
+    <name>${project.artifactId}</name>
+    <url>${skb.site.prefix}</url>
+    <description>Site for SKB project on Github</description>
+    <inceptionYear>2018</inceptionYear>
+
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.resources.sourceEncoding>UTF-8</project.resources.sourceEncoding>
+        <encoding>UTF-8</encoding>
+        <file.encoding>UTF-8</file.encoding>
+        <skb.site.prefix>https://vdmeer.github.io/skb/</skb.site.prefix>
+
+        <!-- Properties for ASCIIDOC documents and site documentation -->
+        <release-version>${project.version}</release-version>
+        <skb-data-home>${project.basedir}/../../data</skb-data-home>
+    </properties>
+
+    <distributionManagement>
+        <site>
+            <id>${project.artifactId}-site</id>
+            <url>${project.url}</url>
+        </site>
+    </distributionManagement>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-site-plugin</artifactId>
+                <version>3.5</version>
+                <configuration>
+                    <stagingDirectory>${project.basedir}/target/site-skb</stagingDirectory>
+                    <asciidoc>
+                        <embedAssets>true</embedAssets>
+                        <attributes>
+                            <source-highlighter>coderay</source-highlighter>
+                            <coderay-css>style</coderay-css>
+                            <imagesdir>images</imagesdir>
+                        </attributes>
+                    </asciidoc>
+                    <moduleExcludes>
+                        <asciidoc>**/_*.adoc</asciidoc>
+                    </moduleExcludes>
+                </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.apache.maven.doxia</groupId>
+                        <artifactId>doxia-site-renderer</artifactId>
+                        <version>1.7</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>org.asciidoctor</groupId>
+                        <artifactId>asciidoctor-maven-plugin</artifactId>
+                        <version>1.5.6</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
+        </plugins>
+    </build>
+
+    <reporting>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-project-info-reports-plugin</artifactId>
+                <version>2.9</version>
+            </plugin>
+        </plugins>
+    </reporting>
+
+</project>

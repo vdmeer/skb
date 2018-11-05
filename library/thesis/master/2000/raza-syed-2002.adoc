@@ -1,6 +1,0 @@
-*Syed Raza*: _Auswertung von Log-Informationen der PLATIN-Plattform über Web-Klienten_, 2002
-
-* Diplomarbeit (M.Sc. Thesis), Technical University Berlin (TUB), Berlin, Germany
-* Links:
-    skb: link:https://github.com/vdmeer/skb/tree/master/library/thesis/master/2000/raza-syed-2002.adoc[src]
-

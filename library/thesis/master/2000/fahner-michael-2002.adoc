@@ -1,9 +1,0 @@
-*Michael Fahner*: _Information Visualization for Distributed Systems_, 2002
-
-* Diplomarbeit (M.Sc. Thesis), Technical University Berlin (TUB), Berlin, Germany
-* Links:
-       skb: link:https://github.com/vdmeer/skb/tree/master/library/thesis/master/2000/fahner-michael-2002.adoc[src]
-ifdef::local[]
-    ┃ link:/library/thesis/master/2000/[Folder]
-endif::[]
-

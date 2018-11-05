@@ -1,9 +1,0 @@
-*John Strassner*: _Enabling Autonomic Network Management Decisions Using a Novel Semantic Representation and Reasoning Approach_, 2009
-
-* Ph.D. Thesis, Waterford Institute of Technology (WIT), Waterford, Ireland
-* Links:
-       skb: link:https://github.com/vdmeer/skb/tree/master/library/thesis/phd/2000/strassner-john-2009.adoc[src]
-ifdef::local[]
-    ┃ link:/library/thesis/phd/2000/[Folder]
-endif::[]
-

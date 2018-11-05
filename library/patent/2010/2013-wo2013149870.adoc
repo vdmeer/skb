@@ -1,9 +1,0 @@
-_Method and System for Managing Actions implemented on a Network Element within a Telecommunications Network_, 2013
-
-* Authors: John Keeney, Sven van der Meer, Gabriel Hogan
-* Publication number: WO/2013/149870
-* Publication date: 10.10.2013
-* Links:
-       link:https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2013149870[Wipo]
-    ┃ skb: link:https://github.com/vdmeer/skb/tree/master/library/patent/2010/2013-wo2013149870.adoc[src]
-

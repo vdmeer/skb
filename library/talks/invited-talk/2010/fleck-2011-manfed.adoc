@@ -1,6 +1,0 @@
-*Joel J. Fleck II* et al.: _Interactive Session providing Demonstrations of Tools and Prototypes for modeling and managing Federations_, 2011
-
-* Presenters: Joel J. Fleck II, Kevin Feeney, Sven van der Meer
-* Tools and Demo Session: 1st IFIP/IEEE Workshop on Managing Federations and Cooperative Management (ManFed 2011), May 23, 2011
-* Links:
-    skb: link:https://github.com/vdmeer/skb/tree/master/library/talks/invited-talk/2010/fleck-2011-manfed.adoc[src]

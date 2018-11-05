@@ -1,0 +1,15 @@
+*Sven van der Meer* (ed): _Converged Service Provider Network Design Report_, 2017
+
+* Editor: Sven van der Meer
+* Authors: Diego Lopez, Eduard Grasa, Leonardo Bergesio, Miquel Tarzan, Sven van der Meer, Liam Fallon, John Keeney
+* Project Report: ARCFIRE - Large-scale RINA Experimentation on FIRE+ - Deliverable D2.2, May 5, 2017
+* Links:
+      link:http://ict-arcfire.eu/index.php/research/deliverables/[Arcfire]
+    ┃ skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/report/project/arcfire/arcfire-d22-2017.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/report/project/arcfire/arcfire-d22-2017.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:library/report/project/arcfire[Folder]
+endif::[]
+

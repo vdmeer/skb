@@ -1,0 +1,16 @@
+*John C. Strassner* et al.: _The Design of a New Context-Aware Policy Model for Autonomic Networking_, 2008
+
+* Authors: John C. Strassner, Srini Samudrala, Greg W. Cox, Yan Liu, Michael Jiang, Jing Zhang, Sven van der Meer, Mícheál Ó Foghlú, Donnelly Donnelly
+* Published: 2008 International Conference on Autonomic Computing (ICAC)
+* Links:
+      link:https://doi.org/10.1109/ICAC.2008.36[DOI],
+      link:https://www.researchgate.net/publication/4348557_The_Design_of_a_New_Context-Aware_Policy_Model_for_Autonomic_Networking[ResearchGate]
+    ┃ skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/strassner-2008-icac.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/strassner-2008-icac.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:inproceedings/2000/strassner-2008-icac.pdf[PDF],
+        link:inproceedings/2000/strassner-2008-icac.doc[DOC]
+endif::[]
+

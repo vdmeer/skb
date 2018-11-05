@@ -1,0 +1,11 @@
+*Stuart Kaufmann*: _At Home in the Universe_, 1996
+
+* Author: Stuart Kaufmann
+* Reasons to read: works out the math and science in detail and shows that life is virtually inevitable, Scientific American (popular science magazine) version of "The origins of order"
+* Publisher: Oxford University Press, USA 
+* Links:
+      link:https://www.goodreads.com/book/show/319006.At_Home_in_the_Universe[Goodreads]
+    ┃ skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/book/1990/kaufmann-1996-home_in_the_universe.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/book/1990/kaufmann-1996-home_in_the_universe.adoc[adoc]
+

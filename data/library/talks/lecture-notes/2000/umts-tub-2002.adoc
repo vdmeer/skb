@@ -1,0 +1,13 @@
+_UMTS Akademie_, 2002
+
+* Presenters: Stefan Arbanowski, Stephan Steglich, Thomas Magedanz, Olaf Kath
+* Lecture: Sommersemester 2002 (SS02), Technical University Berlin
+* Links:
+      skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/talks/lecture-notes/2000/umts-tub-2002.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/talks/lecture-notes/2000/umts-tub-2002.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:library/talks/lecture-notes/2000/[Folder]
+endif::[]
+

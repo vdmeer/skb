@@ -1,0 +1,13 @@
+*Sven van der Meer*: _FAME: Annual Report Year 1_, 2009
+
+* Author: Sven van der Meer
+* Project Report: FAME - Federated, Autonomic Management of End-to-End Services - Annual Report Y1, February 24, 2009
+* Links:
+      skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/report/project/fame/fame-y1-2009.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/report/project/fame/fame-y1-2009.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:library/report/project/fame[Folder]
+endif::[]
+

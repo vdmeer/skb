@@ -1,0 +1,13 @@
+*Thomas Magedanz*: _Intelligente Netze Kompaktkurs_, 2000
+
+* Presenter: Thomas Magedanz
+* Lecture: Sommersemester 2000 (SS00), Technical University Berlin
+* Links:
+      skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/talks/lecture-notes/2000/magedanz-2000-in-tub.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/talks/lecture-notes/2000/magedanz-2000-in-tub.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:library/talks/lecture-notes/2000/[Folder]
+endif::[]
+

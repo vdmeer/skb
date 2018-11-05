@@ -1,0 +1,13 @@
+*Hong Mu*: _Entwicklung seines Testkonzeptes für die Beurteilung der Skalierbarkeit von J2EE-basierten Applicationservern_, 2001
+
+* Author: Hong Mu
+* Diplomarbeit (M.Sc. Thesis), Technical University Berlin (TUB), Berlin, Germany
+* Links:
+      skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/thesis/master/2000/mu-hong-2001.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/thesis/master/2000/mu-hong-2001.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:library/thesis/master/2000/[Folder]
+endif::[]
+

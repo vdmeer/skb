@@ -1,0 +1,15 @@
+*Joseph Mitola III*: _Cognitive Radio Policy Languages_, 2009
+
+* Author: Joseph Mitola III
+* Reasons to read: survey of policy languages, here cognitive radio
+* Published: 2009 IEEE International Conference on Communications
+* Links:
+      link:https://doi.org/10.1109/ICC.2009.5198831[DOI]
+    ┃ skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/mitola-2009-icc.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/mitola-2009-icc.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:inproceedings/2000/mitola-2009-icc.pdf[PDF]
+endif::[]
+

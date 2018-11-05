@@ -1,0 +1,12 @@
+*Marie Neurath*: _How Machines Work_, 1954
+
+* Author: Marie Neurath
+* Reasons to read: the most simple, yet expressive, introduction on machines :)
+* Publisher: Max Parrsih, London
+* Links:
+      link:http://manchesterartgallery.org/blog/machines-which-seem-to-think[gallery with 3 pages],
+      link:http://www.fulltable.com/iso/mw.htm[all pages]
+    ┃ skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/book/1950/neurath-1954-how_machines_work.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/book/1950/neurath-1954-how_machines_work.adoc[adoc]
+

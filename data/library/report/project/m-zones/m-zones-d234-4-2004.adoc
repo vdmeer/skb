@@ -1,0 +1,13 @@
+*Vincent Wade* (ed): _2nd International Workshop on Managing Ubiquitous Communications and Services (MUCS)_, 2004
+
+* Editor: Vincent Wade
+* Project Report: M-Zones - Managed Zones - Consolidated Deliverable D 2.4, D3.4 & D 4.4, December 13/14, 2004
+* Links:
+      skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/report/project/m-zones/m-zones-d234-4-2004.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/report/project/m-zones/m-zones-d234-4-2004.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:library/report/project/m-zones[Folder]
+endif::[]
+

@@ -1,0 +1,28 @@
+//
+// ============LICENSE_START=======================================================
+//  Copyright (C) 2018 Sven van der Meer. All rights reserved.
+// ================================================================================
+// This file is licensed under the CREATIVE COMMONS ATTRIBUTION 4.0 INTERNATIONAL LICENSE
+// Full license text at https://creativecommons.org/licenses/by/4.0/legalcode
+// 
+// SPDX-License-Identifier: CC-BY-4.0
+// ============LICENSE_END=========================================================
+//
+// @author Sven van der Meer (vdmeer.sven@mykolab.com)
+//
+
+== SKB - Research Notes
+
+Research note grouped by topics.
+Some of these notes are simple citation lists, some come with descriptions and discussions.
+Compiled versions are available on my GH pages and on my website.
+
+[grid=rows, frame=none, %autowidth.stretch]
+|===
+| `topic-cybernetics.adoc`      | cybernetic notes                      | link:https://vdmeer.github.io/skb/library/topic-cybernetics.html[GH Pages] |      link:http://www.vandermeer.de/research-notes-cybernetics.html[vandermeer.de]
+| `topic-ina.adoc`              | introduction to network architecture  | link:https://vdmeer.github.io/skb/library/topic-ina.html[GH Pages] |              link:http://www.vandermeer.de/research-notes-ina.html[vandermeer.de]
+| `topic-internet-history.adoc` | internet history                      | link:https://vdmeer.github.io/skb/library/topic-internet-history.html[GH Pages] | link:http://www.vandermeer.de/research-notes-internet-history.html[vandermeer.de]
+| `topic-policy.adoc`           | policy-based management and APEX      | link:https://vdmeer.github.io/skb/library/topic-policy.html[GH Pages] |           link:http://www.vandermeer.de/research-notes-policy.html[vandermeer.de]
+|===
+
+

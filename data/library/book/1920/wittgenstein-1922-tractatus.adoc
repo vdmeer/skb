@@ -1,0 +1,19 @@
+*Ludwig Wittgenstein*: _Tractatus Logico-Philosophicus_, 1922
+
+* Author: Ludwig Wittgenstein
+* Published: 1921 (German, _Logisch-Philosophische Abhandlung_), 1922 (English)
+* Reasons to read: picture theory, logical atomism, distinction between saying and showing, Wittgentstein's ladder, proposition 7
+* Publisher: Kegan Paul, Trench, Trubner & CO
+* Links:
+      link:https://en.wikipedia.org/wiki/Tractatus_Logico-Philosophicus[Wikipedia],
+      link:https://www.goodreads.com/book/show/12075.Tractatus_Logico_Philosophicus?from_search=true[Goodreads],
+      link:http://www.gutenberg.org/ebooks/5740[eBooks at Gutenberg Project],
+      link:http://people.umass.edu/klement/tlp[eBooks at UMass]
+    ┃ skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/book/1920/wittgenstein-1922-tractatus.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/book/1920/wittgenstein-1922-tractatus.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:book/1920/wittgenstein-1922-tractatus.pdf[PDF]
+endif::[]
+

@@ -1,0 +1,17 @@
+*Sven van der Meer* et al.: _Managing Ubiquitous Communications and Services_, 2003
+
+* Editors: Sven van der Meer, Dave Lewis, Dirk Pesch
+* Workshop: 1^st^ International Workshop on Managing Ubiquitous Communications and Services (MUCS), Waterford, Ireland, 11 December, 2003
+  ** original name: 1^st^ Open M-Zones Workshop
+* Host: Waterford Institute of Technology
+* Published as: M-Zones deliverable D 234.2
+* Publisher: Waterford Institute of Technology, Telecommunication Software & Systems Group
+* Links:
+      skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/proceedings/mucs/mucs-2003.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/proceedings/mucs/mucs-2003.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:library/proceedings/mucs[Folder]
+endif::[]
+

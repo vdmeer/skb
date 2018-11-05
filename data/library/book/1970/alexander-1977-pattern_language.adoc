@@ -1,0 +1,12 @@
+*Christopher Alexander*: _A Pattern Language_, 1977
+
+* Author: Christopher Alexander
+* Reasons to read: (most) influential book on patterns, laid foundation for software patterns
+* Publisher: Oxford University Press
+* Links:
+      link:https://en.wikipedia.org/wiki/A_Pattern_Language[Wikipedia],
+      link:https://www.goodreads.com/book/show/79766.A_Pattern_Language?ac=1&from_search=true[Goodreads]
+    ┃ skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/book/1970/alexander-1977-pattern_language.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/book/1970/alexander-1977-pattern_language.adoc[adoc]
+

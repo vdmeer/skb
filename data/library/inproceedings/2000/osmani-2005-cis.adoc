@@ -1,0 +1,16 @@
+*Venet Osmani* et al.: _An architecture for User-centric Management of Intelligent Environments_, 2005
+
+* Authors: Venet Osmani, Keara Barrett, Ray Carroll, Brendan Jennings, Sven van der Meer
+* Published: 28th Int'l Convention MIPRO Conf. on Intelligent Systems (CIS05)
+* Links:
+      link:https://www.researchgate.net/publication/255581265_An_architecture_for_User-centric_Management_of_Intelligent_Environments[ResearchGate]
+    ┃ skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/osmani-2005-cis.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/osmani-2005-cis.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:inproceedings/2000/osmani-2005-cis.pdf[PDF],
+        link:inproceedings/2000/osmani-2005-cis.doc[DOC],
+        link:inproceedings/2000/osmani-2005-cis.ppt[PPT]
+endif::[]
+

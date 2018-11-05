@@ -1,0 +1,14 @@
+*Ray Carroll*: _A Framework for Personal Information Management in Ubiquitous Computing_, 2004
+
+* Presenter: Ray Carroll
+* Authors: Ray Carroll, Willie Donnelly, Sven van der Meer
+* Invited Talk: National Symposium of The Irish Research Council for Science, Engineering and Technology (IRCSET 2004), Dublin, Ireland, November 2, 2004
+* Links:
+      skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/talks/invited-talk/2000/carroll-2004-ircset.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/talks/invited-talk/2000/carroll-2004-ircset.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:library/talks/invited-talk/2000/[Folder]
+endif::[]
+

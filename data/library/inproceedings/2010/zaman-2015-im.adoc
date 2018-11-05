@@ -1,0 +1,18 @@
+*Faisal Zaman* et al.: _i-MagNet: A real-time intelligent framework for finding specific needles from needle stacks_, 2015
+
+* Authors: Faisal Zaman, Sebastian Robitzsch, Zhiguo Qu, John Keeney, Sven van der Meer, Gabriel-Miro Muntean
+* Published: 2015 IFIP/IEEE International Symposium on Integrated Network Management (IM)
+* Links:
+      link:https://doi.org/10.1109/INM.2015.7140391[DOI],
+      link:https://www.researchgate.net/publication/277932222_i-MAGNET_A_Real-time_Intelligent_Framework_for_Finding_Specific_Needles_From_Needle_Stacks?_iepl%5BgeneralViewId%5D=1XpBhjOMWbMTUkR8B0PjMht8vQ01AZamMN3J&_iepl%5Bcontexts%5D%5B0%5D=searchReact&_iepl%5BviewId%5D=XaqFVGFLv6u0tUDpUX6pAFrjexCqXGw1cHeL&_iepl%5BsearchType%5D=publication&_iepl%5Bdata%5D%5BcountLessEqual20%5D=1&_iepl%5Bdata%5D%5BinteractedWithPosition1%5D=1&_iepl%5Bdata%5D%5BwithoutEnrichment%5D=1&_iepl%5Bposition%5D=1&_iepl%5BrgKey%5D=PB%3A277932222&_iepl%5BtargetEntityId%5D=PB%3A277932222&_iepl%5BinteractionType%5D=publicationTitle[ResearchGate]
+    ┃ skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/zaman-2015-im.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/zaman-2015-im.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:inproceedings/2010/zaman-2015-im.pdf[PDF],
+        link:inproceedings/2010/zaman-2015-im.7z[7z],
+        link:inproceedings/2010/zaman-2015-im-poster.pdf[PDF: poster],
+        link:inproceedings/2010/zaman-2015-im-poster.pptx[PPTX: poster]
+endif::[]
+

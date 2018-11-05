@@ -1,0 +1,14 @@
+*Stefan Arbanowski*: _Unified Messaging: How to integrate different Services_, 2000
+
+* Presenter: Stefan Arbanowski
+* Authors: Stefan Arbanowski, Sven van der Meer
+* Invited Talk: DATACOM Akademie, Berlin, Germany, October 16-17, 2000
+* Links:
+      skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/talks/invited-talk/2000/arbanowski-2000-datacom.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/talks/invited-talk/2000/arbanowski-2000-datacom.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:library/talks/invited-talk/2000/[Folder]
+endif::[]
+

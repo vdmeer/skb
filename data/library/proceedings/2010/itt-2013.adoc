@@ -1,0 +1,13 @@
+*Markus Hofmann* et al.: _12th International Conference on Information Technology and Telecommunication: Small Devices, Big Data, Real Challenges_, 2103
+
+* Editors: Markus Hofmann, Enda Fallon
+* Conference: 12^th^ International Conference on Information Technology and Telecommunication 2013, IT&T 2013, Athlone, Ireland, May 9-10, 2013
+* Links:
+      skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/proceedings/itt-2013.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/proceedings/itt-2013.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:library/proceedings/[Folder]
+endif::[]
+

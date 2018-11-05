@@ -1,0 +1,13 @@
+*Tom Pfeifer*: _Automatic Conversion of Communication Media_, 1999
+
+* Author: Tom Pfeifer
+* Doktorarbeit (PhD Thesis): Technical University Berlin (TUB), Berlin, Germany
+* Links:
+      skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/thesis/phd/1990/pfeifer-tom-1999.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/thesis/phd/1990/pfeifer-tom-1999.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:library/thesis/phd/1990/[Folder]
+endif::[]
+

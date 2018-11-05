@@ -1,0 +1,16 @@
+*Sven van der Meer* et al.: _Ubiquitous Smart Space Management_, 2003
+
+* Authors: Sven van der Meer, Robert O'Connor, Alan Davy
+* Published: 1st International Workshop on Management of Ubiquitous Communications and Services (MUCS 2003), Waterford, Ireland, December 11, 2003
+* Links:
+      link:https://www.researchgate.net/publication/228919512_Ubiquitous_Smart_Space_Management[ResearchGate]
+    ┃ skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/vandermeer-2003-mucs-b.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/vandermeer-2003-mucs-b.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:inproceedings/2000/vandermeer-2003-mucs-b.pdf[PDF],
+        link:inproceedings/2000/vandermeer-2003-mucs-b.doc[DOC],
+        link:inproceedings/2000/vandermeer-2003-mucs-b.ppt[PPT]
+endif::[]
+

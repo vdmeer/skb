@@ -1,0 +1,12 @@
+*Thomas Kuhn*: _Structure of Scientific Revolutions_, 1962
+
+* Author: Thomas Kuhn
+* Reasons to read: philosophy of science
+* Publisher: University of Chicago Press
+* Links:
+      link:https://en.wikipedia.org/wiki/The_Structure_of_Scientific_Revolutions[Wikipedia],
+      link:https://www.goodreads.com/book/show/61539.The_Structure_of_Scientific_Revolutions?from_search=true[Goodreads]
+    ┃ skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/book/1960/kuhn-1962-scientific_revolutions.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/book/1960/kuhn-1962-scientific_revolutions.adoc[adoc]
+

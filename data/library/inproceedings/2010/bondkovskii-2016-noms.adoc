@@ -1,0 +1,15 @@
+*Andrei Bondkovskii* et al.: _Qualitative Comparison of Open-Source SDN Controllers_, 201
+
+* Authors: Andrei Bondkovskii, John Keeney, Sven van der Meer, Stefan Weber
+* Published: 2016 IEEE/IFIP Network Operations and Management Symposium, NOMS 2016
+* Links:
+      link:https://doi.org/10.1109/NOMS.2016.7502921[DOI],
+      link:https://www.researchgate.net/publication/303564177_Qualitative_Comparison_of_Open-Source_SDN_Controllers[ResearchGate]
+    ┃ skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/bondkovskii-2016-noms.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/bondkovskii-2016-noms.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:inproceedings/2010/bondkovskii-2016-noms.pdf[PDF]
+endif::[]
+

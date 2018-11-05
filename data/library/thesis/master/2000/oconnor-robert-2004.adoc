@@ -1,0 +1,13 @@
+*Robert O'Connor*: _An Investigation into Management Functionality for Ubiquitous Computing Environments_, 2004
+
+* Author: Robert O'Connor
+* Thesis (M.Sc.): Waterford Institute of Technology (WIT), Waterford, Ireland
+* Links:
+      skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/thesis/master/2000/oconnor-robert-2004.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/thesis/master/2000/oconnor-robert-2004.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:library/thesis/master/2000/[Folder]
+endif::[]
+

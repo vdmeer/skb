@@ -1,0 +1,18 @@
+//
+// ============LICENSE_START=======================================================
+//  Copyright (C) 2018 Sven van der Meer. All rights reserved.
+// ================================================================================
+// This file is licensed under the CREATIVE COMMONS ATTRIBUTION 4.0 INTERNATIONAL LICENSE
+// Full license text at https://creativecommons.org/licenses/by/4.0/legalcode
+// 
+// SPDX-License-Identifier: CC-BY-4.0
+// ============LICENSE_END=========================================================
+//
+// @author Sven van der Meer (vdmeer.sven@mykolab.com)
+//
+
+== SKB - Research Library - Books - 1600-1699
+
+Books in my research library from 1600 to 1699.
+A compiled version of all books is hosted on link:https://vdmeer.github.io/skb/library/book.html[GH Pages].
+

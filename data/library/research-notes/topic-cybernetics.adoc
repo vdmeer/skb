@@ -1,0 +1,23 @@
+//
+// ============LICENSE_START=======================================================
+//  Copyright (C) 2018 Sven van der Meer. All rights reserved.
+// ================================================================================
+// This file is licensed under the CREATIVE COMMONS ATTRIBUTION 4.0 INTERNATIONAL LICENSE
+// Full license text at https://creativecommons.org/licenses/by/4.0/legalcode
+// 
+// SPDX-License-Identifier: CC-BY-4.0
+// ============LICENSE_END=========================================================
+//
+// @author Sven van der Meer (vdmeer.sven@mykolab.com)
+//
+
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::{skb-data-home}/library/book/1950/neurath-1954-how_machines_work.adoc[]
+|include::{skb-data-home}/library/book/1950/ashby-1956-intro_cybernetics.adoc[]
+|include::{skb-data-home}/library/book/1960/wiener-1965-cybernetics.adoc[]
+|include::{skb-data-home}/library/report/technical/1970/maturana-1970-biology_of_cognition.adoc[]
+|include::{skb-data-home}/library/book/1980/maturana-1987-tree_of_knowledge.adoc[]
+|include::{skb-data-home}/library/online/2010/dubberly-2015-cybernetics.adoc[]
+|===
+

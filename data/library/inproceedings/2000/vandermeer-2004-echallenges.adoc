@@ -1,0 +1,17 @@
+*Sven van der Meer* et al.: _Integrated Management of Smart Spaces_, 2004
+
+* Authors: Sven van der Meer, Brendan Jennings
+* Published: 14th eChallenges Conf. (e-2004), Vienna, Austria
+* Published in: Paul Cunningham, Miriam Cunningham (eds.): EAdoption and the Knowledge Economy: Issues, Applications, Case Studies, Volume 1, Part 1
+* Links:
+      link:https://www.researchgate.net/publication/229027391_Integrated_Management_of_Smart_Spaces[ResearchGate]
+    ┃ skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/vandermeer-2004-echallenges.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/vandermeer-2004-echallenges.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:inproceedings/2000/vandermeer-2004-echallenges.pdf[PDF],
+        link:inproceedings/2000/vandermeer-2004-echallenges.ppt[PPT],
+        link:inproceedings/2000/vandermeer-2004-echallenges.7z[7z]
+endif::[]
+

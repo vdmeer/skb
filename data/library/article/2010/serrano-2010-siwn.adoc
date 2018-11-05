@@ -1,0 +1,14 @@
+*Martín Jamie Serrano* et al.: _Federated Reference Model Architecture: An Autonomic Approach for Service Management_, 2010
+
+* Authors: Martín Jamie Serrano, Sven van der Meer, Viliam Holub, John Murphy, John C. Strassner
+* Published: Systemics and Informatics World Network, Vol. 11, August 2010, pp. 137-150
+* Links:
+      link:http://siwn.org.uk/press/sai/siwn0011.htm[SIWN]
+    ┃ skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/article/2010/serrano-2010-siwn.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/article/2010/serrano-2010-siwn.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:article/2010/serrano-2010-siwn.pdf[PDF]
+endif::[]
+

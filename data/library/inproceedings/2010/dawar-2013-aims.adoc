@@ -1,0 +1,16 @@
+* Dawar* et al.: _An Extensible Architecture for Mobile Network Management Event Distribution and Rule Processing - A Performance Evaluation_, 2013
+
+* Authors:  Dawar, Enda Fallon, Tom Bennett, Sven van der Meer, John Keeney
+* 2013 1^st^ International Conference on Artificial Intelligence, Modelling and Simulation, AIMS 2013
+* Links:
+      link:https://doi.org/10.1109/AIMS.2013.82[DOI],
+      link:https://www.researchgate.net/publication/293096762_An_Extensible_Architecture_for_Mobile_Network_Management_Event_Distribution_and_Rule_Processing_-_A_Performance_Evaluation[ResearchGate]
+    ┃ skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/dawar-2013-aims.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/dawar-2013-aims.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:inproceedings/2010/dawar-2013-aims.pdf[PDF],
+        link:inproceedings/2010/dawar-2013-aims.doc[DOC]
+endif::[]
+

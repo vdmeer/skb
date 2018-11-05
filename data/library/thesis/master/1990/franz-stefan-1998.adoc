@@ -1,0 +1,13 @@
+*Stefan Franz*: _Job and Stream Control in Heterogeneous Hardware and Software Architectures_, 1998
+
+* Author: Stefan Franz
+* Diplomarbeit (M.Sc. Thesis), Technical University Berlin (TUB), Berlin, Germany
+* Links:
+      skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/thesis/master/1990/franz-stefan-1998.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/thesis/master/1990/franz-stefan-1998.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:library/thesis/master/1990/[Folder]
+endif::[]
+

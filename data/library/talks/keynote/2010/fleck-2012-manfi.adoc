@@ -1,0 +1,13 @@
+*Joel J. Fleck II*: _Future Internet Management: Surfing a new Wave_, 2012
+
+* Presenter: Joel J. Fleck II
+* Keynote: Fourth IEEE/IFIP International Workshop on Management of the Future Internet (ManFI 2012)
+* Links:
+      skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/talks/keynote/2010/fleck-2012-manfi.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/talks/keynote/2010/fleck-2012-manfi.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:library/talks/keynote/2010/[Folder]
+endif::[]
+

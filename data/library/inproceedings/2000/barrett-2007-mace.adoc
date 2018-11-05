@@ -1,0 +1,15 @@
+*Keara Barrett* et al.: _Determining the Feasibility of Policy Translation_, 2007
+
+* Authors: Keara Barrett, John Strassner, Sven van der Meer, William Donnelly
+* Reasons to read: policy translation is possible
+* Published: Second IEEE International Workshop on Modelling Autonomic Communications Environments, MACE 2007
+* Links:
+      skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/barrett-2007-mace.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/barrett-2007-mace.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:inproceedings/2000/barrett-2007-mace-submitted.pdf[PDF: submission],
+        link:inproceedings/2000/barrett-2007-mace-submitted.doc[DOC: submission]
+endif::[]
+

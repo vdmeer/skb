@@ -1,0 +1,15 @@
+*Ray Carroll* et al.: _A semantic integration framework for user information enabling personalised service discovery, configuration and deployment_, 2007
+
+* Authors: Ray Carroll, Willie Donnelly, Sven van der Meer
+* Published: 2007 First International Global Information Infrastructure Symposium, GIIS
+  ** Poster, GIIS Poster Proceedings
+* Links:
+      link:https://www.researchgate.net/publication/268385996_A_semantic_integration_framework_for_user_information_enabling_personalised_service_discovery_and_configuration[ResearchGate]
+    ┃ skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/carroll-2007-giis.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/carroll-2007-giis.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:inproceedings/2000/carroll-2007-giis.pdf[PDF]
+endif::[]
+

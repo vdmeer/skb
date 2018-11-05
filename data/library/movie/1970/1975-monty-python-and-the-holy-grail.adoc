@@ -1,0 +1,11 @@
+_Monty Python and the Holy Grail_, 1975
+
+* Reasons to watch: deductive reasoning, experimental physics, for instance in this scene link:https://www.youtube.com/watch?v=H9PY_3E3h2c[youtube]
+* Links:
+      link:https://en.wikipedia.org/wiki/Monty_Python_and_the_Holy_Grail[Wikipedia],
+      link:https://www.themoviedb.org/movie/762-monty-python-and-the-holy-grail?language=en-US[TMDb],
+      link:https://www.imdb.com/title/tt0071853/?ref_=fn_al_tt_1[IMDB]
+    ┃ skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/movie/1970/1975-monty-python-and-the-holy-grail.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/movie/1970/1975-monty-python-and-the-holy-grail.adoc[adoc]
+

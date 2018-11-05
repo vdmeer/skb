@@ -1,0 +1,19 @@
+//
+// ============LICENSE_START=======================================================
+//  Copyright (C) 2018 Sven van der Meer. All rights reserved.
+// ================================================================================
+// This file is licensed under the CREATIVE COMMONS ATTRIBUTION 4.0 INTERNATIONAL LICENSE
+// Full license text at https://creativecommons.org/licenses/by/4.0/legalcode
+// 
+// SPDX-License-Identifier: CC-BY-4.0
+// ============LICENSE_END=========================================================
+//
+// @author Sven van der Meer (vdmeer.sven@mykolab.com)
+//
+
+== SKB - Research Library - in Book - 1700-1799
+
+Book chapters in my research library from 1700 to 1799.
+A compiled version of all in-book items is hosted on link:https://vdmeer.github.io/skb/library/inbook.html[GH Pages].
+
+

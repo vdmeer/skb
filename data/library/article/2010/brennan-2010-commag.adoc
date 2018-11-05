@@ -1,0 +1,18 @@
+*Rob Brennan* et al.: _Multidomain IT Architectures for Next-Generation Communications Service Providers_, 2010
+
+* Authors: Rob Brennan, Kevin Feeney, John Keeney, Declan O'Sullivan, Joel J. Fleck II, Simon Foley, Sven van der Meer
+* Reasons to read: inter-domain relationships and policy translation
+* Published: IEEE Communications Magazine (Volume: 48, Issue: 8, August 2010)
+* Links:
+      link:https://doi.org/10.1109/MCOM.2010.5534595[DOI],
+      link:https://www.researchgate.net/publication/224163138_Multidomain_IT_architectures_for_next-generation_communications_service_providers_Next-Generation_Telco_IT_Architectures[ResearchGate],
+      link:http://www.tara.tcd.ie/handle/2262/40593[PDF: TCD]
+    ┃ skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/article/2010/brennan-2010-commag.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/article/2010/brennan-2010-commag.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:article/2010/brennan-2010-commag.pdf[PDF],
+        link:article/2010/brennan-2010-commag.docx[DOCX]
+endif::[]
+

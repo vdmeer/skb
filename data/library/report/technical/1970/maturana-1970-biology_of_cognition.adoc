@@ -1,0 +1,16 @@
+*Humberto R. Maturana*: _Biology of Cognition_, 1970
+
+* Author: Humberto R. Maturana
+* Reasons to read: ###tbd###
+* Published: Biological Computer Laboratory Research Report BCL 9.0. Urbana IL: University of Illinois, 1970
+* Links:
+      link:http://www.biolinguagem.com/ling_cog_cult/maturana_1970_biology_of_cognition.pdf[PDF],
+      link:http://www.enolagaia.com/M70-80BoC.html[Online]
+    ┃ skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/report/technical/1970/maturana-1970-biology_of_cognition.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/report/technical/1970/maturana-1970-biology_of_cognition.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:library/report/technical/1970[Folder]
+endif::[]
+

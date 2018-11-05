@@ -1,0 +1,15 @@
+*Dirk Pesch* et al.: _Managing Ubiquitous Communications and Services_, 200
+
+* Editors: Dirk Pesch, Mohan Kumar, Sajal Das
+* Workshop: 11^th^ IEEE International Workshop on Managing Ubiquitous Communications and Services (MUCS), Budapest, Hungary, 28 March, 2014
+* Host: IEEE PerCom 2014
+* Published: multicon lecture notes 17
+* Publisher: multicon verlag
+* ISBN: 978-3-930736-21-8
+* Links:
+      link:https://doi.org/10.1109/PerComW.2014.6815126[DOI],
+      link:https://ernster.com/detail/ISBN-9783930736218//Managing-Ubiquitous-Communications-and-Services-2014?bpmctrl=bpmrownr.3%7Cforeign.74180-1-0-0[Ernster]
+    ┃ skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/proceedings/mucs/mucs-2014.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/proceedings/mucs/mucs-2014.adoc[adoc]
+

@@ -1,0 +1,18 @@
+*Sven van der Meer* et al.: _Technology Neutral Principles and Concepts for Autonomic Networking_, 2008
+
+* Authors: Sven van der Meer, Joel J. Fleck II, Martin Huddleston, Dave Raymer, John C. Strassner, Willie Donnelly
+* Reasons to read: introduction to large-scale experimentation with RINA, the H2020 project ARCFIRE
+* Published: pp 1-25 In: Monique Calisti, Sven van der Meer, John Strassner (eds) _Advanced Autonomic Networking and Communication_, Whitestein Series in Software Agent Technologies and Autonomic Computing book series (WSSAT)
+* Publisher: Birkhäuser, Basel
+* Links:
+      link:https://doi.org/10.1007/978-3-7643-8569-9_1[DOI],
+      link:https://www.researchgate.net/publication/227204231_Technology_Neutral_Principles_and_Concepts_for_Autonomic_Networking[ResearchGate]
+    ┃ skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/inbook/2000/vandermeer-2008-aanc.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/inbook/2000/vandermeer-2008-aanc.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:inbook/2000/vandermeer-2008-aanc.pdf[PDF],
+        link:inbook/2000/vandermeer-2008-aanc.7z[7z]
+endif::[]
+

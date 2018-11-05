@@ -1,0 +1,13 @@
+*Korbinian Frank*: _Adaptive and Tractable Bayesian Context Inference for Resource Constrained Devices_, 2011
+
+* Author: Korbinian Frank
+* Thesis (PhD): Waterford Institute of Technology (WIT), Waterford, Ireland
+* Links:
+      skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/thesis/phd/2010/frank-korbinian-2011.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/thesis/phd/2010/frank-korbinian-2011.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:library/thesis/phd/2010/[Folder]
+endif::[]
+

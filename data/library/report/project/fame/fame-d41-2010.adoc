@@ -1,0 +1,13 @@
+*John Murphy*: _FAME: Interim Scenario Evaluation_, 2010
+
+* Author: John Murphy
+* Project Report: FAME - Federated, Autonomic Management of End-to-End Services - Deliverable D4.1, October 6, 2010
+* Links:
+      skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/report/project/fame/fame-d41-2010.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/report/project/fame/fame-d41-2010.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:library/report/project/fame[Folder]
+endif::[]
+

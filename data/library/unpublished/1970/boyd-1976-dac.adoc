@@ -1,0 +1,15 @@
+*John Boyd*: _Destruction and Creation_, 1976
+
+* Author: John Boyd
+* Reasons to read: rational of the OODA loop
+* Links:
+      link:http://www.johnljerz.com/superduper/tlxdownloadsiteMAIN/id354.html[Jerz],
+      link:http://www.goalsys.com/books/documents/DESTRUCTION_AND_CREATION.pdf[PDF]
+    ┃ skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/unpublished/1970/boyd-1976-dac.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/unpublished/1970/boyd-1976-dac.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:library/unpublished/1970/[Folder]
+endif::[]
+

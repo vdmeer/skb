@@ -1,0 +1,14 @@
+*John Strassner*: _I-centric Communications - Theory and Practice_, 2005
+
+* Presenter: John Strassner
+* Tutorial: 2005 IFIP/IEEE Symposium on Integrated Network and Service Management (IM 2005), Nice, France, May 15-19, 2005
+* Links:
+      link:http://im2005.ieee-im.org/[Conference]
+    ┃ skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/talks/tutorial/2000/strassner-2005-im.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/talks/tutorial/2000/strassner-2005-im.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:library/talks/tutorial/2000/[Folder]
+endif::[]
+

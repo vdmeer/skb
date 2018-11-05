@@ -1,0 +1,13 @@
+*Manuela-Ionelia Dini*: _Temporal-Oriented Policy-Driven Network Management_, 2000
+
+* Author: Manuela-Ionelia Dini
+* Thesis (master): McGill University, Montreal, Canada
+* Links:
+      skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/thesis/master/2000/dini-manuela_ionelia-2000.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/thesis/master/2000/dini-manuela_ionelia-2000.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:library/thesis/master/2000/[Folder]
+endif::[]
+

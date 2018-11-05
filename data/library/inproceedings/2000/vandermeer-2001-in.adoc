@@ -1,0 +1,17 @@
+*Sven van der Meer* et al.: _From Unified Messaging towards I-centric - Services for the Virtual Home Environment_, 2001
+
+* Authors: Sven van der Meer, Stefan Arbanowski
+* Published: 6th IEEE Intelligent Network Workshop (IN 2001), pp 152-160, Boston, United States, May 6-9, 2001
+* Links:
+      link:https://doi.org/10.1109/INW.2001.915337[DOI],
+      link:https://www.researchgate.net/publication/3893384_From_unified_messaging_towards_I-centric_services_for_the_virtual_home_environment[ResearchGate]
+    ┃ skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/vandermeer-2001-in.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/vandermeer-2001-in.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:inproceedings/2000/vandermeer-2001-in.pdf[PDF],
+        link:inproceedings/2000/vandermeer-2001-in.ppt[PPT],
+        link:inproceedings/2000/vandermeer-2001-in.7z[7z]
+endif::[]
+

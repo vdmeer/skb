@@ -1,0 +1,21 @@
+//
+// ============LICENSE_START=======================================================
+//  Copyright (C) 2018 Sven van der Meer. All rights reserved.
+// ================================================================================
+// This file is licensed under the CREATIVE COMMONS ATTRIBUTION 4.0 INTERNATIONAL LICENSE
+// Full license text at https://creativecommons.org/licenses/by/4.0/legalcode
+// 
+// SPDX-License-Identifier: CC-BY-4.0
+// ============LICENSE_END=========================================================
+//
+// @author Sven van der Meer (vdmeer.sven@mykolab.com)
+//
+
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::{skb-data-home}/library/book/1990/edelman-1992-bright_air_brilliant_fire.adoc[]
+|include::{skb-data-home}/library/book/1990/kaufmann-1993-origins_of_order.adoc[]
+|include::{skb-data-home}/library/book/1990/kaufmann-1996-home_in_the_universe.adoc[]
+|include::{skb-data-home}/library/book/1990/sacks-1998-the_man_who_mistook_his_wife_for_a_hat.adoc[]
+|===
+

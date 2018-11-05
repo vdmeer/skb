@@ -1,0 +1,13 @@
+*Stipe Bozinovic-Mador*: _Distributed Parlay Resource API based on CT Media_, 2001
+
+* Author: Stipe Bozinovic-Mador
+* Diplomarbeit (M.Sc. Thesis), Technical University Berlin (TUB), Berlin, Germany
+* Links:
+      skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/thesis/master/2000/bozinovic_mador-stipe-2001.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/thesis/master/2000/bozinovic_mador-stipe-2001.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:library/thesis/master/2000/[Folder]
+endif::[]
+

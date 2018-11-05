@@ -1,0 +1,13 @@
+*Ming Yin*: _Design and Implementation of an ORB-based DPE Platform for Active Network Nodes_, 2002
+
+* Author: Ming Yin
+* Diplomarbeit (M.Sc. Thesis), Technical University Berlin (TUB), Berlin, Germany
+* Links:
+      skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/thesis/master/2000/yin-ming-2002.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/thesis/master/2000/yin-ming-2002.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:library/thesis/master/2000/[Folder]
+endif::[]
+

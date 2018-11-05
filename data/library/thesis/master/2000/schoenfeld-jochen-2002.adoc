@@ -1,0 +1,13 @@
+*Jochen Schönfeld*: _Entwicklung und Erprobung eines selbstkonfigurierenden Netzes von Smart-IP Geräten_, 2002
+
+* Author: Jochen Schönfeld
+* Diplomarbeit (M.Sc. Thesis), Technical University Berlin (TUB), Berlin, Germany
+* Links:
+      skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/thesis/master/2000/schoenfeld-jochen-2002.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/thesis/master/2000/schoenfeld-jochen-2002.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:library/thesis/master/2000/[Folder]
+endif::[]
+

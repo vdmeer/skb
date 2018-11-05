@@ -1,0 +1,13 @@
+*Tom Pfeifer* (ed): _Early Implementations of Predefined Converter Chains and Service Gateways_, 1997
+
+* Editor: Tom Pfeifer
+* Project Report: iPCSS - intelligent Personal Communication System - Deliverable 2, 1997
+* Links:
+      skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/report/project/ipcss/ipcss-2-1997.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/report/project/ipcss/ipcss-2-1997.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:library/report/project/ipcss[Folder]
+endif::[]
+

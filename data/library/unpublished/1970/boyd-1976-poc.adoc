@@ -1,0 +1,16 @@
+*John Boyd*: _Patterns of Conflict_, 1976
+
+* Author: John Boyd
+* Reasons to read: military use of OODA loop
+* Links:
+      link:https://en.wikipedia.org/wiki/Patterns_of_Conflict[Wikipedia],
+      link:http://www.ausairpower.net/JRB/poc.pdf[PDF: original],
+      link:http://dnipogo.org/boyd/patterns_ppt.pdf[PDF: Edited]
+    ┃ skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/unpublished/1970/boyd-1976-poc.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/unpublished/1970/boyd-1976-poc.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:library/unpublished/1970/[Folder]
+endif::[]
+

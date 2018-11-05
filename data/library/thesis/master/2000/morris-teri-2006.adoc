@@ -1,0 +1,13 @@
+*Teri Morris*: _Policy based Management Using Context Mobility in Ad-hoc Networking_, 2006
+
+* Author: Teri Morris
+* Thesis (M.Sc.): Waterford Institute of Technology (WIT), Waterford, Ireland
+* Links:
+      skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/thesis/master/2000/morris-teri-2006.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/thesis/master/2000/morris-teri-2006.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:library/thesis/master/2000/[Folder]
+endif::[]
+

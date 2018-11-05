@@ -1,0 +1,13 @@
+*Brendan Jennings*: _Network-oriented Load Control for SS.7/IN_, 2001
+
+* Author: Brendan Jennings
+* Thesis (PhD): Dublin City University (DCU), Dublin, Ireland
+* Links:
+      skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/thesis/phd/2000/jennings-brendan-2001.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/thesis/phd/2000/jennings-brendan-2001.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:library/thesis/phd/2000/[Folder]
+endif::[]
+

@@ -1,0 +1,15 @@
+*Vincenzo Maffione* (ed): _Integrated Software ready for Experiments: RINA stack, Management System and Measurement Framework_, 2017
+
+* Editor: Vincenzo Maffione
+* Authors: Vincenzo Maffione, Gino Carrozzo, Nicola Ciulli, Marco Capitani, Eduard Grasa, Leonardo Bergesio, Miquel Tarzan, Dimitri Staessens, Sander Vrijders, Sven van der Meer
+* Project Report: ARCFIRE - Large-scale RINA Experimentation on FIRE+ - Deliverable D3.1, June 30, 2017
+* Links:
+      link:http://ict-arcfire.eu/index.php/research/deliverables/[Arcfire]
+    ┃ skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/report/project/arcfire/arcfire-d31-2017.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/report/project/arcfire/arcfire-d31-2017.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:library/report/project/arcfire[Folder]
+endif::[]
+

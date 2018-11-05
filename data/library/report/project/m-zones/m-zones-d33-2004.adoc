@@ -1,0 +1,13 @@
+*Sven van der Meer*: _Modelling and Design Report_, 2004
+
+* Author: Sven van der Meer
+* Project Report: M-Zones - Managed Zones - Deliverable D3.3, September 3, 2004
+* Links:
+      skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/report/project/m-zones/m-zones-d33-2004.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/report/project/m-zones/m-zones-d33-2004.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:library/report/project/m-zones[Folder]
+endif::[]
+

@@ -1,0 +1,16 @@
+*Dionysia Triantafyllopoulou* et al.: _Existing Policy Frameworks: An Overview_, 2013
+
+* Authors: Dionysia Triantafyllopoulou, Adrian Kliks, Valentin Rakovic, Liljana Gavrilovska
+* Reasons to read: survey of policy frameworks
+* Published: ISWCS 2013; The Tenth International Symposium on Wireless Communication Systems, Cognitive Radio Advances, Applications and Future Emerging Technologies (CRAFT) Workshop
+* Links:
+      link:https://ieeexplore.ieee.org/abstract/document/6629708[eXplore],
+      link:http://epubs.surrey.ac.uk/809300/[Surrey]
+    ┃ skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/triantafyllopoulou-2013-iswcs.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/triantafyllopoulou-2013-iswcs.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:inproceedings/2010/triantafyllopoulou-2013-iswcs.pdf[PDF]
+endif::[]
+

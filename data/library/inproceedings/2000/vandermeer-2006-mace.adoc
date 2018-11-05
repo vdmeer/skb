@@ -1,0 +1,17 @@
+*Sven van der Meer* et al.: _Emerging Principles of Autonomic Network Management_, 2006
+
+* Authors: Sven van der Meer, Willie Donnelly, John C. Strassner, Brendan Jennings, Mícheál Ó Foghlú
+* Reasons to read: policy translation is possible
+* Published: First IEEE International Workshop on Modelling Autonomic Communications Environments, MACE 2006
+* Links:
+      link:https://www.researchgate.net/publication/255621731_Emerging_Principles_of_Autonomic_Network_Management[ResearchGate]
+    ┃ skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/vandermeer-2006-mace.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/vandermeer-2006-mace.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:inproceedings/2000/vandermeer-2006-mace.pdf[PDF],
+        link:inproceedings/2000/vandermeer-2006-mace.doc[DOC],
+        link:inproceedings/2000/vandermeer-2006-mace.ppt[PPT]
+endif::[]
+

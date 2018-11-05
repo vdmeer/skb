@@ -1,0 +1,16 @@
+*Brendan Jennings* et al.: _Autonomic Network Management Principles: From Concepts to Applications_, 2010
+
+* Authors: Brendan Jennings, Kevin Chekov Feeney, Rob Brennan, Sasitharan Balasubramaniam, Dmitri Botvich, Sven van der Meer
+* Published: chapter 5, pp 101-118 In: Nazim Agoulmine, _Autonomic Network Management Principles: From Concepts to Applications_, Academic Press, Inc. Orlando, FL, USA
+* Links:
+      link:https://www.elsevier.com/books/autonomic-network-management-principles/agoulmine/978-0-12-382190-4[Publicher],
+      link:https://www.researchgate.net/profile/Stefan_Schmid8/publication/224096224_The_Autonomic_Network_Architecture_ANA/links/53da9eef0cf2631430ca489b/The-Autonomic-Network-Architecture-ANA.pdf#page=120[ResearchGate],
+      link:http://www.tara.tcd.ie/bitstream/handle/2262/77401/Ch05-9780123821904.pdf?sequence=1[TCD]
+    ┃ skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/inbook/2010/jennings-2010-autonomics.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/inbook/2010/jennings-2010-autonomics.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:inbook/1010/jennings-2010-autonomics.pdf[PDF]
+endif::[]
+

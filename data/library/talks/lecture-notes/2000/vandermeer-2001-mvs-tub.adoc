@@ -1,0 +1,13 @@
+*Sven van der Meer*: _Management von verteilten Systemen_, 2001
+
+* Presenter: Sven van der Meer
+* Lecture: Sommersemester 2001 (SS01), Technical University Berlin
+* Links:
+      skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/talks/lecture-notes/2000/vandermeer-2001-mvs-tub.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/talks/lecture-notes/2000/vandermeer-2001-mvs-tub.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:library/talks/lecture-notes/2000/[Folder]
+endif::[]
+

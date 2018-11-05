@@ -1,0 +1,13 @@
+*Vladimír Veselý*: _A new Dawn of Naming, Addressing and Routing on the Internet_, 2015
+
+* Author: Vladimír Veselý
+* Thesis (PhD): Brno University of Technology, Brno, Czech Republic
+* Links:
+      skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/thesis/phd/2010/veselý-vladimír-2015.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/thesis/phd/2010/veselý-vladimír-2015.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:library/thesis/phd/2010/[Folder]
+endif::[]
+

@@ -1,0 +1,13 @@
+*Andreas Dannert*: _Call Logic Service for a Personal Communication supporting System_, 1998
+
+* Author: Andreas Dannert
+* Diplomarbeit (M.Sc. Thesis), Technical University Berlin (TUB), Berlin, Germany
+* Links:
+      skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/thesis/master/1990/dannert-andreas-1998.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/thesis/master/1990/dannert-andreas-1998.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:library/thesis/master/1990/[Folder]
+endif::[]
+

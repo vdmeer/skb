@@ -1,0 +1,14 @@
+*Sven van der Meer*: _Dynamic Configuration Management of the Equipment in Distributed Communication Environments_, 1996
+
+* Author: Sven van der Meer
+* Diplomarbeit (M.Sc. Thesis), Technical University Berlin (TUB), Berlin, Germany
+  ** Berlin, Germany, October 6, 1996
+* Links:
+      skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/thesis/master/1990/vandermeer-sven-1996.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/thesis/master/1990/vandermeer-sven-1996.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:library/thesis/master/1990/[Folder]
+endif::[]
+

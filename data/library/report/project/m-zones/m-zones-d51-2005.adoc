@@ -1,0 +1,14 @@
+*Sven van der Meer* (ed): _Evaluation and Dissemination Report_, 2005
+
+* Editor: Sven van der Meer
+* Authors: Sven van der Meer, Dave Lewis, Dirk Pesch, Brendan Jennings, Mícheál Ó Foghlú
+* Project Report: M-Zones - Managed Zones - Deliverable D5.1, May 12, 2005
+* Links:
+      skb:
+        link:https://github.com/vdmeer/skb/tree/master/data/library/report/project/m-zones/m-zones-d51-2005.yaml[yaml],
+        link:https://github.com/vdmeer/skb/tree/master/data/library/report/project/m-zones/m-zones-d51-2005.adoc[adoc]
+ifdef::local[]
+    ┃ local:
+        link:library/report/project/m-zones[Folder]
+endif::[]
+

@@ -1,0 +1,11 @@
+book/1970/florman-1976-engineering:
+    authors:
+        - Florman, Samuel C.
+    title: The Existential Pleasures of Engineering
+    type: book
+    year: 1976
+    urls:
+        Goodreads: >
+            https://www.goodreads.com/book/show/1203186.The_Existential_Pleasures_of_Engineering
+    adoc: |
+        * Reasons to read: to understand engineering, how engineers think and feel about their profession

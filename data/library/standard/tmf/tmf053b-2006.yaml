@@ -1,0 +1,11 @@
+standard/tmf/tmf053b-2006:
+    editors:
+        - van der Meer, Sven
+    title: "NGOSS Architecture Technology Neutral Specification - Contract Description: Business and System Views"
+    type: standard
+    year: 2006
+    library:
+        Folder: >
+            standard/tmf/
+    adoc: |
+        * Published: TM Forum, NGOSS Release 6.3, TNA Release 6.3, Document Version 5.1, 2006

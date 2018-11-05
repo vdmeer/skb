@@ -1,0 +1,17 @@
+inproceedings/2000/oconnor-2003-isict:
+    authors:
+        - O'Connor, Robert
+        - van der Meer, Sven
+    title: Present and future organisational models for wireless networks
+    type: inproceedings
+    year: 2003
+    urls:
+        DOI: >
+            http://doi.acm.org/10.1145/963600.963633
+        ResearchGate: >
+            https://www.researchgate.net/publication/220833292_Present_and_future_organisational_models_for_wireless_networks
+    library:
+        PDF: >
+            inproceedings/2000/oconnor-2003-isict.pdf
+    adoc: |
+        * Published: ISICT '03 Proceedings of the 1st international symposium on Information and communication technologies, Pages 157-162 

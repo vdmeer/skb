@@ -1,0 +1,18 @@
+article/2010/han-2012-cn:
+    authors:
+        - Han, Weili
+        - Lei, Chang
+    title: A Survey on Policy Languages in Network and Security Management
+    type: article
+    year: 2012
+    urls:
+        DOI: >
+            https://doi.org/10.1016/j.comnet.2011.09.014
+        PDF: >
+            http://crypto.fudan.edu.cn/people/weili/papers/han-policysurvey.pdf
+    library:
+        PDF: >
+            article/2010/han-2012-cn.pdf
+    adoc: |
+        * Reasons to read: servey of policy languages, here for security
+        * Published: Computer Networks, Volume 56, Issue 1, 12 January 2012, Pages 477-489

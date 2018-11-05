@@ -1,0 +1,11 @@
+report/project/amcns/amcns-2008:
+    authors:
+        - van der Meer, Sven
+    title: AMCNS Annual Report Year 3
+    type: report
+    year: 2008
+    library:
+        Folder: >
+            report/project/amcns
+    adoc: |
+        * Project Report: AMCNS - Autonomic Management of Communication Networks and Servicess - Annual Report Y3, February 2, 2008

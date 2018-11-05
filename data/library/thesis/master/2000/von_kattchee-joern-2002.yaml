@@ -1,0 +1,11 @@
+thesis/master/2000/von_kattchee-joern-2002:
+    authors:
+        - von Kattchée, Jörn
+    title: Design und Implementierung einer CORBA/SOAP-Bridge
+    type: thesis
+    year: 2002
+    library:
+        Folder: >
+            thesis/master/2000/
+    adoc: |
+        * Diplomarbeit (M.Sc. Thesis), Technical University Berlin (TUB), Berlin, Germany

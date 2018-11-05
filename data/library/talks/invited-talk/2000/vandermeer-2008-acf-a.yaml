@@ -1,0 +1,11 @@
+talks/invited-talk/2000/vandermeer-2008-acf-a:
+    presenters:
+        - van der Meer, Sven
+    title: Architecture Expert's Group (AEG)
+    type: invited-talk
+    year: 2008
+    library:
+        Folder: >
+            talks/invited-talk/2000/
+    adoc: |
+        * Invited Talk: Meeting of the Autonomic Communications Forum, Barcelona, Spain, May 12, 2008

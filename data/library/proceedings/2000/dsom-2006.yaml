@@ -1,0 +1,22 @@
+proceedings/2000/dsom-2006:
+    editors:
+        - State, Radu
+        - van der Meer, Sven
+        - O'Sullivan, Declan
+        - Pfeifer, Tom
+    title: Large Scale Management of Distributed Systems
+    type: proceeding
+    year: 2006
+    urls:
+        DOI: >
+            https://doi.org/10.1007/11907466
+    library:
+        "DOC: CFP": >
+            proceedings/2000/dsom-2006.doc
+        "PDF: NOMS Flyer": >
+            proceedings/2000/dsom-2006-flyer-noms.pdf
+    adoc: |
+        * Workshop: 17^th^ IFIP/IEEE International Workshop on Distributed Systems: Operations and Management (DSOM 2006), Dublin, Ireland, October 23-25, 2006
+        * Published: part of the Lecture Notes in Computer Science book series (LNCS, volume 4269)
+        * Publisher: Springer
+        * ISBN: 978-3-540-47659-7

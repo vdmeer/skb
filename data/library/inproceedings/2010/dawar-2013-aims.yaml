@@ -1,0 +1,23 @@
+inproceedings/2010/dawar-2013-aims:
+    authors:
+        - Dawar, , Sumit
+        - Fallon, Enda
+        - Bennet, Tom
+        - van der Meer, Sven
+        - Keeney, John
+    title: An Extensible Architecture for Mobile Network Management Event Distribution and Rule Processing
+    titleaddon: A Performance Evaluation
+    type: inproceedings
+    year: 2013
+    urls:
+        DOI: >
+            https://doi.org/10.1109/AIMS.2013.82
+        ResearchGate: >
+            https://www.researchgate.net/publication/293096762_An_Extensible_Architecture_for_Mobile_Network_Management_Event_Distribution_and_Rule_Processing_-_A_Performance_Evaluation
+    library:
+        PDF: >
+            inproceedings/2010/dawar-2013-aims.pdf
+        DOC: >
+            inproceedings/2010/dawar-2013-aims.doc
+    adoc: |
+        * 2013 1^st^ International Conference on Artificial Intelligence, Modelling and Simulation, AIMS 2013

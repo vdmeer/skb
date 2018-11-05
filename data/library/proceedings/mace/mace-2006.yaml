@@ -1,0 +1,29 @@
+proceedings/mace/mace-2006:
+    editors:
+        - Donnelly, William
+        - Popescu-Zeletin, Radu
+        - Strassner, John C.
+        - Jennings, Brendan
+        - van der Meer, Sven
+    title: Modelling Autonomic Communications Environments
+    type: proceeding
+    year: 2006
+    urls:
+        Ernster: >
+            https://ernster.com/detail/ISBN-9783930736058//Modelling-Autonomic-Communications-Environments-2006?bpmctrl=bpmrownr.4%7Cforeign.74180-1-0-0
+        "Web: orig": >
+            http://vandermeer.de/library/proceedings/mace/web/2006/mace.php
+        "Web: html": >
+            http://vandermeer.de/library/proceedings/mace/html/2006/mace.html
+    library:
+        "PDF: CFP": >
+            proceedings/mace/mace-2006.pdf
+        "DOC: CFP": >
+            proceedings/mace/mace-2006.doc
+        "PDF: NOMS Flyer": >
+            proceedings/mace/mace-2006-flyer-noms.pdf
+    adoc: |
+        * Workshop: First IEEE International Workshop on Modelling Autonomic Communications Environments (MACE), Dublin, Ireland, 25-26 October, 2006
+        * Published: multicon lecture notes series, No. 2
+        * Publisher: multicon verlag, Schöneiche bei Berlin
+        * ISBN: ISBN-13: 978-3-930736-05-8, ISBN-10: 3-930736-05-5 

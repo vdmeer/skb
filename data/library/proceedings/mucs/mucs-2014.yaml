@@ -1,0 +1,19 @@
+proceedings/mucs/mucs-2014:
+    editors:
+        - Pesch, Dirk
+        - Kumar, Mohan
+        - Das, Sajal
+    title: Managing Ubiquitous Communications and Services
+    type: proceeding
+    year: 2014
+    urls:
+        DOI: >
+            https://doi.org/10.1109/PerComW.2014.6815126
+        Ernster: >
+            https://ernster.com/detail/ISBN-9783930736218//Managing-Ubiquitous-Communications-and-Services-2014?bpmctrl=bpmrownr.3%7Cforeign.74180-1-0-0
+    adoc: |
+        * Workshop: 11^th^ IEEE International Workshop on Managing Ubiquitous Communications and Services (MUCS), Budapest, Hungary, 28 March, 2014
+        * Host: IEEE PerCom 2014
+        * Published: multicon lecture notes 17
+        * Publisher: multicon verlag
+        * ISBN: 978-3-930736-21-8

@@ -1,0 +1,16 @@
+inproceedings/1980/dobson-1989-ssp:
+    authors:
+        - Dobson, J. E.
+        - McDermid, J. A.
+    title: A Framework for expressing Models of Security Policy
+    type: inproceedings
+    year: 1989
+    urls:
+        DOI: >
+            https://doi.org/10.1109/SECPRI.1989.36297
+    library:
+        Folder: >
+            inproceedings/1980/dobson-1989-ssp.pdf
+    adoc: |
+        * Reasons to read: system specification describes _what_ a system does while a policy describes how, dynamic features are _policy_, _role_, and _control_
+        * Published: Proceedings. 1989 IEEE Symposium on Security and Privacy

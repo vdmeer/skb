@@ -1,0 +1,19 @@
+book/1960/wiener-1965-cybernetics:
+    authors:
+        - Wiener, Norbert
+    title: Cybernetic OR Control and Communication in the Animal and the Machine
+    type: book
+    year: 1965
+    urls:
+        Wikipedia: >
+            https://en.wikipedia.org/wiki/Cybernetics:_Or_Control_and_Communication_in_the_Animal_and_the_Machine
+        Goodreads: >
+            https://www.goodreads.com/book/show/294941.Cybernetics?ac=1&from_search=true
+        "PDF: original typeset": >
+            http://www.uberty.org/wp-content/uploads/2015/07/Norbert_Wiener_Cybernetics.pdf
+    library:
+        PDF: >
+            book/1960/wiener-1965-cybernetics.pdf
+    adoc: |
+        * Reasons to read: the standard work on cybernetics (with definition) and control
+        * Publisher: MIT Press, Cambridge, Massachusetts

@@ -1,0 +1,11 @@
+thesis/master/2000/nsang-aaron-2002:
+    authors:
+        - Nsang, Aaron
+    title: Entwurf und Implementierung eines HL7-XML Gateways zum Ex- und Import von Daten einer elektronischen Patientenakte
+    type: thesis
+    year: 2002
+    library:
+        Folder: >
+            thesis/master/2000/
+    adoc: |
+        * Diplomarbeit (M.Sc. Thesis), Technical University Berlin (TUB), Berlin, Germany

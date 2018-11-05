@@ -1,0 +1,12 @@
+book/1990/edelman-1992-bright_air_brilliant_fire:
+    authors:
+        - Edelman, Gerald
+    title: Bright Air Brilliant Fire
+    type: book
+    year: 1992
+    urls:
+        Goodreads: >
+            https://www.goodreads.com/book/show/1120112.Bright_Air_Brilliant_Fire
+    adoc: |
+        * Reasons to read: theory of Neural Darwinism feeds into Maturana quite nicely, the application of Edelman in Sacks’ Seeing Voices
+        * Publisher: Basic Books

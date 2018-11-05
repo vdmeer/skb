@@ -1,0 +1,11 @@
+thesis/phd/2010/frank-korbinian-2011:
+    authors:
+        - Frank, Korbinian
+    title: Adaptive and Tractable Bayesian Context Inference for Resource Constrained Devices
+    type: thesis
+    year: 2011
+    library:
+        Folder: >
+            thesis/phd/2010/
+    adoc: |
+        * Thesis (PhD): Waterford Institute of Technology (WIT), Waterford, Ireland

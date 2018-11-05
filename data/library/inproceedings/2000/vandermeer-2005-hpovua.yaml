@@ -1,0 +1,22 @@
+inproceedings/2000/vandermeer-2005-hpovua:
+    authors:
+        - van der Meer, Sven
+        - Jennings, Brendan
+        - O'Sullivan, Declan
+        - Lewis, David
+        - Agoulmine, Nazim
+    title: Ontology Based Policy Mobility for Pervasive Computing
+    type: inproceedings
+    year: 2005
+    urls:
+        ResearchGate: >
+            https://www.researchgate.net/publication/228626536_Ontology_based_policy_mobility_for_pervasive_computing
+    library:
+        PDF: >
+            inproceedings/2000/vandermeer-2005-hpovua.pdf
+        DOC: >
+            inproceedings/2000/vandermeer-2005-hpovua.doc
+        PPT: >
+            inproceedings/2000/vandermeer-2005-hpovua.ppt
+    adoc: |
+        * Published: 12th Workshop of the HP OpenView University Association (HPOVUA2005)

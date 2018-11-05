@@ -1,0 +1,14 @@
+book/2010/deutsch-2011-infinity:
+    authors:
+        - Deutsch, David
+    title: The Beginning of Infinity
+    type: book
+    year: 2011
+    urls:
+        Wikipedia: >
+            https://en.wikipedia.org/wiki/The_Beginning_of_Infinity
+        Goodreads: >
+            https://www.goodreads.com/book/show/10483171-the-beginning-of-infinity?from_search=true
+    adoc: |
+        * Reasons to read: error is the normal state of our knowledge, good and bad philosophy
+        * Publisher: Viking

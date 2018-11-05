@@ -1,0 +1,20 @@
+inproceedings/2010/triantafyllopoulou-2013-iswcs:
+    authors:
+        - Triantafyllopoulou, Dionysia
+        - Kliks, Adrian
+        - Rakovic, Valentin
+        - Gavrilovska, Liljana
+    title: "Existing Policy Frameworks: An Overview"
+    type: inproceedings
+    year: 2013
+    urls:
+        eXplore: >
+            https://ieeexplore.ieee.org/abstract/document/6629708
+        Surrey: >
+            http://epubs.surrey.ac.uk/809300/
+    library:
+        PDF: >
+            inproceedings/2010/triantafyllopoulou-2013-iswcs.pdf
+    adoc: |
+        * Reasons to read: survey of policy frameworks
+        * Published: ISWCS 2013; The Tenth International Symposium on Wireless Communication Systems, Cognitive Radio Advances, Applications and Future Emerging Technologies (CRAFT) Workshop

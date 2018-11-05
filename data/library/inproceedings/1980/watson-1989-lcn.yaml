@@ -1,0 +1,19 @@
+inproceedings/1980/watson-1989-lcn:
+    authors:
+        - Watson, Richard W.
+    title: "Delta-t Transport Protocol: Features and Experience"
+    type: inproceedings
+    year: 1989
+    urls:
+        DOI: >
+            https://doi.org/10.1109/LCN.1989.65288
+        OSTI: >
+            https://www.osti.gov/biblio/5634768
+        PDF: >
+            https://www.computer.org/csdl/proceedings/lcn/1989/1968/00/00065288.pdf
+    library:
+        Folder: >
+            inproceedings/1980/watson-1989-lcn.pdf
+    adoc: |
+        * Reasons to read: Delte-T experience report
+        * Published: 1989 Proceedings. 14th Conference on Local Computer Networks (LCN)

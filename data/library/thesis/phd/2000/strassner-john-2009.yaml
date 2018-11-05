@@ -1,0 +1,11 @@
+thesis/phd/2000/strassner-john-2009:
+    authors:
+        - Strassner, John C.
+    title: Enabling Autonomic Network Management Decisions Using a Novel Semantic Representation and Reasoning Approach
+    type: thesis
+    year: 2009
+    library:
+        Folder: >
+            thesis/phd/2000/
+    adoc: |
+        * Thesis (PhD): Waterford Institute of Technology (WIT), Waterford, Ireland

@@ -1,0 +1,22 @@
+book/1950/popper-1959-scientific_discovery:
+    authors:
+        - Popper, Karl
+    title: The Logic of Scientific Discovery
+    type: book
+    year: 1959
+    urls:
+        Wikipedia: >
+            https://en.wikipedia.org/wiki/The_Logic_of_Scientific_Discovery
+        Goodreads: >
+            https://www.goodreads.com/book/show/61550.The_Logic_of_Scientific_Discovery?from_search=true
+        "Online: English": >
+            https://archive.org/details/PopperLogicScientificDiscovery
+        "PDF: English": >
+            http://strangebeautiful.com/other-texts/popper-logic-scientific-discovery.pdf
+    library:
+        PDF: >
+            book/1950/popper-1959-scientific_discovery.pdf
+    adoc: |
+        * Published: 1934 (German, _Logik der Forschung_), 1959 (English)
+        * Publisher: Hutchinson & Co
+        * Reasons to read: "The first step is to state a hypothesis. To state a hypothesis, one must start with a theory to be invalidated", shows: you can never prove a theory correct; you can only invalidate it

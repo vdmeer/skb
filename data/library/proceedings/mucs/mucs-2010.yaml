@@ -1,0 +1,21 @@
+proceedings/mucs/mucs-2010:
+    editors:
+        - O'Sullivan, Declan
+        - Pfeifer, Tom
+        - Stiller, Burkhard
+    title: Managing Ubiquitous Communications and Services
+    type: proceeding
+    year: 2010
+    urls:
+        DOI: >
+            https://doi.org/10.1109/PERCOMW.2010.5470576
+        Ernster: >
+            https://ernster.com/detail/ISBN-9783930736157//Managing-Ubiquitous-Communications-and-Services-2010?CSPCHD=00000100000011f7El1v7C0000K$sX4oCbt1hGKVr6wR4gvQ--&bpmctrl=bpmrownr.5%3A1%7Cforeign.63574-57-1-79643%3A80325%3A76780
+        "Web: orig": >
+            http://vandermeer.de/library/proceedings/mucs/web/2010/index.php
+    adoc: |
+        * Workshop: 7^th^ IEEE International Workshop on Managing Ubiquitous Communications and Services (MUCS), Mannheim, Germany, 29 March, 2010
+        * Host: IEEE PerCom 2010, March 29, 2010, Mannheim, Germany 
+        * Published: multicon lecture notes 12
+        * Publisher: multicon verlag
+        * ISBN: 978-3-930736-15-7

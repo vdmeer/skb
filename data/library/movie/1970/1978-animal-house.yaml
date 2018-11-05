@@ -1,0 +1,13 @@
+movie/1970/1978-animal-house:
+    title: Animal House
+    type: movie
+    year: 1978
+    links:
+        Wikipedia: >
+            https://en.wikipedia.org/wiki/Animal_House
+        TMDb: >
+            https://www.themoviedb.org/movie/8469-animal-house?language=en-US
+        IMDB: >
+            https://www.imdb.com/title/tt0077975/
+    adoc: |
+        * Reasons to watch: the metaphor "turning the Faber Marching Band down that dead end alley", see this clip link:https://www.youtube.com/watch?v=Q1v0jB3OswM[Youtube]

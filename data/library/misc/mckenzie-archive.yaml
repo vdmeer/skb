@@ -1,0 +1,14 @@
+misc/mckenzie-archive:
+    authors:
+        - McKenzie, Alex
+    title: Collection of Computer Networking Development Records
+    type: misc
+    year: 1972
+    urls:
+        "CBI (with identifier 123)": >
+            http://www.cbi.umn.edu/collections/archmss.html
+        "McKenzie Collection": >
+            https://archives.lib.umn.edu/repositories/3/resources/242
+    adoc: |
+        * written between 1972-1979
+        * see Charles Babbage Institute (CBI) collections

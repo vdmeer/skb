@@ -1,0 +1,16 @@
+talks/keynote/2010/vandermeer-2018-5gman:
+    presenters:
+        - van der Meer, Sven
+    title: The what, where, and how of 5G Management
+    type: keynote
+    year: 2018
+    urls:
+        Event: >
+            http://www.5gman.org/
+        ResearchGate: >
+            https://www.researchgate.net/publication/325058259_The_what_where_and_how_of_5G_Management
+    library:
+        Folder: >
+            talks/keynote/2010/
+    adoc: |
+        * Keynote: Third IFIP/IEEE International Workshop on Management of 5G Networks (5GMan 2018), Taipei, Taiwan, April 27, 2018

@@ -1,0 +1,28 @@
+report/project/arcfire/arcfire-d43-2017:
+    editors:
+        - Staessens, Dimitri
+    authors:
+        - Staessens, Dimitri
+        - Vrijders, Sander
+        - Grasa, Eduard
+        - Bergesio, Leonardo
+        - Tarzan, Miquel
+        - Gaston, Bernat
+        - van der Meer, Sven
+        - Keeney, John
+        - Fallon, Liam
+        - Maffione, Vincenzo
+        - Carrozzo, Gino
+        - Lopez, Diego
+        - Day, John
+    title: Design of experimental Scenarios; Selection of Metrics and KPIs
+    type: report
+    year: 2017
+    urls:
+        Arcfire: >
+            http://ict-arcfire.eu/index.php/research/deliverables/
+    library:
+        Folder: >
+            report/project/arcfire
+    adoc: |
+        * Project Report: ARCFIRE - Large-scale RINA Experimentation on FIRE+ - Deliverable D4.3, May 5, 2017

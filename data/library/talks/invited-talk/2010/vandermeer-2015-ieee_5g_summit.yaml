@@ -1,0 +1,22 @@
+talks/invited-talk/2010/vandermeer-2015-ieee_5g_summit:
+    presenters:
+        - van der Meer, Sven
+    title: 5G & Autonomic Networking - Challenges in closing the Loop
+    type: invited-talk
+    year: 2015
+    urls:
+        Main: >
+            http://www.5gsummit.org/
+        Event: >
+            http://www.5gsummit.org/index.html
+        "PDF: Slides": >
+            http://www.5gsummit.org/docs/slides/Sven-Meer-5GSummit-Princeton-05262015.pdf
+        "IEEE TV Recording": >
+            https://ieeetvdev.ieee.org/conference-highlights/princeton-5g-summit-sven-van-der-meer-keynote-automatic-automation
+        ResearchGate: >
+            https://www.researchgate.net/publication/277329201_5G_Autonomic_Networking_-_Challenges_in_closing_the_Loop
+    library:
+        Folder: >
+            talks/invited-talk/2010/
+    adoc: |
+        * Invited Talk: First IEEE International 5G Summit, Princeton University, New Jersey, NJ, USA, May 26, 2015

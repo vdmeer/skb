@@ -1,0 +1,20 @@
+talks/invited-talk/2010/fallon-2017-onap:
+    presenters:
+        - Fallon, Liam
+    authors:
+        - Fallon, Liam
+        - van der Meer, Sven
+        - Keeney, John
+    title: State, Context, Adaptability, and Scale for Self-Learning Closed Loop Policiexs
+    type: invited-talk
+    year: 2017
+    urls:
+        Event: >
+            https://onapbeijing2017.sched.com/event/D5qS/state-context-adaptability-and-scale-for-self-learning-closed-loop-policies
+        PDF: >
+            https://schd.ws/hosted_files/onapbeijing2017/70/ONAPEvent_Policy.pdf
+    library:
+        Folder: >
+            talks/invited-talk/2010/
+    adoc: |
+        * Invited Talk: ONAP Beijing Release Developer Forum, Santa Clara, CA, USA, December 11-13, 2017

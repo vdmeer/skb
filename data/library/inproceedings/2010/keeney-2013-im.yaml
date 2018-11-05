@@ -1,0 +1,20 @@
+inproceedings/2010/keeney-2013-im:
+    authors:
+        - Keeney, John
+        - van der Meer, Sven
+        - Hogan, Gabriel
+    title: A Recommender-System for Telecommunications Network Management Actions
+    type: inproceedings
+    year: 2013
+    urls:
+        "IEEE Xplore": >
+            https://ieeexplore.ieee.org/document/6573072/
+        ResearchGate: >
+            https://www.researchgate.net/publication/259785776_A_recommender-system_for_telecommunications_network_management_actions
+    library:
+        PDF: >
+            inproceedings/2010/keeney-2013-im.pdf
+        PPT: >
+            inproceedings/2010/keeney-2013-im.ppt
+    adoc: |
+        * Published: 2013 IFIP/IEEE International Symposium on Integrated Network Management (IM 2013)

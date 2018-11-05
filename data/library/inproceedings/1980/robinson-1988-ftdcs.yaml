@@ -1,0 +1,18 @@
+inproceedings/1980/robinson-1988-ftdcs:
+    authors:
+        - Robinson, D.C.
+        - Sloman, Morris
+    title: "Domains: a new Approach to Distributed System Management"
+    type: inproceedings
+    year: 1988
+    urls:
+        DOI: >
+            https://doi.org/10.1109/FTDCS.1988.26694
+        PDF: >
+            https://www.computer.org/csdl/proceedings/ftdcs/1988/0897/00/00026694.pdf
+    library:
+        PDF: >
+            inproceedings/1980/robinson-1988-ftdcs.pdf
+    adoc: |
+        * Reasons to read: early work on policy in network management
+        * Published: 1988 Proceedings. Workshop on the Future Trends of Distributed Computing Systems in the 1990s

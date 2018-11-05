@@ -1,0 +1,11 @@
+report/project/
+    authors:
+        - 
+    title: ###
+    type: report
+    year: ###
+    library:
+        Folder: >
+            report/project/
+    adoc: |
+        * 

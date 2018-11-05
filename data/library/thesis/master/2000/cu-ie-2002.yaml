@@ -1,0 +1,11 @@
+thesis/master/2000/cu-ie-2002:
+    authors:
+        - Cu, Ie
+    title: "Bridging HAVi stack and 1394 devices: the Implementation of the Windows Driver Model"
+    type: thesis
+    year: 2002
+    library:
+        Folder: >
+            thesis/master/2000/
+    adoc: |
+        * Diplomarbeit (M.Sc. Thesis), Technical University Berlin (TUB), Berlin, Germany

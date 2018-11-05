@@ -1,0 +1,12 @@
+talks/lecture-notes/2000/vandermeer-2006-cm-wit:
+    presenters:
+        - van der Meer, Sven
+    title: Communications Management
+    type: lecture-note
+    year: 2006
+    library:
+        Folder: >
+            talks/lecture-notes/2000/
+    adoc: |
+        * Lecture: Module Communications Management, MSc in Computing, WIT, 2005/06 (January - May 2006)
+          ** with guest talks by Joel Fleck II (HP) and John Strassner (Motorola)

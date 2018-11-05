@@ -1,0 +1,20 @@
+inproceedings/2000/boudjemil-2008-dest:
+    authors:
+        - Boudjemil, Zohra
+        - Mulligan, Trish
+        - Fahy, Claire
+        - Finnegan, Jason
+        - Dempsy, Shane
+    title: Language and open metamodel for e-business negotiations
+    type: inproceedings
+    year: 2008
+    urls:
+        DOI: >
+            https://doi.org/10.1109/DEST.2008.4635165
+    library:
+        PDF: >
+            inproceedings/2000/boudjemil-2008-dest.pdf
+        DOC: >
+            inproceedings/2000/boudjemil-2008-dest.doc
+    adoc: |
+        * Published: 2008 2nd IEEE International Conference on Digital Ecosystems and Technologies (DEST)

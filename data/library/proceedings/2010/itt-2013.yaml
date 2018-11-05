@@ -1,0 +1,12 @@
+proceedings/2010/itt-2013:
+    editors:
+        - Hofmann, Markus
+        - Fallon, Enda
+    title: "12th International Conference on Information Technology and Telecommunication: Small Devices, Big Data, Real Challenges"
+    type: proceeding
+    year: 2103
+    library:
+        Folder: >
+            proceedings/2010/
+    adoc: |
+        * Conference: 12^th^ International Conference on Information Technology and Telecommunication 2013, IT&T 2013, Athlone, Ireland, May 9-10, 2013

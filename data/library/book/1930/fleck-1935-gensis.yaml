@@ -1,0 +1,17 @@
+book/1930/fleck-1935-gensis:
+    authors:
+        - Fleck, Ludwig
+    title: Gensis and Development of a Scientific Fact
+    type: book
+    year: 1935
+    urls:
+        Wikipedia: >
+            https://en.wikipedia.org/wiki/The_Structure_of_Scientific_Revolutions
+        Goodreads: >
+            https://www.goodreads.com/book/show/202695.Genesis_and_Development_of_a_Scientific_Fact
+    library:
+        Folder: >
+            book/1930/
+    adoc: |
+        * Published: 1935 (German, _Entstehung und Entwicklung einer wissenschaftlichen Tatsache_), 1979 (English)
+        * Reasons to read: philosophy of science, social process of science

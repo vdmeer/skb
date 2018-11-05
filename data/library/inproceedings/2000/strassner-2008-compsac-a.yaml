@@ -1,0 +1,14 @@
+inproceedings/2000/strassner-2008-compsac-a:
+    authors:
+        - Strassner, John C.
+        - van der Meer, Sven
+        - Zhang, Jing
+    title: Message from the MDDS 2008 Workshop Organizers
+    type: inproceedings
+    year: 2008
+    urls:
+        DOI: >
+            https://doi.org/10.1109/COMPSAC.2008.269
+    adoc: |
+        * Published: 2008 32nd Annual IEEE International Computer Software and Applications Conference
+          ** Workshop: MDDAS

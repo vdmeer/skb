@@ -1,0 +1,18 @@
+inproceedings/1980/twidle-1988-ftdcs:
+    authors:
+        - Twidle, K.
+        - Sloman, Morris
+    title: Domain based Configuration and Name Management for Distributed Systems
+    type: inproceedings
+    year: 19888
+    urls:
+        DOI: >
+            https://doi.org/10.1007/BF02283186
+        PDF: >
+            https://www.computer.org/csdl/proceedings/ftdcs/1988/0897/00/00026693.pdf
+    library:
+        PDF: >
+            inproceedings/1980/twidle-1988-ftdcs.pdf
+    adoc: |
+        * Reasons to read: early work on policy in network management
+        * Published: 1988 Proceedings. Workshop on the Future Trends of Distributed Computing Systems in the 1990s

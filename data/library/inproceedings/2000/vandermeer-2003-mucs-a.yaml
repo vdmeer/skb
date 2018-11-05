@@ -1,0 +1,21 @@
+inproceedings/2000/vandermeer-2003-mucs-a:
+    authors:
+        - van der Meer, Sven
+        - Jennings, Brendan
+        - Barrett, Keara
+        - Carroll, Ray
+    title: Design Principles for Smart Space Management
+    type: inproceedings
+    year: 2003
+    urls:
+        ResearchGate: >
+            https://www.researchgate.net/publication/228958479_Design_principles_for_smart_space_management
+    library:
+        PDF: >
+            inproceedings/2000/vandermeer-2003-mucs-a.pdf
+        DOC: >
+            inproceedings/2000/vandermeer-2003-mucs-a.doc
+        PPT: >
+            inproceedings/2000/vandermeer-2003-mucs-a.ppt
+    adoc: |
+        * Published: 1st International Workshop on Management of Ubiquitous Communications and Services (MUCS 2003), Waterford, Ireland, December 11, 2003

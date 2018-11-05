@@ -1,0 +1,12 @@
+talks/tutorial/2000/vandermeer-2000-proms:
+    presenters:
+        - van der Meer, Sven
+        - Arbanowski, Stefan
+    title: Flexible Media and Content Adaptation for Communication Systems
+    type: tutorial
+    year: 2000
+    library:
+        Folder: >
+            talks/tutorial/2000/
+    adoc: |
+        * Tutorial: 5^th^ IEEE Conference on Protocols for Multimedia Systems (PROMS 2000), Cracow, Poland, October 22-25, 2000

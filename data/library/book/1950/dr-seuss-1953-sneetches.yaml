@@ -1,0 +1,21 @@
+book/1950/dr-seuss-1953-sneetches:
+    authors:
+        - Geisel, Theodor Seuss
+    title: The Sneetches and Other Stories
+    type: book
+    year: 1953
+    urls:
+        Wikipedia: >
+            https://en.wikipedia.org/wiki/The_Sneetches_and_Other_Stories
+        Goodreads: >
+            https://www.goodreads.com/book/show/105549.The_Sneetches_and_Other_Stories?from_search=true
+        "Wikipedia: Too Many Dave's": >
+            https://en.wikipedia.org/wiki/The_Sneetches_and_Other_Stories#%22Too_Many_Daves%22
+        Poem: >
+            http://www.mit.edu/people/dpolicar/writing/poetry/poems/tooManyDaves.html
+        "Animation: youtube": >
+            https://www.youtube.com/watch?v=gCsQM0KNXhU
+    adoc: |
+        * also known as Dr. Seuss
+        * Publisher: Redbook (magazines), Random House (book)
+        * Reasons to read: Ms McCave "too many Daves" as metaphor for too many things with the same name

@@ -1,0 +1,21 @@
+proceedings/mucs/mucs-2012:
+    editors:
+        - Pfeifer, Tom
+        - Stiller, Burkhard
+        - O'Sullivan, Declan
+    title: Managing Ubiquitous Communications and Services
+    type: proceeding
+    year: 2012
+    urls:
+        DOI: >
+            https://doi.org/10.1109/PerComW.2012.6197671
+        Ernster: >
+            https://ernster.com/detail/ISBN-9783930736195//Managing-Ubiquitous-Communications-and-Services-2012
+        "Web: orig": >
+            http://vandermeer.de/library/proceedings/mucs/web/2012/index.php
+    adoc: |
+        * Workshop: 9^th^ IEEE International Workshop on Managing Ubiquitous Communications and Services (MUCS), Lugano, Switzerland, 19 March, 2012
+        * Host: IEEE PerCom 2012 Lugano, Switzerland, 2012 
+        * Published: multicon lecture notes 15
+        * Publisher: multicon verlag
+        * ISBN: 978-3-930736-19-5

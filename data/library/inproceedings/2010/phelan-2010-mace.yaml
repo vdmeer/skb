@@ -1,0 +1,23 @@
+inproceedings/2010/phelan-2010-mace:
+    authors:
+        - Phelan, Patrick
+        - Boudjemil, Zohra
+        - Ponce de Leon, Miguel
+        - van der Meer, Sven
+    title: An Introduction to Network Stack Design using Software Design Patterns
+    type: inproceedings
+    year: 2010
+    urls:
+        DOI: >
+            https://doi.org/10.1007/978-3-642-16836-9_8
+        ResearchGate: >
+            https://www.researchgate.net/publication/221326618_An_Introduction_to_Network_Stack_Design_Using_Software_Design_Patterns?_sg=m_5P2FtkKbfTZtQTiSEBj0UleJuOxovxvPuGgSvGqmUAA9ymv4NF49x83-RheT4AfNd3q8RsCAiHbYerVPZ6_s0UxnZ9KlbyQUSH-Cd0.nFt_QzpWL-Kmctv_kRHw9YwBJDWA8H8EQwmz9wiJ4wwx7lc23wU1v9BXla-hlzqrZW5f23h7P3mRUiomscLXVg
+    library:
+        PDF: >
+            inproceedings/2010/phelan-2010-mace.pdf
+        DOCX: >
+            inproceedings/2010/phelan-2010-mace.docx
+        PPTX: >
+            inproceedings/2010/phelan-2010-mace.pptx
+    adoc: |
+        * Published: IEEE International Workshop on Modelling Autonomic Communications Environments, MACE 2010

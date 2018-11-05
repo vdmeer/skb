@@ -1,0 +1,18 @@
+inbook/1700/goethe-1797-zauberlehrling:
+    authors:
+        - von Goethe, Johan Wolfgang
+    title: Der Zauberlehrling_ (_The Sorcerer's Apprentice_)
+    type: inbook
+    year: 1797
+    urls:
+        "Wikipedia: English": >
+            https://en.wikipedia.org/wiki/The_Sorcerer%27s_Apprentice
+        "Wikipedia: Deutsch with text": >
+            https://de.wikipedia.org/wiki/Der_Zauberlehrling
+        "Fantasia Cartoon": >
+            https://www.youtube.com/watch?v=Rrm8usaH0sM
+        "a translation": >
+            http://www.gygatext.ch/english_translations_zurich_sorcerers_apprentice.html
+    adoc: |
+        * Reasons to read: metaphor using "Die ich rief, die Geister werd ich nun nicht los." ("The spirits that I called", or "Spirits I have conjured, no longer pay me heed.")
+        * Published: Friedrich Schiller's Musen-Almanach, 1798

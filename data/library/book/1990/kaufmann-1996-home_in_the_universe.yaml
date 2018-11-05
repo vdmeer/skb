@@ -1,0 +1,12 @@
+book/1990/kaufmann-1996-home_in_the_universe:
+    authors:
+        - Kaufmann, Stuart
+    title: At Home in the Universe
+    type: book
+    year: 1996
+    urls:
+        Goodreads: >
+            https://www.goodreads.com/book/show/319006.At_Home_in_the_Universe
+    adoc: |
+        * Reasons to read: works out the math and science in detail and shows that life is virtually inevitable, Scientific American (popular science magazine) version of "The origins of order"
+        * Publisher: Oxford University Press, USA 

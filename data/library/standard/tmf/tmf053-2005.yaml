@@ -1,0 +1,11 @@
+standard/tmf/tmf053-2005:
+    editors:
+        - van der Meer, Sven
+    title: NGOSS Technological Neutral Architecture
+    type: standard
+    year: 2005
+    library:
+        Folder: >
+            standard/tmf/
+    adoc: |
+        * Published: TM Forum, NGOSS Release 6.0, TNA Release 6.0, Document Version 5.6, 2005

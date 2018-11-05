@@ -1,0 +1,15 @@
+report/technical/1960/baran-1964-distr_comm_nework:
+    authors:
+        - Baran, Paul
+    title: "On Distributed Communications: I. Introduction to a Distributed Communications Network"
+    type: report
+    year: 1964
+    urls:
+        PDF: >
+            https://www.rand.org/content/dam/rand/pubs/research_memoranda/2006/RM3420.pdf
+    library:
+        Folder: >
+            report/technical/1960
+    adoc: |
+        * Reasons to read: radical new approach to telecommunications, basis for packet-switched networks, including hot-potato routing of data blocks, parallel work to (Daies 72)
+        * Published: Rand Corporation, Memorandum RM-3420-PR, August 1964

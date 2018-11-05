@@ -1,0 +1,20 @@
+online/2010/dubberly-2015-cybernetics:
+    authors:
+        - Dubberly, Hugh
+        - Pangaro, Paul
+    title: How Cybernetics connects Computing, Counterculture, and Design
+    type: online
+    year: 2015
+    urls:
+        "Paper: html with pdf links": >
+            http://www.dubberly.com/articles/cybernetics-and-counterculture.html
+        "Interactive Graph": >
+            http://cybergraph.dubberly.com
+        "Article Text": >
+            http://staging.dubberly.com/cybernetics/article-inside-text
+    library:
+        PDF: >
+            online/2010/dubberly-2015-cybernetics.pdf
+    adoc: |
+        * Reasons to read: historyc context for cybernetics, interactive graph with links and link annotations
+        * Publisher: Hippie Modernism: The Struggle for Utopia, Exhibit Catalog,  October 2015

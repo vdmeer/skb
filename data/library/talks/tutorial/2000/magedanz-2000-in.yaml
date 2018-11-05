@@ -1,0 +1,11 @@
+talks/tutorial/2000/magedanz-2000-in:
+    presenters:
+        - Magedanz, Thomas
+    title: Intelligent Network Evolution
+    type: tutorial
+    year: 2000
+    library:
+        Folder: >
+            talks/tutorial/2000/
+    adoc: |
+        * Half-day Tutorial: 5^th^ IEEE Intelligent Network Workshop (IN 2000), Cape Town, South Africa, May 7-11, 2000

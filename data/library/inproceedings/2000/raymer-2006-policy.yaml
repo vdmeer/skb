@@ -1,0 +1,19 @@
+inproceedings/2000/raymer-2006-policy:
+    authors:
+        - Raymer, David
+        - Strassner, John C.
+        - Lehtihet, Elyes
+        - van der Meer, Sven
+    title: End-to-End Model Driven Policy Based Network Management
+    type: inproceedings
+    year: 2006
+    urls:
+        DOI: >
+            https://doi.org/10.1109/POLICY.2006.17
+        ResearchGate: >
+            https://www.researchgate.net/publication/4242368_End-to-End_Model_Driven_Policy_Based_Network_Management
+    library:
+        PDF: >
+            inproceedings/2000/raymer-2006-policy.pdf
+    adoc: |
+        * Published: Seventh IEEE International Workshop on Policies for Distributed Systems and Networks (POLICY'06)

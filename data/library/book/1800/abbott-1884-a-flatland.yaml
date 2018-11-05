@@ -1,0 +1,27 @@
+book/1800/abbott-1884-a-flatland:
+    authors:
+        - Abbott, Edwin A.
+    title: "Flatland: A Romance of Many Dimensions"
+    type: book
+    year: 1884
+    urls:
+        Wikipedia: >
+            https://en.wikipedia.org/wiki/Flatland
+        Goodreads: >
+            https://www.goodreads.com/book/show/433567.Flatland
+        "LaTeX by Ivesvdf": >
+            https://github.com/Ivesvdf/flatland
+        "Internet Archive": >
+            https://archive.org/details/flatlandromanceo00abbouoft
+        Gutenberg: >
+            http://www.gutenberg.org/ebooks/201
+        "a movie": >
+            http://www.flatlandthemovie.com
+        "The Film: youtube": >
+            https://www.youtube.com/watch?v=Mfglluny8Z0
+    library:
+        PDF: >
+            book/1800/abbott-1884-a-flatland.pdf
+    adoc: |
+        * Reasons to read: the world limited by dimensions, also a social critic
+        * Publisher: Seeley & Co. of London

@@ -1,0 +1,11 @@
+talks/invited-talk/2000/vandermeer-2008-acf-b:
+    presenters:
+        - van der Meer, Sven
+    title: Architectural Artefacts for Distributed Systems - Using Contracts as the Unit of Interoperability
+    type: invited-talk
+    year: 2008
+    library:
+        Folder: >
+            talks/invited-talk/2000/
+    adoc: |
+        * Invited Talk: Meeting of the Autonomic Communications Forum, Samos Island, Greece, September 24, 2008

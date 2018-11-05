@@ -1,0 +1,18 @@
+inproceedings/2000/strassner-2009-icumt:
+    authors:
+        - Strassner, John C.
+        - Hong, James Won-Ki
+        - van der Meer, Sven
+    title: The design of an Autonomic Element for managing emerging networks and services
+    type: inproceedings
+    year: 2009
+    urls:
+        DOI: >
+            https://doi.org/10.1109/ICUMT.2009.5345533
+        ResearchGate: >
+            ttps://www.researchgate.net/publication/221003980_The_design_of_an_Autonomic_Element_for_managing_emerging_networks_and_services
+    library:
+        PDF: >
+            inproceedings/2000/strassner-2009-icumt.pdf
+    adoc: |
+        * Published: 2009 International Conference on Ultra Modern Telecommunications & Workshops (ICUMT)

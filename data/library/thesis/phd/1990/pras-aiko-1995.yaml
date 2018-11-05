@@ -1,0 +1,11 @@
+thesis/phd/1990/pras-aiko-1995:
+    authors:
+        - Pras, Aiko
+    title: Network Management Architectures
+    type: thesis
+    year: 1995
+    library:
+        Folder: >
+            thesis/phd/1990/
+    adoc: |
+        * Thesis (PhD): University of Twente, Enschede, The Netherlands

@@ -1,0 +1,20 @@
+inproceedings/2010/grasa-2017-nfvsdn:
+    authors:
+        - Grasa, Eduard
+        - Ponce de Leon, Miguel
+        - van der Meer, Sven
+        - Lopez, Diego
+        - Tarzan, Miquel
+    title: Open Multi-Access Edge Computing and Distributed Mobility Management with RINA
+    type: inproceedings
+    year: 2017
+    urls:
+        DOI: >
+            https://doi.org/10.1109/NFV-SDN.2017.8169850
+        Zenodo: >
+            https://zenodo.org/record/1145668#.W2uJCsJrzCF
+    library:
+        PDF: >
+            inproceedings/2010/grasa-2017-nfvsdn.pdf
+    adoc: |
+        * Published: 2017 IEEE Conference on Network Function Virtualization and Software Defined Networks (NFV-SDN)

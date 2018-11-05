@@ -1,0 +1,17 @@
+talks/lecture-notes/2000/umts-tub-2001:
+    presenters:
+        - Arbanowski, Stefan
+        - Steglich, Stephan
+        - Magedanz, Thomas
+        - Hagen, Lars
+        - Bochow, Bernd
+        - Kuthan, Jiri
+        - Floroiu, John Williams
+    title: UMTS Akademie
+    type: lecture-note
+    year: 2001
+    library:
+        Folder: >
+            talks/lecture-notes/2000/
+    adoc: |
+        * Lecture: Sommersemester 2001 (SS01), Technical University Berlin

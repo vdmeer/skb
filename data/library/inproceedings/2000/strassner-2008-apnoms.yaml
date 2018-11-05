@@ -1,0 +1,17 @@
+inproceedings/2000/strassner-2008-apnoms:
+    authors:
+        - Strassner, John C.
+        - van der Meer, Sven
+        - Ó Foghlú, Mícheál
+        - Donnelly, Willie
+        - Serrat, Joan
+        - Agoulmine, Nazim
+    title: Review of Knowledge Engineering Requirements for Semantic Reasoning in Autonomic Networks
+    type: inproceedings
+    year: 2008
+    urls:
+        DOI: >
+            https://link.springer.com/chapter/10.1007/978-3-540-88623-5_15
+    adoc: |
+        * Published: Asia-Pacific Network Operations and Management Symposium, APNOMS 2008: Challenges for Next Generation Network Operations and Service Management pp 146-155
+        * Part of: Lecture Notes in Computer Science book series (LNCS, volume 5297)

@@ -1,0 +1,11 @@
+talks/lecture-notes/1990/arbanowski-1998-dia-tub:
+    presenters:
+        - Arbanowski, Stefan
+    title: Dienstplattformen und Intelligente Mobile Agenten
+    type: lecture-note
+    year: 1998
+    library:
+        Folder: >
+            talks/lecture-notes/1990/
+    adoc: |
+        * Lecture: Sommersemester 1998 (SS98), Technical University Berlin

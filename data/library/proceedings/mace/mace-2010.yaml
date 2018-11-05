@@ -1,0 +1,23 @@
+proceedings/mace/mace-2010:
+    editors:
+        - Brennan, Rob
+        - Fleck II, Joel
+        - van der Meer, Sven
+    title: Modelling Autonomic Communications Environments
+    type: proceeding
+    year: 2010
+    urls:
+        DOI: >
+            https://doi.org/10.1007/978-3-642-16836-9
+        "Web: orig": >
+            http://vandermeer.de/library/proceedings/mace/web/2010/mace.php
+        "Web: html": >
+            http://vandermeer.de/library/proceedings/mace/html/2010/mace.html
+    library:
+        Folder: >
+            proceedings/mace/
+    adoc: |
+        * Workshop: 5^th^ IEEE International Workshop on Modelling Autonomic Communications Environments (MACE), Niagara Falls, Canada, 28 October, 2010
+        * Published: part of the Lecture Notes in Computer Science book series (LNCS, volume 6473)
+        * Publisher: Springer
+        * ISBN: 978-3-642-16835-2

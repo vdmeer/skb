@@ -1,0 +1,12 @@
+thesis/master/1990/vandermeer-sven-1996:
+    authors:
+        - van der Meer, Sven
+    title: Dynamic Configuration Management of the Equipment in Distributed Communication Environments
+    type: thesis
+    year: 1996
+    library:
+        Folder: >
+            thesis/master/1990/
+    adoc: |
+        * Diplomarbeit (M.Sc. Thesis), Technical University Berlin (TUB), Berlin, Germany
+          ** Berlin, Germany, October 6, 1996

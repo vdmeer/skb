@@ -1,0 +1,21 @@
+inproceedings/2010/boudjemil-2010-uksim:
+    authors:
+        - Boudjemil, Zohra
+        - Phelan, Patrick
+        - Ponce de Leon, Miguel
+        - van der Meer, Sven
+    title: A Case Study for defining Interoperable Network Components using MDD
+    type: inproceedings
+    year: 2010
+    urls:
+        DOI: >
+            https://doi.org/10.1109/EMS.2010.69
+        ResearchGate: >
+            https://www.researchgate.net/publication/228947807_A_Case_Study_for_Defining_Interoperable_Network_Components_Using_MDD
+    library:
+        PDF: >
+            inproceedings/2010/boudjemil-2010-uksim.pdf
+        DOC: >
+            inproceedings/2010/boudjemil-2010-uksim.doc
+    adoc: |
+        * Published: 2010 Fourth UKSim European Symposium on Computer Modeling and Simulation

@@ -1,0 +1,30 @@
+inproceedings/2000/deussen-2007-mace:
+    authors:
+        - Deussen, Peter
+        - Bruyere, Benoit
+        - Fahy, Claire
+        - van der Meer, Sven
+        - Israel, Maurice
+        - Hoefig, Edzard
+        - Lewis, David
+        - O'Sullivan, Declan
+        - Greenwood, Dominic
+        - Bassi, Alessandro
+        - Saraydaryan, Jacques
+    title: A Discussion on Fundamental Approaches for the Engineering of Autonomic Systems
+    type: inproceedings
+    year: 2007
+    urls:
+        ResearchGate: >
+            https://www.researchgate.net/publication/228747362_A_Discussion_on_Fundamental_Approaches_for_the_Engineering_of_Autonomic_Systems
+    library:
+        PDF: >
+            inproceedings/2000/deussen-2007-mace.pdf
+        DOC: >
+            inproceedings/2000/deussen-2007-mace.doc
+        PPT: >
+            inproceedings/2000/deussen-2007-mace.ppt
+        "PPT: Figures": >
+            inproceedings/2000/deussen-2007-mace-figures.ppt
+    adoc: |
+        * Published: Second IEEE International Workshop on Modelling Autonomic Communications Environments, MACE 2007

@@ -1,0 +1,14 @@
+report/project/pristine/pristine-d51-2014:
+    editors:
+        - van der Meer, Sven
+    title: Draft Specification of common Elements of the Management Framework
+    type: report
+    year: 2014
+    urls:
+        Pristine: >
+            http://ict-pristine.eu/?page_id=37
+    library:
+        Folder: >
+            report/project/pristine
+    adoc: |
+        * Project Report: PRISTINE - Programmability In RINA for European supremacy of virTualised NEtworks - Deliverable D5.1, June 28, 2014

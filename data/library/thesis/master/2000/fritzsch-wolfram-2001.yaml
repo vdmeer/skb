@@ -1,0 +1,11 @@
+thesis/master/2000/fritzsch-wolfram-2001:
+    authors:
+        - Fritzsch, Wolfram
+    title: Integrated Management of Distributed Components
+    type: thesis
+    year: 2001
+    library:
+        Folder: >
+            thesis/master/2000/
+    adoc: |
+        * Diplomarbeit (M.Sc. Thesis), Technical University Berlin (TUB), Berlin, Germany

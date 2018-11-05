@@ -1,0 +1,11 @@
+thesis/master/2000/mbedi-elie-2000:
+    authors:
+        - Mbedi, Elie
+    title: A CORBA-based Approach to access distributed SQL-databases
+    type: thesis
+    year: 2000
+    library:
+        Folder: >
+            thesis/master/2000/
+    adoc: |
+        * Diplomarbeit (M.Sc. Thesis), Technical University Berlin (TUB), Berlin, Germany

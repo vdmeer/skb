@@ -1,0 +1,19 @@
+article/1960/dijkstra-1968-cacm:
+    authors:
+        - Dijkstra, Edsger W.
+    title: The Structure of the “THE” Multiprogramming System
+    type: article
+    year: 1968
+    urls:
+        DOI: >
+            https://doi.org/10.1145/363095.363143
+        PDF: >
+            http://www.cs.utexas.edu/users/EWD/ewd01xx/EWD196.PDF
+        Text: >
+            http://www.cs.utexas.edu/~EWD/transcriptions/EWD01xx/EWD196.html
+    library:
+        PDF: >
+            article/1960/dijkstra-1968-cacm.pdf
+    adoc: |
+        * Reasons to read: introduces concept of layers
+        * Published: Communications of the ACM CACM, Volume 11 Issue 5, May 1968, Pages 341-346 

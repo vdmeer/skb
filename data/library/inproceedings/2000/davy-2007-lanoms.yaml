@@ -1,0 +1,23 @@
+inproceedings/2000/davy-2007-lanoms:
+    authors:
+        - Davy, Steven
+        - Barrett, Keara
+        - Serrano, Jamie Martin
+        - Strassner, John
+        - Jennings, Brendan
+        - van der Meer, Sven
+    title: Policy Interactions and Management of Traffic Engineering Services Based on Ontologies
+    type: inproceedings
+    year: 2007
+    urls:
+        DOI: >
+            https://doi.org/10.1109/LANOMS.2007.4362464
+        ResearchGate: >
+            https://www.researchgate.net/publication/221430495_Policy_Interactions_and_Management_of_Traffic_Engineering_Services_Based_on_Ontologies
+    library:
+        PDF: >
+            inproceedings/2000/davy-2007-lanoms.pdf
+        DOC: >
+            inproceedings/2000/davy-2007-lanoms.doc
+    adoc: |
+        * Published: 2007 Latin American Network Operations and Management Symposium

@@ -1,0 +1,20 @@
+inproceedings/2000/schmutzler-2008-ehealth:
+    authors:
+        - Schmutzler, Jens
+        - Foley, Christopher
+        - Michaelis, Stefan
+        - van der Meer, Sven
+        - Wietfeld, Christian
+    title: Dynamic Group Management as an Enhancement to emergency Healthcare using Policies
+    type: inproceedings
+    year: 2008
+    urls:
+        DOI: >
+            https://doi.org/10.1109/HEALTH.2008.4600102
+        ResearchGate: >
+            https://www.researchgate.net/publication/4363190_Dynamic_group_management_as_an_enhancement_to_emergency_healthcare_using_policies
+    library:
+        PDF: >
+            inproceedings/2000/schmutzler-2008-ehealth.pdf
+    adoc: |
+        * Published: HealthCom 2008 - 10th International Conference on e-health Networking, Applications and Services

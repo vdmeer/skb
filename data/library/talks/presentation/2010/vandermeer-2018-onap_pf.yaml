@@ -1,0 +1,18 @@
+talks/presentation/2010/vandermeer-2018-onap_pf:
+    presenters:
+        - van der Meer, Sven
+    authors:
+        - van der Meer, Sven
+        - Fallon, Liam
+        - Keeney, John
+    title: Documentation in APEX
+    type: presentation
+    year: 2018
+    urls:
+        Event: >
+            https://wiki.onap.org/display/DW/8-01-2018+Policy+Bi-Weekly+Meeting
+    library:
+        Folder: >
+            talks/presentation/2010/
+    adoc: |
+        * Presentation: ONAP, Policy Framework Project, Bi-Weekly Meeting, August 1, 2018

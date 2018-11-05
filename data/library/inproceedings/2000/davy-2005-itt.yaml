@@ -1,0 +1,18 @@
+inproceedings/2000/davy-2005-itt:
+    authors:
+        - Davy, Steven
+        - Barrett, Keara
+        - Balasubramaniam, Sasitharan
+        - van der Meer, Sven
+        - Jennings, Brendan
+        - Strassner, John
+    title: Policy-Based Architectures to Enable Autonomic Communications
+    type: inproceedings
+    year: 2005
+    library:
+        PDF: >
+            inproceedings/2000/davy-2005-itt.pdf
+        Poster: >
+            inproceedings/2000/davy-2005-itt-poster.pdf
+    adoc: |
+        * Published: Information Technology & Telecommunications annual Conference Cork, IT&T 2005

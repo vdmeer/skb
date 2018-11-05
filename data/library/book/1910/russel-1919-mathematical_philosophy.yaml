@@ -1,0 +1,21 @@
+book/1910/russel-1919-mathematical_philosophy:
+    authors:
+        - Russel, Bertrant
+    title: Introduction to Mathematical Philosophy
+    type: book
+    year: 1919
+    urls:
+        Wikipedia: >
+            https://en.wikipedia.org/wiki/Introduction_to_Mathematical_Philosophy
+        Goodreads: >
+            https://www.goodreads.com/book/show/31886.Introduction_to_Mathematical_Philosophy?ac=1&from_search=true
+        "PDF: old typeset": >
+            https://archive.org/details/introductiontoma00russuoft
+        "Online at UMass": >
+            http://people.umass.edu/klement/russell-imp.html
+    library:
+        PDF: >
+            book/1910/russel-1919-mathematical_philosophy.pdf
+    adoc: |
+        * Reasons to read: introduction to mathematics and the more fundamental "Principia Mathematica"
+        * Publisher: George Allen & Unwin, Ltd, London

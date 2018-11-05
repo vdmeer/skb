@@ -1,0 +1,14 @@
+book/1970/lakatos-1976-proofs_and_refutations:
+    authors:
+        - Lakatos, Imre
+    title: Proofs and Refutations
+    type: book
+    year: 1976
+    urls:
+        Wikipedia: >
+            https://en.wikipedia.org/wiki/Proofs_and_Refutations
+        Goodreads: >
+            https://www.goodreads.com/book/show/434707.Proofs_and_Refutations?from_search=true
+    adoc: |
+        * Reasons to read: the way of thinking, “listen to the problem”
+        * Publisher: Cambridge University Press 

@@ -1,0 +1,25 @@
+inproceedings/2010/vandermeer-2018-noms-c:
+    authors:
+        - van der Meer, Sven
+        - Keeney, John
+        - Fallon, Liam
+        - McNamara, Joseph
+    title: "Demo: Adaptive Policy Execution (APEX)"
+    type: inproceedings
+    year: 2018
+    urls:
+        DOI: >
+            https://doi.org/10.1109/NOMS.2018.8406117
+        ResearchGate: >
+            https://www.researchgate.net/publication/325058016_Demo_Adaptive_Policy_Execution_APEX
+    library:
+        PDF: >
+            inproceedings/2010/vandermeer-2018-noms-c.pdf
+        7z: >
+            inproceedings/2010/vandermeer-2018-noms-c.7z
+        "PDF: poster ": >
+            inproceedings/2010/vandermeer-2018-noms-c-poster.pdf
+        "PPTX: poster": >
+            inproceedings/2010/vandermeer-2018-noms-c-poster.pptx
+    adoc: |
+        * Published: 2018 IEEE/IFIP Network Operations and Management Symposium, NOMS 2018

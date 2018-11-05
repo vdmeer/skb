@@ -1,0 +1,18 @@
+talks/presentation/2010/vandermeer-2018-rina:
+    presenters:
+        - van der Meer, Sven
+    title: DMS – Distributed (or DIF) Management System
+    type: presentation
+    year: 2018
+    urls:
+        Announcement: >
+            http://ict-arcfire.eu/index.php/2018/03/21/4th-international-rina-workshop-barcelona/
+        Event: >
+            http://ict-arcfire.eu/index.php/2018/06/10/rina-workshop-2018-report/
+        PDF: >
+            http://ict-arcfire.eu/wp-content/uploads/2018/06/2018-05-22-rina-dms.pdf
+    library:
+        Folder: >
+            talks/presentation/2010/
+    adoc: |
+        * Presentation: 5^th^ RINA Workshop, Barcelona, Spain, May 22, 2018

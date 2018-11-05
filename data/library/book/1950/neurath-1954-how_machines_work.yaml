@@ -1,0 +1,14 @@
+book/1950/neurath-1954-how_machines_work:
+    authors:
+        - Neurath, Marie
+    title: How Machines Work
+    type: book
+    year: 1954
+    urls:
+        "gallery with 3 pages": >
+            http://manchesterartgallery.org/blog/machines-which-seem-to-think
+        "all pages": >
+            http://www.fulltable.com/iso/mw.htm
+    adoc: |
+        * Reasons to read: the most simple, yet expressive, introduction on machines :)
+        * Publisher: Max Parrsih, London

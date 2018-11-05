@@ -1,0 +1,25 @@
+book/1950/ashby-1956-intro_cybernetics:
+    authors:
+        - Ashby, W. Ross
+    title: An Introduction to Cybernetics
+    type: book
+    year: 1956
+    urls:
+        Goodreads: >
+            https://www.goodreads.com/book/show/583911.An_Introduction_to_Cybernetics?ac=1&from_search=true
+        "pdf: original typeset": >
+            https://archive.org/details/introductiontocy00ashb
+        "pdf: new typeset": >
+            http://pespmc1.vub.ac.be/books/IntroCyb.pdf
+        "discussion on requisite variety": >
+            https://www.panarchy.org/ashby/variety.1956.html
+        WikiQoutes: >
+            https://en.wikiquote.org/wiki/W._Ross_Ashby
+    library:
+        "PDF: orig": >
+            book/1950/ashby-1956-intro_cybernetics.pdf
+        "PDF: new": >
+            book/1950/ashby-1956-intro_cybernetics-new.pdf
+    adoc: |
+        * Reasons to read: cybernetics into, Law of Requisite Variety
+        * Publisher: John Wiley & Sons

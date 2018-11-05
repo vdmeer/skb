@@ -1,0 +1,23 @@
+inproceedings/2010/dawar-2013-itt:
+    authors:
+        - Dawar, Sumit
+        - van der Meer, Sven
+        - Fallon, Enda
+        - Keeney, John
+        - Bennet, Tom
+    title: Building a Scalable Event Processing System with Messaging and Policies
+    titleaddon: Test and Evaluation of RabbitMQ and Drools Expert
+    type: inproceedings
+    year: 2013
+    urls:
+        ResearchGate: >
+            https://www.researchgate.net/publication/326905013_Building_a_Scalable_Event_Processing_System_with_Messaging_and_Policies-Test_and_Evaluation_of_RabbitMQ_and_Drools_Expert
+        "ITT 2013": >
+            http://ittconference.ie/index.php?page=12th-annual-conference---ait
+    library:
+        PDF: >
+            inproceedings/2010/dawar-2013-itt.pdf
+        DOC: >
+            inproceedings/2010/dawar-2013-itt.doc
+    adoc: |
+        * Published: 12th Annual IT&T ConferenceAt: Athlone, Ireland, 2013

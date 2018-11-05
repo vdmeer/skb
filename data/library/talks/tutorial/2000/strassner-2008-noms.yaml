@@ -1,0 +1,14 @@
+talks/tutorial/2000/strassner-2008-noms:
+    presenters:
+        - Strassner, John
+    title: "Autonomic Networking: Theory and Practice"
+    type: tutorial
+    year: 2008
+    urls:
+        Conference: >
+            http://noms2008.ieee-noms.org/
+    library:
+        Folder: >
+            talks/tutorial/2000/
+    adoc: |
+        * Tutorial: 2008 IEEE/IFIP Network Operations and Management Symposium (NOMS 2008), Salvador, Brazil, April 7-11, 2008

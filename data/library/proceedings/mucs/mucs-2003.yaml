@@ -1,0 +1,17 @@
+proceedings/mucs/mucs-2003:
+    editors:
+        - van der Meer, Sven
+        - Lewis, Dave
+        - Pesch, Dirk
+    title: Managing Ubiquitous Communications and Services
+    type: proceeding
+    year: 2003
+    library:
+        Folder: >
+            proceedings/mucs
+    adoc: |
+        * Workshop: 1^st^ International Workshop on Managing Ubiquitous Communications and Services (MUCS), Waterford, Ireland, 11 December, 2003
+          ** original name: 1^st^ Open M-Zones Workshop
+        * Host: Waterford Institute of Technology
+        * Published as: M-Zones deliverable D 234.2
+        * Publisher: Waterford Institute of Technology, Telecommunication Software & Systems Group

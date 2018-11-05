@@ -1,0 +1,20 @@
+report/project/arcfire/arcfire-d21-2016:
+    editors:
+        - Grasa, Eduard
+    authors:
+        - Grasa, Eduard
+        - Bergesio, Leonardo
+        - Tarzan, Miquel
+        - van der Meer, Sven
+        - Lopez, Diego
+    title: Converged Network operational Environment Analysis Report
+    type: report
+    year: 2016
+    urls:
+        Arcfire: >
+            http://ict-arcfire.eu/index.php/research/deliverables/
+    library:
+        Folder: >
+            report/project/arcfire
+    adoc: |
+        * Project Report: ARCFIRE - Large-scale RINA Experimentation on FIRE+ - Deliverable D2.1, August 29, 2016

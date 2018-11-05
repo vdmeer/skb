@@ -1,0 +1,17 @@
+inproceedings/1990/pfeifer-1998-africom:
+    authors:
+        - Pfeifer, Tom
+        - van der Meer, Sven
+    title: The Active Store providing Quality Enhanced Unified Messaging
+    type: inproceedings
+    year: 1998
+    urls:
+        ResearchGate: >
+            https://www.researchgate.net/publication/228580286_The_Active_Store_providing_Quality_Enhanced_Unified_Messaging
+    library:
+        PDF: >
+            inproceedings/1990/pfeifer-1998-africom.pdf
+        7z: >
+            inproceedings/1990/pfeifer-1998-africom.7z
+    adoc: |
+        * Published: 5^th^ IFIP TC-6 Conference on Computer Communications (AFRICOM-CCDC 1998), Tunis, Tunisia, October 20-22, 1998

@@ -1,0 +1,15 @@
+book/1600/newton-1687-regulae_philosophandi:
+    authors:
+        - Newton, Isaac
+    title: Regulae Philosophandi_ or _Philosophiæ Naturalis Principia Mathematica
+    type: book
+    year: 1687
+    urls:
+        Wikipedia: >
+            https://en.wikipedia.org/wiki/Philosophi%C3%A6_Naturalis_Principia_Mathematica
+        "Project Gutenberg: Latin": >
+            http://www.gutenberg.org/ebooks/28233
+        "English by Ian Bruce: online": >
+            http://www.17centurymaths.com/contents/newtoncontents.html
+    adoc: |
+        * Reasons to read: scientific principles only work within a given set of bounds, nature is essentially simple, similar effects must be assigned to the same cause

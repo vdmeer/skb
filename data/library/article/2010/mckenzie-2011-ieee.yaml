@@ -1,0 +1,19 @@
+article/2010/mckenzie-2011-ieee:
+    authors:
+        - McKenzie, Alex
+    title: "INWG and the Conception of the Internet: An Eyewitness Account"
+    type: article
+    year: 2011
+    urls:
+        DOI: >
+            https://doi.org/10.1109/MAHC.2011.9
+        Online: >
+            http://alexmckenzie.weebly.com/inwg-and-the-conception-of-the-internet-an-eyewitness-account.html
+        PDF: >
+            https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5723076
+    library:
+        PDF: >
+            article/2010/mckenzie-2011-ieee.pdf
+    adoc: |
+        * Reasons to read: INWG history
+        * Publisher: IEEE Annals of the History of Computing (Volume: 33, Issue: 1, Jan. 2011)

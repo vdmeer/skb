@@ -1,0 +1,11 @@
+report/project/amcns/amcns-2010:
+    authors:
+        - van der Meer, Sven
+    title: AMCNS Final Report
+    type: report
+    year: 2010
+    library:
+        Folder: >
+            report/project/amcns
+    adoc: |
+        * Project Report: AMCNS - Autonomic Management of Communication Networks and Servicess - Final Report, February 10, 2010

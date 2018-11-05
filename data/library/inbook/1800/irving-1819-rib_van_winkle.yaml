@@ -1,0 +1,15 @@
+inbook/1800/irving-1819-rib_van_winkle:
+    authors:
+        - Irving, Washington
+    title: Rip Van Winkle
+    type: inbook
+    year: 1819
+    urls:
+        Wikipedia: >
+            https://en.wikipedia.org/wiki/Rip_Van_Winkle
+        "Wikisource: full text": >
+            https://en.wikisource.org/wiki/The_Sketchbook_of_Geoffrey_Crayon/Rip_Van_Winkle
+    adoc: |
+        * Reasons to read: metaphor for long sleep and consequences
+        * Part of "The Sketch Book of Geoffrey Crayon, Gent"
+        * Publisher: Cornelius S. Van Winkle (book)

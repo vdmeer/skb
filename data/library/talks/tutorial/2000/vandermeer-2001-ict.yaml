@@ -1,0 +1,15 @@
+talks/tutorial/2000/vandermeer-2001-ict:
+    presenters:
+        - van der Meer, Sven
+    authors:
+        - van der Meer, Sven
+        - Steglich, Stephan
+        - Arbanowski, Stefan
+    title: I-centric Communications
+    type: tutorial
+    year: 2001
+    library:
+        Folder: >
+            talks/tutorial/2000/
+    adoc: |
+        * Tutorial: 8^th^ IEEE International Conference on Telecommunications (ICT 2001), Bucharest, Romania, June 4-7, 2001

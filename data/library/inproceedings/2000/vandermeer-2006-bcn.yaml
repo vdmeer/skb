@@ -1,0 +1,24 @@
+inproceedings/2000/vandermeer-2006-bcn:
+    authors:
+        - van der Meer, Sven
+        - Davy, Steven
+        - Davy, Alan
+        - Carroll, Ray
+        - Jennings, Brendan
+        - Strassner, John C.
+    title: "Autonomic Networking: Prototype Implementation of the Policy Continuum"
+    type: inproceedings
+    year: 2006
+    urls:
+        DOI: >
+            https://doi.org/10.1109/BCN.2006.1662287
+        ResearchGate: >
+            https://www.researchgate.net/publication/224642364_Autonomic_Networking_Prototype_Implementation_of_the_Policy_Continuum
+    library:
+        PDF: >
+            inproceedings/2000/vandermeer-2006-bcn.pdf
+        PPT: >
+            inproceedings/2000/vandermeer-2006-bcn.ppt
+    adoc: |
+        * Published: NOMS Workshops 2006 - IEEE Network Operations and Management Symposium Workshops
+          ** Workshop: 2006 1st IEEE International Workshop on Broadband Convergence Networks

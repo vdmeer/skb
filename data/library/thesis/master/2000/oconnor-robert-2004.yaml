@@ -1,0 +1,11 @@
+thesis/master/2000/oconnor-robert-2004:
+    authors:
+        - O'Connor, Robert
+    title: An Investigation into Management Functionality for Ubiquitous Computing Environments
+    type: thesis
+    year: 2004
+    library:
+        Folder: >
+            thesis/master/2000/
+    adoc: |
+        * Thesis (M.Sc.): Waterford Institute of Technology (WIT), Waterford, Ireland

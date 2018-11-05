@@ -1,0 +1,13 @@
+talks/tutorial/2000/fleck-2006-tmf-b:
+    presenters:
+        - Fleck II, Joel J.
+        - van der Meer, Sven
+    title: NGOSS Contracts (TMF053B)
+    titleaddon: LifeCycle and Fingerprint Specifications
+    type: tutorial
+    year: 2006
+    library:
+        Folder: >
+            talks/tutorial/2000/
+    adoc: |
+        * Tutorial: TM Forum LifeCycle & Methodology Team Meeting, Waterford, Ireland, March 21-24, 2006

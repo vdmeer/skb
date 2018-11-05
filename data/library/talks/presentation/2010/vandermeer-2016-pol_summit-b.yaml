@@ -1,0 +1,11 @@
+talks/presentation/2010/vandermeer-2016-pol_summit-b:
+    presenters:
+        - van der Meer, Sven
+    title: APEX Overview
+    type: presentation
+    year: 2016
+    library:
+        Folder: >
+            talks/presentation/2010/
+    adoc: |
+        * Presentation: 2016 Ericsson Policy Summit (Day 2), Kista, Sweden, May 10-11, 2016

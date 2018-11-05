@@ -1,0 +1,22 @@
+proceedings/mucs/mucs-2011:
+    editors:
+        - Stiller, Burkhard
+        - Brennan, Rob
+        - van der Meer, Sven
+        - Pfeifer, Tom
+    title: Managing Ubiquitous Communications and Services
+    type: proceeding
+    year: 2011
+    urls:
+        DOI: >
+            https://doi.org/10.1109/PERCOMW.2011.5766837
+        Ernster: >
+            https://ernster.com/detail/ISBN-9783930736164//Managing-Ubiquitous-Communications-and-Services-2011?CSPCHD=00000100000011f7El1v7C0000K$sX4oCbt1hGKVr6wR4gvQ--&bpmctrl=bpmrownr.2%3A1%7Cforeign.63574-57-1-79643%3A80325%3A76780
+        "Web: orig": >
+            http://vandermeer.de/library/proceedings/mucs/web/2011/index.php
+    adoc: |
+        * Workshop: 8^th^ IEEE International Workshop on Managing Ubiquitous Communications and Services (MUCS), Seattle Washington, USA, 21 March, 2011
+        * Host: IEEE PerCom 2011, March 21, 2011, Seattle, WA, USA 
+        * Published: multicon lecture notes 13
+        * Publisher: multicon verlag
+        * ISBN: 978-3-930736-16-4

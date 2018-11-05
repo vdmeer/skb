@@ -1,0 +1,14 @@
+book/1960/kuhn-1962-scientific_revolutions:
+    authors:
+        - Kuhn, Thomas
+    title: Structure of Scientific Revolutions
+    type: book
+    year: 1962
+    urls:
+        Wikipedia: >
+            https://en.wikipedia.org/wiki/The_Structure_of_Scientific_Revolutions
+        Goodreads: >
+            https://www.goodreads.com/book/show/61539.The_Structure_of_Scientific_Revolutions?from_search=true
+    adoc: |
+        * Reasons to read: philosophy of science
+        * Publisher: University of Chicago Press

@@ -1,0 +1,19 @@
+proceedings/mucs/mucs-2013:
+    editors:
+        - Pesch, Dirk
+        - Frank, Korbinian
+        - Farkas, Károly
+    title: Managing Ubiquitous Communications and Services
+    type: proceeding
+    year: 2013
+    urls:
+        DOI: >
+            https://doi.org/10.1109/PerComW.2013.6529421
+        Ernster: >
+            https://ernster.com/detail/ISBN-9783930736201//Managing-Ubiquitous-Communications-and-Services-2013?bpmctrl=bpmrownr.4%7Cforeign.74180-1-0-0
+    adoc: |
+        * Workshop: 10^th^ IEEE International Workshop on Managing Ubiquitous Communications and Services (MUCS), Lugano, Switzerland, 19 March, 2013
+        * Host: IEEE PerCom 2013
+        * Published: multicon lecture notes 16
+        * Publisher: multicon verlag
+        * ISBN: 978-3-930736-20-1

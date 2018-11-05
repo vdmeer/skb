@@ -1,0 +1,12 @@
+proceedings/mucs/mucs-2008:
+    editors:
+        - Wade, Vincent
+    title: Managing Ubiquitous Communications and Services
+    type: proceeding
+    year: 2008
+    urls:
+        "Web: orig": >
+            http://vandermeer.de/library/proceedings/mucs/web/2007/index.php
+    adoc: |
+        * Workshop: 5^th^ International Workshop on Managing Ubiquitous Communications and Services (MUCS), Salvador Bahia, Brazil, 11 April, 2008
+        * Host: IEEE NOMS 2008

@@ -1,0 +1,12 @@
+article/2010/vandermeer-2016-softwarization:
+    authors:
+        - van der Meer, Sven
+        - Grasa, Eduard
+    title: "SDN Architectural Limitations: Towards a Full Software Network Vision"
+    type: article
+    year: 2016
+    urls:
+        Article: >
+            https://sdn.ieee.org/newsletter/may-2016/sdn-architectural-limitations-towards-a-full-software-network-vision
+    adoc: |
+        * Published: IEEE Softwarization, May 2016

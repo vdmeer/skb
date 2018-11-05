@@ -1,0 +1,25 @@
+inproceedings/1980/saltzer-1982-lcn:
+    authors:
+        - Saltzer, Jerome H.
+    title: On the Naming and Binding of Network Destinations
+    type: inproceedings
+    year: 1982
+    urls:
+        "runoff manuscript": >
+            http://web.mit.edu/Saltzer/www/publications/florence.run
+        "PDF: slides": >
+            http://web.mit.edu/Saltzer/www/publications/florence_slides.pdf
+        "LNN draft": >
+            http://web.mit.edu/Saltzer/www/publications/lnn/csr-lnn-028.pdf
+        "DOI: RFC1498": >
+            https://dx.doi.org/10.17487/RFC1498
+    library:
+        "PDF: slides": >
+            inproceedings/1980/saltzer-1982-lcn-slides.pdf
+        "PDF: RFC": >
+            inproceedings/1980/saltzer-1982-lcn-rfc.pdf
+    adoc: |
+        * Reasons to read: further thoughts in name and name binding
+        * Published: FIP TC 6 International In-Depth Symposium on Local Networks, LCN, P. Ravasio (Eds.), pp 311-317, 1982
+        * Also published as IETF RFC 1498 (1983)
+        * Preprint from 1977, so some reference date it to 1977

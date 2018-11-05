@@ -1,0 +1,11 @@
+report/project/m-zones/m-zones-d23-2004:
+    authors:
+        - Lewis, Dave
+    title: WP2 Report
+    type: report
+    year: 2004
+    library:
+        Folder: >
+            report/project/m-zones
+    adoc: |
+        * Project Report: M-Zones - Managed Zones - Deliverable D2.3, September 14, 2004

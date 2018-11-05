@@ -1,0 +1,24 @@
+inproceedings/2000/strassner-2008-noms:
+    authors:
+        - Strassner, John C.
+        - Liu, Yan
+        - Jiang, Michael
+        - Zhang, Jing
+        - van der Meer, Sven
+        - Ó Foghlú, Mícheál
+        - Fahy, Claire
+        - Donnelly, Willie
+    title: Modelling Context for Autonomic Networking
+    type: inproceedings
+    year: 2008
+    urls:
+        DOI: >
+            https://doi.org/10.1109/NOMSW.2007.47
+        ResearchGate: >
+            https://www.researchgate.net/publication/4334351_Modelling_Context_for_Autonomic_Networking
+    library:
+        PDF: >
+            inproceedings/2000/strassner-2008-noms.pdf
+    adoc: |
+        * Published: NOMS Workshops 2008 - IEEE Network Operations and Management Symposium Workshops
+          ** Workshop: MUCS 2008

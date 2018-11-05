@@ -1,0 +1,13 @@
+inproceedings/2000/vandermeer-2006-motos3:
+    authors:
+        - van der Meer, Sven
+    title: Governing Mechanisms - What do we need to make Policy-based Management work?
+    type: inproceedings
+    year: 2006
+    library:
+        PDF: >
+            inproceedings/2000/vandermeer-2006-motos3.pdf
+        PPT: >
+            inproceedings/2000/vandermeer-2006-motos3.ppt
+    adoc: |
+        * Published: Motorola Symposium on Software, System and Simulation (S3 2006), Schaumburg, United States, September 11, 2006

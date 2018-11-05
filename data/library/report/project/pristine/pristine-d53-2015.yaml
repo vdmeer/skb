@@ -1,0 +1,22 @@
+report/project/pristine/pristine-d53-2015:
+    editors:
+        - Crotty, Micheal
+    authors:
+        - Crotty, Micheal
+        - Barron, Jason
+        - Gaston, Bernat
+        - Maffione, Vincenzo
+        - Angel Puente, Miguel
+        - Sune, Marc
+        - van der Meer, Sven
+    title: Proof of Concept of DIF Management System
+    type: report
+    year: 2015
+    urls:
+        Pristine: >
+            http://ict-pristine.eu/?page_id=37
+    library:
+        Folder: >
+            report/project/pristine
+    adoc: |
+        * Project Report: PRISTINE - Programmability In RINA for European supremacy of virTualised NEtworks - Deliverable D5.3, April 30, 2015

@@ -1,0 +1,23 @@
+inproceedings/2010/dawar-2013-monami:
+    authors:
+        - Dawar, , Sumit
+        - van der Meer, Sven
+        - Keeney, John
+        - Fallon, Enda
+        - Bennet, Tom
+    title: "Cloudifying Mobile Network Management: Performance Tests of Event Distribution and Rule Processing"
+    type: inproceedings
+    year: 2013
+    urls:
+        DOI: >
+            https://doi.org/10.1007/978-3-319-04277-0_8/
+        ResearchGate: >
+            https://www.researchgate.net/publication/259785930_Cloudifying_Mobile_Network_Management_Performance_Tests_of_Event_Distribution_and_Rule_Processing
+    library:
+        PDF: >
+            inproceedings/2010/dawar-2013-monami.pdf
+        PPT: >
+            inproceedings/2010/dawar-2013-monami.ppt
+    adoc: |
+        * Published: International Conference on Mobile Networks and Management, MONAMI 2013: Mobile Networks and Management, pp 94-107
+          ** Part of the Lecture Notes of the Institute for Computer Sciences, Social Informatics and Telecommunications Engineering book series (LNICST, volume 125)

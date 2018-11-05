@@ -1,0 +1,11 @@
+report/project/amcns/amcns-2009:
+    authors:
+        - van der Meer, Sven
+    title: AMCNS Annual Report Year 4
+    type: report
+    year: 2009
+    library:
+        Folder: >
+            report/project/amcns
+    adoc: |
+        * Project Report: AMCNS - Autonomic Management of Communication Networks and Servicess - Annual Report Y4, February, 2009

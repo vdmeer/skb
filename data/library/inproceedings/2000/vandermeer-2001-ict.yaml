@@ -1,0 +1,18 @@
+inproceedings/2000/vandermeer-2001-ict:
+    authors:
+        - van der Meer, Sven
+        - Steglich, Stephan
+        - Arbanowski, Stefan
+    title: User-centric Communications
+    type: inproceedings
+    year: 2001
+    urls:
+        ResearchGate: >
+            https://www.researchgate.net/profile/Sven_Van_der_Meer/publication/225172652_I-centric_Communications/links/5509e37c0cf26198a639d189/I-centric-Communications.pdf
+    library:
+        PDF: >
+            inproceedings/2000/vandermeer-2001-ict.pdf
+        DOC: >
+            inproceedings/2000/vandermeer-2001-ict.doc
+    adoc: |
+        * Published: 8th IEEE International Conference on Telecommunications (ICT 2001), special session, pp 425-444, Bucharest, Romania, June 4-7, 2001

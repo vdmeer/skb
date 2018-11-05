@@ -1,0 +1,18 @@
+book/1700/leibniz-1714-monadology:
+    authors:
+        - Leibniz, Gottfried
+    title: Monadology_ or _Lehrsätze über die Monadologie
+    type: book
+    year: 1714
+    urls:
+        Wikipedia: >
+            https://en.wikipedia.org/wiki/Monadology
+        Goodreads: >
+            https://www.goodreads.com/book/show/346074.Monadology?from_search=true
+        "English: by Robert Latta": >
+            http://home.datacomm.ch/kerguelen/monadology/
+        "German: Gutenberg Projekt": >
+            https://www.gutenberg.org/ebooks/39441
+    adoc: |
+        * Published: 1714 (French), 1720 (German)
+        * Reasons to read: the first (that we know of) and grandest attempt to conceive of the world as as a system, in particular as a system of "reflections" in which the state of every element recursively mirrors the state of the whole 

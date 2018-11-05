@@ -1,0 +1,18 @@
+collection/2000/calisti-2008-aanc:
+    authors:
+        - Calisti, Monique
+        - van der Meer, Sven
+        - Strassner, John C.
+    title: Advanced Autonomic Networking and Communication
+    type: collection
+    year: 2008
+    urls:
+        SpringerLink: >
+            https://link.springer.com/book/10.1007/978-3-7643-8569-9
+    library:
+        Folder: >
+            collection/2000/
+    adoc: |
+        * Reasons to read: several views on autonomic networking based on European projects and workshops
+        * Published: part of Whitestein Series in Software Agent Technologies and Autonomic Computing book series (WSSAT)
+        * Publisher: Birkhäuser, Basel

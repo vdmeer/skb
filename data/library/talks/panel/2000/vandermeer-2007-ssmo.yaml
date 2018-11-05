@@ -1,0 +1,17 @@
+talks/panel/2000/vandermeer-2007-ssmo:
+    chair: Ghamri-Doudane, Yacine
+    panelists:
+        - Ghamri-Doudane, Yacine
+        - Gasté, Yann
+        - van der Meer, Sven
+        - Strassner, John
+    title: Seamless Service Mobility Challenges and Solutions
+    type: panel
+    year: 2007
+    library:
+        Folder: >
+            talks/panel/2000/
+    adoc: |
+        * Panel: 2007 First International Global Information Infrastructure Symposium, GIIS, Marrakech, Morocco
+          ** in workshop: 1st Alcatel-Lucent/Université d'Evry/Telenor Seamless Service MObility (SSMO) Workshop, July 2, 2007
+        * My topic: _A Discussion on Policy-based Management using Context Mobility in Ad-Hoc Networking_

@@ -1,0 +1,11 @@
+thesis/master/2000/wepiwe-giscard-2002:
+    authors:
+        - Wépiwé, Giscard
+    title: Design and Implementation of a Routing Mechanism for a Wireless Ad Hoc Network
+    type: thesis
+    year: 2002
+    library:
+        Folder: >
+            thesis/master/2000/
+    adoc: |
+        * Diplomarbeit (M.Sc. Thesis), Technical University Berlin (TUB), Berlin, Germany

@@ -1,0 +1,11 @@
+report/project/ipcss/ipcss-1-1996:
+    editors:
+        - Pfeifer, Tom
+    title: State-of-the-Art analysis and preliminary iPCSS definition
+    type: report
+    year: 1996
+    library:
+        Folder: >
+            report/project/ipcss
+    adoc: |
+        * Project Report: iPCSS - intelligent Personal Communication System - Deliverable 1, 1996

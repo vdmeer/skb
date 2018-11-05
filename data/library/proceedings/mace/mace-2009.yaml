@@ -1,0 +1,22 @@
+proceedings/mace/mace-2009:
+    editors:
+        - Strassner, John C.
+        - Ghamri-Doudane, Yacine M.
+    title: Modelling Autonomic Communications Environments
+    type: proceeding
+    year: 2009
+    urls:
+        DOI: >
+            https://doi.org/10.1007/978-3-642-05006-0
+        "Web: orig": >
+            http://vandermeer.de/library/proceedings/mace/web/2009/mace.php
+        "Web: html": >
+            http://vandermeer.de/library/proceedings/mace/html/2009/mace.html
+    library:
+        Folder: >
+            proceedings/mace/
+    adoc: |
+        * Workshop: Fourth IEEE International Workshop on Modelling Autonomic Communications Environments (MACE), Venice, Italy, 26-27 October, 2009
+        * Published: part of the Lecture Notes in Computer Science book series (LNCS, volume 5844)
+        * Publisher: Springer
+        * ISBN: 978-3-642-05005-3

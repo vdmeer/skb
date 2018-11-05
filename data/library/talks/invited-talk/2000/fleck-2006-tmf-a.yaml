@@ -1,0 +1,12 @@
+talks/invited-talk/2000/fleck-2006-tmf-a:
+    presenters:
+        - Fleck II, Joel J.
+        - van der Meer, Sven
+    title: NGOSS Contracts (TMF053B) - Contract Architectural Specifications
+    type: invited-talk
+    year: 2006
+    library:
+        Folder: >
+            talks/invited-talk/2000/
+    adoc: |
+        * Invited Talk: Team Action Week America 2006, Boston, MA, United States, July 16-20, 2006

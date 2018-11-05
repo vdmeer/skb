@@ -1,0 +1,18 @@
+inproceedings/2000/jennings-2005-hpovua:
+    authors:
+        - Jennings, Brendan
+        - Malone, Paul
+        - van der Meer, Sven
+    title: A Two Phase Rating Process for Dynamically Composed Services
+    type: inproceedings
+    year: 2005
+    urls:
+        ResearchGate: >
+            https://www.researchgate.net/publication/228967313_A_Two_Phase_Rating_Process_for_Dynamically_Composed_Services
+    library:
+        PDF: >
+            inproceedings/2000/jennings-2005-hpovua.pdf
+        DOC: >
+            inproceedings/2000/jennings-2005-hpovua.doc
+    adoc: |
+        * Published: 12th Workshop of the HP OpenView University Association (HPOVUA2005)

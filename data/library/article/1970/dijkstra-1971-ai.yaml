@@ -1,0 +1,17 @@
+article/1970/dijkstra-1971-ai:
+    authors:
+        - Dijkstra, Edsger W.
+    title: Hierarchical ordering of sequential Processes
+    type: article
+    year: 1971
+    urls:
+        DOI: >
+            https://doi.org/10.1007/BF00289519
+        PDF: >
+            https://citemaster.net/get/a78f58ca-651b-11e2-a63c-00163e009cc7/EWD310.PDF
+    library:
+        PDF: >
+            article/1970/dijkstra-1971-ai.pdf
+    adoc: |
+        * Reasons to read: a more formal discussio on layers
+        * Published: Acta Informatica, June 1971, Volume 1, Issue 2, pp 115–138

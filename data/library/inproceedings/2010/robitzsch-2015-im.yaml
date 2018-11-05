@@ -1,0 +1,27 @@
+inproceedings/2010/robitzsch-2015-im:
+    authors:
+        - Robitzsch, Sebastian
+        - Zaman, Faisal
+        - Qu, Zhiguo
+        - Keeney, John
+        - van der Meer, Sven
+        - Muntean, Gabriel-Miro
+    title: "E-stream: Towards pattern centric network incident discovery and corrective action recommendation in telecommunication networks"
+    type: inproceedings
+    year: 2015
+    urls:
+        DOI: >
+            https://doi.org/10.1109/INM.2015.7140390
+        ResearchGate: >
+            https://www.researchgate.net/publication/277932043_E-Stream_Towards_Pattern_Centric_Network_Incident_Discovery_and_Corrective_Action_Recommendation_in_Telecommunication_Networks
+    library:
+        PDF: >
+            inproceedings/2010/robitzsch-2015-im.pdf
+        7z: >
+            inproceedings/2010/robitzsch-2015-im.7z
+        "PDF: poster": >
+            inproceedings/2010/robitzsch-2015-im-poster.pdf
+        "PPTX: poster": >
+            inproceedings/2010/robitzsch-2015-im-poster.pptx
+    adoc: |
+        * Published: 2015 IFIP/IEEE International Symposium on Integrated Network Management (IM)

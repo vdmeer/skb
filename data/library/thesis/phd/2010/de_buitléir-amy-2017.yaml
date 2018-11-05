@@ -1,0 +1,11 @@
+thesis/phd/2010/de_buitléir-amy-2017:
+    authors:
+        - de Buitléir, Amy
+    title: Data Mining Using Artificial Life with Popperian-level Intelligence
+    type: thesis
+    year: 2017
+    library:
+        Folder: >
+            thesis/phd/2010/
+    adoc: |
+        * Thesis (PhD): Athlone Institute of Technology (AIT), Athlone, Ireland

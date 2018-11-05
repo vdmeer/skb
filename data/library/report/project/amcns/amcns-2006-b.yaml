@@ -1,0 +1,17 @@
+report/project/amcns/amcns-2006-b:
+    authors:
+        - Donnelly, Willie
+        - Strassner, John
+        - van der Meer, Sven
+        - Jennings, Brendan
+        - Balasubramaniam, Sasitharan
+        - Botvich, Dmitri
+        - Ó Foghlú, Mícheál
+    title: AMCNS Integrated Site Visit Presentation
+    type: report
+    year: 2006
+    library:
+        Folder: >
+            report/project/amcns
+    adoc: |
+        * Project Report: AMCNS - Autonomic Management of Communication Networks and Servicess - Site Visit, November 16, 2006

@@ -1,0 +1,24 @@
+inproceedings/2010/mcnamara-2018-noms:
+    authors:
+        - McNamara, Joseph
+        - Keeney, John
+        - Fallon, Liam
+        - van der Meer, Sven
+        - Fallon, Enda
+    title: A Testbed For Policy Driven Closed Loop Network Management
+    type: inproceedings
+    year: 2018
+    urls:
+        DOI: >
+            https://doi.org/10.1109/NOMS.2018.8406144
+        ResearchGate: >
+            https://www.researchgate.net/publication/325059988_A_Testbed_For_Policy_Driven_Closed_Loop_Network_Management
+    library:
+        PDF: >
+            inproceedings/2010/mcnamara-2018-noms.pdf
+        ODP: >
+            inproceedings/2010/mcnamara-2018-noms.odp
+        7z: >
+            inproceedings/2010/mcnamara-2018-noms.7z
+    adoc: |
+        * Published: 2018 IEEE/IFIP Network Operations and Management Symposium, NOMS 2018

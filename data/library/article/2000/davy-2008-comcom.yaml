@@ -1,0 +1,19 @@
+article/2000/davy-2008-comcom:
+    authors:
+        - Davy, Steven
+        - Jennings, Brendan
+        - Strassner, John C.
+    title: The Policy Continuum – Policy Authoring and Conflict Analysis
+    type: article
+    year: 2008
+    urls:
+        DOI: >
+            https://doi.org/10.1016/j.comcom.2008.04.018
+        PDF: >
+            http://www.tssg.org/files/archives/2008_COMCOM_SDavy_et_al_site_formatted.pdf
+    library:
+        PDF: >
+            article/2000/davy-2008-comcom.pdf
+    adoc: |
+        * Reasons to read: a continuum for policies, multiple policy models
+        * Published: Computer Communications, Volume 31, Issue 13, 15 August 2008, Pages 2981-2995

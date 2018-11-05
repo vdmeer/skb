@@ -1,0 +1,24 @@
+inproceedings/1970/levin-1975-sosp:
+    authors:
+        - Levin, R.
+        - Cohen, E.
+        - Corwin, W.
+        - Pollack, F.
+        - Wulf, W.
+    title: Policy/Mechanism Separation in Hydra
+    type: inproceedings
+    year: 1975
+    urls:
+        DOI: >
+            https://doi.org/10.1145/1067629.806531
+        ResearchGate: >
+            https://www.researchgate.net/publication/234785923_Policymechanism_separation_in_Hydra
+        PDF: >
+            http://www.cse.psu.edu/~trj1/cse543-f12/docs/p132-levin-hydra.pdf
+    library:
+        PDF: >
+            inproceedings/1970/levin-1975-sosp.pdf
+    adoc: |
+        * Reasons to read: first principle of separation of mechanism and policy, policy is artifact of _control_ for mechanisms, separates kernel level decision making from user level decision declaration
+        * Published: SOSP '75 Proceedings of the fifth ACM Symposium on Operating Systems Principles, pages 132-140
+        * Also: ACM SIGOPS Operating Systems Review 9(5):132-140 · November 1975

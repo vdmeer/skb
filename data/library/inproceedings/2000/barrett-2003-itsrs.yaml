@@ -1,0 +1,16 @@
+inproceedings/2000/barrett-2003-itsrs:
+    authors:
+        - Barrett, Keara
+        - Carroll, Raymond
+        - van der Meer, Sven
+    title: Investigating the Applicability of Mobile IP and Cellular IP for Roaming in Smart Environments
+    type: inproceedings
+    year: 2003
+    urls:
+        ResearchGate: >
+            https://www.researchgate.net/publication/229012648_Investigating_the_Applicability_of_Mobile_IP_and_Cellular_IP_for_Roaming_in_Smart_Environments
+    library:
+        PDF: >
+            inproceedings/2000/barrett-2003-itsrs.pdf
+    adoc: |
+        * Published: IEI/IEE Irish Telecommunications Systems Research Symposium (ITSRS), May 2003

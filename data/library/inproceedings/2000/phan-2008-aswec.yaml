@@ -1,0 +1,21 @@
+inproceedings/2000/phan-2008-aswec:
+    authors:
+        - Phan, Tan
+        - Han, Jun
+        - Schneider, Jean-Guy
+        - Ebringer, Tim
+        - Rogers, Tony
+    title: A Survey of Policy-Based Management Approaches for Service Oriented Systems
+    type: inproceedings
+    year: 2008
+    urls:
+        DOI: >
+            https://doi.org/10.1109/ASWEC.2008.4483228
+        ResearchGate: >
+            https://www.researchgate.net/publication/4328268_A_Survey_of_Policy-Based_Management_Approaches_for_Service_Oriented_Systems
+    library:
+        PDF: >
+            library/inproceedings/2000/phan-2008-aswec.pdf
+    adoc: |
+        * Reasons to read: survey of policy-based management approaches
+        * Published: 19th Australian Conference on Software Engineering (aswec 2008)

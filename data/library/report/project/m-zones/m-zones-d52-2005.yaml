@@ -1,0 +1,23 @@
+report/project/m-zones/m-zones-d52-2005:
+    editors:
+        - van der Meer, Sven
+    authors:
+        - van der Meer, Sven
+        - Lewis, Dave
+        - Pesch, Dirk,
+        - Jennings, Brendan
+        - Ó Foghlú, Mícheál
+        - Delaney, Kieran
+        - Brickley, Olivia
+        - Lynch, Ciaran
+        - Pfeifer, Tom
+        - Mahon, Fiona
+        - Crotty, Mícheál
+    title: Evaluation and Dissemination Report
+    type: report
+    year: 2005
+    library:
+        Folder: >
+            report/project/m-zones
+    adoc: |
+        * Project Report: M-Zones - Managed Zones - Deliverable D5.2, November 1, 2005

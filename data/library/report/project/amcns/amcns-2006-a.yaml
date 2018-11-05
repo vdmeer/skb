@@ -1,0 +1,11 @@
+report/project/amcns/amcns-2006-a:
+    authors:
+        - van der Meer, Sven
+    title: AMCNS Annual Report Year 2
+    type: report
+    year: 2006
+    library:
+        Folder: >
+            report/project/amcns
+    adoc: |
+        * Project Report: AMCNS - Autonomic Management of Communication Networks and Servicess - Annual Report Y2, November 11, 2006

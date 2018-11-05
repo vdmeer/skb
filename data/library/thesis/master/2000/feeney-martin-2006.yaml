@@ -1,0 +1,11 @@
+thesis/master/2000/feeney-martin-2006:
+    authors:
+        - Feeney, Martin
+    title: Autonomic Management of Ubiquitous Computing Environments
+    type: thesis
+    year: 2006
+    library:
+        Folder: >
+            thesis/master/2000/
+    adoc: |
+        * Thesis (M.Sc.): Waterford Institute of Technology (WIT), Waterford, Ireland

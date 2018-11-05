@@ -1,0 +1,11 @@
+thesis/phd/2010/fallon-liam-2013:
+    authors:
+        - Fallon, Liam
+    title: Semantic-based Service Analysis and Optimization
+    type: thesis
+    year: 2013
+    library:
+        Folder: >
+            thesis/phd/2010/
+    adoc: |
+        * Thesis (PhD): Trinity College Dublin (TCD), Dublin, Ireland

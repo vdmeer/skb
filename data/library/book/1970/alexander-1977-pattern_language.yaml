@@ -1,0 +1,14 @@
+book/1970/alexander-1977-pattern_language:
+    authors:
+        - Alexander, Christopher
+    title: A Pattern Language
+    type: book
+    year: 1977
+    urls:
+        Wikipedia: >
+            https://en.wikipedia.org/wiki/A_Pattern_Language
+        Goodreads: >
+            https://www.goodreads.com/book/show/79766.A_Pattern_Language?ac=1&from_search=true
+    adoc: |
+        * Reasons to read: (most) influential book on patterns, laid foundation for software patterns
+        * Publisher: Oxford University Press

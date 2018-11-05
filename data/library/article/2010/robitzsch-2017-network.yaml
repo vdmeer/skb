@@ -1,0 +1,20 @@
+article/2010/robitzsch-2017-network:
+    authors:
+        - Robitzsch, Sebastian
+        - Zaman, Faisal
+        - van der Meer, Sven
+        - Keeney, John
+        - Muntean, Gabriel-Miro
+    title: "Magnet: Real-Time Trace Stream Analytics Framework for 5G Operations Support Systems"
+    type: article
+    year: 2017
+    urls:
+        DOI: >
+            https://doi.org/10.1109/MNET.2017.1500114
+        ResearchGate: >
+            https://www.researchgate.net/publication/320092243_Magnet_Real-Time_Trace_Stream_Analytics_Framework_for_5G_Operations_Support_Systems
+    library:
+        Folder: >
+            article/2010/
+    adoc: |
+        * Published: IEEE Network (Volume: 31, Issue: 5, 2017)

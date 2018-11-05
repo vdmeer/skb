@@ -1,0 +1,18 @@
+unpublished/1970/boyd-1976-poc:
+    authors:
+        - Boyd, John
+    title: Patterns of Conflict
+    type: unpublished
+    year: 1976
+    urls:
+        Wikipedia: >
+            https://en.wikipedia.org/wiki/Patterns_of_Conflict
+        "PDF: original": >
+            http://www.ausairpower.net/JRB/poc.pdf
+        "PDF: Edited": >
+            http://dnipogo.org/boyd/patterns_ppt.pdf
+    library:
+        Folder: >
+            unpublished/1970/
+    adoc: |
+        * Reasons to read: military use of OODA loop

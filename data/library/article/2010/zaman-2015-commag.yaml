@@ -1,0 +1,21 @@
+article/2010/zaman-2015-commag:
+    authors:
+        - Zaman, Faisal
+        - Hogan, Gabriel
+        - van der Meer, Sven
+        - Keeney, John
+        - Robitzsch, Sebastian
+        - Muntean, Gabriel-Miro
+    title: A Recommender System Architecture for Predictive Telecom Network Management
+    type: article
+    year: 2015
+    urls:
+        DOI: >
+            https://doi.org/10.1109/MCOM.2015.7010547
+        ResearchGate: >
+            https://www.researchgate.net/publication/273396086_A_Recommender_System_Architecture_for_Predictive_Telecom_Network_Management
+    library:
+        Folder: >
+            article/2010/
+    adoc: |
+        * Published: IEEE Communications Magazine (Volume: 53, Issue: 1, January 2015)

@@ -1,0 +1,14 @@
+book/2000/strassner-2004-pbm:
+    authors:
+        - Strassner, John C.
+    title: "Policy-based Network Management: Solutions for the Next Generation"
+    type: book
+    year: 2004
+    urls:
+        ScienceDirect: >
+            https://www.sciencedirect.com/science/book/9781558608597
+    library:
+        Folder: >
+            book/2000/
+    adoc: |
+        * Publisher: Morgan Kaufman

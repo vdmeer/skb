@@ -1,0 +1,21 @@
+inproceedings/1990/vandermeer-1999-huc:
+    authors:
+        - van der Meer, Sven
+        - Arbanowski, Stefan
+        - Popescu-Zeletin, Radu
+    title: A Platform for Environment-Aware Applications
+    type: inproceedings
+    year: 1999
+    urls:
+        DOI: >
+            https://doi.org/10.1007/3-540-48157-5_49
+        ResearchGate: >
+            https://www.researchgate.net/publication/221568670_A_Platform_for_Environment-Aware_Applications
+    library:
+        PDF: >
+            inproceedings/1990/vandermeer-1999-huc.pdf
+        7z: >
+            inproceedings/1990/vandermeer-1999-huc.7z
+    adoc: |
+        * Published: International Symposium on Handheld and Ubiquitous Computing, HUC 1999: Handheld and Ubiquitous Computing pp 368-370
+        * Part of: Lecture Notes in Computer Science book series (LNCS, volume 1707)

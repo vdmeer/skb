@@ -1,0 +1,18 @@
+article/2010/russell-2014-tc:
+    authors:
+        - Russell, Andrew L.
+        - Schafer, Valérie
+    title: "In the Shadow of the ARPANET and Internet: Louis Pouzin and the Cyclades Network in the 1970s"
+    type: article
+    year: 2014
+    urls:
+        DOI: >
+            https://doi.org/10.1353/tech.2014.0096
+        PDF: >
+            http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.692.1974&rep=rep1&type=pdf
+    library:
+        PDF: >
+            article/2010/russell-2014-tc.pdf
+    adoc: |
+        * Reasons to read: Pouzin and CYCLADES in the historic context of ARPANET and Internet
+        * Publisher: Technology and Culture, Johns Hopkins University Press, Volume 55, Number 4, October 2014

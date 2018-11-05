@@ -1,0 +1,11 @@
+talks/lecture-notes/1990/magedanz-1998-in-tub:
+    presenters:
+        - Magedanz, Thomas
+    title: Intelligent Networks - Basics, Standards & Evolution
+    type: lecture-note
+    year: 1998
+    library:
+        Folder: >
+            talks/lecture-notes/1990/
+    adoc: |
+        * Lecture: Sommersemester 1998 (SS98), Technical University Berlin

@@ -1,0 +1,12 @@
+talks/lecture-notes/1990/bb-tub-1998:
+    presenters:
+        - van der Meer, Sven
+        - Arbanowski, Stefan
+    title: Breitbandnetzwerktechnologien
+    type: lecture-note
+    year: 1998
+    library:
+        Folder: >
+            talks/lecture-notes/1990/
+    adoc: |
+        * Lecture: Sommersemester 1998 (SS98), Technical University Berlin

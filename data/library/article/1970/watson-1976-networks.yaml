@@ -1,0 +1,12 @@
+article/1970/watson-1976-networks:
+    authors:
+        - Watson, Richard W.
+    title: An Architecture for Support of Network Operating System Services
+    type: article
+    year: 1976
+    urls:
+        DOI: >
+            https://doi.org/10.1016/0376-5075(80)90027-6
+    adoc: |
+        * Reasons to read: ###tbd###
+        * Published: Computer Networks (1976), Volume 4, Issue 1, February 1980, Pages 33-49

@@ -1,0 +1,26 @@
+inproceedings/2000/barrett-2007-giis:
+    authors:
+        - Barrett, Keara
+        - Davy, Steven
+        - Strassner, John
+        - Jennings, Brendan
+        - van der Meer, Sven
+        - Donnelly, William
+    title: A Model Based Approach for Policy Tool Generation and Policy Analysis
+    type: inproceedings
+    year: 2007
+    urls:
+        DOI: >
+            https://doi.org/10.1109/GIIS.2007.4404174
+        ResearchGate: >
+            https://www.researchgate.net/publication/4299239_A_Model_Based_Approach_for_Policy_Tool_Generation_and_Policy_Analysis
+    library:
+        PDF: >
+            inproceedings/2000/barrett-2007-giis.pdf
+        DOC: >
+            inproceedings/2000/barrett-2007-giis.doc
+        PPT: >
+            inproceedings/2000/barrett-2007-giis.ppt
+    adoc: |
+        * Reasons to read: tool support for syntactic and semantic translation between models can be achieved
+        * Published: 2007 First International Global Information Infrastructure Symposium, GIIS

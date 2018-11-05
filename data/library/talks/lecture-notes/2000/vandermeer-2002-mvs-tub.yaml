@@ -1,0 +1,13 @@
+talks/lecture-notes/2000/vandermeer-2002-mvs-tub:
+    presenters:
+        - van der Meer, Sven
+    title: Management von verteilten Systemen
+    type: lecture-note
+    year: 2002
+    library:
+        Folder: >
+            talks/lecture-notes/2000/
+        PDF: >
+            talks/lecture-notes/2000/vandermeer-2002-mvs-tub.pdf
+    adoc: |
+        * Lecture: Sommersemester 2002 (SS02). Technical University Berlin

@@ -1,0 +1,11 @@
+report/project/fame/fame-y2-2011:
+    authors:
+        - van der Meer, Sven
+    title: "FAME: Annual Report Year 2"
+    type: report
+    year: 2011
+    library:
+        Folder: >
+            report/project/fame
+    adoc: |
+        * Project Report: FAME - Federated, Autonomic Management of End-to-End Services - Annual Report Y2, February 18, 2011

@@ -1,0 +1,26 @@
+report/project/pristine/pristine-d52-2014:
+    editors:
+        - van der Meer, Sven
+    authors:
+        - van der Meer, Sven
+        - Grasa, Eduard
+        - Gaston, Bernat
+        - Salvestrini, Francesco
+        - Crotty, Micheal
+        - Barron, Jason
+        - Sune, Marc
+        - Alvarez, Victor
+        - Haines, Sarah
+        - Angel Puente, Miguel
+        - Riggio, Roberto
+    title: Specification of the common Elements of the Management Framework
+    type: report
+    year: 2014
+    urls:
+        Pristine: >
+            http://ict-pristine.eu/?page_id=37
+    library:
+        Folder: >
+            report/project/pristine
+    adoc: |
+        * Project Report: PRISTINE - Programmability In RINA for European supremacy of virTualised NEtworks - Deliverable D5.2, December 30, 2014

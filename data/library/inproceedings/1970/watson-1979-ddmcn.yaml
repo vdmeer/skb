@@ -1,0 +1,14 @@
+inproceedings/1970/watson-1979-ddmcn:
+    authors:
+        - Watson, Richard W.
+        - Fletcher, John G.
+    title: An Architecture for Support of Network Operating System Services
+    type: inproceedings
+    year: 1979
+    urls:
+        OSTI: >
+            https://www.osti.gov/biblio/6043599
+        Online: >
+            https://books.google.ie/books?hl=en&lr=&id=c7I-AAAAIAAJ&oi=fnd&pg=PA18&dq=Architecture+for+support+of+network+operating+system+services&ots=2MILdsHqgq&sig=YkAjnYKU2PEjZs_dGNolFScUjRs&redir_esc=y#v=onepage&q=Architecture%20for%20support%20of%20network%20operating%20system%20services&f=false
+    adoc: |
+        * Published: Conference: 4. Berkeley workshop on distributed data management and computer networks, Berkeley, CA, USA, 28 Aug 1979

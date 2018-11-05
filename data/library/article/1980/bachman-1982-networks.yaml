@@ -1,0 +1,13 @@
+article/1980/bachman-1982-networks:
+    authors:
+        - Bachman, Charles W.
+        - Ross, Ronald G.
+    title: Toward a more Complete Reference Model of Computer-based Information Systems
+    type: article
+    year: 1982
+    urls:
+        DOI: >
+            https://doi.org/10.1016/0376-5075(82)90103-9
+    adoc: |
+        * Reasons to read: original contribtution of what became then the OSI Reference Model / 7 Layer Model
+        * Published: Computer Networks, Volume 6, Issue 5, November 1982, Pages 331-343

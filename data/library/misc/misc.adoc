@@ -13,6 +13,6 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{skb-data-home}/library/misc/mckenzie-archive.adoc[]
+|include::{library-home}/misc/mckenzie-archive.adoc[]
 |===
 

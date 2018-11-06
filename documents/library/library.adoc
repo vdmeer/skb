@@ -1,0 +1,83 @@
+//
+// ============LICENSE_START=======================================================
+//  Copyright (C) 2018 Sven van der Meer. All rights reserved.
+// ================================================================================
+// This file is licensed under the CREATIVE COMMONS ATTRIBUTION 4.0 INTERNATIONAL LICENSE
+// Full license text at https://creativecommons.org/licenses/by/4.0/legalcode
+// 
+// SPDX-License-Identifier: CC-BY-4.0
+// ============LICENSE_END=========================================================
+//
+// @author Sven van der Meer (vdmeer.sven@mykolab.com)
+//
+
+= SKB Research Library
+Sven van_der_Meer
+
+:description: My research libray
+:keywords: SKB, library, references
+
+:pygments-linenums-mode: table
+:toc:
+:toclevels: 4
+:icons: font
+
+
+== Articles
+include::{library-home}/article/article.adoc[leveloffset=+1]
+
+
+== Books
+include::{library-home}/book/book.adoc[leveloffset=+1]
+
+
+== Collections
+include::{library-home}/collection/collection.adoc[leveloffset=+1]
+
+
+== in Book
+include::{library-home}/inbook/inbook.adoc[leveloffset=+1]
+
+
+== in Proceedings
+include::{library-home}/inproceedings/inproceedings.adoc[leveloffset=+1]
+
+
+== Miscellaneous
+include::{library-home}/misc/misc.adoc[leveloffset=+1]
+
+
+== Movies
+include::{library-home}/movie/movie.adoc[leveloffset=+1]
+
+
+== Online
+include::{library-home}/online/online.adoc[leveloffset=+1]
+
+
+== Patent
+include::{library-home}/patent/patent.adoc[leveloffset=+1]
+
+
+== Proceedings
+include::{library-home}/proceedings/proceedings.adoc[leveloffset=+1]
+
+
+== Reports
+include::{library-home}/report/report.adoc[leveloffset=+1]
+
+
+== Standards
+include::{library-home}/standard/standard.adoc[leveloffset=+1]
+
+
+== Talks
+include::{library-home}/talks/talks.adoc[leveloffset=+1]
+
+
+== Thesis
+include::{library-home}/thesis/thesis.adoc[leveloffset=+1]
+
+
+== Unpublished
+include::{library-home}/unpublished/unpublished.adoc[leveloffset=+1]

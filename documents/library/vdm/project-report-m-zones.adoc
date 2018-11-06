@@ -1,0 +1,29 @@
+//
+// ============LICENSE_START=======================================================
+//  Copyright (C) 2018 Sven van der Meer. All rights reserved.
+// ================================================================================
+// This file is licensed under the CREATIVE COMMONS ATTRIBUTION 4.0 INTERNATIONAL LICENSE
+// Full license text at https://creativecommons.org/licenses/by/4.0/legalcode
+// 
+// SPDX-License-Identifier: CC-BY-4.0
+// ============LICENSE_END=========================================================
+//
+// @author Sven van der Meer (vdmeer.sven@mykolab.com)
+//
+
+=== HEA M-Zones
+
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::{library-home}/report/project/m-zones/m-zones-d00-2003.adoc[]
+|include::{library-home}/report/project/m-zones/m-zones-d11-2003.adoc[]
+|include::{library-home}/report/project/m-zones/m-zones-d234-1-2003.adoc[]
+|include::{library-home}/report/project/m-zones/m-zones-d234-2-2003.adoc[]
+|include::{library-home}/report/project/m-zones/m-zones-d01-2004.adoc[]
+|include::{library-home}/report/project/m-zones/m-zones-d33-2004.adoc[]
+|include::{library-home}/report/project/m-zones/m-zones-d234-4-2004.adoc[]
+|include::{library-home}/report/project/m-zones/m-zones-d51-2005.adoc[]
+|include::{library-home}/report/project/m-zones/m-zones-d52-2005.adoc[]
+|===
+
+

@@ -12,5 +12,5 @@
 //
 
 == 2013
-include::{skb-data-home}/library/patent/2010/_entries.adoc[]
+include::{library-home}/patent/2010/_entries.adoc[]
 

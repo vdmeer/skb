@@ -1,0 +1,28 @@
+//
+// ============LICENSE_START=======================================================
+//  Copyright (C) 2018 Sven van der Meer. All rights reserved.
+// ================================================================================
+// This file is licensed under the CREATIVE COMMONS ATTRIBUTION 4.0 INTERNATIONAL LICENSE
+// Full license text at https://creativecommons.org/licenses/by/4.0/legalcode
+// 
+// SPDX-License-Identifier: CC-BY-4.0
+// ============LICENSE_END=========================================================
+//
+// @author Sven van der Meer (vdmeer.sven@mykolab.com)
+//
+
+=== 2009
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::{library-home}/inproceedings/2000/serrano-2009-atc.adoc[]
+|include::{library-home}/inproceedings/2000/strassner-2009-icumt.adoc[]
+|include::{library-home}/inproceedings/2000/strassner-2009-mace.adoc[]
+|include::{library-home}/inproceedings/2000/vandermeer-2009-ease-a.adoc[]
+|include::{library-home}/inproceedings/2000/vandermeer-2009-ease-b.adoc[]
+|include::{library-home}/inproceedings/2000/strassner-2009-echallenges.adoc[]
+|include::{library-home}/inproceedings/2000/strassner-2009-icufn.adoc[]
+|include::{library-home}/inproceedings/2000/strassner-2009-icfn.adoc[]
+|include::{library-home}/inproceedings/2000/jennings-2009-im.adoc[]
+|===
+
+

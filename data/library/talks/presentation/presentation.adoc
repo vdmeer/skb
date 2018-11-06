@@ -12,9 +12,9 @@
 //
 
 === 2000
-include::{skb-data-home}/library/talks/presentation/2000/_entries.adoc[]
+include::{library-home}/talks/presentation/2000/_entries.adoc[]
 
 === 2010
-include::{skb-data-home}/library/talks/presentation/2010/_entries.adoc[]
+include::{library-home}/talks/presentation/2010/_entries.adoc[]
 
 

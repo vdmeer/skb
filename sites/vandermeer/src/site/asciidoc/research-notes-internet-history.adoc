@@ -1,3 +1,3 @@
 == Research Notes - Internet History
 
-include::{skb-data-home}/library/research-notes/topic-internet-history.adoc[leveloffset=+1]
+include::{library-home}/research-notes/topic-internet-history.adoc[leveloffset=+1]

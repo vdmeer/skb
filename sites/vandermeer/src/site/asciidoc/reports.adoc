@@ -15,20 +15,20 @@ link:#h2020_arcfire[ARCFIRE]
 
 === Project Reports
 
-include::{skb-data-home}/library/vdm/project-report-ipcss.adoc[leveloffset=+1]
+include::{library-home}/vdm/project-report-ipcss.adoc[leveloffset=+1]
 
-include::{skb-data-home}/library/vdm/project-report-albatross.adoc[leveloffset=+1]
+include::{library-home}/vdm/project-report-albatross.adoc[leveloffset=+1]
 
-include::{skb-data-home}/library/vdm/project-report-m-zones.adoc[leveloffset=+1]
+include::{library-home}/vdm/project-report-m-zones.adoc[leveloffset=+1]
 
-include::{skb-data-home}/library/vdm/project-report-p1855.adoc[leveloffset=+1]
+include::{library-home}/vdm/project-report-p1855.adoc[leveloffset=+1]
 
-include::{skb-data-home}/library/vdm/project-report-amcns.adoc[leveloffset=+1]
+include::{library-home}/vdm/project-report-amcns.adoc[leveloffset=+1]
 
-include::{skb-data-home}/library/vdm/project-report-fame.adoc[leveloffset=+1]
+include::{library-home}/vdm/project-report-fame.adoc[leveloffset=+1]
 
-include::{skb-data-home}/library/vdm/project-report-pristine.adoc[leveloffset=+1]
+include::{library-home}/vdm/project-report-pristine.adoc[leveloffset=+1]
 
-include::{skb-data-home}/library/vdm/project-report-arcfire.adoc[leveloffset=+1]
+include::{library-home}/vdm/project-report-arcfire.adoc[leveloffset=+1]
 
 

@@ -12,8 +12,8 @@
 //
 
 == Technical Report
-include::{skb-data-home}/library/report/technical/technical.adoc[]
+include::{library-home}/report/technical/technical.adoc[]
 
 == Project Report
-include::{skb-data-home}/library/report/project/project.adoc[]
+include::{library-home}/report/project/project.adoc[]
 

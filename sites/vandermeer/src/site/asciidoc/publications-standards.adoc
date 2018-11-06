@@ -1,4 +1,4 @@
 :title: Standards / SDO
 
-include::{skb-data-home}/library/vdm/standards.adoc[]
+include::{library-home}/vdm/standards.adoc[]
 

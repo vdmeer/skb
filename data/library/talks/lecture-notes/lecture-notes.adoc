@@ -12,8 +12,8 @@
 //
 
 === 1990
-include::{skb-data-home}/library/talks/lecture-notes/1990/_entries.adoc[]
+include::{library-home}/talks/lecture-notes/1990/_entries.adoc[]
 
 === 2000
-include::{skb-data-home}/library/talks/lecture-notes/2000/_entries.adoc[]
+include::{library-home}/talks/lecture-notes/2000/_entries.adoc[]
 

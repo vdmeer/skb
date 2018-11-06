@@ -12,8 +12,8 @@
 //
 
 == 1970
-include::{skb-data-home}/library/movie/1970/_entries.adoc[]
+include::{library-home}/movie/1970/_entries.adoc[]
 
 == 1990
-include::{skb-data-home}/library/movie/1990/_entries.adoc[]
+include::{library-home}/movie/1990/_entries.adoc[]
 

@@ -12,17 +12,17 @@
 //
 
 == 1700
-include::{skb-data-home}/library/inbook/1700/_entries.adoc[]
+include::{library-home}/inbook/1700/_entries.adoc[]
 
 == 1800
-include::{skb-data-home}/library/inbook/1800/_entries.adoc[]
+include::{library-home}/inbook/1800/_entries.adoc[]
 
 == 1970
-include::{skb-data-home}/library/inbook/1970/_entries.adoc[]
+include::{library-home}/inbook/1970/_entries.adoc[]
 
 == 2000
-include::{skb-data-home}/library/inbook/2000/_entries.adoc[]
+include::{library-home}/inbook/2000/_entries.adoc[]
 
 == 2010
-include::{skb-data-home}/library/inbook/2010/_entries.adoc[]
+include::{library-home}/inbook/2010/_entries.adoc[]
 

@@ -12,5 +12,5 @@
 //
 
 === 2010
-include::{skb-data-home}/library/talks/keynote/2010/_entries.adoc[]
+include::{library-home}/talks/keynote/2010/_entries.adoc[]
 

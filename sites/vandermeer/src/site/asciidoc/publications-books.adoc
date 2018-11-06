@@ -7,12 +7,12 @@ link:#collection[Collection] ┃
 link:#proceedings[Proceedings] ┃
 link:#in_book[in Book]
 
-include::{skb-data-home}/library/vdm/thesis.adoc[leveloffset=+1]
+include::{library-home}/vdm/thesis.adoc[leveloffset=+1]
 
-include::{skb-data-home}/library/vdm/collection.adoc[leveloffset=+1]
+include::{library-home}/vdm/collection.adoc[leveloffset=+1]
 
-include::{skb-data-home}/library/vdm/proceedings.adoc[leveloffset=+1]
+include::{library-home}/vdm/proceedings.adoc[leveloffset=+1]
 
-include::{skb-data-home}/library/vdm/in-book.adoc[leveloffset=+1]
+include::{library-home}/vdm/in-book.adoc[leveloffset=+1]
 
 

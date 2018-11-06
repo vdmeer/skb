@@ -12,21 +12,21 @@
 //
 
 == Keynotes
-include::{skb-data-home}/library/talks/keynote/keynote.adoc[]
+include::{library-home}/talks/keynote/keynote.adoc[]
 
 == Invited Talks
-include::{skb-data-home}/library/talks/invited-talk/invited-talk.adoc[]
+include::{library-home}/talks/invited-talk/invited-talk.adoc[]
 
 == Panel
-include::{skb-data-home}/library/talks/panel/panel.adoc[]
+include::{library-home}/talks/panel/panel.adoc[]
 
 == Tutorial
-include::{skb-data-home}/library/talks/tutorial/tutorial.adoc[]
+include::{library-home}/talks/tutorial/tutorial.adoc[]
 
 == Lecture Notes
-include::{skb-data-home}/library/talks/lecture-notes/lecture-notes.adoc[]
+include::{library-home}/talks/lecture-notes/lecture-notes.adoc[]
 
 == Presentations
-include::{skb-data-home}/library/talks/presentation/presentation.adoc[]
+include::{library-home}/talks/presentation/presentation.adoc[]
 
 

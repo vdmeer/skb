@@ -6,8 +6,5 @@ report/project/m-zones/m-zones-d234-1-2003:
     title: Consolidated D 2.1, D3.1 & D 4.1
     type: report
     year: 2003
-    library:
-        Folder: >
-            report/project/m-zones
     adoc: |
         * Project Report: M-Zones - Managed Zones - Consolidated Deliverable D 2.1, D3.1 & D 4.1, September, 2003

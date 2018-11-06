@@ -4,8 +4,5 @@ report/project/ipcss/ipcss-2-1997:
     title: Early Implementations of Predefined Converter Chains and Service Gateways
     type: report
     year: 1997
-    library:
-        Folder: >
-            report/project/ipcss
     adoc: |
         * Project Report: iPCSS - intelligent Personal Communication System - Deliverable 2, 1997

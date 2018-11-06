@@ -9,8 +9,5 @@ talks/keynote/2010/vandermeer-2018-noms:
             http://noms2018.ieee-noms.org/content/keynotes
         ResearchGate: >
             https://www.researchgate.net/publication/325057988_What_do_we_actually_manage_in_5G_And_what_is_missing
-    library:
-        Folder: >
-            talks/keynote/2010/
     adoc: |
         * Keynote: 2018 IEEE/IFIP Network Operations and Management Symposium (NOMS 2018), Taipei, Taiwan, April 23-27, 2018

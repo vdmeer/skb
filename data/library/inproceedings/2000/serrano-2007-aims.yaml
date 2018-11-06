@@ -12,9 +12,6 @@ inproceedings/2000/serrano-2007-aims:
             https://doi.org/10.1007/978-3-540-72986-0_4
         ResearchGate: >
             https://www.researchgate.net/publication/221632266_Ontology-Based_Management_for_Context_Integration_in_Pervasive_Services_Operations
-    library:
-        PDF: >
-            inproceedings/2000/serrano-2007-aims.pdf
     adoc: |
         * Published: IFIP International Conference on Autonomous Infrastructure, Management and Security, AIMS 2007: Inter-Domain Management pp 35-48
         * Part of: Lecture Notes in Computer Science book series (LNCS, volume 4543)

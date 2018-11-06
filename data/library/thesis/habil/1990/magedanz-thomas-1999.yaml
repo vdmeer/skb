@@ -4,8 +4,5 @@ thesis/habil/1990/magedanz-thomas-1999:
     title: Intelligent Network Evolution
     type: thesis
     year: 1999
-    library:
-        Folder: >
-            thesis/habil/1990/
     adoc: |
         * Thesis (habil): Habilitationsschrift, Technical University Berlin (TUB), Berlin, Germany

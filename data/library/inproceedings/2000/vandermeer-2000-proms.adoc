@@ -5,11 +5,6 @@
 * Links:
       link:https://www.researchgate.net/publication/268337857_Flexible_Media_and_Content_Adaptation_for_Communication_Systems[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/vandermeer-2000-proms.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/vandermeer-2000-proms.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2000/vandermeer-2000-proms.pdf[PDF],
-        link:inproceedings/2000/vandermeer-2000-proms.ppt[PPT]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/vandermeer-2000-proms.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/vandermeer-2000-proms.adoc[adoc]
 

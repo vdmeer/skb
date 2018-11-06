@@ -9,9 +9,6 @@ collection/2000/calisti-2008-aanc:
     urls:
         SpringerLink: >
             https://link.springer.com/book/10.1007/978-3-7643-8569-9
-    library:
-        Folder: >
-            collection/2000/
     adoc: |
         * Reasons to read: several views on autonomic networking based on European projects and workshops
         * Published: part of Whitestein Series in Software Agent Technologies and Autonomic Computing book series (WSSAT)

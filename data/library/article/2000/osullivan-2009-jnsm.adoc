@@ -6,10 +6,6 @@
       link:https://doi.org/10.1007/s10922-009-9131-7[DOI],
       link:https://www.researchgate.net/publication/220575828_A_Snapshot_of_Ontological_Approaches_for_Network_and_Service_Management[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/2000/osullivan-2009-jnsm.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/2000/osullivan-2009-jnsm.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:article/2000/osullivan-2009-jnsm.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/article/2000/osullivan-2009-jnsm.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/article/2000/osullivan-2009-jnsm.adoc[adoc]
 

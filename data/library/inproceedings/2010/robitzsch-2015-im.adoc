@@ -6,13 +6,6 @@
       link:https://doi.org/10.1109/INM.2015.7140390[DOI],
       link:https://www.researchgate.net/publication/277932043_E-Stream_Towards_Pattern_Centric_Network_Incident_Discovery_and_Corrective_Action_Recommendation_in_Telecommunication_Networks[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/robitzsch-2015-im.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/robitzsch-2015-im.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2010/robitzsch-2015-im.pdf[PDF],
-        link:inproceedings/2010/robitzsch-2015-im.7z[7z],
-        link:inproceedings/2010/robitzsch-2015-im-poster.pdf[PDF: poster],
-        link:inproceedings/2010/robitzsch-2015-im-poster.pptx[PPTX: poster]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/robitzsch-2015-im.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/robitzsch-2015-im.adoc[adoc]
 

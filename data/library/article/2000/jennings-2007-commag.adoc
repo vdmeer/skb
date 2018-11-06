@@ -5,10 +5,6 @@
 * Links:
       link:https://doi.org/10.1109/MCOM.2007.4342833[DOI]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/2000/jennings-2007-commag.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/2000/jennings-2007-commag.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:article/2000/[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/article/2000/jennings-2007-commag.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/article/2000/jennings-2007-commag.adoc[adoc]
 

@@ -6,11 +6,6 @@
       link:https://doi.org/10.1109/EMS.2010.69[DOI],
       link:https://www.researchgate.net/publication/228947807_A_Case_Study_for_Defining_Interoperable_Network_Components_Using_MDD[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/boudjemil-2010-uksim.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/boudjemil-2010-uksim.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2010/boudjemil-2010-uksim.pdf[PDF],
-        link:inproceedings/2010/boudjemil-2010-uksim.doc[DOC]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/boudjemil-2010-uksim.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/boudjemil-2010-uksim.adoc[adoc]
 

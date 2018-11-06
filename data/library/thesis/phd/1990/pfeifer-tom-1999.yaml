@@ -4,8 +4,5 @@ thesis/phd/1990/pfeifer-tom-1999:
     title: Automatic Conversion of Communication Media
     type: thesis
     year: 1999
-    library:
-        Folder: >
-            thesis/phd/1990/
     adoc: |
         * Doktorarbeit (PhD Thesis): Technical University Berlin (TUB), Berlin, Germany

@@ -11,9 +11,6 @@ article/2000/yagüe-2006-jias:
             https://www.researchgate.net/publication/257380833_Survey_on_XML-Based_Policy_Languages_for_Open_Environments
         PDF: >
             https://www.researchgate.net/profile/Mariemma_Valle/publication/257380833_Survey_on_XML-Based_Policy_Languages_for_Open_Environments/links/0c960529464ce28a3e000000/Survey-on-XML-Based-Policy-Languages-for-Open-Environments.pdf
-    library:
-        PDF: >
-            article/2000/yagüe-2006-jias.pdf
     adoc: |
         * Reasons to read: early work on policy in network management
         * Published: Journal of Information Assurance and Security 1 (2006) 11-20

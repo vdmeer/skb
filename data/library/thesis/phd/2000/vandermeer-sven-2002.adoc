@@ -9,10 +9,6 @@
       link:https://pdfs.semanticscholar.org/958d/0e59b8cd8d298afd7265d2a9eba2f841b2cf.pdf[PDF: Semantic Scholar],
       link:https://ernster.com/detail/ISBN-9783930736027/Meer-Sven-van-der/Middleware-and-Application-Management-Architecture?bpmctrl=bpmrownr.5%7Cforeign.74180-1-0-0[Ernster]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/thesis/phd/2000/vandermeer-sven-2002.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/thesis/phd/2000/vandermeer-sven-2002.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/thesis/phd/2000/[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/thesis/phd/2000/vandermeer-sven-2002.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/thesis/phd/2000/vandermeer-sven-2002.adoc[adoc]
 

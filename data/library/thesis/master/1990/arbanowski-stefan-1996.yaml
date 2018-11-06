@@ -4,8 +4,5 @@ thesis/master/1990/arbanowski-stefan-1996:
     title: Generic Description of Telecommunication Services and Dynamic Resource Selection in Intelligent Communication Environments
     type: thesis
     year: 1996
-    library:
-        Folder: >
-            thesis/master/1990/
     adoc: |
         * Diplomarbeit (M.Sc. Thesis), Technical University Berlin (TUB), Berlin, Germany

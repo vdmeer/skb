@@ -4,8 +4,5 @@ report/project/fame/fame-y1-2009:
     title: "FAME: Annual Report Year 1"
     type: report
     year: 2009
-    library:
-        Folder: >
-            report/project/fame
     adoc: |
         * Project Report: FAME - Federated, Autonomic Management of End-to-End Services - Annual Report Y1, February 24, 2009

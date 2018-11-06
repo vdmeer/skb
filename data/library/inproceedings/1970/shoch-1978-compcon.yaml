@@ -7,9 +7,6 @@ inproceedings/1970/shoch-1978-compcon:
     urls:
         "IEN19: txt": >
             https://www.ietf.org/rfc/ien/ien19.txt
-    library:
-        TXT: >
-            inproceedings/1970/shoch-1978-compcon.txt
     adoc: |
         * Reasons to read: names, addresses, routing
         * Published: Compcon Fall 78 (17th : 1978 : Washington, D.C.), September 5-8, Washington DC, pp. 72-79

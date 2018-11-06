@@ -6,10 +6,6 @@
       link:https://doi.org/10.1109/ICFN.2009.61[DOI],
       link:https://www.researchgate.net/publication/228617454_Autonomic_Orchestration_of_Future_Networks_to_Realize_Prosumer_Services[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/strassner-2009-icfn.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/strassner-2009-icfn.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2000/strassner-2009-icfn.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/strassner-2009-icfn.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/strassner-2009-icfn.adoc[adoc]
 

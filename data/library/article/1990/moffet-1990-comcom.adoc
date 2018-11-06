@@ -7,10 +7,6 @@
       link:https://doi.org/10.1016/0140-3664(90)90008-5[DOI],
       link:https://s3.amazonaws.com/academia.edu.documents/30736613/10.1.1.41.6306.pdf?AWSAccessKeyId=AKIAIWOWYYGZ2Y53UL3A&Expires=1533210926&Signature=iw01kOQ6Q0RPnOXfgeRMVsiq2gc%3D&response-content-disposition=inline%3B%20filename%3DSpecifying_discretionary_access_control.pdf[PDF]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/1990/moffet-1990-comcom.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/1990/moffet-1990-comcom.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:article/1990/moffet-1990-comcom.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/article/1990/moffet-1990-comcom.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/article/1990/moffet-1990-comcom.adoc[adoc]
 

@@ -11,6 +11,6 @@
       link:http://www.mit.edu/people/dpolicar/writing/poetry/poems/tooManyDaves.html[Poem],
       link:https://www.youtube.com/watch?v=gCsQM0KNXhU[Animation: youtube]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/book/1950/dr-seuss-1953-sneetches.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/book/1950/dr-seuss-1953-sneetches.adoc[adoc]
+        https://github.com/vdmeer/skb/tree/master/data/library/book/1950/dr-seuss-1953-sneetches.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/book/1950/dr-seuss-1953-sneetches.adoc[adoc]
 

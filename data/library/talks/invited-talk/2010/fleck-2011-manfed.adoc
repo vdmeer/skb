@@ -5,10 +5,6 @@ _Interactive Session providing Demonstrations of Tools and Prototypes for modeli
   ** tools and demo session
 * Links:
       skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/talks/keynote/2010/fleck-2011-manfed.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/talks/keynote/2010/fleck-2011-manfed.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/talks/keynote/2010/[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/talks/invited-talk/2010/fleck-2011-manfed.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/talks/invited-talk/2010/fleck-2011-manfed.adoc[adoc]
 

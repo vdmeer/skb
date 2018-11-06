@@ -6,6 +6,6 @@
 * Links:
       link:https://doi.org/10.1016/0376-5075(80)90027-6[DOI]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/1970/watson-1976-networks.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/1970/watson-1976-networks.adoc[adoc]
+        https://github.com/vdmeer/skb/tree/master/data/library/article/1970/watson-1976-networks.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/article/1970/watson-1976-networks.adoc[adoc]
 

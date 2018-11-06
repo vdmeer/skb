@@ -1,4 +1,4 @@
-*Vincent Wade* (ed): _Managing Ubiquitous Communications and Services_, 200
+*Vincent Wade* (ed): _Managing Ubiquitous Communications and Services_, 2008
 
 * Editor: Vincent Wade
 * Workshop: 5^th^ International Workshop on Managing Ubiquitous Communications and Services (MUCS), Salvador Bahia, Brazil, 11 April, 2008
@@ -6,6 +6,6 @@
 * Links:
       link:http://vandermeer.de/library/proceedings/mucs/web/2007/index.php[Web: orig]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/proceedings/mucs/mucs-2008.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/proceedings/mucs/mucs-2008.adoc[adoc]
+        https://github.com/vdmeer/skb/tree/master/data/library/proceedings/mucs/mucs-2008.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/proceedings/mucs/mucs-2008.adoc[adoc]
 

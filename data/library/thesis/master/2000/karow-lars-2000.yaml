@@ -4,8 +4,5 @@ thesis/master/2000/karow-lars-2000:
     title: Internet Weather Report - the users perspective
     type: thesis
     year: 2000
-    library:
-        Folder: >
-            thesis/master/2000/
     adoc: |
         * Diplomarbeit (M.Sc. Thesis), Technical University Berlin (TUB), Berlin, Germany

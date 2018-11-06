@@ -3,12 +3,9 @@ talks/lecture-notes/1990/carle-1997-ip-tub:
         - Carle, Georg
         - Smirnow, Michael
         - Wolisz, Adam
-    title: Internet: Technology, Protocols and Services
+    title: "Internet: Technology, Protocols and Services"
     type: lecture-note
     year: 1997
-    library:
-        Folder: >
-            talks/lecture-notes/1990/
     adoc: |
         * Lecture: Wintersemester 1997/98 (WS97/98), Technical University Berlin
           ** based on lecture WS 1995/96 by Henning Schulzrinne

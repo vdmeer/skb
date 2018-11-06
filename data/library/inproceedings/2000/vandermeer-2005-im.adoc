@@ -6,10 +6,6 @@
       link:http://im2005.ieee-im.org/confprog.html[Conference],
       link:https://www.scss.tcd.ie/Dave.Lewis/files/05c.pdf[PDF: TCD]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/vandermeer-2005-im.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/vandermeer-2005-im.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2000/vandermeer-2005-im.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/vandermeer-2005-im.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/vandermeer-2005-im.adoc[adoc]
 

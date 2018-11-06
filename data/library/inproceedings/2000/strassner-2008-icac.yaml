@@ -17,10 +17,5 @@ inproceedings/2000/strassner-2008-icac:
             https://doi.org/10.1109/ICAC.2008.36
         ResearchGate: >
             https://www.researchgate.net/publication/4348557_The_Design_of_a_New_Context-Aware_Policy_Model_for_Autonomic_Networking
-    library:
-        PDF: >
-            inproceedings/2000/strassner-2008-icac.pdf
-        DOC: >
-            inproceedings/2000/strassner-2008-icac.doc
     adoc: |
         * Published: 2008 International Conference on Autonomic Computing (ICAC)

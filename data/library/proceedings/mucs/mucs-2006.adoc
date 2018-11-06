@@ -8,6 +8,6 @@
 * Links:
       link:http://vandermeer.de/library/proceedings/mucs/web/2007/index.php[Web: orig]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/proceedings/mucs/mucs-2006.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/proceedings/mucs/mucs-2006.adoc[adoc]
+        https://github.com/vdmeer/skb/tree/master/data/library/proceedings/mucs/mucs-2006.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/proceedings/mucs/mucs-2006.adoc[adoc]
 

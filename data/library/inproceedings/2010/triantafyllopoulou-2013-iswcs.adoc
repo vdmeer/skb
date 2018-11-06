@@ -7,10 +7,6 @@
       link:https://ieeexplore.ieee.org/abstract/document/6629708[eXplore],
       link:http://epubs.surrey.ac.uk/809300/[Surrey]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/triantafyllopoulou-2013-iswcs.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/triantafyllopoulou-2013-iswcs.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2010/triantafyllopoulou-2013-iswcs.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/triantafyllopoulou-2013-iswcs.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/triantafyllopoulou-2013-iswcs.adoc[adoc]
 

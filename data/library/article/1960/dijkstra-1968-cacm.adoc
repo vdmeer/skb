@@ -8,10 +8,6 @@
       link:http://www.cs.utexas.edu/users/EWD/ewd01xx/EWD196.PDF[PDF],
       link:http://www.cs.utexas.edu/~EWD/transcriptions/EWD01xx/EWD196.html[Text]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/1960/dijkstra-1968-cacm.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/1960/dijkstra-1968-cacm.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:article/1960/dijkstra-1968-cacm.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/article/1960/dijkstra-1968-cacm.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/article/1960/dijkstra-1968-cacm.adoc[adoc]
 

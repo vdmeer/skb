@@ -6,12 +6,6 @@
       link:https://doi.org/10.1109/CCNC.2006.1593092[DOI],
       link:https://www.researchgate.net/publication/4220395_Policy-based_architecture_to_enable_autonomic_communications_-_A_position_paper[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/davy-2006-ccnc.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/davy-2006-ccnc.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2000/davy-2006-ccnc.pdf[PDF],
-        link:inproceedings/2000/davy-2006-ccnc.doc[DOC],
-        link:inproceedings/2000/davy-2006-ccnc.ppt[PPT]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/davy-2006-ccnc.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/davy-2006-ccnc.adoc[adoc]
 

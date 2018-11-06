@@ -15,10 +15,6 @@
       link:https://doi.org/10.1145/44203.44208[DOI],
       link:https://www.researchgate.net/publication/234790486_The_HiPAC_project_Combining_Active_Databases_and_Timing_Constraints[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/1980/dayal-1988-sigmod.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/1980/dayal-1988-sigmod.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:article/1980/dayal-1988-sigmod.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/article/1980/dayal-1988-sigmod.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/article/1980/dayal-1988-sigmod.adoc[adoc]
 

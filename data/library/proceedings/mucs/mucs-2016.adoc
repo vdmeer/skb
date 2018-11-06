@@ -8,10 +8,6 @@
       link:https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7457031[PDF],
       link:https://ernster.com/detail/ISBN-9783930736232//Managing-Ubiquitous-Communications-and-Services-2016?bpmctrl=bpmrownr.1%7Cforeign.74180-1-0-0[Ernster]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/proceedings/mucs/mucs-2016.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/proceedings/mucs/mucs-2016.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/proceedings/mucs/mucs-2016.txt[TXT: CFP]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/proceedings/mucs/mucs-2016.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/proceedings/mucs/mucs-2016.adoc[adoc]
 

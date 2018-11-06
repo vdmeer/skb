@@ -8,6 +8,6 @@
       link:https://en.wikipedia.org/wiki/The_Timeless_Way_of_Building[Wikipedia],
       link:https://www.goodreads.com/book/show/106728.The_Timeless_Way_of_Building?from_search=true[Goodreads]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/book/1970/alexander-1979-timeless.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/book/1970/alexander-1979-timeless.adoc[adoc]
+        https://github.com/vdmeer/skb/tree/master/data/library/book/1970/alexander-1979-timeless.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/book/1970/alexander-1979-timeless.adoc[adoc]
 

@@ -4,8 +4,5 @@ talks/invited-talk/2000/vandermeer-2009-hp_virtual:
     title: SFI SRC FAME - Overview and Scenarios
     type: invited-talk
     year: 2009
-    library:
-        Folder: >
-            talks/invited-talk/2000/
     adoc: |
         * Invited Talk: HP Virtual Workshop, April 27, 2009

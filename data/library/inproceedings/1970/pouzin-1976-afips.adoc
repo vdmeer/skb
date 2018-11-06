@@ -8,10 +8,6 @@
       link:https://doi.org/10.1145/1499799.1499870[DOI],
       link:https://www.computer.org/csdl/proceedings/afips/1976/5084/00/50840483.pdf[PDF: computer.org]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1970/pouzin-1976-afips.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1970/pouzin-1976-afips.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/inproceedings/1970/pouzin-1976-afips.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1970/pouzin-1976-afips.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1970/pouzin-1976-afips.adoc[adoc]
 

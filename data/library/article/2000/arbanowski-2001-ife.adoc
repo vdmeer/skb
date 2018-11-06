@@ -5,6 +5,6 @@
 * Links:
       link:https://doi.org/10.1007/s004500100087[DOI]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/2000/arbanowski-2001-ife.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/2000/arbanowski-2001-ife.adoc[adoc]
+        https://github.com/vdmeer/skb/tree/master/data/library/article/2000/arbanowski-2001-ife.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/article/2000/arbanowski-2001-ife.adoc[adoc]
 

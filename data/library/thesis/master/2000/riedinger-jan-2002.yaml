@@ -4,8 +4,5 @@ thesis/master/2000/riedinger-jan-2002:
     title: Design of a Generic Media Gateway for IP Telephony
     type: thesis
     year: 2002
-    library:
-        Folder: >
-            thesis/master/2000/
     adoc: |
         * Diplomarbeit (M.Sc. Thesis), Technical University Berlin (TUB), Berlin, Germany

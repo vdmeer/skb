@@ -4,8 +4,5 @@ talks/presentation/2000/vandermeer-2007-tssg_rm:
     title: Publications - A rough Introduction to the Publication Process
     type: presentation
     year: 2007
-    library:
-        Folder: >
-            talks/presentation/2000/
     adoc: |
         * Presentation: TSSG Research Modules, Waterford, Ireland, February 7, 2007

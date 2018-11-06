@@ -6,8 +6,5 @@ talks/invited-talk/2000/fleck-2006-tmf-b:
     title: NGOSS Contract Fingerprints - A Tool for Identifying and Facilitating Re-Use of NGOSS Contracts
     type: invited-talk
     year: 2006
-    library:
-        Folder: >
-            talks/invited-talk/2000/
     adoc: |
         * Invited Talk: TeleManagement World Americas 2006, Dallas, TX, United States, December 4-7, 2006

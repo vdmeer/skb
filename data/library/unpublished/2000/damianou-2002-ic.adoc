@@ -8,10 +8,6 @@
       link:https://www.doc.ic.ac.uk/~mss/Papers/PolicySurvey.pdf[PDF: IC],
       link:https://www.researchgate.net/profile/Emil_Lupu/publication/2536722_A_Survey_of_Policy_Specification_Approaches/links/00b4952b026ee23f7d000000.pdf[PDF: ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/unpublished/2000/damianou-2002-ic.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/unpublished/2000/damianou-2002-ic.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/unpublished/2000/[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/unpublished/2000/damianou-2002-ic.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/unpublished/2000/damianou-2002-ic.adoc[adoc]
 

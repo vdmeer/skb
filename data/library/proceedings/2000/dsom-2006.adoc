@@ -8,11 +8,6 @@
 * Links:
       link:https://doi.org/10.1007/11907466[DOI]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/proceedings/2000/dsom-2006.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/proceedings/2000/dsom-2006.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/proceedings/2000/dsom-2006.doc[DOC: CFP],
-        link:library/proceedings/2000/dsom-2006-flyer-noms.pdf[PDF: NOMS Flyer]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/proceedings/2000/dsom-2006.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/proceedings/2000/dsom-2006.adoc[adoc]
 

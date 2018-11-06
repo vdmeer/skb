@@ -6,6 +6,6 @@
 * Links:
       link:https://www.osti.gov/biblio/5550912[OSTI]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1980/watson-1980-tas.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1980/watson-1980-tas.adoc[adoc]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1980/watson-1980-tas.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1980/watson-1980-tas.adoc[adoc]
 

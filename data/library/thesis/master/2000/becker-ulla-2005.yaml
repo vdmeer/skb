@@ -4,8 +4,5 @@ thesis/master/2000/becker-ulla-2005:
     title: An Approach for Quality Assurance Management in decentralised Software Engineering Environments in context of Small and Medium-Sized Enterprises
     type: thesis
     year: 2005
-    library:
-        Folder: >
-            thesis/master/2000/
     adoc: |
         * Diplomarbeit (M.Sc. Thesis), Fachhochschule Karlsruhe, Karlsruhe, Germany

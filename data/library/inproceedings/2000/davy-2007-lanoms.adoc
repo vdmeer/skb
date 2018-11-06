@@ -6,11 +6,6 @@
       link:https://doi.org/10.1109/LANOMS.2007.4362464[DOI],
       link:https://www.researchgate.net/publication/221430495_Policy_Interactions_and_Management_of_Traffic_Engineering_Services_Based_on_Ontologies[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/davy-2007-lanoms.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/davy-2007-lanoms.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2000/davy-2007-lanoms.pdf[PDF],
-        link:inproceedings/2000/davy-2007-lanoms.doc[DOC]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/davy-2007-lanoms.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/davy-2007-lanoms.adoc[adoc]
 

@@ -7,10 +7,6 @@
       link:https://doi.org/10.1007/978-3-540-87355-6_9[DOI],
       link:https://www.researchgate.net/publication/221326611_Towards_an_Information_Model_That_Supports_Service-Aware_Self-managing_Virtual_Resources[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/fahy-2008-mace.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/fahy-2008-mace.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2000/fahy-2008-mace.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/fahy-2008-mace.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/fahy-2008-mace.adoc[adoc]
 

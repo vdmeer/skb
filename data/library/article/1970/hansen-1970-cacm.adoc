@@ -7,11 +7,6 @@
       link:https://doi.org/10.1145/362258.362278[DOI],
       link:http://ddhf.dk/site_dk/rc/pbh/MonitorPaper.pdf[PDF]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/1970/hansen-1970-cacm.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/1970/hansen-1970-cacm.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:article/1970/hansen-1970-cacm.pdf[PDF],
-        link:article/1970/hansen-1970-cacm-2.pdf[[PDF new typeset]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/article/1970/hansen-1970-cacm.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/article/1970/hansen-1970-cacm.adoc[adoc]
 

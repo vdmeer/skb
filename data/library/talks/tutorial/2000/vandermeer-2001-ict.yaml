@@ -8,8 +8,5 @@ talks/tutorial/2000/vandermeer-2001-ict:
     title: I-centric Communications
     type: tutorial
     year: 2001
-    library:
-        Folder: >
-            talks/tutorial/2000/
     adoc: |
         * Tutorial: 8^th^ IEEE International Conference on Telecommunications (ICT 2001), Bucharest, Romania, June 4-7, 2001

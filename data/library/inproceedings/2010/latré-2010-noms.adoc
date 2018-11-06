@@ -6,10 +6,6 @@
       link:https://doi.org/10.1109/NOMS.2010.5488448[DOI],
       link:https://www.researchgate.net/publication/220707548_Ontological_generation_of_filter_rules_for_context_exchange_in_autonomic_multimedia_networks[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/latré-2010-noms.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/latré-2010-noms.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2010/latré-2010-noms.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/latré-2010-noms.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/latré-2010-noms.adoc[adoc]
 

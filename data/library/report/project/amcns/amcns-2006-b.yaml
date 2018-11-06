@@ -10,8 +10,5 @@ report/project/amcns/amcns-2006-b:
     title: AMCNS Integrated Site Visit Presentation
     type: report
     year: 2006
-    library:
-        Folder: >
-            report/project/amcns
     adoc: |
         * Project Report: AMCNS - Autonomic Management of Communication Networks and Servicess - Site Visit, November 16, 2006

@@ -11,13 +11,6 @@ inproceedings/2000/vandermeer-2006-mace:
     urls:
         ResearchGate: >
             https://www.researchgate.net/publication/255621731_Emerging_Principles_of_Autonomic_Network_Management
-    library:
-        PDF: >
-            inproceedings/2000/vandermeer-2006-mace.pdf
-        DOC: >
-            inproceedings/2000/vandermeer-2006-mace.doc
-        PPT: >
-            inproceedings/2000/vandermeer-2006-mace.ppt
     adoc: |
         * Reasons to read: policy translation is possible
         * Published: First IEEE International Workshop on Modelling Autonomic Communications Environments, MACE 2006

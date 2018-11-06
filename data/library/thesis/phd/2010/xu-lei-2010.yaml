@@ -4,8 +4,5 @@ thesis/phd/2010/xu-lei-2010:
     title: Automating the Generation, Deployment and Application of Charging Schemes for Composed Communications Services
     type: thesis
     year: 2010
-    library:
-        Folder: >
-            thesis/phd/2010/
     adoc: |
         * Thesis (PhD): Waterford Institute of Technology (WIT), Waterford, Ireland

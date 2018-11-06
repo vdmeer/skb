@@ -8,9 +8,6 @@ talks/panel/2010/vandermeer-2013-im:
     title: Management of Big Data --- Big Data for Management
     type: panel
     year: 2013
-    library:
-        Folder: >
-            talks/panel/2010/
     adoc: |
         * Panel: 2013 IFIP/IEEE Symposium on Integrated Network and Service Management (IM), IM 2013
           ** Chair: Rolf Stadler (KTH, Sweden)

@@ -11,11 +11,6 @@
       link:http://web.mit.edu/Saltzer/www/publications/lnn/csr-lnn-028.pdf[LNN draft],
       link:https://dx.doi.org/10.17487/RFC1498[DOI: RFC1498]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1980/saltzer-1982-lcn.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1980/saltzer-1982-lcn.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/inproceedings/1980/saltzer-1982-lcn-slides.pdf[PDF: slides],
-        link:library/inproceedings/1980/saltzer-1982-lcn-rfc.pdf[PDF: RFC]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1980/saltzer-1982-lcn.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1980/saltzer-1982-lcn.adoc[adoc]
 

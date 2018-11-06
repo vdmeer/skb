@@ -6,10 +6,6 @@
       link:https://doi.org/10.1109/NOMS.2016.7502880[DOI],
       link:https://www.researchgate.net/publication/303564082_Apex_An_Engine_for_Dynamic_Adaptive_Policy_Execution[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/fallon-2016-noms.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/fallon-2016-noms.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2010/fallon-2016-noms.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/fallon-2016-noms.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/fallon-2016-noms.adoc[adoc]
 

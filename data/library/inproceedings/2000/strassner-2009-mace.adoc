@@ -7,11 +7,6 @@
       link:https://doi.org/10.1007/978-3-642-05006-0_2[DOI],
       link:https://www.researchgate.net/publication/221326612_The_Applicability_of_Self-Awareness_for_Network_Management_Operations[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/strassner-2009-mace.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/strassner-2009-mace.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2000/strassner-2009-mace.pdf[PDF],
-        link:inproceedings/2000/strassner-2009-mace.doc[DOC]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/strassner-2009-mace.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/strassner-2009-mace.adoc[adoc]
 

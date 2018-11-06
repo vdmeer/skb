@@ -6,10 +6,6 @@
 * Links:
       link:http://www-personal.umich.edu/~cja/LPS12b/refs/belllapadula1.pdf[PDF]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/report/technical/1970/bell-1973-mitre.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/report/technical/1970/bell-1973-mitre.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/report/technical/1970[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/report/technical/1970/bell-1973-mitre.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/report/technical/1970/bell-1973-mitre.adoc[adoc]
 

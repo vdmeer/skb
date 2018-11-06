@@ -7,10 +7,6 @@
       link:https://doi.org/10.1007/978-3-540-72986-0_4[DOI],
       link:https://www.researchgate.net/publication/221632266_Ontology-Based_Management_for_Context_Integration_in_Pervasive_Services_Operations[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/serrano-2007-aims.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/serrano-2007-aims.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2000/serrano-2007-aims.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/serrano-2007-aims.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/serrano-2007-aims.adoc[adoc]
 

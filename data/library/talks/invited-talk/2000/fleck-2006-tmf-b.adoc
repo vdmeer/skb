@@ -4,10 +4,6 @@ _NGOSS Contract Fingerprints - A Tool for Identifying and Facilitating Re-Use of
 * Invited Talk: TeleManagement World Americas 2006, Dallas, TX, United States, December 4-7, 2006
 * Links:
       skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/talks/invited-talk/2000/fleck-2006-tmf-b.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/talks/invited-talk/2000/fleck-2006-tmf-b.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/talks/invited-talk/2000/[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/talks/invited-talk/2000/fleck-2006-tmf-b.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/talks/invited-talk/2000/fleck-2006-tmf-b.adoc[adoc]
 

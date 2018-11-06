@@ -9,9 +9,6 @@ inproceedings/1990/sloman-1990-ftdcs:
             https://doi.org/10.1109/FTDCS.1990.138376
         PDF: >
             https://www.computer.org/csdl/proceedings/ftdcs/1990/2088/00/00138376.pdf
-    library:
-        PDF: >
-            inproceedings/1990/sloman-1990-ftdcs.pdf
     adoc: |
         * Reasons to read: management in context of ODP and OSI, introduces domains
         * Published: 1990 Proceedings Second IEEE Workshop on Future Trends of Distributed Computing Systems

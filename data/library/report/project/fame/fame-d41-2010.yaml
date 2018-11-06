@@ -4,8 +4,5 @@ report/project/fame/fame-d41-2010:
     title: "FAME: Interim Scenario Evaluation"
     type: report
     year: 2010
-    library:
-        Folder: >
-            report/project/fame
     adoc: |
         * Project Report: FAME - Federated, Autonomic Management of End-to-End Services - Deliverable D4.1, October 6, 2010

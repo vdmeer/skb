@@ -6,8 +6,5 @@ report/project/m-zones/m-zones-d00-2003:
     title: M-Zones Programme Work Plan - Proposal for Restructuring
     type: report
     year: 2003
-    library:
-        Folder: >
-            report/project/m-zones
     adoc: |
         * Project Report: M-Zones - Managed Zones - Deliverable D0.0, May 16, 2003

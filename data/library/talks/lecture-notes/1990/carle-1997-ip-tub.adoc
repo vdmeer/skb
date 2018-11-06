@@ -1,11 +1,10 @@
-*Georg Carle* et al.: _Internet: Technology, Protocols and Services_, 1997
+_Internet: Technology, Protocols and Services_, 1997
 
-* Lecturers: Georg Carle, Michael Smirnow, Adam Wolisz
+* Presenters: Georg Carle, Michael Smirnow, Adam Wolisz
 * Lecture: Wintersemester 1997/98 (WS97/98), Technical University Berlin
   ** based on lecture WS 1995/96 by Henning Schulzrinne
 * Links:
-       skb: link:https://github.com/vdmeer/skb/tree/master/data/library/talks/lecture-notes/1990/carle-1997-ip-tub.adoc[src]
-ifdef::local[]
-    ┃ link:/library/talks/lecture-notes/1990/[Folder]
-endif::[]
+      skb:
+        https://github.com/vdmeer/skb/tree/master/data/library/talks/lecture-notes/1990/carle-1997-ip-tub.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/talks/lecture-notes/1990/carle-1997-ip-tub.adoc[adoc]
 

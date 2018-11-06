@@ -7,8 +7,5 @@ talks/lecture-notes/2000/umts-tub-2002:
     title: UMTS Akademie
     type: lecture-note
     year: 2002
-    library:
-        Folder: >
-            talks/lecture-notes/2000/
     adoc: |
         * Lecture: Sommersemester 2002 (SS02), Technical University Berlin

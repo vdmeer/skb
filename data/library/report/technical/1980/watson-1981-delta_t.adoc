@@ -7,10 +7,6 @@
       link:https://www.osti.gov/servlets/purl/5542785[OSTI],
       link:https://www.osti.gov/servlets/purl/5542785[PDF]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/report/technical/1980/watson-1981-delta_t.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/report/technical/1980/watson-1981-delta_t.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/report/technical/1980[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/report/technical/1980/watson-1981-delta_t.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/report/technical/1980/watson-1981-delta_t.adoc[adoc]
 

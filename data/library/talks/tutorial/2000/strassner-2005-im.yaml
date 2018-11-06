@@ -8,8 +8,5 @@ talks/tutorial/2000/strassner-2005-im:
     urls:
         Conference: >
             http://im2005.ieee-im.org/
-    library:
-        Folder: >
-            talks/tutorial/2000/
     adoc: |
         * Tutorial: 2005 IFIP/IEEE Symposium on Integrated Network and Service Management (IM 2005), Nice, France, May 15-19, 2005

@@ -7,11 +7,6 @@
       link:https://doi.org/10.1007/3-540-48157-5_49[DOI],
       link:https://www.researchgate.net/publication/221568670_A_Platform_for_Environment-Aware_Applications[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1990/vandermeer-1999-huc.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1990/vandermeer-1999-huc.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/inproceedings/1990/vandermeer-1999-huc.pdf[PDF],
-        link:library/inproceedings/1990/vandermeer-1999-huc.7z[7z]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1990/vandermeer-1999-huc.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1990/vandermeer-1999-huc.adoc[adoc]
 

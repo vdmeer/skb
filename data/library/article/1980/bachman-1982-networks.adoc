@@ -6,6 +6,6 @@
 * Links:
       link:https://doi.org/10.1016/0376-5075(82)90103-9[DOI]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/1980/bachman-1982-networks.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/1980/bachman-1982-networks.adoc[adoc]
+        https://github.com/vdmeer/skb/tree/master/data/library/article/1980/bachman-1982-networks.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/article/1980/bachman-1982-networks.adoc[adoc]
 

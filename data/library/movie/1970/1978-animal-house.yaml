@@ -2,7 +2,7 @@ movie/1970/1978-animal-house:
     title: Animal House
     type: movie
     year: 1978
-    links:
+    urls:
         Wikipedia: >
             https://en.wikipedia.org/wiki/Animal_House
         TMDb: >

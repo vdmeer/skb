@@ -10,10 +10,6 @@
       link:https://www.goodreads.com/book/show/20631495-on-sense-and-reference?from_search=true[Goodreads],
       link:https://www.freud2lacan.com/docs/%C3%9Cber_Sinn_und_Bedeutung_bilingual.pdf[PDF:en & de]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/1800/frege-1892-sense-and-meaning.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/1800/frege-1892-sense-and-meaning.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:article/1800/frege-1892-sense-and-meaning.pdf[pdf]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/article/1800/frege-1892-sense-and-meaning.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/article/1800/frege-1892-sense-and-meaning.adoc[adoc]
 

@@ -4,8 +4,5 @@ report/project/albatross/albatross-d3-2002:
     title: AlbatrOSS Initial Architecture
     type: report
     year: 2002
-    library:
-        Folder: >
-            report/project/albatross/
     adoc: |
         * Project Report: AlbatrOSS - IST FP5 Project IST-2001-34780, Deliverable D3 (WP3), October 3, 2002

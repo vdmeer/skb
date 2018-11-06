@@ -7,9 +7,6 @@ article/1980/kamoun-1981-tacom:
     urls:
         DOI: >
             https://doi.org/10.1109/TCOM.1981.1095012
-    library:
-        PDF: >
-            article/1980/kamoun-1981-tacom.pdf
     adoc: |
         * Reasons to read: rules to detect and later prevent network congestion
         * Published: IEEE Transactions on Communications (Volume: 29, Issue: 4, Apr 1981) 

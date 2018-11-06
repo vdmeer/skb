@@ -10,8 +10,5 @@ inproceedings/2000/arbanowski-2000-wuc:
     urls:
         ResearchGate: >
             https://www.researchgate.net/publication/267403876_Open_Profiling_for_Ubiquitous_Computing
-    library:
-        Folder: >
-            inproceedings/2000
     adoc: |
         * Published: 1st Workshop on Ubiquitous Computing (WUC 2000), Philadelphia, United States, November 19, 2000

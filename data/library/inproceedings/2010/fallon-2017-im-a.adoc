@@ -6,11 +6,6 @@
       link:https://doi.org/10.23919/INM.2017.7987306[DOI],
       link:https://www.researchgate.net/publication/316629867_Distributed_Management_Information_Models[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/fallon-2017-im-a.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/fallon-2017-im-a.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2010/fallon-2017-im-a.pdf[PDF],
-        link:inproceedings/2010/fallon-2017-im-a.7z[7z]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/fallon-2017-im-a.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/fallon-2017-im-a.adoc[adoc]
 

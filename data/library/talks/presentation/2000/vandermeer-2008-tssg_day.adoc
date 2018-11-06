@@ -4,10 +4,6 @@
 * Presentation: TSSG Research Day, WIT, Waterford, Ireland, December 5, 2008
 * Links:
       skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/talks/presentation/2000/vandermeer-2008-tssg_day.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/talks/presentation/2000/vandermeer-2008-tssg_day.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/talks/presentation/2000/[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/talks/presentation/2000/vandermeer-2008-tssg_day.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/talks/presentation/2000/vandermeer-2008-tssg_day.adoc[adoc]
 

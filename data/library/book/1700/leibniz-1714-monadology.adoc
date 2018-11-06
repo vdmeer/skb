@@ -9,6 +9,6 @@
       link:http://home.datacomm.ch/kerguelen/monadology/[English: by Robert Latta],
       link:https://www.gutenberg.org/ebooks/39441[German: Gutenberg Projekt]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/book/1700/leibniz-1714-monadology.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/book/1700/leibniz-1714-monadology.adoc[adoc]
+        https://github.com/vdmeer/skb/tree/master/data/library/book/1700/leibniz-1714-monadology.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/book/1700/leibniz-1714-monadology.adoc[adoc]
 

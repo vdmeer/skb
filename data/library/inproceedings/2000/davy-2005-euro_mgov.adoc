@@ -6,11 +6,6 @@
       link:http://www.m4life.org/proceedings/2005/INDEX.HTM[Conference],
       link:https://www.researchgate.net/publication/215511075_On_the_use_of_Policy_Based_Management_for_Pervasive_m-Government_Services[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/davy-2005-euro_mgov.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/davy-2005-euro_mgov.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2000/davy-2005-euro_mgov.pdf[PDF],
-        link:inproceedings/2000/davy-2005-euro_mgov.doc[DOC]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/davy-2005-euro_mgov.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/davy-2005-euro_mgov.adoc[adoc]
 

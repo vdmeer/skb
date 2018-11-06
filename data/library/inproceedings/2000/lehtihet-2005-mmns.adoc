@@ -7,10 +7,6 @@
       link:https://doi.org/10.1007/11572831_32[DOI],
       link:https://www.researchgate.net/publication/220829041_Initial_Approach_Toward_Self-configuration_and_Self-optimization_in_IP_Networks[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/lehtihet-2005-mmns.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/lehtihet-2005-mmns.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2000/lehtihet-2005-mmns.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/lehtihet-2005-mmns.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/lehtihet-2005-mmns.adoc[adoc]
 

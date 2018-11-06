@@ -4,10 +4,6 @@
 * Presentation: TSSG/CIM Autonomics Workshop, Waterford, Ireland, July 11, 2008
 * Links:
       skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/talks/presentation/2000/vandermeer-2008-tssg_cim-b.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/talks/presentation/2000/vandermeer-2008-tssg_cim-b.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/talks/presentation/2000/[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/talks/presentation/2000/vandermeer-2008-tssg_cim-b.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/talks/presentation/2000/vandermeer-2008-tssg_cim-b.adoc[adoc]
 

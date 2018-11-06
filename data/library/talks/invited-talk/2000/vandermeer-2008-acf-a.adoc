@@ -4,10 +4,6 @@
 * Invited Talk: Meeting of the Autonomic Communications Forum, Barcelona, Spain, May 12, 2008
 * Links:
       skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/talks/invited-talk/2000/vandermeer-2008-acf-a.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/talks/invited-talk/2000/vandermeer-2008-acf-a.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/talks/invited-talk/2000/[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/talks/invited-talk/2000/vandermeer-2008-acf-a.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/talks/invited-talk/2000/vandermeer-2008-acf-a.adoc[adoc]
 

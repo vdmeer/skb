@@ -8,13 +8,6 @@ inproceedings/2000/osmani-2005-mhci:
     urls:
         ResearchGate: >
             https://www.researchgate.net/publication/228744086_Context_Yes_but_to_whom
-    library:
-        PDF: >
-            inproceedings/2000/osmani-2005-mhci.pdf
-        DOC: >
-            inproceedings/2000/osmani-2005-mhci.doc
-        PPT: >
-            inproceedings/2000/osmani-2005-mhci.ppt
     adoc: |
         * Published: Mobile HCI
           ** Workshop: International Workshop on Context in Mobile HCI

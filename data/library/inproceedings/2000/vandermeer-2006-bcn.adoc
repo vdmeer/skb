@@ -4,13 +4,9 @@
 * Published: NOMS Workshops 2006 - IEEE Network Operations and Management Symposium Workshops
   ** Workshop: 2006 1st IEEE International Workshop on Broadband Convergence Networks
 * Links:
+      link:https://doi.org/10.1109/BCN.2006.1662287[DOI],
       link:https://www.researchgate.net/publication/224642364_Autonomic_Networking_Prototype_Implementation_of_the_Policy_Continuum[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/vandermeer-2006-bcn.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/vandermeer-2006-bcn.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2000/vandermeer-2006-bcn.pdf[PDF],
-        link:inproceedings/2000/vandermeer-2006-bcn.ppt[PPT]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/vandermeer-2006-bcn.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/vandermeer-2006-bcn.adoc[adoc]
 

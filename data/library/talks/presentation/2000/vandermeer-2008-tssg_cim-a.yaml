@@ -5,8 +5,5 @@ talks/presentation/2000/vandermeer-2008-tssg_cim-a:
     titleaddon: "Basic Research: current Results and Future Work"
     type: presentation
     year: 2008
-    library:
-        Folder: >
-            talks/presentation/2000/
     adoc: |
         * Presentation: TSSG/CIM Autonomics Workshop, Waterford, Ireland, July 11, 2008

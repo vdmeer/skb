@@ -8,10 +8,6 @@
 * Publisher: Waterford Institute of Technology, Telecommunication Software & Systems Group
 * Links:
       skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/proceedings/mucs/mucs-2003.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/proceedings/mucs/mucs-2003.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/proceedings/mucs[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/proceedings/mucs/mucs-2003.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/proceedings/mucs/mucs-2003.adoc[adoc]
 

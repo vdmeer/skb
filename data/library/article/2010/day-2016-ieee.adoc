@@ -7,10 +7,6 @@
       link:https://doi.org/10.1109/MAHC.2015.70[DOI],
       link:http://arussell.org/INWG-Day.pdf[PDF]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/2010/day-2016-ieee.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/2010/day-2016-ieee.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:article/2010/day-2016-ieee.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/article/2010/day-2016-ieee.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/article/2010/day-2016-ieee.adoc[adoc]
 

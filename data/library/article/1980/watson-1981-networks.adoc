@@ -9,10 +9,6 @@
       link:https://doi.org/10.1016/0376-5075(81)90031-3[DOI],
       link:https://www.rfc-editor.org/ien/ien193.pdf[PDF: IEN193]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/1980/watson-1981-networks.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/1980/watson-1981-networks.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:article/1980/watson-1981-networks.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/article/1980/watson-1981-networks.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/article/1980/watson-1981-networks.adoc[adoc]
 

@@ -9,9 +9,6 @@ article/1980/watson-1981-networks:
             https://doi.org/10.1016/0376-5075(81)90031-3
         "PDF: IEN193": >
             https://www.rfc-editor.org/ien/ien193.pdf
-    library:
-        PDF: >
-            article/1980/watson-1981-networks.pdf
     adoc: |
         * Reasons to read: only 3 timers are needed, in the protocol, no local clocks and no clock synchronization required
         * Original break-through happened in 1978, so some reference date it to 1978

@@ -6,10 +6,6 @@
       link:https://doi.org/10.1109/WCNC.2018.8377265[DOI],
       link:https://zenodo.org/record/1304063#.W2uI4MJrzCF[Zenodo]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/grasa-2018-wcnc.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/grasa-2018-wcnc.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2010/grasa-2018-wcnc.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/grasa-2018-wcnc.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/grasa-2018-wcnc.adoc[adoc]
 

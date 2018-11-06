@@ -5,10 +5,6 @@
 * Links:
       link:https://www.researchgate.net/profile/Eamonn_Power/publication/267795341_Architecture_Implementation_of_a_Testbeds_Repository/links/55547d2808ae6943a86f671b.pdf[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/power-2010-temu.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/power-2010-temu.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2010/power-2010-temu.pdf[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/power-2010-temu.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/power-2010-temu.adoc[adoc]
 

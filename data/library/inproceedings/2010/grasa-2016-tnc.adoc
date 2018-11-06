@@ -6,11 +6,6 @@
       link:https://tnc16.geant.org/core/presentation/667[TCN],
       link:https://www.researchgate.net/publication/326907042_Simplifying_Multi-layer_Network_Management_with_RINA[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/grasa-2016-tnc.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/grasa-2016-tnc.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2010/grasa-2016-tnc.pdf[PDF],
-        link:inproceedings/2010/grasa-2016-tnc.ppt[PPT]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/grasa-2016-tnc.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/grasa-2016-tnc.adoc[adoc]
 

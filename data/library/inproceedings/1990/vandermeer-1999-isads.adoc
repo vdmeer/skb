@@ -6,12 +6,6 @@
       link:https://doi.org/10.1109/ISADS.1999.838429[DOI],
       link:https://www.researchgate.net/publication/3843809_An_Approach_for_a_4[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1990/vandermeer-1999-isads.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1990/vandermeer-1999-isads.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/inproceedings/1990/vandermeer-1999-isads.pdf[PDF],
-        link:library/inproceedings/1990/vandermeer-1999-isads.ppt[PPT],
-        link:library/inproceedings/1990/vandermeer-1999-isads.7z[7z]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1990/vandermeer-1999-isads.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1990/vandermeer-1999-isads.adoc[adoc]
 

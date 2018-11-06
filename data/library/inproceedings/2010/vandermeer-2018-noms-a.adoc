@@ -6,12 +6,6 @@
       link:https://doi.org/10.1109/NOMS.2018.8406172[DOI],
       link:https://www.researchgate.net/publication/325057975_Taming_Policy_Complexity_Model_to_Execution[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/vandermeer-2018-noms-a.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/vandermeer-2018-noms-a.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2010/vandermeer-2018-noms-a.pdf[PDF],
-        link:inproceedings/2010/vandermeer-2018-noms-a.pptx[PPTX],
-        link:inproceedings/2010/vandermeer-2018-noms-a.7z[7z]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/vandermeer-2018-noms-a.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/vandermeer-2018-noms-a.adoc[adoc]
 

@@ -13,9 +13,6 @@ inproceedings/1990/miller-1993-elp:
             https://link.springer.com/content/pdf/10.1007%2F3-540-58025-5_58.pdf
         "Draft text": >
             https://www.researchgate.net/publication/241604108_A_Proposal_for_Modules_in_Prolog_Preliminary_Draft
-    library:
-        PDF: >
-            inproceedings/1990/miller-1993-elp.pdf
     adoc: |
         * Reasons to read: introduces the turing machine syndrome
         * Related: Alberto Momigliano and Mario Ornaghi, Proof-Theoretic and Higher-Order Extensions of Logic Programming, LNCS 6125, 2010

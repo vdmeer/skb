@@ -6,10 +6,6 @@
       link:https://doi.org/10.1109/POLICY.2006.12[DOI],
       link:https://www.researchgate.net/publication/4242336_Bio-inspired_Policy_Based_Management_bioPBM_for_Autonomic_Bio-inspired_Policy_Based_Management_bioPBM_for_Autonomic[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/balasubramaniam-2006-policy.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/balasubramaniam-2006-policy.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2000/balasubramaniam-2006-policy.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/balasubramaniam-2006-policy.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/balasubramaniam-2006-policy.adoc[adoc]
 

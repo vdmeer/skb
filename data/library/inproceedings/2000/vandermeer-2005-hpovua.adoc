@@ -5,12 +5,6 @@
 * Links:
       link:https://www.researchgate.net/publication/228626536_Ontology_based_policy_mobility_for_pervasive_computing[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/vandermeer-2005-hpovua.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/vandermeer-2005-hpovua.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2000/vandermeer-2005-hpovua.pdf[PDF],
-        link:inproceedings/2000/vandermeer-2005-hpovua.doc[DOC],
-        link:inproceedings/2000/vandermeer-2005-hpovua.ppt[PPT]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/vandermeer-2005-hpovua.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/vandermeer-2005-hpovua.adoc[adoc]
 

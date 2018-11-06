@@ -9,9 +9,6 @@ report/technical/1980/watson-1981-delta_t:
             https://www.osti.gov/servlets/purl/5542785
         PDF: >
             https://www.osti.gov/servlets/purl/5542785
-    library:
-        Folder: >
-            report/technical/1980
     adoc: |
         * Reasons to read: only 3 timers are needed, in the protocol, no local clocks and no clock synchronization required
         * Published: Lawrence Livermore National Lab., CA (USA), UCID-19293

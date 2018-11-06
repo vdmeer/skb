@@ -14,8 +14,5 @@ inproceedings/2010/zaman-2014-noms:
             https://doi.org/10.1109/NOMS.2014.6838350
         ResearchGate: >
             https://www.researchgate.net/publication/271437362_A_heuristic_correlation_algorithm_for_data_reduction_through_noise_detection_in_stream-based_communication_management_systems
-    library:
-        PDF: >
-            inproceedings/2010/zaman-2014-noms.pdf
     adoc: |
         * Published: 2014 IEEE Network Operations and Management Symposium (NOMS)

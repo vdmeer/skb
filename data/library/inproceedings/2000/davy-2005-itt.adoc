@@ -4,11 +4,6 @@
 * Published: Information Technology & Telecommunications annual Conference Cork, IT&T 2005
 * Links:
       skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/davy-2005-itt.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/davy-2005-itt.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2000/davy-2005-itt.pdf[PDF],
-        link:inproceedings/2000/davy-2005-itt-poster.pdf[Poster]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/davy-2005-itt.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/davy-2005-itt.adoc[adoc]
 

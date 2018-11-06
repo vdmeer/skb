@@ -6,6 +6,6 @@ _Monty Python and the Holy Grail_, 1975
       link:https://www.themoviedb.org/movie/762-monty-python-and-the-holy-grail?language=en-US[TMDb],
       link:https://www.imdb.com/title/tt0071853/?ref_=fn_al_tt_1[IMDB]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/movie/1970/1975-monty-python-and-the-holy-grail.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/movie/1970/1975-monty-python-and-the-holy-grail.adoc[adoc]
+        https://github.com/vdmeer/skb/tree/master/data/library/movie/1970/1975-monty-python-and-the-holy-grail.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/movie/1970/1975-monty-python-and-the-holy-grail.adoc[adoc]
 

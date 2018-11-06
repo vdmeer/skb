@@ -4,10 +4,6 @@
 * Published: TM Forum, NGOSS Release 6.0, TNA Release 6.3, Document Version 5.7, 2006
 * Links:
       skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/standard/tmf/tmf053-2006.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/standard/tmf/tmf053-2006.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/standard/tmf/[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/standard/tmf/tmf053-2006.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/standard/tmf/tmf053-2006.adoc[adoc]
 

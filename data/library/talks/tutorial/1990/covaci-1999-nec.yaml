@@ -7,8 +7,5 @@ talks/tutorial/1990/covaci-1999-nec:
     title: Management of Broadband Networks II
     type: tutorial
     year: 1999
-    library:
-        Folder: >
-            talks/tutorial/1990/
     adoc: |
         * Tutorial: NEC Europe Ltd., C&C Research Laboratory, Berlin, Germany, May 27-28, 1999

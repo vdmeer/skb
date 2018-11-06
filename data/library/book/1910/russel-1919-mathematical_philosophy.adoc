@@ -9,10 +9,6 @@
       link:https://archive.org/details/introductiontoma00russuoft[PDF: old typeset],
       link:http://people.umass.edu/klement/russell-imp.html[Online at UMass]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/book/1910/russel-1919-mathematical_philosophy.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/book/1910/russel-1919-mathematical_philosophy.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:book/1910/russel-1919-mathematical_philosophy.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/book/1910/russel-1919-mathematical_philosophy.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/book/1910/russel-1919-mathematical_philosophy.adoc[adoc]
 

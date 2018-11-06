@@ -5,10 +5,6 @@
 * Links:
       link:https://www.sciencedirect.com/science/book/9781558608597[ScienceDirect]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/book/2000/strassner-2004-pbm.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/book/2000/strassner-2004-pbm.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:book/2000/[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/book/2000/strassner-2004-pbm.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/book/2000/strassner-2004-pbm.adoc[adoc]
 

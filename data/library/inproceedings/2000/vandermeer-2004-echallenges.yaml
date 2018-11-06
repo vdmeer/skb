@@ -8,13 +8,6 @@ inproceedings/2000/vandermeer-2004-echallenges:
     urls:
         ResearchGate: >
             https://www.researchgate.net/publication/229027391_Integrated_Management_of_Smart_Spaces
-    library:
-        PDF: >
-            inproceedings/2000/vandermeer-2004-echallenges.pdf
-        PPT: >
-            inproceedings/2000/vandermeer-2004-echallenges.ppt
-        7z: >
-            inproceedings/2000/vandermeer-2004-echallenges.7z
     adoc: |
         * Published: 14th eChallenges Conf. (e-2004), Vienna, Austria
         * Published in: Paul Cunningham, Miriam Cunningham (eds.): EAdoption and the Knowledge Economy: Issues, Applications, Case Studies, Volume 1, Part 1

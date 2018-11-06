@@ -4,8 +4,5 @@ report/project/ipcss/ipcss-3-1997:
     title: Resource Selection, CORBA Platforms, TINA migration
     type: report
     year: 1997
-    library:
-        Folder: >
-            report/project/ipcss
     adoc: |
         * Project Report: iPCSS - intelligent Personal Communication System - Deliverable 3, 1997

@@ -5,6 +5,6 @@
 * Links:
       link:https://www.goodreads.com/book/show/1203186.The_Existential_Pleasures_of_Engineering[Goodreads]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/book/1970/florman-1976-engineering.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/book/1970/florman-1976-engineering.adoc[adoc]
+        https://github.com/vdmeer/skb/tree/master/data/library/book/1970/florman-1976-engineering.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/book/1970/florman-1976-engineering.adoc[adoc]
 

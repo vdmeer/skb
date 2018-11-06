@@ -6,11 +6,6 @@
       link:https://doi.org/10.1049/ic:20050212[DOI],
       link:https://www.researchgate.net/publication/4170365_Context_driven_user-centric_access_control_for_smart_spaces[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/white-2005-ie.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/white-2005-ie.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2000/white-2005-ie.pdf[PDF],
-        link:inproceedings/2000/white-2005-ie.doc[DOC]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/white-2005-ie.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/white-2005-ie.adoc[adoc]
 

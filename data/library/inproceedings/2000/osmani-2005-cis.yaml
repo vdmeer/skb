@@ -11,12 +11,5 @@ inproceedings/2000/osmani-2005-cis:
     urls:
         ResearchGate: >
             https://www.researchgate.net/publication/255581265_An_architecture_for_User-centric_Management_of_Intelligent_Environments
-    library:
-        PDF: >
-            inproceedings/2000/osmani-2005-cis.pdf
-        DOC: >
-            inproceedings/2000/osmani-2005-cis.doc
-        PPT: >
-            inproceedings/2000/osmani-2005-cis.ppt
     adoc: |
         * Published: 28th Int'l Convention MIPRO Conf. on Intelligent Systems (CIS05)

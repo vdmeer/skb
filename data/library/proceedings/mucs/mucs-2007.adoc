@@ -10,6 +10,6 @@
       link:https://ernster.com/detail/ISBN-9783930736072//Managing-Ubiquitous-Communications-and-Services-2007?CSPCHD=00000100000011f7El1v7C0000K$sX4oCbt1hGKVr6wR4gvQ--&bpmctrl=bpmrownr.6%3A1%7Cforeign.63574-57-1-79643%3A80325%3A76780[Ernster],
       link:http://vandermeer.de/library/proceedings/mucs/web/2007/index.php[Web: orig]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/proceedings/mucs/mucs-2007.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/proceedings/mucs/mucs-2007.adoc[adoc]
+        https://github.com/vdmeer/skb/tree/master/data/library/proceedings/mucs/mucs-2007.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/proceedings/mucs/mucs-2007.adoc[adoc]
 

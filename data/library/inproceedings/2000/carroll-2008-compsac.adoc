@@ -6,11 +6,6 @@
       link:https://doi.org/10.1109/COMPSAC.2008.220[DOI],
       link:https://www.researchgate.net/publication/221028524_Semantic_Integration_of_User_Data_-_Models_and_Processes_Enabling_Seamless_Mobility[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/carroll-2008-compsac.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/carroll-2008-compsac.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2000/carroll-2008-compsac.pdf[PDF],
-        link:inproceedings/2000/carroll-2008-compsac.doc[DOC]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/carroll-2008-compsac.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/carroll-2008-compsac.adoc[adoc]
 

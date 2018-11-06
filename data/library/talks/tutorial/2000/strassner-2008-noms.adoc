@@ -5,10 +5,6 @@
 * Links:
       link:http://noms2008.ieee-noms.org/[Conference]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/talks/tutorial/2000/strassner-2008-noms.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/talks/tutorial/2000/strassner-2008-noms.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/talks/tutorial/2000/[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/talks/tutorial/2000/strassner-2008-noms.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/talks/tutorial/2000/strassner-2008-noms.adoc[adoc]
 

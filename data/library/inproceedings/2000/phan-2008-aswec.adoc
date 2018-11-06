@@ -7,10 +7,6 @@
       link:https://doi.org/10.1109/ASWEC.2008.4483228[DOI],
       link:https://www.researchgate.net/publication/4328268_A_Survey_of_Policy-Based_Management_Approaches_for_Service_Oriented_Systems[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/phan-2008-aswec.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/phan-2008-aswec.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/inproceedings/2000/phan-2008-aswec.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/phan-2008-aswec.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/phan-2008-aswec.adoc[adoc]
 

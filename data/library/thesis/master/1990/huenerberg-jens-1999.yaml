@@ -4,8 +4,5 @@ thesis/master/1990/huenerberg-jens-1999:
     title: Evaluating Object Oriented Databases for a Location Aware Application Platform
     type: thesis
     year: 1999
-    library:
-        Folder: >
-            thesis/master/1990/
     adoc: |
         * Diplomarbeit (M.Sc. Thesis), Technical University Berlin (TUB), Berlin, Germany

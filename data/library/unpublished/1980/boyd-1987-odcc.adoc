@@ -5,10 +5,6 @@
 * Links:
       link:http://www.dnipogo.org/boyd/organic_design.pdf[PDF]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/unpublished/1980/boyd-1987-odcc.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/unpublished/1980/boyd-1987-odcc.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/unpublished/1980/[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/unpublished/1980/boyd-1987-odcc.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/unpublished/1980/boyd-1987-odcc.adoc[adoc]
 

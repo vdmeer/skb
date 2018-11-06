@@ -4,8 +4,5 @@ thesis/master/2000/morris-teri-2006:
     title: Policy based Management Using Context Mobility in Ad-hoc Networking
     type: thesis
     year: 2006
-    library:
-        Folder: >
-            thesis/master/2000/
     adoc: |
         * Thesis (M.Sc.): Waterford Institute of Technology (WIT), Waterford, Ireland

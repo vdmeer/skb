@@ -6,6 +6,6 @@
 * Links:
       link:https://https://doi.org/10.1016/0167-8051(82)90011-0[DOI]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/1980/bachman-1982-compstd.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/1980/bachman-1982-compstd.adoc[adoc]
+        https://github.com/vdmeer/skb/tree/master/data/library/article/1980/bachman-1982-compstd.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/article/1980/bachman-1982-compstd.adoc[adoc]
 

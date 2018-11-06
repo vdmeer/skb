@@ -4,8 +4,5 @@ thesis/phd/2010/veselý-vladimír-2015:
     title: A new Dawn of Naming, Addressing and Routing on the Internet
     type: thesis
     year: 2015
-    library:
-        Folder: >
-            thesis/phd/2010/
     adoc: |
         * Thesis (PhD): Brno University of Technology, Brno, Czech Republic

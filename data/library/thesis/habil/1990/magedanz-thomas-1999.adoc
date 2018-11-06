@@ -1,13 +1,9 @@
-*Thomas Magedanz_Intelligent Network Evolution_, 1999
+*Thomas Magedanz*: _Intelligent Network Evolution_, 1999
 
 * Author: Thomas Magedanz
 * Thesis (habil): Habilitationsschrift, Technical University Berlin (TUB), Berlin, Germany
 * Links:
       skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/thesis/habil/1990/magedanz-thomas-1999.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/thesis/habil/1990/magedanz-thomas-1999.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/thesis/habil/1990/[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/thesis/habil/1990/magedanz-thomas-1999.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/thesis/habil/1990/magedanz-thomas-1999.adoc[adoc]
 

@@ -11,12 +11,5 @@ inproceedings/1990/vandermeer-1999-isads:
             https://doi.org/10.1109/ISADS.1999.838429
         ResearchGate: >
             https://www.researchgate.net/publication/3843809_An_Approach_for_a_4
-    library:
-        PDF: >
-            inproceedings/1990/vandermeer-1999-isads.pdf
-        PPT: >
-            inproceedings/1990/vandermeer-1999-isads.ppt
-        7z: >
-            inproceedings/1990/vandermeer-1999-isads.7z
     adoc: |
         * Published: Fourth International Symposium on Autonomous Decentralized Systems (ISADS) - Integration of Heterogeneous Systems

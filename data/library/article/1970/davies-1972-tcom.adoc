@@ -6,10 +6,6 @@
 * Links:
       link:https://doi.org/10.1109/TCOM.1972.1091198[DOI]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/1970/davies-1972-tcom.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/1970/davies-1972-tcom.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:article/1970/davies-1972-tcom.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/article/1970/davies-1972-tcom.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/article/1970/davies-1972-tcom.adoc[adoc]
 

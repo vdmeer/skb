@@ -11,9 +11,6 @@ inbook/1970/saltzer-1978-lncs:
             http://web.mit.edu/Saltzer/www/publications/nbo/nbo.pdf
         online: >
             http://web.mit.edu/Saltzer/www/publications/nbo/nbo.html
-    library:
-        PDF: >
-            inbook/1970/saltzer-1978-lncs.pdf
     adoc: |
         * Reasons to read: defines name, defines name binding
         * Published: chapter 3 In: Bayer R., Graham R.M., Seegmüller G. (eds) Operating Systems. Lecture Notes in Computer Science, vol 60. Springer, Berlin, Heidelberg

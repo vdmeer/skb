@@ -8,9 +8,6 @@ talks/panel/2000/vandermeer-2007-ssmo:
     title: Seamless Service Mobility Challenges and Solutions
     type: panel
     year: 2007
-    library:
-        Folder: >
-            talks/panel/2000/
     adoc: |
         * Panel: 2007 First International Global Information Infrastructure Symposium, GIIS, Marrakech, Morocco
           ** in workshop: 1st Alcatel-Lucent/Université d'Evry/Telenor Seamless Service MObility (SSMO) Workshop, July 2, 2007

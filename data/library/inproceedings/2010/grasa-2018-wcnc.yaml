@@ -15,8 +15,5 @@ inproceedings/2010/grasa-2018-wcnc:
             https://doi.org/10.1109/WCNC.2018.8377265
         Zenodo: >
             https://zenodo.org/record/1304063#.W2uI4MJrzCF
-    library:
-        PDF: >
-            inproceedings/2010/grasa-2018-wcnc.pdf
     adoc: |
         * Published: 2018 IEEE Wireless Communications and Networking Conference (WCNC)

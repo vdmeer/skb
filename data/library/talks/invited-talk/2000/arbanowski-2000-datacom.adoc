@@ -5,10 +5,6 @@
 * Invited Talk: DATACOM Akademie, Berlin, Germany, October 16-17, 2000
 * Links:
       skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/talks/invited-talk/2000/arbanowski-2000-datacom.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/talks/invited-talk/2000/arbanowski-2000-datacom.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/talks/invited-talk/2000/[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/talks/invited-talk/2000/arbanowski-2000-datacom.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/talks/invited-talk/2000/arbanowski-2000-datacom.adoc[adoc]
 

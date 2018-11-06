@@ -13,9 +13,6 @@ book/1950/popper-1959-scientific_discovery:
             https://archive.org/details/PopperLogicScientificDiscovery
         "PDF: English": >
             http://strangebeautiful.com/other-texts/popper-logic-scientific-discovery.pdf
-    library:
-        PDF: >
-            book/1950/popper-1959-scientific_discovery.pdf
     adoc: |
         * Published: 1934 (German, _Logik der Forschung_), 1959 (English)
         * Publisher: Hutchinson & Co

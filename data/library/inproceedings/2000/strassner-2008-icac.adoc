@@ -6,11 +6,6 @@
       link:https://doi.org/10.1109/ICAC.2008.36[DOI],
       link:https://www.researchgate.net/publication/4348557_The_Design_of_a_New_Context-Aware_Policy_Model_for_Autonomic_Networking[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/strassner-2008-icac.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/strassner-2008-icac.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2000/strassner-2008-icac.pdf[PDF],
-        link:inproceedings/2000/strassner-2008-icac.doc[DOC]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/strassner-2008-icac.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/strassner-2008-icac.adoc[adoc]
 

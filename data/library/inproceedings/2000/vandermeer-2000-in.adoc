@@ -6,12 +6,6 @@
       link:https://doi.org/10.1109/INW.2000.868170[DOI],
       link:https://www.researchgate.net/publication/3863295_Flexible_control_of_media_gateways_for_service_adaption[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/vandermeer-2000-in.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/vandermeer-2000-in.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2000/vandermeer-2000-in.pdf[PDF],
-        link:inproceedings/2000/vandermeer-2000-in.ppt[PPT],
-        link:inproceedings/2000/vandermeer-2000-in.7z[7z]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/vandermeer-2000-in.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/vandermeer-2000-in.adoc[adoc]
 

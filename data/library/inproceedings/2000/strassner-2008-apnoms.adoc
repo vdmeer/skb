@@ -6,6 +6,6 @@
 * Links:
       link:https://link.springer.com/chapter/10.1007/978-3-540-88623-5_15[DOI]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/strassner-2008-apnoms.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/strassner-2008-apnoms.adoc[adoc]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/strassner-2008-apnoms.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/strassner-2008-apnoms.adoc[adoc]
 

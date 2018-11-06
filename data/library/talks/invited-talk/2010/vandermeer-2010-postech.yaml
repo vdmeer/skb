@@ -4,8 +4,5 @@ talks/invited-talk/2010/vandermeer-2010-postech:
     title: Building a DEN-ng Autonomic Management System - How do they do it?
     type: invited-talk
     year: 2010
-    library:
-        Folder: >
-            talks/invited-talk/2010/
     adoc: |
         * Invited Talk: WCU Seminar, POSTECH, Pohang, Korea, June 14, 2010

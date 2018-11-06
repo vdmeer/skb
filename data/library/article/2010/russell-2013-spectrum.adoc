@@ -7,10 +7,6 @@
       link:https://doi.org/10.1109/MSPEC.2013.6565559[DOI],
       link:https://spectrum.ieee.org/tech-history/cyberspace/osi-the-internet-that-wasnt[Online]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/2010/russell-2013-spectrum.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/2010/russell-2013-spectrum.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:article/2010/russell-2013-spectrum.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/article/2010/russell-2013-spectrum.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/article/2010/russell-2013-spectrum.adoc[adoc]
 

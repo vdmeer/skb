@@ -5,10 +5,6 @@
 * Project Report: M-Zones - Managed Zones - Deliverable D5.2, November 1, 2005
 * Links:
       skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/report/project/m-zones/m-zones-d52-2005.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/report/project/m-zones/m-zones-d52-2005.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/report/project/m-zones[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/report/project/m-zones/m-zones-d52-2005.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/report/project/m-zones/m-zones-d52-2005.adoc[adoc]
 

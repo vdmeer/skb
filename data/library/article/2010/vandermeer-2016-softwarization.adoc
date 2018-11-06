@@ -5,6 +5,6 @@
 * Links:
       link:https://sdn.ieee.org/newsletter/may-2016/sdn-architectural-limitations-towards-a-full-software-network-vision[Article]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/2010/vandermeer-2016-softwarization.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/2010/vandermeer-2016-softwarization.adoc[adoc]
+        https://github.com/vdmeer/skb/tree/master/data/library/article/2010/vandermeer-2016-softwarization.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/article/2010/vandermeer-2016-softwarization.adoc[adoc]
 

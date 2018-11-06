@@ -1,13 +1,9 @@
-*Sven van der Meer* (ed): _AMCNS Annual Report Year 2_, 2006
+*Sven van der Meer*: _AMCNS Annual Report Year 2_, 2006
 
-* Editor: Sven van der Meer
+* Author: Sven van der Meer
 * Project Report: AMCNS - Autonomic Management of Communication Networks and Servicess - Annual Report Y2, November 11, 2006
 * Links:
       skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/report/project/amcns/amcns-2006-a.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/report/project/amcns/amcns-2006-a.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/report/project/amcns[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/report/project/amcns/amcns-2006-a.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/report/project/amcns/amcns-2006-a.adoc[adoc]
 

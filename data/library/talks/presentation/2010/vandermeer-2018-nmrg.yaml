@@ -9,8 +9,5 @@ talks/presentation/2010/vandermeer-2018-nmrg:
             https://datatracker.ietf.org/meeting/interim-2018-nmrg-02/session/nmrg
         Talk: >
             https://datatracker.ietf.org/doc/slides-interim-2018-nmrg-02-sessa-5g-networks-must-be-autonomic/
-    library:
-        Folder: >
-            talks/presentation/2010/
     adoc: |
         * Presentation: 47^th^ Meeting NMRG, co-located with IEEE NOMS 2018, Taipei, Taiwan, April 24, 2018

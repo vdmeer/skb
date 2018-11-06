@@ -19,9 +19,6 @@ book/1800/abbott-1884-a-flatland:
             http://www.flatlandthemovie.com
         "The Film: youtube": >
             https://www.youtube.com/watch?v=Mfglluny8Z0
-    library:
-        PDF: >
-            book/1800/abbott-1884-a-flatland.pdf
     adoc: |
         * Reasons to read: the world limited by dimensions, also a social critic
         * Publisher: Seeley & Co. of London

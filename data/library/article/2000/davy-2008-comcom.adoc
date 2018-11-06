@@ -7,10 +7,6 @@
       link:https://doi.org/10.1016/j.comcom.2008.04.018[DOI],
       link:http://www.tssg.org/files/archives/2008_COMCOM_SDavy_et_al_site_formatted.pdf[PDF]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/2000/davy-2008-comcom.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/2000/davy-2008-comcom.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:article/2000/davy-2008-comcom.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/article/2000/davy-2008-comcom.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/article/2000/davy-2008-comcom.adoc[adoc]
 

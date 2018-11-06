@@ -4,10 +4,6 @@ _Management of Broadband Networks I_, 1998
 * Tutorial: NEC Europe Ltd., C&C Research Laboratory, Berlin, Germany, October 15-16, 1998
 * Links:
       skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/talks/tutorial/1990/covaci-1998-nec.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/talks/tutorial/1990/covaci-1998-nec.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/talks/tutorial/1990/[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/talks/tutorial/1990/covaci-1998-nec.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/talks/tutorial/1990/covaci-1998-nec.adoc[adoc]
 

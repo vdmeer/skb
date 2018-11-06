@@ -4,8 +4,5 @@ thesis/master/2000/huenerberg-philipp-2002:
     title: Internet-Mikrofon - Entwicklung eines Smart-IP Systems zur Audio Erfassung und Übertragung
     type: thesis
     year: 2002
-    library:
-        Folder: >
-            thesis/master/2000/
     adoc: |
         * Diplomarbeit (M.Sc. Thesis), Technical University Berlin (TUB), Berlin, Germany

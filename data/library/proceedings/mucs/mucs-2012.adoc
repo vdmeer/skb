@@ -11,6 +11,6 @@
       link:https://ernster.com/detail/ISBN-9783930736195//Managing-Ubiquitous-Communications-and-Services-2012[Ernster],
       link:http://vandermeer.de/library/proceedings/mucs/web/2012/index.php[Web: orig]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/proceedings/mucs/mucs-2012.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/proceedings/mucs/mucs-2012.adoc[adoc]
+        https://github.com/vdmeer/skb/tree/master/data/library/proceedings/mucs/mucs-2012.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/proceedings/mucs/mucs-2012.adoc[adoc]
 

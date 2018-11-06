@@ -6,12 +6,6 @@
       link:https://doi.org/10.1007/978-3-642-16836-9_8[DOI],
       link:https://www.researchgate.net/publication/221326618_An_Introduction_to_Network_Stack_Design_Using_Software_Design_Patterns?_sg=m_5P2FtkKbfTZtQTiSEBj0UleJuOxovxvPuGgSvGqmUAA9ymv4NF49x83-RheT4AfNd3q8RsCAiHbYerVPZ6_s0UxnZ9KlbyQUSH-Cd0.nFt_QzpWL-Kmctv_kRHw9YwBJDWA8H8EQwmz9wiJ4wwx7lc23wU1v9BXla-hlzqrZW5f23h7P3mRUiomscLXVg[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/phelan-2010-mace.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/phelan-2010-mace.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2010/phelan-2010-mace.pdf[PDF],
-        link:inproceedings/2010/phelan-2010-mace.docx[DOCX],
-        link:inproceedings/2010/phelan-2010-mace.pptx[PPTX]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/phelan-2010-mace.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/phelan-2010-mace.adoc[adoc]
 

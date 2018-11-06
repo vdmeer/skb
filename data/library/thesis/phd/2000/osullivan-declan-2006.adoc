@@ -4,10 +4,6 @@
 * Thesis (PhD): Trinity College Dublin (TCD), Dublin, Ireland
 * Links:
       skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/thesis/phd/2000/osullivan-declan-2006.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/thesis/phd/2000/osullivan-declan-2006.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/thesis/phd/2000/[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/thesis/phd/2000/osullivan-declan-2006.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/thesis/phd/2000/osullivan-declan-2006.adoc[adoc]
 

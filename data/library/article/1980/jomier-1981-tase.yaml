@@ -7,9 +7,6 @@ article/1980/jomier-1981-tase:
     urls:
         DOI: >
             https://doi.org/10.1109/TSE.1981.234540
-    library:
-        PDF: >
-            article/1980/jomier-1981-tase.pdf
     adoc: |
         * Reasons to read: separate static and dynamic policies for memory allocation, static: memory allocated at scheduling time, dynamic: memory evolves with process
         * Published: IEEE Transactions on Software Engineering (Volume: SE-7, Issue: 4, July 1981)

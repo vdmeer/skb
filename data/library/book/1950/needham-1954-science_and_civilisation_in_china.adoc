@@ -6,10 +6,6 @@
 * Links:
       link:https://en.wikipedia.org/wiki/Science_and_Civilisation_in_China[Wikipedia]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/book/1950/needham-1954-science_and_civilisation_in_china.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/book/1950/needham-1954-science_and_civilisation_in_china.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:book/1950/[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/book/1950/needham-1954-science_and_civilisation_in_china.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/book/1950/needham-1954-science_and_civilisation_in_china.adoc[adoc]
 

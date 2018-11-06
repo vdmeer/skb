@@ -5,12 +5,6 @@
 * Links:
       link:https://www.researchgate.net/publication/228958479_Design_principles_for_smart_space_management[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/vandermeer-2003-mucs-a.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/vandermeer-2003-mucs-a.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2000/vandermeer-2003-mucs-a.pdf[PDF],
-        link:inproceedings/2000/vandermeer-2003-mucs-a.doc[DOC],
-        link:inproceedings/2000/vandermeer-2003-mucs-a.ppt[PPT]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/vandermeer-2003-mucs-a.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/vandermeer-2003-mucs-a.adoc[adoc]
 

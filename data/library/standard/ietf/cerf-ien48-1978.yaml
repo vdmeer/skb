@@ -9,9 +9,6 @@ standard/ietf/cerf-ien48-1978:
             https://www.ietf.org/rfc/ien/ien48.txt
         PDF: >
             https://www.rfc-editor.org/ien/scanned/ien48.pdf
-    library:
-        Folder: >
-            standard/ietf/
     adoc: |
         * Reasons to read: IETF/IEN version of CATENET
         * Published: IETF IEN (Internet Experiment Note Index) #48, July 1978

@@ -6,6 +6,6 @@
 * Links:
       link:https://doi.org/10.1109/COMPSAC.2008.269[DOI]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/strassner-2008-compsac-a.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/strassner-2008-compsac-a.adoc[adoc]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/strassner-2008-compsac-a.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/strassner-2008-compsac-a.adoc[adoc]
 

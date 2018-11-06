@@ -14,12 +14,5 @@ inproceedings/2000/dudkowski-2009-im:
     urls:
         DOI: >
             https://doi.org/10.1109/INM.2009.5188858
-    library:
-        PDF: >
-            inproceedings/2000/dudkowski-2009-im.pdf
-        DOC: >
-            inproceedings/2000/dudkowski-2009-im.doc
-        PPT: >
-            inproceedings/2000/dudkowski-2009-im.ppt
     adoc: |
         * Published: 2009 IFIP/IEEE Symposium on Integrated Network and Service Management (IM), IM 2009

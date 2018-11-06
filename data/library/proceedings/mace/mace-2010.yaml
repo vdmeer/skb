@@ -13,9 +13,6 @@ proceedings/mace/mace-2010:
             http://vandermeer.de/library/proceedings/mace/web/2010/mace.php
         "Web: html": >
             http://vandermeer.de/library/proceedings/mace/html/2010/mace.html
-    library:
-        Folder: >
-            proceedings/mace/
     adoc: |
         * Workshop: 5^th^ IEEE International Workshop on Modelling Autonomic Communications Environments (MACE), Niagara Falls, Canada, 28 October, 2010
         * Published: part of the Lecture Notes in Computer Science book series (LNCS, volume 6473)

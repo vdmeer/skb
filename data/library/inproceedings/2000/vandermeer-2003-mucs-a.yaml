@@ -10,12 +10,5 @@ inproceedings/2000/vandermeer-2003-mucs-a:
     urls:
         ResearchGate: >
             https://www.researchgate.net/publication/228958479_Design_principles_for_smart_space_management
-    library:
-        PDF: >
-            inproceedings/2000/vandermeer-2003-mucs-a.pdf
-        DOC: >
-            inproceedings/2000/vandermeer-2003-mucs-a.doc
-        PPT: >
-            inproceedings/2000/vandermeer-2003-mucs-a.ppt
     adoc: |
         * Published: 1st International Workshop on Management of Ubiquitous Communications and Services (MUCS 2003), Waterford, Ireland, December 11, 2003

@@ -10,6 +10,6 @@ _Rosencrantz and Guildenstern are Dead_, 1991
       link:https://www.imdb.com/title/tt0100519/[IMDB],
       link:https://www.youtube.com/watch?v=3YHHHEg3ioc&t=1786s[Full movie]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/movie/1990/1991-rosencrantz-and-guildenstern-are-dead.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/movie/1990/1991-rosencrantz-and-guildenstern-are-dead.adoc[adoc]
+        https://github.com/vdmeer/skb/tree/master/data/library/movie/1990/1991-rosencrantz-and-guildenstern-are-dead.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/movie/1990/1991-rosencrantz-and-guildenstern-are-dead.adoc[adoc]
 

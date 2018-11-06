@@ -18,9 +18,6 @@ inproceedings/2000/fahy-2008-mace:
             https://doi.org/10.1007/978-3-540-87355-6_9
         ResearchGate: >
             https://www.researchgate.net/publication/221326611_Towards_an_Information_Model_That_Supports_Service-Aware_Self-managing_Virtual_Resources
-    library:
-        PDF: >
-            inproceedings/2000/fahy-2008-mace.pdf
     adoc: |
         * Published: IEEE International Workshop on Modelling Autonomic Communications Environments, MACE 2008: Modelling Autonomic Communications Environments pp 102-107
         * Part of the Lecture Notes in Computer Science book series (LNCS, volume 5276)

@@ -5,12 +5,6 @@
 * Links:
       link:https://www.researchgate.net/publication/228919512_Ubiquitous_Smart_Space_Management[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/vandermeer-2003-mucs-b.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/vandermeer-2003-mucs-b.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2000/vandermeer-2003-mucs-b.pdf[PDF],
-        link:inproceedings/2000/vandermeer-2003-mucs-b.doc[DOC],
-        link:inproceedings/2000/vandermeer-2003-mucs-b.ppt[PPT]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/vandermeer-2003-mucs-b.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/vandermeer-2003-mucs-b.adoc[adoc]
 

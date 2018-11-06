@@ -13,11 +13,6 @@ book/2010/smith-2012-elemental_design_patterns:
             https://www.researchgate.net/profile/P_Stotts/publication/4016067_Elemental_design_patterns_A_formal_semantics_for_composition_of_OO_software_architecture/links/53edebd00cf2981ada173ad5.pdf
         PPTX: >
             https://www.unc.edu/~stotts/comp723/EDP.pptx
-    library:
-        "PDF: Report": >
-            book/2010/smith-2012-elemental_design_patterns-report.pdf
-        "PPTX": >
-            book/2010/smith-2012-elemental_design_patterns.pptx
     adoc: |
         * Reasons to read: scientific approach to software pattern (not OO-software-patterns), comprehensive graphical language
         * Publisher: Addison-Wesley Professional

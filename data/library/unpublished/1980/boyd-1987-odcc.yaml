@@ -7,8 +7,5 @@ unpublished/1980/boyd-1987-odcc:
     urls:
         PDF: >
             http://www.dnipogo.org/boyd/organic_design.pdf
-    library:
-        Folder: >
-            unpublished/1980/
     adoc: |
         * Reasons to read: military use of OODA loop

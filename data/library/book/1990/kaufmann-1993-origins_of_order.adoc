@@ -7,6 +7,6 @@ Reasons to read: works out the math and science in detail and shows that life is
 * Links:
       link:https://www.goodreads.com/book/show/783559.The_Origins_of_Order[Goodreads]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/book/1990/kaufmann-1993-origins_of_order.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/book/1990/kaufmann-1993-origins_of_order.adoc[adoc]
+        https://github.com/vdmeer/skb/tree/master/data/library/book/1990/kaufmann-1993-origins_of_order.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/book/1990/kaufmann-1993-origins_of_order.adoc[adoc]
 

@@ -4,8 +4,5 @@ thesis/phd/2000/osullivan-declan-2006:
     title: "The OISIN framework: Ontology Interoperability in support of Semantic Interoperability"
     type: thesis
     year: 2006
-    library:
-        Folder: >
-            thesis/phd/2000/
     adoc: |
         * Thesis (PhD): Trinity College Dublin (TCD), Dublin, Ireland

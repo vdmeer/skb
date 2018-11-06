@@ -4,10 +4,6 @@
 * Diplomarbeit (M.Sc. Thesis), Fachhochschule Karlsruhe, Karlsruhe, Germany
 * Links:
       skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/thesis/master/2000/becker-ulla-2005.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/thesis/master/2000/becker-ulla-2005.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/thesis/master/2000/[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/thesis/master/2000/becker-ulla-2005.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/thesis/master/2000/becker-ulla-2005.adoc[adoc]
 

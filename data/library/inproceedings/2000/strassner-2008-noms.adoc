@@ -7,10 +7,6 @@
       link:https://doi.org/10.1109/NOMSW.2007.47[DOI],
       link:https://www.researchgate.net/publication/4334351_Modelling_Context_for_Autonomic_Networking[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/strassner-2008-noms.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/strassner-2008-noms.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2000/strassner-2008-noms.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/strassner-2008-noms.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/strassner-2008-noms.adoc[adoc]
 

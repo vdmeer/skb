@@ -4,10 +4,6 @@
 * Project Report: iPCSS - intelligent Personal Communication System - Deliverable 0, 1995
 * Links:
       skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/report/project/ipcss/ipcss-0-1995.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/report/project/ipcss/ipcss-0-1995.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/report/project/ipcss[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/report/project/ipcss/ipcss-0-1995.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/report/project/ipcss/ipcss-0-1995.adoc[adoc]
 

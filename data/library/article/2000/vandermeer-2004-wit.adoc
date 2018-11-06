@@ -5,10 +5,6 @@
 * Links:
       link:https://cdn.flipsnack.com/iframehtml5/embed_https.html?hash=fztpfdt1&fullscreen=1&startIndex=9&previous_page=true&t=14030611711403059635&bwd=1&pbs=1&v=4.78[Research Matters]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/2000/vandermeer-2004-wit.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/2000/vandermeer-2004-wit.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:article/2000/vandermeer-2004-wit.doc[DOC]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/article/2000/vandermeer-2004-wit.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/article/2000/vandermeer-2004-wit.adoc[adoc]
 

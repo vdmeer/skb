@@ -4,8 +4,5 @@ report/project/m-zones/m-zones-d11-2003:
     title: State of Art Surveys
     type: report
     year: 2003
-    library:
-        Folder: >
-            report/project/m-zones
     adoc: |
         * Project Report: M-Zones - Managed Zones - Deliverable D1.1, Release 2, May, 2003

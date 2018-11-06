@@ -6,12 +6,6 @@
 * Links:
       link:https://www.researchgate.net/publication/255621731_Emerging_Principles_of_Autonomic_Network_Management[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/vandermeer-2006-mace.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/vandermeer-2006-mace.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2000/vandermeer-2006-mace.pdf[PDF],
-        link:inproceedings/2000/vandermeer-2006-mace.doc[DOC],
-        link:inproceedings/2000/vandermeer-2006-mace.ppt[PPT]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/vandermeer-2006-mace.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/vandermeer-2006-mace.adoc[adoc]
 

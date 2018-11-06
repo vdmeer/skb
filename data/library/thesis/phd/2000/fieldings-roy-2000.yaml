@@ -4,8 +4,5 @@ thesis/phd/2000/fieldings-roy-2000:
     title: Architectural Styles and the Design of Network-based Software Architectures
     type: thesis
     year: 2000
-    library:
-        Folder: >
-            thesis/phd/2000/
     adoc: |
         * Thesis (PhD): University of California, Irvine, USA

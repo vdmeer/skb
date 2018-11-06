@@ -4,10 +4,6 @@
 * Diplomarbeit (M.Sc. Thesis), Technical University Berlin (TUB), Berlin, Germany
 * Links:
       skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/thesis/master/2000/schuster-mario-2001.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/thesis/master/2000/schuster-mario-2001.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/thesis/master/2000/[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/thesis/master/2000/schuster-mario-2001.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/thesis/master/2000/schuster-mario-2001.adoc[adoc]
 

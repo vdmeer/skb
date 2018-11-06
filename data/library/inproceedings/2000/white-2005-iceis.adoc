@@ -5,11 +5,6 @@
 * Links:
       link:https://www.researchgate.net/publication/220709167_User-Centric_Adaptive_Access_Control_and_Resource_Configuration_for_Ubiquitous_Computing_Environments?_sg=hVo8zZvpObcrNBoVHkpGiZ9S94bQeueNOx70LGAhh1ijGM4cDWTuvbopSd4sHaYDEGxa5LbgtrukS5-jKNMGmZctc5nq45M2-bYXk3Qq.ssArx7acVdgoyAlPjWuD06h5CC_E7If3NfysCA4FT7bNgyUPNv82vzC1Wu9HYWxdQciLLFcoz-GoALFw4m8-Ng[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/white-2005-iceis.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/white-2005-iceis.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2000/white-2005-iceis.pdf[PDF],
-        link:inproceedings/2000/white-2005-iceis.doc[DOC]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/white-2005-iceis.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/white-2005-iceis.adoc[adoc]
 

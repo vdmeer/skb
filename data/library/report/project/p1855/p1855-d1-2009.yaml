@@ -9,8 +9,5 @@ report/project/p1855/p1855-d1-2009:
     urls:
         Eurescom: >
             https://www.eurescom.eu/services/eurescom-study-programme/archive-of-eurescom-studies/studies-launched-in-2008/p1855/d1-strategy-and-roadmap-for-telcos-in-autonomic-computing-and-communications.html
-    library:
-        Folder: >
-            report/project/p1855
     adoc: |
         * Project Report: Eurescom P1855 - D1, February, 2009

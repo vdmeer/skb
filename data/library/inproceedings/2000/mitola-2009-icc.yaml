@@ -7,9 +7,6 @@ inproceedings/2000/mitola-2009-icc:
     urls:
         DOI: >
             https://doi.org/10.1109/ICC.2009.5198831
-    library:
-        PDF: >
-            inproceedings/2000/mitola-2009-icc.pdf
     adoc: |
         * Reasons to read: survey of policy languages, here cognitive radio
         * Published: 2009 IEEE International Conference on Communications

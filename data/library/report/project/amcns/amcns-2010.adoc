@@ -1,13 +1,9 @@
-*Sven van der Meer* (ed): _AMCNS Final Report_, 2010
+*Sven van der Meer*: _AMCNS Final Report_, 2010
 
-* Editor: Sven van der Meer
+* Author: Sven van der Meer
 * Project Report: AMCNS - Autonomic Management of Communication Networks and Servicess - Final Report, February 10, 2010
 * Links:
       skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/report/project/amcns/amcns-2010.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/report/project/amcns/amcns-2010.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/report/project/amcns[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/report/project/amcns/amcns-2010.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/report/project/amcns/amcns-2010.adoc[adoc]
 

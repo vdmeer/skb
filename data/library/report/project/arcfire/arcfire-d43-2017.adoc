@@ -6,10 +6,6 @@
 * Links:
       link:http://ict-arcfire.eu/index.php/research/deliverables/[Arcfire]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/report/project/arcfire/arcfire-d43-2017.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/report/project/arcfire/arcfire-d43-2017.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/report/project/arcfire[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/report/project/arcfire/arcfire-d43-2017.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/report/project/arcfire/arcfire-d43-2017.adoc[adoc]
 

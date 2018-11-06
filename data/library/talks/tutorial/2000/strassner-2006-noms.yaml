@@ -8,9 +8,6 @@ talks/tutorial/2000/strassner-2006-noms:
     urls:
         Conference: >
             http://noms2006.ieee-noms.org/
-    library:
-        Folder: >
-            talks/tutorial/2000/
     adoc: |
         * Tutorial: 2006 IEEE/IFIP Network Operations and Management Symposium (NOMS 2006), Vancouver, Canada, April 3-7, 2006
 

@@ -6,8 +6,5 @@ talks/panel/2000/vandermeer-2004-mucs:
     title: Can Ubiquitous Computing Environments be Trusted to Self-Managed?
     type: panel
     year: 2004
-    library:
-        Folder: >
-            talks/panel/2000/
     adoc: |
         * Panel: 2nd International Workshop on Management of Ubiquitous Communications and Services (MUCS 2004), December 12-13, 2004

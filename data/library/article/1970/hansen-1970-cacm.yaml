@@ -9,12 +9,6 @@ article/1970/hansen-1970-cacm:
             https://doi.org/10.1145/362258.362278
         PDF: >
             http://ddhf.dk/site_dk/rc/pbh/MonitorPaper.pdf
-    library:
-        PDF: >
-            article/1970/hansen-1970-cacm.pdf
-        "PDF new typeset": >
-            article/1970/hansen-1970-cacm-2.pdf[
-
     adoc: |
         * Reasons to read: first principle of separation of strategy from process
         * Published: Communications of the ACM CACM, Volume 13 Issue 4, April 1970, Pages 238-241

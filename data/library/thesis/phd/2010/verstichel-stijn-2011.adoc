@@ -5,10 +5,6 @@
 * Links:
       link:https://biblio.ugent.be/publication/1266049[UGhent]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/thesis/phd/2010/verstichel-stijn-2011.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/thesis/phd/2010/verstichel-stijn-2011.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/thesis/phd/2010/[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/thesis/phd/2010/verstichel-stijn-2011.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/thesis/phd/2010/verstichel-stijn-2011.adoc[adoc]
 

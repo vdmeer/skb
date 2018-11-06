@@ -7,10 +7,6 @@
       link:https://en.wikipedia.org/wiki/The_Structure_of_Scientific_Revolutions[Wikipedia],
       link:https://www.goodreads.com/book/show/202695.Genesis_and_Development_of_a_Scientific_Fact[Goodreads]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/book/1930/fleck-1935-gensis.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/book/1930/fleck-1935-gensis.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:book/1930/[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/book/1930/fleck-1935-gensis.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/book/1930/fleck-1935-gensis.adoc[adoc]
 

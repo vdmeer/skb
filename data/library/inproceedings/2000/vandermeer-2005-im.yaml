@@ -12,8 +12,5 @@ inproceedings/2000/vandermeer-2005-im:
             http://im2005.ieee-im.org/confprog.html
         "PDF: TCD": >
             https://www.scss.tcd.ie/Dave.Lewis/files/05c.pdf
-    library:
-        PDF: >
-            inproceedings/2000/vandermeer-2005-im.pdf
     adoc: |
         * Published: 2005 IFIP/IEEE Symposium on Integrated Network and Service Management (IM), IM 2005

@@ -7,6 +7,6 @@
       link:https://en.wikipedia.org/wiki/The_Beginning_of_Infinity[Wikipedia],
       link:https://www.goodreads.com/book/show/10483171-the-beginning-of-infinity?from_search=true[Goodreads]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/book/2010/deutsch-2011-infinity.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/book/2010/deutsch-2011-infinity.adoc[adoc]
+        https://github.com/vdmeer/skb/tree/master/data/library/book/2010/deutsch-2011-infinity.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/book/2010/deutsch-2011-infinity.adoc[adoc]
 

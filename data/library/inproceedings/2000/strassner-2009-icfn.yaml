@@ -13,8 +13,5 @@ inproceedings/2000/strassner-2009-icfn:
             https://doi.org/10.1109/ICFN.2009.61
         ResearchGate: >
             https://www.researchgate.net/publication/228617454_Autonomic_Orchestration_of_Future_Networks_to_Realize_Prosumer_Services
-    library:
-        PDF: >
-            inproceedings/2000/strassner-2009-icfn.pdf
     adoc: |
         * Published: 2009 International Conference on Future Networks, ICFN

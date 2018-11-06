@@ -8,11 +8,6 @@
       link:https://doi.org/10.1007/978-3-7643-8569-9_1[DOI],
       link:https://www.researchgate.net/publication/227204231_Technology_Neutral_Principles_and_Concepts_for_Autonomic_Networking[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inbook/2000/vandermeer-2008-aanc.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inbook/2000/vandermeer-2008-aanc.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inbook/2000/vandermeer-2008-aanc.pdf[PDF],
-        link:inbook/2000/vandermeer-2008-aanc.7z[7z]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inbook/2000/vandermeer-2008-aanc.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inbook/2000/vandermeer-2008-aanc.adoc[adoc]
 

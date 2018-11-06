@@ -6,9 +6,6 @@ proceedings/mucs/mucs-2003:
     title: Managing Ubiquitous Communications and Services
     type: proceeding
     year: 2003
-    library:
-        Folder: >
-            proceedings/mucs
     adoc: |
         * Workshop: 1^st^ International Workshop on Managing Ubiquitous Communications and Services (MUCS), Waterford, Ireland, 11 December, 2003
           ** original name: 1^st^ Open M-Zones Workshop

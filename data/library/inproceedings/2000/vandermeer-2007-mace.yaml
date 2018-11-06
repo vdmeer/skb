@@ -12,12 +12,5 @@ inproceedings/2000/vandermeer-2007-mace:
     urls:
         ResearchGate: >
             https://www.researchgate.net/publication/268369269_Manageability_of_Autonomic_Software_Artifacts_using_Contracts_and_Traceability_Maps
-    library:
-        PDF: >
-            inproceedings/2000/vandermeer-2007-mace.pdf
-        DOC: >
-            inproceedings/2000/vandermeer-2007-mace.doc
-        "PPT: Figures": >
-            inproceedings/2000/vandermeer-2007-mace-figures.ppt
     adoc: |
         * Published: Second IEEE International Workshop on Modelling Autonomic Communications Environments, MACE 2007

@@ -4,8 +4,5 @@ talks/invited-talk/2000/vandermeer-2006-acf:
     title: Modelling Autonomic Network Management
     type: invited-talk
     year: 2006
-    library:
-        Folder: >
-            talks/invited-talk/2000/
     adoc: |
         * Invited Talk: Meeting of the Autonomic Communications Forum (ACF), Paris, France, September 28, 2006

@@ -10,9 +10,6 @@ talks/panel/2010/vandermeer-2015-im:
     urls:
         Conference: >
             http://im2015.ieee-im.org/content/panels-1
-    library:
-        Folder: >
-            talks/panel/2010/
     adoc: |
         * Panel: 2015 IFIP/IEEE Symposium on Integrated Network and Service Management (IM 2015), Ottawa, Canada, May 14, 2015
           ** Chair: Imen Grida ben Yahia (Orange, France)

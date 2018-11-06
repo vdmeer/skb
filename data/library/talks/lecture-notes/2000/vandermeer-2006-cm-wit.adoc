@@ -5,10 +5,6 @@
   ** with guest talks by Joel Fleck II (HP) and John Strassner (Motorola)
 * Links:
       skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/talks/lecture-notes/2000/vandermeer-2006-cm-wit.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/talks/lecture-notes/2000/vandermeer-2006-cm-wit.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/talks/lecture-notes/2000/[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/talks/lecture-notes/2000/vandermeer-2006-cm-wit.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/talks/lecture-notes/2000/vandermeer-2006-cm-wit.adoc[adoc]
 

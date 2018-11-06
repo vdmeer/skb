@@ -8,10 +8,6 @@
       link:http://cybergraph.dubberly.com[Interactive Graph],
       link:http://staging.dubberly.com/cybernetics/article-inside-text[Article Text]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/online/2010/dubberly-2015-cybernetics.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/online/2010/dubberly-2015-cybernetics.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/online/2010/dubberly-2015-cybernetics.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/online/2010/dubberly-2015-cybernetics.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/online/2010/dubberly-2015-cybernetics.adoc[adoc]
 

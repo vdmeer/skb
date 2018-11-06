@@ -4,10 +4,6 @@ _UMTS Akademie_, 2001
 * Lecture: Sommersemester 2001 (SS01), Technical University Berlin
 * Links:
       skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/talks/lecture-notes/2000/umts-tub-2001.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/talks/lecture-notes/2000/umts-tub-2001.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/talks/lecture-notes/2000/[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/talks/lecture-notes/2000/umts-tub-2001.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/talks/lecture-notes/2000/umts-tub-2001.adoc[adoc]
 

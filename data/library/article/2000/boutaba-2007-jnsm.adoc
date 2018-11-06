@@ -7,10 +7,6 @@
       link:https://doi.org/10.1007/s10922-007-9083-8[DOI],
       link:http://nsm1.cs.uwaterloo.ca/rboutaba/Papers/Journals/2007/Boutaba07.pdf[PDF]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/2000/boutaba-2007-jnsm.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/2000/boutaba-2007-jnsm.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:article/2000/boutaba-2007-jnsm.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/article/2000/boutaba-2007-jnsm.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/article/2000/boutaba-2007-jnsm.adoc[adoc]
 

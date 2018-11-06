@@ -4,8 +4,5 @@ thesis/master/1990/gadegast-frank-1995:
     title: TCP/IP-basierte Dienste zur Speicherung von Multimedia-Daten
     type: thesis
     year: 1995
-    library:
-        Folder: >
-            thesis/master/1990/
     adoc: |
         * Diplomarbeit (M.Sc. Thesis), Technical University Berlin (TUB), Berlin, Germany

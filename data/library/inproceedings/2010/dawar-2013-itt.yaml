@@ -14,10 +14,5 @@ inproceedings/2010/dawar-2013-itt:
             https://www.researchgate.net/publication/326905013_Building_a_Scalable_Event_Processing_System_with_Messaging_and_Policies-Test_and_Evaluation_of_RabbitMQ_and_Drools_Expert
         "ITT 2013": >
             http://ittconference.ie/index.php?page=12th-annual-conference---ait
-    library:
-        PDF: >
-            inproceedings/2010/dawar-2013-itt.pdf
-        DOC: >
-            inproceedings/2010/dawar-2013-itt.doc
     adoc: |
         * Published: 12th Annual IT&T ConferenceAt: Athlone, Ireland, 2013

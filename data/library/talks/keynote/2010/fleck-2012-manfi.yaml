@@ -4,8 +4,5 @@ talks/keynote/2010/fleck-2012-manfi:
     title: "Future Internet Management: Surfing a new Wave"
     type: keynote
     year: 2012
-    library:
-        Folder: >
-            talks/keynote/2010/
     adoc: |
         * Keynote: Fourth IEEE/IFIP International Workshop on Management of the Future Internet (ManFI 2012)

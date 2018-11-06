@@ -4,8 +4,5 @@ thesis/phd/2000/barret-keara-2009:
     title: A Framework for the Semantic Translation of Policy Language Concepts
     type: thesis
     year: 2009
-    library:
-        Folder: >
-            thesis/phd/2000/
     adoc: |
         * Thesis (PhD): Waterford Institute of Technology (WIT), Waterford, Ireland

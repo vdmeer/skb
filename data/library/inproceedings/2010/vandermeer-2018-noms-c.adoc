@@ -6,13 +6,6 @@
       link:https://doi.org/10.1109/NOMS.2018.8406117[DOI],
       link:https://www.researchgate.net/publication/325058016_Demo_Adaptive_Policy_Execution_APEX[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/vandermeer-2018-noms-c.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/vandermeer-2018-noms-c.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2010/vandermeer-2018-noms-c.pdf[PDF],
-        link:inproceedings/2010/vandermeer-2018-noms-c.7z[7z],
-        link:inproceedings/2010/vandermeer-2018-noms-c-poster.pdf[PDF: poster],
-        link:inproceedings/2010/vandermeer-2018-noms-c-poster.pptx[PPTX: poster]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/vandermeer-2018-noms-c.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/vandermeer-2018-noms-c.adoc[adoc]
 

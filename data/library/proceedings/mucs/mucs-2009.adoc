@@ -11,6 +11,6 @@
       link:https://ernster.com/detail/ISBN-9783930736133//Managing-Ubiquitous-Communications-and-Services-2009?CSPCHD=00000100000011f7El1v7C0000K$sX4oCbt1hGKVr6wR4gvQ--&bpmctrl=bpmrownr.3%3A3%7Cforeign.63574-57-3-79643%3A80325%3A76780[Ernster],
       link:http://vandermeer.de/library/proceedings/mucs/web/2009/index.php[Web: orig]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/proceedings/mucs/mucs-2009.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/proceedings/mucs/mucs-2009.adoc[adoc]
+        https://github.com/vdmeer/skb/tree/master/data/library/proceedings/mucs/mucs-2009.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/proceedings/mucs/mucs-2009.adoc[adoc]
 

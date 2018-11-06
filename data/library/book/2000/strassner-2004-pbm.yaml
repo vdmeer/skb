@@ -7,8 +7,5 @@ book/2000/strassner-2004-pbm:
     urls:
         ScienceDirect: >
             https://www.sciencedirect.com/science/book/9781558608597
-    library:
-        Folder: >
-            book/2000/
     adoc: |
         * Publisher: Morgan Kaufman

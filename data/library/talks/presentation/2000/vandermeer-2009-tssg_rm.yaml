@@ -5,8 +5,5 @@ talks/presentation/2000/vandermeer-2009-tssg_rm:
     titleaddon: Learn to read, understand, design them
     type: presentation
     year: 2009
-    library:
-        Folder: >
-            talks/presentation/2000/
     adoc: |
         * Presentation: TSSG Research Modules, Waterford, Ireland, December 5, 2009

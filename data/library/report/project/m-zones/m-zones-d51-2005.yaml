@@ -10,8 +10,5 @@ report/project/m-zones/m-zones-d51-2005:
     title: Evaluation and Dissemination Report
     type: report
     year: 2005
-    library:
-        Folder: >
-            report/project/m-zones
     adoc: |
         * Project Report: M-Zones - Managed Zones - Deliverable D5.1, May 12, 2005

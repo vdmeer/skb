@@ -9,9 +9,6 @@ talks/panel/2000/vandermeer-2006-dsom:
     title: Research Challenges in Network Management
     type: panel
     year: 2006
-    library:
-        Folder: >
-            talks/panel/2000/
     adoc: |
         * Panel: 17^th^ IFIP/IEEE International Workshop on Distributed Systems: Operations and Management (DSOM 2006), October 23-25, 2006
         * My topic: _Policy and Profile: Enabling Self-knowledge for Autonomic Systems_

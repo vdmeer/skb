@@ -4,8 +4,5 @@ talks/lecture-notes/2000/vandermeer-2000-mvs-tub:
     title: Management von verteilten Systemen
     type: lecture-note
     year: 2000
-    library:
-        Folder: >
-            talks/lecture-notes/2000/
     adoc: |
         * Lecture: Sommersemester 2000 (SS00), Technical University Berlin

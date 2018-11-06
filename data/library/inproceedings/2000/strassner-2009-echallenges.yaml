@@ -10,9 +10,6 @@ inproceedings/2000/strassner-2009-echallenges:
     urls:
         ResearchGate: >
             https://www.researchgate.net/publication/266097687_Semantic_Mediation_to_Enable_Network_and_Service_Management_Interoperability_in_Future_Internet_Networks
-    library:
-        PDF: >
-            inproceedings/2000/strassner-2009-echallenges.pdf
     adoc: |
-        * Published: 19th eChallenges Conf. (e-2009)
+        * Published: 19^th^ eChallenges Conf. (e-2009)
         * Awards: Best Paper Award

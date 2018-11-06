@@ -10,10 +10,6 @@
       link:http://vandermeer.de/library/proceedings/mace/web/2009/mace.php[Web: orig],
       link:http://vandermeer.de/library/proceedings/mace/html/2009/mace.html[Web: html]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/proceedings/mace/mace-2009.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/proceedings/mace/mace-2009.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/proceedings/mace/[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/proceedings/mace/mace-2009.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/proceedings/mace/mace-2009.adoc[adoc]
 

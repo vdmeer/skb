@@ -4,10 +4,6 @@
 * Project Report: FAME - Federated, Autonomic Management of End-to-End Services - Deliverable D3.2, March 21, 2011
 * Links:
       skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/report/project/fame/fame-d32-2011.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/report/project/fame/fame-d32-2011.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/report/project/fame[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/report/project/fame/fame-d32-2011.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/report/project/fame/fame-d32-2011.adoc[adoc]
 

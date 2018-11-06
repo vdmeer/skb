@@ -13,9 +13,6 @@ book/1920/wittgenstein-1922-tractatus:
             http://www.gutenberg.org/ebooks/5740
         "eBooks at UMass": >
             http://people.umass.edu/klement/tlp
-    library:
-        PDF: >
-            book/1920/wittgenstein-1922-tractatus.pdf
     adoc: |
         * Published: 1921 (German, _Logisch-Philosophische Abhandlung_), 1922 (English)
         * Reasons to read: picture theory, logical atomism, distinction between saying and showing, Wittgentstein's ladder, proposition 7

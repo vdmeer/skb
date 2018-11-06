@@ -7,8 +7,5 @@ talks/invited-talk/2000/arbanowski-2000-datacom:
     title: "Unified Messaging: How to integrate different Services"
     type: invited-talk
     year: 2000
-    library:
-        Folder: >
-            talks/invited-talk/2000/
     adoc: |
         * Invited Talk: DATACOM Akademie, Berlin, Germany, October 16-17, 2000

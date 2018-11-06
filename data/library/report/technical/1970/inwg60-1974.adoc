@@ -7,10 +7,6 @@
 * Links:
       link:https://core.ac.uk/download/pdf/52942274.pdf#page=89[PDF: IIASA 1975 Discussion]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/report/technical/1970/inwg60-1974.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/report/technical/1970/inwg60-1974.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/report/technical/1970[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/report/technical/1970/inwg60-1974.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/report/technical/1970/inwg60-1974.adoc[adoc]
 

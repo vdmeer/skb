@@ -4,8 +4,5 @@ talks/lecture-notes/2000/magedanz-2001-in-tub:
     title: Intelligente Netze Kompaktkurs
     type: lecture-note
     year: 2001
-    library:
-        Folder: >
-            talks/lecture-notes/2000/
     adoc: |
         * Lecture: Sommersemester 2001 (SS01), Technical University Berlin

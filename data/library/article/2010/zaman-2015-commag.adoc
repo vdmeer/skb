@@ -6,10 +6,6 @@
       link:https://doi.org/10.1109/MCOM.2015.7010547[DOI],
       link:https://www.researchgate.net/publication/273396086_A_Recommender_System_Architecture_for_Predictive_Telecom_Network_Management[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/2010/zaman-2015-commag.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/2010/zaman-2015-commag.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:article/2010/[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/article/2010/zaman-2015-commag.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/article/2010/zaman-2015-commag.adoc[adoc]
 

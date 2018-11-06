@@ -11,8 +11,5 @@ talks/presentation/2010/vandermeer-2018-rina:
             http://ict-arcfire.eu/index.php/2018/06/10/rina-workshop-2018-report/
         PDF: >
             http://ict-arcfire.eu/wp-content/uploads/2018/06/2018-05-22-rina-dms.pdf
-    library:
-        Folder: >
-            talks/presentation/2010/
     adoc: |
         * Presentation: 5^th^ RINA Workshop, Barcelona, Spain, May 22, 2018

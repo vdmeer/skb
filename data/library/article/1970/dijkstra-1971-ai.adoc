@@ -7,10 +7,6 @@
       link:https://doi.org/10.1007/BF00289519[DOI],
       link:https://citemaster.net/get/a78f58ca-651b-11e2-a63c-00163e009cc7/EWD310.PDF[PDF]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/1970/dijkstra-1971-ai.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/1970/dijkstra-1971-ai.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:article/1970/dijkstra-1971-ai.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/article/1970/dijkstra-1971-ai.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/article/1970/dijkstra-1971-ai.adoc[adoc]
 

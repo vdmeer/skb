@@ -6,10 +6,6 @@
       link:https://doi.org/10.1007/s007790170026[DOI],
       link:https://www.researchgate.net/publication/220141881_The_Human_Communication_Space_Towards_I-centric_Communications[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/2000/arbanowski-2001-puc.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/2000/arbanowski-2001-puc.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:article/2000/arbanowski-2001-puc.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/article/2000/arbanowski-2001-puc.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/article/2000/arbanowski-2001-puc.adoc[adoc]
 

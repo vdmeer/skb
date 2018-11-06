@@ -9,10 +9,6 @@
       link:https://www.researchgate.net/publication/234785923_Policymechanism_separation_in_Hydra[ResearchGate],
       link:http://www.cse.psu.edu/~trj1/cse543-f12/docs/p132-levin-hydra.pdf[PDF]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1970/levin-1975-sosp.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1970/levin-1975-sosp.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/inproceedings/1970/levin-1975-sosp.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1970/levin-1975-sosp.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1970/levin-1975-sosp.adoc[adoc]
 

@@ -10,9 +10,6 @@ book/1980/maturana-1987-tree_of_knowledge:
             https://www.goodreads.com/book/show/695440.Tree_of_Knowledge?ac=1&from_search=true
         PDF: >
             http://www.cybertech-engineering.ch/research/references/Maturana1988/maturana-h-1987-tree-of-knowledge-bkmrk.pdf
-    library:
-        PDF: >
-            book/1980/maturana-1987-tree_of_knowledge.pdf
     adoc: |
         * Reasons to read: ###tbd###
         * Publisher: Shambhala, Boston & London

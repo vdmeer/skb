@@ -13,9 +13,6 @@ book/1910/russel-1919-mathematical_philosophy:
             https://archive.org/details/introductiontoma00russuoft
         "Online at UMass": >
             http://people.umass.edu/klement/russell-imp.html
-    library:
-        PDF: >
-            book/1910/russel-1919-mathematical_philosophy.pdf
     adoc: |
         * Reasons to read: introduction to mathematics and the more fundamental "Principia Mathematica"
         * Publisher: George Allen & Unwin, Ltd, London

@@ -4,10 +4,6 @@
 * Project Report: FAME - Federated, Autonomic Management of End-to-End Services - Annual Report Y2, February 18, 2011
 * Links:
       skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/report/project/fame/fame-y2-2011.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/report/project/fame/fame-y2-2011.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/report/project/fame[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/report/project/fame/fame-y2-2011.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/report/project/fame/fame-y2-2011.adoc[adoc]
 

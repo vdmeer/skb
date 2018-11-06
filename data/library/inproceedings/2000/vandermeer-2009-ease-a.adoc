@@ -6,10 +6,6 @@
       link:https://doi.org/10.1109/EASe.2009.15[DOI],
       link:https://www.researchgate.net/publication/228749839_Architectural_Artefacts_for_Autonomic_Distributed_Systems-_Contract_Language[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/vandermeer-2009-ease-a.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/vandermeer-2009-ease-a.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2000/vandermeer-2009-ease-a.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/vandermeer-2009-ease-a.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/vandermeer-2009-ease-a.adoc[adoc]
 

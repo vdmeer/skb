@@ -7,10 +7,6 @@
       link:https://doi.org/10.1109/FTDCS.1990.138376[DOI],
       link:https://www.computer.org/csdl/proceedings/ftdcs/1990/2088/00/00138376.pdf[PDF]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1990/sloman-1990-ftdcs.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1990/sloman-1990-ftdcs.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/inproceedings/1990/sloman-1990-ftdcs.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1990/sloman-1990-ftdcs.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1990/sloman-1990-ftdcs.adoc[adoc]
 

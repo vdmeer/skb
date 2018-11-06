@@ -6,11 +6,6 @@
       link:https://doi.org/10.23919/INM.2017.7987370[DOI],
       link:https://www.researchgate.net/publication/317014658_Using_the_COMPA_Autonomous_Architecture_for_Mobile_Network_Security[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/fallon-2017-im-b.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/fallon-2017-im-b.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2010/fallon-2017-im-b.pdf[PDF],
-        link:inproceedings/2010/fallon-2017-im-b.7z[7z]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/fallon-2017-im-b.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/fallon-2017-im-b.adoc[adoc]
 

@@ -6,10 +6,6 @@
 * Links:
       link:https://www.goodreads.com/book/show/8193269-patterns-in-network-architecture[Goodreads]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/book/2000/day-2007-pna.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/book/2000/day-2007-pna.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:book/2000/[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/book/2000/day-2007-pna.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/book/2000/day-2007-pna.adoc[adoc]
 

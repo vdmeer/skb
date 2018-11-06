@@ -6,12 +6,6 @@
 * Links:
       link:https://www.researchgate.net/publication/228744086_Context_Yes_but_to_whom[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/osmani-2005-mhci.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/osmani-2005-mhci.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2000/osmani-2005-mhci.pdf[PDF],
-        link:inproceedings/2000/osmani-2005-mhci.doc[DOC],
-        link:inproceedings/2000/osmani-2005-mhci.ppt[PPT]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/osmani-2005-mhci.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/osmani-2005-mhci.adoc[adoc]
 

@@ -1,6 +1,6 @@
 _Taming Policy Complexity: From Theory to Execution_, 2018
 
-* Presenterss: Balaji Ethirajulu, Stephen Terrill, Sven van der Meer, Liam Fallon
+* Presenters: Balaji Ethirajulu, Stephen Terrill, Sven van der Meer, Liam Fallon
 * Ericsson Tutorial, March 27, 2018
 * Part of: Linux Foundation Open Networking Summit North America 2018 (ONS), Los Angeles, CA, USA, March 26-29, 2018
   ** Balaji Ethirajulu: _Welcome and a Glance in to Future Networks_, link:https://onsna18.sched.com/event/EFjl/ericsson-tutorial-welcome-and-a-glance-in-to-future-networks-balaji-ethirajulu-ericsson[Session] ┃link:https://schd.ws/hosted_files/onsna18/75/Ericsson%20Tutorial%20introduction%20PA1.pdf[PDF]
@@ -10,10 +10,6 @@ _Taming Policy Complexity: From Theory to Execution_, 2018
 * Links:
       link:https://onsna18.sched.com/event/DmOj/tutorial-taming-policy-complexity-from-theory-to-execution-presented-by-ericsson[Event]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/talks/tutorial/2010/ethirajulu-2018-ons.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/talks/tutorial/2010/ethirajulu-2018-ons.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/talks/tutorial/2010/ons-2018/[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/talks/tutorial/2010/ethirajulu-2018-ons.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/talks/tutorial/2010/ethirajulu-2018-ons.adoc[adoc]
 

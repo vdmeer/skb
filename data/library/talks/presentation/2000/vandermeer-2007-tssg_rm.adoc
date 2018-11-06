@@ -4,10 +4,6 @@
 * Presentation: TSSG Research Modules, Waterford, Ireland, February 7, 2007
 * Links:
       skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/talks/presentation/2000/vandermeer-2007-tssg_rm.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/talks/presentation/2000/vandermeer-2007-tssg_rm.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/talks/presentation/2000/[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/talks/presentation/2000/vandermeer-2007-tssg_rm.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/talks/presentation/2000/vandermeer-2007-tssg_rm.adoc[adoc]
 

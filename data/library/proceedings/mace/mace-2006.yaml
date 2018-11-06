@@ -15,13 +15,6 @@ proceedings/mace/mace-2006:
             http://vandermeer.de/library/proceedings/mace/web/2006/mace.php
         "Web: html": >
             http://vandermeer.de/library/proceedings/mace/html/2006/mace.html
-    library:
-        "PDF: CFP": >
-            proceedings/mace/mace-2006.pdf
-        "DOC: CFP": >
-            proceedings/mace/mace-2006.doc
-        "PDF: NOMS Flyer": >
-            proceedings/mace/mace-2006-flyer-noms.pdf
     adoc: |
         * Workshop: First IEEE International Workshop on Modelling Autonomic Communications Environments (MACE), Dublin, Ireland, 25-26 October, 2006
         * Published: multicon lecture notes series, No. 2

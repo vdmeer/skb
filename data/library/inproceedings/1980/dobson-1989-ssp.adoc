@@ -6,10 +6,6 @@
 * Links:
       link:https://doi.org/10.1109/SECPRI.1989.36297[DOI]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1980/dobson-1989-ssp.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1980/dobson-1989-ssp.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/inproceedings/1980/dobson-1989-ssp.pdf[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1980/dobson-1989-ssp.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1980/dobson-1989-ssp.adoc[adoc]
 

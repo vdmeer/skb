@@ -10,10 +10,5 @@ inproceedings/2000/carroll-2008-compsac:
             https://doi.org/10.1109/COMPSAC.2008.220
         ResearchGate: >
             https://www.researchgate.net/publication/221028524_Semantic_Integration_of_User_Data_-_Models_and_Processes_Enabling_Seamless_Mobility
-    library:
-        PDF: >
-            inproceedings/2000/carroll-2008-compsac.pdf
-        DOC: >
-            inproceedings/2000/carroll-2008-compsac.doc
     adoc: |
         * Published: 2008 32nd Annual IEEE International Computer Software and Applications Conference

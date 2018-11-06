@@ -4,8 +4,5 @@ thesis/master/2000/sparkowsky-alexander-2002:
     title: Mobilitäts- und Nachrichtendienste für drahtlos vernetzte aktive Namensschilder
     type: thesis
     year: 2002
-    library:
-        Folder: >
-            thesis/master/2000/
     adoc: |
         * Diplomarbeit (M.Sc. Thesis), Technical University Berlin (TUB), Berlin, Germany

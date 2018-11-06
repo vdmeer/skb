@@ -6,8 +6,5 @@ inproceedings/1990/vandermeer-1999-comcon:
     title: "Environment-aware Applications: Integrating Mobile Communications and Ubiquitous Computing"
     type: inproceedings
     year: 1999
-    library:
-        Folder: >
-            inproceedings/1990
     adoc: |
         * Published: 7^th^ Annual International Conference on Advances in Communication and Control (COMCON 1999), pp 415-428, Athens, Greece, June 28 - July 2, 1999

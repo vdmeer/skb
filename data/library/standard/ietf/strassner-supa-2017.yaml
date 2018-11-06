@@ -9,8 +9,5 @@ standard/ietf/strassner-supa-2017:
     urls:
         IETF: >
             https://datatracker.ietf.org/doc/draft-ietf-supa-generic-policy-info-model/
-    library:
-        PDF: >
-            standard/ietf/strassner-supa-2017.pdf
     adoc: |
         * Published: IETF draft, version 3, May 2017

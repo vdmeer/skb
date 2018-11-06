@@ -6,7 +6,10 @@
 * Publisher: multicon verlag, Schöneiche bei Berlin
 * ISBN: ISBN-13: 978-3-930736-09-6, ISBN-10: 3-930736-09-8
 * Links:
-      skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/proceedings/mace/mace-2007.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/proceedings/mace/mace-2007.adoc[adoc]
+      link:https://ernster.com/detail/ISBN-9783930736096//Modelling-Autonomic-Communications-Environments-2007?bpmctrl=bpmrownr.3%7Cforeign.74180-1-0-0[Ernster],
+      link:http://vandermeer.de/library/proceedings/mace/web/2007/mace.php[Web: orig],
+      link:http://vandermeer.de/library/proceedings/mace/html/2007/mace.html[Web: html]
+    ┃ skb:
+        https://github.com/vdmeer/skb/tree/master/data/library/proceedings/mace/mace-2007.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/proceedings/mace/mace-2007.adoc[adoc]
 

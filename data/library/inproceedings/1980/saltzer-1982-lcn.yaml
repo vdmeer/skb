@@ -13,11 +13,6 @@ inproceedings/1980/saltzer-1982-lcn:
             http://web.mit.edu/Saltzer/www/publications/lnn/csr-lnn-028.pdf
         "DOI: RFC1498": >
             https://dx.doi.org/10.17487/RFC1498
-    library:
-        "PDF: slides": >
-            inproceedings/1980/saltzer-1982-lcn-slides.pdf
-        "PDF: RFC": >
-            inproceedings/1980/saltzer-1982-lcn-rfc.pdf
     adoc: |
         * Reasons to read: further thoughts in name and name binding
         * Published: FIP TC 6 International In-Depth Symposium on Local Networks, LCN, P. Ravasio (Eds.), pp 311-317, 1982

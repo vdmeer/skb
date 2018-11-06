@@ -7,10 +7,6 @@
       link:https://doi.org/10.1016/j.comnet.2011.09.014[DOI],
       link:http://crypto.fudan.edu.cn/people/weili/papers/han-policysurvey.pdf[PDF]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/2010/han-2012-cn.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/2010/han-2012-cn.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:article/2010/han-2012-cn.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/article/2010/han-2012-cn.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/article/2010/han-2012-cn.adoc[adoc]
 

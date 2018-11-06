@@ -5,10 +5,6 @@
 * Links:
       link:https://www.researchgate.net/publication/229012648_Investigating_the_Applicability_of_Mobile_IP_and_Cellular_IP_for_Roaming_in_Smart_Environments[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/barrett-2003-itsrs.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/barrett-2003-itsrs.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2000/barrett-2003-itsrs.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/barrett-2003-itsrs.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/barrett-2003-itsrs.adoc[adoc]
 

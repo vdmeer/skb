@@ -11,9 +11,6 @@ article/1960/dijkstra-1968-cacm:
             http://www.cs.utexas.edu/users/EWD/ewd01xx/EWD196.PDF
         Text: >
             http://www.cs.utexas.edu/~EWD/transcriptions/EWD01xx/EWD196.html
-    library:
-        PDF: >
-            article/1960/dijkstra-1968-cacm.pdf
     adoc: |
         * Reasons to read: introduces concept of layers
         * Published: Communications of the ACM CACM, Volume 11 Issue 5, May 1968, Pages 341-346 

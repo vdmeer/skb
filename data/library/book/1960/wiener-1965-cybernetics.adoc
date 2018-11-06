@@ -8,10 +8,6 @@
       link:https://www.goodreads.com/book/show/294941.Cybernetics?ac=1&from_search=true[Goodreads],
       link:http://www.uberty.org/wp-content/uploads/2015/07/Norbert_Wiener_Cybernetics.pdf[PDF: original typeset]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/book/1960/wiener-1965-cybernetics.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/book/1960/wiener-1965-cybernetics.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:book/1960/wiener-1965-cybernetics.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/book/1960/wiener-1965-cybernetics.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/book/1960/wiener-1965-cybernetics.adoc[adoc]
 

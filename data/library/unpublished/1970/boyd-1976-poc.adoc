@@ -7,10 +7,6 @@
       link:http://www.ausairpower.net/JRB/poc.pdf[PDF: original],
       link:http://dnipogo.org/boyd/patterns_ppt.pdf[PDF: Edited]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/unpublished/1970/boyd-1976-poc.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/unpublished/1970/boyd-1976-poc.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/unpublished/1970/[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/unpublished/1970/boyd-1976-poc.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/unpublished/1970/boyd-1976-poc.adoc[adoc]
 

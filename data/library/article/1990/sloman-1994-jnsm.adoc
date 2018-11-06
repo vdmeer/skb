@@ -7,10 +7,6 @@
       link:https://doi.org/10.1007/BF02283186[DOI],
       link:https://core.ac.uk/download/pdf/1587309.pdf[PDF]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/1990/sloman-1994-jnsm.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/1990/sloman-1994-jnsm.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:article/1990/sloman-1994-jnsm.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/article/1990/sloman-1994-jnsm.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/article/1990/sloman-1994-jnsm.adoc[adoc]
 

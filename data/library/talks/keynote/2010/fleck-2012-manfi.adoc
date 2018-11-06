@@ -4,10 +4,6 @@
 * Keynote: Fourth IEEE/IFIP International Workshop on Management of the Future Internet (ManFI 2012)
 * Links:
       skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/talks/keynote/2010/fleck-2012-manfi.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/talks/keynote/2010/fleck-2012-manfi.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/talks/keynote/2010/[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/talks/keynote/2010/fleck-2012-manfi.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/talks/keynote/2010/fleck-2012-manfi.adoc[adoc]
 

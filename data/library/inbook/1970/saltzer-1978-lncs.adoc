@@ -10,10 +10,6 @@
       link:http://web.mit.edu/Saltzer/www/publications/nbo/nbo.pdf[PDF (scanned)],
       link:http://web.mit.edu/Saltzer/www/publications/nbo/nbo.html[online]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inbook/1970/saltzer-1978-lncs.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inbook/1970/saltzer-1978-lncs.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inbook/1970/saltzer-1978-lncs.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inbook/1970/saltzer-1978-lncs.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inbook/1970/saltzer-1978-lncs.adoc[adoc]
 

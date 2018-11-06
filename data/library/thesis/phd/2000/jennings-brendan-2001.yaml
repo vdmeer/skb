@@ -4,8 +4,5 @@ thesis/phd/2000/jennings-brendan-2001:
     title: Network-oriented Load Control for SS.7/IN
     type: thesis
     year: 2001
-    library:
-        Folder: >
-            thesis/phd/2000/
     adoc: |
         * Thesis (PhD): Dublin City University (DCU), Dublin, Ireland

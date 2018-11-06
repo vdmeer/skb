@@ -9,10 +9,6 @@
       link:http://www.riverpublishers.com/research_details.php?book_id=427[Publisher],
       link:http://www.riverpublishers.com/pdf/ebook/chapter/RP_9788793519114C19.pdf[PDF]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inbook/2010/vandermeer-2016-arcfire.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inbook/2010/vandermeer-2016-arcfire.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inbook/2010/vandermeer-2016-arcfire.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inbook/2010/vandermeer-2016-arcfire.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inbook/2010/vandermeer-2016-arcfire.adoc[adoc]
 

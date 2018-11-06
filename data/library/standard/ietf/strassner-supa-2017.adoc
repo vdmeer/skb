@@ -5,10 +5,6 @@
 * Links:
       link:https://datatracker.ietf.org/doc/draft-ietf-supa-generic-policy-info-model/[IETF]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/standard/ietf/strassner-supa-2017.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/standard/ietf/strassner-supa-2017.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/standard/ietf/strassner-supa-2017.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/standard/ietf/strassner-supa-2017.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/standard/ietf/strassner-supa-2017.adoc[adoc]
 

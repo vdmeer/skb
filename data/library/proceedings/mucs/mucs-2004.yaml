@@ -6,11 +6,6 @@ proceedings/mucs/mucs-2004:
     title: Managing Ubiquitous Communications and Services
     type: proceeding
     year: 2004
-    library:
-        "PDF: CFP": >
-            proceedings/mucs/mucs-2004.pdf
-        "DOC: CFP": >
-            proceedings/mucs/mucs-2004.doc
     adoc: |
         * Workshop: 2^nd^ International Workshop on Managing Ubiquitous Communications and Services (MUCS), Dublin, Ireland, 13-14 December, 2004
         * Host: Trinity College Dublin

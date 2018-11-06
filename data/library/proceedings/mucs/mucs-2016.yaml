@@ -10,9 +10,6 @@ proceedings/mucs/mucs-2016:
             https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7457031
         Ernster: >
             https://ernster.com/detail/ISBN-9783930736232//Managing-Ubiquitous-Communications-and-Services-2016?bpmctrl=bpmrownr.1%7Cforeign.74180-1-0-0
-    library:
-        "TXT: CFP": >
-            proceedings/mucs/mucs-2016.txt
     adoc: |
         * Series Editors: Declan O'Sullivan, Burkhard Stiller, Tom Pfeifer, Dirk Pesch, Sajal Das, Sven van der Meer
         * Workshop: 13^th^ IEEE International Workshop on Managing Ubiquitous Communications and Services (MUCS), Sydney, Australia, 18 March, 2016

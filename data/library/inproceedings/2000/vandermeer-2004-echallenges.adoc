@@ -6,12 +6,6 @@
 * Links:
       link:https://www.researchgate.net/publication/229027391_Integrated_Management_of_Smart_Spaces[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/vandermeer-2004-echallenges.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/vandermeer-2004-echallenges.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2000/vandermeer-2004-echallenges.pdf[PDF],
-        link:inproceedings/2000/vandermeer-2004-echallenges.ppt[PPT],
-        link:inproceedings/2000/vandermeer-2004-echallenges.7z[7z]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/vandermeer-2004-echallenges.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/vandermeer-2004-echallenges.adoc[adoc]
 

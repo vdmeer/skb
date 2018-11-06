@@ -8,8 +8,5 @@ talks/invited-talk/2000/carroll-2004-ircset:
     title: A Framework for Personal Information Management in Ubiquitous Computing
     type: invited-talk
     year: 2004
-    library:
-        Folder: >
-            talks/invited-talk/2000/
     adoc: |
         * Invited Talk: National Symposium of The Irish Research Council for Science, Engineering and Technology (IRCSET 2004), Dublin, Ireland, November 2, 2004

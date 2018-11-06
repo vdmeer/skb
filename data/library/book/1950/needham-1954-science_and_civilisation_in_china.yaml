@@ -7,9 +7,6 @@ book/1950/needham-1954-science_and_civilisation_in_china:
     urls:
         Wikipedia: >
             https://en.wikipedia.org/wiki/Science_and_Civilisation_in_China
-    library:
-        Folder: >
-            book/1950/
     adoc: |
         * Reasons to read: the West was only one to make the leap from artisan to science
         * Publisher: Cambridge University Press

@@ -13,8 +13,5 @@ inproceedings/2010/grasa-2017-nfvsdn:
             https://doi.org/10.1109/NFV-SDN.2017.8169850
         Zenodo: >
             https://zenodo.org/record/1145668#.W2uJCsJrzCF
-    library:
-        PDF: >
-            inproceedings/2010/grasa-2017-nfvsdn.pdf
     adoc: |
         * Published: 2017 IEEE Conference on Network Function Virtualization and Software Defined Networks (NFV-SDN)

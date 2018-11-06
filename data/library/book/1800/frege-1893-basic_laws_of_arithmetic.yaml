@@ -11,9 +11,6 @@ book/1800/frege-1893-basic_laws_of_arithmetic:
             https://www.goodreads.com/book/show/17259742-grundgesetze-der-arithmetik-begriffsschriftlich-abgeleitet-i-ii?from_search=true
         "PDF: de": >
             https://korpora.zim.uni-duisburg-essen.de/Frege/
-    library:
-        Folder: >
-            book/1800/
     adoc: |
         * Reasons to read: the world limited by dimensions, also a social critic
         * Publisher: Seeley & Co. of London, 1893 (Volume I), 1903 (Volume II)

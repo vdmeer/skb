@@ -12,10 +12,5 @@ inproceedings/2010/boudjemil-2010-uksim:
             https://doi.org/10.1109/EMS.2010.69
         ResearchGate: >
             https://www.researchgate.net/publication/228947807_A_Case_Study_for_Defining_Interoperable_Network_Components_Using_MDD
-    library:
-        PDF: >
-            inproceedings/2010/boudjemil-2010-uksim.pdf
-        DOC: >
-            inproceedings/2010/boudjemil-2010-uksim.doc
     adoc: |
         * Published: 2010 Fourth UKSim European Symposium on Computer Modeling and Simulation

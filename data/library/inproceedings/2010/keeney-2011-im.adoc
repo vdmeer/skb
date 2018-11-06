@@ -6,11 +6,6 @@
       link:https://doi.org/10.1109/INM.2011.5990649[DOI],
       link:https://www.researchgate.net/publication/221294013_A_Semantic_Monitoring_and_Management_Framework_for_End-to-end_Servicess[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/keeney-2011-im.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/keeney-2011-im.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2010/keeney-2011-im.pdf[PDF],
-        link:inproceedings/2010/keeney-2011-im.ppt[PPT]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/keeney-2011-im.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/keeney-2011-im.adoc[adoc]
 

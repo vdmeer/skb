@@ -10,10 +10,6 @@
       link:https://archive.org/details/PopperLogicScientificDiscovery[Online: English],
       link:http://strangebeautiful.com/other-texts/popper-logic-scientific-discovery.pdf[PDF: English]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/book/1950/popper-1959-scientific_discovery.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/book/1950/popper-1959-scientific_discovery.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:book/1950/popper-1959-scientific_discovery.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/book/1950/popper-1959-scientific_discovery.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/book/1950/popper-1959-scientific_discovery.adoc[adoc]
 

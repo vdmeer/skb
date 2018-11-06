@@ -6,10 +6,6 @@
 * Links:
       link:https://www.goodreads.com/book/show/3023147-geographical-ecology[Goodreads]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/book/1970/macarthur-1972-geographical_ecology.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/book/1970/macarthur-1972-geographical_ecology.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:book/1970/[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/book/1970/macarthur-1972-geographical_ecology.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/book/1970/macarthur-1972-geographical_ecology.adoc[adoc]
 

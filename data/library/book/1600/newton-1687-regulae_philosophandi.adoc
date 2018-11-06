@@ -7,6 +7,6 @@
       link:http://www.gutenberg.org/ebooks/28233[Project Gutenberg: Latin],
       link:http://www.17centurymaths.com/contents/newtoncontents.html[English by Ian Bruce: online]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/book/16000/newton-1687-regulae_philosophandi.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/book/16000/newton-1687-regulae_philosophandi.adoc[adoc]
+        https://github.com/vdmeer/skb/tree/master/data/library/book/1600/newton-1687-regulae_philosophandi.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/book/1600/newton-1687-regulae_philosophandi.adoc[adoc]
 

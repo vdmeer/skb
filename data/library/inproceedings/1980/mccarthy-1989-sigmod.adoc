@@ -7,10 +7,6 @@
       link::https://doi.org/10.1145/67544.66946[DOI],
       link:https://web.eecs.umich.edu/~jag/eecs584/papers/md89.pdf[PDF]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1980/mccarthy-1989-sigmod.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1980/mccarthy-1989-sigmod.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/inproceedings/1980/mccarthy-1989-sigmod.pdf[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1980/mccarthy-1989-sigmod.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1980/mccarthy-1989-sigmod.adoc[adoc]
 

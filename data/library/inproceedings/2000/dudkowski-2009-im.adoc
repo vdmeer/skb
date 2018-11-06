@@ -5,12 +5,6 @@
 * Links:
       link:https://doi.org/10.1109/INM.2009.5188858[DOI]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/dudkowski-2009-im.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/dudkowski-2009-im.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2000/dudkowski-2009-im.pdf[PDF],
-        link:inproceedings/2000/dudkowski-2009-im.doc[DOC],
-        link:inproceedings/2000/dudkowski-2009-im.ppt[PPT]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/dudkowski-2009-im.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/dudkowski-2009-im.adoc[adoc]
 

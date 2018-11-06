@@ -12,10 +12,6 @@
       link:http://www.flatlandthemovie.com[a movie],
       link:https://www.youtube.com/watch?v=Mfglluny8Z0[The Film: youtube]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/book/1800/abbott-1884-a-flatland.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/book/1800/abbott-1884-a-flatland.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:book/1800/abbott-1884-a-flatland.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/book/1800/abbott-1884-a-flatland.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/book/1800/abbott-1884-a-flatland.adoc[adoc]
 

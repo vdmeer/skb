@@ -4,8 +4,5 @@ report/project/fame/fame-d42-2011:
     title: Integrated Evaluation Report
     type: report
     year: 2011
-    library:
-        Folder: >
-            report/project/fame
     adoc: |
         * Project Report: FAME - Federated, Autonomic Management of End-to-End Services - Deliverable D4.2, May 11, 2011

@@ -6,6 +6,6 @@
 * Links:
       link:https://www.goodreads.com/book/show/1120112.Bright_Air_Brilliant_Fire[Goodreads]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/book/1990/edelman-1992-bright_air_brilliant_fire.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/book/1990/edelman-1992-bright_air_brilliant_fire.adoc[adoc]
+        https://github.com/vdmeer/skb/tree/master/data/library/book/1990/edelman-1992-bright_air_brilliant_fire.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/book/1990/edelman-1992-bright_air_brilliant_fire.adoc[adoc]
 

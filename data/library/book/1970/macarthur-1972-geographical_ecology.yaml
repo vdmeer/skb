@@ -7,9 +7,6 @@ book/1970/macarthur-1972-geographical_ecology:
     urls:
         Goodreads: >
             https://www.goodreads.com/book/show/3023147-geographical-ecology
-    library:
-        Folder: >
-            book/1970/
     adoc: |
         * Reasons to read: island of biogeography, "A field cannot consider itself a science until it can progress beyond natural history"
         * Publisher: Vintage

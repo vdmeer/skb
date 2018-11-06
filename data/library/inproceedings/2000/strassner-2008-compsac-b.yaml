@@ -11,9 +11,6 @@ inproceedings/2000/strassner-2008-compsac-b:
             https://doi.org/10.1109/COMPSAC.2008.270
         ResearchGate: >
             https://www.researchgate.net/publication/221028611_MDDAS_2008_Workshop_Organization
-    library:
-        PDF: >
-            inproceedings/2000/strassner-2008-compsac-b.pdf
     adoc: |
         * Published: 2008 32nd Annual IEEE International Computer Software and Applications Conference
           ** Workshop: MDDAS

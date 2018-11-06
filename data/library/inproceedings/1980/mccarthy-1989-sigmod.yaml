@@ -10,9 +10,6 @@ inproceedings/1980/mccarthy-1989-sigmod:
             :https://doi.org/10.1145/67544.66946
         PDF: >
             https://web.eecs.umich.edu/~jag/eecs584/papers/md89.pdf
-    library:
-        Folder: >
-            inproceedings/1980/mccarthy-1989-sigmod.pdf
     adoc: |
         * Reasons to read: extension of ECA rules for databases, architecture of a resulting active database management system
         * Published: SIGMOD '89 Proceedings of the 1989 ACM SIGMOD international conference on Management of data, Pages 215-224, Portland, Oregon, USA

@@ -5,10 +5,6 @@
 * Links:
       link:https://www.researchgate.net/publication/267403876_Open_Profiling_for_Ubiquitous_Computing[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/arbanowski-2000-wuc.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/arbanowski-2000-wuc.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2000[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/arbanowski-2000-wuc.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/arbanowski-2000-wuc.adoc[adoc]
 

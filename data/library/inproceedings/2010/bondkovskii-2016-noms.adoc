@@ -6,10 +6,6 @@
       link:https://doi.org/10.1109/NOMS.2016.7502921[DOI],
       link:https://www.researchgate.net/publication/303564177_Qualitative_Comparison_of_Open-Source_SDN_Controllers[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/bondkovskii-2016-noms.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/bondkovskii-2016-noms.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2010/bondkovskii-2016-noms.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/bondkovskii-2016-noms.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/bondkovskii-2016-noms.adoc[adoc]
 

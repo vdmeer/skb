@@ -6,6 +6,6 @@
 * Links:
       link:https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2018024348[Wipo]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/patent/2010/2018-wo2018024348.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/patent/2010/2018-wo2018024348.adoc[adoc]
+        https://github.com/vdmeer/skb/tree/master/data/library/patent/2010/2018-wo2018024348.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/patent/2010/2018-wo2018024348.adoc[adoc]
 

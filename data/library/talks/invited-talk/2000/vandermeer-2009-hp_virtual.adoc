@@ -4,10 +4,6 @@
 * Invited Talk: HP Virtual Workshop, April 27, 2009
 * Links:
       skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/talks/invited-talk/2000/vandermeer-2009-hp_virtual.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/talks/invited-talk/2000/vandermeer-2009-hp_virtual.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/talks/invited-talk/2000/[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/talks/invited-talk/2000/vandermeer-2009-hp_virtual.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/talks/invited-talk/2000/vandermeer-2009-hp_virtual.adoc[adoc]
 

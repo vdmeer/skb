@@ -7,6 +7,6 @@
       link:https://en.wikipedia.org/wiki/Proofs_and_Refutations[Wikipedia],
       link:https://www.goodreads.com/book/show/434707.Proofs_and_Refutations?from_search=true[Goodreads]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/book/1970/lakatos-1976-proofs_and_refutations.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/book/1970/lakatos-1976-proofs_and_refutations.adoc[adoc]
+        https://github.com/vdmeer/skb/tree/master/data/library/book/1970/lakatos-1976-proofs_and_refutations.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/book/1970/lakatos-1976-proofs_and_refutations.adoc[adoc]
 

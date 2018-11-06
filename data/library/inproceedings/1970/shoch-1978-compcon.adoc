@@ -8,10 +8,6 @@
 * Links:
       link:https://www.ietf.org/rfc/ien/ien19.txt[IEN19: txt]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1970/shoch-1978-compcon.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1970/shoch-1978-compcon.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/inproceedings/1970/shoch-1978-compcon.txt[TXT]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1970/shoch-1978-compcon.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1970/shoch-1978-compcon.adoc[adoc]
 

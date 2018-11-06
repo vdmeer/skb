@@ -4,10 +4,6 @@
 * Thesis (PhD): University of California, Irvine, USA
 * Links:
       skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/thesis/phd/2000/fieldings-roy-2000.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/thesis/phd/2000/fieldings-roy-2000.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/thesis/phd/2000/[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/thesis/phd/2000/fieldings-roy-2000.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/thesis/phd/2000/fieldings-roy-2000.adoc[adoc]
 

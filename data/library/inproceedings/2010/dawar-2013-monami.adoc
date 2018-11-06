@@ -7,11 +7,6 @@
       link:https://doi.org/10.1007/978-3-319-04277-0_8/[DOI],
       link:https://www.researchgate.net/publication/259785930_Cloudifying_Mobile_Network_Management_Performance_Tests_of_Event_Distribution_and_Rule_Processing[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/dawar-2013-monami.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/dawar-2013-monami.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2010/dawar-2013-monami.pdf[PDF],
-        link:inproceedings/2010/dawar-2013-monami.ppt[PPT]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/dawar-2013-monami.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/dawar-2013-monami.adoc[adoc]
 

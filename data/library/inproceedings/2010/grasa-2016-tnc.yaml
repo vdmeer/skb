@@ -13,10 +13,5 @@ inproceedings/2010/grasa-2016-tnc:
             https://tnc16.geant.org/core/presentation/667
         ResearchGate: >
             https://www.researchgate.net/publication/326907042_Simplifying_Multi-layer_Network_Management_with_RINA
-    library:
-        PDF: >
-            inproceedings/2010/grasa-2016-tnc.pdf
-        PPT: >
-            inproceedings/2010/grasa-2016-tnc.ppt
     adoc: |
         * Published: 2016 TERENA Networking Conference (TNC) , 12-16 June 2016, Prague, Czech Republic

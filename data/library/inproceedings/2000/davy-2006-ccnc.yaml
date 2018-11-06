@@ -14,12 +14,5 @@ inproceedings/2000/davy-2006-ccnc:
             https://doi.org/10.1109/CCNC.2006.1593092
         ResearchGate: >
             https://www.researchgate.net/publication/4220395_Policy-based_architecture_to_enable_autonomic_communications_-_A_position_paper
-    library:
-        PDF: >
-            inproceedings/2000/davy-2006-ccnc.pdf
-        DOC: >
-            inproceedings/2000/davy-2006-ccnc.doc
-        PPT: >
-            inproceedings/2000/davy-2006-ccnc.ppt
     adoc: |
         * Published: CCNC 2006. 2006 3rd IEEE Consumer Communications and Networking Conference, 2006

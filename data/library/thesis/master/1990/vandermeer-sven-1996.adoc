@@ -5,10 +5,6 @@
   ** Berlin, Germany, October 6, 1996
 * Links:
       skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/thesis/master/1990/vandermeer-sven-1996.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/thesis/master/1990/vandermeer-sven-1996.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/thesis/master/1990/[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/thesis/master/1990/vandermeer-sven-1996.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/thesis/master/1990/vandermeer-sven-1996.adoc[adoc]
 

@@ -10,9 +10,6 @@ talks/tutorial/2010/vandermeer-2018-ons:
             https://onsna18.sched.com/event/EFju/ericsson-tutorial-policy-20-using-theory-and-design-patterns-to-design-and-build-immutable-policy-infrastructure-for-automation-sven-van-der-meer-ericsson
         PDF: >
             https://schd.ws/hosted_files/onsna18/ac/2018-03-upt-ons.pdf
-    library:
-        Folder: >
-            talks/tutorial/2010/ons-2018/
     adoc: |
         * Ericsson Tutorial, Part II, March 27, 2018
         * Part of: Linux Foundation Open Networking Summit North America 2018 (ONS), Los Angeles, CA, USA, March 26-29, 2018

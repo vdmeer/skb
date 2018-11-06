@@ -18,11 +18,6 @@ inbook/2000/fahy-2008-aanc:
             https://doi.org/10.1007/978-3-7643-8569-9_3
         ResearchGate: >
             https://www.researchgate.net/publication/225946643_Modelling_Behaviour_and_Distribution_for_the_Management_of_Next_Generation_Networks
-    library:
-        PDF: >
-            inbook/2000/fahy-2008-aanc.pdf
-        7z: >
-            inbook/2000/fahy-2008-aanc.7z
     adoc: |
         * Reasons to read: introduction to large-scale experimentation with RINA, the H2020 project ARCFIRE
         * Published: pp 43-62 In: Monique Calisti, Sven van der Meer, John Strassner (eds) _Advanced Autonomic Networking and Communication_, Whitestein Series in Software Agent Technologies and Autonomic Computing book series (WSSAT)

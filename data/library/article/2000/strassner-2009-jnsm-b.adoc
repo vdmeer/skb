@@ -6,10 +6,6 @@
       link:https://doi.org/10.1007/s10922-009-9126-4[DOI],
       link:https://www.researchgate.net/publication/225102579_The_Use_of_Context-Aware_Policies_and_Ontologies_to_Facilitate_Business-Aware_Network_Management[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/2000/strassner-2009-jnsm-b.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/2000/strassner-2009-jnsm-b.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:article/2000/strassner-2009-jnsm-b.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/article/2000/strassner-2009-jnsm-b.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/article/2000/strassner-2009-jnsm-b.adoc[adoc]
 

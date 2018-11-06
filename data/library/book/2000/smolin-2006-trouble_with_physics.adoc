@@ -7,6 +7,6 @@
       link:https://en.wikipedia.org/wiki/The_Trouble_with_Physics[Wikipedia],
       link:http://leesmolin.com/writings/the-trouble-with-physics[online]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/book/2000/smolin-2006-trouble_with_physics.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/book/2000/smolin-2006-trouble_with_physics.adoc[adoc]
+        https://github.com/vdmeer/skb/tree/master/data/library/book/2000/smolin-2006-trouble_with_physics.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/book/2000/smolin-2006-trouble_with_physics.adoc[adoc]
 

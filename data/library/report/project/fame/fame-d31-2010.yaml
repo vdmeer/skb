@@ -4,8 +4,5 @@ report/project/fame/fame-d31-2010:
     title: "FAME: Prototyping and Experimentation"
     type: report
     year: 2010
-    library:
-        Folder: >
-            report/project/fame
     adoc: |
         * Project Report: FAME - Federated, Autonomic Management of End-to-End Services - Deliverable D3.1, September 30, 2010

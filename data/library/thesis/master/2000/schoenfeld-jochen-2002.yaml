@@ -4,8 +4,5 @@ thesis/master/2000/schoenfeld-jochen-2002:
     title: Entwicklung und Erprobung eines selbstkonfigurierenden Netzes von Smart-IP Geräten
     type: thesis
     year: 2002
-    library:
-        Folder: >
-            thesis/master/2000/
     adoc: |
         * Diplomarbeit (M.Sc. Thesis), Technical University Berlin (TUB), Berlin, Germany

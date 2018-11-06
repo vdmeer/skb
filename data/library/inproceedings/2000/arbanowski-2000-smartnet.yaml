@@ -11,11 +11,6 @@ inproceedings/2000/arbanowski-2000-smartnet:
             https://doi.org/10.1007/978-0-387-35522-1_29
         ResearchGate: >
             https://www.researchgate.net/publication/220962164_I-centric_Services_in_the_Area_of_Telecommunication_'The_I-Talk_Service'
-    library:
-        PDF: >
-            inproceedings/2000/arbanowski-2000-smartnet.pdf
-        7z: >
-            inproceedings/2000/arbanowski-2000-smartnet.7z
     adoc: |
         * Published: International Conference on Intelligence in Networks, SMARTNET 2000: Telecommunication Network Intelligence, Vienna, Austria, September 18-22, 2000
         * Part of: IFIP — The International Federation for Information Processing book series (IFIPAICT, volume 50), pp 499-508

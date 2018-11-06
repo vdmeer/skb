@@ -7,10 +7,6 @@
       link:https://doi.org/10.1109/COMPSAC.2008.270[DOI],
       link:https://www.researchgate.net/publication/221028611_MDDAS_2008_Workshop_Organization[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/strassner-2008-compsac-b.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/strassner-2008-compsac-b.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2000/strassner-2008-compsac-b.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/strassner-2008-compsac-b.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/strassner-2008-compsac-b.adoc[adoc]
 

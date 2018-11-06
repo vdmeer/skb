@@ -6,10 +6,6 @@
 * Links:
       link:https://www.eurescom.eu/services/eurescom-study-programme/archive-of-eurescom-studies/studies-launched-in-2008/p1855/d2-the-operators-vision-on-technologies-opportunities-risks-and-adoption-roadmap.html[Eurescom]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/report/project/p1855/p1855-d2-2009.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/report/project/p1855/p1855-d2-2009.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/report/project/p1855[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/report/project/p1855/p1855-d2-2009.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/report/project/p1855/p1855-d2-2009.adoc[adoc]
 

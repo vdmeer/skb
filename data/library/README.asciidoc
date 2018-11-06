@@ -31,9 +31,9 @@ Directory names are again BibLaTeX entry types, mostly.
 For larger collections, for instance _in-proceedings_, I do use sub-directories for decades.
 
 Individual items have the main author (or editor) name, a place (e.g. conference), and the year of publication.
-Standards and patents are named slighly different (SDO plus year, filing place and publication number).
+Standards and patents are named slightly different (SDO plus year, filing place and publication number).
 
-The Asciidoctor tool chain then allows to use thse files in various places.
+The Asciidoctor tool chain then allows to use these files in various places.
 I take my own publications for instance for my personal website.
 Some of the topics I use there as well, as research notes.
 And I do generate HTML versions and host them on my GH pages.

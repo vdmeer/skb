@@ -1,4 +1,4 @@
-*Ghamri-Doudane, Yacine* (chair): _Seamless Service Mobility Challenges and Solutions_, 2007
+*Yacine Ghamri-Doudane* (chair): _Seamless Service Mobility Challenges and Solutions_, 2007
 
 * Panelists: Yacine Ghamri-Doudane, Yann Gasté, Sven van der Meer, John Strassner
 * Panel: 2007 First International Global Information Infrastructure Symposium, GIIS, Marrakech, Morocco
@@ -6,10 +6,6 @@
 * My topic: _A Discussion on Policy-based Management using Context Mobility in Ad-Hoc Networking_
 * Links:
       skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/talks/panel/2000/vandermeer-2007-ssmo.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/talks/panel/2000/vandermeer-2007-ssmo.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/talks/panel/2000/[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/talks/panel/2000/vandermeer-2007-ssmo.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/talks/panel/2000/vandermeer-2007-ssmo.adoc[adoc]
 

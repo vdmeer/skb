@@ -10,9 +10,6 @@ talks/tutorial/2010/ethirajulu-2018-ons:
     urls:
         Event: >
             https://onsna18.sched.com/event/DmOj/tutorial-taming-policy-complexity-from-theory-to-execution-presented-by-ericsson
-    library:
-        Folder: >
-            talks/tutorial/2010/ons-2018/
     adoc: |
         * Ericsson Tutorial, March 27, 2018
         * Part of: Linux Foundation Open Networking Summit North America 2018 (ONS), Los Angeles, CA, USA, March 26-29, 2018

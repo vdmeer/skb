@@ -7,9 +7,6 @@ book/2000/day-2007-pna:
     urls:
         Goodreads: >
             https://www.goodreads.com/book/show/8193269-patterns-in-network-architecture
-    library:
-        Folder: >
-            book/2000/
     adoc: |
         * Reasons to read: fundamental patterns for network architecure, historic context, annectodal context
         * Publisher: Pearson Edition

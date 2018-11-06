@@ -4,8 +4,5 @@ talks/presentation/2000/vandermeer-2007-tssg_day:
     title: The Area formerly known as Network Management
     type: presentation
     year: 2007
-    library:
-        Folder: >
-            talks/presentation/2000/
     adoc: |
         * Presentation: TSSG Basic Research Day, WIT, Waterford, Ireland, November 21, 2007

@@ -9,10 +9,6 @@
       link:https://www.ietf.org/rfc/ien/ien48.txt[TXT],
       link:https://www.rfc-editor.org/ien/scanned/ien48.pdf[PDF]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/standard/ietf/cerf-ien48-1978.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/standard/ietf/cerf-ien48-1978.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/standard/ietf/[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/standard/ietf/cerf-ien48-1978.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/standard/ietf/cerf-ien48-1978.adoc[adoc]
 

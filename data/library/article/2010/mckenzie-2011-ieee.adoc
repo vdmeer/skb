@@ -8,10 +8,6 @@
       link:http://alexmckenzie.weebly.com/inwg-and-the-conception-of-the-internet-an-eyewitness-account.html[Online],
       link:https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5723076[PDF]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/2010/mckenzie-2011-ieee.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/2010/mckenzie-2011-ieee.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:article/2010/mckenzie-2011-ieee.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/article/2010/mckenzie-2011-ieee.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/article/2010/mckenzie-2011-ieee.adoc[adoc]
 

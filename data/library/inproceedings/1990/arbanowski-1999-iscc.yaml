@@ -10,8 +10,5 @@ inproceedings/1990/arbanowski-1999-iscc:
             https://doi.org/10.1109/ISCC.1999.780792
         ResearchGate: >
             https://www.researchgate.net/publication/3810056_Service_personalization_for_unified_messaging_systems
-    library:
-        PDF: >
-            inproceedings/1990/arbanowski-1999-iscc.pdf
     adoc: |
         * Published: IEEE International Symposium on Computers and Communications (Cat. No.PR00250)

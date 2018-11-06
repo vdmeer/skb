@@ -4,6 +4,6 @@
 * Published: 2nd International Workshop on Management of Ubiquitous Communications and Services (MUCS 2004), Dublin, Ireland, December 12-13, 2004
 * Links:
       skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/barrett-2004-mucs.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/barrett-2004-mucs.adoc[adoc]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/barrett-2004-mucs.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/barrett-2004-mucs.adoc[adoc]
 

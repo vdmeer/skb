@@ -6,10 +6,6 @@
 * Links:
       link:https://www.rand.org/content/dam/rand/pubs/research_memoranda/2006/RM3420.pdf[PDF]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/report/technical/1960/baran-1964-distr_comm_nework.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/report/technical/1960/baran-1964-distr_comm_nework.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/report/technical/1960[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/report/technical/1960/baran-1964-distr_comm_nework.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/report/technical/1960/baran-1964-distr_comm_nework.adoc[adoc]
 

@@ -9,9 +9,6 @@ inproceedings/1970/pouzin-1976-afips:
             https://doi.org/10.1145/1499799.1499870
         "PDF: computer.org": >
             https://www.computer.org/csdl/proceedings/afips/1976/5084/00/50840483.pdf
-    library:
-        PDF: >
-            inproceedings/1970/pouzin-1976-afips.pdf
     adoc: |
         * Reasons to read: Technological and political dimensions of circuit switching and introduction to datagrams
         * Published: AFIPS '76 Proceedings of the National Computer Conference and Exposition, June 7-10, 1976, pages 483-494

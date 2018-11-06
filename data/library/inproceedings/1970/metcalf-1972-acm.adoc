@@ -8,10 +8,6 @@
       link:https://doi.org/10.1145/800193.569929[DOI],
       link:http://www.intercloudtestbed.org/uploads/2/1/3/9/21396364/strategies_for_operating_systems_in_computer_networks.pdf[PDF: online]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1970/metcalf-1972-acm.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1970/metcalf-1972-acm.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/inproceedings/1970/metcalf-1972-acm.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1970/metcalf-1972-acm.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1970/metcalf-1972-acm.adoc[adoc]
 

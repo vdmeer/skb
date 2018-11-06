@@ -7,10 +7,6 @@
       link:https://doi.org/10.1109/INMW.2009.5195942[DOI],
       link:https://www.researchgate.net/publication/224573892_Challenges_for_Federated_Autonomic_Network_Management_in_the_Future_Internet[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/jennings-2009-im.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/jennings-2009-im.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2000/jennings-2009-im.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/jennings-2009-im.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/jennings-2009-im.adoc[adoc]
 

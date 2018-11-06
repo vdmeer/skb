@@ -6,12 +6,6 @@
       link:https://doi.org/10.1109/NOMS.2018.8406144[DOI],
       link:https://www.researchgate.net/publication/325059988_A_Testbed_For_Policy_Driven_Closed_Loop_Network_Management[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/mcnamara-2018-noms.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/mcnamara-2018-noms.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2010/mcnamara-2018-noms.pdf[PDF],
-        link:inproceedings/2010/mcnamara-2018-noms.odp[ODP],
-        link:inproceedings/2010/mcnamara-2018-noms.7z[7z]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/mcnamara-2018-noms.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/mcnamara-2018-noms.adoc[adoc]
 

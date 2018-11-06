@@ -6,10 +6,6 @@
       link:https://fasttransients.files.wordpress.com/2010/03/essence_of_winning_losing.pdf[PDF],
       link:https://www.danford.net/boyd/essence.htm[Discussion]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/unpublished/1980/boyd-1986-ewl.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/unpublished/1980/boyd-1986-ewl.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/unpublished/1980/[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/unpublished/1980/boyd-1986-ewl.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/unpublished/1980/boyd-1986-ewl.adoc[adoc]
 

@@ -21,8 +21,5 @@ report/project/pristine/pristine-d54-2016:
     urls:
         Pristine: >
             http://ict-pristine.eu/?page_id=37
-    library:
-        Folder: >
-            report/project/pristine
     adoc: |
         * Project Report: PRISTINE - Programmability In RINA for European supremacy of virTualised NEtworks - Deliverable D5.4, June 30, 2016

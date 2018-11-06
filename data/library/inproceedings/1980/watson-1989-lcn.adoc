@@ -8,10 +8,6 @@
       link:https://www.osti.gov/biblio/5634768[OSTI],
       link:https://www.computer.org/csdl/proceedings/lcn/1989/1968/00/00065288.pdf[PDF]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1980/watson-1989-lcn.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1980/watson-1989-lcn.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/inproceedings/1980/watson-1989-lcn.pdf[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1980/watson-1989-lcn.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1980/watson-1989-lcn.adoc[adoc]
 

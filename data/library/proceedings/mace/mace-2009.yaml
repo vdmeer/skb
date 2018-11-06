@@ -12,9 +12,6 @@ proceedings/mace/mace-2009:
             http://vandermeer.de/library/proceedings/mace/web/2009/mace.php
         "Web: html": >
             http://vandermeer.de/library/proceedings/mace/html/2009/mace.html
-    library:
-        Folder: >
-            proceedings/mace/
     adoc: |
         * Workshop: Fourth IEEE International Workshop on Modelling Autonomic Communications Environments (MACE), Venice, Italy, 26-27 October, 2009
         * Published: part of the Lecture Notes in Computer Science book series (LNCS, volume 5844)

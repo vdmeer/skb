@@ -6,12 +6,6 @@
 * Links:
       link:https://www.researchgate.net/publication/228556403_Instant_Messaging_as_a_Platform_for_the_Realisation_of_a_true_Ubiquitous_Computing_Environment[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/foley-2005-echallenges.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/foley-2005-echallenges.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2000/foley-2005-echallenges.pdf[PDF],
-        link:inproceedings/2000/foley-2005-echallenges.doc[DOC],
-        link:inproceedings/2000/foley-2005-echallenges.ppt[PPT]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/foley-2005-echallenges.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/foley-2005-echallenges.adoc[adoc]
 

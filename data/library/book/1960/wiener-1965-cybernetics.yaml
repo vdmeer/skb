@@ -11,9 +11,6 @@ book/1960/wiener-1965-cybernetics:
             https://www.goodreads.com/book/show/294941.Cybernetics?ac=1&from_search=true
         "PDF: original typeset": >
             http://www.uberty.org/wp-content/uploads/2015/07/Norbert_Wiener_Cybernetics.pdf
-    library:
-        PDF: >
-            book/1960/wiener-1965-cybernetics.pdf
     adoc: |
         * Reasons to read: the standard work on cybernetics (with definition) and control
         * Publisher: MIT Press, Cambridge, Massachusetts

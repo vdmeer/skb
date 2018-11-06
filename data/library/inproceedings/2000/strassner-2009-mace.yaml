@@ -11,11 +11,6 @@ inproceedings/2000/strassner-2009-mace:
             https://doi.org/10.1007/978-3-642-05006-0_2
         ResearchGate: >
             https://www.researchgate.net/publication/221326612_The_Applicability_of_Self-Awareness_for_Network_Management_Operations
-    library:
-        PDF: >
-            inproceedings/2000/strassner-2009-mace.pdf
-        DOC: >
-            inproceedings/2000/strassner-2009-mace.doc
     adoc: |
         * Published: IEEE International Workshop on Modelling Autonomic Communications Environments, MACE 2009: Modelling Autonomic Communications Environments pp 15-28
         * Part of the Lecture Notes in Computer Science book series (LNCS, volume 5844)

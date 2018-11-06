@@ -4,8 +4,5 @@ talks/presentation/2010/vandermeer-2015-r_d_summit:
     title: Autonomic Networks - Challenges in Closing the Loop
     type: presentation
     year: 2015
-    library:
-        Folder: >
-            talks/presentation/2010/
     adoc: |
         * Presentation: 2015 Ericsson R&D Summit, R&D Talks, Online, April 29, 2015

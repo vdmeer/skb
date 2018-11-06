@@ -4,8 +4,5 @@ report/project/ipcss/ipcss-4-1997:
     title: Computational Model and CORBA based implementations
     type: report
     year: 1997
-    library:
-        Folder: >
-            report/project/ipcss
     adoc: |
         * Project Report: iPCSS - intelligent Personal Communication System - Deliverable 4, 1997

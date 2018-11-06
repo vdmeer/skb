@@ -8,11 +8,6 @@
       link:https://doi.org/10.1007/978-3-7643-8569-9_3[DOI],
       link:https://www.researchgate.net/publication/225946643_Modelling_Behaviour_and_Distribution_for_the_Management_of_Next_Generation_Networks[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inbook/2000/fahy-2008-aanc.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inbook/2000/fahy-2008-aanc.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inbook/2000/fahy-2008-aanc.pdf[PDF],
-        link:inbook/2000/fahy-2008-aanc.7z[7z]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inbook/2000/fahy-2008-aanc.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inbook/2000/fahy-2008-aanc.adoc[adoc]
 

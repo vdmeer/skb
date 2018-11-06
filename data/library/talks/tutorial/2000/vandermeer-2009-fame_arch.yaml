@@ -7,8 +7,5 @@ talks/tutorial/2000/vandermeer-2009-fame_arch:
     title: Introduction to DEN-ng for SFI SRC FAME
     type: tutorial
     year: 2009
-    library:
-        Folder: >
-            talks/tutorial/2000/
     adoc: |
         * Tutorial: FAME Architecture Workshop 1, Dublin, Ireland, May 26, 2009

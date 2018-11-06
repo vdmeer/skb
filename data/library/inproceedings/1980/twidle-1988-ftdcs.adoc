@@ -7,10 +7,6 @@
       link:https://doi.org/10.1007/BF02283186[DOI],
       link:https://www.computer.org/csdl/proceedings/ftdcs/1988/0897/00/00026693.pdf[PDF]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1980/twidle-1988-ftdcs.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1980/twidle-1988-ftdcs.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/inproceedings/1980/twidle-1988-ftdcs.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1980/twidle-1988-ftdcs.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1980/twidle-1988-ftdcs.adoc[adoc]
 

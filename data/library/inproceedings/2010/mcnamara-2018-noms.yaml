@@ -13,12 +13,5 @@ inproceedings/2010/mcnamara-2018-noms:
             https://doi.org/10.1109/NOMS.2018.8406144
         ResearchGate: >
             https://www.researchgate.net/publication/325059988_A_Testbed_For_Policy_Driven_Closed_Loop_Network_Management
-    library:
-        PDF: >
-            inproceedings/2010/mcnamara-2018-noms.pdf
-        ODP: >
-            inproceedings/2010/mcnamara-2018-noms.odp
-        7z: >
-            inproceedings/2010/mcnamara-2018-noms.7z
     adoc: |
         * Published: 2018 IEEE/IFIP Network Operations and Management Symposium, NOMS 2018

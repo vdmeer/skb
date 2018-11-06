@@ -13,8 +13,5 @@ article/2000/jennings-2007-commag:
     urls:
         DOI: >
             https://doi.org/10.1109/MCOM.2007.4342833
-    library:
-        Folder: >
-            article/2000/
     adoc: |
         * Published: IEEE Communications Magazine  (Volume: 45, Issue: 10, October 2007) 

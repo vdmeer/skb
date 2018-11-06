@@ -6,10 +6,6 @@
 * Links:
       link:http://ict-pristine.eu/?page_id=37[Pristine]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/report/project/pristine/pristine-d53-2015.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/report/project/pristine/pristine-d53-2015.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/report/project/pristine[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/report/project/pristine/pristine-d53-2015.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/report/project/pristine/pristine-d53-2015.adoc[adoc]
 

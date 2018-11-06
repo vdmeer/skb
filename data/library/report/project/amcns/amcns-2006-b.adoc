@@ -4,10 +4,6 @@
 * Project Report: AMCNS - Autonomic Management of Communication Networks and Servicess - Site Visit, November 16, 2006
 * Links:
       skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/report/project/amcns/amcns-2006-b.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/report/project/amcns/amcns-2006-b.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/report/project/amcns[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/report/project/amcns/amcns-2006-b.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/report/project/amcns/amcns-2006-b.adoc[adoc]
 

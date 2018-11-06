@@ -6,10 +6,6 @@
       link:https://doi.org/10.1109/POLICY.2006.17[DOI],
       link:https://www.researchgate.net/publication/4242368_End-to-End_Model_Driven_Policy_Based_Network_Management[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/raymer-2006-policy.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/raymer-2006-policy.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2000/raymer-2006-policy.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/raymer-2006-policy.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/raymer-2006-policy.adoc[adoc]
 

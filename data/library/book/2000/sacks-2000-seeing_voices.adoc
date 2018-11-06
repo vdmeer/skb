@@ -6,6 +6,6 @@
 * Links:
       link:https://www.goodreads.com/book/show/66723.Seeing_Voices[Goodreads]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/book/2000/sacks-2000-seeing_voices.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/book/2000/sacks-2000-seeing_voices.adoc[adoc]
+        https://github.com/vdmeer/skb/tree/master/data/library/book/2000/sacks-2000-seeing_voices.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/book/2000/sacks-2000-seeing_voices.adoc[adoc]
 

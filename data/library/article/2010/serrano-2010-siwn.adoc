@@ -5,10 +5,6 @@
 * Links:
       link:http://siwn.org.uk/press/sai/siwn0011.htm[SIWN]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/2010/serrano-2010-siwn.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/2010/serrano-2010-siwn.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:article/2010/serrano-2010-siwn.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/article/2010/serrano-2010-siwn.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/article/2010/serrano-2010-siwn.adoc[adoc]
 

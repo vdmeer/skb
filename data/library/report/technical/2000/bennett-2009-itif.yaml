@@ -9,9 +9,6 @@ report/technical/2000/bennett-2009-itif:
             https://itif.org/publications/2009/09/25/designed-change-end-end-arguments-internet-innovation-and-net-neutrality
         "PDF: talk": >
             http://www.itif.org/files/Designed_for_Change_Presentation.pdf
-    library:
-        Folder: >
-            report/technical/2000
     adoc: |
         * Reasons to read: technical history of the Internet (including CYCLADES), reference for 1986 Internet crash, discussions on current Internet affairs (including RINA)
         * Publisher: Information Technology & Innovation Foundation, ITIF, Washington DC

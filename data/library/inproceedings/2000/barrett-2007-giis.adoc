@@ -7,12 +7,6 @@
       link:https://doi.org/10.1109/GIIS.2007.4404174[DOI],
       link:https://www.researchgate.net/publication/4299239_A_Model_Based_Approach_for_Policy_Tool_Generation_and_Policy_Analysis[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/barrett-2007-giis.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/barrett-2007-giis.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2000/barrett-2007-giis.pdf[PDF],
-        link:inproceedings/2000/barrett-2007-giis.doc[DOC],
-        link:inproceedings/2000/barrett-2007-giis.ppt[PPT]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/barrett-2007-giis.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/barrett-2007-giis.adoc[adoc]
 

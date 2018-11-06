@@ -10,10 +10,6 @@
       link:http://www.gutenberg.org/ebooks/5740[eBooks at Gutenberg Project],
       link:http://people.umass.edu/klement/tlp[eBooks at UMass]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/book/1920/wittgenstein-1922-tractatus.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/book/1920/wittgenstein-1922-tractatus.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:book/1920/wittgenstein-1922-tractatus.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/book/1920/wittgenstein-1922-tractatus.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/book/1920/wittgenstein-1922-tractatus.adoc[adoc]
 

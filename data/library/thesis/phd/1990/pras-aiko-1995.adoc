@@ -4,10 +4,6 @@
 * Thesis (PhD): University of Twente, Enschede, The Netherlands
 * Links:
       skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/thesis/phd/1990/pras-aiko-1995.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/thesis/phd/1990/pras-aiko-1995.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/thesis/phd/1990/[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/thesis/phd/1990/pras-aiko-1995.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/thesis/phd/1990/pras-aiko-1995.adoc[adoc]
 

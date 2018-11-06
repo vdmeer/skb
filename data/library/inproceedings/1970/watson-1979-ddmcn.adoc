@@ -6,6 +6,6 @@
       link:https://www.osti.gov/biblio/6043599[OSTI],
       link:https://books.google.ie/books?hl=en&lr=&id=c7I-AAAAIAAJ&oi=fnd&pg=PA18&dq=Architecture+for+support+of+network+operating+system+services&ots=2MILdsHqgq&sig=YkAjnYKU2PEjZs_dGNolFScUjRs&redir_esc=y#v=onepage&q=Architecture%20for%20support%20of%20network%20operating%20system%20services&f=false[Online]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1970/watson-1979-ddmcn.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1970/watson-1979-ddmcn.adoc[adoc]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1970/watson-1979-ddmcn.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1970/watson-1979-ddmcn.adoc[adoc]
 

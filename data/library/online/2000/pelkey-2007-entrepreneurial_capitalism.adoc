@@ -6,6 +6,6 @@
 * Links:
       link:http://www.historyofcomputercommunications.info/Book/BookIndex.html[Online]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/online/2000/pelkey-2007-entrepreneurial_capitalism.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/online/2000/pelkey-2007-entrepreneurial_capitalism.adoc[adoc]
+        https://github.com/vdmeer/skb/tree/master/data/library/online/2000/pelkey-2007-entrepreneurial_capitalism.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/online/2000/pelkey-2007-entrepreneurial_capitalism.adoc[adoc]
 

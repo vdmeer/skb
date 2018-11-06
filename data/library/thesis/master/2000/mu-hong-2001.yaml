@@ -4,8 +4,5 @@ thesis/master/2000/mu-hong-2001:
     title: Entwicklung seines Testkonzeptes für die Beurteilung der Skalierbarkeit von J2EE-basierten Applicationservern
     type: thesis
     year: 2001
-    library:
-        Folder: >
-            thesis/master/2000/
     adoc: |
         * Diplomarbeit (M.Sc. Thesis), Technical University Berlin (TUB), Berlin, Germany

@@ -6,10 +6,6 @@
 * Links:
       link:https://doi.org/10.1109/TSMC.1979.4310274[DOI]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/1970/rouse-1979-tsmc.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/1970/rouse-1979-tsmc.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:article/1970/rouse-1979-tsmc.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/article/1970/rouse-1979-tsmc.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/article/1970/rouse-1979-tsmc.adoc[adoc]
 

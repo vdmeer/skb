@@ -15,8 +15,5 @@ report/project/arcfire/arcfire-d22-2017:
     urls:
         Arcfire: >
             http://ict-arcfire.eu/index.php/research/deliverables/
-    library:
-        Folder: >
-            report/project/arcfire
     adoc: |
         * Project Report: ARCFIRE - Large-scale RINA Experimentation on FIRE+ - Deliverable D2.2, May 5, 2017

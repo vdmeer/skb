@@ -7,12 +7,6 @@
 * Links:
       link:https://www.researchgate.net/publication/238687661_A_Discussion_on_Policy-based_Management_using_Context_Mobility_in_Ad-Hoc_Networking[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/morris-2007-ssmo/morris-2007-ssmo.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/morris-2007-ssmo/morris-2007-ssmo.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2000/morris-2007-ssmo.pdf[PDF],
-        link:inproceedings/2000/morris-2007-ssmo.doc[DOC],
-        link:inproceedings/2000/morris-2007-ssmo.ppt[PPT]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/morris-2007-ssmo/morris-2007-ssmo.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/morris-2007-ssmo/morris-2007-ssmo.adoc[adoc]
 

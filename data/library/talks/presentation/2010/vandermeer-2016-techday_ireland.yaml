@@ -7,8 +7,5 @@ talks/presentation/2010/vandermeer-2016-techday_ireland:
     urls:
         Event: >
             http://techdayireland.com/
-    library:
-        Folder: >
-            talks/presentation/2010/
     adoc: |
         * Presentation: Technology Day Ireland, Athlone, Ireland, 2016

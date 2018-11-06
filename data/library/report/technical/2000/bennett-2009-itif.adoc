@@ -7,10 +7,6 @@
       link:https://itif.org/publications/2009/09/25/designed-change-end-end-arguments-internet-innovation-and-net-neutrality[ITIF],
       link:http://www.itif.org/files/Designed_for_Change_Presentation.pdf[PDF: talk]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/report/technical/2000/bennett-2009-itif.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/report/technical/2000/bennett-2009-itif.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/report/technical/2000[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/report/technical/2000/bennett-2009-itif.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/report/technical/2000/bennett-2009-itif.adoc[adoc]
 

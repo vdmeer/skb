@@ -4,8 +4,5 @@ talks/presentation/2000/vandermeer-2006-tssg_rm:
     title: DIY Guide to Presentations
     type: presentation
     year: 2006
-    library:
-        Folder: >
-            talks/presentation/2000/
     adoc: |
         * Presentation: TSSG Research Modules, Waterford, Ireland, July 10, 2006

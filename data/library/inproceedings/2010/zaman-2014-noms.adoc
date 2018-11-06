@@ -6,10 +6,6 @@
       link:https://doi.org/10.1109/NOMS.2014.6838350[DOI],
       link:https://www.researchgate.net/publication/271437362_A_heuristic_correlation_algorithm_for_data_reduction_through_noise_detection_in_stream-based_communication_management_systems[ResearchGate]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/zaman-2014-noms.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/zaman-2014-noms.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:inproceedings/2010/zaman-2014-noms.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/zaman-2014-noms.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/zaman-2014-noms.adoc[adoc]
 

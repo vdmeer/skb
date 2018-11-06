@@ -8,11 +8,6 @@
       link:https://www.researchgate.net/publication/224163138_Multidomain_IT_architectures_for_next-generation_communications_service_providers_Next-Generation_Telco_IT_Architectures[ResearchGate],
       link:http://www.tara.tcd.ie/handle/2262/40593[PDF: TCD]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/2010/brennan-2010-commag.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/2010/brennan-2010-commag.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:article/2010/brennan-2010-commag.pdf[PDF],
-        link:article/2010/brennan-2010-commag.docx[DOCX]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/article/2010/brennan-2010-commag.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/article/2010/brennan-2010-commag.adoc[adoc]
 

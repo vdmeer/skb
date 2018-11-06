@@ -6,10 +6,6 @@
 * Links:
       link:https://doi.org/10.1109/TSE.1981.234540[DOI]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/1980/jomier-1981-tase.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/article/1980/jomier-1981-tase.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:article/1980/jomier-1981-tase.pdf[PDF]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/article/1980/jomier-1981-tase.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/article/1980/jomier-1981-tase.adoc[adoc]
 

@@ -7,10 +7,6 @@
       link:https://onapbeijing2017.sched.com/event/D5qS/state-context-adaptability-and-scale-for-self-learning-closed-loop-policies[Event],
       link:https://schd.ws/hosted_files/onapbeijing2017/70/ONAPEvent_Policy.pdf[PDF]
     ┃ skb:
-        link:https://github.com/vdmeer/skb/tree/master/data/library/talks/keynote/2010/fallon-2017-onap.yaml[yaml],
-        link:https://github.com/vdmeer/skb/tree/master/data/library/talks/keynote/2010/fallon-2017-onap.adoc[adoc]
-ifdef::local[]
-    ┃ local:
-        link:library/talks/keynote/2010/[Folder]
-endif::[]
+        https://github.com/vdmeer/skb/tree/master/data/library/talks/invited-talk/2010/fallon-2017-onap.yaml[yaml],
+        https://github.com/vdmeer/skb/tree/master/data/library/talks/invited-talk/2010/fallon-2017-onap.adoc[adoc]
 

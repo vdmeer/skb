@@ -5,16 +5,16 @@
 /Author (Sven van der Meer)
 /Creator (Asciidoctor PDF 1.5.0.alpha.16, based on Prawn 2.2.2)
 /Producer (Sven van der Meer)
-/ModDate (D:20181107005335+00'00')
-/CreationDate (D:20181107005335+00'00')
+/ModDate (D:20181107102801+00'00')
+/CreationDate (D:20181107102801+00'00')
 >>
 endobj
 2 0 obj
 << /Type /Catalog
 /Pages 3 0 R
 /Names 14 0 R
-/Outlines 186 0 R
-/PageLabels 191 0 R
+/Outlines 149 0 R
+/PageLabels 154 0 R
 /PageMode /UseOutlines
 /OpenAction [7 0 R /FitH 842.89]
 /ViewerPreferences << /DisplayDocTitle true
@@ -24,7 +24,7 @@ endobj
 3 0 obj
 << /Type /Pages
 /Count 12
-/Kids [7 0 R 10 0 R 12 0 R 20 0 R 35 0 R 46 0 R 59 0 R 80 0 R 103 0 R 122 0 R 141 0 R 167 0 R]
+/Kids [7 0 R 10 0 R 12 0 R 20 0 R 32 0 R 40 0 R 50 0 R 66 0 R 84 0 R 98 0 R 113 0 R 133 0 R]
 >>
 endobj
 4 0 obj
@@ -111,11 +111,11 @@ endobj
 << /Type /Font
 /BaseFont /6715fc+NotoSerif
 /Subtype /TrueType
-/FontDescriptor 193 0 R
+/FontDescriptor 156 0 R
 /FirstChar 32
 /LastChar 255
-/Widths 195 0 R
-/ToUnicode 194 0 R
+/Widths 158 0 R
+/ToUnicode 157 0 R
 >>
 endobj
 9 0 obj
@@ -234,7 +234,7 @@ endobj
 /F1.0 8 0 R
 >>
 >>
-/Annots [180 0 R 181 0 R 182 0 R 183 0 R]
+/Annots [143 0 R 144 0 R 145 0 R 146 0 R]
 >>
 endobj
 11 0 obj
@@ -1024,7 +1024,7 @@ endobj
 /F1.0 8 0 R
 /F3.0 18 0 R
 >>
-/XObject << /Stamp1 184 0 R
+/XObject << /Stamp1 147 0 R
 >>
 >>
 >>
@@ -1038,7 +1038,7 @@ endobj
 >>
 endobj
 15 0 obj
-<< /Names [(__anchor-top) 13 0 R (_apex) 139 0 R (_discussion_taken_from_vdmnoms2018) 16 0 R]
+<< /Names [(__anchor-top) 13 0 R (_apex) 111 0 R (_discussion_taken_from_vdmnoms2018) 16 0 R]
 >>
 endobj
 16 0 obj
@@ -1048,26 +1048,26 @@ endobj
 << /Type /Font
 /BaseFont /e91dc1+NotoSerif-Bold
 /Subtype /TrueType
-/FontDescriptor 197 0 R
+/FontDescriptor 160 0 R
 /FirstChar 32
 /LastChar 255
-/Widths 199 0 R
-/ToUnicode 198 0 R
+/Widths 162 0 R
+/ToUnicode 161 0 R
 >>
 endobj
 18 0 obj
 << /Type /Font
 /BaseFont /9476a5+NotoSerif-Italic
 /Subtype /TrueType
-/FontDescriptor 201 0 R
+/FontDescriptor 164 0 R
 /FirstChar 32
 /LastChar 255
-/Widths 203 0 R
-/ToUnicode 202 0 R
+/Widths 166 0 R
+/ToUnicode 165 0 R
 >>
 endobj
 19 0 obj
-<< /Length 14488
+<< /Length 13749
 >>
 stream
 q
@@ -1392,29 +1392,7 @@ ET
 BT
 186.2415 564.096 Td
 /F1.0 10.5 Tf
-<79616d6c> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2 0.2 0.2 scn
-0.2 0.2 0.2 SCN
-
-BT
-211.2315 564.096 Td
-/F1.0 10.5 Tf
-<2c20> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2588 0.5451 0.7922 scn
-0.2588 0.5451 0.7922 SCN
-
-BT
-216.576 564.096 Td
-/F1.0 10.5 Tf
-<61646f63> Tj
+<79616d6c20737263> Tj
 ET
 
 0.0 0.0 0.0 SCN
@@ -1733,29 +1711,7 @@ ET
 BT
 161.619 405.6359 Td
 /F1.0 10.5 Tf
-<79616d6c> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2 0.2 0.2 scn
-0.2 0.2 0.2 SCN
-
-BT
-186.609 405.6359 Td
-/F1.0 10.5 Tf
-<2c20> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2588 0.5451 0.7922 scn
-0.2588 0.5451 0.7922 SCN
-
-BT
-191.9535 405.6359 Td
-/F1.0 10.5 Tf
-<61646f63> Tj
+<79616d6c20737263> Tj
 ET
 
 0.0 0.0 0.0 SCN
@@ -2084,29 +2040,7 @@ ET
 BT
 259.8045 209.6158 Td
 /F1.0 10.5 Tf
-<79616d6c> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2 0.2 0.2 scn
-0.2 0.2 0.2 SCN
-
-BT
-284.7945 209.6158 Td
-/F1.0 10.5 Tf
-<2c20> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2588 0.5451 0.7922 scn
-0.2588 0.5451 0.7922 SCN
-
-BT
-290.139 209.6158 Td
-/F1.0 10.5 Tf
-<61646f63> Tj
+<79616d6c20737263> Tj
 ET
 
 0.0 0.0 0.0 SCN
@@ -2150,10 +2084,10 @@ endobj
 /F3.0 18 0 R
 /F1.1 23 0 R
 >>
-/XObject << /Stamp2 185 0 R
+/XObject << /Stamp2 148 0 R
 >>
 >>
-/Annots [21 0 R 22 0 R 24 0 R 25 0 R 26 0 R 27 0 R 28 0 R 29 0 R 30 0 R 31 0 R 32 0 R 33 0 R]
+/Annots [21 0 R 22 0 R 24 0 R 25 0 R 26 0 R 27 0 R 28 0 R 29 0 R 30 0 R]
 >>
 endobj
 21 0 obj
@@ -2182,11 +2116,11 @@ endobj
 << /Type /Font
 /BaseFont /b73994+NotoSerif
 /Subtype /TrueType
-/FontDescriptor 205 0 R
+/FontDescriptor 168 0 R
 /FirstChar 32
 /LastChar 255
-/Widths 207 0 R
-/ToUnicode 206 0 R
+/Widths 170 0 R
+/ToUnicode 169 0 R
 >>
 endobj
 24 0 obj
@@ -2196,22 +2130,11 @@ endobj
 /URI (https://github.com/vdmeer/skb/tree/master/data/library/article/1970/hansen-1970-cacm.yaml)
 >>
 /Subtype /Link
-/Rect [186.2415 561.03 211.2315 575.31]
+/Rect [186.2415 561.03 228.798 575.31]
 /Type /Annot
 >>
 endobj
 25 0 obj
-<< /Border [0 0 0]
-/A << /Type /Action
-/S /URI
-/URI (https://github.com/vdmeer/skb/tree/master/data/library/article/1970/hansen-1970-cacm.adoc)
->>
-/Subtype /Link
-/Rect [216.576 561.03 240.138 575.31]
-/Type /Annot
->>
-endobj
-26 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -2222,29 +2145,18 @@ endobj
 /Type /Annot
 >>
 endobj
-27 0 obj
+26 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
 /URI (https://github.com/vdmeer/skb/tree/master/data/library/report/technical/1970/bell-1973-mitre.yaml)
 >>
 /Subtype /Link
-/Rect [161.619 402.5699 186.609 416.8499]
+/Rect [161.619 402.5699 204.1755 416.8499]
 /Type /Annot
 >>
 endobj
-28 0 obj
-<< /Border [0 0 0]
-/A << /Type /Action
-/S /URI
-/URI (https://github.com/vdmeer/skb/tree/master/data/library/report/technical/1970/bell-1973-mitre.adoc)
->>
-/Subtype /Link
-/Rect [191.9535 402.5699 215.5155 416.8499]
-/Type /Annot
->>
-endobj
-29 0 obj
+27 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -2255,7 +2167,7 @@ endobj
 /Type /Annot
 >>
 endobj
-30 0 obj
+28 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -2266,7 +2178,7 @@ endobj
 /Type /Annot
 >>
 endobj
-31 0 obj
+29 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -2277,30 +2189,19 @@ endobj
 /Type /Annot
 >>
 endobj
-32 0 obj
+30 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
 /URI (https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1970/levin-1975-sosp.yaml)
 >>
 /Subtype /Link
-/Rect [259.8045 206.5498 284.7945 220.8298]
+/Rect [259.8045 206.5498 302.361 220.8298]
 /Type /Annot
 >>
 endobj
-33 0 obj
-<< /Border [0 0 0]
-/A << /Type /Action
-/S /URI
-/URI (https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1970/levin-1975-sosp.adoc)
->>
-/Subtype /Link
-/Rect [290.139 206.5498 313.701 220.8298]
-/Type /Annot
->>
-endobj
-34 0 obj
-<< /Length 10207
+31 0 obj
+<< /Length 9468
 >>
 stream
 q
@@ -2572,29 +2473,7 @@ ET
 BT
 160.737 666.246 Td
 /F1.0 10.5 Tf
-<79616d6c> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2 0.2 0.2 scn
-0.2 0.2 0.2 SCN
-
-BT
-185.727 666.246 Td
-/F1.0 10.5 Tf
-<2c20> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2588 0.5451 0.7922 scn
-0.2588 0.5451 0.7922 SCN
-
-BT
-191.0715 666.246 Td
-/F1.0 10.5 Tf
-<61646f63> Tj
+<79616d6c20737263> Tj
 ET
 
 0.0 0.0 0.0 SCN
@@ -2831,29 +2710,7 @@ ET
 BT
 160.737 507.7859 Td
 /F1.0 10.5 Tf
-<79616d6c> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2 0.2 0.2 scn
-0.2 0.2 0.2 SCN
-
-BT
-185.727 507.7859 Td
-/F1.0 10.5 Tf
-<2c20> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2588 0.5451 0.7922 scn
-0.2588 0.5451 0.7922 SCN
-
-BT
-191.0715 507.7859 Td
-/F1.0 10.5 Tf
-<61646f63> Tj
+<79616d6c20737263> Tj
 ET
 
 0.0 0.0 0.0 SCN
@@ -3052,29 +2909,7 @@ ET
 BT
 160.737 380.8858 Td
 /F1.0 10.5 Tf
-<79616d6c> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2 0.2 0.2 scn
-0.2 0.2 0.2 SCN
-
-BT
-185.727 380.8858 Td
-/F1.0 10.5 Tf
-<2c20> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2588 0.5451 0.7922 scn
-0.2588 0.5451 0.7922 SCN
-
-BT
-191.0715 380.8858 Td
-/F1.0 10.5 Tf
-<61646f63> Tj
+<79616d6c20737263> Tj
 ET
 
 0.0 0.0 0.0 SCN
@@ -3103,7 +2938,7 @@ Q
 
 endstream
 endobj
-35 0 obj
+32 0 obj
 << /Type /Page
 /Parent 3 0 R
 /MediaBox [0 0 595.28 841.89]
@@ -3111,20 +2946,20 @@ endobj
 /BleedBox [0 0 595.28 841.89]
 /TrimBox [0 0 595.28 841.89]
 /ArtBox [0 0 595.28 841.89]
-/Contents 34 0 R
+/Contents 31 0 R
 /Resources << /ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
 /Font << /F2.0 17 0 R
 /F1.0 8 0 R
 /F3.0 18 0 R
 /F1.1 23 0 R
 >>
-/XObject << /Stamp1 184 0 R
+/XObject << /Stamp1 147 0 R
 >>
 >>
-/Annots [36 0 R 37 0 R 38 0 R 39 0 R 40 0 R 41 0 R 42 0 R 43 0 R 44 0 R]
+/Annots [33 0 R 34 0 R 35 0 R 36 0 R 37 0 R 38 0 R]
 >>
 endobj
-36 0 obj
+33 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -3135,29 +2970,18 @@ endobj
 /Type /Annot
 >>
 endobj
-37 0 obj
+34 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
 /URI (https://github.com/vdmeer/skb/tree/master/data/library/article/1970/rouse-1979-tsmc.yaml)
 >>
 /Subtype /Link
-/Rect [160.737 663.18 185.727 677.46]
+/Rect [160.737 663.18 203.2935 677.46]
 /Type /Annot
 >>
 endobj
-38 0 obj
-<< /Border [0 0 0]
-/A << /Type /Action
-/S /URI
-/URI (https://github.com/vdmeer/skb/tree/master/data/library/article/1970/rouse-1979-tsmc.adoc)
->>
-/Subtype /Link
-/Rect [191.0715 663.18 214.6335 677.46]
-/Type /Annot
->>
-endobj
-39 0 obj
+35 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -3168,29 +2992,18 @@ endobj
 /Type /Annot
 >>
 endobj
-40 0 obj
+36 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
 /URI (https://github.com/vdmeer/skb/tree/master/data/library/article/1980/jomier-1981-tase.yaml)
 >>
 /Subtype /Link
-/Rect [160.737 504.7199 185.727 518.9999]
+/Rect [160.737 504.7199 203.2935 518.9999]
 /Type /Annot
 >>
 endobj
-41 0 obj
-<< /Border [0 0 0]
-/A << /Type /Action
-/S /URI
-/URI (https://github.com/vdmeer/skb/tree/master/data/library/article/1980/jomier-1981-tase.adoc)
->>
-/Subtype /Link
-/Rect [191.0715 504.7199 214.6335 518.9999]
-/Type /Annot
->>
-endobj
-42 0 obj
+37 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -3201,30 +3014,19 @@ endobj
 /Type /Annot
 >>
 endobj
-43 0 obj
+38 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
 /URI (https://github.com/vdmeer/skb/tree/master/data/library/article/1980/kamoun-1981-tacom.yaml)
 >>
 /Subtype /Link
-/Rect [160.737 377.8198 185.727 392.0998]
+/Rect [160.737 377.8198 203.2935 392.0998]
 /Type /Annot
 >>
 endobj
-44 0 obj
-<< /Border [0 0 0]
-/A << /Type /Action
-/S /URI
-/URI (https://github.com/vdmeer/skb/tree/master/data/library/article/1980/kamoun-1981-tacom.adoc)
->>
-/Subtype /Link
-/Rect [191.0715 377.8198 214.6335 392.0998]
-/Type /Annot
->>
-endobj
-45 0 obj
-<< /Length 14237
+39 0 obj
+<< /Length 13500
 >>
 stream
 q
@@ -3738,29 +3540,7 @@ ET
 BT
 234.3 460.446 Td
 /F1.0 10.5 Tf
-<79616d6c> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2 0.2 0.2 scn
-0.2 0.2 0.2 SCN
-
-BT
-259.29 460.446 Td
-/F1.0 10.5 Tf
-<2c20> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2588 0.5451 0.7922 scn
-0.2588 0.5451 0.7922 SCN
-
-BT
-264.6345 460.446 Td
-/F1.0 10.5 Tf
-<61646f63> Tj
+<79616d6c20737263> Tj
 ET
 
 0.0 0.0 0.0 SCN
@@ -3989,29 +3769,7 @@ ET
 BT
 393.9 301.9859 Td
 /F1.0 10.5 Tf
-<79616d6c> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2 0.2 0.2 scn
-0.2 0.2 0.2 SCN
-
-BT
-418.89 301.9859 Td
-/F1.0 10.5 Tf
-<2c20> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2588 0.5451 0.7922 scn
-0.2588 0.5451 0.7922 SCN
-
-BT
-424.2345 301.9859 Td
-/F1.0 10.5 Tf
-<61646f63> Tj
+<79616d6c20737263> Tj
 ET
 
 0.0 0.0 0.0 SCN
@@ -4247,29 +4005,7 @@ ET
 BT
 186.2415 159.3058 Td
 /F1.0 10.5 Tf
-<79616d6c> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2 0.2 0.2 scn
-0.2 0.2 0.2 SCN
-
-BT
-211.2315 159.3058 Td
-/F1.0 10.5 Tf
-<2c20> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2588 0.5451 0.7922 scn
-0.2588 0.5451 0.7922 SCN
-
-BT
-216.576 159.3058 Td
-/F1.0 10.5 Tf
-<61646f63> Tj
+<79616d6c20737263> Tj
 ET
 
 0.0 0.0 0.0 SCN
@@ -4298,7 +4034,7 @@ Q
 
 endstream
 endobj
-46 0 obj
+40 0 obj
 << /Type /Page
 /Parent 3 0 R
 /MediaBox [0 0 595.28 841.89]
@@ -4306,20 +4042,20 @@ endobj
 /BleedBox [0 0 595.28 841.89]
 /TrimBox [0 0 595.28 841.89]
 /ArtBox [0 0 595.28 841.89]
-/Contents 45 0 R
+/Contents 39 0 R
 /Resources << /ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
 /Font << /F2.0 17 0 R
 /F1.0 8 0 R
 /F3.0 18 0 R
 /F1.1 23 0 R
 >>
-/XObject << /Stamp2 185 0 R
+/XObject << /Stamp2 148 0 R
 >>
 >>
-/Annots [47 0 R 48 0 R 49 0 R 50 0 R 51 0 R 52 0 R 53 0 R 54 0 R 55 0 R 56 0 R 57 0 R]
+/Annots [41 0 R 42 0 R 43 0 R 44 0 R 45 0 R 46 0 R 47 0 R 48 0 R]
 >>
 endobj
-47 0 obj
+41 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -4330,7 +4066,7 @@ endobj
 /Type /Annot
 >>
 endobj
-48 0 obj
+42 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -4341,29 +4077,18 @@ endobj
 /Type /Annot
 >>
 endobj
-49 0 obj
+43 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
 /URI (https://github.com/vdmeer/skb/tree/master/data/library/article/1980/dayal-1988-sigmod.yaml)
 >>
 /Subtype /Link
-/Rect [234.3 457.38 259.29 471.66]
+/Rect [234.3 457.38 276.8565 471.66]
 /Type /Annot
 >>
 endobj
-50 0 obj
-<< /Border [0 0 0]
-/A << /Type /Action
-/S /URI
-/URI (https://github.com/vdmeer/skb/tree/master/data/library/article/1980/dayal-1988-sigmod.adoc)
->>
-/Subtype /Link
-/Rect [264.6345 457.38 288.1965 471.66]
-/Type /Annot
->>
-endobj
-51 0 obj
+44 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -4374,29 +4099,18 @@ endobj
 /Type /Annot
 >>
 endobj
-52 0 obj
+45 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
 /URI (https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1980/mccarthy-1989-sigmod.yaml)
 >>
 /Subtype /Link
-/Rect [393.9 298.9199 418.89 313.1999]
+/Rect [393.9 298.9199 436.4565 313.1999]
 /Type /Annot
 >>
 endobj
-53 0 obj
-<< /Border [0 0 0]
-/A << /Type /Action
-/S /URI
-/URI (https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1980/mccarthy-1989-sigmod.adoc)
->>
-/Subtype /Link
-/Rect [424.2345 298.9199 447.7965 313.1999]
-/Type /Annot
->>
-endobj
-54 0 obj
+46 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -4407,7 +4121,7 @@ endobj
 /Type /Annot
 >>
 endobj
-55 0 obj
+47 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -4418,30 +4132,19 @@ endobj
 /Type /Annot
 >>
 endobj
-56 0 obj
+48 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
 /URI (https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1980/robinson-1988-ftdcs.yaml)
 >>
 /Subtype /Link
-/Rect [186.2415 156.2398 211.2315 170.5198]
+/Rect [186.2415 156.2398 228.798 170.5198]
 /Type /Annot
 >>
 endobj
-57 0 obj
-<< /Border [0 0 0]
-/A << /Type /Action
-/S /URI
-/URI (https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1980/robinson-1988-ftdcs.adoc)
->>
-/Subtype /Link
-/Rect [216.576 156.2398 240.138 170.5198]
-/Type /Annot
->>
-endobj
-58 0 obj
-<< /Length 17736
+49 0 obj
+<< /Length 16503
 >>
 stream
 q
@@ -4698,29 +4401,7 @@ ET
 BT
 186.2415 682.026 Td
 /F1.0 10.5 Tf
-<79616d6c> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2 0.2 0.2 scn
-0.2 0.2 0.2 SCN
-
-BT
-211.2315 682.026 Td
-/F1.0 10.5 Tf
-<2c20> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2588 0.5451 0.7922 scn
-0.2588 0.5451 0.7922 SCN
-
-BT
-216.576 682.026 Td
-/F1.0 10.5 Tf
-<61646f63> Tj
+<79616d6c20737263> Tj
 ET
 
 0.0 0.0 0.0 SCN
@@ -5019,29 +4700,7 @@ ET
 BT
 160.737 539.3459 Td
 /F1.0 10.5 Tf
-<79616d6c> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2 0.2 0.2 scn
-0.2 0.2 0.2 SCN
-
-BT
-185.727 539.3459 Td
-/F1.0 10.5 Tf
-<2c20> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2588 0.5451 0.7922 scn
-0.2588 0.5451 0.7922 SCN
-
-BT
-191.0715 539.3459 Td
-/F1.0 10.5 Tf
-<61646f63> Tj
+<79616d6c20737263> Tj
 ET
 
 0.0 0.0 0.0 SCN
@@ -5289,29 +4948,7 @@ ET
 BT
 186.2415 396.6658 Td
 /F1.0 10.5 Tf
-<79616d6c> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2 0.2 0.2 scn
-0.2 0.2 0.2 SCN
-
-BT
-211.2315 396.6658 Td
-/F1.0 10.5 Tf
-<2c20> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2588 0.5451 0.7922 scn
-0.2588 0.5451 0.7922 SCN
-
-BT
-216.576 396.6658 Td
-/F1.0 10.5 Tf
-<61646f63> Tj
+<79616d6c20737263> Tj
 ET
 
 0.0 0.0 0.0 SCN
@@ -5547,29 +5184,7 @@ ET
 BT
 186.2415 253.9857 Td
 /F1.0 10.5 Tf
-<79616d6c> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2 0.2 0.2 scn
-0.2 0.2 0.2 SCN
-
-BT
-211.2315 253.9857 Td
-/F1.0 10.5 Tf
-<2c20> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2588 0.5451 0.7922 scn
-0.2588 0.5451 0.7922 SCN
-
-BT
-216.576 253.9857 Td
-/F1.0 10.5 Tf
-<61646f63> Tj
+<79616d6c20737263> Tj
 ET
 
 0.0 0.0 0.0 SCN
@@ -5805,29 +5420,7 @@ ET
 BT
 186.2415 111.3056 Td
 /F1.0 10.5 Tf
-<79616d6c> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2 0.2 0.2 scn
-0.2 0.2 0.2 SCN
-
-BT
-211.2315 111.3056 Td
-/F1.0 10.5 Tf
-<2c20> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2588 0.5451 0.7922 scn
-0.2588 0.5451 0.7922 SCN
-
-BT
-216.576 111.3056 Td
-/F1.0 10.5 Tf
-<61646f63> Tj
+<79616d6c20737263> Tj
 ET
 
 0.0 0.0 0.0 SCN
@@ -5856,7 +5449,7 @@ Q
 
 endstream
 endobj
-59 0 obj
+50 0 obj
 << /Type /Page
 /Parent 3 0 R
 /MediaBox [0 0 595.28 841.89]
@@ -5864,20 +5457,20 @@ endobj
 /BleedBox [0 0 595.28 841.89]
 /TrimBox [0 0 595.28 841.89]
 /ArtBox [0 0 595.28 841.89]
-/Contents 58 0 R
+/Contents 49 0 R
 /Resources << /ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
 /Font << /F2.0 17 0 R
 /F1.0 8 0 R
 /F3.0 18 0 R
 /F1.1 23 0 R
 >>
-/XObject << /Stamp1 184 0 R
+/XObject << /Stamp1 147 0 R
 >>
 >>
-/Annots [60 0 R 61 0 R 62 0 R 63 0 R 64 0 R 65 0 R 66 0 R 67 0 R 68 0 R 69 0 R 70 0 R 71 0 R 72 0 R 73 0 R 74 0 R 75 0 R 76 0 R 77 0 R 78 0 R]
+/Annots [51 0 R 52 0 R 53 0 R 54 0 R 55 0 R 56 0 R 57 0 R 58 0 R 59 0 R 60 0 R 61 0 R 62 0 R 63 0 R 64 0 R]
 >>
 endobj
-60 0 obj
+51 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -5888,7 +5481,7 @@ endobj
 /Type /Annot
 >>
 endobj
-61 0 obj
+52 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -5899,29 +5492,18 @@ endobj
 /Type /Annot
 >>
 endobj
-62 0 obj
+53 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
 /URI (https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1980/twidle-1988-ftdcs.yaml)
 >>
 /Subtype /Link
-/Rect [186.2415 678.96 211.2315 693.24]
+/Rect [186.2415 678.96 228.798 693.24]
 /Type /Annot
 >>
 endobj
-63 0 obj
-<< /Border [0 0 0]
-/A << /Type /Action
-/S /URI
-/URI (https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1980/twidle-1988-ftdcs.adoc)
->>
-/Subtype /Link
-/Rect [216.576 678.96 240.138 693.24]
-/Type /Annot
->>
-endobj
-64 0 obj
+54 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -5932,29 +5514,18 @@ endobj
 /Type /Annot
 >>
 endobj
-65 0 obj
+55 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
 /URI (https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1980/dobson-1989-ssp.yaml)
 >>
 /Subtype /Link
-/Rect [160.737 536.2799 185.727 550.5599]
+/Rect [160.737 536.2799 203.2935 550.5599]
 /Type /Annot
 >>
 endobj
-66 0 obj
-<< /Border [0 0 0]
-/A << /Type /Action
-/S /URI
-/URI (https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1980/dobson-1989-ssp.adoc)
->>
-/Subtype /Link
-/Rect [191.0715 536.2799 214.6335 550.5599]
-/Type /Annot
->>
-endobj
-67 0 obj
+56 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -5965,7 +5536,7 @@ endobj
 /Type /Annot
 >>
 endobj
-68 0 obj
+57 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -5976,29 +5547,18 @@ endobj
 /Type /Annot
 >>
 endobj
-69 0 obj
+58 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
 /URI (https://github.com/vdmeer/skb/tree/master/data/library/article/1990/moffet-1990-comcom.yaml)
 >>
 /Subtype /Link
-/Rect [186.2415 393.5998 211.2315 407.8798]
+/Rect [186.2415 393.5998 228.798 407.8798]
 /Type /Annot
 >>
 endobj
-70 0 obj
-<< /Border [0 0 0]
-/A << /Type /Action
-/S /URI
-/URI (https://github.com/vdmeer/skb/tree/master/data/library/article/1990/moffet-1990-comcom.adoc)
->>
-/Subtype /Link
-/Rect [216.576 393.5998 240.138 407.8798]
-/Type /Annot
->>
-endobj
-71 0 obj
+59 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -6009,7 +5569,7 @@ endobj
 /Type /Annot
 >>
 endobj
-72 0 obj
+60 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -6020,29 +5580,18 @@ endobj
 /Type /Annot
 >>
 endobj
-73 0 obj
+61 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
 /URI (https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1990/sloman-1990-ftdcs.yaml)
 >>
 /Subtype /Link
-/Rect [186.2415 250.9197 211.2315 265.1997]
+/Rect [186.2415 250.9197 228.798 265.1997]
 /Type /Annot
 >>
 endobj
-74 0 obj
-<< /Border [0 0 0]
-/A << /Type /Action
-/S /URI
-/URI (https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/1990/sloman-1990-ftdcs.adoc)
->>
-/Subtype /Link
-/Rect [216.576 250.9197 240.138 265.1997]
-/Type /Annot
->>
-endobj
-75 0 obj
+62 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -6053,7 +5602,7 @@ endobj
 /Type /Annot
 >>
 endobj
-76 0 obj
+63 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -6064,30 +5613,19 @@ endobj
 /Type /Annot
 >>
 endobj
-77 0 obj
+64 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
 /URI (https://github.com/vdmeer/skb/tree/master/data/library/article/1990/sloman-1994-jnsm.yaml)
 >>
 /Subtype /Link
-/Rect [186.2415 108.2396 211.2315 122.5196]
+/Rect [186.2415 108.2396 228.798 122.5196]
 /Type /Annot
 >>
 endobj
-78 0 obj
-<< /Border [0 0 0]
-/A << /Type /Action
-/S /URI
-/URI (https://github.com/vdmeer/skb/tree/master/data/library/article/1990/sloman-1994-jnsm.adoc)
->>
-/Subtype /Link
-/Rect [216.576 108.2396 240.138 122.5196]
-/Type /Annot
->>
-endobj
-79 0 obj
-<< /Length 16613
+65 0 obj
+<< /Length 15381
 >>
 stream
 q
@@ -6329,29 +5867,7 @@ ET
 BT
 186.2415 697.806 Td
 /F1.0 10.5 Tf
-<79616d6c> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2 0.2 0.2 scn
-0.2 0.2 0.2 SCN
-
-BT
-211.2315 697.806 Td
-/F1.0 10.5 Tf
-<2c20> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2588 0.5451 0.7922 scn
-0.2588 0.5451 0.7922 SCN
-
-BT
-216.576 697.806 Td
-/F1.0 10.5 Tf
-<61646f63> Tj
+<79616d6c20737263> Tj
 ET
 
 0.0 0.0 0.0 SCN
@@ -6594,29 +6110,7 @@ ET
 BT
 323.403 570.9059 Td
 /F1.0 10.5 Tf
-<79616d6c> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2 0.2 0.2 scn
-0.2 0.2 0.2 SCN
-
-BT
-348.393 570.9059 Td
-/F1.0 10.5 Tf
-<2c20> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2588 0.5451 0.7922 scn
-0.2588 0.5451 0.7922 SCN
-
-BT
-353.7375 570.9059 Td
-/F1.0 10.5 Tf
-<61646f63> Tj
+<79616d6c20737263> Tj
 ET
 
 0.0 0.0 0.0 SCN
@@ -6789,29 +6283,7 @@ ET
 BT
 209.2575 465.7858 Td
 /F1.0 10.5 Tf
-<79616d6c> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2 0.2 0.2 scn
-0.2 0.2 0.2 SCN
-
-BT
-234.2475 465.7858 Td
-/F1.0 10.5 Tf
-<2c20> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2588 0.5451 0.7922 scn
-0.2588 0.5451 0.7922 SCN
-
-BT
-239.592 465.7858 Td
-/F1.0 10.5 Tf
-<61646f63> Tj
+<79616d6c20737263> Tj
 ET
 
 0.0 0.0 0.0 SCN
@@ -7054,29 +6526,7 @@ ET
 BT
 281.508 338.8857 Td
 /F1.0 10.5 Tf
-<79616d6c> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2 0.2 0.2 scn
-0.2 0.2 0.2 SCN
-
-BT
-306.498 338.8857 Td
-/F1.0 10.5 Tf
-<2c20> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2588 0.5451 0.7922 scn
-0.2588 0.5451 0.7922 SCN
-
-BT
-311.8425 338.8857 Td
-/F1.0 10.5 Tf
-<61646f63> Tj
+<79616d6c20737263> Tj
 ET
 
 0.0 0.0 0.0 SCN
@@ -7327,29 +6777,7 @@ ET
 BT
 234.3 180.4256 Td
 /F1.0 10.5 Tf
-<79616d6c> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2 0.2 0.2 scn
-0.2 0.2 0.2 SCN
-
-BT
-259.29 180.4256 Td
-/F1.0 10.5 Tf
-<2c20> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2588 0.5451 0.7922 scn
-0.2588 0.5451 0.7922 SCN
-
-BT
-264.6345 180.4256 Td
-/F1.0 10.5 Tf
-<61646f63> Tj
+<79616d6c20737263> Tj
 ET
 
 0.0 0.0 0.0 SCN
@@ -7378,7 +6806,7 @@ Q
 
 endstream
 endobj
-80 0 obj
+66 0 obj
 << /Type /Page
 /Parent 3 0 R
 /MediaBox [0 0 595.28 841.89]
@@ -7386,20 +6814,20 @@ endobj
 /BleedBox [0 0 595.28 841.89]
 /TrimBox [0 0 595.28 841.89]
 /ArtBox [0 0 595.28 841.89]
-/Contents 79 0 R
+/Contents 65 0 R
 /Resources << /ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
 /Font << /F2.0 17 0 R
 /F1.0 8 0 R
 /F3.0 18 0 R
 /F1.1 23 0 R
 >>
-/XObject << /Stamp2 185 0 R
+/XObject << /Stamp2 148 0 R
 >>
 >>
-/Annots [81 0 R 82 0 R 83 0 R 84 0 R 85 0 R 86 0 R 87 0 R 88 0 R 89 0 R 90 0 R 91 0 R 92 0 R 93 0 R 94 0 R 95 0 R 96 0 R 97 0 R 98 0 R 99 0 R 100 0 R 101 0 R]
+/Annots [67 0 R 68 0 R 69 0 R 70 0 R 71 0 R 72 0 R 73 0 R 74 0 R 75 0 R 76 0 R 77 0 R 78 0 R 79 0 R 80 0 R 81 0 R 82 0 R]
 >>
 endobj
-81 0 obj
+67 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -7410,7 +6838,7 @@ endobj
 /Type /Annot
 >>
 endobj
-82 0 obj
+68 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -7421,29 +6849,18 @@ endobj
 /Type /Annot
 >>
 endobj
-83 0 obj
+69 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
 /URI (https://github.com/vdmeer/skb/tree/master/data/library/article/2000/stone-2001-network.yaml)
 >>
 /Subtype /Link
-/Rect [186.2415 694.74 211.2315 709.02]
+/Rect [186.2415 694.74 228.798 709.02]
 /Type /Annot
 >>
 endobj
-84 0 obj
-<< /Border [0 0 0]
-/A << /Type /Action
-/S /URI
-/URI (https://github.com/vdmeer/skb/tree/master/data/library/article/2000/stone-2001-network.adoc)
->>
-/Subtype /Link
-/Rect [216.576 694.74 240.138 709.02]
-/Type /Annot
->>
-endobj
-85 0 obj
+70 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -7454,7 +6871,7 @@ endobj
 /Type /Annot
 >>
 endobj
-86 0 obj
+71 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -7465,7 +6882,7 @@ endobj
 /Type /Annot
 >>
 endobj
-87 0 obj
+72 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -7476,29 +6893,18 @@ endobj
 /Type /Annot
 >>
 endobj
-88 0 obj
+73 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
 /URI (https://github.com/vdmeer/skb/tree/master/data/library/unpublished/2000/damianou-2002-ic.yaml)
 >>
 /Subtype /Link
-/Rect [323.403 567.8399 348.393 582.1199]
+/Rect [323.403 567.8399 365.9595 582.1199]
 /Type /Annot
 >>
 endobj
-89 0 obj
-<< /Border [0 0 0]
-/A << /Type /Action
-/S /URI
-/URI (https://github.com/vdmeer/skb/tree/master/data/library/unpublished/2000/damianou-2002-ic.adoc)
->>
-/Subtype /Link
-/Rect [353.7375 567.8399 377.2995 582.1199]
-/Type /Annot
->>
-endobj
-90 0 obj
+74 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -7509,29 +6915,18 @@ endobj
 /Type /Annot
 >>
 endobj
-91 0 obj
+75 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
 /URI (https://github.com/vdmeer/skb/tree/master/data/library/book/2000/strassner-2004-pbm.yaml)
 >>
 /Subtype /Link
-/Rect [209.2575 462.7198 234.2475 476.9998]
+/Rect [209.2575 462.7198 251.814 476.9998]
 /Type /Annot
 >>
 endobj
-92 0 obj
-<< /Border [0 0 0]
-/A << /Type /Action
-/S /URI
-/URI (https://github.com/vdmeer/skb/tree/master/data/library/book/2000/strassner-2004-pbm.adoc)
->>
-/Subtype /Link
-/Rect [239.592 462.7198 263.154 476.9998]
-/Type /Annot
->>
-endobj
-93 0 obj
+76 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -7542,7 +6937,7 @@ endobj
 /Type /Annot
 >>
 endobj
-94 0 obj
+77 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -7553,7 +6948,7 @@ endobj
 /Type /Annot
 >>
 endobj
-95 0 obj
+78 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -7564,29 +6959,18 @@ endobj
 /Type /Annot
 >>
 endobj
-96 0 obj
+79 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
 /URI (https://github.com/vdmeer/skb/tree/master/data/library/article/2000/yag√ºe-2006-jias.yaml)
 >>
 /Subtype /Link
-/Rect [281.508 335.8197 306.498 350.0997]
+/Rect [281.508 335.8197 324.0645 350.0997]
 /Type /Annot
 >>
 endobj
-97 0 obj
-<< /Border [0 0 0]
-/A << /Type /Action
-/S /URI
-/URI (https://github.com/vdmeer/skb/tree/master/data/library/article/2000/yag√ºe-2006-jias.adoc)
->>
-/Subtype /Link
-/Rect [311.8425 335.8197 335.4045 350.0997]
-/Type /Annot
->>
-endobj
-98 0 obj
+80 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -7597,7 +6981,7 @@ endobj
 /Type /Annot
 >>
 endobj
-99 0 obj
+81 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -7608,30 +6992,19 @@ endobj
 /Type /Annot
 >>
 endobj
-100 0 obj
+82 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
 /URI (https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/barrett-2007-giis.yaml)
 >>
 /Subtype /Link
-/Rect [234.3 177.3596 259.29 191.6396]
+/Rect [234.3 177.3596 276.8565 191.6396]
 /Type /Annot
 >>
 endobj
-101 0 obj
-<< /Border [0 0 0]
-/A << /Type /Action
-/S /URI
-/URI (https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/barrett-2007-giis.adoc)
->>
-/Subtype /Link
-/Rect [264.6345 177.3596 288.1965 191.6396]
-/Type /Annot
->>
-endobj
-102 0 obj
-<< /Length 16325
+83 0 obj
+<< /Length 15094
 >>
 stream
 q
@@ -7840,29 +7213,7 @@ ET
 BT
 125.52 682.026 Td
 /F1.0 10.5 Tf
-<79616d6c> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2 0.2 0.2 scn
-0.2 0.2 0.2 SCN
-
-BT
-150.51 682.026 Td
-/F1.0 10.5 Tf
-<2c20> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2588 0.5451 0.7922 scn
-0.2588 0.5451 0.7922 SCN
-
-BT
-155.8545 682.026 Td
-/F1.0 10.5 Tf
-<61646f63> Tj
+<79616d6c20737263> Tj
 ET
 
 0.0 0.0 0.0 SCN
@@ -8113,29 +7464,7 @@ ET
 BT
 186.2415 523.5659 Td
 /F1.0 10.5 Tf
-<79616d6c> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2 0.2 0.2 scn
-0.2 0.2 0.2 SCN
-
-BT
-211.2315 523.5659 Td
-/F1.0 10.5 Tf
-<2c20> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2588 0.5451 0.7922 scn
-0.2588 0.5451 0.7922 SCN
-
-BT
-216.576 523.5659 Td
-/F1.0 10.5 Tf
-<61646f63> Tj
+<79616d6c20737263> Tj
 ET
 
 0.0 0.0 0.0 SCN
@@ -8356,29 +7685,7 @@ ET
 BT
 186.2415 396.6658 Td
 /F1.0 10.5 Tf
-<79616d6c> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2 0.2 0.2 scn
-0.2 0.2 0.2 SCN
-
-BT
-211.2315 396.6658 Td
-/F1.0 10.5 Tf
-<2c20> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2588 0.5451 0.7922 scn
-0.2588 0.5451 0.7922 SCN
-
-BT
-216.576 396.6658 Td
-/F1.0 10.5 Tf
-<61646f63> Tj
+<79616d6c20737263> Tj
 ET
 
 0.0 0.0 0.0 SCN
@@ -8626,29 +7933,7 @@ ET
 BT
 234.3 253.9857 Td
 /F1.0 10.5 Tf
-<79616d6c> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2 0.2 0.2 scn
-0.2 0.2 0.2 SCN
-
-BT
-259.29 253.9857 Td
-/F1.0 10.5 Tf
-<2c20> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2588 0.5451 0.7922 scn
-0.2588 0.5451 0.7922 SCN
-
-BT
-264.6345 253.9857 Td
-/F1.0 10.5 Tf
-<61646f63> Tj
+<79616d6c20737263> Tj
 ET
 
 0.0 0.0 0.0 SCN
@@ -8847,29 +8132,7 @@ ET
 BT
 160.737 127.0856 Td
 /F1.0 10.5 Tf
-<79616d6c> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2 0.2 0.2 scn
-0.2 0.2 0.2 SCN
-
-BT
-185.727 127.0856 Td
-/F1.0 10.5 Tf
-<2c20> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2588 0.5451 0.7922 scn
-0.2588 0.5451 0.7922 SCN
-
-BT
-191.0715 127.0856 Td
-/F1.0 10.5 Tf
-<61646f63> Tj
+<79616d6c20737263> Tj
 ET
 
 0.0 0.0 0.0 SCN
@@ -8898,7 +8161,7 @@ Q
 
 endstream
 endobj
-103 0 obj
+84 0 obj
 << /Type /Page
 /Parent 3 0 R
 /MediaBox [0 0 595.28 841.89]
@@ -8906,42 +8169,31 @@ endobj
 /BleedBox [0 0 595.28 841.89]
 /TrimBox [0 0 595.28 841.89]
 /ArtBox [0 0 595.28 841.89]
-/Contents 102 0 R
+/Contents 83 0 R
 /Resources << /ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
 /Font << /F2.0 17 0 R
 /F1.0 8 0 R
 /F3.0 18 0 R
 /F1.1 23 0 R
 >>
-/XObject << /Stamp1 184 0 R
+/XObject << /Stamp1 147 0 R
 >>
 >>
-/Annots [104 0 R 105 0 R 106 0 R 107 0 R 108 0 R 109 0 R 110 0 R 111 0 R 112 0 R 113 0 R 114 0 R 115 0 R 116 0 R 117 0 R 118 0 R 119 0 R 120 0 R]
+/Annots [85 0 R 86 0 R 87 0 R 88 0 R 89 0 R 90 0 R 91 0 R 92 0 R 93 0 R 94 0 R 95 0 R 96 0 R]
 >>
 endobj
-104 0 obj
+85 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
 /URI (https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/barrett-2007-mace.yaml)
 >>
 /Subtype /Link
-/Rect [125.52 678.96 150.51 693.24]
+/Rect [125.52 678.96 168.0765 693.24]
 /Type /Annot
 >>
 endobj
-105 0 obj
-<< /Border [0 0 0]
-/A << /Type /Action
-/S /URI
-/URI (https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/barrett-2007-mace.adoc)
->>
-/Subtype /Link
-/Rect [155.8545 678.96 179.4165 693.24]
-/Type /Annot
->>
-endobj
-106 0 obj
+86 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -8952,7 +8204,7 @@ endobj
 /Type /Annot
 >>
 endobj
-107 0 obj
+87 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -8963,29 +8215,18 @@ endobj
 /Type /Annot
 >>
 endobj
-108 0 obj
+88 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
 /URI (https://github.com/vdmeer/skb/tree/master/data/library/article/2000/boutaba-2007-jnsm.yaml)
 >>
 /Subtype /Link
-/Rect [186.2415 520.4999 211.2315 534.7799]
+/Rect [186.2415 520.4999 228.798 534.7799]
 /Type /Annot
 >>
 endobj
-109 0 obj
-<< /Border [0 0 0]
-/A << /Type /Action
-/S /URI
-/URI (https://github.com/vdmeer/skb/tree/master/data/library/article/2000/boutaba-2007-jnsm.adoc)
->>
-/Subtype /Link
-/Rect [216.576 520.4999 240.138 534.7799]
-/Type /Annot
->>
-endobj
-110 0 obj
+89 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -8996,7 +8237,7 @@ endobj
 /Type /Annot
 >>
 endobj
-111 0 obj
+90 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -9007,29 +8248,18 @@ endobj
 /Type /Annot
 >>
 endobj
-112 0 obj
+91 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
 /URI (https://github.com/vdmeer/skb/tree/master/data/library/article/2000/davy-2008-comcom.yaml)
 >>
 /Subtype /Link
-/Rect [186.2415 393.5998 211.2315 407.8798]
+/Rect [186.2415 393.5998 228.798 407.8798]
 /Type /Annot
 >>
 endobj
-113 0 obj
-<< /Border [0 0 0]
-/A << /Type /Action
-/S /URI
-/URI (https://github.com/vdmeer/skb/tree/master/data/library/article/2000/davy-2008-comcom.adoc)
->>
-/Subtype /Link
-/Rect [216.576 393.5998 240.138 407.8798]
-/Type /Annot
->>
-endobj
-114 0 obj
+92 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -9040,7 +8270,7 @@ endobj
 /Type /Annot
 >>
 endobj
-115 0 obj
+93 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -9051,29 +8281,18 @@ endobj
 /Type /Annot
 >>
 endobj
-116 0 obj
+94 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
 /URI (https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/phan-2008-aswec.yaml)
 >>
 /Subtype /Link
-/Rect [234.3 250.9197 259.29 265.1997]
+/Rect [234.3 250.9197 276.8565 265.1997]
 /Type /Annot
 >>
 endobj
-117 0 obj
-<< /Border [0 0 0]
-/A << /Type /Action
-/S /URI
-/URI (https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/phan-2008-aswec.adoc)
->>
-/Subtype /Link
-/Rect [264.6345 250.9197 288.1965 265.1997]
-/Type /Annot
->>
-endobj
-118 0 obj
+95 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -9084,30 +8303,19 @@ endobj
 /Type /Annot
 >>
 endobj
-119 0 obj
+96 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
 /URI (https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/mitola-2009-icc.yaml)
 >>
 /Subtype /Link
-/Rect [160.737 124.0196 185.727 138.2996]
+/Rect [160.737 124.0196 203.2935 138.2996]
 /Type /Annot
 >>
 endobj
-120 0 obj
-<< /Border [0 0 0]
-/A << /Type /Action
-/S /URI
-/URI (https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2000/mitola-2009-icc.adoc)
->>
-/Subtype /Link
-/Rect [191.0715 124.0196 214.6335 138.2996]
-/Type /Annot
->>
-endobj
-121 0 obj
-<< /Length 14152
+97 0 obj
+<< /Length 13165
 >>
 stream
 q
@@ -9405,29 +8613,7 @@ ET
 BT
 285.8128 666.246 Td
 /F1.0 10.5 Tf
-<79616d6c> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2 0.2 0.2 scn
-0.2 0.2 0.2 SCN
-
-BT
-310.8028 666.246 Td
-/F1.0 10.5 Tf
-<2c20> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2588 0.5451 0.7922 scn
-0.2588 0.5451 0.7922 SCN
-
-BT
-316.1473 666.246 Td
-/F1.0 10.5 Tf
-<61646f63> Tj
+<79616d6c20737263> Tj
 ET
 
 0.0 0.0 0.0 SCN
@@ -9648,29 +8834,7 @@ ET
 BT
 186.2415 539.3459 Td
 /F1.0 10.5 Tf
-<79616d6c> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2 0.2 0.2 scn
-0.2 0.2 0.2 SCN
-
-BT
-211.2315 539.3459 Td
-/F1.0 10.5 Tf
-<2c20> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2588 0.5451 0.7922 scn
-0.2588 0.5451 0.7922 SCN
-
-BT
-216.576 539.3459 Td
-/F1.0 10.5 Tf
-<61646f63> Tj
+<79616d6c20737263> Tj
 ET
 
 0.0 0.0 0.0 SCN
@@ -9921,29 +9085,7 @@ ET
 BT
 219.453 380.8858 Td
 /F1.0 10.5 Tf
-<79616d6c> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2 0.2 0.2 scn
-0.2 0.2 0.2 SCN
-
-BT
-244.443 380.8858 Td
-/F1.0 10.5 Tf
-<2c20> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2588 0.5451 0.7922 scn
-0.2588 0.5451 0.7922 SCN
-
-BT
-249.7875 380.8858 Td
-/F1.0 10.5 Tf
-<61646f63> Tj
+<79616d6c20737263> Tj
 ET
 
 0.0 0.0 0.0 SCN
@@ -10133,29 +9275,7 @@ ET
 BT
 164.4645 259.9857 Td
 /F1.0 10.5 Tf
-<79616d6c> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2 0.2 0.2 scn
-0.2 0.2 0.2 SCN
-
-BT
-189.4545 259.9857 Td
-/F1.0 10.5 Tf
-<2c20> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2588 0.5451 0.7922 scn
-0.2588 0.5451 0.7922 SCN
-
-BT
-194.799 259.9857 Td
-/F1.0 10.5 Tf
-<61646f63> Tj
+<79616d6c20737263> Tj
 ET
 
 0.0 0.0 0.0 SCN
@@ -10195,7 +9315,7 @@ Q
 
 endstream
 endobj
-122 0 obj
+98 0 obj
 << /Type /Page
 /Parent 3 0 R
 /MediaBox [0 0 595.28 841.89]
@@ -10203,20 +9323,20 @@ endobj
 /BleedBox [0 0 595.28 841.89]
 /TrimBox [0 0 595.28 841.89]
 /ArtBox [0 0 595.28 841.89]
-/Contents 121 0 R
+/Contents 97 0 R
 /Resources << /ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
 /Font << /F2.0 17 0 R
 /F1.0 8 0 R
 /F3.0 18 0 R
 /F1.1 23 0 R
 >>
-/XObject << /Stamp2 185 0 R
+/XObject << /Stamp2 148 0 R
 >>
 >>
-/Annots [123 0 R 124 0 R 125 0 R 126 0 R 127 0 R 128 0 R 129 0 R 130 0 R 131 0 R 132 0 R 133 0 R 134 0 R 135 0 R 136 0 R 137 0 R 138 0 R]
+/Annots [99 0 R 100 0 R 101 0 R 102 0 R 103 0 R 104 0 R 105 0 R 106 0 R 107 0 R 108 0 R 109 0 R 110 0 R]
 >>
 endobj
-123 0 obj
+99 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -10227,7 +9347,7 @@ endobj
 /Type /Annot
 >>
 endobj
-124 0 obj
+100 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -10238,7 +9358,7 @@ endobj
 /Type /Annot
 >>
 endobj
-125 0 obj
+101 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -10249,29 +9369,18 @@ endobj
 /Type /Annot
 >>
 endobj
-126 0 obj
+102 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
 /URI (https://github.com/vdmeer/skb/tree/master/data/library/article/2010/brennan-2010-commag.yaml)
 >>
 /Subtype /Link
-/Rect [285.8128 663.18 310.8028 677.46]
+/Rect [285.8128 663.18 328.3693 677.46]
 /Type /Annot
 >>
 endobj
-127 0 obj
-<< /Border [0 0 0]
-/A << /Type /Action
-/S /URI
-/URI (https://github.com/vdmeer/skb/tree/master/data/library/article/2010/brennan-2010-commag.adoc)
->>
-/Subtype /Link
-/Rect [316.1473 663.18 339.7093 677.46]
-/Type /Annot
->>
-endobj
-128 0 obj
+103 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -10282,7 +9391,7 @@ endobj
 /Type /Annot
 >>
 endobj
-129 0 obj
+104 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -10293,29 +9402,18 @@ endobj
 /Type /Annot
 >>
 endobj
-130 0 obj
+105 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
 /URI (https://github.com/vdmeer/skb/tree/master/data/library/article/2010/han-2012-cn.yaml)
 >>
 /Subtype /Link
-/Rect [186.2415 536.2799 211.2315 550.5599]
+/Rect [186.2415 536.2799 228.798 550.5599]
 /Type /Annot
 >>
 endobj
-131 0 obj
-<< /Border [0 0 0]
-/A << /Type /Action
-/S /URI
-/URI (https://github.com/vdmeer/skb/tree/master/data/library/article/2010/han-2012-cn.adoc)
->>
-/Subtype /Link
-/Rect [216.576 536.2799 240.138 550.5599]
-/Type /Annot
->>
-endobj
-132 0 obj
+106 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -10326,7 +9424,7 @@ endobj
 /Type /Annot
 >>
 endobj
-133 0 obj
+107 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -10337,29 +9435,18 @@ endobj
 /Type /Annot
 >>
 endobj
-134 0 obj
+108 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
 /URI (https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/triantafyllopoulou-2013-iswcs.yaml)
 >>
 /Subtype /Link
-/Rect [219.453 377.8198 244.443 392.0998]
+/Rect [219.453 377.8198 262.0095 392.0998]
 /Type /Annot
 >>
 endobj
-135 0 obj
-<< /Border [0 0 0]
-/A << /Type /Action
-/S /URI
-/URI (https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/triantafyllopoulou-2013-iswcs.adoc)
->>
-/Subtype /Link
-/Rect [249.7875 377.8198 273.3495 392.0998]
-/Type /Annot
->>
-endobj
-136 0 obj
+109 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -10370,33 +9457,22 @@ endobj
 /Type /Annot
 >>
 endobj
-137 0 obj
+110 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
 /URI (https://github.com/vdmeer/skb/tree/master/data/library/standard/ietf/strassner-supa-2017.yaml)
 >>
 /Subtype /Link
-/Rect [164.4645 256.9197 189.4545 271.1997]
+/Rect [164.4645 256.9197 207.021 271.1997]
 /Type /Annot
 >>
 endobj
-138 0 obj
-<< /Border [0 0 0]
-/A << /Type /Action
-/S /URI
-/URI (https://github.com/vdmeer/skb/tree/master/data/library/standard/ietf/strassner-supa-2017.adoc)
->>
-/Subtype /Link
-/Rect [194.799 256.9197 218.361 271.1997]
-/Type /Annot
->>
+111 0 obj
+[98 0 R /XYZ 0 229.1696 null]
 endobj
-139 0 obj
-[122 0 R /XYZ 0 229.1696 null]
-endobj
-140 0 obj
-<< /Length 18693
+112 0 obj
+<< /Length 17219
 >>
 stream
 q
@@ -10652,29 +9728,7 @@ ET
 BT
 234.3 688.026 Td
 /F1.0 10.5 Tf
-<79616d6c> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2 0.2 0.2 scn
-0.2 0.2 0.2 SCN
-
-BT
-259.29 688.026 Td
-/F1.0 10.5 Tf
-<2c20> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2588 0.5451 0.7922 scn
-0.2588 0.5451 0.7922 SCN
-
-BT
-264.6345 688.026 Td
-/F1.0 10.5 Tf
-<61646f63> Tj
+<79616d6c20737263> Tj
 ET
 
 0.0 0.0 0.0 SCN
@@ -10892,29 +9946,7 @@ ET
 BT
 234.3 567.1259 Td
 /F1.0 10.5 Tf
-<79616d6c> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2 0.2 0.2 scn
-0.2 0.2 0.2 SCN
-
-BT
-259.29 567.1259 Td
-/F1.0 10.5 Tf
-<2c20> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2588 0.5451 0.7922 scn
-0.2588 0.5451 0.7922 SCN
-
-BT
-264.6345 567.1259 Td
-/F1.0 10.5 Tf
-<61646f63> Tj
+<79616d6c20737263> Tj
 ET
 
 0.0 0.0 0.0 SCN
@@ -11109,29 +10141,7 @@ ET
 BT
 234.3 462.0058 Td
 /F1.0 10.5 Tf
-<79616d6c> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2 0.2 0.2 scn
-0.2 0.2 0.2 SCN
-
-BT
-259.29 462.0058 Td
-/F1.0 10.5 Tf
-<2c20> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2588 0.5451 0.7922 scn
-0.2588 0.5451 0.7922 SCN
-
-BT
-264.6345 462.0058 Td
-/F1.0 10.5 Tf
-<61646f63> Tj
+<79616d6c20737263> Tj
 ET
 
 0.0 0.0 0.0 SCN
@@ -11341,29 +10351,7 @@ ET
 BT
 234.3 341.1057 Td
 /F1.0 10.5 Tf
-<79616d6c> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2 0.2 0.2 scn
-0.2 0.2 0.2 SCN
-
-BT
-259.29 341.1057 Td
-/F1.0 10.5 Tf
-<2c20> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2588 0.5451 0.7922 scn
-0.2588 0.5451 0.7922 SCN
-
-BT
-264.6345 341.1057 Td
-/F1.0 10.5 Tf
-<61646f63> Tj
+<79616d6c20737263> Tj
 ET
 
 0.0 0.0 0.0 SCN
@@ -11573,29 +10561,7 @@ ET
 BT
 234.3 220.2056 Td
 /F1.0 10.5 Tf
-<79616d6c> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2 0.2 0.2 scn
-0.2 0.2 0.2 SCN
-
-BT
-259.29 220.2056 Td
-/F1.0 10.5 Tf
-<2c20> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2588 0.5451 0.7922 scn
-0.2588 0.5451 0.7922 SCN
-
-BT
-264.6345 220.2056 Td
-/F1.0 10.5 Tf
-<61646f63> Tj
+<79616d6c20737263> Tj
 ET
 
 0.0 0.0 0.0 SCN
@@ -11790,29 +10756,7 @@ ET
 BT
 234.3 115.0855 Td
 /F1.0 10.5 Tf
-<79616d6c> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2 0.2 0.2 scn
-0.2 0.2 0.2 SCN
-
-BT
-259.29 115.0855 Td
-/F1.0 10.5 Tf
-<2c20> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2588 0.5451 0.7922 scn
-0.2588 0.5451 0.7922 SCN
-
-BT
-264.6345 115.0855 Td
-/F1.0 10.5 Tf
-<61646f63> Tj
+<79616d6c20737263> Tj
 ET
 
 0.0 0.0 0.0 SCN
@@ -11841,7 +10785,7 @@ Q
 
 endstream
 endobj
-141 0 obj
+113 0 obj
 << /Type /Page
 /Parent 3 0 R
 /MediaBox [0 0 595.28 841.89]
@@ -11849,20 +10793,20 @@ endobj
 /BleedBox [0 0 595.28 841.89]
 /TrimBox [0 0 595.28 841.89]
 /ArtBox [0 0 595.28 841.89]
-/Contents 140 0 R
+/Contents 112 0 R
 /Resources << /ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
 /Font << /F2.0 17 0 R
 /F1.0 8 0 R
 /F3.0 18 0 R
 /F1.1 23 0 R
 >>
-/XObject << /Stamp1 184 0 R
+/XObject << /Stamp1 147 0 R
 >>
 >>
-/Annots [142 0 R 143 0 R 144 0 R 145 0 R 146 0 R 147 0 R 148 0 R 149 0 R 150 0 R 151 0 R 152 0 R 153 0 R 154 0 R 155 0 R 156 0 R 157 0 R 158 0 R 159 0 R 160 0 R 161 0 R 162 0 R 163 0 R 164 0 R 165 0 R]
+/Annots [114 0 R 115 0 R 116 0 R 117 0 R 118 0 R 119 0 R 120 0 R 121 0 R 122 0 R 123 0 R 124 0 R 125 0 R 126 0 R 127 0 R 128 0 R 129 0 R 130 0 R 131 0 R]
 >>
 endobj
-142 0 obj
+114 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -11873,7 +10817,7 @@ endobj
 /Type /Annot
 >>
 endobj
-143 0 obj
+115 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -11884,29 +10828,18 @@ endobj
 /Type /Annot
 >>
 endobj
-144 0 obj
+116 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
 /URI (https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/keeney-2014-cnsm.yaml)
 >>
 /Subtype /Link
-/Rect [234.3 684.96 259.29 699.24]
+/Rect [234.3 684.96 276.8565 699.24]
 /Type /Annot
 >>
 endobj
-145 0 obj
-<< /Border [0 0 0]
-/A << /Type /Action
-/S /URI
-/URI (https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/keeney-2014-cnsm.adoc)
->>
-/Subtype /Link
-/Rect [264.6345 684.96 288.1965 699.24]
-/Type /Annot
->>
-endobj
-146 0 obj
+117 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -11917,7 +10850,7 @@ endobj
 /Type /Annot
 >>
 endobj
-147 0 obj
+118 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -11928,29 +10861,18 @@ endobj
 /Type /Annot
 >>
 endobj
-148 0 obj
+119 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
 /URI (https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/vandermeer-2015-cnsm.yaml)
 >>
 /Subtype /Link
-/Rect [234.3 564.0599 259.29 578.3399]
+/Rect [234.3 564.0599 276.8565 578.3399]
 /Type /Annot
 >>
 endobj
-149 0 obj
-<< /Border [0 0 0]
-/A << /Type /Action
-/S /URI
-/URI (https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/vandermeer-2015-cnsm.adoc)
->>
-/Subtype /Link
-/Rect [264.6345 564.0599 288.1965 578.3399]
-/Type /Annot
->>
-endobj
-150 0 obj
+120 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -11961,7 +10883,7 @@ endobj
 /Type /Annot
 >>
 endobj
-151 0 obj
+121 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -11972,29 +10894,18 @@ endobj
 /Type /Annot
 >>
 endobj
-152 0 obj
+122 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
 /URI (https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/fallon-2016-noms.yaml)
 >>
 /Subtype /Link
-/Rect [234.3 458.9398 259.29 473.2198]
+/Rect [234.3 458.9398 276.8565 473.2198]
 /Type /Annot
 >>
 endobj
-153 0 obj
-<< /Border [0 0 0]
-/A << /Type /Action
-/S /URI
-/URI (https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/fallon-2016-noms.adoc)
->>
-/Subtype /Link
-/Rect [264.6345 458.9398 288.1965 473.2198]
-/Type /Annot
->>
-endobj
-154 0 obj
+123 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -12005,7 +10916,7 @@ endobj
 /Type /Annot
 >>
 endobj
-155 0 obj
+124 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -12016,29 +10927,18 @@ endobj
 /Type /Annot
 >>
 endobj
-156 0 obj
+125 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
 /URI (https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/fallon-2017-im-a.yaml)
 >>
 /Subtype /Link
-/Rect [234.3 338.0397 259.29 352.3197]
+/Rect [234.3 338.0397 276.8565 352.3197]
 /Type /Annot
 >>
 endobj
-157 0 obj
-<< /Border [0 0 0]
-/A << /Type /Action
-/S /URI
-/URI (https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/fallon-2017-im-a.adoc)
->>
-/Subtype /Link
-/Rect [264.6345 338.0397 288.1965 352.3197]
-/Type /Annot
->>
-endobj
-158 0 obj
+126 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -12049,7 +10949,7 @@ endobj
 /Type /Annot
 >>
 endobj
-159 0 obj
+127 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -12060,29 +10960,18 @@ endobj
 /Type /Annot
 >>
 endobj
-160 0 obj
+128 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
 /URI (https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/fallon-2017-im-b.yaml)
 >>
 /Subtype /Link
-/Rect [234.3 217.1396 259.29 231.4196]
+/Rect [234.3 217.1396 276.8565 231.4196]
 /Type /Annot
 >>
 endobj
-161 0 obj
-<< /Border [0 0 0]
-/A << /Type /Action
-/S /URI
-/URI (https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/fallon-2017-im-b.adoc)
->>
-/Subtype /Link
-/Rect [264.6345 217.1396 288.1965 231.4196]
-/Type /Annot
->>
-endobj
-162 0 obj
+129 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -12093,7 +10982,7 @@ endobj
 /Type /Annot
 >>
 endobj
-163 0 obj
+130 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -12104,30 +10993,19 @@ endobj
 /Type /Annot
 >>
 endobj
-164 0 obj
+131 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
 /URI (https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/mcnamara-2018-noms.yaml)
 >>
 /Subtype /Link
-/Rect [234.3 112.0195 259.29 126.2995]
+/Rect [234.3 112.0195 276.8565 126.2995]
 /Type /Annot
 >>
 endobj
-165 0 obj
-<< /Border [0 0 0]
-/A << /Type /Action
-/S /URI
-/URI (https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/mcnamara-2018-noms.adoc)
->>
-/Subtype /Link
-/Rect [264.6345 112.0195 288.1965 126.2995]
-/Type /Annot
->>
-endobj
-166 0 obj
-<< /Length 8792
+132 0 obj
+<< /Length 8056
 >>
 stream
 q
@@ -12335,29 +11213,7 @@ ET
 BT
 234.3 719.586 Td
 /F1.0 10.5 Tf
-<79616d6c> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2 0.2 0.2 scn
-0.2 0.2 0.2 SCN
-
-BT
-259.29 719.586 Td
-/F1.0 10.5 Tf
-<2c20> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2588 0.5451 0.7922 scn
-0.2588 0.5451 0.7922 SCN
-
-BT
-264.6345 719.586 Td
-/F1.0 10.5 Tf
-<61646f63> Tj
+<79616d6c20737263> Tj
 ET
 
 0.0 0.0 0.0 SCN
@@ -12552,29 +11408,7 @@ ET
 BT
 234.3 614.4659 Td
 /F1.0 10.5 Tf
-<79616d6c> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2 0.2 0.2 scn
-0.2 0.2 0.2 SCN
-
-BT
-259.29 614.4659 Td
-/F1.0 10.5 Tf
-<2c20> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2588 0.5451 0.7922 scn
-0.2588 0.5451 0.7922 SCN
-
-BT
-264.6345 614.4659 Td
-/F1.0 10.5 Tf
-<61646f63> Tj
+<79616d6c20737263> Tj
 ET
 
 0.0 0.0 0.0 SCN
@@ -12763,29 +11597,7 @@ ET
 BT
 234.3 509.3458 Td
 /F1.0 10.5 Tf
-<79616d6c> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2 0.2 0.2 scn
-0.2 0.2 0.2 SCN
-
-BT
-259.29 509.3458 Td
-/F1.0 10.5 Tf
-<2c20> Tj
-ET
-
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2588 0.5451 0.7922 scn
-0.2588 0.5451 0.7922 SCN
-
-BT
-264.6345 509.3458 Td
-/F1.0 10.5 Tf
-<61646f63> Tj
+<79616d6c20737263> Tj
 ET
 
 0.0 0.0 0.0 SCN
@@ -12814,7 +11626,7 @@ Q
 
 endstream
 endobj
-167 0 obj
+133 0 obj
 << /Type /Page
 /Parent 3 0 R
 /MediaBox [0 0 595.28 841.89]
@@ -12822,20 +11634,20 @@ endobj
 /BleedBox [0 0 595.28 841.89]
 /TrimBox [0 0 595.28 841.89]
 /ArtBox [0 0 595.28 841.89]
-/Contents 166 0 R
+/Contents 132 0 R
 /Resources << /ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
 /Font << /F2.0 17 0 R
 /F1.0 8 0 R
 /F3.0 18 0 R
 /F1.1 23 0 R
 >>
-/XObject << /Stamp2 185 0 R
+/XObject << /Stamp2 148 0 R
 >>
 >>
-/Annots [168 0 R 169 0 R 170 0 R 171 0 R 172 0 R 173 0 R 174 0 R 175 0 R 176 0 R 177 0 R 178 0 R 179 0 R]
+/Annots [134 0 R 135 0 R 136 0 R 137 0 R 138 0 R 139 0 R 140 0 R 141 0 R 142 0 R]
 >>
 endobj
-168 0 obj
+134 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -12846,7 +11658,7 @@ endobj
 /Type /Annot
 >>
 endobj
-169 0 obj
+135 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -12857,29 +11669,18 @@ endobj
 /Type /Annot
 >>
 endobj
-170 0 obj
+136 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
 /URI (https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/vandermeer-2018-noms-a.yaml)
 >>
 /Subtype /Link
-/Rect [234.3 716.52 259.29 730.8]
+/Rect [234.3 716.52 276.8565 730.8]
 /Type /Annot
 >>
 endobj
-171 0 obj
-<< /Border [0 0 0]
-/A << /Type /Action
-/S /URI
-/URI (https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/vandermeer-2018-noms-a.adoc)
->>
-/Subtype /Link
-/Rect [264.6345 716.52 288.1965 730.8]
-/Type /Annot
->>
-endobj
-172 0 obj
+137 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -12890,7 +11691,7 @@ endobj
 /Type /Annot
 >>
 endobj
-173 0 obj
+138 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -12901,29 +11702,18 @@ endobj
 /Type /Annot
 >>
 endobj
-174 0 obj
+139 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
 /URI (https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/vandermeer-2018-noms-b.yaml)
 >>
 /Subtype /Link
-/Rect [234.3 611.3999 259.29 625.6799]
+/Rect [234.3 611.3999 276.8565 625.6799]
 /Type /Annot
 >>
 endobj
-175 0 obj
-<< /Border [0 0 0]
-/A << /Type /Action
-/S /URI
-/URI (https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/vandermeer-2018-noms-b.adoc)
->>
-/Subtype /Link
-/Rect [264.6345 611.3999 288.1965 625.6799]
-/Type /Annot
->>
-endobj
-176 0 obj
+140 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -12934,7 +11724,7 @@ endobj
 /Type /Annot
 >>
 endobj
-177 0 obj
+141 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
@@ -12945,29 +11735,18 @@ endobj
 /Type /Annot
 >>
 endobj
-178 0 obj
+142 0 obj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
 /URI (https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/vandermeer-2018-noms-c.yaml)
 >>
 /Subtype /Link
-/Rect [234.3 506.2798 259.29 520.5598]
+/Rect [234.3 506.2798 276.8565 520.5598]
 /Type /Annot
 >>
 endobj
-179 0 obj
-<< /Border [0 0 0]
-/A << /Type /Action
-/S /URI
-/URI (https://github.com/vdmeer/skb/tree/master/data/library/inproceedings/2010/vandermeer-2018-noms-c.adoc)
->>
-/Subtype /Link
-/Rect [264.6345 506.2798 288.1965 520.5598]
-/Type /Annot
->>
-endobj
-180 0 obj
+143 0 obj
 << /Border [0 0 0]
 /Dest (_discussion_taken_from_vdmnoms2018)
 /Subtype /Link
@@ -12975,7 +11754,7 @@ endobj
 /Type /Annot
 >>
 endobj
-181 0 obj
+144 0 obj
 << /Border [0 0 0]
 /Dest (_discussion_taken_from_vdmnoms2018)
 /Subtype /Link
@@ -12983,7 +11762,7 @@ endobj
 /Type /Annot
 >>
 endobj
-182 0 obj
+145 0 obj
 << /Border [0 0 0]
 /Dest (_apex)
 /Subtype /Link
@@ -12991,7 +11770,7 @@ endobj
 /Type /Annot
 >>
 endobj
-183 0 obj
+146 0 obj
 << /Border [0 0 0]
 /Dest (_apex)
 /Subtype /Link
@@ -12999,7 +11778,7 @@ endobj
 /Type /Annot
 >>
 endobj
-184 0 obj
+147 0 obj
 << /Type /XObject
 /Subtype /Form
 /BBox [0 0 595.28 841.89]
@@ -13027,7 +11806,7 @@ Q
 
 endstream
 endobj
-185 0 obj
+148 0 obj
 << /Type /XObject
 /Subtype /Form
 /BBox [0 0 595.28 841.89]
@@ -13055,48 +11834,48 @@ Q
 
 endstream
 endobj
-186 0 obj
+149 0 obj
 << /Type /Outlines
 /Count 4
-/First 187 0 R
-/Last 190 0 R
+/First 150 0 R
+/Last 153 0 R
 >>
 endobj
-187 0 obj
+150 0 obj
 << /Title <feff005200650073006500610072006300680020004e006f0074006500730020002d00200050006f006c006900630079002d006200610073006500640020004d0061006e006100670065006d0065006e0074>
-/Parent 186 0 R
+/Parent 149 0 R
 /Count 0
-/Next 188 0 R
+/Next 151 0 R
 /Dest [7 0 R /XYZ 0 841.89 null]
 >>
 endobj
-188 0 obj
+151 0 obj
 << /Title <feff005400610062006c00650020006f006600200043006f006e00740065006e00740073>
-/Parent 186 0 R
+/Parent 149 0 R
 /Count 0
-/Next 189 0 R
-/Prev 187 0 R
+/Next 152 0 R
+/Prev 150 0 R
 /Dest [10 0 R /XYZ 0 841.89 null]
 >>
 endobj
-189 0 obj
+152 0 obj
 << /Title <feff00440069007300630075007300730069006f006e0020002800740061006b0065006e002000660072006f006d002000760064006d002f006e006f006d0073002f00320030003100380029>
-/Parent 186 0 R
+/Parent 149 0 R
 /Count 0
-/Next 190 0 R
-/Prev 188 0 R
+/Next 153 0 R
+/Prev 151 0 R
 /Dest [12 0 R /XYZ 0 841.89 null]
 >>
 endobj
-190 0 obj
+153 0 obj
 << /Title <feff0041005000450058>
-/Parent 186 0 R
+/Parent 149 0 R
 /Count 0
-/Prev 189 0 R
-/Dest [122 0 R /XYZ 0 229.1696 null]
+/Prev 152 0 R
+/Dest [98 0 R /XYZ 0 229.1696 null]
 >>
 endobj
-191 0 obj
+154 0 obj
 << /Nums [0 << /P (i)
 >> 1 << /P (ii)
 >> 2 << /P (1)
@@ -13112,7 +11891,7 @@ endobj
 >>]
 >>
 endobj
-192 0 obj
+155 0 obj
 << /Length1 13344
 /Length 8361
 /Filter [/FlateDecode]
@@ -13153,10 +11932,10 @@ $«§î¥]zßÙ~È1ÈK˜“/dq≤4YØÄ)”d¿≈´hû∏»% Ωƒ"r¬l—du√q é8v¿aÑc;ª·XÄ£áπFT£%8˙xß
 dEèŒÍ∫πô¿¿‡D`fL75Œ|ò Qñ® s†! $≤òAc–7≥¸kHøÖV?Êc˝„eÉ≥£√ì∫π¡¿ƒOó±dl:…BYeÅπÄn~rdtr<&(ap@◊∑†ª)v Ll<4«éqƒå∞PÊ8áXßÇÈ”°>PØ€ Ã¿F`FÊÊ¶ÛÌˆ˛©ÅA€0K±≠j¬>m Sv÷Á‡˘|à&v¯+≈2V9µ±˝p}é…†mÏA…;vÏ∞Má≈äûùõùZ'y˚g)kQØ ûÖæy–>T;⁄?89åÕOŒËÊFu≈”Å~8ØdËBòes@Ñ)É w6»√„ Îì#,;≈†/ ˜q≠µœd@œzŒb|8låÅmjfÿ>Œ°òµ◊n*-Øo.∑2(6o L´$œ ßv`5\˚,Ù‘Ç„ïBÊ®áIVìí’é∏ﬂß±–€h8À≠±ˇKD	ÿ0ˆÎkKøù!£»Ø}l¥~˛?%/’
 endstream
 endobj
-193 0 obj
+156 0 obj
 << /Type /FontDescriptor
 /FontName /6715fc+NotoSerif
-/FontFile2 192 0 R
+/FontFile2 155 0 R
 /FontBBox [-212 -250 1246 1047]
 /Flags 6
 /StemV 0
@@ -13167,7 +11946,7 @@ endobj
 /XHeight 1098
 >>
 endobj
-194 0 obj
+157 0 obj
 << /Length 1286
 /Filter [/FlateDecode]
 >>
@@ -13177,10 +11956,10 @@ xúe◊Àn€FÜ·ΩÆBÀtHs&√@ënºËu{st‘í +ﬂ}˘Ω§i ∆/âúyæ_√!u¯ÙÙ””˘tﬂ~ª]ÍsøÔ«È‹n˝Ì
 ø‚ÌJº‚ÌJº‚Ìäπ‚Ì‚¨xªØxªØxáê+ﬁ!√äwπ‚BÆxábÆxáê+ﬁÅÔr≈;‡‡2‰ÕkÁŒúÒJºY≥eºYÜå7+|ú∆xãoSäå7+[∆õe»õ◊öyﬁ¢oV˚ÚÊµñ-„≠åã∑ÈÄ"ØÂ˛R¶Wç*ñ”4XqîÍCô^J˙[(£‡Æ^É1¬¬ª¢y]ï°»kπ}ºYM-x•˙Î»VÊzê∑Ã˛ [YE„VºY≥’Ÿ_}/7◊*ØY%´ÍØe„≠”´q+˝›:˜›.‚ø7ôJ„ã»€E°/â3Y(Yô*AàW	Rı›VJSÉ™Ç∂·:(u@c°D±]a*’Ìf)§9J≠ÒÊ)•o,#⁄\ÿZ>MçU°€\ÿjPS„{HS„ÁM™ïÙjªà∑í{fkîå∞yG·âm[z*EÔsaÎ›>ä&Ó”´”˙Ùj%uº‹Ó;•2^êù∆W√[’ﬂŒ¬ÆÚv˙[æœ˛2ÓÏØ≤u˙[ï¢≥Pö:ŸÁ¬VÃ°ß’Ö>ºMÜ¡Bi2.ƒ¶â«‹Ë‘á!Ø·Òd»kπ`Üºñ=oÃëqWﬁïwdJF(îL164ﬁU†—)ôx0E˙~ÍÒZ? æ=∂◊/∑€ˆƒŒØ’ıê~:˜o?$Æó´Œ“ˇøÁÜÛO
 endstream
 endobj
-195 0 obj
+158 0 obj
 [259 1000 1000 1000 1000 1000 1000 220 346 346 1000 1000 250 310 250 288 559 559 559 559 559 559 559 559 559 559 286 286 1000 1000 1000 1000 1000 705 653 613 727 623 589 713 792 367 356 700 623 937 763 742 604 742 655 543 612 716 674 1046 660 625 1000 359 1000 359 1000 1000 1000 562 613 492 613 535 369 538 634 319 299 584 310 944 645 577 613 613 471 451 352 634 579 861 578 564 511 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 535 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 634 1000 1000 1000 1000 1000 361 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 259 1000 1000 1000 1000 1000 500 1000 1000 1000 1000 250 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 250 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000]
 endobj
-196 0 obj
+159 0 obj
 << /Length1 10504
 /Length 6902
 /Filter [/FlateDecode]
@@ -13212,10 +11991,10 @@ C_0≈?Ñ¬d Öâ+◊œÚﬁáke(úvÆµ¡π>ß·ﬁ≥(œHyWëNp 2È{p~Ï¸ıÒ<»@Ö– ˚©á– Yç,‘NDÒzêÅ8è<
 L1ªc?å0˜øBtàì3Ô∞æœ…	D°g99Û}súúDzÙ˜úú\ó89Ö≤q'ßê€99‰ÕúúÚúúèdxwûÜÙ¯~Óû4Tãœpr‹sÖìCM§qÚt$%<ú<uú\à\DíìQ?Ò$'œ@‚*'œ@Âdﬁçˇê—êk9y&»ß9yríg8yÍ#«…E®ò*·‰"¥ñ⁄R319?=62:´ı∫=^m√ƒƒH"Æmtj´	msiF€üâOoè9¡-hÕ£i4ÜF–(öÖÒ≤˜¬Y\ù y≈a‘Ñ∆— Ñí}~µ‡Í•ßfÿQéq–µ˛!g€ƒÏÑ∂;>=6¡1wM¿]›Ïch∏z"1Ö‰hZ31>1;?	Hì±ë±Ò≠Cª¸∞ñΩs‹9Œjôƒ)<I˚c Å±>∑∞Áúï’*øıÊû¯ÙÃÿƒ∏÷„t˚µs£–Ã-3pÉC9Å'?úÕ°—xÿ34Ë±1X˝F?knlF”ŒN«Ü‚…ÿÙ6ÌƒJü¨@0∆RÉœ,òâ}qvz”h»&Xd∑t«◊®c7[´Øçœåçåkg„±‰-ûÆe}Àx{úÖ]…⁄ÿlL;7>:6>±ƒiài∑Ãko®Z°∂öeÁ8jFY(≥©PYeÇëi—0ØΩò°[Åùùù,uπ'Ü‚ŒñbÁ‡D“5È .6Hg·˘R»3.ò¯´≈	:ñ9u≤Ú$\üÑœ8Áßy«éŒ$7-VıÃÏ‹–ÿƒ*Õ;ÿ_'hπı≤ÓêÕÅu§÷±¡¯¯067>ü÷Œé∆µUì±A8pWÏ⁄•0Ù:›êc«@KÙŒp1<±Å…0 ≤Sˆbp_jtÛ3vê¨d/»+Êc8'¶G\âäWkSM][wùÉAqÎ˘∆VXuÇÊi‡‘¨Æ¥>íVºÿ;⁄`Õ’¡íe≠≥Ÿ#_}gœÊÏÚø¬˛«¶∑WOΩ≥tÑΩ	gLÜ,mcˇ¯Ëê∞
 endstream
 endobj
-197 0 obj
+160 0 obj
 << /Type /FontDescriptor
 /FontName /e91dc1+NotoSerif-Bold
-/FontFile2 196 0 R
+/FontFile2 159 0 R
 /FontBBox [-212 -250 1306 1058]
 /Flags 6
 /StemV 0
@@ -13226,7 +12005,7 @@ endobj
 /XHeight 1098
 >>
 endobj
-198 0 obj
+161 0 obj
 << /Length 1286
 /Filter [/FlateDecode]
 >>
@@ -13236,10 +12015,10 @@ xúe◊Àn€FÜ·ΩÆBÀtHs&√@ënºËu{st‘í +ﬂ}˘Ω§i ∆/âúyæ_√!u¯ÙÙ””˘tﬂ~ª]ÍsøÔ«È‹n˝Ì
 ø‚ÌJº‚ÌJº‚Ìäπ‚Ì‚¨xªØxªØxáê+ﬁ!√äwπ‚BÆxábÆxáê+ﬁÅÔr≈;‡‡2‰ÕkÁŒúÒJºY≥eºYÜå7+|ú∆xãoSäå7+[∆õe»õ◊öyﬁ¢oV˚ÚÊµñ-„≠åã∑ÈÄ"ØÂ˛R¶Wç*ñ”4XqîÍCô^J˙[(£‡Æ^É1¬¬ª¢y]ï°»kπ}ºYM-x•˙Î»VÊzê∑Ã˛ [YE„VºY≥’Ÿ_}/7◊*ØY%´ÍØe„≠”´q+˝›:˜›.‚ø7ôJ„ã»€E°/â3Y(Yô*AàW	Rı›VJSÉ™Ç∂·:(u@c°D±]a*’Ìf)§9J≠ÒÊ)•o,#⁄\ÿZ>MçU°€\ÿjPS„{HS„ÁM™ïÙjªà∑í{fkîå∞yG·âm[z*EÔsaÎ›>ä&Ó”´”˙Ùj%uº‹Ó;•2^êù∆W√[’ﬂŒ¬ÆÚv˙[æœ˛2ÓÏØ≤u˙[ï¢≥Pö:ŸÁ¬VÃ°ß’Ö>ºMÜ¡Bi2.ƒ¶â«‹Ë‘á!Ø·Òd»kπ`Üºñ=oÃëqWﬁïwdJF(îL164ﬁU†—)ôx0E˙~ÍÒZ? æ=∂◊/∑€ˆƒŒØ’ıê~:˜o?$Æó´Œ“ˇøÁÜÛO
 endstream
 endobj
-199 0 obj
+162 0 obj
 [259 1000 1000 1000 1000 1000 1000 1000 399 399 1000 1000 1000 1000 293 288 559 559 559 1000 1000 1000 1000 1000 559 1000 1000 1000 1000 1000 1000 1000 1000 752 671 667 767 652 621 769 818 400 368 733 653 952 788 1000 638 1000 707 585 652 747 1000 1066 731 692 1000 1000 1000 1000 1000 1000 1000 599 648 526 648 570 407 560 666 352 1000 636 352 985 666 612 645 1000 522 487 404 666 605 855 1000 579 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 570 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 666 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000]
 endobj
-200 0 obj
+163 0 obj
 << /Length1 8488
 /Length 5616
 /Filter [/FlateDecode]
@@ -13275,10 +12054,10 @@ Qk-±£∂2R8’Ât’÷W°øïˆí2gâ>Zﬂ£B/]?µ8EmıËπ◊ØJ‘PÇú¯©«õV˝√ÏâWv€˙•‚_ù¬;™k \N}lÃàx}])
 æâÁŒå=>∑ﬂ∏1~ﬁˇ¯ÎΩùüu›w(Òπ¢,¿˝@Ÿµ≠˝»Qôç
 endstream
 endobj
-201 0 obj
+164 0 obj
 << /Type /FontDescriptor
 /FontName /9476a5+NotoSerif-Italic
-/FontFile2 200 0 R
+/FontFile2 163 0 R
 /FontBBox [-254 -250 1238 1047]
 /Flags 70
 /StemV 0
@@ -13289,7 +12068,7 @@ endobj
 /XHeight 1098
 >>
 endobj
-202 0 obj
+165 0 obj
 << /Length 1286
 /Filter [/FlateDecode]
 >>
@@ -13299,10 +12078,10 @@ xúe◊Àn€FÜ·ΩÆBÀtHs&√@ënºËu{st‘í +ﬂ}˘Ω§i ∆/âúyæ_√!u¯ÙÙ””˘tﬂ~ª]ÍsøÔ«È‹n˝Ì
 ø‚ÌJº‚ÌJº‚Ìäπ‚Ì‚¨xªØxªØxáê+ﬁ!√äwπ‚BÆxábÆxáê+ﬁÅÔr≈;‡‡2‰ÕkÁŒúÒJºY≥eºYÜå7+|ú∆xãoSäå7+[∆õe»õ◊öyﬁ¢oV˚ÚÊµñ-„≠åã∑ÈÄ"ØÂ˛R¶Wç*ñ”4XqîÍCô^J˙[(£‡Æ^É1¬¬ª¢y]ï°»kπ}ºYM-x•˙Î»VÊzê∑Ã˛ [YE„VºY≥’Ÿ_}/7◊*ØY%´ÍØe„≠”´q+˝›:˜›.‚ø7ôJ„ã»€E°/â3Y(Yô*AàW	Rı›VJSÉ™Ç∂·:(u@c°D±]a*’Ìf)§9J≠ÒÊ)•o,#⁄\ÿZ>MçU°€\ÿjPS„{HS„ÁM™ïÙjªà∑í{fkîå∞yG·âm[z*EÔsaÎ›>ä&Ó”´”˙Ùj%uº‹Ó;•2^êù∆W√[’ﬂŒ¬ÆÚv˙[æœ˛2ÓÏØ≤u˙[ï¢≥Pö:ŸÁ¬VÃ°ß’Ö>ºMÜ¡Bi2.ƒ¶â«‹Ë‘á!Ø·Òd»kπ`Üºñ=oÃëqWﬁïwdJF(îL164ﬁU†—)ôx0E˙~ÍÒZ? æ=∂◊/∑€ˆƒŒØ’ıê~:˜o?$Æó´Œ“ˇøÁÜÛO
 endstream
 endobj
-203 0 obj
+166 0 obj
 [259 333 1000 1000 1000 1000 1000 1000 346 346 1000 1000 1000 310 1000 288 1000 1000 1000 1000 1000 559 1000 1000 1000 1000 286 1000 1000 1000 1000 1000 1000 705 653 626 725 623 589 713 792 367 1000 1000 623 937 763 742 620 1000 664 543 612 729 674 1044 660 1000 1000 1000 1000 1000 1000 1000 1000 579 562 486 579 493 317 556 599 304 291 568 304 895 599 574 577 1000 467 463 368 599 538 818 545 527 511 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 500 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000]
 endobj
-204 0 obj
+167 0 obj
 << /Length1 2400
 /Length 1209
 /Filter [/FlateDecode]
@@ -13318,10 +12097,10 @@ eí•î¡$ëlπÅÀÑEÙF˝ãËˇ–EÔÆ«ˆ	;ÒúP§∂Ï=!O0;”PñhW0a¶¶®áÆ¶‘1ä¡∂DyUl—ZM¥î =÷â∆ï
 Ù(vøQEbÃÕéOŒ/MˆfUÏº_≥)´NÃ1ijê™ÕŸBÊ®Ò∆1IùøD˜ﬁFv˘m'+æ8rkWˆè˛ €Ú3ˆÕÔﬁ4“ˇ⁄ h¸= Îo_∆†ã
 endstream
 endobj
-205 0 obj
+168 0 obj
 << /Type /FontDescriptor
 /FontName /b73994+NotoSerif
-/FontFile2 204 0 R
+/FontFile2 167 0 R
 /FontBBox [-212 -250 1246 1047]
 /Flags 6
 /StemV 0
@@ -13332,7 +12111,7 @@ endobj
 /XHeight 1098
 >>
 endobj
-206 0 obj
+169 0 obj
 << /Length 238
 /Filter [/FlateDecode]
 >>
@@ -13343,224 +12122,187 @@ Aì`◊+˘ N 
 Ò±¬SÖZ∑¨´´¶÷ﬂ⁄ö-g*⁄é”÷n>‡Ì~)¶Í™ÔmÁtÍ
 endstream
 endobj
-207 0 obj
+170 0 obj
 [259 1000 354 354 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000]
 endobj
 xref
-0 208
+0 171
 0000000000 65535 f 
 0000000015 00000 n 
 0000000283 00000 n 
 0000000487 00000 n 
-0000000626 00000 n 
-0000000677 00000 n 
-0000000949 00000 n 
-0000001491 00000 n 
-0000001787 00000 n 
-0000001954 00000 n 
-0000003658 00000 n 
-0000004010 00000 n 
-0000018190 00000 n 
-0000018545 00000 n 
-0000018589 00000 n 
-0000018638 00000 n 
-0000018751 00000 n 
-0000018795 00000 n 
-0000018968 00000 n 
-0000019143 00000 n 
-0000033685 00000 n 
-0000034147 00000 n 
-0000034329 00000 n 
-0000034518 00000 n 
-0000034686 00000 n 
-0000034920 00000 n 
-0000035152 00000 n 
-0000035365 00000 n 
-0000035609 00000 n 
-0000035855 00000 n 
-0000036042 00000 n 
-0000036276 00000 n 
-0000036488 00000 n 
-0000036731 00000 n 
-0000036972 00000 n 
-0000047233 00000 n 
-0000047674 00000 n 
-0000047860 00000 n 
-0000048091 00000 n 
-0000048324 00000 n 
-0000048512 00000 n 
-0000048748 00000 n 
-0000048986 00000 n 
-0000049176 00000 n 
-0000049413 00000 n 
-0000049652 00000 n 
-0000063943 00000 n 
-0000064398 00000 n 
-0000064578 00000 n 
-0000064840 00000 n 
-0000065070 00000 n 
-0000065305 00000 n 
-0000065509 00000 n 
-0000065752 00000 n 
-0000066000 00000 n 
-0000066189 00000 n 
-0000066409 00000 n 
-0000066656 00000 n 
-0000066901 00000 n 
-0000084691 00000 n 
-0000085202 00000 n 
-0000085381 00000 n 
-0000085597 00000 n 
-0000085838 00000 n 
-0000086077 00000 n 
-0000086267 00000 n 
-0000086508 00000 n 
-0000086751 00000 n 
-0000086946 00000 n 
-0000087360 00000 n 
-0000087600 00000 n 
-0000087838 00000 n 
-0000088028 00000 n 
-0000088248 00000 n 
-0000088493 00000 n 
-0000088736 00000 n 
-0000088919 00000 n 
-0000089109 00000 n 
-0000089347 00000 n 
-0000089583 00000 n 
-0000106250 00000 n 
-0000106777 00000 n 
-0000106955 00000 n 
-0000107181 00000 n 
-0000107417 00000 n 
-0000107651 00000 n 
-0000107862 00000 n 
-0000108063 00000 n 
-0000108357 00000 n 
-0000108597 00000 n 
-0000108839 00000 n 
-0000109043 00000 n 
-0000109280 00000 n 
-0000109515 00000 n 
-0000109727 00000 n 
-0000109984 00000 n 
-0000110359 00000 n 
-0000110595 00000 n 
-0000110833 00000 n 
-0000111023 00000 n 
-0000111289 00000 n 
-0000111530 00000 n 
-0000111776 00000 n 
-0000128156 00000 n 
-0000128672 00000 n 
-0000128910 00000 n 
-0000129152 00000 n 
-0000129343 00000 n 
-0000129562 00000 n 
-0000129802 00000 n 
-0000130040 00000 n 
-0000130234 00000 n 
-0000130459 00000 n 
-0000130698 00000 n 
-0000130935 00000 n 
-0000131127 00000 n 
-0000131400 00000 n 
-0000131639 00000 n 
-0000131883 00000 n 
-0000132073 00000 n 
-0000132315 00000 n 
-0000132559 00000 n 
-0000146766 00000 n 
-0000147274 00000 n 
-0000147461 00000 n 
-0000147777 00000 n 
-0000147962 00000 n 
-0000148200 00000 n 
-0000148438 00000 n 
-0000148632 00000 n 
-0000148847 00000 n 
-0000149081 00000 n 
-0000149313 00000 n 
-0000149515 00000 n 
-0000149698 00000 n 
-0000149954 00000 n 
-0000150212 00000 n 
-0000150436 00000 n 
-0000150679 00000 n 
-0000150920 00000 n 
-0000150968 00000 n 
-0000169716 00000 n 
-0000170288 00000 n 
-0000170475 00000 n 
-0000170741 00000 n 
-0000170977 00000 n 
-0000171218 00000 n 
-0000171409 00000 n 
-0000172145 00000 n 
-0000172389 00000 n 
-0000172638 00000 n 
-0000172829 00000 n 
-0000173081 00000 n 
-0000173321 00000 n 
-0000173566 00000 n 
-0000173757 00000 n 
-0000173998 00000 n 
-0000174238 00000 n 
-0000174483 00000 n 
-0000174674 00000 n 
-0000174941 00000 n 
-0000175181 00000 n 
-0000175426 00000 n 
-0000175617 00000 n 
-0000175875 00000 n 
-0000176117 00000 n 
-0000176364 00000 n 
-0000185210 00000 n 
-0000185686 00000 n 
-0000185872 00000 n 
-0000186110 00000 n 
-0000186351 00000 n 
-0000186597 00000 n 
-0000186788 00000 n 
-0000187471 00000 n 
-0000187717 00000 n 
-0000187968 00000 n 
-0000188159 00000 n 
-0000188394 00000 n 
-0000188640 00000 n 
-0000188891 00000 n 
-0000189038 00000 n 
-0000189186 00000 n 
-0000189302 00000 n 
-0000189421 00000 n 
-0000189692 00000 n 
-0000189963 00000 n 
-0000190040 00000 n 
-0000190309 00000 n 
-0000190501 00000 n 
-0000190773 00000 n 
-0000190902 00000 n 
-0000191117 00000 n 
-0000199570 00000 n 
-0000199786 00000 n 
-0000201149 00000 n 
-0000202209 00000 n 
-0000209203 00000 n 
-0000209424 00000 n 
-0000210787 00000 n 
-0000211872 00000 n 
-0000217579 00000 n 
-0000217805 00000 n 
-0000219168 00000 n 
-0000220253 00000 n 
-0000221553 00000 n 
-0000221769 00000 n 
-0000222083 00000 n 
+0000000624 00000 n 
+0000000675 00000 n 
+0000000947 00000 n 
+0000001489 00000 n 
+0000001785 00000 n 
+0000001952 00000 n 
+0000003656 00000 n 
+0000004008 00000 n 
+0000018188 00000 n 
+0000018543 00000 n 
+0000018587 00000 n 
+0000018636 00000 n 
+0000018749 00000 n 
+0000018793 00000 n 
+0000018966 00000 n 
+0000019141 00000 n 
+0000032944 00000 n 
+0000033385 00000 n 
+0000033567 00000 n 
+0000033756 00000 n 
+0000033924 00000 n 
+0000034157 00000 n 
+0000034370 00000 n 
+0000034615 00000 n 
+0000034802 00000 n 
+0000035036 00000 n 
+0000035248 00000 n 
+0000035490 00000 n 
+0000045011 00000 n 
+0000045431 00000 n 
+0000045617 00000 n 
+0000045849 00000 n 
+0000046037 00000 n 
+0000046274 00000 n 
+0000046464 00000 n 
+0000046702 00000 n 
+0000060256 00000 n 
+0000060690 00000 n 
+0000060870 00000 n 
+0000061132 00000 n 
+0000061364 00000 n 
+0000061568 00000 n 
+0000061813 00000 n 
+0000062002 00000 n 
+0000062222 00000 n 
+0000062468 00000 n 
+0000079025 00000 n 
+0000079501 00000 n 
+0000079680 00000 n 
+0000079896 00000 n 
+0000080136 00000 n 
+0000080326 00000 n 
+0000080568 00000 n 
+0000080763 00000 n 
+0000081177 00000 n 
+0000081416 00000 n 
+0000081606 00000 n 
+0000081826 00000 n 
+0000082070 00000 n 
+0000082253 00000 n 
+0000082443 00000 n 
+0000082680 00000 n 
+0000098115 00000 n 
+0000098605 00000 n 
+0000098783 00000 n 
+0000099009 00000 n 
+0000099244 00000 n 
+0000099455 00000 n 
+0000099656 00000 n 
+0000099950 00000 n 
+0000100191 00000 n 
+0000100395 00000 n 
+0000100631 00000 n 
+0000100843 00000 n 
+0000101100 00000 n 
+0000101475 00000 n 
+0000101712 00000 n 
+0000101902 00000 n 
+0000102168 00000 n 
+0000102410 00000 n 
+0000117558 00000 n 
+0000118020 00000 n 
+0000118259 00000 n 
+0000118449 00000 n 
+0000118667 00000 n 
+0000118905 00000 n 
+0000119098 00000 n 
+0000119322 00000 n 
+0000119559 00000 n 
+0000119750 00000 n 
+0000120022 00000 n 
+0000120262 00000 n 
+0000120451 00000 n 
+0000120693 00000 n 
+0000133912 00000 n 
+0000134385 00000 n 
+0000134571 00000 n 
+0000134887 00000 n 
+0000135072 00000 n 
+0000135310 00000 n 
+0000135504 00000 n 
+0000135719 00000 n 
+0000135952 00000 n 
+0000136154 00000 n 
+0000136337 00000 n 
+0000136594 00000 n 
+0000136818 00000 n 
+0000137060 00000 n 
+0000137107 00000 n 
+0000154381 00000 n 
+0000154905 00000 n 
+0000155092 00000 n 
+0000155358 00000 n 
+0000155596 00000 n 
+0000155787 00000 n 
+0000156523 00000 n 
+0000156769 00000 n 
+0000156960 00000 n 
+0000157212 00000 n 
+0000157454 00000 n 
+0000157645 00000 n 
+0000157886 00000 n 
+0000158128 00000 n 
+0000158319 00000 n 
+0000158586 00000 n 
+0000158828 00000 n 
+0000159019 00000 n 
+0000159277 00000 n 
+0000159521 00000 n 
+0000167631 00000 n 
+0000168083 00000 n 
+0000168269 00000 n 
+0000168507 00000 n 
+0000168750 00000 n 
+0000168941 00000 n 
+0000169624 00000 n 
+0000169872 00000 n 
+0000170063 00000 n 
+0000170298 00000 n 
+0000170546 00000 n 
+0000170693 00000 n 
+0000170841 00000 n 
+0000170957 00000 n 
+0000171076 00000 n 
+0000171347 00000 n 
+0000171618 00000 n 
+0000171695 00000 n 
+0000171964 00000 n 
+0000172156 00000 n 
+0000172428 00000 n 
+0000172556 00000 n 
+0000172771 00000 n 
+0000181224 00000 n 
+0000181440 00000 n 
+0000182803 00000 n 
+0000183863 00000 n 
+0000190857 00000 n 
+0000191078 00000 n 
+0000192441 00000 n 
+0000193526 00000 n 
+0000199233 00000 n 
+0000199459 00000 n 
+0000200822 00000 n 
+0000201907 00000 n 
+0000203207 00000 n 
+0000203423 00000 n 
+0000203737 00000 n 
 trailer
-<< /Size 208
+<< /Size 171
 /Root 2 0 R
 /Info 1 0 R
 >>
 startxref
-223219
+204873
 %%EOF

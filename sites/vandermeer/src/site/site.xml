@@ -46,8 +46,8 @@
                 <item href="research-notes-ina.html" name="INA" />
                 <item href="research-notes-cybernetics.html" name="Cybernetics" />
                 <item href="research-notes-internet-history.html" name="Internet History" />
-                <item href="research-library.html" name="(Research) Library" />
             </item>
+            <item href="library.html" name="Library" />
         </menu>
 
         <menu name="Projects">

@@ -15,20 +15,20 @@ link:#h2020_arcfire[ARCFIRE]
 
 === Project Reports
 
-include::{library-home}/vdm/project-report-ipcss.adoc[leveloffset=+1]
+include::{library-docs}/vdm/project-report-ipcss.adoc[leveloffset=+1]
 
-include::{library-home}/vdm/project-report-albatross.adoc[leveloffset=+1]
+include::{library-docs}/vdm/project-report-albatross.adoc[leveloffset=+1]
 
-include::{library-home}/vdm/project-report-m-zones.adoc[leveloffset=+1]
+include::{library-docs}/vdm/project-report-m-zones.adoc[leveloffset=+1]
 
-include::{library-home}/vdm/project-report-p1855.adoc[leveloffset=+1]
+include::{library-docs}/vdm/project-report-p1855.adoc[leveloffset=+1]
 
-include::{library-home}/vdm/project-report-amcns.adoc[leveloffset=+1]
+include::{library-docs}/vdm/project-report-amcns.adoc[leveloffset=+1]
 
-include::{library-home}/vdm/project-report-fame.adoc[leveloffset=+1]
+include::{library-docs}/vdm/project-report-fame.adoc[leveloffset=+1]
 
-include::{library-home}/vdm/project-report-pristine.adoc[leveloffset=+1]
+include::{library-docs}/vdm/project-report-pristine.adoc[leveloffset=+1]
 
-include::{library-home}/vdm/project-report-arcfire.adoc[leveloffset=+1]
+include::{library-docs}/vdm/project-report-arcfire.adoc[leveloffset=+1]
 
 

@@ -1,4 +1,4 @@
 :title: Standards / SDO
 
-include::{library-home}/vdm/standards.adoc[]
+include::{library-docs}/vdm/standards.adoc[]
 

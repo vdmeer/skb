@@ -1,4 +1,4 @@
 :title: Patents
 
-include::{library-home}/vdm/patents.adoc[]
+include::{library-docs}/vdm/patents.adoc[]
 

@@ -21,7 +21,8 @@
 
         <!-- Properties for ASCIIDOC documents and site documentation -->
         <release-version>${project.version}</release-version>
-        <skb-data-home>${project.basedir}/../../data</skb-data-home>
+        <library-docs>${env.SKB_LIBRARY_DOCS}</library-docs>
+        <library-src>${env.SKB_LIBRARY_SRC}</library-src>
     </properties>
 
     <distributionManagement>

@@ -1,7 +1,0 @@
-== SKB Website
-
-This is the generated and published SKB project website.
-
-The source is in the SKB project link:https://github.com/vdmeer/skb/tree/master/site-skb[site-skb].
-The final site is published at link:https://vdmeer.github.io/skb[skb site].
-

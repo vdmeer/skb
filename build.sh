@@ -38,7 +38,6 @@ export SD_TARGET=/tmp/sd
 export SD_LIBRARY_YAML=${SKB_HOME}/data/library
 export SD_LIBRARY_DOCS=${SKB_HOME}/documents/library
 export SD_LIBRARY_URL=https://github.com/vdmeer/skb/tree/master/data/library
-
 export SD_MVN_SITES="$PWD/sites/vandermeer $PWD/sites/skb"
 
 
@@ -62,7 +61,7 @@ if [[ -d docs/library ]]; then
 fi
 if [[ -d docs ]]; then
     set +e
-    rm docs/*.html docs/*.txt
+    rm docs/*.html docs/*.txt docs/*.asciidoc
     rm -fr docs/css
     rm -fr docs/fonts
     rm -fr docs/images
@@ -79,7 +78,7 @@ cp /tmp/sd/library-docs/* docs/library
 
 cp sites/skb/src/site/xdoc/library.xml           sites/vandermeer/src/site/xdoc
 cp sites/skb/src/site/xdoc/research-notes.xml    sites/vandermeer/src/site/xdoc
-$SKB_DASHBOARD -B -e skb-build-sites --sq --lq --task-level debug -- --clean --build --all --ad --site --stage
+$SKB_DASHBOARD -B -e skb-build-sites --sq --lq --task-level debug -- --build --all --ad --site --stage
 cp -dfrpi sites/skb/target/site-skb/* docs
 (cd docs; chmod 644 `find -type f`)
 

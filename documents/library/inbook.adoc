@@ -22,4 +22,4 @@ Sven van_der_Meer
 :toclevels: 4
 :icons: font
 
-include::{library-home}/inbook/inbook.adoc[]
+include::inbook/inbook.adoc[]

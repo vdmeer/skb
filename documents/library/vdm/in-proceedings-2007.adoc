@@ -14,14 +14,14 @@
 === 2007
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{library-home}/inproceedings/2000/barrett-2007-giis.adoc[]
-|include::{library-home}/inproceedings/2000/barrett-2007-mace.adoc[]
-|include::{library-home}/inproceedings/2000/serrano-2007-aims.adoc[]
-|include::{library-home}/inproceedings/2000/davy-2007-lanoms.adoc[]
-|include::{library-home}/inproceedings/2000/carroll-2007-giis.adoc[]
-|include::{library-home}/inproceedings/2000/morris-2007-ssmo.adoc[]
-|include::{library-home}/inproceedings/2000/vandermeer-2007-mace.adoc[]
-|include::{library-home}/inproceedings/2000/deussen-2007-mace.adoc[]
+|include::{library-src}/inproceedings/2000/barrett-2007-giis.adoc[]
+|include::{library-src}/inproceedings/2000/barrett-2007-mace.adoc[]
+|include::{library-src}/inproceedings/2000/serrano-2007-aims.adoc[]
+|include::{library-src}/inproceedings/2000/davy-2007-lanoms.adoc[]
+|include::{library-src}/inproceedings/2000/carroll-2007-giis.adoc[]
+|include::{library-src}/inproceedings/2000/morris-2007-ssmo.adoc[]
+|include::{library-src}/inproceedings/2000/vandermeer-2007-mace.adoc[]
+|include::{library-src}/inproceedings/2000/deussen-2007-mace.adoc[]
 |===
 
 

@@ -15,11 +15,11 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{library-home}/report/project/amcns/amcns-2006-a.adoc[]
-|include::{library-home}/report/project/amcns/amcns-2006-b.adoc[]
-|include::{library-home}/report/project/amcns/amcns-2008.adoc[]
-|include::{library-home}/report/project/amcns/amcns-2009.adoc[]
-|include::{library-home}/report/project/amcns/amcns-2010.adoc[]
+|include::{library-src}/report/project/amcns/amcns-2006-a.adoc[]
+|include::{library-src}/report/project/amcns/amcns-2006-b.adoc[]
+|include::{library-src}/report/project/amcns/amcns-2008.adoc[]
+|include::{library-src}/report/project/amcns/amcns-2009.adoc[]
+|include::{library-src}/report/project/amcns/amcns-2010.adoc[]
 |===
 
 

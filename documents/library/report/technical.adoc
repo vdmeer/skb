@@ -1,0 +1,25 @@
+//
+// ============LICENSE_START=======================================================
+//  Copyright (C) 2018 Sven van der Meer. All rights reserved.
+// ================================================================================
+// This file is licensed under the CREATIVE COMMONS ATTRIBUTION 4.0 INTERNATIONAL LICENSE
+// Full license text at https://creativecommons.org/licenses/by/4.0/legalcode
+// 
+// SPDX-License-Identifier: CC-BY-4.0
+// ============LICENSE_END=========================================================
+//
+// @author Sven van der Meer (vdmeer.sven@mykolab.com)
+//
+
+== 1960
+include::{library-src}/report/technical/1960/_entries.adoc[]
+
+== 1970
+include::{library-src}/report/technical/1970/_entries.adoc[]
+
+== 1980
+include::{library-src}/report/technical/1980/_entries.adoc[]
+
+== 2000
+include::{library-src}/report/technical/2000/_entries.adoc[]
+

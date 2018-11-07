@@ -1,0 +1,38 @@
+//
+// ============LICENSE_START=======================================================
+//  Copyright (C) 2018 Sven van der Meer. All rights reserved.
+// ================================================================================
+// This file is licensed under the CREATIVE COMMONS ATTRIBUTION 4.0 INTERNATIONAL LICENSE
+// Full license text at https://creativecommons.org/licenses/by/4.0/legalcode
+// 
+// SPDX-License-Identifier: CC-BY-4.0
+// ============LICENSE_END=========================================================
+//
+// @author Sven van der Meer (vdmeer.sven@mykolab.com)
+//
+
+
+=== iPCSS
+include::{library-src}/report/project/ipcss/_entries.adoc[]
+
+=== AlbatrOSS
+include::{library-src}/report/project/albatross/_entries.adoc[]
+
+=== M-Zones
+include::{library-src}/report/project/m-zones/_entries.adoc[]
+
+=== P1855
+include::{library-src}/report/project/P1855/_entries.adoc[]
+
+=== AMCNS
+include::{library-src}/report/project/amcns/_entries.adoc[]
+
+=== FAME
+include::{library-src}/report/project/fame/_entries.adoc[]
+
+=== PRISTINE
+include::{library-src}/report/project/pristine/_entries.adoc[]
+
+=== ARCFIRE
+include::{library-src}/report/project/arcfire/_entries.adoc[]
+

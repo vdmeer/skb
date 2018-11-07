@@ -14,8 +14,8 @@
 == Thesis
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{library-home}/thesis/master/1990/vandermeer-sven-1996.adoc[]
-|include::{library-home}/thesis/phd/2000/vandermeer-sven-2002.adoc[]
+|include::{library-src}/thesis/master/1990/vandermeer-sven-1996.adoc[]
+|include::{library-src}/thesis/phd/2000/vandermeer-sven-2002.adoc[]
 |===
 
 

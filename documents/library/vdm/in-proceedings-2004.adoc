@@ -14,9 +14,9 @@
 === 2004
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{library-home}/inproceedings/2000/vandermeer-2004-echallenges.adoc[]
-|include::{library-home}/inproceedings/2000/ghamri_doudane-2004-hpovua.adoc[]
-|include::{library-home}/inproceedings/2000/barrett-2004-mucs.adoc[]
+|include::{library-src}/inproceedings/2000/vandermeer-2004-echallenges.adoc[]
+|include::{library-src}/inproceedings/2000/ghamri_doudane-2004-hpovua.adoc[]
+|include::{library-src}/inproceedings/2000/barrett-2004-mucs.adoc[]
 |===
 
 

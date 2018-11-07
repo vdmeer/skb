@@ -14,16 +14,16 @@
 === 2008
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{library-home}/inproceedings/2000/strassner-2008-compsac-a.adoc[]
-|include::{library-home}/inproceedings/2000/strassner-2008-compsac-b.adoc[]
-|include::{library-home}/inproceedings/2000/carroll-2008-compsac.adoc[]
-|include::{library-home}/inproceedings/2000/vandermeer-2008-hpsua.adoc[]
-|include::{library-home}/inproceedings/2000/strassner-2008-noms.adoc[]
-|include::{library-home}/inproceedings/2000/strassner-2008-apnoms.adoc[]
-|include::{library-home}/inproceedings/2000/strassner-2008-icac.adoc[]
-|include::{library-home}/inproceedings/2000/fahy-2008-mace.adoc[]
-|include::{library-home}/inproceedings/2000/raymer-2008-ease.adoc[]
-|include::{library-home}/inproceedings/2000/schmutzler-2008-ehealth.adoc[]
+|include::{library-src}/inproceedings/2000/strassner-2008-compsac-a.adoc[]
+|include::{library-src}/inproceedings/2000/strassner-2008-compsac-b.adoc[]
+|include::{library-src}/inproceedings/2000/carroll-2008-compsac.adoc[]
+|include::{library-src}/inproceedings/2000/vandermeer-2008-hpsua.adoc[]
+|include::{library-src}/inproceedings/2000/strassner-2008-noms.adoc[]
+|include::{library-src}/inproceedings/2000/strassner-2008-apnoms.adoc[]
+|include::{library-src}/inproceedings/2000/strassner-2008-icac.adoc[]
+|include::{library-src}/inproceedings/2000/fahy-2008-mace.adoc[]
+|include::{library-src}/inproceedings/2000/raymer-2008-ease.adoc[]
+|include::{library-src}/inproceedings/2000/schmutzler-2008-ehealth.adoc[]
 |===
 
 

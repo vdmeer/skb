@@ -24,60 +24,60 @@ Sven van_der_Meer
 
 
 == Articles
-include::{library-home}/article/article.adoc[leveloffset=+1]
+include::article/article.adoc[leveloffset=+1]
 
 
 == Books
-include::{library-home}/book/book.adoc[leveloffset=+1]
+include::book/book.adoc[leveloffset=+1]
 
 
 == Collections
-include::{library-home}/collection/collection.adoc[leveloffset=+1]
+include::collection/collection.adoc[leveloffset=+1]
 
 
 == in Book
-include::{library-home}/inbook/inbook.adoc[leveloffset=+1]
+include::inbook/inbook.adoc[leveloffset=+1]
 
 
 == in Proceedings
-include::{library-home}/inproceedings/inproceedings.adoc[leveloffset=+1]
+include::inproceedings/inproceedings.adoc[leveloffset=+1]
 
 
 == Miscellaneous
-include::{library-home}/misc/misc.adoc[leveloffset=+1]
+include::misc/misc.adoc[leveloffset=+1]
 
 
 == Movies
-include::{library-home}/movie/movie.adoc[leveloffset=+1]
+include::movie/movie.adoc[leveloffset=+1]
 
 
 == Online
-include::{library-home}/online/online.adoc[leveloffset=+1]
+include::online/online.adoc[leveloffset=+1]
 
 
 == Patent
-include::{library-home}/patent/patent.adoc[leveloffset=+1]
+include::patent/patent.adoc[leveloffset=+1]
 
 
 == Proceedings
-include::{library-home}/proceedings/proceedings.adoc[leveloffset=+1]
+include::proceedings/proceedings.adoc[leveloffset=+1]
 
 
 == Reports
-include::{library-home}/report/report.adoc[leveloffset=+1]
+include::report/report.adoc[leveloffset=+1]
 
 
 == Standards
-include::{library-home}/standard/standard.adoc[leveloffset=+1]
+include::standard/standard.adoc[leveloffset=+1]
 
 
 == Talks
-include::{library-home}/talks/talks.adoc[leveloffset=+1]
+include::talks/talks.adoc[leveloffset=+1]
 
 
 == Thesis
-include::{library-home}/thesis/thesis.adoc[leveloffset=+1]
+include::thesis/thesis.adoc[leveloffset=+1]
 
 
 == Unpublished
-include::{library-home}/unpublished/unpublished.adoc[leveloffset=+1]
+include::unpublished/unpublished.adoc[leveloffset=+1]

@@ -14,10 +14,10 @@
 === 2013
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{library-home}/inproceedings/2010/keeney-2013-im.adoc[]
-|include::{library-home}/inproceedings/2010/dawar-2013-itt.adoc[]
-|include::{library-home}/inproceedings/2010/dawar-2013-aims.adoc[]
-|include::{library-home}/inproceedings/2010/dawar-2013-monami.adoc[]
+|include::{library-src}/inproceedings/2010/keeney-2013-im.adoc[]
+|include::{library-src}/inproceedings/2010/dawar-2013-itt.adoc[]
+|include::{library-src}/inproceedings/2010/dawar-2013-aims.adoc[]
+|include::{library-src}/inproceedings/2010/dawar-2013-monami.adoc[]
 |===
 
 

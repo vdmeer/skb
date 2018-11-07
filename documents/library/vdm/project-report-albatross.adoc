@@ -15,7 +15,7 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{library-home}/report/project/albatross/albatross-d3-2002.adoc[]
+|include::{library-src}/report/project/albatross/albatross-d3-2002.adoc[]
 |===
 
 

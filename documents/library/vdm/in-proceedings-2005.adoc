@@ -14,18 +14,18 @@
 === 2005
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{library-home}/inproceedings/2000/foley-2005-echallenges.adoc[]
-|include::{library-home}/inproceedings/2000/osmani-2005-mhci.adoc[]
-|include::{library-home}/inproceedings/2000/osmani-2005-cis.adoc[]
-|include::{library-home}/inproceedings/2000/white-2005-ie.adoc[]
-|include::{library-home}/inproceedings/2000/vandermeer-2005-hpovua.adoc[]
-|include::{library-home}/inproceedings/2000/jennings-2005-hpovua.adoc[]
-|include::{library-home}/inproceedings/2000/davy-2005-euro_mgov.adoc[]
-|include::{library-home}/inproceedings/2000/davy-2005-itt.adoc[]
-|include::{library-home}/inproceedings/2000/white-2005-iceis.adoc[]
-|include::{library-home}/inproceedings/2000/lehtihet-2005-mmns.adoc[]
-|include::{library-home}/inproceedings/2000/vandermeer-2005-im.adoc[]
-|include::{library-home}/inproceedings/2000/zach-2005-eurescom.adoc[]
+|include::{library-src}/inproceedings/2000/foley-2005-echallenges.adoc[]
+|include::{library-src}/inproceedings/2000/osmani-2005-mhci.adoc[]
+|include::{library-src}/inproceedings/2000/osmani-2005-cis.adoc[]
+|include::{library-src}/inproceedings/2000/white-2005-ie.adoc[]
+|include::{library-src}/inproceedings/2000/vandermeer-2005-hpovua.adoc[]
+|include::{library-src}/inproceedings/2000/jennings-2005-hpovua.adoc[]
+|include::{library-src}/inproceedings/2000/davy-2005-euro_mgov.adoc[]
+|include::{library-src}/inproceedings/2000/davy-2005-itt.adoc[]
+|include::{library-src}/inproceedings/2000/white-2005-iceis.adoc[]
+|include::{library-src}/inproceedings/2000/lehtihet-2005-mmns.adoc[]
+|include::{library-src}/inproceedings/2000/vandermeer-2005-im.adoc[]
+|include::{library-src}/inproceedings/2000/zach-2005-eurescom.adoc[]
 |===
 
 

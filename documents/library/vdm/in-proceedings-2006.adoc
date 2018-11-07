@@ -14,14 +14,14 @@
 === 2006
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{library-src}/inproceedings/2000/vandermeer-2006-bcn.adoc[]
-|include::{library-src}/inproceedings/2000/davy-2006-ccnc.adoc[]
-|include::{library-src}/inproceedings/2000/vandermeer-2006-mace.adoc[]
-|include::{library-src}/inproceedings/2000/carroll-2006-dsom.adoc[]
-|include::{library-src}/inproceedings/2000/carroll-2006-noms.adoc[]
-|include::{library-src}/inproceedings/2000/balasubramaniam-2006-policy.adoc[]
-|include::{library-src}/inproceedings/2000/raymer-2006-policy.adoc[]
-|include::{library-src}/inproceedings/2000/vandermeer-2006-motos3.adoc[]
+|include::{library-adoc}/inproceedings/2000/vandermeer-2006-bcn.adoc[]
+|include::{library-adoc}/inproceedings/2000/davy-2006-ccnc.adoc[]
+|include::{library-adoc}/inproceedings/2000/vandermeer-2006-mace.adoc[]
+|include::{library-adoc}/inproceedings/2000/carroll-2006-dsom.adoc[]
+|include::{library-adoc}/inproceedings/2000/carroll-2006-noms.adoc[]
+|include::{library-adoc}/inproceedings/2000/balasubramaniam-2006-policy.adoc[]
+|include::{library-adoc}/inproceedings/2000/raymer-2006-policy.adoc[]
+|include::{library-adoc}/inproceedings/2000/vandermeer-2006-motos3.adoc[]
 |===
 
 

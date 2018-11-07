@@ -14,10 +14,10 @@
 == in Book
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{library-src}/inbook/2000/vandermeer-2008-aanc.adoc[]
-|include::{library-src}/inbook/2000/fahy-2008-aanc.adoc[]
-|include::{library-src}/inbook/2010/jennings-2010-autonomics.adoc[]
-|include::{library-src}/inbook/2010/vandermeer-2016-arcfire.adoc[]
+|include::{library-adoc}/inbook/2000/vandermeer-2008-aanc.adoc[]
+|include::{library-adoc}/inbook/2000/fahy-2008-aanc.adoc[]
+|include::{library-adoc}/inbook/2010/jennings-2010-autonomics.adoc[]
+|include::{library-adoc}/inbook/2010/vandermeer-2016-arcfire.adoc[]
 |===
 
 

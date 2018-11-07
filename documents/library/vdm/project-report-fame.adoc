@@ -15,10 +15,10 @@
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{library-src}/report/project/fame/fame-y1-2009.adoc[]
-|include::{library-src}/report/project/fame/fame-d21-2010.adoc[]
-|include::{library-src}/report/project/fame/fame-d22-2011.adoc[]
-|include::{library-src}/report/project/fame/fame-y2-2011.adoc[]
+|include::{library-adoc}/report/project/fame/fame-y1-2009.adoc[]
+|include::{library-adoc}/report/project/fame/fame-d21-2010.adoc[]
+|include::{library-adoc}/report/project/fame/fame-d22-2011.adoc[]
+|include::{library-adoc}/report/project/fame/fame-y2-2011.adoc[]
 |===
 
 

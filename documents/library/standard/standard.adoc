@@ -12,8 +12,8 @@
 //
 
 == TM Forum
-include::{library-src}/standard/tmf/_entries.adoc[]
+include::{library-adoc}/standard/tmf/_entries.adoc[]
 
 == IETF
-include::{library-src}/standard/ietf/_entries.adoc[]
+include::{library-adoc}/standard/ietf/_entries.adoc[]
 

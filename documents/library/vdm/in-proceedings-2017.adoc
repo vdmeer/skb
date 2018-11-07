@@ -14,9 +14,9 @@
 === 2017
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{library-src}/inproceedings/2010/fallon-2017-im-a.adoc[]
-|include::{library-src}/inproceedings/2010/fallon-2017-im-b.adoc[]
-|include::{library-src}/inproceedings/2010/grasa-2017-nfvsdn.adoc[]
+|include::{library-adoc}/inproceedings/2010/fallon-2017-im-a.adoc[]
+|include::{library-adoc}/inproceedings/2010/fallon-2017-im-b.adoc[]
+|include::{library-adoc}/inproceedings/2010/grasa-2017-nfvsdn.adoc[]
 |===
 
 

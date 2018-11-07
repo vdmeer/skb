@@ -12,5 +12,5 @@
 //
 
 == 2013
-include::{library-src}/patent/2010/_entries.adoc[]
+include::{library-adoc}/patent/2010/_entries.adoc[]
 

@@ -12,8 +12,8 @@
 //
 
 == 2000
-include::{library-src}/online/2000/_entries.adoc[]
+include::{library-adoc}/online/2000/_entries.adoc[]
 
 == 2010
-include::{library-src}/online/2000/_entries.adoc[]
+include::{library-adoc}/online/2000/_entries.adoc[]
 

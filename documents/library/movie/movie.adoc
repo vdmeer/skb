@@ -12,8 +12,8 @@
 //
 
 == 1970
-include::{library-src}/movie/1970/_entries.adoc[]
+include::{library-adoc}/movie/1970/_entries.adoc[]
 
 == 1990
-include::{library-src}/movie/1990/_entries.adoc[]
+include::{library-adoc}/movie/1990/_entries.adoc[]
 

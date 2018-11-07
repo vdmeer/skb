@@ -13,12 +13,12 @@
 
 
 == 1970
-include::{library-src}/unpublished/1970/_entries.adoc[]
+include::{library-adoc}/unpublished/1970/_entries.adoc[]
 
 == 1980
-include::{library-src}/unpublished/1980/_entries.adoc[]
+include::{library-adoc}/unpublished/1980/_entries.adoc[]
 
 == 2000
-include::{library-src}/unpublished/2000/_entries.adoc[]
+include::{library-adoc}/unpublished/2000/_entries.adoc[]
 
 

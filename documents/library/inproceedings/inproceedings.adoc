@@ -12,21 +12,21 @@
 //
 
 == 1970
-include::{library-src}/inproceedings/1970/_entries.adoc[]
+include::{library-adoc}/inproceedings/1970/_entries.adoc[]
 
 
 == 1980
-include::{library-src}/inproceedings/1980/_entries.adoc[]
+include::{library-adoc}/inproceedings/1980/_entries.adoc[]
 
 
 == 1990
-include::{library-src}/inproceedings/1990/_entries.adoc[]
+include::{library-adoc}/inproceedings/1990/_entries.adoc[]
 
 
 == 2000
-include::{library-src}/inproceedings/2000/_entries.adoc[]
+include::{library-adoc}/inproceedings/2000/_entries.adoc[]
 
 
 == 2010
-include::{library-src}/inproceedings/2010/_entries.adoc[]
+include::{library-adoc}/inproceedings/2010/_entries.adoc[]
 

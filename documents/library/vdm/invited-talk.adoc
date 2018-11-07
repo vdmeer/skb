@@ -16,28 +16,28 @@
 === 2000
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{library-src}/talks/invited-talk/2000/arbanowski-2000-datacom.adoc[]
-|include::{library-src}/talks/invited-talk/2000/carroll-2004-ircset.adoc[]
-|include::{library-src}/talks/invited-talk/2000/fleck-2006-tmf-a.adoc[]
-|include::{library-src}/talks/invited-talk/2000/fleck-2006-tmf-b.adoc[]
-|include::{library-src}/talks/invited-talk/2000/vandermeer-2004-euronetlab.adoc[]
-|include::{library-src}/talks/invited-talk/2000/vandermeer-2006-acf.adoc[]
-|include::{library-src}/talks/invited-talk/2000/vandermeer-2008-acf-a.adoc[]
-|include::{library-src}/talks/invited-talk/2000/vandermeer-2008-acf-b.adoc[]
-|include::{library-src}/talks/invited-talk/2000/vandermeer-2009-hp_virtual.adoc[]
+|include::{library-adoc}/talks/invited-talk/2000/arbanowski-2000-datacom.adoc[]
+|include::{library-adoc}/talks/invited-talk/2000/carroll-2004-ircset.adoc[]
+|include::{library-adoc}/talks/invited-talk/2000/fleck-2006-tmf-a.adoc[]
+|include::{library-adoc}/talks/invited-talk/2000/fleck-2006-tmf-b.adoc[]
+|include::{library-adoc}/talks/invited-talk/2000/vandermeer-2004-euronetlab.adoc[]
+|include::{library-adoc}/talks/invited-talk/2000/vandermeer-2006-acf.adoc[]
+|include::{library-adoc}/talks/invited-talk/2000/vandermeer-2008-acf-a.adoc[]
+|include::{library-adoc}/talks/invited-talk/2000/vandermeer-2008-acf-b.adoc[]
+|include::{library-adoc}/talks/invited-talk/2000/vandermeer-2009-hp_virtual.adoc[]
 |===
 
 
 === 2010
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{library-src}/talks/invited-talk/2010/fallon-2017-onap.adoc[]
-|include::{library-src}/talks/invited-talk/2010/fleck-2011-manfed.adoc[]
-|include::{library-src}/talks/invited-talk/2010/vandermeer-2010-fame_industry.adoc[]
-|include::{library-src}/talks/invited-talk/2010/vandermeer-2010-postech.adoc[]
-|include::{library-src}/talks/invited-talk/2010/vandermeer-2011-manfi.adoc[]
-|include::{library-src}/talks/invited-talk/2010/vandermeer-2011-mucs.adoc[]
-|include::{library-src}/talks/invited-talk/2010/vandermeer-2011-ugent.adoc[]
-|include::{library-src}/talks/invited-talk/2010/vandermeer-2015-ieee_5g_summit.adoc[]
+|include::{library-adoc}/talks/invited-talk/2010/fallon-2017-onap.adoc[]
+|include::{library-adoc}/talks/invited-talk/2010/fleck-2011-manfed.adoc[]
+|include::{library-adoc}/talks/invited-talk/2010/vandermeer-2010-fame_industry.adoc[]
+|include::{library-adoc}/talks/invited-talk/2010/vandermeer-2010-postech.adoc[]
+|include::{library-adoc}/talks/invited-talk/2010/vandermeer-2011-manfi.adoc[]
+|include::{library-adoc}/talks/invited-talk/2010/vandermeer-2011-mucs.adoc[]
+|include::{library-adoc}/talks/invited-talk/2010/vandermeer-2011-ugent.adoc[]
+|include::{library-adoc}/talks/invited-talk/2010/vandermeer-2015-ieee_5g_summit.adoc[]
 |===
 

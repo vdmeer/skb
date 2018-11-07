@@ -14,9 +14,9 @@
 === 2016
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{library-src}/inproceedings/2010/fallon-2016-noms.adoc[]
-|include::{library-src}/inproceedings/2010/bondkovskii-2016-noms.adoc[]
-|include::{library-src}/inproceedings/2010/grasa-2016-tnc.adoc[]
+|include::{library-adoc}/inproceedings/2010/fallon-2016-noms.adoc[]
+|include::{library-adoc}/inproceedings/2010/bondkovskii-2016-noms.adoc[]
+|include::{library-adoc}/inproceedings/2010/grasa-2016-tnc.adoc[]
 |===
 
 

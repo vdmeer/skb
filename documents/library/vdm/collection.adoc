@@ -15,7 +15,7 @@
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
 
-|include::{library-src}/collection/2000/calisti-2008-aanc.adoc[]
+|include::{library-adoc}/collection/2000/calisti-2008-aanc.adoc[]
 |===
 
 

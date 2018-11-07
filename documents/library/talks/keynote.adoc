@@ -12,5 +12,5 @@
 //
 
 === 2010
-include::{library-src}/talks/keynote/2010/_entries.adoc[]
+include::{library-adoc}/talks/keynote/2010/_entries.adoc[]
 

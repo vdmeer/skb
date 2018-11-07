@@ -13,14 +13,14 @@
 
 Provide a list of papers, articles, books and the like important to understand network architecture:
 
-* items in the list should be fundamantal to network architecure, not RINA (with the exception of the RINA heading).
+* items in the list should be fundamental to network architecture, not RINA (with the exception of the RINA heading).
 * provide primary references only, no secondary references if possible
 * provide links to get the item in public domain, if possible (papers should have a link, books might have a link)
 * at least more more link to a description (e.g. Wikipedia, Goodreads, etc.) is preferable
-* links should be labled, since this document in intended as an online document
+* links should be labeled, since this document in intended as an online document
 * each item should have at least one co-author or contributor who has read it, no point in using "potentially" interesting items
 * each item should start with Author(s), Title, Year
-* alwas use full authore names, i.e. not abbreviated first names
+* alwas use full author names, i.e. not abbreviated first names
 
 
 
@@ -28,11 +28,11 @@ Provide a list of papers, articles, books and the like important to understand n
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{library-src}/book/1950/ashby-1956-intro_cybernetics.adoc[]
-|include::{library-src}/book/1960/wiener-1965-cybernetics.adoc[]
-|include::{library-src}/report/technical/1970/maturana-1970-biology_of_cognition.adoc[]
-|include::{library-src}/book/1980/maturana-1987-tree_of_knowledge.adoc[]
-|include::{library-src}/online/2010/dubberly-2015-cybernetics.adoc[]
+|include::{library-adoc}/book/1950/ashby-1956-intro_cybernetics.adoc[]
+|include::{library-adoc}/book/1960/wiener-1965-cybernetics.adoc[]
+|include::{library-adoc}/report/technical/1970/maturana-1970-biology_of_cognition.adoc[]
+|include::{library-adoc}/book/1980/maturana-1987-tree_of_knowledge.adoc[]
+|include::{library-adoc}/online/2010/dubberly-2015-cybernetics.adoc[]
 |===
 
 
@@ -41,10 +41,10 @@ Provide a list of papers, articles, books and the like important to understand n
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{library-src}/book/1970/alexander-1977-pattern_language.adoc[]
-|include::{library-src}/book/1970/alexander-1979-timeless.adoc[]
-|include::{library-src}/book/2000/day-2007-pna.adoc[]
-|include::{library-src}/book/2010/smith-2012-elemental_design_patterns.adoc[]
+|include::{library-adoc}/book/1970/alexander-1977-pattern_language.adoc[]
+|include::{library-adoc}/book/1970/alexander-1979-timeless.adoc[]
+|include::{library-adoc}/book/2000/day-2007-pna.adoc[]
+|include::{library-adoc}/book/2010/smith-2012-elemental_design_patterns.adoc[]
 |===
 
 
@@ -53,26 +53,26 @@ Provide a list of papers, articles, books and the like important to understand n
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{library-src}/book/1600/newton-1687-regulae_philosophandi.adoc[]
-|include::{library-src}/book/1700/leibniz-1714-monadology.adoc[]
-|include::{library-src}/article/1800/frege-1892-sense-and-meaning.adoc[]
-|include::{library-src}/book/1800/frege-1893-basic_laws_of_arithmetic.adoc[]
-|include::{library-src}/book/1910/russel-1919-mathematical_philosophy.adoc[]
-|include::{library-src}/book/1920/wittgenstein-1922-tractatus.adoc[]
-|include::{library-src}/book/1950/needham-1954-science_and_civilisation_in_china.adoc[]
-|include::{library-src}/book/1950/popper-1959-scientific_discovery.adoc[]
-|include::{library-src}/book/1970/macarthur-1972-geographical_ecology.adoc[]
-|include::{library-src}/book/1970/lakatos-1976-proofs_and_refutations.adoc[]
-|include::{library-src}/book/1970/florman-1976-engineering.adoc[]
-|include::{library-src}/book/1990/edelman-1992-bright_air_brilliant_fire.adoc[]
-|include::{library-src}/book/1990/kaufmann-1993-origins_of_order.adoc[]
-|include::{library-src}/inproceedings/1990/miller-1993-elp.adoc[]
-|include::{library-src}/book/1990/kaufmann-1996-home_in_the_universe.adoc[]
-|include::{library-src}/book/1990/sacks-1998-the_man_who_mistook_his_wife_for_a_hat.adoc[]
-|include::{library-src}/book/2000/sacks-2000-seeing_voices.adoc[]
-|include::{library-src}/book/2000/smolin-2006-trouble_with_physics.adoc[]
-|include::{library-src}/book/2000/gould-2006-richness_of_life.adoc[]
-|include::{library-src}/book/2010/deutsch-2011-infinity.adoc[]
+|include::{library-adoc}/book/1600/newton-1687-regulae_philosophandi.adoc[]
+|include::{library-adoc}/book/1700/leibniz-1714-monadology.adoc[]
+|include::{library-adoc}/article/1800/frege-1892-sense-and-meaning.adoc[]
+|include::{library-adoc}/book/1800/frege-1893-basic_laws_of_arithmetic.adoc[]
+|include::{library-adoc}/book/1910/russel-1919-mathematical_philosophy.adoc[]
+|include::{library-adoc}/book/1920/wittgenstein-1922-tractatus.adoc[]
+|include::{library-adoc}/book/1950/needham-1954-science_and_civilisation_in_china.adoc[]
+|include::{library-adoc}/book/1950/popper-1959-scientific_discovery.adoc[]
+|include::{library-adoc}/book/1970/macarthur-1972-geographical_ecology.adoc[]
+|include::{library-adoc}/book/1970/lakatos-1976-proofs_and_refutations.adoc[]
+|include::{library-adoc}/book/1970/florman-1976-engineering.adoc[]
+|include::{library-adoc}/book/1990/edelman-1992-bright_air_brilliant_fire.adoc[]
+|include::{library-adoc}/book/1990/kaufmann-1993-origins_of_order.adoc[]
+|include::{library-adoc}/inproceedings/1990/miller-1993-elp.adoc[]
+|include::{library-adoc}/book/1990/kaufmann-1996-home_in_the_universe.adoc[]
+|include::{library-adoc}/book/1990/sacks-1998-the_man_who_mistook_his_wife_for_a_hat.adoc[]
+|include::{library-adoc}/book/2000/sacks-2000-seeing_voices.adoc[]
+|include::{library-adoc}/book/2000/smolin-2006-trouble_with_physics.adoc[]
+|include::{library-adoc}/book/2000/gould-2006-richness_of_life.adoc[]
+|include::{library-adoc}/book/2010/deutsch-2011-infinity.adoc[]
 |===
 
 
@@ -85,8 +85,8 @@ Provide a list of papers, articles, books and the like important to understand n
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{library-src}/book/1930/fleck-1935-gensis.adoc[]
-|include::{library-src}/book/1960/kuhn-1962-scientific_revolutions.adoc[]
+|include::{library-adoc}/book/1930/fleck-1935-gensis.adoc[]
+|include::{library-adoc}/book/1960/kuhn-1962-scientific_revolutions.adoc[]
 |===
 
 
@@ -94,10 +94,10 @@ Provide a list of papers, articles, books and the like important to understand n
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{library-src}/article/1960/dijkstra-1968-cacm.adoc[]
-|include::{library-src}/article/1970/dijkstra-1971-ai.adoc[]
-|include::{library-src}/article/1980/bachman-1982-compstd.adoc[]
-|include::{library-src}/article/1980/bachman-1982-networks.adoc[]
+|include::{library-adoc}/article/1960/dijkstra-1968-cacm.adoc[]
+|include::{library-adoc}/article/1970/dijkstra-1971-ai.adoc[]
+|include::{library-adoc}/article/1980/bachman-1982-compstd.adoc[]
+|include::{library-adoc}/article/1980/bachman-1982-networks.adoc[]
 |===
 
 
@@ -105,8 +105,8 @@ Provide a list of papers, articles, books and the like important to understand n
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{library-src}/article/1970/hansen-1970-cacm.adoc[]
-|include::{library-src}/inproceedings/1970/levin-1975-sosp.adoc[]
+|include::{library-adoc}/article/1970/hansen-1970-cacm.adoc[]
+|include::{library-adoc}/inproceedings/1970/levin-1975-sosp.adoc[]
 |===
 
 
@@ -114,7 +114,7 @@ Provide a list of papers, articles, books and the like important to understand n
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{library-src}/inproceedings/1970/metcalf-1972-acm.adoc[]
+|include::{library-adoc}/inproceedings/1970/metcalf-1972-acm.adoc[]
 |===
 
 
@@ -122,12 +122,12 @@ Provide a list of papers, articles, books and the like important to understand n
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{library-src}/article/1970/watson-1976-networks.adoc[]
-|include::{library-src}/inproceedings/1970/watson-1979-ddmcn.adoc[]
-|include::{library-src}/inproceedings/1980/watson-1980-tas.adoc[]
-|include::{library-src}/article/1980/watson-1981-networks.adoc[]
-|include::{library-src}/report/technical/1980/watson-1981-delta_t.adoc[]
-|include::{library-src}/inproceedings/1980/watson-1989-lcn.adoc[]
+|include::{library-adoc}/article/1970/watson-1976-networks.adoc[]
+|include::{library-adoc}/inproceedings/1970/watson-1979-ddmcn.adoc[]
+|include::{library-adoc}/inproceedings/1980/watson-1980-tas.adoc[]
+|include::{library-adoc}/article/1980/watson-1981-networks.adoc[]
+|include::{library-adoc}/report/technical/1980/watson-1981-delta_t.adoc[]
+|include::{library-adoc}/inproceedings/1980/watson-1989-lcn.adoc[]
 |===
 
 
@@ -135,9 +135,9 @@ Provide a list of papers, articles, books and the like important to understand n
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{library-src}/inproceedings/1970/shoch-1978-compcon.adoc[]
-|include::{library-src}/inbook/1970/saltzer-1978-lncs.adoc[]
-|include::{library-src}/inproceedings/1980/saltzer-1982-lcn.adoc[]
+|include::{library-adoc}/inproceedings/1970/shoch-1978-compcon.adoc[]
+|include::{library-adoc}/inbook/1970/saltzer-1978-lncs.adoc[]
+|include::{library-adoc}/inproceedings/1980/saltzer-1982-lcn.adoc[]
 |===
 
 
@@ -154,7 +154,7 @@ This context is also important to understand not only when, but also how (and of
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{library-src}/online/2000/pelkey-2007-entrepreneurial_capitalism.adoc[]
+|include::{library-adoc}/online/2000/pelkey-2007-entrepreneurial_capitalism.adoc[]
 |===
 
 
@@ -162,13 +162,13 @@ This context is also important to understand not only when, but also how (and of
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{library-src}/misc/mckenzie-archive.adoc[]
-|include::{library-src}/report/technical/2000/bennett-2009-itif.adoc[]
-|include::{library-src}/article/2010/mckenzie-2011-ieee.adoc[]
-|include::{library-src}/article/2010/russell-2013-spectrum.adoc[]
-|include::{library-src}/book/2010/russell-2014-sdos.adoc[]
-|include::{library-src}/article/2010/russell-2014-tc.adoc[]
-|include::{library-src}/article/2010/day-2016-ieee.adoc[]
+|include::{library-adoc}/misc/mckenzie-archive.adoc[]
+|include::{library-adoc}/report/technical/2000/bennett-2009-itif.adoc[]
+|include::{library-adoc}/article/2010/mckenzie-2011-ieee.adoc[]
+|include::{library-adoc}/article/2010/russell-2013-spectrum.adoc[]
+|include::{library-adoc}/book/2010/russell-2014-sdos.adoc[]
+|include::{library-adoc}/article/2010/russell-2014-tc.adoc[]
+|include::{library-adoc}/article/2010/day-2016-ieee.adoc[]
 |===
 
 
@@ -182,11 +182,11 @@ Documents are listed in historic order.
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{library-src}/report/technical/1960/baran-1964-distr_comm_nework.adoc[]
-|include::{library-src}/article/1970/davies-1972-tcom.adoc[]
-|include::{library-src}/report/technical/1970/inwg42-1973.adoc[]
-|include::{library-src}/report/technical/1970/inwg60-1974.adoc[]
-|include::{library-src}/standard/ietf/cerf-ien48-1978.adoc[]
+|include::{library-adoc}/report/technical/1960/baran-1964-distr_comm_nework.adoc[]
+|include::{library-adoc}/article/1970/davies-1972-tcom.adoc[]
+|include::{library-adoc}/report/technical/1970/inwg42-1973.adoc[]
+|include::{library-adoc}/report/technical/1970/inwg60-1974.adoc[]
+|include::{library-adoc}/standard/ietf/cerf-ien48-1978.adoc[]
 |===
 
 
@@ -195,7 +195,7 @@ Technological and political dimensions of circuit switching and introduction to 
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{library-src}/inproceedings/1970/pouzin-1976-afips.adoc[]
+|include::{library-adoc}/inproceedings/1970/pouzin-1976-afips.adoc[]
 |===
 
 
@@ -203,11 +203,11 @@ Technological and political dimensions of circuit switching and introduction to 
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{library-src}/inbook/1700/goethe-1797-zauberlehrling.adoc[]
-|include::{library-src}/inbook/1800/irving-1819-rib_van_winkle.adoc[]
-|include::{library-src}/book/1800/abbott-1884-a-flatland.adoc[]
-|include::{library-src}/book/1950/dr-seuss-1953-sneetches.adoc[]
-|include::{library-src}/book/1950/neurath-1954-how_machines_work.adoc[]
+|include::{library-adoc}/inbook/1700/goethe-1797-zauberlehrling.adoc[]
+|include::{library-adoc}/inbook/1800/irving-1819-rib_van_winkle.adoc[]
+|include::{library-adoc}/book/1800/abbott-1884-a-flatland.adoc[]
+|include::{library-adoc}/book/1950/dr-seuss-1953-sneetches.adoc[]
+|include::{library-adoc}/book/1950/neurath-1954-how_machines_work.adoc[]
 |===
 
 
@@ -215,9 +215,9 @@ Movies (Films)
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{library-src}/movie/1990/1991-rosencrantz-and-guildenstern-are-dead.adoc[]
-|include::{library-src}/movie/1970/1978-animal-house.adoc[]
-|include::{library-src}/movie/1970/1975-monty-python-and-the-holy-grail.adoc[]
+|include::{library-adoc}/movie/1990/1991-rosencrantz-and-guildenstern-are-dead.adoc[]
+|include::{library-adoc}/movie/1970/1978-animal-house.adoc[]
+|include::{library-adoc}/movie/1970/1975-monty-python-and-the-holy-grail.adoc[]
 |===
 
 

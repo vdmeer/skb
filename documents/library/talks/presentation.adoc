@@ -12,9 +12,9 @@
 //
 
 === 2000
-include::{library-src}/talks/presentation/2000/_entries.adoc[]
+include::{library-adoc}/talks/presentation/2000/_entries.adoc[]
 
 === 2010
-include::{library-src}/talks/presentation/2010/_entries.adoc[]
+include::{library-adoc}/talks/presentation/2010/_entries.adoc[]
 
 

@@ -14,8 +14,8 @@
 === 2001
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{library-src}/inproceedings/2000/vandermeer-2001-ict.adoc[]
-|include::{library-src}/inproceedings/2000/vandermeer-2001-in.adoc[]
+|include::{library-adoc}/inproceedings/2000/vandermeer-2001-ict.adoc[]
+|include::{library-adoc}/inproceedings/2000/vandermeer-2001-in.adoc[]
 |===
 
 

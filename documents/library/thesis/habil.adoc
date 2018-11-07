@@ -12,5 +12,5 @@
 //
 
 === 1990
-include::{library-src}/thesis/habil/1990/_entries.adoc[]
+include::{library-adoc}/thesis/habil/1990/_entries.adoc[]
 

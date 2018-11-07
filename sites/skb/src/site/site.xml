@@ -13,12 +13,13 @@
 
         <menu name="skb">
             <item href="index.html" name="Wellcome" />
-            <item href="library.html" name="Library" collapse="true">
+            <item href="research-notes.html" name="Research Notes" collapse="true">
                 <item href="research-notes-policy.html" name="Policy-based Management" />
                 <item href="research-notes-ina.html" name="INA" />
                 <item href="research-notes-cybernetics.html" name="Cybernetics" />
                 <item href="research-notes-internet-history.html" name="Internet History" />
             </item>
+            <item href="library.html" name="Library" />
         </menu>
 
         <breadcrumbs>

@@ -75,11 +75,7 @@ $SKB_DASHBOARD -B -e lib-yaml2src    --sq --lq --task-level debug    -- --all
 $SKB_DASHBOARD -B -e lib-adoc2target --sq --lq --task-level debug --    --all
 cp /tmp/sd/library-docs/* docs/library
 
-
-cp sites/skb/src/site/xdoc/library.xml           sites/vandermeer/src/site/xdoc
-cp sites/skb/src/site/xdoc/research-notes.xml    sites/vandermeer/src/site/xdoc
 $SKB_DASHBOARD -B -e skb-build-sites --sq --lq --task-level debug -- --build --all --ad --site --stage
-cp -dfrpi sites/skb/target/site-skb/* docs
 (cd docs; chmod 644 `find -type f`)
 
 

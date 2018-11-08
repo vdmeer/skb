@@ -5,6 +5,7 @@
     <artifactId>site-vandermeer</artifactId>
     <version>0.0.0</version>
     <packaging>pom</packaging>
+
     <name>${project.artifactId}</name>
     <url>${vdm.site.prefix}</url>
     <description>Site for vandermeer.de</description>
@@ -40,6 +41,7 @@
                 <version>3.5</version>
                 <configuration>
                     <stagingDirectory>${project.basedir}/target/site-vandermeer</stagingDirectory>
+                    <relativizeDecorationLinks>false</relativizeDecorationLinks>
                     <asciidoc>
                         <embedAssets>true</embedAssets>
                         <attributes>

@@ -1,10 +1,16 @@
 #!/usr/bin/env bash
 ##
-## Pre script for site skb-framework
+## Scripts for site vandermeer
 ##
 ## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
 ## @version    v0.0.0
 ##
+
+MvnSitePreScript() {
+    cp ../skb/src/site/xdoc/library.xml src/site/xdoc
+    cp ../skb/src/site/xdoc/research-notes.xml src/site/xdoc
+}
+
 
 MvnSitePostScript() {
     MvnSiteFixAdoc target/site/reports                              Reports

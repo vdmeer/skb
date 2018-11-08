@@ -1,10 +1,15 @@
 #!/usr/bin/env bash
 ##
-## Pre script for site skb-framework
+## Scripts for site skb
 ##
 ## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
 ## @version    v0.0.0
 ##
+
+MvnSitePreScript() {
+    :
+}
+
 
 MvnSitePostScript() {
     MvnSiteFixAdoc target/site/research-notes-policy                "Research Notes - Policy-based Management"

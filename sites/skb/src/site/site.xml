@@ -22,6 +22,10 @@
             <item href="library.html" name="Library" />
         </menu>
 
+        <menu name="Projects">
+            <item href="https://vdmeer.github.io/skb-framework" name="SKB Framework" />
+        </menu>
+
         <breadcrumbs>
             <item name="vdmeer" href="http://www.vandermeer.de"/>
             <item name="skb" href="index.html"/>

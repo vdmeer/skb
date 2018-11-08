@@ -5,6 +5,7 @@
     <artifactId>site-skb</artifactId>
     <version>0.0.0</version>
     <packaging>pom</packaging>
+
     <name>${project.artifactId}</name>
     <url>${skb.site.prefix}</url>
     <description>Site for SKB project on Github</description>
@@ -39,7 +40,8 @@
                 <artifactId>maven-site-plugin</artifactId>
                 <version>3.5</version>
                 <configuration>
-                    <stagingDirectory>${project.basedir}/target/site-skb</stagingDirectory>
+                    <stagingDirectory>${project.basedir}/../../docs</stagingDirectory>
+                    <relativizeDecorationLinks>false</relativizeDecorationLinks>
                     <asciidoc>
                         <embedAssets>true</embedAssets>
                         <attributes>

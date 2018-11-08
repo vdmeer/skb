@@ -51,7 +51,8 @@
         </menu>
 
         <menu name="Projects">
-            <item href="https://vdmeer.github.io/skb" name="skb" />
+            <item href="https://vdmeer.github.io/skb" name="SKB" />
+            <item href="https://vdmeer.github.io/skb-framework" name="SKB Framework" />
         </menu>
 
 <!--

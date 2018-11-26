@@ -1,0 +1,12 @@
+book/2010/parr-2010-lang-patterns:
+    authors:
+        - Parr, Terence
+    title: Language Implementation Patterns
+    type: book
+    year: 2010
+    urls:
+        PragProg: >
+            https://pragprog.com/book/tpdsl/language-implementation-patterns
+    adoc: |
+        * Reasons to read: detailed guide on how to create your own domain-specific language and general programming languages
+        * Publisher: The Pragmatic Programmers

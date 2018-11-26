@@ -1,0 +1,13 @@
+book/2000/parr-2007-antlr:
+    authors:
+        - Parr, Terence
+    title: The definitive ANTLR Reference
+    titleaddon: Building Domain-specific Languages
+    type: book
+    year: 2007
+    urls:
+        PragProg: >
+            https://pragprog.com/book/tpantlr/the-definitive-antlr-reference
+    adoc: |
+        * Reasons to read: detailed guide on how to build parsers and compilers, effectively creating DSLs, using ANTLR
+        * Publisher: The Pragmatic Programmers

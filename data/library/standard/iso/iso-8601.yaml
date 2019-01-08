@@ -7,9 +7,24 @@ standard/iso/iso-8601:
     urls:
         ISO: >
             https://www.iso.org/iso-8601-date-and-time-format.html
+        PDF: >
+            http://dotat.at/tmp/ISO_8601-2004_E.pdf
         "ISO-8601-2 Draft, PDF": >
             https://www.loc.gov/standards/datetime/iso-tc154-wg5_n0039_iso_wd_8601-2_2016-02-16.pdf
         "Matchematics of ISO Calendar": >
             http://www.staff.science.uu.nl/~gent0113/calendar/isocalendar.htm
     adoc: |
-        * Reasons to read: the standard for date and time representations, including UTC and UTC offsets
+        * Reasons to read: the standard for time specifications in a 24-hour time keeping system and dates using the Gregorian calendar
+    biblatex: |
+        @standard{cite:standard:iso:iso-8601:2004,
+            author = "ISO",
+            number = "ISO8601",
+            revision = "3rd Ed.",
+            type = "International Standard",
+            title = "Data elements and interchange formats – Information interchange – Representation of dates and times",
+            organization = "International Standardization Organization",
+            address = "Switzerland",
+            month = dec,
+            year = "2004",
+            url = "http://dotat.at/tmp/ISO_8601-2004_E.pdf"
+        }

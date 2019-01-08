@@ -62,7 +62,7 @@ link:#panel_ph_d_thesis[Panel, Ph.D. Thesis]
 === Supervisor, Ph.D. Thesis
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
-|include::{library-adoc}/thesis/phd/2000/barret-keara-2009.adoc[]
+|include::{library-adoc}/thesis/phd/2000/barrett-keara-2009.adoc[]
 |include::{library-adoc}/thesis/phd/2000/strassner-john-2009.adoc[]
 |===
 

@@ -27,6 +27,7 @@ The main collections are the overall library, my own publications, and my resear
 | `topic-ina.adoc`              | introduction to network architecture  | link:https://vdmeer.github.io/skb/library/topic-ina.html[GH Pages] |              link:http://www.vandermeer.de/research-notes-ina.html[vandermeer.de]
 | `topic-internet-history.adoc` | internet history                      | link:https://vdmeer.github.io/skb/library/topic-internet-history.html[GH Pages] | link:http://www.vandermeer.de/research-notes-internet-history.html[vandermeer.de]
 | `topic-policy.adoc`           | policy-based management and APEX      | link:https://vdmeer.github.io/skb/library/topic-policy.html[GH Pages] |           link:http://www.vandermeer.de/research-notes-policy.html[vandermeer.de]
+| `topic-time-and-date.adoc`    | time and date aspects                 | link:https://vdmeer.github.io/skb/library/topic-time-and-date.html[GH Pages] |    link:http://www.vandermeer.de/research-notes-time-and-date.html[vandermeer.de]
 |===
 
 

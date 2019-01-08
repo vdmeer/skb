@@ -16,6 +16,7 @@
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
 |include::{library-adoc}/standard/iso/iso-8601.adoc[]
+|include::{library-adoc}/standard/itu/r/itu-r-tf460.adoc[]
 |===
 
 

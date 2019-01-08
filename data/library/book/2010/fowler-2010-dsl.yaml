@@ -1,0 +1,16 @@
+book/2010/fowler-2010-dsl:
+    authors:
+        - Fowler, Martin
+    title: Domain Specific Languages
+    type: book
+    year: 2010
+    urls:
+        Homepage: >
+            https://www.martinfowler.com/books/dsl.html
+        "DSL Pattern Catalog": >
+            https://www.martinfowler.com/dslCatalog/
+        "DSL Guide": >
+            https://www.martinfowler.com/dsl.html
+    adoc: |
+        * Reasons to read: set of patterns for DSLs, detailed, with lots of examples
+        * Publisher: Addison-Wesley (Signature Series)

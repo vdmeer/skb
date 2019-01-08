@@ -1,0 +1,14 @@
+article/1950/chomsky-1956-tit:
+    authors:
+        - Chomsky, Noam
+    title: Three Models for the Description of Language
+    type: article
+    year: 1956
+    urls:
+        DOI: >
+            https://doi.org/10.1109/TIT.1956.1056813
+        PDF: >
+            https://chomsky.info/wp-content/uploads/195609-.pdf
+    adoc: |
+        * Reasons to read: simple structural model for the English language, a natural language grammar
+        * Published: IRE Transactions on Information Theory (Volume: 2 , Issue: 3 , September 1956)

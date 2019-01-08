@@ -1,0 +1,15 @@
+book/2000/mak-2006-martian-principles:
+    authors:
+        - Mak, Ronald
+    title: Principles for Successful Enterprise Systems
+    titleaddon: "20 Lessons Learned from NASA’s Mars Exploration Rover Mission"
+    type: book
+    year: 2006
+    urls:
+        Goodreads: >
+            https://www.goodreads.com/book/show/175775.The_Martian_Principles_for_Successful_Enterprise_Systems
+        "PDF Presentation": >
+            http://www.apropos-logic.com/IBM.pdf
+    adoc: |
+        * Reasons to read: (practical) middleware architect’s point of view principles for software development
+        * Publisher: Wiley Publishing

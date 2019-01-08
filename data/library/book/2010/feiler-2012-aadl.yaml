@@ -1,0 +1,20 @@
+book/2010/feiler-2012-aadl:
+    authors:
+        - Feiler, Peter H.
+        - Gluch, David P.
+    title: Model-based Engineering with AADL
+    titleaddon: An Introduction to SAE Architecture and Design Language
+    type: book
+    year: 2012
+    urls:
+        InformIT: >
+            http://www.informit.com/store/model-based-engineering-with-aadl-an-introduction-to-9780321888945
+        "AADL Homepage": >
+            http://www.aadl.info
+        "Presentation 2010 PDF": >
+            https://wiki.sei.cmu.edu/aadl/images/4/43/MBESRSystemsMay2010.pdf
+        "Presentation 2014 PDF": >
+            https://apps.dtic.mil/dtic/tr/fulltext/u2/a613948.pdf
+    adoc: |
+        * Reasons to read: language for model-based engineering
+        * Publisher: Addison-Wesley (SEI Series in Software Engineering)

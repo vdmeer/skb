@@ -11,9 +11,9 @@
 // @author Sven van der Meer (vdmeer.sven@mykolab.com)
 //
 
-== SKB - Research Library - Technical Reports - 1970-1979
+== SKB - Research Library - Whitepapers - 2010-2019
 
-Technical reports in my research library from 1970 to 1979.
+Whitepapers in my research library from 2010 to 2019.
 A compiled version of all reports is hosted on link:https://vdmeer.github.io/skb/library/report.html[GH Pages].
 
 

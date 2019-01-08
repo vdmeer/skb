@@ -1,0 +1,14 @@
+article/1980/allen-1983-cacm:
+    authors:
+        - Allen, James F.
+    title: Maintaining Knowledge about temporal Intervals
+    type: article
+    year: 1983
+    urls:
+        DOI: >
+            https://doi.org/10.1145%2F182.358434
+        PDF: >
+            http://cse.unl.edu/~choueiry/Documents/Allen-CACM1983.pdf
+    adoc: |
+        * Reasons to read: Allen Intervals for temporal calculations (temporal algebra)
+        * Published: Communications of the ACM CACM, Volume 26 Issue 11, Nov. 1983, Pages 832-843

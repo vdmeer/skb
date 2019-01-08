@@ -1,0 +1,20 @@
+article/1970/wulf-1974-cacm:
+    authors:
+        - Wulf, W.
+        - Cohen, E.
+        - Corwin, W.
+        - Jones, A.
+        - Levin, R.
+        - Pierson, C.
+        - Pollack, F.
+    title: "HYDRA: the Kernel of a Multiprocessor Operating System"
+    type: article
+    year: 1974
+    urls:
+        DOI: >
+            https://doi.org/10.1145/355616.364017
+        PDF: >
+            http://research.cs.wisc.edu/areas/os/Qual/papers/hydra.pdf
+    adoc: |
+        * Reasons to read: first principle of separation of mechanism and policy, policy is artifact of _control_ for mechanisms, separates kernel level decision making from user level decision declaration
+        * Published: Communications of the ACM CACM, Volume 17 Issue 6, June 1974

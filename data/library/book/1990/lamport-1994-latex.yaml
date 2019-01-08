@@ -1,0 +1,12 @@
+book/1990/lamport-1994-latex:
+    authors:
+        - Lamport, Leslie
+    title: "LaTeX: A Document Preparation System"
+    type: book
+    year: 1994
+    urls:
+        Homepage: >
+            http://lamport.azurewebsites.net/pubs/pubs.html#latex
+    adoc: |
+        * Reasons to read: the original LaTeX manual
+        * Publisher: Addison-Wesley Professional; 2 edition (July 10, 1994)

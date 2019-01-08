@@ -1,0 +1,21 @@
+report/whitepaper/2010/atnt-2016-ecomp:
+    authors:
+        - AT&T
+    title: "ECOMP (Enhanced Control, Orchestration, Management & Policy) Architecture White Paper"
+    type: whitepaper
+    year: 2016
+    urls:
+        PDF: >
+            http://about.att.com/content/dam/snrdocs/ecomp.pdf
+    adoc: |
+        * Reasons to read: architecture to change an operator's network and services towards cloud and virtualization
+            ** this whitepaper is based on Domain 2.0 and isthe baseline for ONAP
+        * Published by AT&T, March 2016
+    bibtex: |
+        @techreport{cite:report:whitepaper:2010:atnt-2016-ecomp,
+            Author = {{AT\&T}},
+            Institution = {AT\&T},
+            Title = {{ECOMP (Enhanced Control, Orchestration, Management \& Policy) Architecture White Paper}},
+            Url = {http://about.att.com/content/dam/snrdocs/ecomp.pdf},
+            Year = {2016}
+        }

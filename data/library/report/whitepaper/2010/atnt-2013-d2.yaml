@@ -1,0 +1,21 @@
+report/whitepaper/2010/atnt-2013-d2:
+    authors:
+        - AT&T
+    title: "AT&T Vision Alignment Challenge Technology Survey - AT&T Domain 2.0 Vision White Paper"
+    type: whitepaper
+    year: 2013
+    urls:
+        PDF: >
+            https://www.att.com/Common/about_us/pdf/AT&T%20Domain%202.0%20Vision%20White%20Paper.pdf
+    adoc: |
+        * Reasons to read: vision to change an operator's network and services towards cloud and virtualization
+            ** this whitepaper is the baseline for ECOMP, later ONAP
+        * Published by AT&T, November 2013
+    bibtex: |
+        @techreport{cite:report:whitepaper:2010:atnt-2013-d2,
+            Author = {{AT\&T}},
+            Institution = {AT\&T},
+            Title = {{AT\&T Vision Alignment Challenge Technology Survey - AT\&T Domain 2.0 Vision White Paper}},
+            Url = {https://www.att.com/Common/about_us/pdf/AT&T%20Domain%202.0%20Vision%20White%20Paper.pdf},
+            Year = {2013}
+        }

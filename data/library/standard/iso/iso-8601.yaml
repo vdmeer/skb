@@ -1,0 +1,15 @@
+standard/iso/iso-8601:
+    authors:
+        - ISO
+    title: Data elements and interchange formats - Information interchange - Representation of dates and times
+    type: standard
+    year: 2004
+    urls:
+        ISO: >
+            https://www.iso.org/iso-8601-date-and-time-format.html
+        "ISO-8601-2 Draft, PDF": >
+            https://www.loc.gov/standards/datetime/iso-tc154-wg5_n0039_iso_wd_8601-2_2016-02-16.pdf
+        "Matchematics of ISO Calendar": >
+            http://www.staff.science.uu.nl/~gent0113/calendar/isocalendar.htm
+    adoc: |
+        * Reasons to read: the standard for date and time representations, including UTC and UTC offsets

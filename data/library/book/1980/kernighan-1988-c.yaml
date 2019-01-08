@@ -1,0 +1,15 @@
+book/1980/kernighan-1988-c:
+    authors:
+        - Kernighan, Brian
+        - Ritchie, Dennis
+    title: The C Programming Language
+    type: book
+    year: 1988
+    urls:
+        Wikipedia: >
+            https://en.wikipedia.org/wiki/The_C_Programming_Language
+        "Internet Archive": >
+            https://archive.org/details/TheCProgrammingLanguageFirstEdition
+    adoc: |
+        * Reasons to read: the original C programming manual
+        * Publisher: Prentice-Hall

@@ -11,7 +11,7 @@
 // @author Sven van der Meer (vdmeer.sven@mykolab.com)
 //
 
-== SKB - Research Library - Technical Reporst - 1980-1989
+== SKB - Research Library - Technical Reports - 1980-1989
 
 Technical reports in my research library from 1980 to 1989.
 A compiled version of all reports is hosted on link:https://vdmeer.github.io/skb/library/report.html[GH Pages].

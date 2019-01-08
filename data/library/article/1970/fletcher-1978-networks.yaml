@@ -1,0 +1,16 @@
+article/1970/fletcher-1978-networks:
+    authors:
+        - Fletcher, John G.
+        - Watson, Richard W.
+    title: Mechanisms for a reliable timer-based Protocol
+    type: article
+    year: 1978
+    urls:
+        DOI: >
+            https://doi.org/10.1016/0376-5075(78)90006-5
+        PDF: >
+            https://www.cs.bu.edu/faculty/matta/Teaching/cs556/archive/WatsonDelta-t.PDF
+    adoc: |
+        * Reasons to read: original work on timer mechanisms for Delta-T (3 timers required without synchronizd clocks)
+        * Published: Volume 2, Issues 4–5, September–October 1978, Pages 271-290
+            ** Note: date in the DOI seems to be wrong in title

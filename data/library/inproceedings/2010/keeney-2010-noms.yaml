@@ -1,0 +1,16 @@
+inproceedings/2010/keeney-2010-noms:
+    authors:
+        - Keeney, John
+        - Stevens, Clay
+        - O’Sullivan, Declan
+    title: Extending a Knowledge-based Network to support Temporal Event Reasoning
+    type: inproceedings
+    year: 2010
+    urls:
+        DOI: >
+            https://doi.org/10.1109/NOMS.2010.5488427
+        ResearchGate: >
+            https://www.researchgate.net/publication/220708168_Extending_a_knowledge-based_network_to_support_temporal_event_reasoning
+    adoc: |
+        * Reasons to read: enhancing the expressiveness of a knowledge-based networking middleware with the addition of three temporal operators (Allen Intervals for time calculations using temporal operators)
+        * Published: 2010 IEEE Network Operations and Management Symposium - NOMS 2010

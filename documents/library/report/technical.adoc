@@ -11,15 +11,15 @@
 // @author Sven van der Meer (vdmeer.sven@mykolab.com)
 //
 
-== 1960
+=== 1960
 include::{library-adoc}/report/technical/1960/_entries.adoc[]
 
-== 1970
+=== 1970
 include::{library-adoc}/report/technical/1970/_entries.adoc[]
 
-== 1980
+=== 1980
 include::{library-adoc}/report/technical/1980/_entries.adoc[]
 
-== 2000
+=== 2000
 include::{library-adoc}/report/technical/2000/_entries.adoc[]
 

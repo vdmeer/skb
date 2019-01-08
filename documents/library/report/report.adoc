@@ -11,6 +11,10 @@
 // @author Sven van der Meer (vdmeer.sven@mykolab.com)
 //
 
+== Whitepaper
+include::whitepaper.adoc[]
+
+
 == Technical Report
 include::technical.adoc[]
 

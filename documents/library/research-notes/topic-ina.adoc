@@ -106,6 +106,7 @@ Provide a list of papers, articles, books and the like important to understand n
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
 |include::{library-adoc}/article/1970/hansen-1970-cacm.adoc[]
+|include::{library-adoc}/article/1970/wulf-1974-cacm.adoc[]
 |include::{library-adoc}/inproceedings/1970/levin-1975-sosp.adoc[]
 |===
 
@@ -123,6 +124,7 @@ Provide a list of papers, articles, books and the like important to understand n
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
 |include::{library-adoc}/article/1970/watson-1976-networks.adoc[]
+|include::{library-adoc}/article/1970/fletcher-1978-networks.adoc[]
 |include::{library-adoc}/inproceedings/1970/watson-1979-ddmcn.adoc[]
 |include::{library-adoc}/inproceedings/1980/watson-1980-tas.adoc[]
 |include::{library-adoc}/article/1980/watson-1981-networks.adoc[]

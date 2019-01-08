@@ -71,8 +71,8 @@ if [[ -d docs ]]; then
 fi
 $SKB_DASHBOARD -B -e clean --sq --lq --task-level debug -- --force
 
-$SKB_DASHBOARD -B -e lib-yaml2src    --sq --lq --task-level debug    -- --all
-$SKB_DASHBOARD -B -e lib-adoc2target --sq --lq --task-level debug --    --all
+$SKB_DASHBOARD -B -e lib-yaml2src    --sq --lq --task-level debug -- --all
+$SKB_DASHBOARD -B -e lib-adoc2target --sq --lq --task-level debug -- --all
 cp /tmp/sd/library-docs/* docs/library
 
 $SKB_DASHBOARD -B -e skb-build-sites --sq --lq --task-level debug -- --build --all --ad --site --stage

@@ -11,27 +11,5 @@
 // @author Sven van der Meer (vdmeer.sven@mykolab.com)
 //
 
-== 1800
-include::{library-adoc}/article/1800/_entries.adoc[]
-
-== 1950
-include::{library-adoc}/article/1950/_entries.adoc[]
-
-== 1960
-include::{library-adoc}/article/1960/_entries.adoc[]
-
-== 1970
-include::{library-adoc}/article/1970/_entries.adoc[]
-
-== 1980
-include::{library-adoc}/article/1980/_entries.adoc[]
-
-== 1990
-include::{library-adoc}/article/1990/_entries.adoc[]
-
-== 2000
-include::{library-adoc}/article/2000/_entries.adoc[]
-
-== 2010
-include::{library-adoc}/article/2010/_entries.adoc[]
-
+=== 2010
+include::{library-adoc}/report/whitepaper/2010/_entries.adoc[]

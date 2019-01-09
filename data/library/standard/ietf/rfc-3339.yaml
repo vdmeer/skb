@@ -1,0 +1,26 @@
+standard/ietf/rfc-3339:
+    authors:
+        - Klyne, G.
+        - Newman, C.
+    title: "Date and Time on the Internet: Timestamps"
+    type: standard
+    year: 2002
+    urls:
+        IETF: >
+            https://tools.ietf.org/html/rfc3339
+    adoc: |
+        * Reasons to read: standard for date and time in the internet, as a restricted form (profile) of ISO 8601
+        * Published: IETF Standard, July 2002
+    biblatex: |
+        @standard{cite:standard:ietf:rfc-3339,
+            editor = "Klyne, G. and Newman, C.",
+            title = "Date and Time on the Internet: Timestamps",
+            type = "Request for Comments",
+            number = "3339",
+            howpublished = "RFC 3339 (Standards Track)",
+            publisher = "IETF",
+            organization = "Internet Engineering Task Force",
+            year = 2002,
+            month = jul,
+            url = "https://tools.ietf.org/html/rfc3339",
+        }

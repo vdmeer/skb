@@ -12,3 +12,17 @@ article/1980/allen-1983-cacm:
     adoc: |
         * Reasons to read: Allen Intervals for temporal calculations (temporal algebra)
         * Published: Communications of the ACM CACM, Volume 26 Issue 11, Nov. 1983, Pages 832-843
+    biblatex: |
+        @article{cite:article:1980:allen-1983-cacm,
+            editor = "Allen, James F.",
+            title = "Maintaining knowledge about temporal intervals",
+            journal = "Communications of the ACM",
+            volume = "26",
+            number = "11",
+            month = nov,
+            year = 1983,
+            month = oct,
+            pages = "832--843",
+            doi = "10.1145/182.358434"
+            url = "http://cse.unl.edu/~choueiry/Documents/Allen-CACM1983.pdf",
+        }

@@ -20,3 +20,17 @@ article/2010/brennan-2010-commag:
     adoc: |
         * Reasons to read: inter-domain relationships and policy translation
         * Published: IEEE Communications Magazine (Volume: 48, Issue: 8, August 2010)
+    biblatex: |
+        @article{cite:article:1980:allen-1983-cacm,
+            editor = "Brennan, Rob and Feeney, Kevin and Keeney, John and O'Sullivan, Declan and Fleck, Joel J., II and Foley, Simon and van der Meer, Sven",
+            title = "Multidomain IT architectures for next-generation communications service providers",
+            journal = IEEE_M_COM,
+            volume = "48",
+            number = "8",
+            month = aug,
+            year = 2010,
+            month = oct,
+            pages = "110--117",
+            doi = "10.1109/MCOM.2010.5534595"
+            url = "http://www.tara.tcd.ie/handle/2262/40593",
+        }

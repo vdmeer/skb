@@ -1,0 +1,25 @@
+standard/ietf/rfc-5322:
+    authors:
+        - Resnick, P.
+    title: "Internet Message Format"
+    type: standard
+    year: 2008
+    urls:
+        IETF: >
+            https://tools.ietf.org/html/rfc5322
+    adoc: |
+        * Reasons to read: standard for time in internet messages, i.e. email
+        * Published: IETF Standard, October 2008
+    biblatex: |
+        @standard{cite:standard:ietf:rfc-5322,
+            editor = "Resnick, P.",
+            title = "Internet Message Format",
+            type = "Request for Comments",
+            number = "5322",
+            howpublished = "RFC 5322 (Standards Track)",
+            publisher = "IETF",
+            organization = "Internet Engineering Task Force",
+            year = 2008,
+            month = oct,
+            url = "https://tools.ietf.org/html/rfc5322",
+        }

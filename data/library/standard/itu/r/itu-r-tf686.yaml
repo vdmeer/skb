@@ -1,0 +1,24 @@
+standard/itu/r/itu-r-tf686:
+    authors:
+        - ITU
+    title: Standard-frequency and time-signal emissions
+    type: standard
+    year: 2013
+    urls:
+        ITU: >
+            https://www.itu.int/rec/R-REC-TF.686
+    adoc: |
+        * Reasons to read: standard termonology for time in ITU recommendations
+    biblatex: |
+        @standard{cite:standard:itu:r:itu-r-tf686:2013,
+            author = "ITU",
+            number = "TF.686-3",
+            type = "Recommendation",
+            title = "Glossary and definitions of time and frequency terms",
+            howpublished="ITU-R Recommendation TF.686-3",
+            organization = "International Telecommunication Union - Radio",
+            address = "Switzerland",
+            month = dec,
+            year = "2013",
+            url = "https://www.itu.int/rec/R-REC-TF.686"
+        }

@@ -1,0 +1,17 @@
+online/continuous/tøndering-calendar-faq:
+    authors:
+        - Tøndering, Claus
+    title: The Calendar FAQ
+    type: online
+    year: 1996
+    urls:
+        Online: >
+            https://www.tondering.dk/claus/calendar.html
+    adoc: |
+        * Reasons to read: everything about calendars
+    biblatex: |
+        @online{cite:online:continuous:tøndering-calendar-faq,
+            author = "T{{\o{}}}ndering, Claus",
+            title = "The Calendar FAQ",
+            url = "https://www.tondering.dk/claus/calendar.html"
+        }

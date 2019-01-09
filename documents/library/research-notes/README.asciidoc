@@ -26,4 +26,3 @@ Compiled versions are available on my GH pages and on my website.
 | `topic-time-and-date-nm.adoc` | time and date in network management   | link:https://vdmeer.github.io/skb/library/topic-time-and-date-nm.html[GH Pages] | link:http://www.vandermeer.de/research-notes-time-and-date-nm.html[vandermeer.de]
 |===
 
-

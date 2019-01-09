@@ -18,4 +18,12 @@ Entries are grouped by SDO.
 A compiled version of all standard items is hosted on link:https://vdmeer.github.io/skb/library/standard.html[GH Pages].
 
 The naming scheme for in-standards varies with the standardization organization.
-Entries are grouped by standard organisation.
+Entries are grouped by standard organization.
+
+Standard Defining Organizations (SDO) use different mechanism for versioning their standards.
+In the IETF, standards (here called Request For Comment, RFC) are numbered and higher number standards can obsolete lower number standards.
+In the ITU, standards (here called recommendations) are often versioned using the year of publication or an integer as extension to the standard.
+ISO is using a similar mechanism.
+The OMG uses a version number for their standards.
+The entries here (as well as Biblatex and BibTeX files) will always refer to the latest version (pending editing updates).
+Publications using the bibliography should copy, rather than reference, the files, to avoid wrong citations.

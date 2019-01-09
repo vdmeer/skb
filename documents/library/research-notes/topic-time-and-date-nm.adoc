@@ -12,8 +12,50 @@
 //
 
 == Standards
-There are various (i.e. a lot!) standards for time and date specifications.
-The most relevant are listed in the table below: ISO, ITU-T, IETF, and W3C.
+Standards are defined by Standard Defining Organizations (SDO).
+They can be normative (have to be followed) or not normative (e.g. recommended, informational, best common practice, etc.).
+Each SDO uses their own taxonomy and their own _word_ for standards.
+ISO for instance calls them standard, ITU calls them recommendation, and IETF calls them Request For Comment (RFC).
+Which standards are normative depends on the subject area or domain, rather than where they are defined.
+Some exception to this rule apply.
+For instance, ISO international standards are often adopted by country SDOs and the BIPM defines the standard system for units used world-wide.
+For network management, we should consider the following SDOs and their standards being normative:
+
+* ISO, e.g. for time and other aspects
+* ITU, for telecommunication (T series) and radio (R series) standards
+* IETF, for standards used in the Internet
+* 3GPP, for mobile network standards
+* ETSI, for European mobile network standards
+* W3C, for standards used in the World Wide Web (WWW) and related technologies
+* BIPM, for standard units (in the case of time: second)
+* IEC, e.g. for terminology
+* IEEE, for standards on various network technologies
+
+SDOs that might not be normative, yet standardize important aspects of or for network management, include:
+
+* OMG, namely SBVR and its time and date specifications
+* TINA, namely modeling and management aspects of telecommunication
+* ATM Forum, for standards of the ATM network
+* TM Forum, for network and service management standards such as eTOM and SID
+* OASIS, mainly for web-services
+* EIA/TIA, for electronic and telecommunication standards
+* MEF, for information models, Ethernet, and network standards
+
+Other relevant specifications can come from open source communities and related organizations.
+Those standards are often protocols, data models, or Application Programming Interfaces (API).
+Here we can find several ways how standards are established.
+For instance, the Java Community Process defines and agrees on Java Specification Requests (JSR), API specifications.
+Sometimes, an open source project that does focus on a specific domain becomes very popular (or even dominant).
+An example for this is _moment.js_, a JavaScript time library.
+The list of open source standards can never be complete, and some relevant standards might be missing.
+
+In many occasions, companies can define relevant standards as well.
+For the purpose of this note, companies such as Apple, IBM, and Microsoft have created time and date standards used in their platforms (e.g. operating systems or hardware), which became defacto-standards at least within the company's eco-system.
+This is especially the case for databases, which play an important role in network management.
+
+Sometimes, countries or state organizations develop technologies that become a standard.
+One example is the Global Positioning System (GPS), originally developed in the USA for its military.
+Once opened for civil use, GPS became the de-facto standard for many different applications.
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
@@ -30,6 +72,7 @@ The most relevant are listed in the table below: ISO, ITU-T, IETF, and W3C.
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
 |include::{library-adoc}/article/1980/allen-1983-cacm.adoc[]
+|include::{library-adoc}/report/technical/2000/alspaugh-2005-isr.adoc[]
 |===
 
 

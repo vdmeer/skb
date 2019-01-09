@@ -14,7 +14,7 @@
 == 2000
 include::{library-adoc}/proceedings/2000/_entries.adoc[]
 
-2010
+== 2010
 include::{library-adoc}/proceedings/2010/_entries.adoc[]
 
 == MACE

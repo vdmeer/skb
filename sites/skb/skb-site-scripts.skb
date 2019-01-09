@@ -18,5 +18,5 @@ MvnSitePostScript() {
     MvnSiteFixAdoc target/site/research-notes-ina                   "Research Notes - INA"
     MvnSiteFixAdoc target/site/research-notes-internet-history      "Research Notes - Internet History"
 
-    MvnSiteFixAdoc target/site/research-notes-time-and-date         "Research Notes - Time and Date"
+    MvnSiteFixAdoc target/site/research-notes-time-and-date-nm      "Research Notes - Time and Date in NM"
 }

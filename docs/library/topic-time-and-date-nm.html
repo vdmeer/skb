@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 1.5.7.1">
 <meta name="author" content="Sven van der Meer">
-<title>Research Notes - Time and Date</title>
+<title>Research Notes - Time and Date in Network Management</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
@@ -433,7 +433,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </head>
 <body class="article toc2 toc-left">
 <div id="header">
-<h1>Research Notes - Time and Date</h1>
+<h1>Research Notes - Time and Date in Network Management</h1>
 <div class="details">
 <span id="author" class="author">Sven van der Meer</span><br>
 </div>
@@ -441,6 +441,8 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
 <li><a href="#_standards">Standards</a></li>
+<li><a href="#_time_frameworks_calculus">Time Frameworks, Calculus</a></li>
+<li><a href="#_online_resources">Online Resources</a></li>
 </ul>
 </div>
 </div>
@@ -448,6 +450,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sect1">
 <h2 id="_standards">Standards</h2>
 <div class="sectionbody">
+<div class="paragraph">
+<p>There are various (i.e. a lot!) standards for time and date specifications.
+The most relevant are listed in the table below: ISO, ITU-T, IETF, and W3C.</p>
+</div>
 <table class="tableblock frame-none grid-rows stretch">
 <colgroup>
 <col style="width: 100%;">
@@ -500,6 +506,194 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </ul>
 </div></div></td>
 </tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><strong>ITU</strong>: <em>Standard-frequency and time-signal emissions</em>, 2013</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Author: ITU</p>
+</li>
+<li>
+<p>Reasons to read: standard termonology for time in ITU recommendations</p>
+</li>
+<li>
+<p>Links:
+  <a href="https://www.itu.int/rec/R-REC-TF.686">ITU</a>
+┃ skb:
+    <a href="https://github.com/vdmeer/skb/tree/master/data/library/standard/itu/r/itu-r-tf686.yaml">yaml src</a>,
+    <a href="https://github.com/vdmeer/skb/tree/master/data/library/standard/itu/r/itu-r-tf686-biblatex.bib">Biblatex</a></p>
+</li>
+</ul>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><strong>G. Klyne</strong> et al.: <em>Date and Time on the Internet: Timestamps</em>, 2002</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Authors: G. Klyne, C. Newman</p>
+</li>
+<li>
+<p>Reasons to read: standard for date and time in the internet, as a restricted form (profile) of ISO 8601</p>
+</li>
+<li>
+<p>Published: IETF Standard, July 2002</p>
+</li>
+<li>
+<p>Links:
+  <a href="https://tools.ietf.org/html/rfc3339">IETF</a>
+┃ skb:
+    <a href="https://github.com/vdmeer/skb/tree/master/data/library/standard/ietf/rfc-3339.yaml">yaml src</a>,
+    <a href="https://github.com/vdmeer/skb/tree/master/data/library/standard/ietf/rfc-3339-biblatex.bib">Biblatex</a></p>
+</li>
+</ul>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><strong>P. Resnick</strong>: <em>Internet Message Format</em>, 2008</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Author: P. Resnick</p>
+</li>
+<li>
+<p>Reasons to read: standard for time in internet messages, i.e. email</p>
+</li>
+<li>
+<p>Published: IETF Standard, October 2008</p>
+</li>
+<li>
+<p>Links:
+  <a href="https://tools.ietf.org/html/rfc5322">IETF</a>
+┃ skb:
+    <a href="https://github.com/vdmeer/skb/tree/master/data/library/standard/ietf/rfc-5322.yaml">yaml src</a>,
+    <a href="https://github.com/vdmeer/skb/tree/master/data/library/standard/ietf/rfc-5322-biblatex.bib">Biblatex</a></p>
+</li>
+</ul>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_time_frameworks_calculus">Time Frameworks, Calculus</h2>
+<div class="sectionbody">
+<table class="tableblock frame-none grid-rows stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><strong>James F. Allen</strong>: <em>Maintaining Knowledge about temporal Intervals</em>, 1983</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Author: James F. Allen</p>
+</li>
+<li>
+<p>Reasons to read: Allen Intervals for temporal calculations (temporal algebra)</p>
+</li>
+<li>
+<p>Published: Communications of the ACM CACM, Volume 26 Issue 11, Nov. 1983, Pages 832-843</p>
+</li>
+<li>
+<p>Links:
+  <a href="https://doi.org/10.1145%2F182.358434">DOI</a>,
+  <a href="http://cse.unl.edu/~choueiry/Documents/Allen-CACM1983.pdf">PDF</a>
+┃ skb:
+    <a href="https://github.com/vdmeer/skb/tree/master/data/library/article/1980/allen-1983-cacm.yaml">yaml src</a>,
+    <a href="https://github.com/vdmeer/skb/tree/master/data/library/article/1980/allen-1983-cacm-biblatex.bib">Biblatex</a></p>
+</li>
+</ul>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_online_resources">Online Resources</h2>
+<div class="sectionbody">
+<table class="tableblock frame-none grid-rows stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><strong>Steffen Thorsen</strong>: <em>Time and Date</em>, 1995</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Author: Steffen Thorsen</p>
+</li>
+<li>
+<p>Reasons to read: the ultimate website for time and date information, tools, and news</p>
+</li>
+<li>
+<p>Links:
+  <a href="https://www.timeanddate.com/">Online</a>
+┃ skb:
+    <a href="https://github.com/vdmeer/skb/tree/master/data/library/online/continuous/thorson-timeanddate.yaml">yaml src</a>,
+    <a href="https://github.com/vdmeer/skb/tree/master/data/library/online/continuous/thorson-timeanddate-biblatex.bib">Biblatex</a></p>
+</li>
+</ul>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><strong>Gilbert Healton</strong>: <em>The Best of Dates, The Worst Of Dates</em>, 2002</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Author: Gilbert Healton</p>
+</li>
+<li>
+<p>Reasons to read: history, standards, programming help for time and date</p>
+</li>
+<li>
+<p>Links:
+  <a href="http://x109.healton.net/y2k/yrexamples.html">Online</a>
+┃ skb:
+    <a href="https://github.com/vdmeer/skb/tree/master/data/library/online/continuous/healton-best-of-dates.yaml">yaml src</a>,
+    <a href="https://github.com/vdmeer/skb/tree/master/data/library/online/continuous/healton-best-of-dates-biblatex.bib">Biblatex</a></p>
+</li>
+</ul>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><strong>Claus Tøndering</strong>: <em>The Calendar FAQ</em>, 1996</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Author: Claus Tøndering</p>
+</li>
+<li>
+<p>Reasons to read: everything about calendars</p>
+</li>
+<li>
+<p>Links:
+  <a href="https://www.tondering.dk/claus/calendar.html">Online</a>
+┃ skb:
+    <a href="https://github.com/vdmeer/skb/tree/master/data/library/online/continuous/tøndering-calendar-faq.yaml">yaml src</a>,
+    <a href="https://github.com/vdmeer/skb/tree/master/data/library/online/continuous/tøndering-calendar-faq-biblatex.bib">Biblatex</a></p>
+</li>
+</ul>
+</div></div></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -507,7 +701,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2019-01-08 22:31:23 GMT
+Last updated 2019-01-09 19:02:58 GMT
 </div>
 </div>
 </body>

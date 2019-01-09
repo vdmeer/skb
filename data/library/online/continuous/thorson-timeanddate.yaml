@@ -1,0 +1,17 @@
+online/continuous/thorson-timeanddate:
+    authors:
+        - Thorsen, Steffen
+    title: Time and Date
+    type: online
+    year: 1995
+    urls:
+        Online: >
+            https://www.timeanddate.com/
+    adoc: |
+        * Reasons to read: the ultimate website for time and date information, tools, and news
+    biblatex: |
+        @online{cite:online:continuous:thorson-timeanddate,
+            author = "Thorsen, Steffen",
+            title = "Time and Date",
+            url = "https://www.timeanddate.com/"
+        }

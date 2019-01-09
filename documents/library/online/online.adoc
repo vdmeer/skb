@@ -11,6 +11,9 @@
 // @author Sven van der Meer (vdmeer.sven@mykolab.com)
 //
 
+== Continuous
+include::{library-adoc}/online/continuous/_entries.adoc[]
+
 == 2000
 include::{library-adoc}/online/2000/_entries.adoc[]
 

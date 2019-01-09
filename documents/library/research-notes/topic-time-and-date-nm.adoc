@@ -12,11 +12,33 @@
 //
 
 == Standards
+There are various (i.e. a lot!) standards for time and date specifications.
+The most relevant are listed in the table below: ISO, ITU-T, IETF, and W3C.
 
 [cols="a", grid=rows, frame=none, %autowidth.stretch]
 |===
 |include::{library-adoc}/standard/iso/iso-8601.adoc[]
 |include::{library-adoc}/standard/itu/r/itu-r-tf460.adoc[]
+|include::{library-adoc}/standard/itu/r/itu-r-tf686.adoc[]
+|include::{library-adoc}/standard/ietf/rfc-3339.adoc[]
+|include::{library-adoc}/standard/ietf/rfc-5322.adoc[]
 |===
 
+
+== Time Frameworks, Calculus
+
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::{library-adoc}/article/1980/allen-1983-cacm.adoc[]
+|===
+
+
+== Online Resources
+
+[cols="a", grid=rows, frame=none, %autowidth.stretch]
+|===
+|include::{library-adoc}/online/continuous/thorson-timeanddate.adoc[]
+|include::{library-adoc}/online/continuous/healton-best-of-dates.adoc[]
+|include::{library-adoc}/online/continuous/tøndering-calendar-faq.adoc[]
+|===
 

@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 1.5.7.1">
 <meta name="author" content="Sven van der Meer">
-<title>Research Notes - Time and Date in Network Management</title>
+<title>Research Notes - Cybernetics</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
@@ -431,108 +431,14 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 @media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
 </style>
 </head>
-<body class="article toc2 toc-left">
+<body class="article">
 <div id="header">
-<h1>Research Notes - Time and Date in Network Management</h1>
+<h1>Research Notes - Cybernetics</h1>
 <div class="details">
 <span id="author" class="author">Sven van der Meer</span><br>
 </div>
-<div id="toc" class="toc2">
-<div id="toctitle">Table of Contents</div>
-<ul class="sectlevel1">
-<li><a href="#_standards">Standards</a></li>
-<li><a href="#_time_frameworks_calculus">Time Frameworks, Calculus</a></li>
-<li><a href="#_online_resources">Online Resources</a></li>
-</ul>
-</div>
 </div>
 <div id="content">
-<div class="sect1">
-<h2 id="_standards">Standards</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Standards are defined by Standard Defining Organizations (SDO).
-They can be normative (have to be followed) or not normative (e.g. recommended, informational, best common practice, etc.).
-Each SDO uses their own taxonomy and their own <em>word</em> for standards.
-ISO for instance calls them standard, ITU calls them recommendation, and IETF calls them Request For Comment (RFC).
-Which standards are normative depends on the subject area or domain, rather than where they are defined.
-Some exception to this rule apply.
-For instance, ISO international standards are often adopted by country SDOs and the BIPM defines the standard system for units used world-wide.
-For network management, we should consider the following SDOs and their standards being normative:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>ISO, e.g. for time and other aspects</p>
-</li>
-<li>
-<p>ITU, for telecommunication (T series) and radio (R series) standards</p>
-</li>
-<li>
-<p>IETF, for standards used in the Internet</p>
-</li>
-<li>
-<p>3GPP, for mobile network standards</p>
-</li>
-<li>
-<p>ETSI, for European mobile network standards</p>
-</li>
-<li>
-<p>W3C, for standards used in the World Wide Web (WWW) and related technologies</p>
-</li>
-<li>
-<p>BIPM, for standard units (in the case of time: second)</p>
-</li>
-<li>
-<p>IEC, e.g. for terminology</p>
-</li>
-<li>
-<p>IEEE, for standards on various network technologies</p>
-</li>
-</ul>
-</div>
-<div class="paragraph">
-<p>SDOs that might not be normative, yet standardize important aspects of or for network management, include:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>OMG, namely SBVR and its time and date specifications</p>
-</li>
-<li>
-<p>TINA, namely modeling and management aspects of telecommunication</p>
-</li>
-<li>
-<p>ATM Forum, for standards of the ATM network</p>
-</li>
-<li>
-<p>TM Forum, for network and service management standards such as eTOM and SID</p>
-</li>
-<li>
-<p>OASIS, mainly for web-services</p>
-</li>
-<li>
-<p>EIA/TIA, for electronic and telecommunication standards</p>
-</li>
-<li>
-<p>MEF, for information models, Ethernet, and network standards</p>
-</li>
-</ul>
-</div>
-<div class="paragraph">
-<p>Other relevant specifications can come from open source communities and related organizations.
-Those standards are often protocols, data models, or Application Programming Interfaces (API).
-Here we can find several ways how standards are established.
-For instance, the Java Community Process defines and agrees on Java Specification Requests (JSR), API specifications.
-Sometimes, an open source project that does focus on a specific domain becomes very popular (or even dominant).
-An example for this is <em>moment.js</em>, a JavaScript time library.
-The list of open source standards can never be complete, and some relevant standards might be missing.</p>
-</div>
-<div class="paragraph">
-<p>In many occasions, companies can define relevant standards as well.
-For the purpose of this note, companies such as Apple, IBM, and Microsoft have created time and date standards used in their platforms (e.g. operating systems or hardware), which became defacto-standards at least within the company&#8217;s eco-system.
-This is especially the case for databases, which play an important role in network management.</p>
-</div>
 <table class="tableblock frame-none grid-rows stretch">
 <colgroup>
 <col style="width: 100%;">
@@ -540,273 +446,165 @@ This is especially the case for databases, which play an important role in netwo
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p><strong>ISO</strong>: <em>Data elements and interchange formats - Information interchange - Representation of dates and times</em>, 2004</p>
+<p><strong>Marie Neurath</strong>: <em>How Machines Work</em>, 1954</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Author: ISO</p>
+<p>Author: Marie Neurath</p>
 </li>
 <li>
-<p>Reasons to read: the standard for time specifications in a 24-hour time keeping system and dates using the Gregorian calendar</p>
+<p>Reasons to read: the most simple, yet expressive, introduction on machines :)</p>
+</li>
+<li>
+<p>Publisher: Max Parrsih, London</p>
 </li>
 <li>
 <p>Links:
-  <a href="https://www.iso.org/iso-8601-date-and-time-format.html">ISO</a>,
-  <a href="http://dotat.at/tmp/ISO_8601-2004_E.pdf">PDF</a>,
-  <a href="https://www.loc.gov/standards/datetime/iso-tc154-wg5_n0039_iso_wd_8601-2_2016-02-16.pdf">ISO-8601-2 Draft, PDF</a>,
-  <a href="http://www.staff.science.uu.nl/~gent0113/calendar/isocalendar.htm">Matchematics of ISO Calendar</a>
+  <a href="http://manchesterartgallery.org/blog/machines-which-seem-to-think">gallery with 3 pages</a>,
+  <a href="http://www.fulltable.com/iso/mw.htm">all pages</a>
 ┃ skb:
-    <a href="https://github.com/vdmeer/skb/tree/master/data/library/standard/iso/iso-8601.yaml">yaml src</a>,
-    <a href="https://github.com/vdmeer/skb/tree/master/data/library/standard/iso/iso-8601-biblatex.bib">Biblatex</a></p>
+    <a href="https://github.com/vdmeer/skb/tree/master/data/library/book/1950/neurath-1954-how_machines_work.yaml">yaml src</a></p>
 </li>
 </ul>
 </div></div></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p><strong>ITU</strong>: <em>Standard-frequency and time-signal emissions</em>, 2002</p>
+<p><strong>W. Ross Ashby</strong>: <em>An Introduction to Cybernetics</em>, 1956</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Author: ITU</p>
+<p>Author: W. Ross Ashby</p>
 </li>
 <li>
-<p>Reasons to read: standard for Coordinated Universal Time (UTC), normative for all ITU recommendations</p>
+<p>Reasons to read: cybernetics into, Law of Requisite Variety</p>
+</li>
+<li>
+<p>Publisher: John Wiley &amp; Sons</p>
 </li>
 <li>
 <p>Links:
-  <a href="https://www.itu.int/rec/R-REC-TF.460/">ITU</a>
+  <a href="https://www.goodreads.com/book/show/583911.An_Introduction_to_Cybernetics?ac=1&amp;from_search=true">Goodreads</a>,
+  <a href="https://archive.org/details/introductiontocy00ashb">pdf: original typeset</a>,
+  <a href="http://pespmc1.vub.ac.be/books/IntroCyb.pdf">pdf: new typeset</a>,
+  <a href="https://www.panarchy.org/ashby/variety.1956.html">discussion on requisite variety</a>,
+  <a href="https://en.wikiquote.org/wiki/W._Ross_Ashby">WikiQoutes</a>
 ┃ skb:
-    <a href="https://github.com/vdmeer/skb/tree/master/data/library/standard/itu/r/itu-r-tf460.yaml">yaml src</a>,
-    <a href="https://github.com/vdmeer/skb/tree/master/data/library/standard/itu/r/itu-r-tf460-biblatex.bib">Biblatex</a></p>
+    <a href="https://github.com/vdmeer/skb/tree/master/data/library/book/1950/ashby-1956-intro_cybernetics.yaml">yaml src</a></p>
 </li>
 </ul>
 </div></div></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p><strong>ITU</strong>: <em>Standard-frequency and time-signal emissions</em>, 2013</p>
+<p><strong>Norbert Wiener</strong>: <em>Cybernetic OR Control and Communication in the Animal and the Machine</em>, 1965</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Author: ITU</p>
+<p>Author: Norbert Wiener</p>
 </li>
 <li>
-<p>Reasons to read: standard termonology for time in ITU recommendations</p>
+<p>Reasons to read: the standard work on cybernetics (with definition) and control</p>
+</li>
+<li>
+<p>Publisher: MIT Press, Cambridge, Massachusetts</p>
 </li>
 <li>
 <p>Links:
-  <a href="https://www.itu.int/rec/R-REC-TF.686">ITU</a>
+  <a href="https://en.wikipedia.org/wiki/Cybernetics:_Or_Control_and_Communication_in_the_Animal_and_the_Machine">Wikipedia</a>,
+  <a href="https://www.goodreads.com/book/show/294941.Cybernetics?ac=1&amp;from_search=true">Goodreads</a>,
+  <a href="http://www.uberty.org/wp-content/uploads/2015/07/Norbert_Wiener_Cybernetics.pdf">PDF: original typeset</a>
 ┃ skb:
-    <a href="https://github.com/vdmeer/skb/tree/master/data/library/standard/itu/r/itu-r-tf686.yaml">yaml src</a>,
-    <a href="https://github.com/vdmeer/skb/tree/master/data/library/standard/itu/r/itu-r-tf686-biblatex.bib">Biblatex</a></p>
+    <a href="https://github.com/vdmeer/skb/tree/master/data/library/book/1960/wiener-1965-cybernetics.yaml">yaml src</a></p>
 </li>
 </ul>
 </div></div></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p><strong>G. Klyne</strong> et al.: <em>Date and Time on the Internet: Timestamps</em>, 2002</p>
+<p><strong>Humberto R. Maturana</strong>: <em>Biology of Cognition</em>, 1970</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Authors: G. Klyne, C. Newman</p>
+<p>Author: Humberto R. Maturana</p>
 </li>
 <li>
-<p>Reasons to read: standard for date and time in the internet, as a restricted form (profile) of ISO 8601</p>
+<p>Reasons to read: <mark><mark>tbd</mark></mark></p>
 </li>
 <li>
-<p>Published: IETF Standard, July 2002</p>
+<p>Published: Biological Computer Laboratory Research Report BCL 9.0. Urbana IL: University of Illinois, 1970</p>
 </li>
 <li>
 <p>Links:
-  <a href="https://tools.ietf.org/html/rfc3339">IETF</a>
+  <a href="http://www.biolinguagem.com/ling_cog_cult/maturana_1970_biology_of_cognition.pdf">PDF</a>,
+  <a href="http://www.enolagaia.com/M70-80BoC.html">Online</a>
 ┃ skb:
-    <a href="https://github.com/vdmeer/skb/tree/master/data/library/standard/ietf/rfc-3339.yaml">yaml src</a>,
-    <a href="https://github.com/vdmeer/skb/tree/master/data/library/standard/ietf/rfc-3339-biblatex.bib">Biblatex</a></p>
+    <a href="https://github.com/vdmeer/skb/tree/master/data/library/report/technical/1970/maturana-1970-biology_of_cognition.yaml">yaml src</a></p>
 </li>
 </ul>
 </div></div></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p><strong>P. Resnick</strong>: <em>Internet Message Format</em>, 2008</p>
+<p><strong>Humberto R. Maturana</strong> et al.: <em>The Tree of Knowledge</em>, 1987</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Author: P. Resnick</p>
+<p>Authors: Humberto R. Maturana, Francisco J. Valera</p>
 </li>
 <li>
-<p>Reasons to read: standard for time in internet messages, i.e. email</p>
+<p>Reasons to read: <mark><mark>tbd</mark></mark></p>
 </li>
 <li>
-<p>Published: IETF Standard, October 2008</p>
+<p>Publisher: Shambhala, Boston &amp; London</p>
 </li>
 <li>
 <p>Links:
-  <a href="https://tools.ietf.org/html/rfc5322">IETF</a>
+  <a href="https://www.goodreads.com/book/show/695440.Tree_of_Knowledge?ac=1&amp;from_search=true">Goodreads</a>,
+  <a href="http://www.cybertech-engineering.ch/research/references/Maturana1988/maturana-h-1987-tree-of-knowledge-bkmrk.pdf">PDF</a>
 ┃ skb:
-    <a href="https://github.com/vdmeer/skb/tree/master/data/library/standard/ietf/rfc-5322.yaml">yaml src</a>,
-    <a href="https://github.com/vdmeer/skb/tree/master/data/library/standard/ietf/rfc-5322-biblatex.bib">Biblatex</a></p>
+    <a href="https://github.com/vdmeer/skb/tree/master/data/library/book/1980/maturana-1987-tree_of_knowledge.yaml">yaml src</a></p>
+</li>
+</ul>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><strong>Hugh Dubberly</strong> et al.: <em>How Cybernetics connects Computing, Counterculture, and Design</em>, 2015</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Authors: Hugh Dubberly, Paul Pangaro</p>
+</li>
+<li>
+<p>Reasons to read: historyc context for cybernetics, interactive graph with links and link annotations</p>
+</li>
+<li>
+<p>Publisher: Hippie Modernism: The Struggle for Utopia, Exhibit Catalog,  October 2015</p>
+</li>
+<li>
+<p>Links:
+  <a href="http://www.dubberly.com/articles/cybernetics-and-counterculture.html">Paper: html with pdf links</a>,
+  <a href="http://cybergraph.dubberly.com">Interactive Graph</a>,
+  <a href="http://staging.dubberly.com/cybernetics/article-inside-text">Article Text</a>
+┃ skb:
+    <a href="https://github.com/vdmeer/skb/tree/master/data/library/online/2010/dubberly-2015-cybernetics.yaml">yaml src</a></p>
 </li>
 </ul>
 </div></div></td>
 </tr>
 </tbody>
 </table>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_time_frameworks_calculus">Time Frameworks, Calculus</h2>
-<div class="sectionbody">
-<table class="tableblock frame-none grid-rows stretch">
-<colgroup>
-<col style="width: 100%;">
-</colgroup>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p><strong>James F. Allen</strong>: <em>Maintaining Knowledge about temporal Intervals</em>, 1983</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Author: James F. Allen</p>
-</li>
-<li>
-<p>Reasons to read: Allen Intervals for temporal calculations (temporal algebra)</p>
-</li>
-<li>
-<p>Published: Communications of the ACM CACM, Volume 26 Issue 11, Nov. 1983, Pages 832-843</p>
-</li>
-<li>
-<p>Links:
-  <a href="https://doi.org/10.1145%2F182.358434">DOI</a>,
-  <a href="http://cse.unl.edu/~choueiry/Documents/Allen-CACM1983.pdf">PDF</a>
-┃ skb:
-    <a href="https://github.com/vdmeer/skb/tree/master/data/library/article/1980/allen-1983-cacm.yaml">yaml src</a>,
-    <a href="https://github.com/vdmeer/skb/tree/master/data/library/article/1980/allen-1983-cacm-biblatex.bib">Biblatex</a></p>
-</li>
-</ul>
-</div></div></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p><strong>Thomas A. Alspaugh</strong>: <em>Software Support for Calculations in Allen’s Interval Algebra</em>, 2005</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Author: Thomas A. Alspaugh</p>
-</li>
-<li>
-<p>Reasons to read: operations using the Allen&#8217;s Intervalls and interval algebra</p>
-</li>
-<li>
-<p>Publisher: Institute for Software Research, University of California, Irvine</p>
-</li>
-<li>
-<p>Links:
-  <a href="http://isr.uci.edu/sites/isr.uci.edu/files/techreports/UCI-ISR-05-2.pdf">PDF</a>,
-  <a href="https://www.ics.uci.edu/~alspaugh/cls/shr/allen.html">Online</a>
-┃ skb:
-    <a href="https://github.com/vdmeer/skb/tree/master/data/library/report/technical/2000/alspaugh-2005-isr.yaml">yaml src</a>,
-    <a href="https://github.com/vdmeer/skb/tree/master/data/library/report/technical/2000/alspaugh-2005-isr-biblatex.bib">Biblatex</a></p>
-</li>
-</ul>
-</div></div></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_online_resources">Online Resources</h2>
-<div class="sectionbody">
-<table class="tableblock frame-none grid-rows stretch">
-<colgroup>
-<col style="width: 100%;">
-</colgroup>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p><strong>Steffen Thorsen</strong>: <em>Time and Date</em>, 1995</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Author: Steffen Thorsen</p>
-</li>
-<li>
-<p>Reasons to read: the ultimate website for time and date information, tools, and news</p>
-</li>
-<li>
-<p>Links:
-  <a href="https://www.timeanddate.com/">Online</a>
-┃ skb:
-    <a href="https://github.com/vdmeer/skb/tree/master/data/library/online/continuous/thorson-timeanddate.yaml">yaml src</a>,
-    <a href="https://github.com/vdmeer/skb/tree/master/data/library/online/continuous/thorson-timeanddate-biblatex.bib">Biblatex</a></p>
-</li>
-</ul>
-</div></div></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p><strong>Gilbert Healton</strong>: <em>The Best of Dates, The Worst Of Dates</em>, 2002</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Author: Gilbert Healton</p>
-</li>
-<li>
-<p>Reasons to read: history, standards, programming help for time and date</p>
-</li>
-<li>
-<p>Links:
-  <a href="http://x109.healton.net/y2k/yrexamples.html">Online</a>
-┃ skb:
-    <a href="https://github.com/vdmeer/skb/tree/master/data/library/online/continuous/healton-best-of-dates.yaml">yaml src</a>,
-    <a href="https://github.com/vdmeer/skb/tree/master/data/library/online/continuous/healton-best-of-dates-biblatex.bib">Biblatex</a></p>
-</li>
-</ul>
-</div></div></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p><strong>Claus Tøndering</strong>: <em>The Calendar FAQ</em>, 1996</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Author: Claus Tøndering</p>
-</li>
-<li>
-<p>Reasons to read: everything about calendars</p>
-</li>
-<li>
-<p>Links:
-  <a href="https://www.tondering.dk/claus/calendar.html">Online</a>
-┃ skb:
-    <a href="https://github.com/vdmeer/skb/tree/master/data/library/online/continuous/tøndering-calendar-faq.yaml">yaml src</a>,
-    <a href="https://github.com/vdmeer/skb/tree/master/data/library/online/continuous/tøndering-calendar-faq-biblatex.bib">Biblatex</a></p>
-</li>
-</ul>
-</div></div></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2019-01-09 19:02:58 GMT
+Last updated 2019-01-10 08:45:21 GMT
 </div>
 </div>
 </body>

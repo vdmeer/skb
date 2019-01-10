@@ -22,4 +22,4 @@ Sven van_der_Meer
 :toclevels: 4
 :icons: font
 
-include::research-notes/topic-policy.adoc[]
+include::research-notes/rn-policy.adoc[]

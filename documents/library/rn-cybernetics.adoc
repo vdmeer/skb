@@ -11,15 +11,15 @@
 // @author Sven van der Meer (vdmeer.sven@mykolab.com)
 //
 
-= Research Notes - Time and Date in Network Management
+= Research Notes - Cybernetics
 Sven van_der_Meer
 
-:description: research notes for time and date in network management
-:keywords: SKB, research notes, time, date, time-date, datetime, network management
+:description: research notes for cybernetics
+:keywords: SKB, research notes, cybernetics
 
 :pygments-linenums-mode: table
 :toc:
 :toclevels: 4
 :icons: font
 
-include::research-notes/topic-time-and-date-nm.adoc[]
+include::research-notes/rn-cybernetics.adoc[]

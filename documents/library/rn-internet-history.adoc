@@ -11,15 +11,15 @@
 // @author Sven van der Meer (vdmeer.sven@mykolab.com)
 //
 
-= Research Notes - Introduction to Network Architecture
+= Research Notes - Internet History
 Sven van_der_Meer
 
-:description: research notes for an introduction to network architecture
-:keywords: SKB, research notes, network, architecture
+:description: research notes for the history of the Internet
+:keywords: SKB, research notes, history, Internet
 
 :pygments-linenums-mode: table
 :toc:
 :toclevels: 4
 :icons: font
 
-include::research-notes/topic-ina.adoc[]
+include::research-notes/rn-internet-history.adoc[]

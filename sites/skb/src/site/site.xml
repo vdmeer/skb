@@ -25,6 +25,7 @@
 
         <menu name="Projects">
             <item href="https://vdmeer.github.io/skb-framework" name="SKB Framework" />
+            <item href="https://vdmeer.github.io/ipc" name="IPC &amp; LCN" />
         </menu>
 
         <breadcrumbs>

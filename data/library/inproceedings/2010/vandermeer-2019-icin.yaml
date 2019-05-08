@@ -1,0 +1,17 @@
+inproceedings/2010/vandermeer-2019-icin:
+    authors:
+        - van der Meer, Sven
+        - Keeney, John
+        - Fallon, Liam
+        - Feghhi, Saman
+        - de Buitléir, Amy
+    title: Large-scale Experimentation with Network Abstraction for Network Configuration Management
+    type: inproceedings
+    year: 2019
+    urls:
+        DOI: >
+            https://doi.org/10.1109/ICIN.2019.8685922
+        ResearchGate: >
+            https://www.researchgate.net/publication/332377539_Large-scale_Experimentation_with_Network_Abstraction_for_Network_Configuration_Management
+    adoc: |
+        * Published: 2019 22nd Conference on Innovation in Clouds, Internet and Networks and Workshops (ICIN)

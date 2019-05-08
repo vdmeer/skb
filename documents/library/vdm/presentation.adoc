@@ -39,6 +39,7 @@
 |include::{library-adoc}/talks/presentation/2010/vandermeer-2018-nmrg.adoc[]
 |include::{library-adoc}/talks/presentation/2010/vandermeer-2018-onap_pf.adoc[]
 |include::{library-adoc}/talks/presentation/2010/vandermeer-2018-rina.adoc[]
+|include::{library-adoc}/talks/presentation/2010/vandermeer-2019-ieee-fn.adoc[]
 |===
 
 

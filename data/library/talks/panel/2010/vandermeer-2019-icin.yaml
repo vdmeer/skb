@@ -1,0 +1,16 @@
+talks/panel/2010/vandermeer-2019-icin:
+    chair: Rudd, Sue
+    panelists:
+        - van der Meer, Sven
+        - Ranganatham, Raghu
+        - Davies, Neil
+    title: Industry panel discussion on challenges and opportunities for RINA adoption
+    type: panel
+    year: 2019
+    urls:
+        Conference: >
+            https://www.icin-conference.org/2019/RINA.php#program
+    adoc: |
+        * Panel: 6th International Workshop on the Recursive InterNetwork Architecture (RINA 2019), Paris, France, February 18, 2019
+          ** Chair: Sue Rudd (Strategy Analytics, USA)
+          ** Panelists: Sven van der Meer (Ericsson, Ireland), Raghu Ranganatham (Ciena, USA), Neil Davies (Predictable Network Solutions, UK)

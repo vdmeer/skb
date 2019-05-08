@@ -1,0 +1,11 @@
+talks/presentation/2010/vandermeer-2019-ieee-fn:
+    presenters:
+        - van der Meer, Sven
+    title: "What do we actually manage in 5G? And what is missing?"
+    type: presentation
+    year: 2019
+    urls:
+        Event: >
+            https://futurenetworks.ieee.org/conferences/system-optimization-for-the-5g-era-workshop
+    adoc: |
+        * Presentation: System Optimization for the 5G Era Workshop, IEEE 5th World Forum on Internet of Things, Limerick, Ireland, April 18, 2019

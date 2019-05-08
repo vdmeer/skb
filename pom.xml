@@ -19,10 +19,6 @@
         <install.package.name>skb</install.package.name>
     </properties>
 
-    <prerequisites>
-        <maven>3.0.0</maven>
-    </prerequisites>
-
     <modules>
         <module>sites/skb</module>
         <module>sites/vandermeer</module>

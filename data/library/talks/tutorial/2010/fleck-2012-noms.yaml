@@ -10,3 +10,25 @@ talks/tutorial/2010/fleck-2012-noms:
     adoc: |
         * Tutorial: 2012 IEEE/IFIP Network Operations and Management Symposium (NOMS 2012), Maui, Hawaii, USA, April 16-20
         * Date: April 16, 2018
+    bibtex: |
+        @misc{cite:talks:tutorial:2010:fleck-2012-noms,
+            author          = {Fleck II, Joel J.},
+            title           = {Model Driven Semantic Management},
+            howpublished    = {Tutorial, 2012 IEEE/IFIP Network Operations and Management Symposium (NOMS 2012)},
+            location        = {Maui, Hawaii, USA},
+            year            = 2012,
+            month           = apr,
+            day             = 16
+        }
+    biblatex: |
+        @unpublished{cite:talks:tutorial:2010:fleck-2012-noms,
+            author          = {Fleck II, Joel J.},
+            title           = {Policy 2.0},
+            titleaddon      = {Model Driven Semantic Management},
+            eventtitle      = {Tutorial},
+            venue           = {2012 IEEE/IFIP Network Operations and Management Symposium, NOMS 2012},
+            location        = {Maui, Hawaii, USA},
+            type            = {Tutorial},
+            date            = {2012-04-16},
+            eventdate       = {2012-04-16 / 2012-04-20}
+        }

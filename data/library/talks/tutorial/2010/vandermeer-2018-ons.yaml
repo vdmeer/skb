@@ -19,10 +19,9 @@ talks/tutorial/2010/vandermeer-2018-ons:
             title           = {Policy 2.0 - Using Theory and Design Patterns to Design and Build Immutable Policy Infrastructure for Automation},
             howpublished    = {Ericsson Tutorial, Part II, Linux Foundation Open Networking Summit North America 2018 (ONS)},
             location        = {Los Angeles, CA, USA},
-            year            = {2018},
+            year            = 2018,
             month           = mar,
-            day             = 27,
-            label           = {vdMeer-}
+            day             = 27
         }
     biblatex: |
         @unpublished{cite:talks:tutorial:2010:vandermeer-2018-ons,
@@ -34,7 +33,6 @@ talks/tutorial/2010/vandermeer-2018-ons:
             location        = {Los Angeles, CA, USA},
             type            = {Tutorial},
             date            = {2018-03-27},
-            eventdate       = {2018-03-26 / 2018-03-29},
-            label           = {vdMeer-}
+            eventdate       = {2018-03-26 / 2018-03-29}
         }
 

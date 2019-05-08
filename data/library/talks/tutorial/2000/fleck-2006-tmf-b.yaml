@@ -8,3 +8,24 @@ talks/tutorial/2000/fleck-2006-tmf-b:
     year: 2006
     adoc: |
         * Tutorial: TM Forum LifeCycle & Methodology Team Meeting, Waterford, Ireland, March 21-24, 2006
+    bibtex: |
+        @misc{cite:talks:tutorial:2000:fleck-2006-tmf-b,
+            author          = {Fleck II, Joel J. and van der Meer, Sven},
+            title           = {NGOSS Contracts (TMF053B): LifeCycle and Fingerprint Specifications},
+            howpublished    = {Tutorial, TM Forum LifeCycle & Methodology Team Meeting},
+            location        = {Waterford, Ireland},
+            year            = 2006,
+            month           = mar,
+            day             = 21
+        }
+    biblatex: |
+        @unpublished{cite:talks:tutorial:2000:fleck-2006-tmf-b,
+            author          = {Fleck II, Joel J. and van der Meer, Sven},
+            title           = {NGOSS Contracts (TMF053B)},
+            titleaddon      = {LifeCycle and Fingerprint Specifications},
+            venue           = {TM Forum LifeCycle & Methodology Team Meeting},
+            location        = {Waterford, Ireland},
+            type            = {Tutorial},
+            date            = {2006-03-21},
+            eventdate       = {2006-03-21 / 2006-03-24}
+        }

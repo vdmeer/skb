@@ -6,4 +6,24 @@ talks/tutorial/1990/vandermeer-isads-1999:
     type: tutorial
     year: 1999
     adoc: |
-        * Tutorial: Fourth International Symposium on Autonomous Decentralized Systems (ISADS), "Integration of Heterogeneous Systems", Toky, Japan, Mar 21-23, 1999
+        * Tutorial: Fourth International Symposium on Autonomous Decentralized Systems (ISADS), "Integration of Heterogeneous Systems", Tokyo, Japan, Mar 21-23, 1999
+    bibtex: |
+        @misc{cite:talks:tutorial:1990:vandermeer-isads-1999,
+            author          = {van der Meer, Sven and Arbanowski, Stefan},
+            title           = {Management of Autonomous Decentralized Systems},
+            howpublished    = {Tutorial, Fourth International Symposium on Autonomous Decentralized Systems (ISADS)},
+            location        = {Tokyo, Japan},
+            year            = 1999,
+            month           = mar,
+            day             = 21
+        }
+    biblatex: |
+        @unpublished{cite:talks:tutorial:1990:vandermeer-isads-1999,
+            author          = {van der Meer, Sven and Arbanowski, Stefan},
+            title           = {Management of Autonomous Decentralized Systems},
+            venue           = {Fourth International Symposium on Autonomous Decentralized Systems, ISADS},
+            location        = {Tokyo, Japan},
+            type            = {Tutorial},
+            date            = {1999-03-21},
+            eventdate       = {1999-03-21 / 1999-03-23}
+        }

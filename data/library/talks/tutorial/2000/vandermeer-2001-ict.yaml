@@ -10,3 +10,23 @@ talks/tutorial/2000/vandermeer-2001-ict:
     year: 2001
     adoc: |
         * Tutorial: 8^th^ IEEE International Conference on Telecommunications (ICT 2001), Bucharest, Romania, June 4-7, 2001
+    bibtex: |
+        @misc{cite:talks:tutorial:2000:vandermeer-2001-ict,
+            author          = {van der Meer, Sven and Steglich, Stephan and Arbanowski, Stefan},
+            title           = {I-centric Communications},
+            howpublished    = {Tutorial, 8th IEEE International Conference on Telecommunications (ICT 2001)},
+            location        = {Bucharest, Romania},
+            year            = 2001,
+            month           = jun,
+            day             = 4
+        }
+    biblatex: |
+        @unpublished{cite:talks:tutorial:2000:vandermeer-2001-ict,
+            author          = {van der Meer, Sven and Steglich, Stephan and Arbanowski, Stefan},
+            title           = {I-centric Communications},
+            venue           = {8th IEEE International Conference on Telecommunications, ICT 2001},
+            location        = {Bucharest, Romania},
+            type            = {Tutorial},
+            date            = {2001-06-04},
+            eventdate       = {2001-06-04 / 2001-06-07}
+        }

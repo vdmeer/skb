@@ -7,3 +7,23 @@ talks/tutorial/2000/vandermeer-2000-proms:
     year: 2000
     adoc: |
         * Tutorial: 5^th^ IEEE Conference on Protocols for Multimedia Systems (PROMS 2000), Cracow, Poland, October 22-25, 2000
+    bibtex: |
+        @misc{cite:talks:tutorial:2000:vandermeer-2000-proms,
+            author          = {van der Meer, Sven and Arbanowski, Stefan},
+            title           = {Flexible Media and Content Adaptation for Communication Systems},
+            howpublished    = {Tutorial, 5th IEEE Conference on Protocols for Multimedia Systems (PROMS 2000)},
+            location        = {Cracow, Poland},
+            year            = 2000,
+            month           = oct,
+            day             = 22
+        }
+    biblatex: |
+        @unpublished{cite:talks:tutorial:2000:vandermeer-2000-proms,
+            author          = {van der Meer, Sven and Arbanowski, Stefan},
+            title           = {Flexible Media and Content Adaptation for Communication Systems},
+            venue           = {5th IEEE Conference on Protocols for Multimedia Systems, PROMS 2000},
+            location        = {Cracow, Poland},
+            type            = {Tutorial},
+            date            = {2000-10-22},
+            eventdate       = {2000-10-22 / 2000-10-25}
+        }

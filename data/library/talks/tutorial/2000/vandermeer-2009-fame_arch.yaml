@@ -2,10 +2,30 @@ talks/tutorial/2000/vandermeer-2009-fame_arch:
     presenters:
         - van der Meer, Sven
     authors:
-        - Strassner, John C.
         - van der Meer, Sven
+        - Strassner, John C.
     title: Introduction to DEN-ng for SFI SRC FAME
     type: tutorial
     year: 2009
     adoc: |
         * Tutorial: FAME Architecture Workshop 1, Dublin, Ireland, May 26, 2009
+    bibtex: |
+        @misc{cite:talks:tutorial:2000:vandermeer-2009-fame_arch,
+            author          = {van der Meer, Sven and Strassner, John C.},
+            title           = {Introduction to DEN-ng for SFI SRC FAME},
+            howpublished    = {Tutorial, FAME Architecture Workshop 1},
+            location        = {Dublin, Ireland},
+            year            = 2009,
+            month           = may,
+            day             = 26
+        }
+    biblatex: |
+        @unpublished{cite:talks:tutorial:2000:vandermeer-2009-fame_arch,
+            author          = {van der Meer, Sven and Strassner, John C.},
+            title           = {Introduction to DEN-ng for SFI SRC FAME},
+            venue           = {FAME Architecture Workshop 1},
+            location        = {Dublin, Ireland},
+            type            = {Tutorial},
+            date            = {2009-05-06},
+            eventdate       = {2009-05-06}
+        }

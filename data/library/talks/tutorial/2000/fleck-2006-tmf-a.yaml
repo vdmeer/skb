@@ -8,4 +8,25 @@ talks/tutorial/2000/fleck-2006-tmf-a:
     year: 2006
     adoc: |
         * Tutorial: Team Action Week, January 26, 2006
-        * Part of: Team Action Week Europe 2006, Lisbon, Portugal January 26 - February 3, 2006
+        * Part of: Team Action Week Europe 2006, Lisbon, Portugal, January 26 - February 3, 2006
+    bibtex: |
+        @misc{cite:talks:tutorial:2000:fleck-2006-tmf-a,
+            author          = {Fleck II, Joel J. and van der Meer, Sven},
+            title           = {NGOSS Architecture (TMF053): DIOA Specifications},
+            howpublished    = {Tutorial, Team Action Week Europe 2006},
+            location        = {Lisbon, Portugal},
+            year            = 2006,
+            month           = jan,
+            day             = 26
+        }
+    biblatex: |
+        @unpublished{cite:talks:tutorial:2000:fleck-2006-tmf-a,
+            author          = {Fleck II, Joel J. and van der Meer, Sven},
+            title           = {NGOSS Architecture (TMF053)},
+            titleaddon      = {DIOA Specifications},
+            venue           = {Team Action Week Europe 2006},
+            location        = {Lisbon, Portugal},
+            type            = {Tutorial},
+            date            = {2006-01-26},
+            eventdate       = {2006-01-26 / 2006-02-03}
+        }

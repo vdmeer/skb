@@ -10,3 +10,24 @@ talks/tutorial/2000/strassner-2005-im:
             http://im2005.ieee-im.org/
     adoc: |
         * Tutorial: 2005 IFIP/IEEE Symposium on Integrated Network and Service Management (IM 2005), Nice, France, May 15-19, 2005
+    bibtex: |
+        @misc{cite:talks:tutorial:2000:strassner-2005-im,
+            author          = {Strassner, John C.},
+            title           = {Autonomic Networking: Theory and Practice},
+            howpublished    = {Tutorial, 2005 IFIP/IEEE Symposium on Integrated Network and Service Management (IM 2005)},
+            location        = {Nice, France},
+            year            = 2005,
+            month           = may,
+            day             = 15
+        }
+    biblatex: |
+        @unpublished{cite:talks:tutorial:2000:strassner-2005-im,
+            author          = {Strassner, John C.},
+            title           = {Autonomic Networking},
+            titleaddon      = {Theory and Practice},
+            venue           = {2005 IFIP/IEEE Symposium on Integrated Network and Service Management, IM 2005},
+            location        = {Nice, France},
+            type            = {Tutorial},
+            date            = {2005-05-15},
+            eventdate       = {2005-05-15 / 2005-05-19}
+        }

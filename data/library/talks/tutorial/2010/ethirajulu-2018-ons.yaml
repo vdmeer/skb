@@ -30,8 +30,7 @@ talks/tutorial/2010/ethirajulu-2018-ons:
     biblatex: |
         @unpublished{cite:talks:tutorial:2010:ethirajulu-2018-ons,
             author          = {Ethirajulu, Balaji and Terrill, Stephen and van der Meer, Sven and Fallon, Liam},
-            title           = {Policy 2.0},
-            titleaddon      = {Taming Policy Complexity: From Theory to Execution},
+            title           = {Taming Policy Complexity: From Theory to Execution},
             eventtitle      = {Ericsson Tutorial},
             venue           = {Linux Foundation Open Networking Summit North America 2018, ONS},
             location        = {Los Angeles, CA, USA},

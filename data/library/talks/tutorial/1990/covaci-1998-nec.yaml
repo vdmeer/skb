@@ -8,3 +8,23 @@ talks/tutorial/1990/covaci-1998-nec:
     year: 1998
     adoc: |
         * Tutorial: NEC Europe Ltd., C&C Research Laboratory, Berlin, Germany, October 15-16, 1998
+    bibtex: |
+        @misc{cite:talks:tutorial:1990:covaci-1998-nec,
+            author          = {Covaci, Stefan and Busse, Ingo and van der Meer, Sven},
+            title           = {Management of Broadband Networks I},
+            howpublished    = {Tutorial, Tutorial: NEC Europe Ltd., C&C Research Laboratory},
+            location        = {Berlin, Germany},
+            year            = 1998,
+            month           = oct,
+            day             = 15
+        }
+    biblatex: |
+        @unpublished{cite:talks:tutorial:1990:covaci-1998-nec,
+            author          = {Covaci, Stefan and Busse, Ingo and van der Meer, Sven},
+            title           = {Management of Broadband Networks I},
+            venue           = {Tutorial: NEC Europe Ltd., C&C Research Laboratory},
+            location        = {Berlin, Germany},
+            type            = {Tutorial},
+            date            = {1998-10-15 / 1998-10-16},
+            eventdate       = {1998-10-15 / 1998-10-16}
+        }

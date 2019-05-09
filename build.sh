@@ -58,10 +58,12 @@ $SKB_DASHBOARD -B -e clean --sq --lq --task-level debug -- --force
 
 touch documents/library/*.adoc
 
-$SKB_DASHBOARD -B -e lib-yaml2src    --sq --lq --task-level debug -- --all
-$SKB_DASHBOARD -B -e lib-adoc2target --sq --lq --task-level debug -- --all
+$SKB_DASHBOARD -B -e library-ext     --sq --lq --task-level debug -- --all
+$SKB_DASHBOARD -B -e library-adoc    --sq --lq --task-level debug -- --all
 $SKB_DASHBOARD -B -e skb-build-sites --sq --lq --task-level debug -- --build --all --ad --site --stage
-if [[ -d "sites/skb/target/site-skb/library" ]]; then
+
+if [[ -d "sites/skb/target/site-skb" ]]; then
+    mkdir sites/skb/target/site-skb/library
     cp /tmp/sd/library-docs/* sites/skb/target/site-skb/library
 fi
 

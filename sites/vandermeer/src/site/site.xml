@@ -12,7 +12,7 @@
         </head>
 
         <menu name="vdmeer">
-            <item href="index.html" name="Wellcome" />
+            <item href="index.html" name="Welcome" />
             <item href="bio.html" name="Bio" collapse="true">
                 <item href="cv.html" name="CV" />
                 <item href="cv-education.html" name="Education" />
@@ -53,8 +53,8 @@
 
         <menu name="Projects">
             <item href="https://vdmeer.github.io/skb" name="SKB" />
-            <item href="https://vdmeer.github.io/skb-framework" name="SKB Framework" />
-            <item href="https://vdmeer.github.io/ipc" name="IPC &amp; LCN" />
+            <item href="https://vdmeer.github.io/skb/framework" name="SKB Framework" />
+            <item href="https://vdmeer.github.io/skb/ipc" name="IPC &amp; LCN" />
         </menu>
 
 <!--

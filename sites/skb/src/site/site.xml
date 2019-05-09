@@ -12,7 +12,7 @@
         </head>
 
         <menu name="skb">
-            <item href="index.html" name="Wellcome" />
+            <item href="index.html" name="Welcome" />
             <item href="research-notes.html" name="Research Notes" collapse="true">
                 <item href="research-notes-policy.html" name="Policy-based Management" />
                 <item href="research-notes-ina.html" name="INA" />
@@ -24,8 +24,8 @@
         </menu>
 
         <menu name="Projects">
-            <item href="https://vdmeer.github.io/skb-framework" name="SKB Framework" />
-            <item href="https://vdmeer.github.io/ipc" name="IPC &amp; LCN" />
+            <item href="https://vdmeer.github.io/skb/framework" name="Framework" />
+            <item href="https://vdmeer.github.io/skb/ipc" name="IPC &amp; LCN" />
         </menu>
 
         <breadcrumbs>

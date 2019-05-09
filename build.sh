@@ -54,30 +54,16 @@ export SF_MVN_SITES=$PWD
 
 
 
-if [[ -d docs/library ]]; then
-    set +e
-    rm docs/library/*
-    set -e
-fi
-if [[ -d docs ]]; then
-    set +e
-    rm docs/*.html docs/*.txt docs/*.asciidoc
-    rm -fr docs/css
-    rm -fr docs/fonts
-    rm -fr docs/images
-    rm -fr docs/img
-    rm -fr docs/js
-    set -e
-fi
 $SKB_DASHBOARD -B -e clean --sq --lq --task-level debug -- --force
+
+touch documents/library/*.adoc
 
 $SKB_DASHBOARD -B -e lib-yaml2src    --sq --lq --task-level debug -- --all
 $SKB_DASHBOARD -B -e lib-adoc2target --sq --lq --task-level debug -- --all
-cp /tmp/sd/library-docs/* docs/library
-
 $SKB_DASHBOARD -B -e skb-build-sites --sq --lq --task-level debug -- --build --all --ad --site --stage
-(cd docs; chmod 644 `find -type f`)
-
+if [[ -d "sites/skb/target/site-skb/library" ]]; then
+    cp /tmp/sd/library-docs/* sites/skb/target/site-skb/library
+fi
 
 
 TE=$(date +%s.%N)

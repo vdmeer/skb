@@ -9,4 +9,22 @@ book/2000/day-2007-pna:
             https://www.goodreads.com/book/show/8193269-patterns-in-network-architecture
     adoc: |
         * Reasons to read: fundamental patterns for network architecure, historic context, annectodal context
-        * Publisher: Pearson Edition
+        * Publisher: Pearson Education
+    bibtex: |
+        @book{cite:book:2000:day-2007-pna,
+            author          = {Day, John},
+            title           = {Patterns in Network Architecture: A Return to Fundamentals},
+            publisher       = {Pearson Education},
+            isdn            = {978-0-132-25242-3 },
+            year            = 2007,
+            month           = dec
+        }
+    biblatex: |
+        @book{cite:book:2000:day-2007-pna,
+            author          = {Day, John},
+            title           = {Patterns in Network Architecture},
+            titleaddon      = {A Return to Fundamentals},
+            publisher       = {Pearson Education},
+            isdn            = {978-0-132-25242-3 },
+            date            = {2007-12}
+        }

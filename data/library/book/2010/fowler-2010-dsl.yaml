@@ -15,7 +15,7 @@ book/2010/fowler-2010-dsl:
         * Reasons to read: set of patterns for DSLs, detailed, with lots of examples
         * Publisher: Addison-Wesley (Signature Series)
     bibtex: |
-        @book{cite:book:fowler-2010-dsl,
+        @book{cite:book:2010:fowler-2010-dsl,
             author          = {Fowler, Martin},
             title           = {Domain Specific Languages},
             publisher       = {Addison-Wesley},
@@ -24,7 +24,7 @@ book/2010/fowler-2010-dsl:
             month           = sep
         }
     biblatex: |
-        @book{cite:book:fowler-2010-dsl,
+        @book{cite:book:2010:fowler-2010-dsl,
             author          = {Fowler, Martin},
             title           = {Domain Specific Languages},
             publisher       = {Addison-Wesley},

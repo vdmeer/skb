@@ -14,7 +14,7 @@ book/2000/mak-2006-martian-principles:
         * Reasons to read: (practical) middleware architect’s point of view principles for software development
         * Publisher: Wiley Publishing
     bibtex: |
-        @book{cite:book:mak-2006-martian-principles,
+        @book{cite:book:2000:mak-2006-martian-principles,
             author          = {Mak, Ronald},
             title           = {Principles for Successful Enterprise Systems: 20 Lessons Learned from NASA's Mars Exploration Rover Mission},
             publisher       = {Wiley Publishing},
@@ -24,7 +24,7 @@ book/2000/mak-2006-martian-principles:
             day             = 1
         }
     biblatex: |
-        @book{cite:book:mak-2006-martian-principles,
+        @book{cite:book:2000:mak-2006-martian-principles,
             author          = {Mak, Ronald},
             title           = {Principles for Successful Enterprise Systems},
             titleaddon      = {20 Lessons Learned from NASA’s Mars Exploration Rover Mission},

@@ -14,7 +14,7 @@ book/2010/knoernschild-2012-java-app-arch:
         * Reasons to read: think modular, with Java
         * Publisher: Prentice Hall (Robert C. Martin Series)
     bibtex: |
-        @book{cite:book:knoernschild-2012-java-app-arch,
+        @book{cite:book:2010:knoernschild-2012-java-app-arch,
             author          = {Knoernschild, Kirk},
             title           = {Java Application Architecture: Modularity Patterns with Examples Using OSGi},
             publisher       = {Prentice Hall},
@@ -24,7 +24,7 @@ book/2010/knoernschild-2012-java-app-arch:
             day             = 25
         }
     biblatex: |
-        @book{cite:book:knoernschild-2012-java-app-arch,
+        @book{cite:book:2010:knoernschild-2012-java-app-arch,
             author          = {Knoernschild, Kirk},
             title           = {Java Application Architecture},
             titleaddon      = {Modularity Patterns with Examples Using OSGi},

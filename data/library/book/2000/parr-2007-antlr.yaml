@@ -13,7 +13,7 @@ book/2000/parr-2007-antlr:
         * Publisher: The Pragmatic Programmers
         * Latest version: Release P4.0 (2011-04-11)
     bibtex: |
-        @book{cite:book:parr-2007-antlr,
+        @book{cite:book:2000:parr-2007-antlr,
             author          = {Parr, Terence},
             title           = {he definitive ANTLR Reference: Building Domain-specific Languages},
             publisher       = {The Pragmatic Programmers},
@@ -23,7 +23,7 @@ book/2000/parr-2007-antlr:
             day             = 1
         }
     biblatex: |
-        @book{cite:book:parr-2007-antlr,
+        @book{cite:book:2000:parr-2007-antlr,
             author          = {Parr, Terence},
             title           = {he definitive ANTLR Reference},
             titleaddon      = {Building Domain-specific Languages},

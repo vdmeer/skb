@@ -13,7 +13,7 @@ book/2000/strassner-2004-pbm:
     adoc: |
         * Publisher: Morgan Kaufman
     bibtex: |
-        @book{cite:book:strassner-2004-pbm,
+        @book{cite:book:2000:strassner-2004-pbm,
             author          = {Strassner, John C.},
             title           = {Policy-based Network Management: Solutions for the Next Generation},
             publisher       = {Morgan Kaufman},
@@ -21,7 +21,7 @@ book/2000/strassner-2004-pbm:
             year            = 2004
         }
     biblatex: |
-        @book{cite:book:strassner-2004-pbm,
+        @book{cite:book:2000:strassner-2004-pbm,
             author          = {Strassner, John C.},
             title           = {Policy-based Network Management},
             titleaddon      = {Solutions for the Next Generation},

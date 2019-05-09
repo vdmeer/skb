@@ -14,7 +14,7 @@ talks/tutorial/2010/vandermeer-2018-ons:
         * Ericsson Tutorial, Part II, March 27, 2018
         * Part of: Linux Foundation Open Networking Summit North America 2018 (ONS), Los Angeles, CA, USA, March 26-29, 2018
     bibtex: |
-        @misc{cite:talks:tutorial:vandermeer-2018-ons,
+        @misc{cite:talks:tutorial:tutorial:2010:vandermeer-2018-ons,
             author          = {van der Meer, Sven},
             title           = {Policy 2.0 - Using Theory and Design Patterns to Design and Build Immutable Policy Infrastructure for Automation},
             howpublished    = {Ericsson Tutorial, Part II, Linux Foundation Open Networking Summit North America 2018 (ONS)},
@@ -24,7 +24,7 @@ talks/tutorial/2010/vandermeer-2018-ons:
             day             = 27
         }
     biblatex: |
-        @unpublished{cite:talks:tutorial:vandermeer-2018-ons,
+        @unpublished{cite:talks:tutorial:tutorial:2010:vandermeer-2018-ons,
             author          = {van der Meer, Sven},
             title           = {Policy 2.0},
             titleaddon      = {Using Theory and Design Patterns to design and build immutable Policy Infrastructure for Automation},

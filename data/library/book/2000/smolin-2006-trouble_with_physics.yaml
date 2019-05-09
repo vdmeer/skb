@@ -13,7 +13,7 @@ book/2000/smolin-2006-trouble_with_physics:
         * Reasons to read: "groupthink" anti pattern, role of controversy and disagreement in the progress of science, professionalization has lead to selecting for “master craftsmen” to the almost complete exclusion of “seers.”
         * Publisher: Houghton Mifflin Harcourt
     bibtex: |
-        @book{cite:book:smolin-2006-trouble_with_physics,
+        @book{cite:book:2000:smolin-2006-trouble_with_physics,
             author          = {Smolin, Lee},
             title           = {The Trouble with Physics},
             publisher       = {Houghton Mifflin Harcourt},
@@ -23,7 +23,7 @@ book/2000/smolin-2006-trouble_with_physics:
             day             = 19
         }
     biblatex: |
-        @book{cite:book:smolin-2006-trouble_with_physics,
+        @book{cite:book:2000:smolin-2006-trouble_with_physics,
             author          = {Smolin, Lee},
             title           = {The Trouble with Physics},
             titleaddon      = {The Rise of String Theory, The Fall of a Science, and What Comes Nex}

@@ -10,7 +10,7 @@ talks/tutorial/2000/strassner-2008-noms:
     adoc: |
         * Tutorial: 2008 IEEE/IFIP Network Operations and Management Symposium (NOMS 2008), Salvador, Brazil, April 7-11, 2008
     bibtex: |
-        @misc{cite:talks:tutorial:strassner-2008-noms,
+        @misc{cite:talks:tutorial:2000:strassner-2008-noms,
             author          = {Strassner, John C.},
             title           = {Autonomic Networking: Theory and Practice},
             howpublished    = {Tutorial, 2008 IEEE/IFIP Network Operations and Management Symposium (NOMS 2008)},
@@ -20,7 +20,7 @@ talks/tutorial/2000/strassner-2008-noms:
             day             = 7
         }
     biblatex: |
-        @unpublished{cite:talks:tutorial:strassner-2008-noms,
+        @unpublished{cite:talks:tutorial:2000:strassner-2008-noms,
             author          = {Strassner, John C.},
             title           = {Autonomic Networking: Theory and Practice},
             venue           = {2008 IEEE/IFIP Network Operations and Management Symposium, NOMS 2008},

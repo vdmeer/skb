@@ -12,7 +12,7 @@ book/2000/day-2007-pna:
         * Reasons to read: fundamental patterns for network architecure, historic context, annectodal context
         * Publisher: Pearson Education
     bibtex: |
-        @book{cite:book:day-2007-pna,
+        @book{cite:book:2000:day-2007-pna,
             author          = {Day, John},
             title           = {Patterns in Network Architecture: A Return to Fundamentals},
             publisher       = {Pearson Education},
@@ -21,7 +21,7 @@ book/2000/day-2007-pna:
             month           = dec
         }
     biblatex: |
-        @book{cite:book:day-2007-pna,
+        @book{cite:book:2000:day-2007-pna,
             author          = {Day, John},
             title           = {Patterns in Network Architecture},
             titleaddon      = {A Return to Fundamentals},

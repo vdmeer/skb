@@ -18,7 +18,7 @@ talks/tutorial/2010/ethirajulu-2018-ons:
           ** Sven van der Meer: _Policy 2.0 - Using Theory and Design Patterns to Design and Build Immutable Policy Infrastructure for Automation_, link:https://onsna18.sched.com/event/EFju/ericsson-tutorial-policy-20-using-theory-and-design-patterns-to-design-and-build-immutable-policy-infrastructure-for-automation-sven-van-der-meer-ericsson[Session] ┃ link:https://schd.ws/hosted_files/onsna18/ac/2018-03-upt-ons.pdf[PDF]
           ** Liam Fallon: _Demonstration of Adaptive Policy_, link:https://onsna18.sched.com/event/EFjw/ericsson-tutorial-demonstration-of-adaptive-policy-liam-fallon-ericsson[Session]
     bibtex: |
-        @misc{cite:talks:tutorial:ethirajulu-2018-ons,
+        @misc{cite:talks:tutorial:2010:ethirajulu-2018-ons,
             author          = {Ethirajulu, Balaji and Terrill, Stephen and van der Meer, Sven and Fallon, Liam},
             title           = {Taming Policy Complexity: From Theory to Execution},
             howpublished    = {Ericsson Tutorial, Linux Foundation Open Networking Summit North America 2018 (ONS)},
@@ -28,7 +28,7 @@ talks/tutorial/2010/ethirajulu-2018-ons:
             day             = 27
         }
     biblatex: |
-        @unpublished{cite:talks:tutorial:ethirajulu-2018-ons,
+        @unpublished{cite:talks:tutorial:2010:ethirajulu-2018-ons,
             author          = {Ethirajulu, Balaji and Terrill, Stephen and van der Meer, Sven and Fallon, Liam},
             title           = {Taming Policy Complexity: From Theory to Execution},
             eventtitle      = {Ericsson Tutorial},

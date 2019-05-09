@@ -10,7 +10,7 @@ talks/tutorial/2000/vandermeer-2009-fame_arch:
     adoc: |
         * Tutorial: FAME Architecture Workshop 1, Dublin, Ireland, May 26, 2009
     bibtex: |
-        @misc{cite:talks:tutorial:vandermeer-2009-fame_arch,
+        @misc{cite:talks:tutorial:2000:vandermeer-2009-fame_arch,
             author          = {van der Meer, Sven and Strassner, John C.},
             title           = {Introduction to DEN-ng for SFI SRC FAME},
             howpublished    = {Tutorial, FAME Architecture Workshop 1},
@@ -20,7 +20,7 @@ talks/tutorial/2000/vandermeer-2009-fame_arch:
             day             = 26
         }
     biblatex: |
-        @unpublished{cite:talks:tutorial:vandermeer-2009-fame_arch,
+        @unpublished{cite:talks:tutorial:2000:vandermeer-2009-fame_arch,
             author          = {van der Meer, Sven and Strassner, John C.},
             title           = {Introduction to DEN-ng for SFI SRC FAME},
             venue           = {FAME Architecture Workshop 1},

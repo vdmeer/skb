@@ -13,7 +13,7 @@ book/2000/parr-2009-lang-patterns:
         * Publisher: The Pragmatic Programmers
         * Latest version: Release P5.0 (2014-09-16)
     bibtex: |
-        @book{cite:book:parr-2009-lang-patterns,
+        @book{cite:book:2000:parr-2009-lang-patterns,
             author          = {Parr, Terence},
             title           = {Language Implementation Patterns},
             publisher       = {The Pragmatic Programmers},
@@ -23,7 +23,7 @@ book/2000/parr-2009-lang-patterns:
             day             = 28
         }
     biblatex: |
-        @book{cite:book:parr-2009-lang-patterns,
+        @book{cite:book:2000:parr-2009-lang-patterns,
             author          = {Parr, Terence},
             title           = {Language Implementation Patterns},
             titleaddon      = {Create Your Own Domain-Specific and General Programming Languages},

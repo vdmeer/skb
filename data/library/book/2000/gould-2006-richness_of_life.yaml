@@ -12,7 +12,7 @@ book/2000/gould-2006-richness_of_life:
         * Reasons to read: wrote a monthly article for Natural History on evolution, the collections of his articles are a good primer in how stochastic processes work in the large
         * Publisher: Jonathan Cape
     bibtex: |
-        @book{cite:book:gould-2006-richness_of_life,
+        @book{cite:book:2000:gould-2006-richness_of_life,
             author          = {Gould, Stephen Jay},
             title           = {The Richness of Life: The Essential Stephen Jay Gould},
             publisher       = {Jonathan Cape},
@@ -22,7 +22,7 @@ book/2000/gould-2006-richness_of_life:
             day             = 25
         }
     biblatex: |
-        @book{cite:book:gould-2006-richness_of_life,
+        @book{cite:book:2000:gould-2006-richness_of_life,
             author          = {Gould, Stephen Jay},
             title           = {The Richness of Life},
             titleaddon      = {The Essential Stephen Jay Gould},

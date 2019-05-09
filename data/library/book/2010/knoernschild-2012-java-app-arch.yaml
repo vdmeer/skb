@@ -9,7 +9,26 @@ book/2010/knoernschild-2012-java-app-arch:
         Homepage: >
             http://www.kirkk.com/modularity/
         Goodreads: >
-            https://www.goodreads.com/author/show/3497931.Kirk_Knoernschild
+            https://www.goodreads.com/book/show/8097573-java-application-architecture
     adoc: |
         * Reasons to read: think modular, with Java
         * Publisher: Prentice Hall (Robert C. Martin Series)
+    bibtex: |
+        @book{cite:book:knoernschild-2012-java-app-arch,
+            author          = {Knoernschild, Kirk},
+            title           = {Java Application Architecture: Modularity Patterns with Examples Using OSGi},
+            publisher       = {Prentice Hall},
+            isdn            = {9780321247131},
+            year            = 2012,
+            month           = mar,
+            day             = 25
+        }
+    biblatex: |
+        @book{cite:book:knoernschild-2012-java-app-arch,
+            author          = {Knoernschild, Kirk},
+            title           = {Java Application Architecture},
+            titleaddon      = {Modularity Patterns with Examples Using OSGi},
+            publisher       = {Prentice Hall},
+            isdn            = {9780321247131},
+            date            = {2012-03-25}
+        }

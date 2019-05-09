@@ -1,0 +1,33 @@
+book/2000/parr-2009-lang-patterns:
+    authors:
+        - Parr, Terence
+    title: Language Implementation Patterns
+    titleaddon: Create Your Own Domain-Specific and General Programming Languages
+    type: book
+    year: 2009
+    urls:
+        PragProg: >
+            https://pragprog.com/book/tpdsl/language-implementation-patterns
+    adoc: |
+        * Reasons to read: detailed guide on how to create your own domain-specific language and general programming languages
+        * Publisher: The Pragmatic Programmers
+        * Latest version: Release P5.0 (2014-09-16)
+    bibtex: |
+        @book{cite:book:parr-2009-lang-patterns,
+            author          = {Parr, Terence},
+            title           = {Language Implementation Patterns},
+            publisher       = {The Pragmatic Programmers},
+            isdn            = {978-1-93435-645-6},
+            year            = 2009,
+            month           = dec,
+            day             = 28
+        }
+    biblatex: |
+        @book{cite:book:parr-2009-lang-patterns,
+            author          = {Parr, Terence},
+            title           = {Language Implementation Patterns},
+            titleaddon      = {Create Your Own Domain-Specific and General Programming Languages},
+            publisher       = {The Pragmatic Programmers},
+            isdn            = {978-1-93435-645-6},
+            date            = {2009-12-28}
+        }

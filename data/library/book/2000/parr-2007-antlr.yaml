@@ -11,3 +11,23 @@ book/2000/parr-2007-antlr:
     adoc: |
         * Reasons to read: detailed guide on how to build parsers and compilers, effectively creating DSLs, using ANTLR
         * Publisher: The Pragmatic Programmers
+        * Latest version: Release P4.0 (2011-04-11)
+    bibtex: |
+        @book{cite:book:parr-2007-antlr,
+            author          = {Parr, Terence},
+            title           = {he definitive ANTLR Reference: Building Domain-specific Languages},
+            publisher       = {The Pragmatic Programmers},
+            isdn            = {978-0-9787-3925-6},
+            year            = 2007,
+            month           = may,
+            day             = 1
+        }
+    biblatex: |
+        @book{cite:book:parr-2007-antlr,
+            author          = {Parr, Terence},
+            title           = {he definitive ANTLR Reference},
+            titleaddon      = {Building Domain-specific Languages},
+            publisher       = {The Pragmatic Programmers},
+            isdn            = {978-0-9787-3925-6},
+            date            = {2007-05-01}
+        }

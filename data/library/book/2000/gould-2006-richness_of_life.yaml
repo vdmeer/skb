@@ -1,7 +1,8 @@
 book/2000/gould-2006-richness_of_life:
     authors:
         - Gould, Stephen Jay
-    title: "The Richness of Life: The Essential Stephen Jay Gould"
+    title: The Richness of Life
+    titleaddon: The Essential Stephen Jay Gould
     type: book
     year: 2006
     urls:
@@ -9,4 +10,23 @@ book/2000/gould-2006-richness_of_life:
             https://www.goodreads.com/book/show/33937.The_Richness_of_Life?from_search=true
     adoc: |
         * Reasons to read: wrote a monthly article for Natural History on evolution, the collections of his articles are a good primer in how stochastic processes work in the large
-        * Publisher: Vintage
+        * Publisher: Jonathan Cape
+    bibtex: |
+        @book{cite:book:gould-2006-richness_of_life,
+            author          = {Gould, Stephen Jay},
+            title           = {The Richness of Life: The Essential Stephen Jay Gould},
+            publisher       = {Jonathan Cape},
+            isdn            = {9780224076074},
+            year            = 2006,
+            monthly         = may,
+            day             = 25
+        }
+    biblatex: |
+        @book{cite:book:gould-2006-richness_of_life,
+            author          = {Gould, Stephen Jay},
+            title           = {The Richness of Life},
+            titleaddon      = {The Essential Stephen Jay Gould},
+            publisher       = {Jonathan Cape},
+            isdn            = {9780224076074},
+            date            = {2006-05-25}
+        }

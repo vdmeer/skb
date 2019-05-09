@@ -17,4 +17,23 @@ book/2010/feiler-2012-aadl:
             https://apps.dtic.mil/dtic/tr/fulltext/u2/a613948.pdf
     adoc: |
         * Reasons to read: language for model-based engineering
-        * Publisher: Addison-Wesley (SEI Series in Software Engineering)
+        * Publisher: Addison-Wesley Professional (SEI Series in Software Engineering)
+    bibtex: |
+        @book{cite:book:feiler-2012-aadl,
+            author          = {Feiler, Peter H. and Gluch, David P.},
+            title           = {Model-based Engineering with AADL: An Introduction to SAE Architecture and Design Language},
+            publisher       = {Addison-Wesley Professional},
+            isdn            = {978-0-321-88894-5},
+            year            = 2012,
+            month           = sep,
+            day             = 25
+        }
+    biblatex: |
+        @book{cite:book:feiler-2012-aadl,
+            author          = {Feiler, Peter H. and Gluch, David P.},
+            title           = {Model-based Engineering with AADL},
+            titleaddon      = {An Introduction to SAE Architecture and Design Language},
+            publisher       = {Addison-Wesley Professional},
+            isdn            = {978-0-321-88894-5},
+            date            = {2012-09-25}
+        }

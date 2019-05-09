@@ -1,6 +1,6 @@
 book/2010/smith-2012-elemental_design_patterns:
     authors:
-        - Smith, Jason McC.
+        - McColm Smith, Jason
     title: Elemental Design Patterns
     type: book
     year: 2012
@@ -16,3 +16,22 @@ book/2010/smith-2012-elemental_design_patterns:
     adoc: |
         * Reasons to read: scientific approach to software pattern (not OO-software-patterns), comprehensive graphical language
         * Publisher: Addison-Wesley Professional
+        * First published December 24^th^ 2011
+    bibtex: |
+        @book{cite:book:smith-2012-elemental_design_patterns,
+            author          = {McColm Smith, Jason},
+            title           = {Elemental Design Patterns},
+            publisher       = {Addison-Wesley Professional},
+            isdn            = {9780321711922},
+            year            = 2012,
+            month           = apr,
+            day             = 7
+        }
+    biblatex: |
+        @book{cite:book:smith-2012-elemental_design_patterns,
+            author          = {McColm Smith, Jason},
+            title           = {Elemental Design Patterns},
+            publisher       = {Addison-Wesley Professional},
+            isdn            = {9780321711922},
+            date            = {2012-04-07}
+        }

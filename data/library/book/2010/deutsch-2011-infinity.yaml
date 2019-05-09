@@ -12,3 +12,22 @@ book/2010/deutsch-2011-infinity:
     adoc: |
         * Reasons to read: error is the normal state of our knowledge, good and bad philosophy
         * Publisher: Viking
+        * First published March 1st 2011
+    bibtex: |
+        @book{cite:book:smith-2012-elemental_design_patterns,
+            author          = {Deutsch, David},
+            title           = {The Beginning of Infinity},
+            publisher       = {Viking},
+            isdn            = {9780670022755},
+            year            = 2011,
+            month           = jul,
+            day             = 21
+        }
+    biblatex: |
+        @book{cite:book:smith-2012-elemental_design_patterns,
+            author          = {Deutsch, David},
+            title           = {The Beginning of Infinity},
+            publisher       = {Viking},
+            isdn            = {9780670022755},
+            date            = {2011-07-21}
+        }

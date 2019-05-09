@@ -10,7 +10,7 @@ talks/tutorial/1990/covaci-1999-nec:
     adoc: |
         * Tutorial: NEC Europe Ltd., C&C Research Laboratory, Berlin, Germany, May 27-28, 1999
     bibtex: |
-        @misc{cite:talks:tutorial:1990:covaci-1999-nec,
+        @misc{cite:talks:tutorial:covaci-1999-nec,
             author          = {Covaci, Stefan and Busse, Ingo and van der Meer, Sven and Arbanowski, Stefan},
             title           = {Management of Broadband Networks II},
             howpublished    = {Tutorial, Tutorial: NEC Europe Ltd., C&C Research Laboratory},
@@ -20,7 +20,7 @@ talks/tutorial/1990/covaci-1999-nec:
             day             = 27
         }
     biblatex: |
-        @unpublished{cite:talks:tutorial:1990:covaci-1999-nec,
+        @unpublished{cite:talks:tutorial:covaci-1999-nec,
             author          = {Covaci, Stefan and Busse, Ingo and van der Meer, Sven and Arbanowski, Stefan},
             title           = {Management of Broadband Networks II},
             venue           = {Tutorial: NEC Europe Ltd., C&C Research Laboratory},

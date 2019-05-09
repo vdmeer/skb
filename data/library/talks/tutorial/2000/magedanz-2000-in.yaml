@@ -7,7 +7,7 @@ talks/tutorial/2000/magedanz-2000-in:
     adoc: |
         * Half-day Tutorial: 5^th^ IEEE Intelligent Network Workshop (IN 2000), Cape Town, South Africa, May 7-11, 2000
     bibtex: |
-        @misc{cite:talks:tutorial:2000:magedanz-2000-in,
+        @misc{cite:talks:tutorial:magedanz-2000-in,
             author          = {Magedanz, Thomas},
             title           = {Intelligent Network Evolution},
             howpublished    = {Tutorial, 5^th^ IEEE Intelligent Network Workshop (IN 2000)},
@@ -17,7 +17,7 @@ talks/tutorial/2000/magedanz-2000-in:
             day             = 7
         }
     biblatex: |
-        @unpublished{cite:talks:tutorial:2000:magedanz-2000-in,
+        @unpublished{cite:talks:tutorial:magedanz-2000-in,
             author          = {Magedanz, Thomas},
             title           = {Intelligent Network Evolution},
             venue           = {5^th^ IEEE Intelligent Network Workshop, IN 2000},

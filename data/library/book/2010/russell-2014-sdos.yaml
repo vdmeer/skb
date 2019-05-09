@@ -1,7 +1,8 @@
 book/2010/russell-2014-sdos:
     authors:
         - Russell, Andrew L.
-    title: "Open Standards and the Digital Age: History, Ideology, and Networks"
+    title: Open Standards and the Digital Age
+    titleaddon: History, Ideology, and Networks
     type: book
     year: 2014
     urls:
@@ -12,3 +13,22 @@ book/2010/russell-2014-sdos:
     adoc: |
         * Reasons to read: history of networks and network standards
         * Publisher: Cambridge University Press
+    bibtex: |
+        @book{cite:book:russell-2014-sdos,
+            author          = {Russell, Andrew L.},
+            title           = {Open Standards and the Digital Age: History, Ideology, and Networks},
+            publisher       = {Cambridge University Press},
+            isdn            = {9781107039193},
+            year            = 2014,
+            month           = apr,
+            day             = 28
+        }
+    biblatex: |
+        @book{cite:book:russell-2014-sdos,
+            author          = {Russell, Andrew L.},
+            title           = {Open Standards and the Digital Age},
+            titleaddon      = {History, Ideology, and Networks},
+            publisher       = {Cambridge University Press},
+            isdn            = {9781107039193},
+            date            = {2014-04-28}
+        }

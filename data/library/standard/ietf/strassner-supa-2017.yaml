@@ -3,7 +3,7 @@ standard/ietf/strassner-supa-2017:
         - Strassner, John C.
         - Halpern, Joel
         - van der Meer, Sven
-    title: Generic Policy Information Model for simplified use of poLicy Abstractions (SUPA)
+    title: Generic Policy Information Model for Simplified Use of PoLicy Abstractions (SUPA)
     type: standard
     year: 2017
     urls:
@@ -11,3 +11,4 @@ standard/ietf/strassner-supa-2017:
             https://datatracker.ietf.org/doc/draft-ietf-supa-generic-policy-info-model/
     adoc: |
         * Published: IETF draft, version 3, May 2017
+        * Draft is discontinued and not moved to RFC stage

@@ -1,0 +1,22 @@
+proceedings/1970/acm-1972-v1:
+    editors:
+        -  Donovan, John J.
+        - Shields, Rosemary
+    title: "ACM '72: Proceedings of the ACM Annual Conference - Volume 1"
+    type: proceeding
+    year: 1972
+    adoc: |
+        * Conference: 1972 ACM Annual Conference
+    bibtex: |
+        @proceedings{cite:proceedings:1970:acm-1972-v1,
+            title           = {1972 ACM Annual Conference, Volume I},
+            shorttitle  `   = {ACM}
+            year            = 1972,
+            publisher       = {ACM}
+        }
+    biblatex: |
+        @proceedings{cite:proceedings:1970:acm-1972-v1,
+            title           = {1972 ACM Annual Conference, Volume I},
+            year            = 1972,
+            publisher       = {ACM}
+        }

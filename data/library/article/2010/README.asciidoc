@@ -13,6 +13,6 @@
 
 == SKB - Research Library - Articles - 2010-2019
 
-Articles in my research library from 2010 to 2019.
+Articles published between 2010 and 2019.
 A compiled version of all articles is hosted on link:https://vdmeer.github.io/skb/library/article.html[GH Pages].
 

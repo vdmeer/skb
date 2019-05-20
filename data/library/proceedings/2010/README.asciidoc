@@ -13,6 +13,6 @@
 
 == SKB - Research Library - Proceedings - 2010-2019
 
-Proceedings in my research library from 2010 to 2019.
+Proceedings published between 2010 and 2019.
 A compiled version of all proceedings is hosted on link:https://vdmeer.github.io/skb/library/proceedings.html[GH Pages].
 

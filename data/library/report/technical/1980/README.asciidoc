@@ -13,7 +13,7 @@
 
 == SKB - Research Library - Technical Reports - 1980-1989
 
-Technical reports in my research library from 1980 to 1989.
+Technical reports published between 1980 and 1989.
 A compiled version of all reports is hosted on link:https://vdmeer.github.io/skb/library/report.html[GH Pages].
 
 

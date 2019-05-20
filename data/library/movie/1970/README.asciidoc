@@ -13,6 +13,6 @@
 
 == SKB - Research Library - Movies - 1970-1979
 
-Movies in my research library from 1970 to 1979.
-A compiled version of all miscellaneous items is hosted on link:https://vdmeer.github.io/skb/library/movie.html[GH Pages].
+Movies published between 1970 and 1979.
+A compiled version of all movie items is hosted on link:https://vdmeer.github.io/skb/library/movie.html[GH Pages].
 

@@ -13,10 +13,9 @@
 
 == SKB - Research Library - Books
 
-Books in my research library.
+Books.
 Entries are grouped by century and decade.
 A compiled version of all books is hosted on link:https://vdmeer.github.io/skb/library/book.html[GH Pages].
 
 The naming scheme for books is `[author family name]-[year]-[book title]`.
 In some occasions, the book title is abbreviated.
-Entries are grouped by century or decade.

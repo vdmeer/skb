@@ -13,7 +13,5 @@
 
 == SKB - Research Library - Standards - IETF
 
-ITEF standards and drafts in my research library.
+ITEF standards and drafts.
 A compiled version of all standard items is hosted on link:https://vdmeer.github.io/skb/library/standard.html[GH Pages].
-
-

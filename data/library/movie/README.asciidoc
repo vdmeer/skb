@@ -13,10 +13,9 @@
 
 == SKB - Research Library - Movies
 
-Movies in my research library.
+Movies and motion pictures.
 Entries are grouped by decade.
-A compiled version of all miscellaneous items is hosted on link:https://vdmeer.github.io/skb/library/movie.html[GH Pages].
+A compiled version of all movie items is hosted on link:https://vdmeer.github.io/skb/library/movie.html[GH Pages].
 
 The naming scheme for movies is `[year]-[movie name]`.
 In some occasions, the movie name is abbreviated.
-Entries are grouped by decade.

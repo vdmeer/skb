@@ -13,6 +13,6 @@
 
 == SKB - Research Library - Phdhesis - 2010-2019
 
-Phdthesis' and Doktorbeiten in my research library from 2010 to 2019.
+Phdthesis' and Doktorbeiten published between 2010 and 2019.
 A compiled version of all thesis' is hosted on link:https://vdmeer.github.io/skb/library/thesis.html[GH Pages].
 

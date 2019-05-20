@@ -13,6 +13,6 @@
 
 == SKB - Research Library - Articles - 1990-1999
 
-Articles in my research library from 1990 to 1999.
+Articles published between 1990 and 1999.
 A compiled version of all articles is hosted on link:https://vdmeer.github.io/skb/library/article.html[GH Pages].
 

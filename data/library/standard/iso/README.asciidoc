@@ -13,7 +13,5 @@
 
 == SKB - Research Library - Standards - ISO
 
-ISO standards in my research library.
+ISO standards.
 A compiled version of all standard items is hosted on link:https://vdmeer.github.io/skb/library/standard.html[GH Pages].
-
-

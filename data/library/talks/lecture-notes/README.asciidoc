@@ -13,7 +13,7 @@
 
 == SKB - Research Library - Talks - Lecture Notes
 
-Lecture notes in my research library.
+Lecture notes.
 Entries are group by decade.
 A compiled version of all talks is hosted on link:https://vdmeer.github.io/skb/library/talks.html[GH Pages].
 

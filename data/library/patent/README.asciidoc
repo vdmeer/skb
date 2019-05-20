@@ -13,9 +13,8 @@
 
 == SKB - Research Library - Patents
 
-Patents in my research library.
-Entries are grouped by filing place.
+Patents.
+Entries are grouped by decade.
 A compiled version of all patents is hosted on link:https://vdmeer.github.io/skb/library/patent.html[GH Pages].
 
 The naming scheme for patents is `[year]-[publication nmumber]`.
-Entries are grouped by decade.

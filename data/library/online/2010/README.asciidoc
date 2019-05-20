@@ -13,7 +13,7 @@
 
 == SKB - Research Library - Online - 2010-2019
 
-Items published online in my research library from 2010 to 2919.
+Items published online from 2010 to 2919.
 A compiled version of all online items is hosted on link:https://vdmeer.github.io/skb/library/online.html[GH Pages].
 
 

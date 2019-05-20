@@ -13,9 +13,8 @@
 
 == SKB - Research Library - in Proceedings
 
-Conference papers in my research library.
+Conference papers published in a procceding.
 Entries are grouped by century and decade.
 A compiled version of all conference papers is hosted on link:https://vdmeer.github.io/skb/library/inproceedings.html[GH Pages].
 
 The naming scheme for in-proceedings items is `[author family name]-[year]-[conference acronym]`.
-Entries are grouped by century or decade.

@@ -13,7 +13,7 @@
 
 == SKB - Research Library - Unpublished
 
-Unpublished (or not formally published) items in my research library.
+Unpublished (or not formally published) items.
 Entries are grouped by decade.
 A compiled version of all unpublished items is hosted on link:https://vdmeer.github.io/skb/library/unpublished.html[GH Pages].
 

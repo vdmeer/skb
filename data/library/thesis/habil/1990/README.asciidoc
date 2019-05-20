@@ -13,7 +13,7 @@
 
 == SKB - Research Library - Habilitationen - 1990-1999
 
-Habilitationen in my research library from 1990 to 1999.
+Habilitationen published between 1990 and 1999.
 Entries are grouped by decade.
 A compiled version of all thesis' is hosted on link:https://vdmeer.github.io/skb/library/thesis.html[GH Pages].
 

@@ -13,7 +13,7 @@
 
 == SKB - Research Library - Thesis
 
-Thesis' in my research library.
+Thesis'.
 Entries are grouped primary by type (habil, master, phd) and secondary by decade.
 A compiled version of all thesis' is hosted on link:https://vdmeer.github.io/skb/library/thesis.html[GH Pages].
 

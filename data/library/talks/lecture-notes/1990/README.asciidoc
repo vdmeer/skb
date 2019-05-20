@@ -13,7 +13,7 @@
 
 == SKB - Research Library - Talks - Lecture Notes - 1990-1999
 
-Lecture notes in my research library from 1990 to 1999.
+Lecture notes given between 1990 and 1999.
 A compiled version of all talks is hosted on link:https://vdmeer.github.io/skb/library/talks.html[GH Pages].
 
 

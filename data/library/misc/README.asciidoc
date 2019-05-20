@@ -13,7 +13,7 @@
 
 == SKB - Research Library - Miscellaneous
 
-Miscellaneous items in my research library.
+Miscellaneous items.
 A compiled version of all miscellaneous items is hosted on link:https://vdmeer.github.io/skb/library/misc.html[GH Pages].
 
 

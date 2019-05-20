@@ -13,8 +13,8 @@
 
 == SKB - Research Library - Standards
 
-Standards and publications by Standard Defining Organisations (SDO) in my research library.
-Entries are grouped by SDO.
+Standards and publications by Standard Defining Organisations (SDO).
+Entries are grouped by SDO name or acronym.
 A compiled version of all standard items is hosted on link:https://vdmeer.github.io/skb/library/standard.html[GH Pages].
 
 The naming scheme for in-standards varies with the standardization organization.

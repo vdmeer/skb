@@ -13,6 +13,6 @@
 
 == SKB - Research Library - in Proceedings - 2000-2009
 
-Conference papers in my research library from 2000 to 2009.
+Conference papers published between 2000 and 2009.
 A compiled version of all conference papers is hosted on link:https://vdmeer.github.io/skb/library/inproceedings.html[GH Pages].
 

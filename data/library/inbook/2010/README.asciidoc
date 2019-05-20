@@ -13,7 +13,7 @@
 
 == SKB - Research Library - in Book - 2010-2019
 
-Book chapters in my research library from 2010 to 2019.
+Book chapters published between 2010 and 2019.
 A compiled version of all in-book items is hosted on link:https://vdmeer.github.io/skb/library/inbook.html[GH Pages].
 
 

@@ -13,7 +13,7 @@
 
 == SKB - Research Library - Talks - Invited Talks - 2000-2009
 
-Invited talks in my research library from 2000 to 2009.
+Invited talks given between 2000 and 2009.
 A compiled version of all talks is hosted on link:https://vdmeer.github.io/skb/library/talks.html[GH Pages].
 
 

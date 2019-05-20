@@ -13,11 +13,10 @@
 
 == SKB - Research Library - Reports - Project
 
-Project reports in my research library.
-Entries are grouped by project name.
+Project reports.
+Entries are grouped by project name or acronym.
 A compiled version of all reports is hosted on link:https://vdmeer.github.io/skb/library/report.html[GH Pages].
 
 The naming scheme for project reports varies per project type.
 The general scheme (European and some Irish projects) is `[project acronym]-[report numder]-[year]`.
 In some occasions, the report number is substituted with a project year indicator
-Entries are grouped by project acronym.

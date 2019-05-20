@@ -13,7 +13,6 @@
 
 == SKB - Research Library - Talks
 
-Talks items in my research library.
+Talks.
 Entries are group primary by type (invited talk, keynote, lecture notes, panel, presentation, tutorial) and secondary by decade.
 A compiled version of all talks is hosted on link:https://vdmeer.github.io/skb/library/talks.html[GH Pages].
-

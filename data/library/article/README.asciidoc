@@ -13,7 +13,6 @@
 
 == SKB - Research Library - Articles
 
-Articles in my research library.
 Entries are grouped by century and decade.
 A compiled version of all articles is hosted on link:https://vdmeer.github.io/skb/library/article.html[GH Pages].
 

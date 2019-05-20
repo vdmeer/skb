@@ -13,6 +13,6 @@
 
 == SKB - Research Library - Books - 1970-1979
 
-Books in my research library from 1970 to 1979.
+Books published between 1970 and 1979.
 A compiled version of all books is hosted on link:https://vdmeer.github.io/skb/library/book.html[GH Pages].
 

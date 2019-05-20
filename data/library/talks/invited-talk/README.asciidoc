@@ -13,7 +13,7 @@
 
 == SKB - Research Library - Talks - Invited Talks
 
-Invited talks in my research library.
+Invited talks.
 Entries are group by decade.
 A compiled version of all talks is hosted on link:https://vdmeer.github.io/skb/library/talks.html[GH Pages].
 

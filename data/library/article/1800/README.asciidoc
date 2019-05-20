@@ -13,6 +13,6 @@
 
 == SKB - Research Library - Articles - 1800-1899
 
-Articles in my research library from 1800 to 1899.
+Articles published between 1800 and 1899.
 A compiled version of all articles is hosted on link:https://vdmeer.github.io/skb/library/article.html[GH Pages].
 

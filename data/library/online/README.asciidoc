@@ -13,11 +13,9 @@
 
 == SKB - Research Library - Online
 
-Items published online in my research library.
+Items published online.
 Entries are grouped by decade.
 A compiled version of all online items is hosted on link:https://vdmeer.github.io/skb/library/online.html[GH Pages].
 
 The naming scheme for online publications is `[author family name]-[year]-[title]`.
 In some occasions, the title is abbreviated.
-Entries are grouped by decade.
-

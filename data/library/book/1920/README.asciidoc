@@ -13,6 +13,6 @@
 
 == SKB - Research Library - Books - 1920-1929
 
-Books in my research library from 1920 to 1929.
+Books published between 1920 and 1929.
 A compiled version of all books is hosted on link:https://vdmeer.github.io/skb/library/book.html[GH Pages].
 

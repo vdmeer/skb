@@ -13,6 +13,6 @@
 
 == SKB - Research Library - Unpublished - 1970-1979
 
-Unpublished (or not formally published) items in my research library between 1970 and 1979.
+Unpublished (or not formally published) items between 1970 and 1979.
 A compiled version of all unpublished items is hosted on link:https://vdmeer.github.io/skb/library/unpublished.html[GH Pages].
 

@@ -13,8 +13,6 @@
 
 == SKB - Research Library - Talks - Tutorials
 
-Tutorials in my research library.
+Tutorials.
 Entries are group by decade.
 A compiled version of all talks is hosted on link:https://vdmeer.github.io/skb/library/talks.html[GH Pages].
-
-

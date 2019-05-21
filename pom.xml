@@ -22,9 +22,6 @@
     <modules>
         <module>sites/skb</module>
         <module>sites/vandermeer</module>
-        <module>src/framework</module>
-        <module>src/builder</module>
-        <module>src/dashboard</module>
     </modules>
 
 </project>

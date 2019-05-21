@@ -1,0 +1,6 @@
+org/ietf/snmp/SNMPv2u:
+    short: SNMPv2u
+    long:
+        en: SNMP version 2 user
+    long-target:
+        latex: \acs{org:ietf:SNMP} version 2 user

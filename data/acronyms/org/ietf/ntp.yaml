@@ -1,0 +1,7 @@
+org/ietf/NTP:
+    short: NTP
+    long:
+        en: Network Time Protocol
+    notes:
+        en: RFC 1119/1305
+

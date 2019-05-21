@@ -1,0 +1,4 @@
+org/ietf/www/MDA:
+    short: MDA
+    long:
+        en: Medicated Digest Authentication

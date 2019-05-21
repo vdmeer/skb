@@ -1,0 +1,5 @@
+ict/os/unix/commands/KSH:
+    short: KSH
+    long:
+        en: Korn SHell
+

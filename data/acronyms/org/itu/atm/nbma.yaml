@@ -1,0 +1,4 @@
+org/itu/atm/NBMA:
+    short: NBMA
+    long:
+        en: Non-Broadcast Multiple Access

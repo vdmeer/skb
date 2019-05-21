@@ -1,0 +1,6 @@
+com/us/microsoft/MS-DOS:
+    short: MS-DOS
+    long:
+        en: MicroSoft DOS
+    long-target:
+        latex: MicroSoft \acs{ict:os:DOS}

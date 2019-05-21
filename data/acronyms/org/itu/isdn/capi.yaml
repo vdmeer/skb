@@ -1,0 +1,4 @@
+org/itu/isdn/CAPI:
+    short: CAPI
+    long:
+        en: Communication Application Program Interface

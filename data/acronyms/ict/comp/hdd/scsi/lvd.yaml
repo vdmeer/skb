@@ -1,0 +1,5 @@
+ict/comp/hdd/scsi/LVD:
+    short: LVD
+    long:
+        en: Low Voltage Differential
+

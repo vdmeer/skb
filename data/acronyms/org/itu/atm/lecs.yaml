@@ -1,0 +1,4 @@
+org/itu/atm/LECS:
+    short: LECS
+    long:
+        en: Local area network Emulation Configuration Server

@@ -1,0 +1,4 @@
+org/itu/atm/RDI2:
+    short: RDI
+    long:
+        en: Remote Defect Identification

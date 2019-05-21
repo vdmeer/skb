@@ -1,0 +1,4 @@
+org/itu/x200/TSDU:
+    short: TSDU
+    long:
+        en: Transport Service Data Unit

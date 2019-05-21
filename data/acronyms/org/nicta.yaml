@@ -1,0 +1,6 @@
+org/NICTA:
+    short: NICTA
+    long:
+        en: National ICT Australia
+    long-target:
+        latex: National \acs{ict:ICT} Australia

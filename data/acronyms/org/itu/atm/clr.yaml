@@ -1,0 +1,4 @@
+org/itu/atm/CLR:
+    short: CLR
+    long:
+        en: Cell Loss Ratio

@@ -1,0 +1,5 @@
+ict/device/MODEM:
+    short: MODEM
+    long:
+        en: MOdulator DEModulator
+

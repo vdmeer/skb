@@ -1,0 +1,4 @@
+org/itu/atm/AAL2:
+    short: AAL2
+    long:
+        en: Adaptation Layer Type 2

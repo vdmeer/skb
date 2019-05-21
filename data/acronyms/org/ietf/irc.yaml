@@ -1,0 +1,6 @@
+org/ietf/IRC:
+    short: IRC
+    long:
+        en: Internet Relay Chat
+    notes:
+        en: RFC 1459

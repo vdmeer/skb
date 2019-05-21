@@ -1,0 +1,4 @@
+org/itu/isdn/BRI:
+    short: BRI
+    long:
+        en: Basic Rate Interface

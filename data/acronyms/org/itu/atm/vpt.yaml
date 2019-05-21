@@ -1,0 +1,4 @@
+org/itu/atm/VPT:
+    short: VPT
+    long:
+        en: Virtual Path Terminator

@@ -1,0 +1,6 @@
+ict/os/linux/KWM:
+    short: KWM
+    long:
+        en: KDE Window Manager
+    long-target:
+        latex: \acs{ict:os:linux:KDE} Window Manager

@@ -1,0 +1,5 @@
+ict/os/unix/commands/PWD:
+    short: PWD
+    long:
+        en: Print Working Directory
+

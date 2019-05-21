@@ -1,0 +1,5 @@
+ict/security/ESS:
+    short: EES
+    long:
+        en: Escrowed Encryption Standard
+

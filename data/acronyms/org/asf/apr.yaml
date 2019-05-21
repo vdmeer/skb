@@ -1,0 +1,5 @@
+org/asf/APR:
+    short: APR
+    long:
+        en: Apache Portable Runtime
+

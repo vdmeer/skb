@@ -1,0 +1,6 @@
+ict/API2:
+    short: API
+    long:
+        en: Application Programmer's Interface
+    long-target:
+        latex: Application Programmer\textquoteright s Interface

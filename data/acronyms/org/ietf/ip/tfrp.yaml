@@ -1,0 +1,8 @@
+org/ietf/ip/TFRP:
+    short: TFRP
+    long:
+        en: TCP Friendly Rate Control
+    notes:
+        en: RFC 3448
+    long-target:
+        latex: \acs{org:ietf:ip:TCP} Friendly Rate Control

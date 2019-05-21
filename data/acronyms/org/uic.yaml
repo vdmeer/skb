@@ -1,0 +1,7 @@
+org/UIC:
+    short: UIC
+    long:
+        en: International Union of Railways
+    urls:
+        Home: >
+            https://www.uic.org

@@ -1,0 +1,5 @@
+org/itu/isdn/B8ZS:
+    short: B8ZS
+    long:
+        en: Binary 8 Zero Suppression
+

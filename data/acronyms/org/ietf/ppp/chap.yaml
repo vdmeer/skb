@@ -1,0 +1,7 @@
+org/ietf/ppp/CHAP:
+    short: CHAP
+    long:
+        en: Challenge Handshake Authentication Protocol
+    notes:
+        en: RFC 1334/1994
+

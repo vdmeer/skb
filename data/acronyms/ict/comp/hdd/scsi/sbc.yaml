@@ -1,0 +1,6 @@
+ict/comp/hdd/scsi/SBC:
+    short: SBC
+    long:
+        en: SCSI Block Commands
+    long-target:
+        latex: \acs{ict:comp:hdd:SCSI} Block Commands

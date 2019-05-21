@@ -1,0 +1,5 @@
+ict/net/mgmt/FCAPS:
+    short: FCAPS
+    long:
+        en: Fault, Configuration, Accounting, Performance, and Security
+

@@ -1,0 +1,7 @@
+org/ietf/NSSA:
+    short: NSSA
+    long:
+        en: Not So Stubby Area
+    notes:
+        en: RFC 1587
+

@@ -1,0 +1,6 @@
+org/ietf/CFWS:
+    short: CFWS
+    long:
+        en: Comments / Folding White Space
+    notes:
+        en: RFC 1822

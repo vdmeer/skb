@@ -1,0 +1,4 @@
+org/itu/atm/MSVC:
+    short: MSVC
+    long:
+        en: Meta-Signaling Virtual Channel

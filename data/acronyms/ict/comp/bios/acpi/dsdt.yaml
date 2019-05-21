@@ -1,0 +1,4 @@
+ict/comp/bios/acpi/DSDT:
+    short: DSDT
+    long:
+        en: Differentiated System Description Table

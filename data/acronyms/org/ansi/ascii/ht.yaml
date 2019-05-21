@@ -1,0 +1,7 @@
+org/ansi/ascii/HT:
+    short: HT
+    long:
+        en: Horizontal Tab
+    description:
+        en: ASCII control character (0o011, d9, 0x09)
+

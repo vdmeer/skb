@@ -1,0 +1,5 @@
+org/itu/x500/DN:
+    short: DN
+    long:
+        en: Distinguished Name
+

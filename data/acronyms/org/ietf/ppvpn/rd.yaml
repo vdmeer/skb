@@ -1,0 +1,6 @@
+org/ietf/ppvpn/RD:
+    short: RD
+    long:
+        en: Route Distinguisher
+    notes:
+        en: RFC 4026

@@ -1,0 +1,5 @@
+ict/security/CTS:
+    short: CTS
+    long:
+        en: Cipher Text Stealing (mode)
+

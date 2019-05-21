@@ -1,0 +1,6 @@
+ict/net/1x-RTT:
+    short: 1x RTT
+    long:
+        en: CDMA2000 1x Radio Transmission Technology
+    long-target:
+        latex: \acs{ict:net:CDMA}2000 1x Radio Transmission Technology

@@ -1,0 +1,6 @@
+ict/lang/java/JTA:
+    short: JTA
+    long:
+        en: Java Transaction API
+    long-target:
+        latex: Java Transaction \acs{ict:API}

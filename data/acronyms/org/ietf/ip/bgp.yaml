@@ -1,0 +1,7 @@
+org/ietf/ip/BGP:
+    short: BGP
+    long:
+        en: Border Gateway Protocol
+    notes:
+        en: RFC 1267/1771
+

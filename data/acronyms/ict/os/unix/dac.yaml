@@ -1,0 +1,4 @@
+ict/os/unix/DAC:
+    short: DAC
+    long:
+        en: Discretionary Access Control

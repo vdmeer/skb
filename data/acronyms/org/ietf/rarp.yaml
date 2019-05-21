@@ -1,0 +1,8 @@
+org/ietf/RARP:
+    short: RARP
+    long:
+        en: Reverse Address Resolution Protocol
+    notes:
+        en: RFC 903
+    long-target:
+        latex: Reverse \acs{org:ietf:ARP}

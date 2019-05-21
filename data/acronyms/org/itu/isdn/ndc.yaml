@@ -1,0 +1,5 @@
+org/itu/isdn/NDC:
+    short: NDC
+    long:
+        en: National Destination Code
+

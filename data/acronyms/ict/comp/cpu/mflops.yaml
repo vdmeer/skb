@@ -1,0 +1,6 @@
+ict/comp/cpu/MFLOPS:
+    short: MFLOPS
+    long:
+        en: Million FLoating-point Operations Per Second
+    long-target:
+        latex: Million \acs{ict:comp:cpu:FLOPS}

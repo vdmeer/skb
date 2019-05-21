@@ -1,0 +1,5 @@
+ict/comp/cpu/LDTRC:
+    short: LDTRC
+    long:
+        en: Local Descriptor Table Register Cache
+

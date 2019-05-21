@@ -1,0 +1,7 @@
+org/omg/IIOP:
+    short: IIOP
+    long:
+        en: Internet Inter-ORB Protocol
+    long-target:
+        latex: Internet Inter-\acs{org:omg:ORB} Protocol
+

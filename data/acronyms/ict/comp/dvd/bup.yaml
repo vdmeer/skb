@@ -1,0 +1,5 @@
+ict/comp/dvd/BUP:
+    short: BUP
+    long:
+        en: Buffer Underrun Protection
+

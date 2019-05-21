@@ -1,0 +1,5 @@
+org/ietf/STP:
+    short: STP
+    long:
+        en: Spanning-Tree Protocol
+

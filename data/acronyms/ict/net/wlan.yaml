@@ -1,0 +1,6 @@
+ict/net/WLAN:
+    short: WLAN
+    long:
+        en: Wireless LAN
+    long-target:
+        latex: Wireless \acs{ict:net:LAN}

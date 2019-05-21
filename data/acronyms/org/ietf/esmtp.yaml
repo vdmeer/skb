@@ -1,0 +1,8 @@
+org/ietf/ESMTP:
+    short: ESMTP
+    long:
+        en: Extended Simple Message Transport Protocol
+    notes:
+        en: RFC 1425/1869
+    long-target:
+        latex: Extended \acs{org:ietf:SMTP}

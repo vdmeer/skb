@@ -1,0 +1,6 @@
+com/us/ibm/PC-DOS:
+    short: PC-DOS
+    long:
+        en: Personal Computer DOS
+    long-target:
+        latex: Personal Computer \acs{ict:os:DOS}

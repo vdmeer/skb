@@ -1,0 +1,6 @@
+org/ietf/CAT:
+    short: CAT
+    long:
+        en: Common Authentication Technology
+    notes:
+        en: RFC 1511

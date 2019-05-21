@@ -1,0 +1,6 @@
+ict/comp/bios/CBIOS:
+    short: CBIOS
+    long:
+        en: Compatibility BIOS
+    long-target:
+        latex: Compatibility \acs{ict:comp:BIOS}

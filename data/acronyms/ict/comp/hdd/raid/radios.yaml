@@ -1,0 +1,6 @@
+ict/comp/hdd/raid/RADIOS:
+    short: RAIDIOS
+    long:
+        en: RAID I/O Steering
+    long-target:
+        latex: \acs{ict:comp:hdd:RAID} I/O Steering

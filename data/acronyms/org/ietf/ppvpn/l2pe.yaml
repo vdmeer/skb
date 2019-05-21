@@ -1,0 +1,8 @@
+org/ietf/ppvpn/L2PE:
+    short: L2PE
+    long:
+        en: Layer 2 PE
+    notes:
+        en: RFC 4026
+    long-target:
+        latex: Layer 2 \acs{org:ietf:ppvpn:PE}

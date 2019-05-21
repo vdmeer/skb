@@ -1,0 +1,5 @@
+ict/comp/hdd/sata/PM:
+    short: PM
+    long:
+        en: Port Multiplier
+

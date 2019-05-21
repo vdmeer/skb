@@ -1,0 +1,6 @@
+org/HbbTV:
+    short: HbbTV
+    long:
+        en: Hybrid Broadcast Broadband TV
+    long-target:
+        latex: Hybrid Broadcast Broadband \acs{ict:device:TV}

@@ -1,0 +1,7 @@
+org/ieee/ethernet/frame/LEN:
+    short: LEN
+    long:
+        en: Length
+    notes:
+        en: IEEE 802.3 Series, Ethernet, part of an Ethernet Frame
+

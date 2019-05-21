@@ -1,0 +1,5 @@
+ict/device/modem/FCS:
+    short: FCS
+    long:
+        en: Frame Check Sum
+

@@ -1,0 +1,4 @@
+org/ansi/fddi/WBC:
+    short: WBC
+    long:
+        en: Wide Band Channel

@@ -1,0 +1,5 @@
+ict/comp/cpu/TDP:
+    short: TDP
+    long:
+        en: Thermal Design Power
+

@@ -1,0 +1,8 @@
+org/psoc/rina/DIF:
+    short: DIF
+    long:
+        en: Distributed IPC Facility
+    description: 
+        en: a layer as a specialized DAF
+    long-target:
+        latex: Distributed \acs{ict:IPC} Facility

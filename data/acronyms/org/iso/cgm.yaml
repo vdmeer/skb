@@ -1,0 +1,6 @@
+org/iso/CGM:
+    short: CGM
+    long:
+        en: Computer Graphics Metafile
+    notes:
+        en: ISO 8632

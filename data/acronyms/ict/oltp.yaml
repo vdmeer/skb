@@ -1,0 +1,5 @@
+ict/OLTP:
+    short: OLTP
+    long:
+        en: On-Line Transaction Processing
+

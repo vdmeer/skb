@@ -1,0 +1,5 @@
+ict/lang/assembler/CMC:
+    short: CMC
+    long:
+        en: Complement Carry Flag
+

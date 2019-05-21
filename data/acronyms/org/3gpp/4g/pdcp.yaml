@@ -1,0 +1,5 @@
+org/3gpp/4g/PDCP:
+    short: PDCP
+    long:
+        en: Packet Data Convergence Protocol
+

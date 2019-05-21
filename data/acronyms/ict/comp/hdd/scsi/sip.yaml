@@ -1,0 +1,7 @@
+ict/comp/hdd/scsi/SIP:
+    short: SIP
+    long:
+        en: SCSI-3 Interlocked Protocol
+    long-target:
+        latex: \acs{ict:comp:hdd:SCSI}-3 Interlocked Protocol
+

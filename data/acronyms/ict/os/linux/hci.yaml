@@ -1,0 +1,5 @@
+ict/os/linux/HCI:
+    short: HCI
+    long:
+        en: Host Controller Interface
+

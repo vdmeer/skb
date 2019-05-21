@@ -1,0 +1,5 @@
+ict/lang/assembler/BES:
+    short: BES
+    long:
+        en: Block Ended by Symbol
+

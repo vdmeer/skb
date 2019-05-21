@@ -1,0 +1,6 @@
+org/psoc/RINA:
+    short: RINA
+    long:
+        en: Recursive InterNetworking Architecture
+    description: 
+        en: Theory and architecture for IPC

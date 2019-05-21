@@ -1,0 +1,4 @@
+org/itu/atm/VNA:
+    short: VNA
+    long:
+        en: Virtual Network Architecture

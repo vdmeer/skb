@@ -1,0 +1,5 @@
+ict/comp/cpu/TFLOPS:
+    short: TFLOPS
+    long:
+        en: Tera FLoating-point Operations Per Second
+

@@ -1,0 +1,4 @@
+org/itu/atm/ATD:
+    short: ATD
+    long:
+        en: Asynchronous Time Division

@@ -1,0 +1,4 @@
+org/itu/atm/VCL:
+    short: VCL
+    long:
+        en: Virtual Channel Link

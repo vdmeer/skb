@@ -1,0 +1,5 @@
+ict/comp/hdd/LBA:
+    short: LBA
+    long:
+        en: Logical Block Addressing
+

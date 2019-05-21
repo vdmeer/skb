@@ -1,0 +1,7 @@
+ict/comp/hdd/scsi/SPC:
+    short: SPC
+    long:
+        en: SCSI-3 Primary Commands
+    long-target:
+        latex: \acs{ict:comp:hdd:SCSI}-3 Primary Commands
+

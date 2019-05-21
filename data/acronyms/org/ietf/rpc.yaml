@@ -1,0 +1,7 @@
+org/ietf/RPC:
+    short: RPC
+    long:
+        en: Remote Procedure Call
+    notes:
+        en: RFC 1831
+

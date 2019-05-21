@@ -1,0 +1,7 @@
+org/ietf/SNI:
+    short: SNI
+    long:
+        en: Service Name Indicator
+    notes:
+        en: RFC 3546
+

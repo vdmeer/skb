@@ -1,0 +1,8 @@
+org/ietf/ppvpn/VPLS:
+    short: VPLS
+    long:
+        en: Virtual Private LAN Service
+    notes:
+        en: RFC 4026
+    long-target:
+        latex: Virtual Private \acs{ict:net:LAN} Service

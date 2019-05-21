@@ -1,0 +1,5 @@
+ict/device/modem/MICA:
+    short: MICA
+    long:
+        en: MODEM ISDN Channel Integration
+

@@ -1,0 +1,4 @@
+org/itu/atm/LOP:
+    short: LOP
+    long:
+        en: Loss of Pointer

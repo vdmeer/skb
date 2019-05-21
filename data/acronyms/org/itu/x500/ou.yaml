@@ -1,0 +1,4 @@
+org/itu/x500/OU:
+    short: OU
+    long:
+        en: Organisational Unit

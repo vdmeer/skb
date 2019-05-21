@@ -1,0 +1,4 @@
+org/itu/atm/CSI:
+    short: CSI
+    long:
+        en: Convergence Sublayer Indication

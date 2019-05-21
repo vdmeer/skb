@@ -1,0 +1,7 @@
+org/ansi/ascii/CAN:
+    short: CAN
+    long:
+        en: Cancel
+    description:
+        en: ASCII control character (0o030, d24, 0x18)
+

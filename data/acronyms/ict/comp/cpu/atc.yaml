@@ -1,0 +1,5 @@
+ict/comp/cpu/ATC:
+    short: ATC
+    long:
+        en: Address Translation Cache
+

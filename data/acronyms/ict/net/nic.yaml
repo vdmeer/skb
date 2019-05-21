@@ -1,0 +1,5 @@
+ict/net/NIC:
+    short: NIC
+    long:
+        en: Network Interface Card
+

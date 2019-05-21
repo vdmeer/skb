@@ -1,0 +1,6 @@
+org/ietf/CRISP:
+    short: CRISP
+    long:
+        en: Cross Registry Internet Service Protocol
+    notes:
+        en: RFC 3707

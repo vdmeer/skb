@@ -1,0 +1,5 @@
+ict/os/linux/SBF:
+    short: SBF
+    long:
+        en: Simple Boot Flag
+

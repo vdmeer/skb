@@ -1,0 +1,6 @@
+org/ietf/ppvpn/CPE:
+    short: CPE
+    long:
+        en: Customer Premise Equipment
+    notes:
+        en: RFC 4026

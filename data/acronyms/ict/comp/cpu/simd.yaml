@@ -1,0 +1,5 @@
+ict/comp/cpu/SIMD:
+    short: SIMD
+    long:
+        en: Single Instruction (stream), Multiple Data (stream)
+

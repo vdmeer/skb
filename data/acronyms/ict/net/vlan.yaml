@@ -1,0 +1,6 @@
+ict/net/VLAN:
+    short: VLAN
+    long:
+        en: Virtual LAN
+    long-target:
+        latex: Virtual \acs{ict:net:LAN}

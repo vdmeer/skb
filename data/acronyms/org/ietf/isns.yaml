@@ -1,0 +1,6 @@
+org/ietf/ISNS:
+    short: ISNS
+    long:
+        en: Internet Storage Name Service
+    notes:
+        en: RFC 4171

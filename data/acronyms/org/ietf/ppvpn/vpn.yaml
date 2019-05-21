@@ -1,0 +1,6 @@
+org/ietf/ppvpn/VPN:
+    short: VPN
+    long:
+        en: Virtual Private Network
+    notes:
+        en: RFC 4026

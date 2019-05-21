@@ -1,0 +1,7 @@
+org/ieee/ethernet/frame/FCS:
+    short: FCS
+    long:
+        en: Frame Check Sequence
+    notes:
+        en: IEEE 802.3 Series, Ethernet, part of an Ethernet Frame, usually CRC-32
+

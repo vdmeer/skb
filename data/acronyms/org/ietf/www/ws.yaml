@@ -1,0 +1,7 @@
+org/ietf/www/WS:
+    short: WS
+    long:
+        en: Web Socket
+    notes:
+        en: RFC 6455
+

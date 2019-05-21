@@ -1,0 +1,7 @@
+org/ietf/ip/MGCP:
+    short: MGCP
+    long:
+        en: Media Gateway Control Protocol
+    notes:
+        en: RFC 2705
+

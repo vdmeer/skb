@@ -1,0 +1,5 @@
+ict/device/modem/DOV:
+    short: DOV
+    long:
+        en: Data Over Voice
+

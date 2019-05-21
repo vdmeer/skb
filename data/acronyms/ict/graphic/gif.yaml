@@ -1,0 +1,9 @@
+ict/graphic/GIF:
+    short: GIF
+    long:
+        en: Graphics Interchange Format
+    description: 
+        en: 8 bit per pixel graphic file format
+    urls:
+        Wikipedia: >
+            https://en.wikipedia.org/wiki/GIF

@@ -1,0 +1,6 @@
+org/etsi/nfv/VNFD:
+    short: VNFD
+    long:
+        en: VNF Descriptor
+    long-target:
+        latex: \acs{org:etsi:nfv:VNF} Descriptor

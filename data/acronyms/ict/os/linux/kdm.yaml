@@ -1,0 +1,6 @@
+ict/os/linux/KDM:
+    short: KDM
+    long:
+        en: KDE Display Manager
+    long-target:
+        latex: \acs{ict:os:linux:KDE} Display Manager

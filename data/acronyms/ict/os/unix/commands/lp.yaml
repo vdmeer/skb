@@ -1,0 +1,5 @@
+ict/os/unix/commands/LP:
+    short: LP
+    long:
+        en: Line Printer
+

@@ -1,0 +1,5 @@
+ict/os/unix/commands/DU:
+    short: DU
+    long:
+        en: Disk Used
+

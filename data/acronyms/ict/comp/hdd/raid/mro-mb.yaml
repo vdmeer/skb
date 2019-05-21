@@ -1,0 +1,7 @@
+ict/comp/hdd/raid/MRO-MB:
+    short: MRO-MB
+    long:
+        en: Modular RAID On MotherBoard
+    long-target:
+        latex: Modular \acs{ict:comp:hdd:RAID} On MotherBoard
+

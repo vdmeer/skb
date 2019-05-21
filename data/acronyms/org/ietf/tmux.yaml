@@ -1,0 +1,7 @@
+org/ietf/TMUX:
+    short: TMUX
+    long:
+        en: Transport MUltipleXing protocol
+    notes:
+        en: RFC 1692
+

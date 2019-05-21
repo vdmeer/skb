@@ -1,0 +1,6 @@
+org/itu/x200/TTCN:
+    short: TTCN
+    long:
+        en: Tree and Tabular Combined Notation
+    notes:
+        en: X.292

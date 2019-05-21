@@ -1,0 +1,5 @@
+org/itu/m3000/DCF:
+    short: DCF
+    long:
+        en: Data Communication Function
+

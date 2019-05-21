@@ -1,0 +1,5 @@
+ict/comp/cpu/BTLB:
+    short: BTLB
+    long:
+        en: Block Translation Look-aside Buffer
+

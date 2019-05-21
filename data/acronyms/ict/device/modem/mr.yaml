@@ -1,0 +1,5 @@
+ict/device/modem/MR:
+    short: MR
+    long:
+        en: MODEM Ready
+

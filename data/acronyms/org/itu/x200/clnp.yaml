@@ -1,0 +1,4 @@
+org/itu/x200/CLNP:
+    short: CLNP
+    long:
+        en: ConnectionLess Network Protocol

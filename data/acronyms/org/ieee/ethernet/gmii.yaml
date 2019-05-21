@@ -1,0 +1,7 @@
+org/ieee/ethernet/GMII:
+    short: GMII
+    long:
+        en: Gigabit Media Independent Interface
+    notes:
+        en: IEEE 802.3 Series, Ethernet
+

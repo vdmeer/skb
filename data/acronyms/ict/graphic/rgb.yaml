@@ -1,0 +1,5 @@
+ict/graphic/RGB:
+    short: RGB
+    long:
+        en: Red Green Blue
+

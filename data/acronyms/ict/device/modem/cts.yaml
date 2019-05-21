@@ -1,0 +1,5 @@
+ict/device/modem/CTS:
+    short: CTS
+    long:
+        en: Clear To Send
+

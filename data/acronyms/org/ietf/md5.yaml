@@ -1,0 +1,7 @@
+org/ietf/MD5:
+    short: MD5
+    long:
+        en: Message Digest (algorithm) 5
+    notes:
+        en: RFC 1321
+

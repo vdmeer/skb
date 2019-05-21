@@ -1,0 +1,7 @@
+org/ansi/ascii/CR:
+    short: CR
+    long:
+        en: Carriage return
+    description:
+        en: ASCII control character (0o015, d13, 0x0D)
+

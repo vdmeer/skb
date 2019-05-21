@@ -1,0 +1,7 @@
+org/ieee/ethernet/1000Base-SX:
+    short: 1000Base-SX
+    long:
+        en: Ethernet with 1000 MBit/s
+    notes:
+        en: "IEEE 802.3 Series: Ethernet with 1000 MBit/s, Baseband Transmission, SWL fibre optic cable"
+

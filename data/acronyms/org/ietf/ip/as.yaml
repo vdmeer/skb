@@ -1,0 +1,7 @@
+org/ietf/ip/AS:
+    short: AS
+    long:
+        en: Autonomous System
+    notes:
+        en: RFC 1930
+

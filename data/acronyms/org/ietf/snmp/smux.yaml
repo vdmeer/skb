@@ -1,0 +1,8 @@
+org/ietf/snmp/SMUX:
+    short: SMUX
+    long:
+        en: SNMP MUltipleXing protocol
+    notes:
+        en: RFC 1227
+    long-target:
+        latex: \acs{org:ietf:SNMP} MUltipleXing protocol

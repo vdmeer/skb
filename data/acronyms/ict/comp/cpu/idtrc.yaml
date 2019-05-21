@@ -1,0 +1,5 @@
+ict/comp/cpu/IDTRC:
+    short: IDTRC
+    long:
+        en: Interrupt Descriptor Table Register Cache
+

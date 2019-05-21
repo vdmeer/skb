@@ -1,0 +1,6 @@
+org/GSMNA:
+    short: GSMNA
+    long:
+        en: GSM North America
+    long-target:
+        latex: \acs{org:etsi:GSM} North America

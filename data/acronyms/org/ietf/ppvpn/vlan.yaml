@@ -1,0 +1,8 @@
+org/ietf/ppvpn/VLAN:
+    short: VLAN
+    long:
+        en: Virtual LAN
+    notes:
+        en: RFC 4026
+    long-target:
+        latex: Virtual \acs{ict:net:LAN}

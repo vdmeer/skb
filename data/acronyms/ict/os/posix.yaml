@@ -1,0 +1,5 @@
+ict/os/POSIX:
+    short: POSIX
+    long:
+        en: Portable Operating System Interface
+

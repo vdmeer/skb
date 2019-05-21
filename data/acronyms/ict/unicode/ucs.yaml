@@ -1,0 +1,5 @@
+ict/unicode/UCS:
+    short: UCS
+    long:
+        en: Universal (multiple-octet coded) Character Set
+

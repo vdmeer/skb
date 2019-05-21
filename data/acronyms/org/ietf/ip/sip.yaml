@@ -1,0 +1,7 @@
+org/ietf/ip/SIP:
+    short: SIP
+    long:
+        en: Session Initiation Protocol
+    notes:
+        en: RFC 2543
+

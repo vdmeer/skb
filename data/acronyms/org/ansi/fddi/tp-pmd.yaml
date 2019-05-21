@@ -1,0 +1,5 @@
+org/ansi/fddi/TP-PMD:
+    short: TP-PMD
+    long:
+        en: Twisted Pair Physical layer Medium Dependent
+

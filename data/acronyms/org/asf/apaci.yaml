@@ -1,0 +1,5 @@
+org/asf/APACI:
+    short: APACI
+    long:
+        en: Apache AutoConf-style Interface
+

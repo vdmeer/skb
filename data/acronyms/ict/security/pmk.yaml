@@ -1,0 +1,5 @@
+ict/security/PMK:
+    short: PMK
+    long:
+        en: Pairwise Master Key
+

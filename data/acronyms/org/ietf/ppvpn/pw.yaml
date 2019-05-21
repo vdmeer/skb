@@ -1,0 +1,6 @@
+org/ietf/ppvpn/PW:
+    short: PW
+    long:
+        en: Pseudo Wire
+    notes:
+        en: RFC 4026

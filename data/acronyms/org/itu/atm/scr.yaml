@@ -1,0 +1,4 @@
+org/itu/atm/SCR:
+    short: SCR
+    long:
+        en: Sustainable Cell Rate

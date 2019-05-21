@@ -1,0 +1,4 @@
+org/itu/atm/CSU:
+    short: CSU
+    long:
+        en: Channel Service Unit

@@ -1,0 +1,7 @@
+org/ietf/RADIUS:
+    short: RADIUS
+    long:
+        en: Remote Authentication Dial-In User Service
+    notes:
+        en: RFC 2865
+

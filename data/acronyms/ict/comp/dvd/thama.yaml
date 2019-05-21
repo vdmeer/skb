@@ -1,0 +1,6 @@
+ict/comp/dvd/THAMA:
+    short: THAMA
+    long:
+        en: Trident Hardware-Assisted MPEG-2/AC-3
+    long-target:
+        latex: Trident Hardware-Assisted \acs{org:iso:MPEG}-2/AC-3

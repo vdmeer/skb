@@ -1,0 +1,7 @@
+org/ansi/ascii/ESC:
+    short: ESC
+    long:
+        en: Escape
+    description:
+        en: ASCII control character (0o033, d27, 0x1B)
+

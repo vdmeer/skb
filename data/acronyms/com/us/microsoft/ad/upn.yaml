@@ -1,0 +1,5 @@
+com/us/microsoft/ad/UPN:
+    short: UPN
+    long:
+        en: User Principal Name
+

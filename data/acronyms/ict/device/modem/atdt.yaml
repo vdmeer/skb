@@ -1,0 +1,5 @@
+ict/device/modem/ATDT:
+    short: ATDT
+    long:
+        en: ATtention Dial Tone
+

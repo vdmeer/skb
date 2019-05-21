@@ -1,0 +1,5 @@
+ict/comp/cpu/JTB:
+    short: JTB
+    long:
+        en: Jump Trace Buffer
+

@@ -1,0 +1,6 @@
+ict/net/mobile/MU-MIMO:
+    short: MU-MIMO
+    long:
+        en: Multi User Multiple-Input Multiple-Output
+    long-target:
+        latex: Multi User \acs{ict:net:mobile:MIMO}

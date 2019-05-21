@@ -1,0 +1,4 @@
+org/dect/GSMP:
+    short: GSMP
+    long:
+        en: General Switch Management Protocol

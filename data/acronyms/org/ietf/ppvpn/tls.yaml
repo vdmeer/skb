@@ -1,0 +1,8 @@
+org/ietf/ppvpn/TLS:
+    short: TLS
+    long:
+        en: Transparent LAN Service
+    notes:
+        en: RFC 4026
+    long-target:
+        latex: Transparent \acs{ict:net:LAN} Service

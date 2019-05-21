@@ -1,0 +1,7 @@
+ict/comp/hdd/scsi/SCC:
+    short: SCC
+    long:
+        en: SCSI Controller Commands
+    long-target:
+        latex: \acs{ict:comp:hdd:SCSI} Controller Commands
+

@@ -1,0 +1,6 @@
+org/lf/OPNFV:
+    short: OPNFV
+    long:
+        en: Open Platform for NFV
+    long-target:
+        latex: Open Platform for \acs{org:etsi:NFV}

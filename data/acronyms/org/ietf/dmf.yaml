@@ -1,0 +1,6 @@
+org/ietf/DMF:
+    short: DMF
+    long:
+        en: Digest Message Format
+    notes:
+        en: RFC 1153

@@ -1,0 +1,4 @@
+ict/comp/bios/acpi/SRAT:
+    short: SRAT
+    long:
+        en: Static Resource Affinity Table

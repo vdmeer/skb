@@ -1,0 +1,4 @@
+org/itu/atm/MCTD:
+    short: MCTD
+    long:
+        en: Mean Cell Transfer Delay

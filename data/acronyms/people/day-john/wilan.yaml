@@ -1,0 +1,6 @@
+people/day-john/WILAN:
+    short: WiLAN
+    long:
+        en: WiFi LAN
+    long-target:
+        latex: \acs{org:ieee:802:WIFI} \acs{ict:net:LAN}

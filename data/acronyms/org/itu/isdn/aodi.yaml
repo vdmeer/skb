@@ -1,0 +1,6 @@
+org/itu/isdn/AODI:
+    short: AODI
+    long:
+        en: Always On / Dynamic ISDN
+    long-target:
+        latex: Always On / Dynamic \acs{org:itu:ISDN}

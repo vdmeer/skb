@@ -1,0 +1,7 @@
+org/ietf/MASC:
+    short: MASC
+    long:
+        en: Multicast Address-Set Claim
+    notes:
+        en: RFC 2909, Multicast
+

@@ -1,0 +1,4 @@
+org/ieee/ethernet/ETH:
+    short: ETH
+    long:
+        en: Ethernet

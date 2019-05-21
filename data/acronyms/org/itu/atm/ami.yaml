@@ -1,0 +1,6 @@
+org/itu/atm/AMI:
+    short: AMI
+    long:
+        en: ATM Management Interface
+    long-target:
+        latex: \acs{org:itu:ATM} Management Interface

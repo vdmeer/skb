@@ -1,0 +1,5 @@
+ict/security/KDC:
+    short: KDC
+    long:
+        en: Key Distribution Center
+

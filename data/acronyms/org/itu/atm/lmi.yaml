@@ -1,0 +1,4 @@
+org/itu/atm/LMI:
+    short: LMI
+    long:
+        en: Layer Management Interface

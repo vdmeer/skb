@@ -1,0 +1,5 @@
+ict/comp/hdd/scsi/CCS:
+    short: CCS
+    long:
+        en: Common Command Set
+

@@ -1,0 +1,5 @@
+ict/net/WAN:
+    short: WAN
+    long:
+        en: Wide Area Network
+

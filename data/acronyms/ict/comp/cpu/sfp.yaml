@@ -1,0 +1,5 @@
+ict/comp/cpu/SFP:
+    short: SFP
+    long:
+        en: Saved Frame Pointer
+

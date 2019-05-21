@@ -1,0 +1,5 @@
+ict/net/MAC:
+    short: MAC
+    long:
+        en: Medium Access Control
+

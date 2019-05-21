@@ -1,0 +1,6 @@
+org/psoc/rina/RIB:
+    short: RIB
+    long:
+        en: Resource Information Base
+    description: 
+        en: database with all objects of a RINA network

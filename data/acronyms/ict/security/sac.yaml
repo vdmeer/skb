@@ -1,0 +1,5 @@
+ict/security/SAC:
+    short: SAC
+    long:
+        en: Strict Avalanche Criterion
+

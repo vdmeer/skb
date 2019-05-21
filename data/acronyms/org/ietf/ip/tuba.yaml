@@ -1,0 +1,8 @@
+org/ietf/ip/TUBA:
+    short: TUBA
+    long:
+        en: TCP and UDP with Bigger Addresses
+    notes:
+        en: RFC 1347
+    long-target:
+        latex: \acs{org:ietf:ip:TCP} and \acs{org:ietf:ip:UCP} with Bigger Addresses

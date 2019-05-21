@@ -1,0 +1,8 @@
+org/3gpp/2G:
+    short: 2G
+    long:
+        en: 2nd Generation
+    long-target:
+        latex: 2$^{nd}$ Generation
+        html: 2<sup>nd</sup> Generation
+

@@ -1,0 +1,4 @@
+ict/CLI:
+    short: CLI
+    long:
+        en: Command Line Interface

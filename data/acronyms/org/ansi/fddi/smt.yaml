@@ -1,0 +1,5 @@
+org/ansi/fddi/SMT:
+    short: SMT
+    long:
+        en: Station Management
+

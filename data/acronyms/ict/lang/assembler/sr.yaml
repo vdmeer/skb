@@ -1,0 +1,5 @@
+ict/lang/assembler/SR:
+    short: SR
+    long:
+        en: Status Register
+

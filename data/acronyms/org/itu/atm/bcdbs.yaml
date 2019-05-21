@@ -1,0 +1,4 @@
+org/itu/atm/BCDBS:
+    short: BCDBS
+    long:
+        en: Broadband Connectionless Data Bearer Service

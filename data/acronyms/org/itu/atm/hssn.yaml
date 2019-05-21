@@ -1,0 +1,4 @@
+org/itu/atm/HSSN:
+    short: HSSN
+    long:
+        en: HighSpeed Switching Network

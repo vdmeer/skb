@@ -1,0 +1,7 @@
+ict/comp/hdd/scsi/EASI:
+    short: EASI
+    long:
+        en: Enhanced Asynchronous SCSI Interface
+    long-target:
+        latex: Enhanced Asynchronous \acs{ict:comp:hdd:SCSI} Interface
+

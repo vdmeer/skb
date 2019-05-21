@@ -1,0 +1,9 @@
+ict/ascii/SBCS:
+    short: SBCS
+    long:
+        en: Single Byte Character Set
+    description: 
+        en: character encodings that use exactly one byte for each graphic character
+    urls:
+        Wikipedia: >
+            https://en.wikipedia.org/wiki/SBCS

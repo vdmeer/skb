@@ -1,0 +1,6 @@
+ict/lang/java/JAXRPC:
+    short: JAX-RPC
+    long:
+        en: Java API for XML-based Remote Procedure Calls
+    long-target:
+        latex: Java \acs{ict:API} for \acs{org:w3c:XML}-based Remote Procedure Calls

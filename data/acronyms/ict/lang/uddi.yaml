@@ -1,0 +1,9 @@
+ict/lang/UDDI:
+    short: UDDI
+    long:
+        en: Universal Description, Discovery, and Integration
+    description: 
+        en: XML-based language used in Web Services for registrations
+    urls:
+        Wikipedia: >
+            https://en.wikipedia.org/wiki/Web_Services_Discovery#Universal_Description_Discovery_and_Integration

@@ -1,0 +1,5 @@
+ict/net/LAN:
+    short: LAN
+    long:
+        en: Local Area Network
+

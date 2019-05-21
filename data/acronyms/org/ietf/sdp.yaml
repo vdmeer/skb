@@ -1,0 +1,7 @@
+org/ietf/SDP:
+    short: SDP
+    long:
+        en: Session Description Protocol
+    notes:
+        en: RFC 2327
+

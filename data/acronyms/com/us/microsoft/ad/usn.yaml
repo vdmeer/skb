@@ -1,0 +1,4 @@
+com/us/microsoft/ad/USN:
+    short: USN
+    long:
+        en: Update Sequence Number

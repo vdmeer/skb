@@ -1,0 +1,5 @@
+ict/unicode/CLDR:
+    short: CLDR
+    long:
+        en: Common Locale Data Repository
+

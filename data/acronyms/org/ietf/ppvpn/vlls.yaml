@@ -1,0 +1,6 @@
+org/ietf/ppvpn/VLLS:
+    short: VLLS
+    long:
+        en: Virtual Leased Line Service
+    notes:
+        en: RFC 4026

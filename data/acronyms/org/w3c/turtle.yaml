@@ -1,0 +1,6 @@
+org/w3c/TURTLE:
+    short: TURTLE
+    long:
+        en: Terse RDF Triple Language
+    long-target:
+        latex: Terse \acs{org:w3c:RDF} Triple Language

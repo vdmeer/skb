@@ -1,0 +1,6 @@
+org/itu/isdn/IDLC:
+    short: IDLC
+    long:
+        en: ISDN Data Link Control
+    long-target:
+        latex: \acs{org:itu:ISDN} Data Link Control

@@ -1,0 +1,6 @@
+org/ietf/snmp/SNMPv3:
+    short: SNMPv3
+    long:
+        en: SNMP version 3
+    long-target:
+        latex: \acs{org:ietf:SNMP} version 3

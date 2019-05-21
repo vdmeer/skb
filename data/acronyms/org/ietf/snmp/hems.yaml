@@ -1,0 +1,5 @@
+org/ietf/snmp/HEMS:
+    short: HEMS
+    long:
+        en: High-level Entity Management System
+

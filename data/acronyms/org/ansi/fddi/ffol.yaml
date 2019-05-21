@@ -1,0 +1,6 @@
+org/ansi/fddi/FFOL:
+    short: FFOL
+    long:
+        en: FDDI Follow-On-LAN
+    long-target:
+        latex: \acs{org:ansi:FDDI}Follow-On-\acs{ict:net:LAN}

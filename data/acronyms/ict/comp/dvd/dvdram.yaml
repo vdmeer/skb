@@ -1,0 +1,9 @@
+ict/comp/dvd/DVDRAM:
+    short: DVD-RAM
+    long:
+        en: DVDisk Random Access Memory
+    long-target:
+        latex: \acs{ict:comp:DVD}Disk Random Access Memory
+
+
+

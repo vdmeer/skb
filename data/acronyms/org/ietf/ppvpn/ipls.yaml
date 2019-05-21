@@ -1,0 +1,8 @@
+org/ietf/ppvpn/IPLS:
+    short: IPLS
+    long:
+        en: IP-only LAN-like Service
+    notes:
+        en: RFC 4026
+    long-target:
+        latex: \acs{org:ietf:IP}-only \acs{ict:net:LAN}-like Service

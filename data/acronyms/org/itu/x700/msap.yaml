@@ -1,0 +1,4 @@
+org/itu/x700/MSAP:
+    short: MSAP
+    long:
+        en: Management Service Access Point

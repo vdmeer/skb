@@ -1,0 +1,6 @@
+org/OIPF:
+    short: OIPF
+    long:
+        en: Open IPTV Forum
+    long-target:
+        latex: Open \acs{ict:net:IPTV} Forum

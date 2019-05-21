@@ -1,0 +1,5 @@
+ict/lang/assembler/BSS:
+    short: BSS
+    long:
+        en: Block Started by Symbol
+

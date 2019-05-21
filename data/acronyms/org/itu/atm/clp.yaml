@@ -1,0 +1,5 @@
+org/itu/atm/CLP:
+    short: CLP
+    long:
+        en: Cell Loss Priority
+

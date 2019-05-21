@@ -1,0 +1,4 @@
+org/itu/atm/ION:
+    short: ION
+    long:
+        en: Internetworking Over NBMA

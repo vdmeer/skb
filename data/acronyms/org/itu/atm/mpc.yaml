@@ -1,0 +1,4 @@
+org/itu/atm/MPC:
+    short: MPC
+    long:
+        en: MPOA Client

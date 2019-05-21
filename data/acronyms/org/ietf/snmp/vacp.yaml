@@ -1,0 +1,6 @@
+org/ietf/snmp/VACP:
+    short: VACP
+    long:
+        en: View-based Access Control Protoco
+    notes:
+        en: RFC 2575

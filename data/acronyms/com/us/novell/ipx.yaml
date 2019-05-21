@@ -1,0 +1,5 @@
+com/us/novell/IPX:
+    short: IPX
+    long:
+        en: Internet Packet eXchange
+

@@ -1,0 +1,4 @@
+org/etsi/SOLSA:
+    short: SoLSA
+    long:
+        en: Support of Localized Service Areas

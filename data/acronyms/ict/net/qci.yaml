@@ -1,0 +1,6 @@
+ict/net/QCI:
+    short: QCI
+    long:
+        en: QoS Class Identifier
+    long-target:
+        latex: \acs{ict:net:QoS} Class Identifier

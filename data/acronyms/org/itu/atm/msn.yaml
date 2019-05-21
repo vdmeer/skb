@@ -1,0 +1,4 @@
+org/itu/atm/MSN:
+    short: MSN
+    long:
+        en: Monitoring cell Sequence Number

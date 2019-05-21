@@ -1,0 +1,5 @@
+org/atis/AID:
+    short: AID
+    long:
+        en: Automatic Identification & Data Capture
+

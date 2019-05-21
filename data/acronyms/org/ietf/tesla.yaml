@@ -1,0 +1,7 @@
+org/ietf/TESLA:
+    short: TESLA
+    long:
+        en: Timed Efficient Stream Loss-tolerant Authentication
+    notes:
+        en: RFC 4082
+

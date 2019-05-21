@@ -1,0 +1,7 @@
+biz/3PP:
+    short: 3PP
+    long:
+        en: 3<sup>rd</sup> Party Products
+    long-target:
+        html: 3<sup>rd</sup> Party Products
+        latex: $3^{rd}$ Party Products

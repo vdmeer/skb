@@ -1,0 +1,5 @@
+ict/lang/assembler/CF:
+    short: CF
+    long:
+        en: Carry Flag
+

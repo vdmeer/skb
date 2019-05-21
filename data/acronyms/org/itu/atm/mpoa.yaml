@@ -1,0 +1,4 @@
+org/itu/atm/MPOA:
+    short: MPOA
+    long:
+        en: Multi-Protocol Over ATM

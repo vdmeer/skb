@@ -1,0 +1,4 @@
+ict/comp/memory/ROM:
+    short: ROM
+    long:
+        en: Read-Only Memory

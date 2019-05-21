@@ -1,0 +1,4 @@
+org/3gpp/GPRS:
+    short: GPRS
+    long:
+        en: General Packet Radio Service

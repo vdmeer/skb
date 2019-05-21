@@ -1,0 +1,5 @@
+ict/security/EFS:
+    short: EFS
+    long:
+        en: Encrypting File System
+

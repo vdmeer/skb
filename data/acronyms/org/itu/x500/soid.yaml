@@ -1,0 +1,7 @@
+org/itu/x500/SOID:
+    short: SOID
+    long:
+        en: Storage Object IDentifier
+    long-target:
+        latex: Storage Object \acl{ict:ID}
+

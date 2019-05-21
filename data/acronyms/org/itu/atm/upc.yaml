@@ -1,0 +1,4 @@
+org/itu/atm/UPC:
+    short: UPC
+    long:
+        en: Usage Parameter Control

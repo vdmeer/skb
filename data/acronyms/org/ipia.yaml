@@ -1,0 +1,6 @@
+org/IPIA:
+    short: IPIA
+    long:
+        en: IP Interworking Alliance
+    long-target:
+        latex: \acs{org:ietf:IP} Interworking Alliance

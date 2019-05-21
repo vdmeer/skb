@@ -1,0 +1,5 @@
+org/itu/x500/AN:
+    short: AN
+    long:
+        en: Alias Name
+

@@ -1,0 +1,5 @@
+ict/comp/cpu/ALU:
+    short: ALU
+    long:
+        en: Arithmetic and Logic Unit
+

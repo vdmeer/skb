@@ -1,0 +1,4 @@
+org/itu/x200/NSAP:
+    short: NSAP
+    long:
+        en: Network Service Access Point

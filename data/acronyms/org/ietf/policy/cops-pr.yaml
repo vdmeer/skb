@@ -1,0 +1,6 @@
+org/ietf/policy/COPS-PR:
+    short: COPS-PR
+    long:
+        en: Common Open Policy Service for Policy Provisioning
+    notes:
+        en: RFC 3084

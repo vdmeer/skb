@@ -1,0 +1,7 @@
+org/ietf/ip/CBT:
+    short: CBT
+    long:
+        en: Core Based Tree
+    notes:
+        en: RFC 1949/2189
+

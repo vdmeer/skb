@@ -1,0 +1,5 @@
+com/se/ericsson/nm-lab/upt/ADM:
+    short: ADM
+    long:
+        en: Application Domain Model
+

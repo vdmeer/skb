@@ -1,0 +1,5 @@
+org/itu/isdn/TA:
+    short: TA
+    long:
+        en: Terminal Adapter
+

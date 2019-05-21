@@ -1,0 +1,9 @@
+ict/FQN:
+    short: FQN
+    long:
+        en: Fully Qualified Name
+    description: 
+        en: an unambiguous name that specifies which object, function, or variable without further context being required
+    urls:
+        Wikipedia: >
+            https://en.wikipedia.org/wiki/Fully_qualified_name#Filenames_and_Paths

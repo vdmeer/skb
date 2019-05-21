@@ -1,0 +1,5 @@
+org/ansi/fddi/HRC:
+    short: HRC
+    long:
+        en: Hybrid Ring Control
+

@@ -1,0 +1,7 @@
+org/ietf/SRTP:
+    short: SRTP
+    long:
+        en: Secure Real-time Transport Protocol
+    notes:
+        en: RFC 3711
+

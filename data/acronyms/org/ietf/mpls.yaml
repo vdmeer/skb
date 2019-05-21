@@ -1,0 +1,7 @@
+org/ietf/MPLS:
+    short: MPLS
+    long:
+        en: Multi-Protocol Label Switching
+    notes:
+        en: RFC 3031
+

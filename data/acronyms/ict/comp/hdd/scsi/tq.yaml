@@ -1,0 +1,5 @@
+ict/comp/hdd/scsi/TQ:
+    short: TQ
+    long:
+        en: Tagged Queuing
+

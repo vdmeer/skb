@@ -1,0 +1,6 @@
+ict/dev/SDK:
+    short: SDK
+    long:
+        en: Software Development Kit
+    description: 
+        en: tool or framework to develop (compile, execute) softwar written in a particular programming language

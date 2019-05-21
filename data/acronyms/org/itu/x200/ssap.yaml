@@ -1,0 +1,4 @@
+org/itu/x200/SSAP:
+    short: SSAP
+    long:
+        en: Session Service Access Point

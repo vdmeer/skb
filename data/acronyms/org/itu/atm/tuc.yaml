@@ -1,0 +1,4 @@
+org/itu/atm/TUC:
+    short: TUC
+    long:
+        en: Total User Cell count

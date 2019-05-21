@@ -1,0 +1,5 @@
+org/itu/isdn/NDI:
+    short: NDI
+    long:
+        en: Network Distributed ISDN
+

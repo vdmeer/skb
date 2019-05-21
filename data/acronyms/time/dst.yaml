@@ -1,0 +1,5 @@
+time/DST:
+    short: DST
+    long:
+        en: Daylight Saving Time
+

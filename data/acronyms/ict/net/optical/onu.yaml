@@ -1,0 +1,4 @@
+ict/net/optical/ONU:
+    short: ONU
+    long:
+        en: Optical Network Units

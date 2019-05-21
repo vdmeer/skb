@@ -1,0 +1,6 @@
+org/ietf/SKI:
+    short: SKI
+    long:
+        en: Service Key Identifier
+    notes:
+        en: RFC 3280, also ITU X.509v3

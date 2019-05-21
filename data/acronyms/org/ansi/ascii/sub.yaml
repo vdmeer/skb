@@ -1,0 +1,7 @@
+org/ansi/ascii/SUB:
+    short: SUB
+    long:
+        en: Substitute
+    description:
+        en: ASCII control character (0o032, d26, 0x1A)
+

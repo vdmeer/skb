@@ -1,0 +1,5 @@
+org/ansi/fddi/PCM:
+    short: PCM
+    long:
+        en: Physical Connection Management
+

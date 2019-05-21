@@ -1,0 +1,4 @@
+org/itu/atm/PLCP:
+    short: PLCP
+    long:
+        en: Physical Layer Convergence Protocol

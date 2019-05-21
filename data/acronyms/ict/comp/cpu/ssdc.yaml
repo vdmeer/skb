@@ -1,0 +1,5 @@
+ict/comp/cpu/SSDC:
+    short: SSDC
+    long:
+        en: Stack Segment Descriptor Cache
+

@@ -1,0 +1,6 @@
+ict/dev/IDE:
+    short: IDE
+    long:
+        en: Integrated Development Environment
+    description: 
+        en: framework for software development

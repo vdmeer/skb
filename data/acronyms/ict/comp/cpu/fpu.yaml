@@ -1,0 +1,4 @@
+ict/comp/cpu/FPU:
+    short: FPU
+    long:
+        en: Floating Point Unit

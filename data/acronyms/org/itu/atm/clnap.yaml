@@ -1,0 +1,4 @@
+org/itu/atm/CLNAP:
+    short: CLNAP
+    long:
+        en: Connectionless Network Access Protocol

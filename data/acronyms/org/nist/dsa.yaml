@@ -1,0 +1,5 @@
+org/nist/DSA:
+    short: DSA
+    long:
+        en: Digital Signature Algorithm
+

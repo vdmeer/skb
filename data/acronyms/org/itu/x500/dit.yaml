@@ -1,0 +1,4 @@
+org/itu/x500/DIT:
+    short: DIT
+    long:
+        en: Directory Information Tree

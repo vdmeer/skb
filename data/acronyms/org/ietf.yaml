@@ -1,0 +1,7 @@
+org/IETF:
+    short: IETF
+    long:
+        en: Internet Engineering Task Force
+    description: 
+        en: RFC 1603/2418/3233
+

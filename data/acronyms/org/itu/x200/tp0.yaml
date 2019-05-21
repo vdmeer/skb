@@ -1,0 +1,4 @@
+org/itu/x200/TP0:
+    short: TP0
+    long:
+        en: Transport Protocol class 0

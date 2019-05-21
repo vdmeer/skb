@@ -1,0 +1,4 @@
+org/itu/atm/CIR:
+    short: CIR
+    long:
+        en: Committed Information Rate

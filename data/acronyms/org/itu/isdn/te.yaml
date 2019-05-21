@@ -1,0 +1,4 @@
+org/itu/isdn/TE:
+    short: TE
+    long:
+        en: Terminal Endpoint

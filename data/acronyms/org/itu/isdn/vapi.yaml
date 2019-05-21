@@ -1,0 +1,4 @@
+org/itu/isdn/VAPI:
+    short: VAPI
+    long:
+        en: Virtual Application Programming Interface

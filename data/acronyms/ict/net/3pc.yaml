@@ -1,0 +1,5 @@
+ict/net/3PC:
+    short: 3PC
+    long:
+        en: 3-Phase Commit Protocol
+

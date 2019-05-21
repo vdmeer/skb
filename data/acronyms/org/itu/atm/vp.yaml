@@ -1,0 +1,4 @@
+org/itu/atm/VP:
+    short: VP
+    long:
+        en: Virtual Path

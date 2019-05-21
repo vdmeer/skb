@@ -1,0 +1,6 @@
+org/CDG:
+    short: CDG
+    long:
+        en: CDMA Development Group
+    long-target:
+        latex: \acs{ict:net/CDMA} Development Group

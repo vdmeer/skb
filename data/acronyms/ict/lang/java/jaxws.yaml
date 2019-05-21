@@ -1,0 +1,6 @@
+ict/lang/java/JAXWS:
+    short: JAX-WS
+    long:
+        en: Java API for XML-based Web Services
+    long-target:
+        latex: Java \acs{ict:API} for \acs{org:w3c:XML}-based Web Services

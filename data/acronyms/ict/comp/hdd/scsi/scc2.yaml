@@ -1,0 +1,7 @@
+ict/comp/hdd/scsi/SCC2:
+    short: SSC
+    long:
+        en: SCSI Stream Commands
+    long-target:
+        latex: \acs{ict:comp:hdd:SCSI} Stream Commands
+

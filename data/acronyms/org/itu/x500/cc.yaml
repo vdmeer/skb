@@ -1,0 +1,5 @@
+org/itu/x500/CC:
+    short: CC
+    long:
+        en: Country Code
+

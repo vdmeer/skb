@@ -1,0 +1,7 @@
+org/ansi/ascii/LF:
+    short: LF
+    long:
+        en: Line feed
+    description:
+        en: ASCII control character (0o012, d10, 0x0A)
+

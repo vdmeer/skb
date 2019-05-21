@@ -1,0 +1,5 @@
+ict/os/unix/commands/RSH:
+    short: RSH
+    long:
+        en: Remote SHell
+

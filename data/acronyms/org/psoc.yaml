@@ -1,0 +1,10 @@
+org/PSOC:
+    short: PSOC
+    long:
+        en: Pouzin Society
+    description: 
+        en: RINA standardization organization
+    urls:
+        Home: >
+            https://www.pouzinsociety.org
+

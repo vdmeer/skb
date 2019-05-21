@@ -1,0 +1,4 @@
+org/itu/atm/SRE:
+    short: SRE
+    long:
+        en: Self Routing switch Element

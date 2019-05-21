@@ -1,0 +1,4 @@
+org/itu/atm/IISP:
+    short: IISP
+    long:
+        en: Interim Inter-Switch Signaling Protocol

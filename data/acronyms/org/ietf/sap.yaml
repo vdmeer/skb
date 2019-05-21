@@ -1,0 +1,7 @@
+org/ietf/SAP:
+    short: SAP
+    long:
+        en: Session Announcement Protocol
+    notes:
+        en: RFC 2974
+

@@ -1,0 +1,10 @@
+org/ECMA-hist:
+    short: ECMA
+    long:
+        en: European Computer Manufacturers Association
+    urls:
+        Home: >
+            https://www.ecma-international.org
+    description: 
+        en: discontinued, see ECMA
+

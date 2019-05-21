@@ -1,0 +1,7 @@
+org/w3c/XSD:
+    short: XSD
+    long:
+        en: XML Schema Definition
+    long-target:
+        latex: \acs{org:w3c:XML} Schema Definition
+

@@ -1,0 +1,8 @@
+org/ietf/ppvpn/VE:
+    short: VE
+    long:
+        en: VPLS Edge
+    notes:
+        en: RFC 4026
+    long-target:
+        latex: \acs{org:ietf:ppvpn:VPLS} Edge

@@ -1,0 +1,6 @@
+org/itu/q1200/SSCP:
+    short: SSCP
+    long:
+        en: Service Switching & Control Point
+    long-target:
+        latex: Service Switching \& Control Point

@@ -1,0 +1,7 @@
+ict/os/STDOUT:
+    short: STOUT
+    long:
+        en: Standard Output
+    description: 
+        en: standard output device
+

@@ -1,0 +1,5 @@
+ict/comp/cpu/POEP:
+    short: POEP
+    long:
+        en: Primary Operand Execution Pipeline
+

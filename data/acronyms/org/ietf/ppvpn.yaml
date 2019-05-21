@@ -1,0 +1,8 @@
+org/ietf/PPVPN:
+    short: PPVPN
+    long:
+        en: Provider Provisioned VPN
+    notes:
+        en: RFC 4026
+    long-target:
+        latex: Provider Provisioned \acs{ict:net:VPN}

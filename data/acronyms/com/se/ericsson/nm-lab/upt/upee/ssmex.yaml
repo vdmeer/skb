@@ -1,0 +1,4 @@
+com/se/ericsson/nm-lab/upt/upee/SSMEX:
+    short: SSMEx
+    long:
+        en: Sequential State Machine Executor

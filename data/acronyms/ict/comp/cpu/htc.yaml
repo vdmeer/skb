@@ -1,0 +1,5 @@
+ict/comp/cpu/HTC:
+    short: HTC
+    long:
+        en: Hardware Thermal Controller
+

@@ -1,0 +1,5 @@
+ict/security/SCVP:
+    short: SCVP
+    long:
+        en: Simple Certificate Validation Protocol
+

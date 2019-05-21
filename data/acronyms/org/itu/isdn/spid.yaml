@@ -1,0 +1,5 @@
+org/itu/isdn/SPID:
+    short: SPID
+    long:
+        en: Service Profile IDentifier
+

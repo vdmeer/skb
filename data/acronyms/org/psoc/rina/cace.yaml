@@ -1,0 +1,4 @@
+org/psoc/rina/CACE:
+    short: CACE
+    long:
+        en: Common Application Connection Establishment

@@ -1,0 +1,7 @@
+ict/comp/hdd/scsi/SDMS:
+    short: SDMS
+    long:
+        en: SCSI Device Management System
+    long-target:
+        latex: \acs{ict:comp:hdd:SCSI} Device Management System
+

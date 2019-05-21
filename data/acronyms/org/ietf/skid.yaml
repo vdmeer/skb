@@ -1,0 +1,6 @@
+org/ietf/SKID:
+    short: SKID
+    long:
+        en: Service Key IDentifier
+    notes:
+        en: RFC 3280, also ITU-T X.509v3

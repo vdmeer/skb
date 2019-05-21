@@ -1,0 +1,7 @@
+org/ietf/SNPP:
+    short: SNPP
+    long:
+        en: Simple Network Paging Protocol
+    notes:
+        en: RFC 1861
+

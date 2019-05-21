@@ -1,0 +1,5 @@
+ict/os/unix/commands/TROFF:
+    short: TROFF
+    long:
+        en: Typesetter New Run-OFF
+

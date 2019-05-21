@@ -1,0 +1,6 @@
+org/ietf/ppvpn/P:
+    short: P
+    long:
+        en: Provider router
+    notes:
+        en: RFC 4026

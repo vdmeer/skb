@@ -1,0 +1,4 @@
+org/3gpp/TTI:
+    short: TTI
+    long:
+        en: Transmission Time Interval

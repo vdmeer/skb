@@ -1,0 +1,8 @@
+org/IMF:
+    short: IMF
+    long:
+        en: International Monetary Fund
+    urls:
+        Home: >
+            https://www.imf.org
+

@@ -1,0 +1,6 @@
+org/ietf/policy/COPS:
+    short: COPS
+    long:
+        en: Common Open Policy Service protocol
+    notes:
+        en: RFC 2748

@@ -1,0 +1,6 @@
+org/itu/isdn/ISPA:
+    short: ISPA
+    long:
+        en: ISDN PAcket
+    long-target:
+        latex: \acs{org:itu:ISDN} PAcket

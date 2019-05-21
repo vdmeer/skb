@@ -1,0 +1,5 @@
+org/ansi/fddi/PMD:
+    short: PMD
+    long:
+        en: Physical (layer) Medium Dependent
+

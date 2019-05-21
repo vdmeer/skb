@@ -1,0 +1,4 @@
+org/itu/atm/SSCOP:
+    short: SSCOP
+    long:
+        en: Service Specific Connection Orientated Protocol

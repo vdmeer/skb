@@ -1,0 +1,6 @@
+org/itu/atm/ATMARP:
+    short: ATMARP
+    long:
+        en: ATM Address Resolution Protocol
+    long-target:
+        latex: \acs{org:itu:ATM} Address Resolution Protocol

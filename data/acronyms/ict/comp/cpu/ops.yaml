@@ -1,0 +1,5 @@
+ict/comp/cpu/OPS:
+    short: OPS
+    long:
+        en: Operations Per Second
+

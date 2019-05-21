@@ -1,0 +1,4 @@
+org/itu/atm/CIP:
+    short: CIP
+    long:
+        en: Classical IP over ATM

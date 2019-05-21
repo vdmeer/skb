@@ -1,0 +1,7 @@
+ict/comp/hdd/scsi/SBP:
+    short: SBP
+    long:
+        en: SCSI-3 serial Bus Protocol
+    long-target:
+        latex: \acs{ict:comp:hdd:SCSI}-3 serial Bus Protocol
+

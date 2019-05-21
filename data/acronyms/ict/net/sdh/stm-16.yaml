@@ -1,0 +1,8 @@
+ict/net/sdh/STM-16:
+    short: STM-16
+    long:
+        en: Synchronous Transport Mode 16
+    long-target:
+        latex: \acs{ict:net:sdh:STM} Mode 16
+    notes:
+        en: 2488,32 Mbps

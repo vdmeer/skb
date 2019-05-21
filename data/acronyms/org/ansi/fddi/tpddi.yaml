@@ -1,0 +1,5 @@
+org/ansi/fddi/TPDDI:
+    short: TPDDI
+    long:
+        en: Twisted Pair Distributed Data Interface
+

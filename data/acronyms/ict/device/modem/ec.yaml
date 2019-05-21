@@ -1,0 +1,5 @@
+ict/device/modem/EC:
+    short: EC
+    long:
+        en: Error Correction
+

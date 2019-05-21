@@ -1,0 +1,5 @@
+ict/security/GNFS:
+    short: GNFS
+    long:
+        en: General Number Field Sieve
+

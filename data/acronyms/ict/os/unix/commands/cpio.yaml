@@ -1,0 +1,5 @@
+ict/os/unix/commands/CPIO:
+    short: CPIO
+    long:
+        en: CoPy In/Out
+

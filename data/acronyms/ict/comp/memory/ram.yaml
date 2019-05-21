@@ -1,0 +1,4 @@
+ict/comp/memory/RAM:
+    short: RAM
+    long:
+        en: Random-Access Memory

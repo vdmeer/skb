@@ -1,0 +1,5 @@
+ict/net/ADSL:
+    short: ADSL
+    long:
+        en: Asymmetric Digital Subscriber Line
+

@@ -1,0 +1,4 @@
+org/itu/atm/SARPDU:
+    short: SARPDU
+    long:
+        en: Segmentation And Reassembly Protocol Data Unit

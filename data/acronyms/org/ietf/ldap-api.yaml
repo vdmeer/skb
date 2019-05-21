@@ -1,0 +1,8 @@
+org/ietf/LDAP-API:
+    short: LDAP-API
+    long:
+        en: Lightweight Directory Access Protocol Application Program Interface
+    notes:
+        en: RFC 1823
+    long-target:
+        latex: \acs{org:ietf:LDAP} \acs{ict:API}

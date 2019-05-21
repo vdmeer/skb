@@ -1,0 +1,4 @@
+org/ietf/policy/PCIM:
+    short: PCIM
+    long:
+        en: Policy Core Information Model

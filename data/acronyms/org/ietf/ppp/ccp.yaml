@@ -1,0 +1,7 @@
+org/ietf/ppp/CCP:
+    short: CCP
+    long:
+        en: Compression Control Protocol
+    notes:
+        en: RFC 1962
+

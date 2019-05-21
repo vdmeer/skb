@@ -1,0 +1,4 @@
+org/itu/atm/PVC:
+    short: PVC
+    long:
+        en: Permanent Virtual Circuit

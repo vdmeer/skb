@@ -1,0 +1,6 @@
+org/ietf/GRE:
+    short: GRE
+    long:
+        en: Generic Routing Encapsulation
+    notes:
+        en: RFC 1701

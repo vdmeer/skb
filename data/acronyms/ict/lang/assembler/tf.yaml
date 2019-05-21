@@ -1,0 +1,5 @@
+ict/lang/assembler/TF:
+    short: TF
+    long:
+        en: Trace Flag
+

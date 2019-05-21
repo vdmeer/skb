@@ -1,0 +1,5 @@
+org/itu/isdn/DS3:
+    short: DS3
+    long:
+        en: Digital Signal level 3
+

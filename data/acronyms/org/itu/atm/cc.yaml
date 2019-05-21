@@ -1,0 +1,5 @@
+org/itu/atm/CC:
+    short: CC
+    long:
+        en: Continuity Cell
+

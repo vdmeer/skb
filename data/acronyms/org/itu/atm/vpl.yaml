@@ -1,0 +1,4 @@
+org/itu/atm/VPL:
+    short: VPL
+    long:
+        en: Virtual Path Link

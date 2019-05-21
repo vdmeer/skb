@@ -1,0 +1,6 @@
+org/ietf/snmp/SNMPv2c:
+    short: SNMPv2c
+    long:
+        en: SNMP version 2 community
+    long-target:
+        latex: \acs{org:ietf:SNMP} 2 community

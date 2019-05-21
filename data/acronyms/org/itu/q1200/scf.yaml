@@ -1,0 +1,4 @@
+org/itu/q1200/SCF:
+    short: SCF
+    long:
+        en: Service Control Function

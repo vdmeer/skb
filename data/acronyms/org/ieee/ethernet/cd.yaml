@@ -1,0 +1,7 @@
+org/ieee/ethernet/CD:
+    short: CD
+    long:
+        en: Carrier Detect
+    notes:
+        en: IEEE 802.3 Series, Ethernet
+

@@ -1,0 +1,5 @@
+org/ietf/snmp/AE:
+    short: AE
+    long:
+        en: Application Entity
+

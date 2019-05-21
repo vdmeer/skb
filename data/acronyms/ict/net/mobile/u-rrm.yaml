@@ -1,0 +1,6 @@
+ict/net/mobile/U-RRM:
+    short: U-RRM
+    long:
+        en: User Radio Resource Management
+    long-target:
+        latex: User \acs{ict:net:mobile:RRM}

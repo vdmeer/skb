@@ -1,0 +1,5 @@
+ict/device/modem/AA:
+    short: AA
+    long:
+        en: Auto Answer
+

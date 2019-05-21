@@ -1,0 +1,4 @@
+org/itu/atm/CRF-VP:
+    short: CRF (VP)
+    long:
+        en: Connection Related Function Virtual Path

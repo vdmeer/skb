@@ -1,0 +1,4 @@
+org/itu/atm/MCR:
+    short: MCR
+    long:
+        en: Minimum Cell Rate

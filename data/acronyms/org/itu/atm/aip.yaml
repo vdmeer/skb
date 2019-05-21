@@ -1,0 +1,6 @@
+org/itu/atm/AIP:
+    short: AIP
+    long:
+        en: ATM Interface Processor
+    long-target:
+        latex: \acs{org:itu:ATM} Interface Processor

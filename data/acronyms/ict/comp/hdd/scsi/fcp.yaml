@@ -1,0 +1,7 @@
+ict/comp/hdd/scsi/FCP:
+    short: FCP
+    long:
+        en: (SCSI-3) Fibre Channel Protocol
+    long-target:
+        latex: (\acs{ict:comp:hdd:SCSI}-3) Fibre Channel Protocol
+

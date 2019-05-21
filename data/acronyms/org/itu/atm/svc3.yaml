@@ -1,0 +1,4 @@
+org/itu/atm/SVC3:
+    short: SVC
+    long:
+        en: Switched Virtual Connection

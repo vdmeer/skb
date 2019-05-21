@@ -1,0 +1,5 @@
+org/ietf/ppp/ACFC:
+    short: ACFC
+    long:
+        en: Address and Control Field Compression
+

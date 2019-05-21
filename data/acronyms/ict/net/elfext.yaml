@@ -1,0 +1,5 @@
+ict/net/ELFEXT:
+    short: ELFEXT
+    long:
+        en: Equal Level Far-end Crosstalk
+

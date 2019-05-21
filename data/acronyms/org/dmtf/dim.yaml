@@ -1,0 +1,5 @@
+org/dmtf/DIM:
+    short: DIM
+    long:
+        en: Desktop Management Interface
+

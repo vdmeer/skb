@@ -1,0 +1,6 @@
+org/ietf/ppvpn/RT:
+    short: RT
+    long:
+        en: Route Target
+    notes:
+        en: RFC 4026

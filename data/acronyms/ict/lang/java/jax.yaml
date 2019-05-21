@@ -1,0 +1,6 @@
+ict/lang/java/JAX:
+    short: JAX
+    long:
+        en: Java API for XML
+    long-target:
+        latex: Java \acs{ict:API} for \acs{org:w3c:XML}

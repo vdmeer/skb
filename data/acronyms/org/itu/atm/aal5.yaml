@@ -1,0 +1,7 @@
+org/itu/atm/AAL5:
+    short: AAL5
+    long:
+        en: ATM Adaptation Layer Type 5
+    long-target:
+        latex: \acs{org:itu:ATM} Adaptation Layer Type 5
+        

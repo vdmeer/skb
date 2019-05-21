@@ -1,0 +1,5 @@
+ict/security/OCSP:
+    short: OCSP
+    long:
+        en: Online Certificate Status (revocation) Protocol
+

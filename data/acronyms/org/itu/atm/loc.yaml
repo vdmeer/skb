@@ -1,0 +1,4 @@
+org/itu/atm/LOC:
+    short: LOC
+    long:
+        en: Loss of Cell delineation

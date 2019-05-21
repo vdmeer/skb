@@ -1,0 +1,6 @@
+org/itu/x600/ASN1:
+    short: ASN.1
+    long:
+        en: Abstract Syntax Notation One
+    notes:
+        en: was X.409, then X.208/9, finally X.680 and X.690 series

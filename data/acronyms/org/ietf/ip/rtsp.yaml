@@ -1,0 +1,7 @@
+org/ietf/ip/RTSP:
+    short: RTSP
+    long:
+        en: Real Time Streaming Protocol
+    notes:
+        en: RFC 2326
+

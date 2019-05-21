@@ -1,0 +1,4 @@
+org/itu/atm/OCD:
+    short: OCD
+    long:
+        en: Out-of-Cell Delineation

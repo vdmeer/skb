@@ -1,0 +1,6 @@
+org/ietf/ECMP:
+    short: ECMP
+    long:
+        en: Electroning Commerce Modeling Language
+    notes:
+        en: RFC 4112

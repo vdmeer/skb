@@ -1,0 +1,4 @@
+org/itu/atm/BSVC:
+    short: BSVC
+    long:
+        en: Broadcast Switched Virtual Connections

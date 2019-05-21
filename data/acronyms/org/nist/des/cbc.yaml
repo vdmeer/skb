@@ -1,0 +1,5 @@
+org/nist/des/CBC:
+    short: CBC
+    long:
+        en: Cipher Block Chaining (mode)
+

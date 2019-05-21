@@ -1,0 +1,4 @@
+org/itu/atm/VCI:
+    short: VCI
+    long:
+        en: Virtual Channel Identifier

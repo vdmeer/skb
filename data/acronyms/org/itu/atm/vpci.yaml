@@ -1,0 +1,4 @@
+org/itu/atm/VPCI:
+    short: VPCI
+    long:
+        en: Virtual Path Connection Identifier

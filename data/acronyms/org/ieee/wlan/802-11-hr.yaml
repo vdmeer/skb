@@ -1,0 +1,4 @@
+org/ieee/wlan/802-11-HR:
+    short: 802.11/HR
+    long:
+        en: 802.11 High Rate

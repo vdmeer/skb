@@ -1,0 +1,4 @@
+org/itu/atm/ESI:
+    short: ESI
+    long:
+        en: End System IDentifier

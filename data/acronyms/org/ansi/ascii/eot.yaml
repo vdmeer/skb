@@ -1,0 +1,7 @@
+org/ansi/ascii/EOT:
+    short: EOT
+    long:
+        en: End of Transmission
+    description:
+        en: ASCII control character (0o004, d4, 0x04)
+

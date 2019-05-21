@@ -1,0 +1,7 @@
+org/ansi/ascii/GS:
+    short: GS
+    long:
+        en: Group Separator
+    description:
+        en: ASCII control character (0o035, d29, 0x1D)
+

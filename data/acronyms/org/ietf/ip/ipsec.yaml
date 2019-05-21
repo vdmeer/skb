@@ -1,0 +1,6 @@
+org/ietf/ip/IPSEC:
+    short: IPSec
+    long:
+        en: Internet Protocol Security
+    long-target:
+        latex: \acs{org:ietf:IP} Security

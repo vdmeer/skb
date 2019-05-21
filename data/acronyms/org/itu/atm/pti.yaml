@@ -1,0 +1,4 @@
+org/itu/atm/PTI:
+    short: PTI
+    long:
+        en: Payload Type Identifier

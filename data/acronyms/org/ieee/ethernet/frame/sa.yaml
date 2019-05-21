@@ -1,0 +1,7 @@
+org/ieee/ethernet/frame/SA:
+    short: SA
+    long:
+        en: Source Address
+    notes:
+        en: IEEE 802.3 Series, Ethernet, part of an Ethernet Frame
+

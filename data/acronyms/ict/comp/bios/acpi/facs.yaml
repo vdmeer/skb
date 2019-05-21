@@ -1,0 +1,4 @@
+ict/comp/bios/acpi/FACS:
+    short: FACS
+    long:
+        en: Firmware ACPI Control Structure

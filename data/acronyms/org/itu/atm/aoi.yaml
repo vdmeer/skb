@@ -1,0 +1,4 @@
+org/itu/atm/AOI:
+    short: AOI
+    long:
+        en: Active Output Interface

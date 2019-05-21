@@ -1,0 +1,5 @@
+ict/os/unix/commands/TCSH:
+    short: TCSH
+    long:
+        en: Trustedi C SHell
+

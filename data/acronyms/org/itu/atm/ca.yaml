@@ -1,0 +1,4 @@
+org/itu/atm/CA:
+    short: CA
+    long:
+        en: Cell Arrival

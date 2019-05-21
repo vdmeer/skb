@@ -1,0 +1,4 @@
+org/psoc/rina/RA:
+    short: RA
+    long:
+        en: Resource Allocator

@@ -1,0 +1,5 @@
+org/ietf/VMTP:
+    short: VMTP
+    long:
+        en: Versatile Message Transaction Protocol
+

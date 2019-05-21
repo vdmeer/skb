@@ -1,0 +1,5 @@
+ict/os/unix/FSS:
+    short: FSS
+    long:
+        en: Fast System Switch
+

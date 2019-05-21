@@ -1,0 +1,5 @@
+ict/comp/cpu/MIMD:
+    short: MIMD
+    long:
+        en: Multiple Instruction (stream), Multiple Data (stream)
+

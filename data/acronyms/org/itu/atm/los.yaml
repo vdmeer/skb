@@ -1,0 +1,4 @@
+org/itu/atm/LOS:
+    short: LOS
+    long:
+        en: Loss of Signal

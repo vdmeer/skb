@@ -1,0 +1,4 @@
+org/itu/atm/ATC:
+    short: ATC
+    long:
+        en: Address Translation Controller

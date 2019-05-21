@@ -1,0 +1,5 @@
+ict/comp/cpu/SISD:
+    short: SISD
+    long:
+        en: Single Instruction (stream), Single Data (stream)
+

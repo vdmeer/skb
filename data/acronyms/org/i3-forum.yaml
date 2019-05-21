@@ -1,0 +1,6 @@
+org/i3Forum:
+    short: i3Forum
+    long:
+        en: International Interconnect Forum for Services over IP
+    long-target:
+        latex: International Interconnect Forum for Services over \acs{org:ietf:IP}

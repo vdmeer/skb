@@ -1,0 +1,7 @@
+org/ietf/ppp/SDTP:
+    short: SDTP
+    long:
+        en: Serial Data Transport Protocol
+    notes:
+        en: RFC 1963
+

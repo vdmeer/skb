@@ -1,0 +1,4 @@
+ict/comp/bios/acpi/AML:
+    short: AML
+    long:
+        en: ACPI Machine Language

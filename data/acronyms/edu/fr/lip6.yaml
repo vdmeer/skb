@@ -1,0 +1,8 @@
+edu/fr/LIP6:
+    short: LIP6
+    long:
+        en: University of Piere & Marie Curie, LIP6
+    long-target:
+        html: University of Piere &amp; Marie Curie, LIP6
+        latex: University of Piere \& Marie Curie, LIP6
+

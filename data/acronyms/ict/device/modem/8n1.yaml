@@ -1,0 +1,5 @@
+ict/device/modem/8N1:
+    short: 8N1
+    long:
+        en: 8 (bits), No (parity bit), 1 (stop bit)
+

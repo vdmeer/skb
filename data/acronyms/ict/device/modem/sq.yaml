@@ -1,0 +1,5 @@
+ict/device/modem/SQ:
+    short: SQ
+    long:
+        en: Signal Quality
+

@@ -1,0 +1,5 @@
+ict/lang/assembler/SAL:
+    short: SAL
+    long:
+        en: Symbolic Assembly Language
+

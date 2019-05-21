@@ -1,0 +1,5 @@
+ict/security/PSK:
+    short: PSK
+    long:
+        en: Pre-Shared Key
+

@@ -1,0 +1,5 @@
+ict/comp/cpu/FC-PGA:
+    short: FC-PGA
+    long:
+        en: Flip Chip Pin Grid Array
+

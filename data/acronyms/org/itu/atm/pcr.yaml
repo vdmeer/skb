@@ -1,0 +1,4 @@
+org/itu/atm/PCR:
+    short: PCR
+    long:
+        en: Peak Cell Rate

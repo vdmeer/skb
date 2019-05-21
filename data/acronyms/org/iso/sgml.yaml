@@ -1,0 +1,6 @@
+org/iso/SGML:
+    short: SGML
+    long:
+        en: Standard Generalized Markup Language
+    notes:
+        en: ISO 8879 by JTC1, also IETF RFC 1874

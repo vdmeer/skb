@@ -1,0 +1,7 @@
+ict/comp/dvd/DVDRG:
+    short: DVD-R(G)
+    long:
+        en: DVDisk - Read (General use)
+    long-target:
+        latex: \acs{ict:comp:DVD}Disk - Read (General use)
+

@@ -1,0 +1,6 @@
+org/itu/x700/MAPDU:
+    short: MAPDU
+    long:
+        en: Management Application Protocol Data Unit
+    long-target:
+        latex: Management Application \acs{org:itu:x200:PDU}

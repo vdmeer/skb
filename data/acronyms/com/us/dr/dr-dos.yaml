@@ -1,0 +1,6 @@
+com/us/dr/DR-DOS:
+    short: DR-DOS
+    long:
+        en: Digital Research DOS
+    long-target:
+        latex: Digital Research \acs{ict:os:DOS}

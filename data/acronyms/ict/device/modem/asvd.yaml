@@ -1,0 +1,5 @@
+ict/device/modem/ASVD:
+    short: ASVD
+    long:
+        en: Analog Simultaneous Voice and Data
+

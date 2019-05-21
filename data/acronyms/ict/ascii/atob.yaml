@@ -1,0 +1,8 @@
+ict/ascii/ATOB:
+    short: ATOB
+    long:
+        en: ASCII TO Binary
+    description: 
+        en: function (method) or program to convert ASCII to binary
+    long-target:
+        latex: \acs{org:ansi:ASCI} TO Binary

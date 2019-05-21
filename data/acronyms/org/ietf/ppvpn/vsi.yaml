@@ -1,0 +1,6 @@
+org/ietf/ppvpn/VSI:
+    short: VSI
+    long:
+        en: Virtual Switched Instance
+    notes:
+        en: RFC 4026

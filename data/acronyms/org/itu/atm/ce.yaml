@@ -1,0 +1,4 @@
+org/itu/atm/CE:
+    short: CE
+    long:
+        en: Connection Endpoint

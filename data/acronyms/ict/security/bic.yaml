@@ -1,0 +1,5 @@
+ict/security/BIC:
+    short: BIC
+    long:
+        en: Bit Independence Criterion
+

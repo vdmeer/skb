@@ -1,0 +1,5 @@
+ict/lang/assembler/DI:
+    short: DI
+    long:
+        en: Destination Index
+

@@ -1,0 +1,9 @@
+org/ietf/SNTP:
+    short: SNTP
+    long:
+        en: Simple Network Time Protocol
+    notes:
+        en: RFC 2030
+    long-target:
+        latex: Simple \acs{org:ietf:NTP}
+

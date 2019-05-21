@@ -1,0 +1,6 @@
+ict/dev/RCS:
+    short: RCS
+    long:
+        en: Revision Control System
+    description: 
+        en: software to manage versions of source code and/or other artifacts

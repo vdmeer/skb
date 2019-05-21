@@ -1,0 +1,5 @@
+ict/comp/hdd/DIO:
+    short: DIO
+    long:
+        en: Direct Input Output
+

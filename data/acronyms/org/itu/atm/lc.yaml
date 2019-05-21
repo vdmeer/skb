@@ -1,0 +1,4 @@
+org/itu/atm/LC:
+    short: LC
+    long:
+        en: Loopback Capability

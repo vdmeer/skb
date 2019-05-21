@@ -1,0 +1,4 @@
+org/psoc/rina/FAI:
+    short: FAI
+    long:
+        en: Flow Allocator Instance

@@ -1,0 +1,5 @@
+ict/lang/assembler/TASM:
+    short: TASM
+    long:
+        en: Turbo ASseMbler
+

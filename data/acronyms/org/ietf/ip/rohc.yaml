@@ -1,0 +1,7 @@
+org/ietf/ip/ROHC:
+    short: ROHC
+    long:
+        en: RObust Header Compression
+    notes:
+        en: RFC 3095/3759
+

@@ -1,0 +1,4 @@
+org/oasis/XACML:
+    short: XACML
+    long:
+        en: eXtensible Access Control Markup Language

@@ -1,0 +1,6 @@
+org/ietf/www/URI:
+    short: URI
+    long:
+        en: Uniform Resource Identifier
+    notes:
+        en: RFC 1630/2396

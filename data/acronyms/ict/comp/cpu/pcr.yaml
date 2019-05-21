@@ -1,0 +1,5 @@
+ict/comp/cpu/PCR:
+    short: PCR
+    long:
+        en: Processor Configuration Register
+

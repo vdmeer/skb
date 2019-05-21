@@ -1,0 +1,4 @@
+org/etsi/nfv/PNF:
+    short: PNF
+    long:
+        en: Physical Network Function

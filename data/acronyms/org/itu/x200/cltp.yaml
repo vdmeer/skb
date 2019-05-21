@@ -1,0 +1,4 @@
+org/itu/x200/CLTP:
+    short: CLTP
+    long:
+        en: ConnectionLess Transport Protocol

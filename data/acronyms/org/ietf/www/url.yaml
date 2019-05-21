@@ -1,0 +1,6 @@
+org/ietf/www/URL:
+    short: URL
+    long:
+        en: Uniform Resource Locator
+    notes:
+        en: RFC 1738

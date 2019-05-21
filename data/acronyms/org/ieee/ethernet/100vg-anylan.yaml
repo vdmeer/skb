@@ -1,0 +1,7 @@
+org/ieee/ethernet/100VG-AnyLAN:
+    short: 100VG-AnyLAN
+    long:
+        en: Ethernet with 100 MBit/s
+    notes:
+        en: "IEEE 802.12: Ethernet with 100 MBit/s, Baseband Transmission"
+

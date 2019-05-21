@@ -1,0 +1,7 @@
+org/ietf/ip/IPv6:
+    short: IPv6
+    long:
+        en: Internet Protocol, version 6
+    notes:
+        en: RFC 1883/1884
+

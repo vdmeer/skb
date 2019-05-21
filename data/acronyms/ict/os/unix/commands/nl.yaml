@@ -1,0 +1,5 @@
+ict/os/unix/commands/NL:
+    short: NL
+    long:
+        en: Number Lines
+

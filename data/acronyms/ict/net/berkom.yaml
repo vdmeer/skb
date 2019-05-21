@@ -1,0 +1,7 @@
+ict/net/BERKOM:
+    short: BERKOM
+    long:
+        de: BERliner KOMmunikationssystem
+    notes:
+        de: Netzwerk
+        en: network

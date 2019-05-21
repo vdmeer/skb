@@ -1,0 +1,6 @@
+ict/security/DDV:
+    short: DDV
+    long:
+        de: DES-DES-Verfahren
+    long-target:
+        latex: \acs{org:nist:DES}-\acs{org:nist:DES}-Verfahren

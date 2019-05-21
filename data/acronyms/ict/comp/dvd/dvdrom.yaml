@@ -1,0 +1,7 @@
+ict/comp/dvd/DVDROM:
+    short: DVD-ROM
+    long:
+        en: DVDisk Read Only Memory
+    long-target:
+        latex: \acs{ict:comp:DVD}Disk Read Only Memory
+        

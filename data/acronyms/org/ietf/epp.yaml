@@ -1,0 +1,6 @@
+org/ietf/EPP:
+    short: EPP
+    long:
+        en: Extensible Provisioning Protocol
+    notes:
+        en: RFC 3730/3731/3732/3733/3734/3735

@@ -1,0 +1,6 @@
+org/ietf/FTP:
+    short: FTP
+    long:
+        en: File Transfer Protocol
+    notes:
+        en: RFC 959

@@ -1,0 +1,6 @@
+org/ietf/FEP:
+    short: FEP
+    long:
+        en: Firewall Enhancement Protocol
+    notes:
+        en: RFC 3093

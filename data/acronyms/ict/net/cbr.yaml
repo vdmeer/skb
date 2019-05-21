@@ -1,0 +1,5 @@
+ict/net/CBR:
+    short: CBR
+    long:
+        en: Constant Bit Rate
+

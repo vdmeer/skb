@@ -1,0 +1,7 @@
+org/ansi/ascii/BS:
+    short: BS
+    long:
+        en: Backspace
+    description:
+        en: ASCII control character (0o010, d8, 0x08)
+

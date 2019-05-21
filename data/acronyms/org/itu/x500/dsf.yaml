@@ -1,0 +1,4 @@
+org/itu/x500/DSF:
+    short: DSF
+    long:
+        en: Directory System Function

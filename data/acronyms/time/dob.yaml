@@ -1,0 +1,5 @@
+time/DOB:
+    short: DOB
+    long:
+        en: Day of Birth
+

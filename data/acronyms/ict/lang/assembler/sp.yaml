@@ -1,0 +1,5 @@
+ict/lang/assembler/SP:
+    short: SP
+    long:
+        en: Stack Pointer
+

@@ -1,0 +1,7 @@
+org/ietf/NDP:
+    short: NDP
+    long:
+        en: Neighbor Discovery Protocol
+    notes:
+        en: RFC 2462
+

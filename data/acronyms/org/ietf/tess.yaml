@@ -1,0 +1,7 @@
+org/ietf/TESS:
+    short: TESS
+    long:
+        en: The Exponential Security System
+    notes:
+        en: RFC 1824
+

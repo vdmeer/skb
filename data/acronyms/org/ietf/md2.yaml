@@ -1,0 +1,7 @@
+org/ietf/MD2:
+    short: MD2
+    long:
+        en: Message Digest (algorithm) 2
+    notes:
+        en: RFC 1115/1319
+

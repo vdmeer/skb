@@ -1,0 +1,7 @@
+org/3gpp/EF3:
+    short: EF3
+    long:
+        en: European Friends of 3GPP
+    long-target:
+        latex: European Friends of \acs{org:3GPP}
+

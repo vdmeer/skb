@@ -1,0 +1,5 @@
+org/itu/q1200/PSTN:
+    short: PSTN
+    long:
+        en: Public Switched Telephone Network
+

@@ -1,0 +1,7 @@
+org/ansi/ascii/DC2:
+    short: DC2
+    long:
+        en: Device Control 2
+    description:
+        en: ASCII control character (0o022, d18, 0x12)
+

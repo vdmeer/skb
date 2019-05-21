@@ -1,0 +1,5 @@
+org/itu/x500/CN:
+    short: CN
+    long:
+        en: Common Name
+

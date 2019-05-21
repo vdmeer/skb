@@ -1,0 +1,7 @@
+ict/comp/hdd/scsi/ASI:
+    short: ASI
+    long:
+        en: Asynchronous SCSI Interface
+    long-target:
+        latex: Asynchronous \acs{ict:comp:hdd:SCSI} Interface
+

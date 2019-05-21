@@ -1,0 +1,4 @@
+org/itu/atm/VPI:
+    short: VPI
+    long:
+        en: Virtual Path Identifier

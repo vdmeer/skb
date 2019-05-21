@@ -1,0 +1,6 @@
+org/ietf/ppvpn/VC:
+    short: VC
+    long:
+        en: Virtual Channel
+    notes:
+        en: RFC 4026

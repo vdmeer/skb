@@ -1,0 +1,5 @@
+org/3gpp/4g/RRC:
+    short: RRC
+    long:
+        en: Radio Resource Control
+

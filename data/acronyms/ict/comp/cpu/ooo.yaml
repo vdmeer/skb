@@ -1,0 +1,5 @@
+ict/comp/cpu/OOO:
+    short: OOO
+    long:
+        en: Out Of Order
+

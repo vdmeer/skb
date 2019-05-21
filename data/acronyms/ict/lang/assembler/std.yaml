@@ -1,0 +1,5 @@
+ict/lang/assembler/STD:
+    short: STD
+    long:
+        en: SeT Direction
+

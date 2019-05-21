@@ -1,0 +1,5 @@
+ict/comp/hdd/scsi/HVD:
+    short: HVD
+    long:
+        en: High Voltage Differential
+

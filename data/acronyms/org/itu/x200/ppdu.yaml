@@ -1,0 +1,6 @@
+org/itu/x200/PPDU:
+    short: PPDU
+    long:
+        en: Presentation Protocol Data Unit
+    long-target:
+        latex: Presentation Protocol \acs{org:itu:x200:PDU}

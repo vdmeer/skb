@@ -1,0 +1,6 @@
+org/ietf/CCM:
+    short: CCM
+    long:
+        en: Counter with CBC-MAC
+    notes:
+        en: RFC 3610

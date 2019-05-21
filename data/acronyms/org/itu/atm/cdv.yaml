@@ -1,0 +1,4 @@
+org/itu/atm/CDV:
+    short: CDV
+    long:
+        en: Cell Delay Variation

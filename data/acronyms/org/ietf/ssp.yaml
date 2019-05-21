@@ -1,0 +1,7 @@
+org/ietf/SSP:
+    short: SSP
+    long:
+        en: Switch to Switch Protocol
+    notes:
+        en: RFC 1795
+

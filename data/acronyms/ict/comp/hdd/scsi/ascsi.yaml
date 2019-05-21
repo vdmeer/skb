@@ -1,0 +1,7 @@
+ict/comp/hdd/scsi/ASCSI:
+    short: ASCSI
+    long:
+        en: Advanced Small Computer Systems Interface
+    long-target:
+        latex: Advanced \acs{ict:comp:hdd:SCSI}
+

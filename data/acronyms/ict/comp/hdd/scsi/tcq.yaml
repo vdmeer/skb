@@ -1,0 +1,5 @@
+ict/comp/hdd/scsi/TCQ:
+    short: TCQ
+    long:
+        en: Tagged Command Queueing
+

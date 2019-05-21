@@ -1,0 +1,7 @@
+org/ietf/ip/ICMP:
+    short: ICMP
+    long:
+        en: Internet Control Message Protocol
+    notes:
+        en: RFC 792
+

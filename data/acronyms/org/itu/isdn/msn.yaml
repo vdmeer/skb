@@ -1,0 +1,5 @@
+org/itu/isdn/MSN:
+    short: MSN
+    long:
+        en: Multiple Subscriber Number
+

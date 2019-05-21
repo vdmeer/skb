@@ -1,0 +1,5 @@
+ict/comp/cpu/TIM:
+    short: TIM
+    long:
+        en: Thermal Interface Material
+

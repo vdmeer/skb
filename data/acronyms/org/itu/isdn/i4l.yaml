@@ -1,0 +1,5 @@
+org/itu/isdn/I4L:
+    short: I4L
+    long:
+        en: ISDN for Linux
+

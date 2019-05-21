@@ -1,0 +1,7 @@
+org/ietf/SPKM:
+    short: SPKM
+    long:
+        en: Simple Public-Key (GSS-API) Mechanism
+    notes:
+        en: RFC 2025
+

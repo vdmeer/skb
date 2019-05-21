@@ -1,0 +1,6 @@
+ict/net/XDSL:
+    short: xDSL
+    long:
+        en: any Digital Subscriber Line
+    long-target:
+        latex: any \acs{ict:net:DSL}

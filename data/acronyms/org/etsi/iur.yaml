@@ -1,0 +1,6 @@
+org/etsi/IUR:
+    short: IUR
+    long:
+        en: International User Requirements
+    notes:
+        en: ETSI, TS 101331

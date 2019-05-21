@@ -1,0 +1,4 @@
+org/itu/x200/COTP:
+    short: COTP
+    long:
+        en: Connection-Oriented Transport Protocol

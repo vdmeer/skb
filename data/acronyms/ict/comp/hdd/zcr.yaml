@@ -1,0 +1,6 @@
+ict/comp/hdd/ZCR:
+    short: ZCR
+    long:
+        en: Zero Channel RAID
+    long-target:
+        latex: Zero Channel \acs{ict:comp:hdd:RAID}

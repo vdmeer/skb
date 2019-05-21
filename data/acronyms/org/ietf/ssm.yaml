@@ -1,0 +1,7 @@
+org/ietf/SSM:
+    short: SSM
+    long:
+        en: Source Specific Multicast
+    notes:
+        en: RFC 3569
+

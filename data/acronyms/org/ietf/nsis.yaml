@@ -1,0 +1,7 @@
+org/ietf/NSIS:
+    short: NSIS
+    long:
+        en: Next Steps In Signaling
+    notes:
+        en: RFC 4080
+

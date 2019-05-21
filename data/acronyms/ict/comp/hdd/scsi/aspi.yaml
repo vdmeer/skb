@@ -1,0 +1,7 @@
+ict/comp/hdd/scsi/ASPI:
+    short: ASPI
+    long:
+        en: Advanced SCSI Programming Interface
+    long-target:
+        latex: Advanced \acs{ict:comp:hdd:SCSI} Programming Interface
+

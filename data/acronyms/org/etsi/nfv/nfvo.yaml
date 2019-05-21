@@ -1,0 +1,6 @@
+org/etsi/nfv/NFVO:
+    short: NFVO
+    long:
+        en: NFV Orchestrator
+    long-target:
+        latex: \acs{org:etsi:NFV} Orchestrator

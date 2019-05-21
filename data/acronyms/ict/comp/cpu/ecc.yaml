@@ -1,0 +1,5 @@
+ict/comp/cpu/ECC:
+    short: ECC
+    long:
+        en: Error Correction Circuit
+

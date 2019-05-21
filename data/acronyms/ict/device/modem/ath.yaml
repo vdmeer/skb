@@ -1,0 +1,5 @@
+ict/device/modem/ATH:
+    short: ATH
+    long:
+        en: ATtention Hang up
+

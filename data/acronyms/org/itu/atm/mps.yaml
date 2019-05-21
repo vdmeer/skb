@@ -1,0 +1,4 @@
+org/itu/atm/MPS:
+    short: MPS
+    long:
+        en: MPOA Server

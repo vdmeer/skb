@@ -1,0 +1,7 @@
+org/ieee/ethernet/DELUA:
+    short: DELUA
+    long:
+        en: Digital Ethernet Lowpower Unibus network Adapter
+    notes:
+        en: IEEE 802.3 Series, Ethernet
+

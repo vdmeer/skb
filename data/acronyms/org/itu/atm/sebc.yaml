@@ -1,0 +1,4 @@
+org/itu/atm/SEBC:
+    short: SECB
+    long:
+        en: Severely Errored Cell Block

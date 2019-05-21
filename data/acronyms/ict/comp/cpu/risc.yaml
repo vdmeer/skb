@@ -1,0 +1,5 @@
+ict/comp/cpu/RISC:
+    short: RISC
+    long:
+        en: Reduced Instruction Set Code
+

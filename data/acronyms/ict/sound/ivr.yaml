@@ -1,0 +1,5 @@
+ict/sound/IVR:
+    short: IVR
+    long:
+        en: Interactive Voice Response
+

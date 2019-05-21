@@ -1,0 +1,5 @@
+ict/comp/cpu/ESDC:
+    short: ESDC
+    long:
+        en: Extra Segment Descriptor Cache
+

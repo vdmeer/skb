@@ -1,0 +1,5 @@
+org/3gpp/4g/LTE:
+    short: LTE
+    long:
+        en: Long Term Evolution
+

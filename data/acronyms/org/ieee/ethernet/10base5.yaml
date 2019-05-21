@@ -1,0 +1,7 @@
+org/ieee/ethernet/10Base5:
+    short: 10Base5
+    long:
+        en: Ethernet with 10 MBit/s
+    notes:
+        en: "IEEE 802.3 Series, classic Ethernet: Ethernet with 10 MBit/s, Baseband Transmission, 500m segments"
+

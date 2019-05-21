@@ -1,0 +1,6 @@
+org/itu/BISDN:
+    short: BISDN
+    long:
+        en: Broadband Integrated Services Digital Network
+    long-target:
+        latex: Broadband \acs{org:itu:ISDN}

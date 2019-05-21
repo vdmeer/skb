@@ -1,0 +1,7 @@
+org/ietf/www/HTML:
+    short: HTML
+    long:
+        en: HyperText Markup Language
+    notes:
+        en: RFC 1866/1942
+

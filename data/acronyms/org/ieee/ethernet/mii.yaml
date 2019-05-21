@@ -1,0 +1,7 @@
+org/ieee/ethernet/MII:
+    short: MII
+    long:
+        en: Medium Independent Interface
+    notes:
+        en: IEEE 802.3 Series, Ethernet
+

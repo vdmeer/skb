@@ -1,0 +1,5 @@
+ict/device/modem/TD:
+    short: TD
+    long:
+        en: Transmit Data
+

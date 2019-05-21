@@ -1,0 +1,7 @@
+org/ietf/ip/IPv4:
+    short: IPv4
+    long:
+        en: Internet Protocol, version 4
+    notes:
+        en: RFC 791
+

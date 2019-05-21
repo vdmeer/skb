@@ -1,0 +1,7 @@
+org/ietf/ODA:
+    short: ODA
+    long:
+        en: Office Document Architecture
+    notes:
+        en: RFC 1197
+

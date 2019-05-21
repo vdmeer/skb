@@ -1,0 +1,7 @@
+org/ieee/ethernet/DELNI:
+    short: DELNI
+    long:
+        en: Digital Ethernet Local Network Interconnect
+    notes:
+        en: IEEE 802.3 Series, Ethernet
+

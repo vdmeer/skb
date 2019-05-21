@@ -1,0 +1,7 @@
+com/us/att/ECOMP:
+    short: ECOMP
+    long:
+        en: Enhanced Control, Orchestration, Managment & Policy
+    long-target:
+        latex: Enhanced Control, Orchestration, Managment \& Policy
+        html: Enhanced Control, Orchestration, Managment &amp; Policy

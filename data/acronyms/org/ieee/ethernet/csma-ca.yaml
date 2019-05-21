@@ -1,0 +1,6 @@
+org/ieee/ethernet/CSMA-CA:
+    short: CSMA/CA
+    long:
+        en: Carrier Sense Multiple Access with Collision Avoidance
+    long-target:
+        latex: \acs{org:ieee:ethernet:CSMA} with Collision Avoidance

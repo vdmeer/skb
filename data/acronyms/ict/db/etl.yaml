@@ -1,0 +1,5 @@
+ict/db/ETL:
+    short: ETL
+    long:
+        en: Extract, Transform, Load
+

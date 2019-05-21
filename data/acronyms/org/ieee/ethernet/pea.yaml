@@ -1,0 +1,7 @@
+org/ieee/ethernet/PEA:
+    short: PEA
+    long:
+        en: Pocket Ethernet Adapter
+    notes:
+        en: IEEE 802.3 Series, Ethernet
+

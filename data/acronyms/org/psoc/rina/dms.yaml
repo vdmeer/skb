@@ -1,0 +1,8 @@
+org/psoc/rina/DMS:
+    short: DMS
+    long:
+        en: DIF Management System
+    description: 
+        en: the management system of RINA, also known as Distributed Management System
+    long-target:
+        latex: \acs{org:psoc:rina:DIF} Management System

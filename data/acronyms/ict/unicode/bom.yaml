@@ -1,0 +1,5 @@
+ict/unicode/BOM:
+    short: BOM
+    long:
+        en: Byte Order Mark
+

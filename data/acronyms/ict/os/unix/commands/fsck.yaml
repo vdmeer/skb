@@ -1,0 +1,5 @@
+ict/os/unix/commands/FSCK:
+    short: FSCK
+    long:
+        en: File System Consistency checK
+

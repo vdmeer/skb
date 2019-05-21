@@ -1,0 +1,7 @@
+org/ietf/ppp/PPPOE:
+    short: PPPOE
+    long:
+        en: Point-to-Point Protocol Over Ethernet
+    notes:
+        en: RFC 2516
+

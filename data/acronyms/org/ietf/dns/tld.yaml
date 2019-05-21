@@ -1,0 +1,5 @@
+org/ietf/dns/TLD:
+    short: TLD
+    long:
+        en: Top Level Domain
+

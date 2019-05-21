@@ -1,0 +1,4 @@
+org/itu/q1200/DPE:
+    short: DPE
+    long:
+        en: Distributed Processing Environment

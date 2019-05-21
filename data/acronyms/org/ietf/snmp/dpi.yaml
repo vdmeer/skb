@@ -1,0 +1,7 @@
+org/ietf/snmp/DPI:
+    short: DPI
+    long:
+        en: Distributed Protocol Interface
+    notes:
+        en: RFC 1228/1592
+

@@ -1,0 +1,6 @@
+ict/comp/bios/ICU:
+    short: ICU
+    long:
+        en: ISA Configuration Utility
+    long-target:
+        latex: \acs{ict:comp:cpu:ISA} Configuration Utility

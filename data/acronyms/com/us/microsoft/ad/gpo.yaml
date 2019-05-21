@@ -1,0 +1,5 @@
+com/us/microsoft/ad/GPO:
+    short: GPO
+    long:
+        en: Group Policy Object
+

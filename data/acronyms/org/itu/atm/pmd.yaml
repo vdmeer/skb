@@ -1,0 +1,4 @@
+org/itu/atm/PMP:
+    short: PMP
+    long:
+        en: Point to MultiPoint

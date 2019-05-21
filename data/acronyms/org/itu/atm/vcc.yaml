@@ -1,0 +1,4 @@
+org/itu/atm/VCC:
+    short: VCC
+    long:
+        en: Virtual Channel Connection

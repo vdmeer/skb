@@ -1,0 +1,7 @@
+org/ansi/ascii/ETX:
+    short: ETX
+    long:
+        en: End of Text
+    description:
+        en: ASCII control character (0o003, d3, 0x03)
+

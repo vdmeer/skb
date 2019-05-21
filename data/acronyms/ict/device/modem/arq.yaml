@@ -1,0 +1,5 @@
+ict/device/modem/ARQ:
+    short: ARQ
+    long:
+        en: Automatic Re-transmission reQuest
+

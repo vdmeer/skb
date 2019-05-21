@@ -1,0 +1,4 @@
+org/oasis/AMQP:
+    short: AMQP
+    long:
+        en: Advanced Message Queuing Protocol

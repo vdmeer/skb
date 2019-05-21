@@ -1,0 +1,6 @@
+org/itu/x900/RM-ODP:
+    short: RM-ODP
+    long:
+        en: Reference Model for Open Distributed Processing
+    long-target:
+        latex: Reference Model for \acs{org:itu:x900:ODP}

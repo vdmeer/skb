@@ -1,0 +1,5 @@
+org/itu/atm/DLCI:
+    short: DLCI
+    long:
+        en: Data Link Connection Identifier
+

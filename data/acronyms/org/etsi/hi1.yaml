@@ -1,0 +1,6 @@
+org/etsi/HI1:
+    short: HI1
+    long:
+        en: Handover Interface 1
+    notes:
+        en: ETSI, ES 201671

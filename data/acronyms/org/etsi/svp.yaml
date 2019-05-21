@@ -1,0 +1,6 @@
+org/etsi/SVP:
+    short: SvP
+    long:
+        en: SerVice Provider
+    notes:
+        en: ETSI, ETSI 201 671

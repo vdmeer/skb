@@ -1,0 +1,6 @@
+com/us/ibm/NETBIOS:
+    short: NETBIOS
+    long:
+        en: NETwork BIOS
+    long-target:
+        latex: NETwork \acs{ict:comp:BIOS}

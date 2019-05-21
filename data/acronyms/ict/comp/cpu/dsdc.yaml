@@ -1,0 +1,5 @@
+ict/comp/cpu/DSDC:
+    short: DSDC
+    long:
+        en: Data Segment Descriptor Cache
+

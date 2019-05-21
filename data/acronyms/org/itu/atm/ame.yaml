@@ -1,0 +1,6 @@
+org/itu/atm/AME:
+    short: AME
+    long:
+        en: ATM Management Entity
+    long-target:
+        latex: \acs{org:itu:ATM} Management Entity

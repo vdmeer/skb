@@ -1,0 +1,4 @@
+org/itu/atm/FECN:
+    short: FECN
+    long:
+        en: Forward Explicit Congestion Notification

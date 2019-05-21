@@ -1,0 +1,7 @@
+org/ietf/TXT-RR:
+    short: TXT-RR
+    long:
+        en: TXT Resource Record
+    notes:
+        en: RFC 1035
+

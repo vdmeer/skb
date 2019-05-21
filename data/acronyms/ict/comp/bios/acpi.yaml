@@ -1,0 +1,4 @@
+ict/comp/bios/ACPI:
+    short: ACPI
+    long:
+        en: Advanced Configuration and Power Interface

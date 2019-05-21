@@ -1,0 +1,4 @@
+org/itu/atm/SVC2:
+    short: SVC
+    long:
+        en: Switched Virtual Channel

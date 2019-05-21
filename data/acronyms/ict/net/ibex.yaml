@@ -1,0 +1,8 @@
+ict/net/IBEX:
+    short: IBEX
+    long:
+        en: International Business EXchange
+    notes:
+        de: Netzwerk
+        en: network
+

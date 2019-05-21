@@ -1,0 +1,5 @@
+ict/comp/cpu/MTRR:
+    short: MTRR
+    long:
+        en: Memory Type Range Register
+

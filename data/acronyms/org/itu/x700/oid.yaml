@@ -1,0 +1,6 @@
+org/itu/x700/OID:
+    short: OID
+    long:
+        en: Object Identifier
+    long-target:
+        latex: Object \acl{ict:ID}

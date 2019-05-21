@@ -1,0 +1,7 @@
+org/ansi/ascii/RS:
+    short: RS
+    long:
+        en: Record Separator
+    description:
+        en: ASCII control character (0o036, d30, 0x1E)
+

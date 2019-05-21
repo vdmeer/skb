@@ -1,0 +1,6 @@
+time/EOB:
+    short: EOB
+    long:
+        en: End Of Business
+    description:
+        en: the end of business today

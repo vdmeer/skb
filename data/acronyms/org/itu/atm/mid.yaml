@@ -1,0 +1,4 @@
+org/itu/atm/MID:
+    short: MID
+    long:
+        en: Message IDentifier

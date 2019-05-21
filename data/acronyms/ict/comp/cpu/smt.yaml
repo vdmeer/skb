@@ -1,0 +1,5 @@
+ict/comp/cpu/SMT:
+    short: SMT
+    long:
+        en: Simultaneous MultiThreading
+

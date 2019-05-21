@@ -1,0 +1,6 @@
+org/ETIS:
+    short: ETIS
+    long:
+        en: The Global IT Association for Telecommunications
+    long-target:
+        latex: The Global \acs{ict:IT} Association for Telecommunications

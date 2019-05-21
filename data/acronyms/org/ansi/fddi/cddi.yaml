@@ -1,0 +1,5 @@
+org/ansi/fddi/CDDI:
+    short: CDDI
+    long:
+        en: Copper Distributed Data Interface
+

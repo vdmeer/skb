@@ -1,0 +1,6 @@
+ict/comp/hdd/raid/RE:
+    short: RE
+    long:
+        en: RAID Edition
+    long-target:
+        latex: \acs{ict:comp:hdd:RAID} Edition

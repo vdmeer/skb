@@ -1,0 +1,6 @@
+org/ITSMA:
+    short: ITSMA
+    long:
+        en: IT Services Marketing Association
+    long-target:
+        latex: \acs{ict:IT} Services Marketing Association

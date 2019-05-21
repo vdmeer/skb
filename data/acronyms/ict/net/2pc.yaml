@@ -1,0 +1,5 @@
+ict/net/2PC:
+    short: 2PC
+    long:
+        en: 2-Phase Commit Protocol
+

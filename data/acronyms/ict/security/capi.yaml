@@ -1,0 +1,6 @@
+ict/security/CAPI:
+    short: CAPI
+    long:
+        en: Cryptography Application Programming Interface
+    long-target:
+        latex: Cryptography \acs{ict:API}

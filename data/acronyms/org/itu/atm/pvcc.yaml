@@ -1,0 +1,4 @@
+org/itu/atm/PVCC:
+    short: PVCC
+    long:
+        en: Permanent Virtual Channel Connection

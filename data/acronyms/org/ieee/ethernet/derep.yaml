@@ -1,0 +1,7 @@
+org/ieee/ethernet/DEREP:
+    short: DEREP
+    long:
+        en: Digital Ethernet REPeater
+    notes:
+        en: IEEE 802.3 Series, Ethernet
+

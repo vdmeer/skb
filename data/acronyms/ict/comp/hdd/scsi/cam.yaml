@@ -1,0 +1,5 @@
+ict/comp/hdd/scsi/CAM:
+    short: CAM
+    long:
+        en: Common Access Method
+

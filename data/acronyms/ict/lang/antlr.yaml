@@ -1,0 +1,9 @@
+ict/lang/ANTLR:
+    short: ANTLR
+    long:
+        en: ANother Tool for Language Recognition
+    description: 
+        en: EBNF-based language and tool to generate language parsers
+    urls:
+        Home: >
+            https://www.antlr.org

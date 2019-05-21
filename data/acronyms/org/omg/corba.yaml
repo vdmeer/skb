@@ -1,0 +1,5 @@
+org/omg/CORBA:
+    short: CORBA
+    long:
+        en: Common Object Request Broker Architecture
+

@@ -1,0 +1,4 @@
+org/psoc/rina/POA:
+    short: POA
+    long:
+        en: Point Of Attachment

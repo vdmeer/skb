@@ -1,0 +1,5 @@
+ict/comp/cpu/HT:
+    short: HT
+    long:
+        en: Hyper-Threading
+

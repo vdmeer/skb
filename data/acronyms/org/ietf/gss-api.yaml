@@ -1,0 +1,8 @@
+org/ietf/GSS-API:
+    short: GSS-API
+    long:
+        en: Generic Security Service API
+    notes:
+        en: RFC 2078
+    long-target:
+        latex: Generic Security Service \acs{ict:API}

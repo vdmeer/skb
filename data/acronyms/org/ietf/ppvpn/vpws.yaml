@@ -1,0 +1,6 @@
+org/ietf/ppvpn/VPWS:
+    short: VPWS
+    long:
+        en: Virtual Private Wire Service
+    notes:
+        en: RFC 4026

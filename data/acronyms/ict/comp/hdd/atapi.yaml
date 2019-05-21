@@ -1,0 +1,6 @@
+ict/comp/hdd/ATAPI:
+    short: ATAPI
+    long:
+        en: Advanced Technology Attachment Packet Interface
+    long-target:
+        latex: \acs{ict:comp:hdd:ATA} Packet Interface

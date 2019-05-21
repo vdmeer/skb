@@ -1,0 +1,5 @@
+org/nist/des/CFB:
+    short: CFB
+    long:
+        en: Cipher FeedBack (mode)
+

@@ -1,0 +1,7 @@
+org/ietf/ip/TFTP:
+    short: TFTP
+    long:
+        en: Trivial File Transfer Protocol
+    notes:
+        en: RFC 1350/1782/1783/1784/1785
+

@@ -1,0 +1,6 @@
+org/psoc/rina/dms/OS-DMS:
+    short: OS-DMS
+    long:
+        en: Operating System DMS
+    long-target:
+        latex: \acl{ict:OS} \acs{org:psoc:rina:DMS}

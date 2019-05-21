@@ -1,0 +1,4 @@
+org/itu/atm/NLPID:
+    short: NLPID
+    long:
+        en: Network Layer Protocol IDentifier

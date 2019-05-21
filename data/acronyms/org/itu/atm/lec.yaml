@@ -1,0 +1,4 @@
+org/itu/atm/LEC:
+    short: LEC
+    long:
+        en: LAN Emulation Client

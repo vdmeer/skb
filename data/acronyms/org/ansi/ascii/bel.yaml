@@ -1,0 +1,7 @@
+org/ansi/ascii/BEL:
+    short: BEL
+    long:
+        en: Bell
+    description:
+        en: ASCII control character (0o007, d7, 0x07)
+

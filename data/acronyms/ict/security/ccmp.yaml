@@ -1,0 +1,5 @@
+ict/security/CCMP:
+    short: CCMP
+    long:
+        en: Counter mode CBC MAC Protocol
+

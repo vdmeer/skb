@@ -1,0 +1,5 @@
+ict/comp/hdd/LVM:
+    short: LVM
+    long:
+        en: Logical Volume Manager
+

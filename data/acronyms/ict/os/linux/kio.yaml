@@ -1,0 +1,5 @@
+ict/os/linux/IO:
+    short: KIO
+    long:
+        en: K Input / Output
+

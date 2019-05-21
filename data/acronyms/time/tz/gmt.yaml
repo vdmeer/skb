@@ -1,0 +1,5 @@
+time/tz/GMT:
+    short: GMT
+    long:
+        en: Greenwich Mean Time
+

@@ -1,0 +1,5 @@
+ict/os/unix/ELF:
+    short: ELF
+    long:
+        en: Executable and Linkable Format
+

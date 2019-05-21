@@ -1,0 +1,5 @@
+org/itu/m3000/OAM:
+    short: OAM
+    long:
+        en: Operations, Administrations and Maintenance
+

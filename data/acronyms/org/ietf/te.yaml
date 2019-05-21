@@ -1,0 +1,7 @@
+org/ietf/TE:
+    short: TE
+    long:
+        en: Traffic Engineering
+    notes:
+        en: RFC 3630
+

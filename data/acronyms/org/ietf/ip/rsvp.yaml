@@ -1,0 +1,7 @@
+org/ietf/ip/RSVP:
+    short: RSVP
+    long:
+        en: Resource reSerVation Protocol
+    notes:
+        en: RFC 2205
+

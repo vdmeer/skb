@@ -1,0 +1,6 @@
+ict/os/unix/SSH2:
+    short: SSH2
+    long:
+        en: Secure SHell version 2
+    long-target:
+       latex: \acs{ict:os:unix:SSH} version 2

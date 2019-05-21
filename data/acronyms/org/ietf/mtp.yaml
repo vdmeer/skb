@@ -1,0 +1,4 @@
+org/ietf/MTP:
+    short: MTP
+    long:
+        en: Message Transaction Protocol

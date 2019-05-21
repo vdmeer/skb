@@ -1,0 +1,4 @@
+org/itu/atm/ELAN:
+    short: ELAN
+    long:
+        en: Emulated Local Area Network

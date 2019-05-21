@@ -1,0 +1,5 @@
+ict/lang/assembler/DF:
+    short: DF
+    long:
+        en: Direction Flag
+

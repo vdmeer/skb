@@ -1,0 +1,4 @@
+org/itu/atm/CAC:
+    short: CAC
+    long:
+        en: Connection Admission Control

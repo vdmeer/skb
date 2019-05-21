@@ -1,0 +1,7 @@
+org/MMA1:
+    short: MMA1
+    long:
+        en: MIDI Manufacturers Association
+    long-target:
+        latex: acs{ict:sound:MIDI} Manufacturers Association
+

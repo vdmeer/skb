@@ -1,0 +1,5 @@
+ict/os/unix/SPL:
+    short: SPL
+    long:
+        en: Set Priority Level
+

@@ -1,0 +1,4 @@
+org/itu/isdn/MTP:
+    short: MTP
+    long:
+        en: Message Transfer Part

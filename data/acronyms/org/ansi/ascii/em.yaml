@@ -1,0 +1,7 @@
+org/ansi/ascii/EM:
+    short: EM
+    long:
+        en: End of Medium
+    description:
+        en: ASCII control character (0o031, d25, 0x19)
+

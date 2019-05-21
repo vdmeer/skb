@@ -1,0 +1,5 @@
+com/se/ericsson/nm-lab/apex/AP-CTX:
+    short: AP-CTX
+    long:
+        en: Adaptive Policy Context
+

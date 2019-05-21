@@ -1,0 +1,4 @@
+org/itu/atm/CPI:
+    short: CPI
+    long:
+        en: Common Part Indicator

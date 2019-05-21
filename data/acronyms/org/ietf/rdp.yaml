@@ -1,0 +1,4 @@
+org/ietf/RDP:
+    short: RDP
+    long:
+        en: Reliable Datagram Protocol

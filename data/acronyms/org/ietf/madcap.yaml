@@ -1,0 +1,7 @@
+org/ietf/MADCAP:
+    short: MADCAP
+    long:
+        en: Multicast Address Dynamic Client Allocation Protocol
+    notes:
+        en: RFC 2730
+

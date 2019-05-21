@@ -1,0 +1,4 @@
+org/itu/atm/CRF-VC:
+    short: CRF (VC)
+    long:
+        en: Connection Related Function Virtual Channel

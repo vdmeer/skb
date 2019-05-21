@@ -1,0 +1,8 @@
+ict/net/BITNET:
+    short: BITNET
+    long:
+        en: Because It's Time NETwork
+    notes:
+        de: Netzwerk
+        en: network
+

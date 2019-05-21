@@ -1,0 +1,6 @@
+org/ietf/RC5:
+    short: RC5
+    long:
+        en: Rivest Cipher 5
+    notes:
+        en: RFC 2040

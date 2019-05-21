@@ -1,0 +1,4 @@
+org/ietf/BOOTP:
+    short: BOOTP
+    long:
+        en: BOOTstrap Protocol

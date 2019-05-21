@@ -1,0 +1,5 @@
+ict/device/modem/CND:
+    short: CND
+    long:
+        en: Caller Number Delivery
+

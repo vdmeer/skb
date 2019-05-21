@@ -1,0 +1,7 @@
+org/ansi/ascii/DC4:
+    short: DC4
+    long:
+        en: Device Control 4
+    description:
+        en: ASCII control character (0o024, d20, 0x14)
+

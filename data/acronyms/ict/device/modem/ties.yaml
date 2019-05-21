@@ -1,0 +1,5 @@
+ict/device/modem/TIES:
+    short: TIES
+    long:
+        en: Time Independent Escape Sequence
+

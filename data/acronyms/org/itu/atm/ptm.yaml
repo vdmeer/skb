@@ -1,0 +1,4 @@
+org/itu/atm/PTM:
+    short: PTM
+    long:
+        en: Packet Transfer Mode

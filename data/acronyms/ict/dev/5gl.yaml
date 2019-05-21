@@ -1,0 +1,7 @@
+ict/dev/5GL:
+    short: 5GL
+    long:
+        en: 5th Generation Language
+    long-target:
+        latex: 5$^{th}$ Generation Language
+        html: 5<sup>th</sup> Generation Language

@@ -1,0 +1,6 @@
+ict/unicode/UTF-16:
+    short: UTF-16
+    long:
+        en: UCS Transformation Format - 16 bit
+    long-target:
+        latex: \acs{ict:unicode:UCS} Transformation Format - 16 bit

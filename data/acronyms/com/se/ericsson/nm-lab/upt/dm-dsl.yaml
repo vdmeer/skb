@@ -1,0 +1,6 @@
+com/se/ericsson/nm-lab/upt/DM-DSL:
+    short: DM-DSL
+    long:
+        en: Domain Model DSL
+    long-target:
+        latex: Domain Model \acs{ict:lang:DSL}

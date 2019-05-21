@@ -1,0 +1,4 @@
+org/itu/atm/CMR:
+    short: CMR
+    long:
+        en: Cell Misinsertion Rate

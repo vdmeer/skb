@@ -1,0 +1,6 @@
+org/ansi/fddi/SMDAC:
+    short: SMDAC
+    long:
+        en: Single MAC Dual Attached Concentrator
+    long-target:
+        latex: Single \acs{ict:net:MAC} Dual Attached Concentrator

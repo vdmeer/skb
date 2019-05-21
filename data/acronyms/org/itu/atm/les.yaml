@@ -1,0 +1,4 @@
+org/itu/atm/LES:
+    short: LES
+    long:
+        en: LAN Emulation Server

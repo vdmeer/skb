@@ -1,0 +1,5 @@
+ict/security/RC2:
+    short: RC2
+    long:
+        en: Rivest Cipher / Ron's Code 2
+

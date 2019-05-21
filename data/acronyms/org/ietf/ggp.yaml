@@ -1,0 +1,6 @@
+org/ietf/GGP:
+    short: GGP
+    long:
+        en: Gateway to Gateway Protocol
+    notes:
+        en: RFC 823

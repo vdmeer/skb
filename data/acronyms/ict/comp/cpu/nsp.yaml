@@ -1,0 +1,5 @@
+ict/comp/cpu/NSP:
+    short: NSP
+    long:
+        en: Native Signal Processing
+

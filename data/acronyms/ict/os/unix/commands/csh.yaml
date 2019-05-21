@@ -1,0 +1,5 @@
+ict/os/unix/commands/CSH:
+    short: CSH
+    long:
+        en: C SHell
+

@@ -1,0 +1,5 @@
+ict/net/QPSK:
+    short: QPSK
+    long:
+        en: Quadrature (Quaternary) Phase Shift Keying
+

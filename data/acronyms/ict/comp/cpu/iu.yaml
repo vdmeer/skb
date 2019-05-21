@@ -1,0 +1,5 @@
+ict/comp/cpu/IU:
+    short: IU
+    long:
+        en: Integer Unit
+

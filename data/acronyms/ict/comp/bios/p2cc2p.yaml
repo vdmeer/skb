@@ -1,0 +1,6 @@
+ict/comp/bios/P2CC2P:
+    short: P2CC2P
+    long:
+        en: PCI to CPU / CPU to PCI
+    long-target:
+        latex: \acs{ict:comp:PCI} to \acs{ict:comp:CPU} / \acs{ict:comp:CPU} to \acs{ict:comp:PCI}

@@ -1,0 +1,7 @@
+org/ieee/ethernet/frame/PAD:
+    short: PAD
+    long:
+        en: Padding
+    notes:
+        en: IEEE 802.3 Series, Ethernet, part of an Ethernet Frame
+

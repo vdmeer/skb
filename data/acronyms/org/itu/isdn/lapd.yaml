@@ -1,0 +1,5 @@
+org/itu/isdn/LAPD:
+    short: LAPD
+    long:
+        en: Link Access Procedure on the D channel
+

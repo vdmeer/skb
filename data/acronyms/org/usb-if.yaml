@@ -1,0 +1,6 @@
+org/USB-IF:
+    short: USB IF
+    long:
+        en: USB Implementers Forum
+    long-target:
+        latex: \acs{ict:comp:USB} Implementers Forum

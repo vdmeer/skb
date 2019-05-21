@@ -1,0 +1,4 @@
+org/etsi/nfv/NSD:
+    short: NSD
+    long:
+        en: Name Service Descriptor

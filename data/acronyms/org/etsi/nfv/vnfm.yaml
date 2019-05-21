@@ -1,0 +1,6 @@
+org/etsi/nfv/VNFM:
+    short: VNFM
+    long:
+        en: VNF Manager
+    long-target:
+        latex: \acs{org:etsi:nfv:VNF} Manager

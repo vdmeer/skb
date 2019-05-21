@@ -1,0 +1,5 @@
+ict/os/unix/commands/CD:
+    short: CD
+    long:
+        en: Change Directory
+

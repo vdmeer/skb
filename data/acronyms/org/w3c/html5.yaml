@@ -1,0 +1,6 @@
+org/w3c/HTML5:
+    short: HTML5
+    long:
+        en: Hyper Text Markup Language 5
+    long-target:
+        latex: \acs{org:w3c:HTML} version 5

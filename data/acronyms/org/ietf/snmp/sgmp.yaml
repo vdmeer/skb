@@ -1,0 +1,7 @@
+org/ietf/snmp/SGMP:
+    short: SGMP
+    long:
+        en: Simple Gateway Monitoring Protocol
+    notes:
+        en: RFC 1028
+

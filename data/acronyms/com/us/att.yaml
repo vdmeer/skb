@@ -1,0 +1,7 @@
+com/us/ATT:
+    short: AT&T
+    short-target:
+        latex: AT\&T
+        html: AT&amp;T
+    long:
+        en: American Telephone and Telegraph

@@ -1,0 +1,8 @@
+ict/net/sdh/STM-3:
+    short: STM-3
+    long:
+        en: Synchronous Transport Mode 3
+    long-target:
+        latex: \acs{ict:net:sdh:STM} Mode 3
+    notes:
+        en: 466,56 Mbps

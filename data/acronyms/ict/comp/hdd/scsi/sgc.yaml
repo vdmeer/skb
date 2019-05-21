@@ -1,0 +1,7 @@
+ict/comp/hdd/scsi/SGC:
+    short: SGC
+    long:
+        en: SCSI Graphic Commands
+    long-target:
+        latex: \acs{ict:comp:hdd:SCSI} Graphic Commands
+

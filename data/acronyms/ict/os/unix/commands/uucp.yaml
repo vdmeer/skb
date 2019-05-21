@@ -1,0 +1,5 @@
+ict/os/unix/commands/UUCP:
+    short: UUCP
+    long:
+        en: Unix to Unix Copy Protocol
+

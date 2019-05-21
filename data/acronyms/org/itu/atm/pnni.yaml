@@ -1,0 +1,4 @@
+org/itu/atm/PNNI:
+    short: PNNI
+    long:
+        en: Private Network Node Interface

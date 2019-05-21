@@ -1,0 +1,6 @@
+org/ietf/DNS:
+    short: DNS
+    long:
+        en: Domain Name System
+    notes:
+        en: RFC 1034/1035

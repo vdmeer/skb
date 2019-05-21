@@ -1,0 +1,5 @@
+ict/os/unix/TELNETD:
+    short: TELNETD
+    long:
+        en: Telnet DAEMON
+

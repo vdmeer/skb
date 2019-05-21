@@ -1,0 +1,7 @@
+org/ietf/ip/SNAIP:
+    short: SNAIP
+    long:
+        en: Systems Network Architecture/Internet Protocol
+    notes:
+        en: RFC 1538
+

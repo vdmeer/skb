@@ -1,0 +1,4 @@
+org/itu/atm/EFCI:
+    short: EFCI
+    long:
+        en: Explicit Forward Congestion Indication

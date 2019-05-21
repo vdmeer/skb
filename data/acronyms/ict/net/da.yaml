@@ -1,0 +1,5 @@
+ict/net/DA:
+    short: DA
+    long:
+        en: Destination (MAC) Address
+

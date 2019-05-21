@@ -1,0 +1,7 @@
+ict/comp/hdd/scsi/SAM:
+    short: SAM
+    long:
+        en: SCSI-3 Architecture Model
+    long-target:
+        latex: \acs{ict:comp:hdd:SCSI}-3 Architecture Model
+

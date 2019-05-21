@@ -1,0 +1,4 @@
+org/itu/bisdn/BCDS:
+    short: BCBDS
+    long:
+        en: Broadband Connectionless Data Bearer Service

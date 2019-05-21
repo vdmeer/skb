@@ -1,0 +1,4 @@
+org/itu/x500/PKIX:
+    short: PKIX
+    long:
+        en: Public Key Infrastructure X.509

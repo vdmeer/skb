@@ -1,0 +1,7 @@
+org/ansi/ascii/DEL:
+    short: DEL
+    long:
+        en: Delete
+    description:
+        en: ASCII control character (0o177, d127, 0x7F)
+

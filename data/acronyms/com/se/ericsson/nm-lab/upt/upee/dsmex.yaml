@@ -1,0 +1,4 @@
+com/se/ericsson/nm-lab/upt/upee/DSMEX:
+    short: DSMEx
+    long:
+        en: Directed State Machine Executor

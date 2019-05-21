@@ -1,0 +1,5 @@
+ict/comp/cpu/BPU2:
+    short: BPU
+    long:
+        en: Branch Processing Unit
+

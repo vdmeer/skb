@@ -1,0 +1,7 @@
+org/ietf/ip/EIP:
+    short: EIP
+    long:
+        en: Extended Internet Protocol
+    notes:
+        en: RFC 1385
+

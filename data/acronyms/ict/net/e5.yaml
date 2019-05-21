@@ -1,0 +1,7 @@
+ict/net/E5:
+    short: E5
+    long:
+        en: European digital transmission format 5
+    notes:
+        en: 565.148 Mbit/s
+

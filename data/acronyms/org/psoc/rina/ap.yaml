@@ -1,0 +1,4 @@
+org/psoc/rina/AP:
+    short: AP
+    long:
+        en: Application Process

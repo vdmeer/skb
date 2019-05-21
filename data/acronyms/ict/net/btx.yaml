@@ -1,0 +1,7 @@
+ict/net/BTX:
+    short: Btx
+    long:
+        de: BildschirmTeXt
+    description:
+        de: Netzwerk der Telekom, auch bekannt als Datex-J
+

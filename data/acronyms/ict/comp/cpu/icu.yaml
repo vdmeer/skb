@@ -1,0 +1,5 @@
+ict/comp/cpu/ICU:
+    short: ICU
+    long:
+        en: Instruction Cache Unit
+

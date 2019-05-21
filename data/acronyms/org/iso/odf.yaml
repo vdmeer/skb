@@ -1,0 +1,6 @@
+org/iso/ODF:
+    short: ODF
+    long:
+        en: Open Document Format
+    notes:
+        en: in ISO/IEC 26300, also by OASIS

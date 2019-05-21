@@ -1,0 +1,4 @@
+org/itu/x500/RA:
+    short: RA
+    long:
+        en: Registration Authority

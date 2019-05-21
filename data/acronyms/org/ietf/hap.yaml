@@ -1,0 +1,6 @@
+org/ietf/HAP:
+    short: HAP
+    long:
+        en: Host Access Protocol
+    notes:
+        en: RFC 907/1221

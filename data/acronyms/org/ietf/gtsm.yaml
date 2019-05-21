@@ -1,0 +1,8 @@
+org/ietf/GTSM:
+    short: GTSM
+    long:
+        en: Generalized TTL Security Mechanism
+    notes:
+        en: RFC 3682
+    long-target:
+        latex: Generalized \acs{org:ietf:TTL} Security Mechanism

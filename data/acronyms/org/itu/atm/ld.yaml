@@ -1,0 +1,4 @@
+org/itu/atm/LD:
+    short: LD
+    long:
+        en: LAN Destination

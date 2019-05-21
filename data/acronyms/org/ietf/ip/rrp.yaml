@@ -1,0 +1,7 @@
+org/ietf/ip/RRP:
+    short: RRP
+    long:
+        en: Registry Registrar Protocol
+    notes:
+        en: RFC 2832/3632
+

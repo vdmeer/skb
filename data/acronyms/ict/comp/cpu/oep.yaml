@@ -1,0 +1,5 @@
+ict/comp/cpu/OEP:
+    short: OEP
+    long:
+        en: Operand Execution Pipelines
+

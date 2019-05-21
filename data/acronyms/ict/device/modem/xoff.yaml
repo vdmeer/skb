@@ -1,0 +1,5 @@
+ict/device/modem/XOFF:
+    short: XOFF
+    long:
+        en: eXchange OFF
+

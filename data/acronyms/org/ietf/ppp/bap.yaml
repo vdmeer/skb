@@ -1,0 +1,7 @@
+org/ietf/ppp/BAP:
+    short: BAP
+    long:
+        en: Bandwidth Allocation Protocol
+    notes:
+        en: RFC 2125
+

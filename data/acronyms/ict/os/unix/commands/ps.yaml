@@ -1,0 +1,5 @@
+ict/os/unix/commands/PS:
+    short: PS
+    long:
+        en: Process Status
+

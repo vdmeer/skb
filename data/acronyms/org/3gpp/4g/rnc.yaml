@@ -1,0 +1,5 @@
+org/3gpp/4g/RNC:
+    short: RNC
+    long:
+        en: Radio Network Controller
+

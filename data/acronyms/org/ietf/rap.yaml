@@ -1,0 +1,7 @@
+org/ietf/RAP:
+    short: RAP
+    long:
+        en: Route Access Protocol
+    notes:
+        en: RFC 1476
+

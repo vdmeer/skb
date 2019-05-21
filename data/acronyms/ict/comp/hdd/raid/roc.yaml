@@ -1,0 +1,6 @@
+ict/comp/hdd/raid/ROC:
+    short: ROC
+    long:
+        en: RAID On a Chip
+    long-target:
+        latex: \acs{ict:comp:hdd:RAID} On a Chip

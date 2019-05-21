@@ -1,0 +1,6 @@
+org/psoc/rina/DTCP:
+    short: DTCP
+    long:
+        en: Data Transfer Control Protocol
+    description: 
+        en: the optional (control) part of EFCP

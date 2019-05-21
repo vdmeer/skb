@@ -1,0 +1,8 @@
+org/ietf/ppvpn/L3VPN:
+    short: L3VPN
+    long:
+        en: Layer 3 VPN
+    notes:
+        en: RFC 4026
+    long-target:
+        latex: Layer 3 \acs{org:ietf:ppvpn:VPN}

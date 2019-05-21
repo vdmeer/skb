@@ -1,0 +1,5 @@
+org/itu/x500/DAF:
+    short: DAF
+    long:
+        en: Directory Access Function
+

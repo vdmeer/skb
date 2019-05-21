@@ -1,0 +1,8 @@
+org/ietf/ppvpn/LPE:
+    short: LPE
+    long:
+        en: Logical PE
+    notes:
+        en: RFC 4026
+    long-target:
+        latex: Logical \acs{org:ietf:ppvpn:PE}

@@ -1,0 +1,6 @@
+org/etsi/nfv/VNFFGD:
+    short: VNFFGD
+    long:
+        en: VNF Forwarding Graph Descriptor
+    long-target:
+        latex: \acs{org:etsi:nfv:VNF} Forwarding Graph Descriptor

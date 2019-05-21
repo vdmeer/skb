@@ -1,0 +1,7 @@
+org/ieee/ethernet/DEPCA:
+    short: DEPCA
+    long:
+        en: Digital Ethernet Personal Computer-bus Adapter
+    notes:
+        en: IEEE 802.3 Series, Ethernet
+

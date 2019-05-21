@@ -1,0 +1,4 @@
+org/psoc/rina/RMT:
+    short: RMT
+    long:
+        en: Relaying and Multiplexing Task

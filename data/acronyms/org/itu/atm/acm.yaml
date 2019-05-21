@@ -1,0 +1,4 @@
+org/itu/atm/ACM:
+    short: ACM
+    long:
+        en: Address Complete Message

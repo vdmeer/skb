@@ -1,0 +1,5 @@
+org/itu/isdn/CDMS:
+    short: CDMS
+    long:
+        en: Communication Driver Maintenance System
+

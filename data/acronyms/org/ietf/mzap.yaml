@@ -1,0 +1,7 @@
+org/ietf/MZAP:
+    short: MZAP
+    long:
+        en: Multicast-scope Zone Announcement Protocol
+    notes:
+        en: RFC 2776
+

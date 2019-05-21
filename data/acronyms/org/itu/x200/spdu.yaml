@@ -1,0 +1,4 @@
+org/itu/x200/SPDU:
+    short: SPDU
+    long:
+        en: Session Protocol Data Unit

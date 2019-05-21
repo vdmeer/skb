@@ -1,0 +1,7 @@
+org/ietf/www/HTTP:
+    short: HTTP
+    long:
+        en: Hyper Text Transfer Protocol
+    notes:
+        en: RFC 2068/2616
+

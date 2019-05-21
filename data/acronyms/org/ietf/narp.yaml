@@ -1,0 +1,8 @@
+org/ietf/NARP:
+    short: NARP
+    long:
+        en: Non-Broadcast Multiple Access Address Resolution Protocol
+    notes:
+        en: RFC 1735
+    long-target:
+        latex: Non-Broadcast Multiple Access \acs{org:ietf:ARP}

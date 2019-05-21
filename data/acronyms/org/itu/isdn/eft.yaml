@@ -1,0 +1,5 @@
+org/itu/isdn/EFT:
+    short: EFT
+    long:
+        en: Euro-FileTransfer
+

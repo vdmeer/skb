@@ -1,0 +1,7 @@
+org/ietf/ip/DHCP:
+    short: DHCP
+    long:
+        en: Dynamic Host Configuration Protocol
+    notes:
+        en: RFC 2131
+

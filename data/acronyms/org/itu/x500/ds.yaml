@@ -1,0 +1,4 @@
+org/itu/x500/DS:
+    short: DS
+    long:
+        en: Directory Service

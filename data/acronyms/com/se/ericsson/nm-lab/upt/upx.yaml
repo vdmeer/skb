@@ -1,0 +1,4 @@
+com/se/ericsson/nm-lab/upt/UPX:
+    short: UPx
+    long:
+        en: Universal Policy Executor

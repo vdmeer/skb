@@ -1,0 +1,6 @@
+org/IPSO:
+    short: IPSO
+    long:
+        en: IP for Smart Objects Alliance
+    long-target:
+        latex: \acs{org:ietf:IP} for Smart Objects Alliance

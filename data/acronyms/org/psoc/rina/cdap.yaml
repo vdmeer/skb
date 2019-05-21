@@ -1,0 +1,6 @@
+org/psoc/rina/CDAP:
+    short: CDAP
+    long:
+        en: Common Distributed Application Protocol
+    description: 
+        en: the only application protocol needed for IPC

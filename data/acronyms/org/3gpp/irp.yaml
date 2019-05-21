@@ -1,0 +1,5 @@
+org/3gpp/IRP:
+    short: IRP
+    long:
+        en: Integration Reference Point
+

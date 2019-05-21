@@ -1,0 +1,5 @@
+org/itu/x500/DAP:
+    short: DAP
+    long:
+        en: Directory Access Protocol
+

@@ -1,0 +1,4 @@
+ict/os/unix/BPF:
+    short: BPF
+    long:
+        en: Berkeley Packet Filter

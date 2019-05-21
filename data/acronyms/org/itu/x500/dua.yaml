@@ -1,0 +1,4 @@
+org/itu/x500/DUA:
+    short: DUA
+    long:
+        en: Directory User Agent

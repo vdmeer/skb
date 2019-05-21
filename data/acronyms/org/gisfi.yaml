@@ -1,0 +1,6 @@
+org/GISFI:
+    short: GISFI
+    long:
+        en: Global ICT Standardisation Forum for India
+    long-target:
+        latex: Global \acs{ict:ICT} Standardisation Forum for India

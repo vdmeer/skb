@@ -1,0 +1,4 @@
+org/itu/x600/PER:
+    short: PER
+    long:
+        en: Packed Encoding Rules

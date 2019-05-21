@@ -1,0 +1,5 @@
+ict/comp/dvd/DC:
+    short: DC
+    long:
+        en: Data-to-Clock
+

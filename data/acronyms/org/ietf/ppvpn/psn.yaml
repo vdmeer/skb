@@ -1,0 +1,6 @@
+org/ietf/ppvpn/PSN:
+    short: PSN
+    long:
+        en: Packet Switched Network
+    notes:
+        en: RFC 4026

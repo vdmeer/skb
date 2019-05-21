@@ -1,0 +1,4 @@
+ict/security/RSA:
+    short: RSA
+    long:
+        en: Rivest, Shamir and Adleman

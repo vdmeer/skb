@@ -1,0 +1,8 @@
+org/ietf/NETBIOS:
+    short: NETBIOS
+    long:
+        en: NETwork Basic Input Output System
+    notes:
+        en: RFC 1001/1002
+    long-target:
+        latex: NETwork \acs{ict:comp:BIOS}

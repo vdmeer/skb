@@ -1,0 +1,7 @@
+org/ietf/ip/SLIP:
+    short: SLIP
+    long:
+        en: Serial Line Internet Protocol
+    notes:
+        en: RFC 1055
+

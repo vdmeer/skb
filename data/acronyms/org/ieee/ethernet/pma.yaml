@@ -1,0 +1,7 @@
+org/ieee/ethernet/PMA:
+    short: PMA
+    long:
+        en: Physical Medium Attachment
+    notes:
+        en: IEEE 802.3 Series, Ethernet
+

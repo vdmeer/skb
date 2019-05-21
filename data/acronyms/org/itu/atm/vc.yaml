@@ -1,0 +1,4 @@
+org/itu/atm/VC:
+    short: VC
+    long:
+        en: Virtual Channel

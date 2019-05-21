@@ -1,0 +1,8 @@
+org/ieee/ethernet/CSMA-CD:
+    short: CSMA/CD
+    long:
+        en: Carrier Sense Multiple Access / Carrier Detect
+    notes:
+        en: IEEE 802.3 Series, Ethernet
+    long-target:
+        latex: \acs{org:ieee:ethernet:CSMA} / \acs{org:ieee:ethernet:CD}

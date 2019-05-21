@@ -1,0 +1,5 @@
+org/ansi/fddi/P-MAC:
+    short: P-MAC
+    long:
+        en: Packet Media Access Control
+

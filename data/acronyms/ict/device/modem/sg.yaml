@@ -1,0 +1,5 @@
+ict/device/modem/SG:
+    short: SG
+    long:
+        en: Signal Ground
+

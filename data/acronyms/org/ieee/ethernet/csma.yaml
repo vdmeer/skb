@@ -1,0 +1,7 @@
+org/ieee/ethernet/CSMA:
+    short: CSMA
+    long:
+        en: Carrier Sense Multiple Access
+    notes:
+        en: IEEE 802.3 Series, Ethernet
+

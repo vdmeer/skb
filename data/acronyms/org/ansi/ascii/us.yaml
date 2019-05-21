@@ -1,0 +1,7 @@
+org/ansi/ascii/US:
+    short: US
+    long:
+        en: Unit Separator
+    description:
+        en: ASCII control character (0o037, d31, 0x1F)
+

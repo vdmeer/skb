@@ -1,0 +1,4 @@
+org/itu/atm/LEARP:
+    short: LEARP
+    long:
+        en: LAN Emulation Address Resolution Protocol

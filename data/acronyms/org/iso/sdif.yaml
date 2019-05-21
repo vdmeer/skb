@@ -1,0 +1,8 @@
+org/iso/SDIF:
+    short: SDIF
+    long:
+        en: SGML Document Interchange Format
+    notes:
+        en: ISO, also IS 9069
+    long-target:
+        latex: \acs{org:iso:SGML} Document Interchange Format

@@ -1,0 +1,5 @@
+ict/comp/cpu/EPIC:
+    short: EPIC
+    long:
+        en: Explicit Parallelism Instruction Computing
+

@@ -1,0 +1,7 @@
+org/ansi/ascii/SO:
+    short: SO
+    long:
+        en: Shift Out
+    description:
+        en: ASCII control character (0o016, d14, 0x0E)
+

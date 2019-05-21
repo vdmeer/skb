@@ -1,0 +1,7 @@
+org/ansi/ascii/SYN:
+    short: SYN
+    long:
+        en: Synchronous idle
+    description:
+        en: ASCII control character (0o026, d22, 0x16)
+

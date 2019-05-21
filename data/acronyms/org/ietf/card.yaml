@@ -1,0 +1,6 @@
+org/ietf/CARD:
+    short: CARD
+    long:
+        en: Candidate Access Router Discovery
+    notes:
+        en: RFC 4066

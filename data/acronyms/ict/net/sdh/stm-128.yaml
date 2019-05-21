@@ -1,0 +1,8 @@
+ict/net/sdh/STM-128:
+    short: STM-128
+    long:
+        en: Synchronous Transport Mode 128
+    long-target:
+        latex: \acs{ict:net:sdh:STM} Mode 128
+    notes:
+        en: 39813,12 Mbps

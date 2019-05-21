@@ -1,0 +1,5 @@
+ict/comp/hdd/scsi/DCB:
+    short: DCB
+    long:
+        en: Disk Coprocessor Board
+

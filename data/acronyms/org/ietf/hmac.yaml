@@ -1,0 +1,6 @@
+org/ietf/HMAC:
+    short: HMAC
+    long:
+        en: keyed-Hashing for Message AuthentiCation
+    notes:
+        en: RFC 2104

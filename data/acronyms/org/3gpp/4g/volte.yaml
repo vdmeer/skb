@@ -1,0 +1,6 @@
+org/3gpp/4g/VOLTE:
+    short: VoLTE
+    long:
+        en: Voice over LTE
+    long-target:
+        latex: Voice over \acs{org:3gpp:4g:LTE}

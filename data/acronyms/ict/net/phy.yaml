@@ -1,0 +1,5 @@
+ict/net/PHY:
+    short: PHY
+    long:
+        en: Physical Layer
+

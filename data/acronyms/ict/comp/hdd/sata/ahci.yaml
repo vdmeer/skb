@@ -1,0 +1,5 @@
+ict/comp/hdd/sata/AHCI:
+    short: AHCI
+    long:
+        en: Advanced Host Controller Interface
+

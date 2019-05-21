@@ -1,0 +1,4 @@
+ict/net/BER:
+    short: BER
+    long:
+        en: Bit Error Rate

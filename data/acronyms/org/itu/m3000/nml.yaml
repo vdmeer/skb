@@ -1,0 +1,5 @@
+org/itu/m3000/NML:
+    short: NML
+    long:
+        en: Network Management Layer
+

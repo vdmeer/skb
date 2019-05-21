@@ -1,0 +1,7 @@
+org/ietf/ip/ICMPv6:
+    short: ICMPv6
+    long:
+        en: Internet Control Message Protocol, version 6
+    notes:
+        en: RFC 1885
+

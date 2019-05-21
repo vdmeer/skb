@@ -1,0 +1,7 @@
+org/ieee/ethernet/MAU:
+    short: MAU
+    long:
+        en: Medium Attachment Units
+    notes:
+        en: IEEE 802.3 Series, Ethernet Transceiver
+

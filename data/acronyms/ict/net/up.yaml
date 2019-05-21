@@ -1,0 +1,5 @@
+ict/net/UP:
+    short: UP
+    long:
+        en: User Plane
+

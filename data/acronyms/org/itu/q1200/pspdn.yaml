@@ -1,0 +1,5 @@
+org/itu/q1200/PSPDN:
+    short: PSPDN
+    long:
+        en: Packet Switched Public Data Network
+

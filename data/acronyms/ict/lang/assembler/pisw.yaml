@@ -1,0 +1,5 @@
+ict/lang/assembler/PISW:
+    short: PISW
+    long:
+        en: Process Interrupt Status Word
+

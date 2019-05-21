@@ -1,0 +1,4 @@
+org/itu/atm/ICD:
+    short: ICD
+    long:
+        en: International Code Designator

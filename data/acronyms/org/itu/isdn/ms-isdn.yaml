@@ -1,0 +1,4 @@
+org/itu/isdn/MS-ISDN:
+    short: MS-ISDN
+    long:
+        en: Mobile Station ISDN Number

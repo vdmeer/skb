@@ -1,0 +1,7 @@
+org/3gpp/JF3:
+    short: JF3
+    long:
+        en: Japanese Friends of 3GPP
+    long-target:
+        latex: Japanese Friends of \acs{org:3GPP}
+

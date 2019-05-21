@@ -1,0 +1,7 @@
+org/ietf/snmp/SMIng:
+    short: SMIng
+    long:
+        en: Structure of Management Information Next Generation
+    notes:
+        en: RFC 3780
+

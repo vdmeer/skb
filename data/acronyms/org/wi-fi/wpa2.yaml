@@ -1,0 +1,6 @@
+org/wi-fi/WPA2:
+    short: WPA2
+    long:
+        en: WiFi Protected Access II
+    long-target:
+        latex: \acs{org:wi-fi:WPA} II

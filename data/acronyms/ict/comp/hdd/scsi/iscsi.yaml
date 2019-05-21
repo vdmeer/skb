@@ -1,0 +1,5 @@
+ict/comp/hdd/scsi/ISCSI:
+    short: ISCSI
+    long:
+        en: Internet Small Computer Systems Interface
+

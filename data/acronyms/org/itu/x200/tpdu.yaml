@@ -1,0 +1,4 @@
+org/itu/x200/TPDU:
+    short: TPDU
+    long:
+        en: Transport Protocol Data Unit

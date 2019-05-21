@@ -1,0 +1,5 @@
+org/ansi/fddi/TRT:
+    short: TRT
+    long:
+        en: Token Rotation Timer
+

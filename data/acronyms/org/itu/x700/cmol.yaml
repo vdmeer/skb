@@ -1,0 +1,6 @@
+org/itu/x700/CMOL:
+    short: CMOL
+    long:
+        en: CMIP Over LLC
+    long-target:
+        latex: \acs{org:itu:x700:CMIP} Over \acs{org:ieee:802:LLC}

@@ -1,0 +1,8 @@
+org/ansi/ascii/NUL:
+    short: NUL
+    long:
+        en: Null character
+    description:
+        en: ASCII control character (0o000, d0, 0x00)
+
+

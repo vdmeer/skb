@@ -1,0 +1,7 @@
+org/ietf/OWAMP:
+    short: OWAMP
+    long:
+        en: One Way Active Measurement Protocol
+    notes:
+        en: RFC 3763
+

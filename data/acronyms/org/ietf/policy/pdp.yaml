@@ -1,0 +1,4 @@
+org/ietf/policy/PDP:
+    short: PDP
+    long:
+        en: Policy Decision Point

@@ -1,0 +1,6 @@
+org/ietf/CIDR:
+    short: CIDR
+    long:
+        en: Classless Internet DOMAIN Routing
+    notes:
+        en: RFC 1519

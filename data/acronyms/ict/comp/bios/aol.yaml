@@ -1,0 +1,6 @@
+ict/comp/bios/AOL:
+    short: AOL
+    long:
+        en: Alert On LAN
+    long-target:
+        latex: Alert On \acs{ict:net:LAN}

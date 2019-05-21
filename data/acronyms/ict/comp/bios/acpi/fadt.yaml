@@ -1,0 +1,4 @@
+ict/comp/bios/acpi/FADT:
+    short: FADT
+    long:
+        en: Fixed ACPI Description Table

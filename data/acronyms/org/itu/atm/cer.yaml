@@ -1,0 +1,4 @@
+org/itu/atm/CER:
+    short: CER
+    long:
+        en: Cell Error Ratio

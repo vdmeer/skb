@@ -1,0 +1,5 @@
+ict/device/modem/DCD:
+    short: DCD
+    long:
+        en: Data Carrier Detect
+

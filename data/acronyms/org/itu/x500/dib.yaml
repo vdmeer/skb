@@ -1,0 +1,4 @@
+org/itu/x500/DIB:
+    short: DIB
+    long:
+        en: Directory Information Base

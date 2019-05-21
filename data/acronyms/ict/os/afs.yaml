@@ -1,0 +1,6 @@
+ict/os/AFS:
+    short: AFS
+    long:
+        en: Andrew File System
+    long-target:
+        latex: Andrew \acs{ict:os:FS}

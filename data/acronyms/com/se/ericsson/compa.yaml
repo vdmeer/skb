@@ -1,0 +1,6 @@
+com/se/ericsson/COMPA:
+    short: COMPA
+    long:
+        en: Control, Orchestration, Management, Policy, Analytics
+    description: 
+        en: a closed control loop concept (or pattern)

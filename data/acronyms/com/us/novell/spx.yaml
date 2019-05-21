@@ -1,0 +1,5 @@
+com/us/novell/SPX:
+    short: SPX
+    long:
+        en: Sequenced Packet eXchange
+

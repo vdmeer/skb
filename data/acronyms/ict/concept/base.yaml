@@ -1,0 +1,8 @@
+ict/concept/BASE:
+    short: BASE
+    long:
+        en: Basically Available Soft-State
+    urls:
+        Wikipedia: >
+            https://en.wikipedia.org/wiki/Eventual_consistency
+

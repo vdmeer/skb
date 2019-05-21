@@ -1,0 +1,7 @@
+org/ansi/ascii/FF:
+    short: FF
+    long:
+        en: Form feed
+    description:
+        en: ASCII control character (0o014, d12, 0x0C)
+

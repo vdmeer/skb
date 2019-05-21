@@ -1,0 +1,4 @@
+org/itu/atm/CSR:
+    short: CSR
+    long:
+        en: Cell misSequenced Ratio

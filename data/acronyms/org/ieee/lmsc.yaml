@@ -1,0 +1,6 @@
+org/ieee/LMSC:
+    short: LMSC
+    long:
+        en: LAN MAN Standards Committee
+    long-target:
+        latex: \acs{ict:net:LAN} \acs{ict:net:MAN} Standards Committee

@@ -1,0 +1,8 @@
+org/CTAN:
+    short: CTAN
+    long:
+        en: the Comprehensive TeX Archive Network
+    urls:
+        Home: >
+            https://www.ctan.org
+

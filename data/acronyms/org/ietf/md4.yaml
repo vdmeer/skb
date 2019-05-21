@@ -1,0 +1,7 @@
+org/ietf/MD4:
+    short: MD4
+    long:
+        en: Message Digest (algorithm) 4
+    notes:
+        en: RFC 1320
+

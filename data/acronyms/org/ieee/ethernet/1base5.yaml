@@ -1,0 +1,7 @@
+org/ieee/ethernet/1Base5:
+    short: 1Base5
+    long:
+        en: Ethernet with 1 MBit/s
+    notes:
+        en: "IEEE 802.3 Series, also known as Starlan: Ethernet with 1 MBit/s, Baseband Transmission, 500m segments"
+

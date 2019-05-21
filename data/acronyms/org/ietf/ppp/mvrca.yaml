@@ -1,0 +1,7 @@
+org/ietf/ppp/MVRCA:
+    short: MVRCA
+    long:
+        en: Magnalink Variable Resource Compression Algorithm
+    notes:
+        en: RFC 1975
+

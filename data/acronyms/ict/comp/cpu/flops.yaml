@@ -1,0 +1,4 @@
+ict/comp/cpu/FLOPS:
+    short: FLOPS
+    long:
+        en: FLoating-point Operations Per Second

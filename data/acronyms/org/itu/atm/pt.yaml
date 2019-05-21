@@ -1,0 +1,4 @@
+org/itu/atm/PT:
+    short: PT
+    long:
+        en: Payload Type

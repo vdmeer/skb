@@ -1,0 +1,8 @@
+ict/net/TEN:
+    short: TEN
+    long:
+        en: TransEuropean Networks
+    notes:
+        de: Netzwerk
+        en: network
+

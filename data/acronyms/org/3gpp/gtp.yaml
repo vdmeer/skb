@@ -1,0 +1,6 @@
+org/3gpp/GTP:
+    short: GTP
+    long:
+        en: GPRS Tunneling Protocol
+    long-target:
+        latex: \acs{org:3gpp:GPRS} Tunneling Protocol

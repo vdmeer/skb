@@ -1,0 +1,4 @@
+org/itu/atm/TUCD:
+    short: TUCD
+    long:
+        en: Total User Cell Difference

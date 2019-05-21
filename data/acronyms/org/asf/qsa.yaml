@@ -1,0 +1,5 @@
+org/asf/QSA:
+    short: QSA
+    long:
+        en: Query String Append
+

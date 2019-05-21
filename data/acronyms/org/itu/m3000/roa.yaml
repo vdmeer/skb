@@ -1,0 +1,4 @@
+org/itu/m3000/ROA:
+    short: ROA
+    long:
+        en: Recognized Operating Agency

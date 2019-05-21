@@ -1,0 +1,5 @@
+ict/device/modem/SCP:
+    short: SCP
+    long:
+        en: Standard Configuration Profile
+

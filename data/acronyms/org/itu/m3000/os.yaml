@@ -1,0 +1,4 @@
+org/itu/m3000/OS:
+    short: OS
+    long:
+        en: Operation System

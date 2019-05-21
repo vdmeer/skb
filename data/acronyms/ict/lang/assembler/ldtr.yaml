@@ -1,0 +1,5 @@
+ict/lang/assembler/LDTR:
+    short: LDTR
+    long:
+        en: Load Descriptor Table Register
+

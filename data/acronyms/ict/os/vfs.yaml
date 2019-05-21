@@ -1,0 +1,6 @@
+ict/os/VFS:
+    short: VFS
+    long:
+        en: Virtual File System
+    long-target:
+        latex: Virtual \acs{ict:os:FS}

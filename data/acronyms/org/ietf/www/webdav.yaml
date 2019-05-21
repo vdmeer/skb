@@ -1,0 +1,7 @@
+org/ietf/www/WEBDAV:
+    short: WEBDAV
+    long:
+        en: Web Distributed Authoring and Versioning
+    notes:
+        en: RFC 2518
+

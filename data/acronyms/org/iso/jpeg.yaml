@@ -1,0 +1,6 @@
+org/iso/JPEG:
+    short: JPEG
+    long:
+        en: Joint Photographic Experts Group
+    notes:
+        en: also in IETF RFC 1521

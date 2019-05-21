@@ -1,0 +1,6 @@
+org/etsi/NWO:
+    short: NWO
+    long:
+        en: NetWork Operator
+    notes:
+        en: ETSI, ETSI 201 671

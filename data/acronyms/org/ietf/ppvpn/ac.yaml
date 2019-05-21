@@ -1,0 +1,6 @@
+org/ietf/ppvpn/AC:
+    short: AC
+    long:
+        en: Attached Circuit
+    notes:
+        en: RFC 4026

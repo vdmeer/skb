@@ -1,0 +1,6 @@
+ict/comp/hdd/raid/EMRL:
+    short: EMRL
+    long:
+        en: EMbedded RAID Logic
+    long-target:
+        latex: EMbedded \acs{ict:comp:hdd:RAID} Logic

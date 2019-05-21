@@ -1,0 +1,6 @@
+org/psoc/rina/dms/NSM-DMS:
+    short: NSM-DMS
+    long:
+        en: Network System Management DMS
+    long-target:
+        latex: Application Management \acs{org:psoc:rina:DMS}

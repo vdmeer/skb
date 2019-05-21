@@ -1,0 +1,6 @@
+org/GSMA:
+    short: GSMA
+    long:
+        en: GSM Association
+    long-target:
+        latex: \acs{org:etsi:GSM} Association

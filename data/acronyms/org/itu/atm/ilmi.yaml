@@ -1,0 +1,4 @@
+org/itu/atm/ILMI:
+    short: ILMI
+    long:
+        en: Interim Local Management Interface

@@ -1,0 +1,7 @@
+org/ansi/ascii/DC1:
+    short: DC1
+    long:
+        en: Device Control 1
+    description:
+        en: ASCII control character, often XON (0o021, d17, 0x11)
+

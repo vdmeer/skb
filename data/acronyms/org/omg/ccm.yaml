@@ -1,0 +1,6 @@
+org/omg/CCM:
+    short: CCM
+    long:
+        en: CORBA Component Model
+    long-target:
+        latex: \acs{org:omg:CORBA} Component Model

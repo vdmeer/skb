@@ -1,0 +1,6 @@
+org/ieee/ethernet/BEB:
+    short: BEB
+    long:
+        en: Binary Exponential Backoff
+    notes:
+        en: in CSMA/CD, LIB

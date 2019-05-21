@@ -1,0 +1,7 @@
+ict/comp/BIOS2:
+    short: BIOS
+    long:
+        en: Basic Input Output Support
+    notes: 
+        en: also known as Basic I/O System
+

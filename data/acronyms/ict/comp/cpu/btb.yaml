@@ -1,0 +1,5 @@
+ict/comp/cpu/BTB:
+    short: BTB
+    long:
+        en: Branch Target Buffer
+

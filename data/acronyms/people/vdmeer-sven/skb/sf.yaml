@@ -1,0 +1,6 @@
+people/vdmeer-sven/skb/SF:
+    short: SF
+    long:
+        en: SKB Framework
+    long-target:
+        latex: \acs{people:vdmeer-sven:SKB} Framework

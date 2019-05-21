@@ -1,0 +1,6 @@
+org/ietf/DSLCP:
+    short: DSLCP
+    long:
+        en: Dynamically Switched Link Control Protocol
+    notes:
+        en: RFC 1307

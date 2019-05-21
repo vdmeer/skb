@@ -1,0 +1,6 @@
+org/itu/isdn/IPU:
+    short: IPU
+    long:
+        de: ISDN-datex-P-Umsetzer
+    long-target:
+        latex: \acs{org:itu:ISDN}-datex-P-Umsetzer

@@ -1,0 +1,4 @@
+org/itu/atm/SCS:
+    short: SCS
+    long:
+        en: Switch Control Software

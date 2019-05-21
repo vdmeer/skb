@@ -1,0 +1,5 @@
+ict/comp/cpu/MCM:
+    short: MCM
+    long:
+        en: MultiChip Module
+

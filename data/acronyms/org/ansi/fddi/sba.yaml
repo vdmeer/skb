@@ -1,0 +1,5 @@
+org/ansi/fddi/SBA:
+    short: SBA
+    long:
+        en: Synchronous Bandwidth Allocation
+

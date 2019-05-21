@@ -1,0 +1,7 @@
+org/ieee/ethernet/TPE:
+    short: TPE
+    long:
+        en: Twisted Pair Ethernet
+    notes:
+        en: IEEE 802.3 Series, Ethernet
+

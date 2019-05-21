@@ -1,0 +1,4 @@
+org/itu/bisdn/BLLI:
+    short: BLLI
+    long:
+        en: Broadband Low Layer Information

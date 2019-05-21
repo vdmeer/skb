@@ -1,0 +1,5 @@
+ict/comp/cpu/SCU:
+    short: SCU
+    long:
+        en: System Control Unit
+

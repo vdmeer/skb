@@ -1,0 +1,9 @@
+ict/sound/MIDI:
+    short: MIDI
+    long:
+        en: Musical Instrument Digital Interface
+    description: 
+        en: protocol, interface, and file format for music
+    urls:
+        Wikipedia: >
+            https://en.wikipedia.org/wiki/MIDI

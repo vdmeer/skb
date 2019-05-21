@@ -1,0 +1,5 @@
+ict/os/unix/commands/VI:
+    short: VI
+    long:
+        en: VIsual editor
+

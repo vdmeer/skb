@@ -1,0 +1,5 @@
+ict/comp/cpu/RA:
+    short: RA
+    long:
+        en: Real Address
+

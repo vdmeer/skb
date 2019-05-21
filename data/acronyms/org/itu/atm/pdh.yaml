@@ -1,0 +1,4 @@
+org/itu/atm/PDH:
+    short: PDH
+    long:
+        en: Plesiochronous Digital Hierarchy

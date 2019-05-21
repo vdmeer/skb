@@ -1,0 +1,6 @@
+com/us/microsoft/PPTX:
+    short: PPTX
+    long:
+        en: PowerPoint Microsoft Open XML
+    long-target:
+        latex: PowerPoint Microsoft Open \acs{org:w3c:XML}

@@ -1,0 +1,6 @@
+ict/os/NFS:
+    short: NFS
+    long:
+        en: Network File System
+    long-target:
+        latex: Network \acs{ict:os:FS}

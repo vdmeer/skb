@@ -1,0 +1,7 @@
+org/ieee/ethernet/EEE:
+    short: EEE
+    long:
+        en: Energy Efficient Ethernet
+    notes:
+        en: IEEE 802.3 Series, Ethernet
+

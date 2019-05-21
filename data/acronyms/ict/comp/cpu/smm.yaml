@@ -1,0 +1,5 @@
+ict/comp/cpu/SMM:
+    short: SMM
+    long:
+        en: System Management Mode
+

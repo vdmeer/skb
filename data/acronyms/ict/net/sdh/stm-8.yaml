@@ -1,0 +1,8 @@
+ict/net/sdh/STM-8:
+    short: STM-8
+    long:
+        en: Synchronous Transport Mode 8
+    long-target:
+        latex: \acs{ict:net:sdh:STM} Mode 8
+    notes:
+        en: 1244,16 Mbps

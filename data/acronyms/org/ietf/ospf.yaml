@@ -1,0 +1,7 @@
+org/ietf/OSPF:
+    short: OSPF
+    long:
+        en: Open Shortest Path First
+    notes:
+        en: RFC 1583
+

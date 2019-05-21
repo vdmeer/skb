@@ -1,0 +1,6 @@
+ict/comp/bios/BDA:
+    short: BDA
+    long:
+        en: BIOS Data Area
+    long-target:
+        latex: \acs{ict:comp:BIOS} Data Area

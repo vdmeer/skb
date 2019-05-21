@@ -1,0 +1,6 @@
+org/etsi/nfv/NFVI:
+    short: NFVI
+    long:
+        en: NFV Infrastructure
+    long-target:
+        latex: \acs{org:etsi:NFV} Infrastructure

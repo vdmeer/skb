@@ -1,0 +1,4 @@
+org/ietf/EAP:
+    short: EAP
+    long:
+        en: Extensible Authentication Protocol

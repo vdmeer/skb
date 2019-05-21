@@ -1,0 +1,6 @@
+org/itu/isdn/ISDNUP:
+    short: ISDNUP
+    long:
+        en: ISDN User Part
+    long-target:
+        latex: \acs{org:itu:ISDN} User Part

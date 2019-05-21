@@ -1,0 +1,5 @@
+ict/comp/hdd/scsi/LUN:
+    short: LUN
+    long:
+        en: Logical Unit Number
+

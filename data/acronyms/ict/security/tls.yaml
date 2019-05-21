@@ -1,0 +1,4 @@
+ict/security/TLS:
+    short: TLS
+    long:
+        en: Transport Layer Security

@@ -1,0 +1,5 @@
+org/itu/x200/ICI:
+    short: ICI
+    long:
+        en: Interface Control Information
+

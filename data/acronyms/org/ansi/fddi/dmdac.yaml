@@ -1,0 +1,7 @@
+org/ansi/fddi/DMDAC:
+    short: DMDAC
+    long:
+        en: Dual MAC Dual Attached Concentrator
+    long-target:
+        latex: Dual \acs{ict:net:MAC} Dual Attached Concentrator
+

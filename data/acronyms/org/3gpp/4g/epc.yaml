@@ -1,0 +1,5 @@
+org/3gpp/4g/EPC:
+    short: EPC
+    long:
+        en: Evolved Packet Core
+

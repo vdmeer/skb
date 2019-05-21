@@ -1,0 +1,5 @@
+ict/comp/cpu/SDQ:
+    short: SDQ
+    long:
+        en: Store Data Queue
+

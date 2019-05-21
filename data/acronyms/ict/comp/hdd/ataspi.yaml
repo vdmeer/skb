@@ -1,0 +1,6 @@
+ict/comp/hdd/ATASPI:
+    short: ATASPI
+    long:
+        en: Advanced Technology Attachment Software Programming Interface
+    long-target:
+        latex: \acs{ict:comp:hdd:ATA} Software Programming Interface

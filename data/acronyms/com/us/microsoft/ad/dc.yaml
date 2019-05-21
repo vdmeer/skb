@@ -1,0 +1,5 @@
+com/us/microsoft/ad/DC:
+    short: DC
+    long:
+        en: Domain Component
+

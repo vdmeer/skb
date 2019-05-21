@@ -1,0 +1,6 @@
+org/ietf/ppvpn/CE:
+    short: CE
+    long:
+        en: Customer Edge device
+    notes:
+        en: RFC 4026

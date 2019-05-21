@@ -1,0 +1,5 @@
+ict/device/modem/OH:
+    short: OH
+    long:
+        en: Off-Hook
+

@@ -1,0 +1,6 @@
+org/wi-fi/WPA:
+    short: WPA
+    long:
+        en: WiFi Protected Access
+    long-target:
+        latex: \acs{org:ieee:802:WIFI} Protected Access

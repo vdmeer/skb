@@ -1,0 +1,4 @@
+ict/comp/bios/MAD:
+    short: MAD
+    long:
+        en: Memory Address Driver strength

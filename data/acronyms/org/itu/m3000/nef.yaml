@@ -1,0 +1,5 @@
+org/itu/m3000/NEF:
+    short: NEF
+    long:
+        en: Network Element Function
+

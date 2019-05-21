@@ -1,0 +1,7 @@
+org/ieee/ethernet/100Base-FX:
+    short: 100Base-FX
+    long:
+        en: Ethernet with 100 MBit/s
+    notes:
+        en: "IEEE 802.3u: Ethernet with 100 MBit/s, Baseband Transmission, fibre optic cable"
+

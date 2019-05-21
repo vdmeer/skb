@@ -1,0 +1,4 @@
+ict/comp/bios/DMI:
+    short: DMI
+    long:
+        en: Desktop Management Interface

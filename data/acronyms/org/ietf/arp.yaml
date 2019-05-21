@@ -1,0 +1,4 @@
+org/ietf/ARP:
+    short: ARP
+    long:
+        en: Address Resolution Protocol

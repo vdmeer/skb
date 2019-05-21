@@ -1,0 +1,7 @@
+org/ietf/PPP:
+    short: PPP
+    long:
+        en: Point to Point Protocol
+    notes:
+        en: RFC 1171/1661
+

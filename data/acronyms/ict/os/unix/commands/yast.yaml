@@ -1,0 +1,5 @@
+ict/os/unix/commands/YAST:
+    short: YAST
+    long:
+        en: Yet Another Setup Tool
+

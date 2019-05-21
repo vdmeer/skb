@@ -1,0 +1,5 @@
+ict/comp/cpu/TSSDC:
+    short: TSSDC
+    long:
+        en: Task State Segment Descriptor Cache
+

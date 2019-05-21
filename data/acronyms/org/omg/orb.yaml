@@ -1,0 +1,4 @@
+org/omg/ORB:
+    short: ORB
+    long:
+        en: Object Request Broker

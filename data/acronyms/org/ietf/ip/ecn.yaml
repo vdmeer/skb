@@ -1,0 +1,7 @@
+org/ietf/ip/ECN:
+    short: ECN
+    long:
+        en: Explicit Congestion Notification
+    notes:
+        en: RFC 2481
+

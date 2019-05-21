@@ -1,0 +1,6 @@
+ict/comp/bios/ROMBIOS:
+    short: ROMBIOS
+    long:
+        en: Read-Only Memory - BIOS
+    long-target:
+        latex: \acs{ict:comp:memory:ROM} - \acs{ict:comp:BIOS}

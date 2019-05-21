@@ -1,0 +1,5 @@
+ict/lang/assembler/SAHF:
+    short: SAHF
+    long:
+        en: Store AH Into Flags
+

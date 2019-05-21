@@ -1,0 +1,5 @@
+ict/device/modem/ATDP:
+    short: ATDP
+    long:
+        en: ATtention Dial Pulse
+

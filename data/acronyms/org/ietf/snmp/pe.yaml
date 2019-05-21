@@ -1,0 +1,5 @@
+org/ietf/snmp/PE:
+    short: PE
+    long:
+        en: Protocol Entity
+

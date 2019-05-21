@@ -1,0 +1,6 @@
+com/se/ericsson/nm-lab/upt/PM-DSL-TR:
+    short: PM-DSL-Tr
+    long:
+        en: Policy Model DSL Transformation Rule
+    long-target:
+        latex: Policy Model \acs{ict:lang:DSL} Transformation Rule

@@ -1,0 +1,5 @@
+org/omg/IOR:
+    short: IOR
+    long:
+        en: Interoperable Object Reference
+

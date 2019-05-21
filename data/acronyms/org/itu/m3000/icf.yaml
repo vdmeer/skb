@@ -1,0 +1,5 @@
+org/itu/m3000/ICF:
+    short: ICF
+    long:
+        en: Information Conversion Function
+

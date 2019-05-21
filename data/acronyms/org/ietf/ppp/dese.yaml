@@ -1,0 +1,7 @@
+org/ietf/ppp/DESE:
+    short: DESE
+    long:
+        en: Data Encryption Standard Encryption protocol
+    notes:
+        en: RFC 1969
+

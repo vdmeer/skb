@@ -1,0 +1,5 @@
+ict/net/DPI:
+    short: DPI
+    long:
+        en: Deep Packet Inspection
+

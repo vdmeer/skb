@@ -1,0 +1,5 @@
+ict/net/mgmt/RBAC:
+    short: RBAC
+    long:
+        en: Rule-Based Access Control
+

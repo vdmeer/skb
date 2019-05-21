@@ -1,0 +1,4 @@
+ict/comp/cpu/FRF:
+    short: FRF
+    long:
+        en: Floatingpoint Register File

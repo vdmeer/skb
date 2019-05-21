@@ -1,0 +1,4 @@
+org/etsi/nfv/NF:
+    short: NF
+    long:
+        en: Network Function

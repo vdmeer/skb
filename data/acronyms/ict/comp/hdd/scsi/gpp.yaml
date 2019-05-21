@@ -1,0 +1,7 @@
+ict/comp/hdd/scsi/GPP:
+    short: GPP
+    long:
+        en: (SCSI-3) Generic Packetized Protocol
+    long-target:
+        latex: (\acs{ict:comp:hdd:SCSI}-3) Generic Packetized Protocol
+

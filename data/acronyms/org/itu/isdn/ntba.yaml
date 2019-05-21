@@ -1,0 +1,5 @@
+org/itu/isdn/NTBA:
+    short: NTBA
+    long:
+        en: Network Termination for Basic Access
+

@@ -1,0 +1,7 @@
+org/3gpp/NF3:
+    short: NF3
+    long:
+        en: North American Friends of 3GPP
+    long-target:
+        latex: North American Friends of \acs{org:3GPP}
+

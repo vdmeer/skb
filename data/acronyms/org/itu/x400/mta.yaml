@@ -1,0 +1,4 @@
+org/itu/x400/MTA:
+    short: MTA
+    long:
+        en: Message Transfer Agent

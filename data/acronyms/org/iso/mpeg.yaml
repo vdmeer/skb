@@ -1,0 +1,6 @@
+org/iso/MPEG:
+    short: MPEG
+    long:
+        en: Moving Picture Expert Group
+    notes:
+        en: ISO 11172-1, by JTC1

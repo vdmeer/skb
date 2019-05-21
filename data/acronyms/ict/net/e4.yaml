@@ -1,0 +1,7 @@
+ict/net/E4:
+    short: E4
+    long:
+        en: European digital transmission format 4
+    notes:
+        en: 139.264 Mbps
+

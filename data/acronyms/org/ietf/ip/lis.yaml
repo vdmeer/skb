@@ -1,0 +1,8 @@
+org/ietf/ip/LIS:
+    short: LIS
+    long:
+        en: Logical IP Subnet
+    notes:
+        en: RFC 1577
+    long-target:
+        latex: Logical \acs{org:ietf:IP} Subnet

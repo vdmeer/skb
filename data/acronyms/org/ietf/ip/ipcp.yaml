@@ -1,0 +1,7 @@
+org/ietf/ip/IPCP:
+    short: IPCP
+    long:
+        en: Internet Protocol Control Protocol
+    notes:
+        en: RFC 1332
+

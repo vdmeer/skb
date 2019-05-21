@@ -1,0 +1,4 @@
+org/itu/atm/CLL:
+    short: CLL
+    long:
+        en: ConnectionLess Layer

@@ -1,0 +1,6 @@
+com/se/ericsson/nm-lab/upt/PDM-DSL:
+    short: PDM-DSL
+    long:
+        en: Policy Domain Model DSL
+    long-target:
+        latex: Policy Domain Model \acs{ict:lang:DSL}

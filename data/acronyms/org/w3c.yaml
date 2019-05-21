@@ -1,0 +1,9 @@
+org/W3C:
+    short: W3C
+    long:
+        en: World Wide Web Consortium
+    description: 
+        en: SDO for all WWW related aspects
+    urls:
+        Home: >
+            https://www.w3c.org

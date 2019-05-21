@@ -1,0 +1,4 @@
+org/itu/atm/SAAL:
+    short: SAAL
+    long:
+        en: Signalling ATM Adaptation Layer

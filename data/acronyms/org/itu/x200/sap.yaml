@@ -1,0 +1,4 @@
+org/itu/x200/SAP:
+    short: SAP
+    long:
+        en: Service Access Point

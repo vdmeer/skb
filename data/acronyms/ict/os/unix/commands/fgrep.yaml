@@ -1,0 +1,5 @@
+ict/os/unix/commands/FGREP:
+    short: FGREP
+    long:
+        en: Fixed Global Regular Expression Print
+

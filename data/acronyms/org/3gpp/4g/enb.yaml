@@ -1,0 +1,5 @@
+org/3gpp/4g/ENB:
+    short: eNB
+    long:
+        en: Evolved Node B
+

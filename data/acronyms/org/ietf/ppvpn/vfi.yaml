@@ -1,0 +1,8 @@
+org/ietf/ppvpn/VFI:
+    short: VFI
+    long:
+        en: VPN Forwarding Instance
+    notes:
+        en: RFC 4026
+    long-target:
+        latex: \acs{org:ietf:ppvpn:VPN} Forwarding Instance

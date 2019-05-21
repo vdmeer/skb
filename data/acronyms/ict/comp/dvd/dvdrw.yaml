@@ -1,0 +1,6 @@
+ict/comp/dvd/DVDRW:
+    short: DVD-RW
+    long:
+        en: DVDisk - ReWritable
+    long-target:
+        latex: \acs{ict:comp:DVD}Disk - ReWritable

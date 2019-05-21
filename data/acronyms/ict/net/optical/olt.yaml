@@ -1,0 +1,4 @@
+ict/net/optical/OLT:
+    short: OLT
+    long:
+        en: Optical Line Termination

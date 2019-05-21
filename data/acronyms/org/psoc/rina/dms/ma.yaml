@@ -1,0 +1,4 @@
+org/psoc/rina/dms/MA:
+    short: MA
+    long:
+        en: Management Agent

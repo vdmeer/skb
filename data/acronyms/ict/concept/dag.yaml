@@ -1,0 +1,4 @@
+ict/concept/DAG:
+    short: DAG
+    long:
+        en: Directed Acyclic Graph

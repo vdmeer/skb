@@ -1,0 +1,7 @@
+ict/net/E2:
+    short: E2
+    long:
+        en: European digital transmission format 2
+    notes:
+        en: 8.448 Mbit/s
+

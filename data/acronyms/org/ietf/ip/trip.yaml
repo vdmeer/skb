@@ -1,0 +1,8 @@
+org/ietf/ip/TRIP:
+    short: TRIP
+    long:
+        en: Telephony Routing over IP
+    notes:
+        en: RFC 3219
+    long-target:
+        latex: Telephony Routing over \acs{org:ietf:IP}

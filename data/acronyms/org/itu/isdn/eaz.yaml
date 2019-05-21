@@ -1,0 +1,5 @@
+org/itu/isdn/EAZ:
+    short: EAZ
+    long:
+        de: Endgeräte Auswahl Ziffer
+

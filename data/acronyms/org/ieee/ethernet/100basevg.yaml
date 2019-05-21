@@ -1,0 +1,7 @@
+org/ieee/ethernet/100BaseVG:
+    short: 100BaseVG
+    long:
+        en: Ethernet with 100 MBit/s
+    notes:
+        en: "IEEE 802.3 Series: Ethernet with 100 MBit/s, Baseband Transmission"
+

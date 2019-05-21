@@ -1,0 +1,5 @@
+org/ietf/TTL:
+    short: TTL
+    long:
+        en: Time To Live
+

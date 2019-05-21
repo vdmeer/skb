@@ -1,0 +1,6 @@
+com/us/BSD:
+    short: BSD
+    long:
+        en: Berkeley System Distribution
+    notes:
+        en: also known as Berkeley Software Distribution

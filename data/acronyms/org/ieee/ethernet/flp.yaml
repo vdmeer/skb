@@ -1,0 +1,7 @@
+org/ieee/ethernet/FLP:
+    short: FLP
+    long:
+        en: Fast Link Pulse
+    notes:
+        en: IEEE 802.3 Series, Ethernet
+

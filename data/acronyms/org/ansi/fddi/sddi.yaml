@@ -1,0 +1,5 @@
+org/ansi/fddi/SDDI:
+    short: SDDI
+    long:
+        en: Shielded Distributed Data Interface
+

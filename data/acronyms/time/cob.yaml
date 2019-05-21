@@ -1,0 +1,6 @@
+time/COB:
+    short: COB
+    long:
+        en: Close Of Business
+    description:
+        en: the end of business today

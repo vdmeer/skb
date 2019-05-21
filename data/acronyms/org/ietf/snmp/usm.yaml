@@ -1,0 +1,7 @@
+org/ietf/snmp/USM:
+    short: USM
+    long:
+        en: User-based Security Model
+    notes:
+        en: RFC 2574
+

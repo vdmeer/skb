@@ -1,0 +1,7 @@
+org/ietf/ppp/BCP:
+    short: BCP
+    long:
+        en: Bridging Control Protocol
+    notes:
+        en: RFC 1638
+

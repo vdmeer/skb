@@ -1,0 +1,7 @@
+org/ansi/ascii/ENQ:
+    short: ENQ
+    long:
+        en: Enquiry
+    description:
+        en: ASCII control character (0o005, d5, 0x05)
+

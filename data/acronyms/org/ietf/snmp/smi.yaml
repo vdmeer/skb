@@ -1,0 +1,7 @@
+org/ietf/snmp/SMI:
+    short: SMI
+    long:
+        en: Structure of Management Information
+    notes:
+        en: RFC 1155/1902
+

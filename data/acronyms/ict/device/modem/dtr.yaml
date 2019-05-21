@@ -1,0 +1,5 @@
+ict/device/modem/DTR:
+    short: DTR
+    long:
+        en: Data Terminal Ready
+

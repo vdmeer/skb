@@ -1,0 +1,5 @@
+org/itu/isdn/SN:
+    short: SN
+    long:
+        en: Subscriber Number
+

@@ -1,0 +1,5 @@
+ict/os/unix/commands/TAR:
+    short: TAR
+    long:
+        en: Tape ARchiver
+

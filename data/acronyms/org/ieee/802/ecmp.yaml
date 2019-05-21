@@ -1,0 +1,4 @@
+org/ieee/802/ECMP:
+    short: ECMP
+    long:
+        en: Equal-Cost Multi-Path Routing

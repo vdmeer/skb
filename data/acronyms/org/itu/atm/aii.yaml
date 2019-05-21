@@ -1,0 +1,4 @@
+org/itu/atm/AII:
+    short: AII
+    long:
+        en: Active Input Interface

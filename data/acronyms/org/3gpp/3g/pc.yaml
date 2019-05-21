@@ -1,0 +1,5 @@
+org/3gpp/3g/PC:
+    short: PC
+    long:
+        en: Packet Core
+

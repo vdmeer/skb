@@ -1,0 +1,7 @@
+org/ieee/ethernet/10Broad36:
+    short: 10Broad36
+    long:
+        en: Ethernet with 10 MBit/s
+    notes:
+        en: "IEEE 802.3 Series: Ethernet with 10 MBit/s, Broadband Transmission"
+

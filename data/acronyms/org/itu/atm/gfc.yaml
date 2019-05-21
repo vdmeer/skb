@@ -1,0 +1,4 @@
+org/itu/atm/GFC:
+    short: GFC
+    long:
+        en: Generic Flow Control

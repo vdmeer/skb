@@ -1,0 +1,6 @@
+ict/lang/XTM:
+    short: XTM
+    long:
+        en: XML Topic Map
+    long-target:
+        latex: \acs{org:w3c:XML} Topic Map

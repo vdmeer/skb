@@ -1,0 +1,7 @@
+org/ieee/ethernet/PSE:
+    short: PSE
+    long:
+        en: Port Switched Ethernet
+    notes:
+        en: IEEE 802.3 Series, Ethernet
+

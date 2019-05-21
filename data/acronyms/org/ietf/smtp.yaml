@@ -1,0 +1,7 @@
+org/ietf/SMTP:
+    short: SMTP
+    long:
+        en: Simple Mail Transfer Protocol
+    notes:
+        en: RFC 821
+

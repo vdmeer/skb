@@ -1,0 +1,5 @@
+ict/security/SKIP:
+    short: SKIP
+    long:
+        en: Simple Key-management for Internet Protocols
+

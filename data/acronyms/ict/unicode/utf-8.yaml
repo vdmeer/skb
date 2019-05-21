@@ -1,0 +1,6 @@
+ict/unicode/UTF-8:
+    short: UTF-8
+    long:
+        en: UCS Transformation Format - 8 bit
+    long-target:
+        latex: \acs{ict:unicode:UCS} Transformation Format - 8 bit

@@ -1,0 +1,7 @@
+org/ietf/LPDP:
+    short: LPDP
+    long:
+        en: Line Printer DAEMON Protocol
+    notes:
+        en: RFC 1179
+

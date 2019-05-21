@@ -1,0 +1,4 @@
+org/etsi/nfv/VIM:
+    short: VIM
+    long:
+        en: Virtual Infrastructure Manager

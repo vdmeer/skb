@@ -1,0 +1,9 @@
+org/ecma/JSON:
+    short: JSON
+    long:
+        en: JavaScript Object Notation
+    description: 
+        en: language to serialize JavaScript objects, defined by ECMA
+    urls:
+        Wikipedia: >
+            https://en.wikipedia.org/wiki/JSON

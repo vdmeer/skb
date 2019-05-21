@@ -1,0 +1,4 @@
+org/itu/atm/ES:
+    short: ES
+    long:
+        en: End System

@@ -1,0 +1,6 @@
+org/etsi/HI3:
+    short: HI3
+    long:
+        en: Handover Interface 3
+    notes:
+        en: ETSI, ES 201671

@@ -1,0 +1,7 @@
+org/ietf/ip/IPNG:
+    short: IPNG
+    long:
+        en: Internet Protocol Next Generation
+    notes:
+        en: RFC 1550/1752
+

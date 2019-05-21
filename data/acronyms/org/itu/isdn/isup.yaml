@@ -1,0 +1,5 @@
+org/itu/isdn/ISUP:
+    short: ISUP
+    long:
+        en: Integrated Services User Part
+

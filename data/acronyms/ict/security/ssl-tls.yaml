@@ -1,0 +1,6 @@
+ict/security/SSL-TLS:
+    short: SSL/TLS
+    long:
+        en: Secure Socket Layer / Transport Layer Security
+    long-target:
+        latex: \acs{ict:security:SSL} / Transport Layer Security

@@ -1,0 +1,5 @@
+ict/comp/cpu/IFP:
+    short: IFP
+    long:
+        en: Instruction Fetch Pipeline
+

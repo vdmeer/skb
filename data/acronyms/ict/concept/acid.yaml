@@ -1,0 +1,4 @@
+ict/concept/ACID:
+    short: ACID
+    long:
+        en: Atomicity, Consistency, Isolation and Durability

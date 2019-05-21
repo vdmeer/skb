@@ -1,0 +1,10 @@
+org/ietf/ppvpn/VRF:
+    short: VRF
+    long:
+        en: VPN Routing and Forwarding
+    notes:
+        en: RFC 4026
+    long-target:
+        latex: \acs{org:ietf:ppvpn:VPN}
+
+

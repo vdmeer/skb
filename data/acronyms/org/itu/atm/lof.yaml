@@ -1,0 +1,4 @@
+org/itu/atm/LOF:
+    short: LOF
+    long:
+        en: Loss of Frame

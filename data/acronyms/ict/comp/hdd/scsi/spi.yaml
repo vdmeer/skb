@@ -1,0 +1,6 @@
+ict/comp/hdd/scsi/SPI:
+    short: SPI
+    long:
+        en: SCSI-3 Parallel Interface
+    long-target:
+        latex: \acs{ict:comp:hdd:SCSI}-3 Parallel Interface

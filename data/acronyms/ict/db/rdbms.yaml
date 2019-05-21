@@ -1,0 +1,4 @@
+ict/db/rdbms:
+    short: RDBMS
+    long:
+        en: Relational Database Management System

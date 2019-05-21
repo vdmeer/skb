@@ -1,0 +1,6 @@
+org/ietf/ppvpn/VPSN:
+    short: VPSN
+    long:
+        en: Virtual Private Switched Network
+    notes:
+        en: RFC 4026

@@ -1,0 +1,5 @@
+org/itu/isdn/NIU:
+    short: NIU
+    long:
+        en: North american ISDN Users
+

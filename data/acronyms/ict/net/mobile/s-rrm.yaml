@@ -1,0 +1,6 @@
+ict/net/mobile/S-RRM:
+    short: S-RRM
+    long:
+        en: System Radio Resource Management
+    long-target:
+        latex: System \acs{ict:net:mobile:RRM}

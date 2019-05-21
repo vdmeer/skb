@@ -1,0 +1,5 @@
+org/itu/m3000/LLA:
+    short: LLA
+    long:
+        en: Logical Layered Architecture
+

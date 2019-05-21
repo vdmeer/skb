@@ -1,0 +1,9 @@
+ict/net/sdh/STM-32:
+    short: STM-32
+    long:
+        en: Synchronous Transport Mode 32
+    long-target:
+        latex: \acs{ict:net:sdh:STM} Mode 32
+    notes:
+        en: 4976,64 Mbps
+

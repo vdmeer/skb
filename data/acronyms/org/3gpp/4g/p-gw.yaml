@@ -1,0 +1,5 @@
+org/3gpp/4g/P-GW:
+    short: P-GW
+    long:
+        en: Packet Gateway
+

@@ -1,0 +1,6 @@
+org/itu/atm/ATE:
+    short: ATE
+    long:
+        en: ATM Terminating Equipment
+    long-target:
+        latex: \acs{org:itu:ATM} Terminating Equipment

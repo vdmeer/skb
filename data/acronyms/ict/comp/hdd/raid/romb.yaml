@@ -1,0 +1,6 @@
+ict/comp/hdd/raid/ROMB:
+    short: ROMB
+    long:
+        en: RAID On MotherBoard
+    long-target:
+        latex: \acs{ict:comp:hdd:RAID} On MotherBoard

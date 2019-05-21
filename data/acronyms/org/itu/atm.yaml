@@ -1,0 +1,5 @@
+org/itu/ATM:
+    short: ATM
+    long:
+        en: Asynchronous Transfer Mode
+

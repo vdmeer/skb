@@ -1,0 +1,5 @@
+org/ietf/ip/RSVP-TE:
+    short: RSVP-TE
+    long:
+        en: Resource reSerVation Protocol - Traffic Engineering
+

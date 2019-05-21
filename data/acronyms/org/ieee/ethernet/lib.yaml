@@ -1,0 +1,7 @@
+org/ieee/ethernet/LIB:
+    short: LIB
+    long:
+        en: Linear Incremental Backoff
+    notes:
+        en: in CSMA/CD, BEB
+

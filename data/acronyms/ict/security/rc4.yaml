@@ -1,0 +1,5 @@
+ict/security/RC4:
+    short: RC4
+    long:
+        en: Rivest Cipher / Ron's Code 4
+

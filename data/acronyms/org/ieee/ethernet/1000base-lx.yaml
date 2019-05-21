@@ -1,0 +1,6 @@
+org/ieee/ethernet/1000Base-LX:
+    short: 1000Base-LX
+    long:
+        en: Ethernet with 1000 MBit/s
+    notes:
+        en: "IEEE 802.3 Series: Ethernet with 1000 MBit/s, Baseband Transmission, LWL fibre optic cable"

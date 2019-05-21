@@ -1,0 +1,5 @@
+ict/lang/assembler/CLI:
+    short: CLI
+    long:
+        en: CLear Interrupt
+

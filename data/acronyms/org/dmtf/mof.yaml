@@ -1,0 +1,5 @@
+org/dmtf/MOF:
+    short: MOF
+    long:
+        en: Managed Object Format
+

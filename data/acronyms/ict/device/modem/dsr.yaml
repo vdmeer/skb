@@ -1,0 +1,5 @@
+ict/device/modem/DSR:
+    short: DSR
+    long:
+        en: Data Set Ready
+

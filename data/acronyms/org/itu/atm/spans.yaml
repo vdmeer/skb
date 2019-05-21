@@ -1,0 +1,4 @@
+org/itu/atm/SPANS:
+    short: SPANS
+    long:
+        en: Simple Protocol for ATM Network Signalling

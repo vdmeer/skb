@@ -1,0 +1,5 @@
+ict/comp/cpu/BPU1:
+    short: BPU
+    long:
+        en: Branch Prediction Unit
+

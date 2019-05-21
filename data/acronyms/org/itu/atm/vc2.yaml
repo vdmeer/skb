@@ -1,0 +1,4 @@
+org/itu/atm/VC2:
+    short: VC
+    long:
+        en: Virtual Circuit

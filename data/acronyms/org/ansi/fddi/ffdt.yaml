@@ -1,0 +1,6 @@
+org/ansi/fddi/FFDT:
+    short: FFDT
+    long:
+        en: FDDI Full Duplexing Technology
+    long-target:
+        latex: \acs{org:ansi:FDDI} Full Duplexing Technology

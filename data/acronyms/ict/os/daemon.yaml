@@ -1,0 +1,6 @@
+ict/os/DAEMON:
+    short: DAEMON
+    long:
+        en: Disk And Execution MONitor
+    notes:
+        en: actually a backronym

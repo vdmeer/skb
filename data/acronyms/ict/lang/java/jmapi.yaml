@@ -1,0 +1,7 @@
+ict/lang/java/JMAPI:
+    short: JMAPI
+    long:
+        en: Java Management API
+    long-target:
+        latex: Java Management \acs{ict:API}
+

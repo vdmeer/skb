@@ -1,0 +1,7 @@
+ict/comp/dvd/DVDRA:
+    short: DVD-R(A)
+    long:
+        en: DVDisk - Read (Authoring)
+    long-target:
+        latex: \acs{ict:comp:DVD}Disk - Read (Authoring)
+

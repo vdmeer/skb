@@ -1,0 +1,6 @@
+org/OIDF:
+    short: OIDF
+    long:
+        en: OpenID Foudation
+    long-target:
+        latex: Open\acs{ict:ID} Foudation

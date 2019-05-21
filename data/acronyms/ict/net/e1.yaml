@@ -1,0 +1,7 @@
+ict/net/E1:
+    short: E1
+    long:
+        en: European digital transmission format 1
+    notes:
+        en: 2.048 Mbit/s
+

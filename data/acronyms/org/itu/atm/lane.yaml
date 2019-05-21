@@ -1,0 +1,4 @@
+org/itu/atm/LANE:
+    short: LANE
+    long:
+        en: Local Area Network Emulation [over ATM specification]

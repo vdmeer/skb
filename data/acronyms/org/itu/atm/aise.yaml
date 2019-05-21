@@ -1,0 +1,4 @@
+org/itu/atm/AISE:
+    short: AISE
+    long:
+        en: Alarm Indication Signal-External

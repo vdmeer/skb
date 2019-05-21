@@ -1,0 +1,5 @@
+ict/os/unix/commands/BASH:
+    short: BASH
+    long:
+        en: Bourne-Again SHell
+

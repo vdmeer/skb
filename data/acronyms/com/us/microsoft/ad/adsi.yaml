@@ -1,0 +1,5 @@
+com/us/microsoft/ad/ADSI:
+    short: ADSI
+    long:
+        en: Active Directory Service Interface
+

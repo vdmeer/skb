@@ -1,0 +1,6 @@
+org/ietf/snmp/SNMPv2:
+    short: SNMPv2
+    long:
+        en: SNMP version 2
+    long-target:
+        latex: \acs{org:ietf:SNMP} 2

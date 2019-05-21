@@ -1,0 +1,4 @@
+org/itu/x200/SPM:
+    short: SPM
+    long:
+        en: Session Protocol Machine

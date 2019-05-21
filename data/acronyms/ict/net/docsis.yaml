@@ -1,0 +1,5 @@
+ict/net/DOCSIS:
+    short: DOCSIS
+    long:
+        en: Data Over Cable Service Interface Specification
+

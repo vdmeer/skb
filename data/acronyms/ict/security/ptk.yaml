@@ -1,0 +1,5 @@
+ict/security/PTK:
+    short: PTK
+    long:
+        en: Pairwise Transient Key
+

@@ -1,0 +1,7 @@
+ict/comp/hdd/scsi/SCAM:
+    short: SCAM
+    long:
+        en: SCSI Configured AutoMatically
+    long-target:
+        latex: \acs{ict:comp:hdd:SCSI} Configured AutoMatically
+

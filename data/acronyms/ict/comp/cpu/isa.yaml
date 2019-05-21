@@ -1,0 +1,5 @@
+ict/comp/cpu/ISA:
+    short: ISA
+    long:
+        en: Instruction Set Architecture
+

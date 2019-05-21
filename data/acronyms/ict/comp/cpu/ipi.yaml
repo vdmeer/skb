@@ -1,0 +1,5 @@
+ict/comp/cpu/IPI:
+    short: IPI
+    long:
+        en: Inter-Processor Interrupt
+

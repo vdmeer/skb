@@ -1,0 +1,5 @@
+ict/device/modem/ADC:
+    short: ADC
+    long:
+        en: Adaptive Data Compression
+

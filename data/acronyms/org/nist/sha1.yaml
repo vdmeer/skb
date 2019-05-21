@@ -1,0 +1,4 @@
+org/nist/SHA1:
+    short: SHA1
+    long:
+        en: Secure Hash Algorithm 1

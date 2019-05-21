@@ -1,0 +1,6 @@
+ict/IPC:
+    short: IPC
+    long:
+        en: Inter-Process Communication
+    notes: 
+        en: also known as networking

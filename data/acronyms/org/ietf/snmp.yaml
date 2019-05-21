@@ -1,0 +1,7 @@
+org/ietf/SNMP:
+    short: SNMP
+    long:
+        en: Simple Network Management Protocol
+    notes:
+        en: RFC 1157/1902
+

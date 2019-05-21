@@ -1,0 +1,4 @@
+org/ieee/802/MAC:
+    short: MAC
+    long:
+        en: Media Access Control

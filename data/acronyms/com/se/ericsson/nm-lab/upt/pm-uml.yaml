@@ -1,0 +1,6 @@
+com/se/ericsson/nm-lab/upt/PM-UML:
+    short: PM-UML
+    long:
+        en: Policy Model UML
+    long-target:
+        latex: Policy Model \acs{org:omg:UML}

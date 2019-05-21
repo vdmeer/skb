@@ -1,0 +1,6 @@
+org/itu/atm/AAL:
+    short: AAL
+    long:
+        en: ATM Adaptation Layer
+    long-target:
+        latex: \acs{org:itu:ATM} ATM Adaptation Layer

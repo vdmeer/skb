@@ -1,0 +1,8 @@
+ict/ascii/BTOA:
+    short: BTOA
+    long:
+        en: Binary TO ASCII
+    description: 
+        en: function (method) or program to convert binary to ASCII
+    long-target:
+        latex: Binary TO \acs{org:ansi:ASCI}

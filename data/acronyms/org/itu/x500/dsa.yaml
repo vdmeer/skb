@@ -1,0 +1,4 @@
+org/itu/x500/DSA:
+    short: DSA
+    long:
+        en: Directory System Agent

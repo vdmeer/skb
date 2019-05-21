@@ -1,0 +1,6 @@
+org/ieee/ethernet/1000Base-CX:
+    short: 1000Base-CX
+    long:
+        en: Ethernet with 1000 MBit/s
+    notes:
+        en: "IEEE 802.3 Series: Ethernet with 1000 MBit/s, Baseband Transmission, shielded balanced copper cable (UTP Category 5)"

@@ -1,0 +1,7 @@
+org/ietf/ip/SIPP:
+    short: SIPP
+    long:
+        en: Simple Internet Protocol Plus
+    notes:
+        en: RFC 1710
+

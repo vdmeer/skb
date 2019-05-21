@@ -1,0 +1,4 @@
+org/itu/atm/UNI:
+    short: UNI
+    long:
+        en: User Network Interface

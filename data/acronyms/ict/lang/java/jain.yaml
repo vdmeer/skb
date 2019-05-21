@@ -1,0 +1,6 @@
+ict/lang/java/JAIN:
+    short: JAIN
+    long:
+        en: Java API for Integrated Networks
+    long-target:
+        latex: Java \acs{ict:API} for Integrated Networks

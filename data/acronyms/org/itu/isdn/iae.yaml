@@ -1,0 +1,6 @@
+org/itu/isdn/IAE:
+    short: IAE
+    long:
+        de: ISDN Anschluß Einheit
+    long-target:
+        latex: \acs{org:itu:ISDN} Anschluß Einheit

@@ -1,0 +1,6 @@
+org/psoc/rina/EFCP:
+    short: EFCP
+    long:
+        en: Error and Flow Control Protocol
+    description: 
+        en: "the main protocol of a DIF, has two parts: DTP and optionally DTCP"

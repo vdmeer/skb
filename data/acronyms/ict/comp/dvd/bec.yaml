@@ -1,0 +1,6 @@
+ict/comp/dvd/BEC:
+    short: BEC
+    long:
+        en: Back-End-Chip
+    notes:
+        en: used for DVR

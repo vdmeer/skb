@@ -1,0 +1,5 @@
+ict/net/mgmt/RMON:
+    short: RMON
+    long:
+        en: Remote MONitoring
+

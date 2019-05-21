@@ -1,0 +1,4 @@
+org/itu/atm/OAM:
+    short: OAM
+    long:
+        en: Operations, Administration and Management

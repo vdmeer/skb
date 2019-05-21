@@ -1,0 +1,4 @@
+org/itu/atm/NHRP:
+    short: NHRP
+    long:
+        en: Next Hop Resolution Protocol

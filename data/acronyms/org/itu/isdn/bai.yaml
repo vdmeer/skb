@@ -1,0 +1,5 @@
+org/itu/isdn/BAI:
+    short: BAI
+    long:
+        en: Basic Access Interface
+

@@ -1,0 +1,7 @@
+org/ietf/MPP:
+    short: MPP
+    long:
+        en: Message Posting Protocol
+    notes:
+        en: RFC 1204
+

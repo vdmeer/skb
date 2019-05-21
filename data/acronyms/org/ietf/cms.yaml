@@ -1,0 +1,6 @@
+org/ietf/CMS:
+    short: CMS
+    long:
+        en: Cryptographic Message Syntax
+    notes:
+        en: RFC 2630

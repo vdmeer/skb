@@ -1,0 +1,5 @@
+ict/comp/hdd/MTBF:
+    short: MTBF
+    long:
+        en: Mean Time Between Failure
+

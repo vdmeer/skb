@@ -1,0 +1,5 @@
+ict/comp/cpu/D-VID:
+    short: D-VID
+    long:
+        en: Dynamic - Voltage IDentification
+

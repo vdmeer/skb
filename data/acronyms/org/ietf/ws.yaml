@@ -1,0 +1,6 @@
+org/ietf/WS:
+    short: FWS
+    long:
+        en: (Folding) White Space
+    notes:
+        en: RFC 1822

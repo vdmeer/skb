@@ -1,0 +1,6 @@
+org/ietf/LDP1:
+    short: LDP
+    long:
+        en: Label Distribution Protocol
+    notes:
+        en: RFC 3036

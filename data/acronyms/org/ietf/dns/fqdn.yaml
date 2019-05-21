@@ -1,0 +1,5 @@
+org/ietf/dns/FQDN:
+    short: FQDN
+    long:
+        en: Fully Qualified Domain Name
+

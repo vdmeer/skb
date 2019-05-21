@@ -1,0 +1,5 @@
+org/itu/isdn/NFAS:
+    short: NFAS
+    long:
+        en: Non Facilities-Associated Signaling
+

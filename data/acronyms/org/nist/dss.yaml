@@ -1,0 +1,5 @@
+org/nist/DSS:
+    short: DSS
+    long:
+        en: Digital Signature Standard
+

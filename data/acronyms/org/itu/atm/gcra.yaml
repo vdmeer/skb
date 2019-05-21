@@ -1,0 +1,4 @@
+org/itu/atm/GCRA:
+    short: GCRA
+    long:
+        en: Generic Cell Rate Algorithm

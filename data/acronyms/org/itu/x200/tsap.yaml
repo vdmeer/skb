@@ -1,0 +1,4 @@
+org/itu/x200/TSAP:
+    short: TSAP
+    long:
+        en: Transport Service Access Point

@@ -1,0 +1,5 @@
+org/omg/GIOP:
+    short: GIOP
+    long:
+        en: The General Inter-ORB Protocol
+

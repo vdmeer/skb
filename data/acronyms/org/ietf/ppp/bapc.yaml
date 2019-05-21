@@ -1,0 +1,7 @@
+org/ietf/ppp/BAPC:
+    short: BAPC
+    long:
+        en: Bandwidth Allocation Control Protocol
+    notes:
+        en: RFC 2125
+

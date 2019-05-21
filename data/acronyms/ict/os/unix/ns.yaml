@@ -1,0 +1,5 @@
+ict/os/unix/NS:
+    short: NS
+    long:
+        en: Name Server
+

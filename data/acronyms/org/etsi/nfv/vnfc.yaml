@@ -1,0 +1,6 @@
+org/etsi/nfv/VNFC:
+    short: VNFC
+    long:
+        en: VNF Component
+    long-target:
+        latex: \acs{org:etsi:nfv:VNF} Component

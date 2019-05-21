@@ -1,0 +1,7 @@
+org/ietf/MP:
+    short: MP
+    long:
+        en: Multilink Protocol
+    notes:
+        en: RFC 1990
+

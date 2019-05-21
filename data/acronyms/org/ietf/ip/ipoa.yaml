@@ -1,0 +1,6 @@
+org/ietf/ip/IPOA:
+    short: IPOA
+    long:
+        en: IP and ARP Over ATM
+    long-target:
+        latex: \acs{org:ietf:IP} and \acs{org:ietf:ARP} Over \acs{org:itu:ATM}

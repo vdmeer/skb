@@ -1,0 +1,6 @@
+ict/dev/DbC:
+    short: DbC
+    long:
+        en: Design by Contract
+    description: 
+        en: software validation technique

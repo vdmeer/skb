@@ -1,0 +1,5 @@
+ict/device/modem/DSVD:
+    short: DSVD
+    long:
+        en: Digital Simultaneous Voice and Data
+

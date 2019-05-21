@@ -1,0 +1,8 @@
+org/ietf/snmp/CMOT:
+    short: CMOT
+    long:
+        en: CMIP over TCP/IP
+    notes:
+        en: RFC 1189
+    long-target:
+        latex: \acs{org:itu:x700:CMIP} over \acs{org:ietf:ip/TCP}/\acs{org:ietf:IP}

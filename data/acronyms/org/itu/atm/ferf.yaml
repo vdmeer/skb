@@ -1,0 +1,5 @@
+org/itu/atm/FERF:
+    short: FERF
+    long:
+        en: Far End Receive Failure
+

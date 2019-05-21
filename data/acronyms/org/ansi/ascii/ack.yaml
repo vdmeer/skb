@@ -1,0 +1,7 @@
+org/ansi/ascii/ACK:
+    short: ACK
+    long:
+        en: Acknowledgment
+    description:
+        en: ASCII control character (0o006, d6, 0x06)
+

@@ -1,0 +1,5 @@
+ict/device/modem/ACP:
+    short: ACP
+    long:
+        en: Active Configuration Profile
+

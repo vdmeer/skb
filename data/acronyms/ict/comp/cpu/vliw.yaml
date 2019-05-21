@@ -1,0 +1,5 @@
+ict/comp/cpu/VLIW:
+    short: VLIW
+    long:
+        en: Very Long Instruction Word
+

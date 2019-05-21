@@ -1,0 +1,4 @@
+org/itu/x500/CA:
+    short: CA
+    long:
+        en: Certification Authority

@@ -1,0 +1,6 @@
+org/WI-FI:
+    short: WI-FI
+    long:
+        en: WiFi Alliance
+    long-target:
+        latex: \acs{org:ieee:802:WIFI} Alliance

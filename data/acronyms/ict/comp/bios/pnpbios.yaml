@@ -1,0 +1,6 @@
+ict/comp/bios/PNPBIOS:
+    short: PNPBIOS
+    long:
+        en: Plug and Play BIOS
+    long-target:
+        latex: Plug and Play \acs{ict:comp:BIOS}

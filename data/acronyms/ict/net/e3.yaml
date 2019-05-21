@@ -1,0 +1,7 @@
+ict/net/E3:
+    short: E3
+    long:
+        en: European digital transmission format 3
+    notes:
+        en: 34.368 Mbit/s
+

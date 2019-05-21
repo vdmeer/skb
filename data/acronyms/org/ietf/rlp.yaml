@@ -1,0 +1,7 @@
+org/ietf/RLP:
+    short: RLP
+    long:
+        en: Resource Location Protocol
+    notes:
+        en: RFC 887
+

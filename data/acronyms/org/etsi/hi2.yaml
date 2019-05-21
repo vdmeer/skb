@@ -1,0 +1,6 @@
+org/etsi/HI2:
+    short: HI2
+    long:
+        en: Handover Interface 2
+    notes:
+        en: ETSI, ES 201671

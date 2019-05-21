@@ -1,0 +1,4 @@
+org/itu/x600/BER:
+    short: BER
+    long:
+        en: Basic Encoding Rules

@@ -1,0 +1,5 @@
+ict/device/modem/RTS:
+    short: RTS
+    long:
+        en: Request To Send
+

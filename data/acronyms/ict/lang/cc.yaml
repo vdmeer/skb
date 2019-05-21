@@ -1,0 +1,7 @@
+ict/lang/CC:
+    short: C++
+    long:
+        en: Programming Language
+    notes:
+        en: originally "C with Classes"
+

@@ -1,0 +1,4 @@
+org/itu/atm/CCR:
+    short: CCR
+    long:
+        en: Current Cell Rate

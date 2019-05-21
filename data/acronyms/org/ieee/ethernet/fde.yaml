@@ -1,0 +1,7 @@
+org/ieee/ethernet/FDE:
+    short: FDE
+    long:
+        en: Full Duplex Ethernet
+    notes:
+        en: IEEE 802.3 Series, Ethernet
+

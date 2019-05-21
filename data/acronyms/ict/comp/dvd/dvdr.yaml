@@ -1,0 +1,7 @@
+ict/comp/dvd/DVDR:
+    short: DVD-R
+    long:
+        en: DVDisk - Recordable
+    long-target:
+        latex: \acs{ict:comp:DVD}Disk - Recordable
+

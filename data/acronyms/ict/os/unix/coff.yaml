@@ -1,0 +1,5 @@
+ict/os/unix/COFF:
+    short: COFF
+    long:
+        en: Common Object File Format
+

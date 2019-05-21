@@ -1,0 +1,4 @@
+org/ietf/policy/PIB:
+    short: PIB
+    long:
+        en: Policy Information Base

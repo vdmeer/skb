@@ -1,0 +1,4 @@
+org/itu/atm/SSCF:
+    short: SSCF
+    long:
+        en: Service Specific Coordination Function

@@ -1,0 +1,4 @@
+ict/comp/fdd/FDC:
+    short: FDC
+    long:
+        en: Floppy Disk Controller

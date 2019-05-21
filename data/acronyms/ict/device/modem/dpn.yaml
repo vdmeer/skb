@@ -1,0 +1,5 @@
+ict/device/modem/DPN:
+    short: DPN
+    long:
+        en: Data Processing Node
+

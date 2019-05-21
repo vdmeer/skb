@@ -1,0 +1,5 @@
+ict/comp/cpu/BHT:
+    short: BHT
+    long:
+        en: Branch History Table
+

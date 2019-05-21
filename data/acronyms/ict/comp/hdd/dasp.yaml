@@ -1,0 +1,5 @@
+ict/comp/hdd/DASP:
+    short: DASP
+    long:
+        en: Drive Active, Slave Present
+

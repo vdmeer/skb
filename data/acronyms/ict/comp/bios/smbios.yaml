@@ -1,0 +1,6 @@
+ict/comp/bios/SMBIOS:
+    short: SMBIOS
+    long:
+        en: System Management BIOS
+    long-target:
+        latex: System Management \acs{ict:comp:BIOS}

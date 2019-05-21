@@ -1,0 +1,4 @@
+org/ietf/policy/SPPI:
+    short: SPPI
+    long:
+        en: Structure of Policy Provisioning Information

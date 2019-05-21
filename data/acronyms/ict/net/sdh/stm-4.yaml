@@ -1,0 +1,9 @@
+ict/net/sdh/STM-4:
+    short: STM-4
+    long:
+        en: Synchronous Transport Mode 4
+    long-target:
+        latex: \acs{ict:net:sdh:STM} Mode 4
+    notes:
+        en: 622,08 Mbps
+

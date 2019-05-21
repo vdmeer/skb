@@ -1,0 +1,5 @@
+ict/os/unix/commands/GREP:
+    short: GREP
+    long:
+        en: Global Regular Expression Print
+

@@ -1,0 +1,4 @@
+org/itu/x500/PKI:
+    short: PKI
+    long:
+        en: Public Key Infrastructure

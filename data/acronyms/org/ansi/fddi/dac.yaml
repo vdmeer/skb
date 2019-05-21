@@ -1,0 +1,5 @@
+org/ansi/fddi/DAC:
+    short: DAC
+    long:
+        en: Dual Attached Concentrator
+

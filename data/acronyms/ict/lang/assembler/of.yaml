@@ -1,0 +1,5 @@
+ict/lang/assembler/OF:
+    short: OF
+    long:
+        en: Overflow Flag
+

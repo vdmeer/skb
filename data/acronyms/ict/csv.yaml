@@ -1,0 +1,9 @@
+ict/CSV:
+    short: CSV
+    long:
+        en: Comma-separated Values
+    description: 
+        en: a delimited text file that uses a comma to separate values
+    urls:
+        Wikipedia: >
+            https://en.wikipedia.org/wiki/Comma-separated_values#cite_note-rfc4180pg2-2

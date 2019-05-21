@@ -1,0 +1,5 @@
+ict/net/PTP:
+    short: PTP
+    long:
+        en: Point-To-Point
+

@@ -1,0 +1,5 @@
+ict/net/role/ISP:
+    short: ISP
+    long:
+        en: Internet Service Provider
+

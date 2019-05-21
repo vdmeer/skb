@@ -1,0 +1,7 @@
+org/ieee/ethernet/10GE:
+    short: 10GE
+    long:
+        en: 10 GigaBIT Ethernet
+    notes:
+        en: "IEEE 802.3 Series: 10 GigaBIT Ethernet"
+

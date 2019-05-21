@@ -1,0 +1,5 @@
+org/ansi/fddi/THT:
+    short: THT
+    long:
+        en: Token Holding Timer
+

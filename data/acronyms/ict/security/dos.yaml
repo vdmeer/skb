@@ -1,0 +1,5 @@
+ict/security/DOS:
+    short: DOS
+    long:
+        en: Denial of Service
+

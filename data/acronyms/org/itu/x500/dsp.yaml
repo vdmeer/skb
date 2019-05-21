@@ -1,0 +1,4 @@
+org/itu/x500/DSP:
+    short: DSP
+    long:
+        en: Directory System Protocol

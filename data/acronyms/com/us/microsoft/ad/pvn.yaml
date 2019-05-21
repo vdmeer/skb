@@ -1,0 +1,5 @@
+com/us/microsoft/ad/PVN:
+    short: PVN
+    long:
+        en: Property Version Number
+

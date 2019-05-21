@@ -1,0 +1,6 @@
+org/DTG:
+    short: DTG
+    long:
+        en: Digital TV Group
+    long-target:
+        latex: Digital \acs{ict:device:TV} Group

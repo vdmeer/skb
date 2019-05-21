@@ -1,0 +1,7 @@
+org/ietf/OLSR:
+    short: OLSR
+    long:
+        en: Optimized Link State Routing
+    notes:
+        en: RFC 3626
+

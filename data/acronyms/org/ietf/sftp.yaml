@@ -1,0 +1,9 @@
+org/ietf/SFTP:
+    short: SFTP
+    long:
+        en: Simple File Transfer Protocol
+    notes:
+        en: RFC 913
+    long-target:
+        latex: Simple \acs{org:ietf:FTP}
+

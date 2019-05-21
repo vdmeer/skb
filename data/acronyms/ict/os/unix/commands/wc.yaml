@@ -1,0 +1,5 @@
+ict/os/unix/commands/WC:
+    short: WC
+    long:
+        en: Word Count
+

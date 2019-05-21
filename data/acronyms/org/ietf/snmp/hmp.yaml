@@ -1,0 +1,7 @@
+org/ietf/snmp/HMP:
+    short: HMP
+    long:
+        en: Host Monitoring Protocol
+    notes:
+        en: RFC 869
+

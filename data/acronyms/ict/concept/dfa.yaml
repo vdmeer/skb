@@ -1,0 +1,4 @@
+ict/concept/DFA:
+    short: DFA
+    long:
+        en: Deterministic Finite Automaton

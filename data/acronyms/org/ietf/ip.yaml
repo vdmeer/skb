@@ -1,0 +1,6 @@
+org/ietf/IP:
+    short: IP
+    long:
+        en: Internet Protocol
+    notes:
+        en: RFC 791

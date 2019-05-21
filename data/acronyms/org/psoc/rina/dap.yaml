@@ -1,0 +1,6 @@
+org/psoc/rina/DAP:
+    short: DAP
+    long:
+        en: Distributed Application Process
+    description: 
+        en: part of a distributed application

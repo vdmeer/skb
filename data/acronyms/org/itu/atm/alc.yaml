@@ -1,0 +1,4 @@
+org/itu/atm/ALC:
+    short: ALC
+    long:
+        en: Adaptation Layer Controller

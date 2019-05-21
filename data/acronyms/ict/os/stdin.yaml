@@ -1,0 +1,7 @@
+ict/os/STDIN:
+    short: STDIN
+    long:
+        en: Standard Input
+    description: 
+        en: standard input device
+

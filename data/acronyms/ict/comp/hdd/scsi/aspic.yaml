@@ -1,0 +1,7 @@
+ict/comp/hdd/scsi/ASPIC:
+    short: ASPIC
+    long:
+        en: Advanced SCSI Programmable Interrupt Controller
+    long-target:
+        latex: Advanced \acs{ict:comp:hdd:SCSI} Programmable Interrupt Controller
+

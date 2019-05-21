@@ -1,0 +1,4 @@
+org/itu/atm/CRS:
+    short: CRS
+    long:
+        en: Cell Relay Service

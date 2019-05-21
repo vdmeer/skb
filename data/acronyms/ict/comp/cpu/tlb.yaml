@@ -1,0 +1,5 @@
+ict/comp/cpu/TLB:
+    short: TLB
+    long:
+        en: Translation Lookaside Buffer
+

@@ -1,0 +1,5 @@
+com/se/ericsson/nm-lab/apex/AP-AUTH:
+    short: AP-AUTH
+    long:
+        en: Adaptive Policy Authoring
+

@@ -1,0 +1,6 @@
+org/ietf/IMAP:
+    short: IMAP
+    long:
+        en: Internet Message Access Protocol
+    notes:
+        en: RFC 2060

@@ -1,0 +1,4 @@
+org/itu/atm/FRS:
+    short: FRS
+    long:
+        en: Frame Relay Service

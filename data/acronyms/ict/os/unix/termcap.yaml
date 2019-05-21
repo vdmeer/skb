@@ -1,0 +1,5 @@
+ict/os/unix/TERMCAP:
+    short: TERMCAP
+    long:
+        en: TERMinal CAPability
+

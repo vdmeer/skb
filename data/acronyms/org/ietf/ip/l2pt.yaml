@@ -1,0 +1,7 @@
+org/ietf/ip/L2PT:
+    short: L2TP
+    long:
+        en: Layer 2 Tunneling Protocol
+    notes:
+        en: RFC 2661
+

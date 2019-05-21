@@ -1,0 +1,5 @@
+jargon/AUT:
+    short: AUT
+    long:
+        en: Application Under Test
+

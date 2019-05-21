@@ -1,0 +1,4 @@
+org/itu/atm/VPC:
+    short: VPC
+    long:
+        en: Virtual Path Connection

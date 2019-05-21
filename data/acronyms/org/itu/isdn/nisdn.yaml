@@ -1,0 +1,5 @@
+org/itu/isdn/NISDN:
+    short: NISDN
+    long:
+        en: Narrowband Integrated-Services Digital Network
+

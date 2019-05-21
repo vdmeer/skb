@@ -1,0 +1,5 @@
+ict/comp/cpu/RIP:
+    short: RIP
+    long:
+        en: Return Instruction Pointer
+

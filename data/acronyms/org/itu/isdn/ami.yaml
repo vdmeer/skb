@@ -1,0 +1,5 @@
+org/itu/isdn/AMI:
+    short: AMI
+    long:
+        en: Alternate Mark Inversion
+

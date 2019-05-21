@@ -1,0 +1,5 @@
+org/itu/isdn/DACS:
+    short: DACS
+    long:
+        en: Digital Access Control System
+

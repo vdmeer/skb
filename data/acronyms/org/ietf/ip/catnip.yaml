@@ -1,0 +1,7 @@
+org/ietf/ip/CATNIP:
+    short: CATNIP
+    long:
+        en: Common ArchiTecture for Next generation Internet Protocol
+    notes:
+        en: RFC 1707
+

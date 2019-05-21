@@ -1,0 +1,4 @@
+org/itu/atm/AIS:
+    short: AIS
+    long:
+        en: Alarm Indication Signal

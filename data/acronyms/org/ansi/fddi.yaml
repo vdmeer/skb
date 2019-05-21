@@ -1,0 +1,6 @@
+org/ansi/FDDI:
+    short: FDDI
+    long:
+        en: Fiber Distributed Data Interface
+    notes:
+        en: ANSI, ISO 8314

@@ -1,0 +1,5 @@
+ict/comp/cpu/CLIW:
+    short: CLIW
+    long:
+        en: Configurable Long Instruction Word
+

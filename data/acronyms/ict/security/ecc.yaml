@@ -1,0 +1,5 @@
+ict/security/ECC:
+    short: ECC
+    long:
+        en: Elliptic Curve Cryptosystem
+

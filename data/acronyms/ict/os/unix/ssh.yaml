@@ -1,0 +1,5 @@
+ict/os/unix/SSH:
+    short: SSH
+    long:
+        en: Secure SHell
+

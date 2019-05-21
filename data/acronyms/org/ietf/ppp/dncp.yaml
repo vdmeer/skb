@@ -1,0 +1,7 @@
+org/ietf/ppp/DNCP:
+    short: DNCP
+    long:
+        en: DECNet phase IV Control Protocol
+    notes:
+        en: RFC 1762
+

@@ -1,0 +1,10 @@
+ict/concept/CAP:
+    short: CAP
+    long:
+        en: Consistency, Availability, Partitioning Tolerance
+    notes: 
+        en: a theorem
+    urls:
+        Wikipedia: >
+            https://en.wikipedia.org/wiki/CAP_theorem
+

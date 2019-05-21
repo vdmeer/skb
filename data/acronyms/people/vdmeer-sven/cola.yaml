@@ -1,0 +1,7 @@
+people/vdmeer-sven/COLA:
+    short: COLA
+    long:
+        en: SKB Contract Language
+    long-target:
+        latex: \acs{people:vdmeer-sven:SKB} Contract Language
+

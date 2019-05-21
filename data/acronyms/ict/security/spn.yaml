@@ -1,0 +1,5 @@
+ict/security/SPN:
+    short: SPN
+    long:
+        en: Substitution Permutation Network
+

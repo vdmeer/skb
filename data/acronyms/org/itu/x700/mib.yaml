@@ -1,0 +1,4 @@
+org/itu/x700/MIB:
+    short: MIB
+    long:
+        en: Management Information Base

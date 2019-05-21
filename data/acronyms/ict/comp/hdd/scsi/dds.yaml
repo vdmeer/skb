@@ -1,0 +1,5 @@
+ict/comp/hdd/scsi/DDS:
+    short: DDS
+    long:
+        en: Direct Digital Sampling
+

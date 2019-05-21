@@ -1,0 +1,5 @@
+ict/comp/cpu/LIW:
+    short: LIW
+    long:
+        en: Long Instruction Word
+

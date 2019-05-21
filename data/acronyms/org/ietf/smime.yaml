@@ -1,0 +1,6 @@
+org/ietf/SMIME:
+    short: S/MIME
+    long:
+        en: Secure Multipurpose Internet Mail Extensions
+    long-target:
+        latex: Secure \acs{org:ietf:MIME}

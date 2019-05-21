@@ -1,0 +1,6 @@
+org/itu/bisdn/BISUP:
+    short: BISUP
+    long:
+        en: "Broadband ISDN User's Part"
+    long-target:
+        latex: Broadband \acs{org:itu:ISDN} User's Part

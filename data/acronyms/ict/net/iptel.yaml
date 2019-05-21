@@ -1,0 +1,7 @@
+ict/net/IPTel:
+    short: IPTel
+    long:
+        en: IP Telephony
+    long-target:
+        latex: \acs{org:ietf:IP} Telephony
+

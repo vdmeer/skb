@@ -1,0 +1,5 @@
+ict/os/unix/AIX:
+    short: AIX
+    long:
+        en: Advanced Interactive eXecutive
+

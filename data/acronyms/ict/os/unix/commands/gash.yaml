@@ -1,0 +1,5 @@
+ict/os/unix/commands/GASH:
+    short: GASH
+    long:
+        en: Group Admin SHell
+

@@ -1,0 +1,5 @@
+ict/comp/cpu/VID:
+    short: VID
+    long:
+        en: Voltage IDentification
+

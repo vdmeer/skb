@@ -1,0 +1,5 @@
+org/nist/des/FEAL:
+    short: FEAL
+    long:
+        en: Fast Data Encipherment Algorithm
+

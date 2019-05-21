@@ -1,0 +1,5 @@
+org/itu/isdn/DS1:
+    short: DS1
+    long:
+        en: Digital Signal level 1
+

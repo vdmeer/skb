@@ -1,0 +1,6 @@
+ict/comp/hdd/sata/STP:
+    short: STP
+    long:
+        en: SATA Tunneling Protocol
+    long-target:
+        latex: \acs{ict:comp:hdd:SATA} Tunneling Protocol

@@ -1,0 +1,7 @@
+org/ietf/ip/RIPNG:
+    short: RIPNG
+    long:
+        en: Routing Information Protocol Next Generation
+    notes:
+        en: RFC 2080
+

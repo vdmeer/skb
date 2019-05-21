@@ -1,0 +1,6 @@
+ict/os/linux/KFM:
+    short: KFM
+    long:
+        en: KDE File Manager
+    long-target:
+        latex: \acs{ict:os:linux:KDE} File Manager

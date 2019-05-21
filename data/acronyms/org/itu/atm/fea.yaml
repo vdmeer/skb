@@ -1,0 +1,4 @@
+org/itu/atm/FEA:
+    short: FEA
+    long:
+        en: Functional Entity Action

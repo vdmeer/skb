@@ -1,0 +1,5 @@
+org/ansi/fddi/SD:
+    short: SD
+    long:
+        en: Starting Delimiter
+

@@ -1,0 +1,4 @@
+org/itu/atm/DCC:
+    short: DCC
+    long:
+        en: Data Country Code

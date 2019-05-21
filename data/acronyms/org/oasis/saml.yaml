@@ -1,0 +1,4 @@
+org/oasis/SAML:
+    short: SAML
+    long:
+        en: Security Assertion Markup Language

@@ -1,0 +1,5 @@
+org/ietf/snmp/SMIv2:
+    short: SMIv2
+    long:
+        en: Structure of Management Information, version 2
+

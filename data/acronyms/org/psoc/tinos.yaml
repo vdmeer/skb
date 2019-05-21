@@ -1,0 +1,6 @@
+org/psoc/TINOS:
+    short: TINOS
+    long:
+        en: The InterNet Operating System
+    description: 
+        en: one of the first RINA implementations

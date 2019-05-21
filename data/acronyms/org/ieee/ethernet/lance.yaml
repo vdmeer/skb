@@ -1,0 +1,8 @@
+org/ieee/ethernet/LANCE:
+    short: LANCE
+    long:
+        en: LAN Controller for Ethernet
+    notes:
+        en: IEEE 802.3
+    long-target:
+        latex: \acs{ict:net:LAN} Controller for Ethernet

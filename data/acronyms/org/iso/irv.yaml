@@ -1,0 +1,6 @@
+org/iso/IRV:
+    short: IRV
+    long:
+        en: International Reference Version
+    notes:
+        en: in a character set, also IS 646

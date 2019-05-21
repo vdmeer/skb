@@ -1,0 +1,4 @@
+ict/os/unix/BFD:
+    short: BFD
+    long:
+        en: Binary File Descriptor

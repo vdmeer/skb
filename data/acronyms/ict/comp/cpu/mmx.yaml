@@ -1,0 +1,5 @@
+ict/comp/cpu/MMX:
+    short: MMX
+    long:
+        en: MultiMedia eXtensions
+

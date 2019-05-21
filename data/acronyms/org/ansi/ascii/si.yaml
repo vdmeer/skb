@@ -1,0 +1,6 @@
+org/ansi/ascii/SI:
+    short: SI
+    long:
+        en: Shift In
+    description:
+        en: ASCII control character (0o017, d15, 0x0F)

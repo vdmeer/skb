@@ -1,0 +1,4 @@
+ict/os/unix/commands/ADB:
+    short: ADB
+    long:
+        en: A DeBugger

@@ -1,0 +1,5 @@
+ict/comp/cpu/ILP:
+    short: ILP
+    long:
+        en: Instruction Level Parallelism
+

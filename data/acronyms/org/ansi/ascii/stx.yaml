@@ -1,0 +1,7 @@
+org/ansi/ascii/STX:
+    short: STX
+    long:
+        en: Start of Text
+    description:
+        en: ASCII control character (0o002, d2, 0x02)
+

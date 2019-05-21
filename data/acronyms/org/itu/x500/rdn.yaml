@@ -1,0 +1,6 @@
+org/itu/x500/RDN:
+    short: RDN
+    long:
+        en: Relative Distinguished Name
+    long-target:
+        latex: Relative \acl{org:itu:x500:DN}

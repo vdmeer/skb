@@ -1,0 +1,6 @@
+org/ietf/ppvpn/PE:
+    short: PE
+    long:
+        en: Provider Edge
+    notes:
+        en: RFC 4026

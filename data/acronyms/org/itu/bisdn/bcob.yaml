@@ -1,0 +1,4 @@
+org/itu/bisdn/BCOB:
+    short: BCOB
+    long:
+        en: Broadband Class of Bearer

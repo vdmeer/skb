@@ -1,0 +1,4 @@
+org/itu/atm/BUS:
+    short: BUS
+    long:
+        en: Broadcast and Unknown Server

@@ -1,0 +1,7 @@
+org/ietf/ip/IGMP:
+    short: IGMP
+    long:
+        en: Internet Group Management / Multicast Protocol
+    notes:
+        en: RFC 1112/2236
+

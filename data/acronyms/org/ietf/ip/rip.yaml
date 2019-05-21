@@ -1,0 +1,7 @@
+org/ietf/ip/RIP:
+    short: RIP
+    long:
+        en: Routing Information Protocol
+    notes:
+        en: RFC 1721
+

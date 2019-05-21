@@ -1,0 +1,7 @@
+ict/comp/dvd/DVDMRW:
+    short: DVD+MRW
+    long:
+        en: DVDisk + Mount rainier ReWritable
+    long-target:
+        latex: \acs{ict:comp:DVD}Disk + Mount rainier ReWritable
+

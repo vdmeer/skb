@@ -1,0 +1,4 @@
+org/itu/atm/TCS:
+    short: TCS
+    long:
+        en: Transmission Convergence Sublayer

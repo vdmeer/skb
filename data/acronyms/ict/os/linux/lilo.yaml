@@ -1,0 +1,5 @@
+ict/os/linux/LILO:
+    short: LILO
+    long:
+        en: LInux (boot) LOader
+

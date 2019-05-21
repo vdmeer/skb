@@ -1,0 +1,7 @@
+ict/os/STDERR:
+    short: STDERR
+    long:
+        en: Standard Error
+    description: 
+        en: standard error device
+

@@ -1,0 +1,6 @@
+org/ietf/BEEP:
+    short: BEEP
+    long:
+        en: Blocks Extensible Exchange Protocol
+    notes:
+        en: RFC 3080

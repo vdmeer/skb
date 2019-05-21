@@ -1,0 +1,4 @@
+ict/net/optical/GPON:
+    short: GPON
+    long:
+        en: Gigabit Passive Optical Network

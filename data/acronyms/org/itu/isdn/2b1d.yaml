@@ -1,0 +1,5 @@
+org/itu/isdn/2B1D:
+    short: 2B1D
+    long:
+        en: 2 B-channels 1 D-channel
+

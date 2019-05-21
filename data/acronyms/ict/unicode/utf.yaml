@@ -1,0 +1,6 @@
+ict/unicode/UTF:
+    short: UTF
+    long:
+        en: UCS Transformation Format
+    long-target:
+        latex: \acs{ict:unicode:UCS} Transformation Format

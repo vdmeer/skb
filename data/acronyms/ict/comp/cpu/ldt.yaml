@@ -1,0 +1,5 @@
+ict/comp/cpu/LDT:
+    short: LDT
+    long:
+        en: Local Descriptor Table
+

@@ -1,0 +1,5 @@
+ict/lang/assembler/BP:
+    short: BP
+    long:
+        en: Base Pointer
+

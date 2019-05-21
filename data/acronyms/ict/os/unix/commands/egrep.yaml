@@ -1,0 +1,5 @@
+ict/os/unix/commands/EGREP:
+    short: EGREP
+    long:
+        en: Extended Global Regular Expression Print
+

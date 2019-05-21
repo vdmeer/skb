@@ -1,0 +1,5 @@
+com/us/microsoft/ad/BDC:
+    short: BDC
+    long:
+        en: Backup Domain Controller
+

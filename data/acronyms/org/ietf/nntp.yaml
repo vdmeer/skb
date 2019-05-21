@@ -1,0 +1,7 @@
+org/ietf/NNTP:
+    short: NNTP
+    long:
+        en: Network News Transfer Protocol
+    notes:
+        en: RFC 977
+

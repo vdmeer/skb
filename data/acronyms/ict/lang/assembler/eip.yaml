@@ -1,0 +1,5 @@
+ict/lang/assembler/EIP:
+    short: EIP
+    long:
+        en: Extended Instruction Pointer
+

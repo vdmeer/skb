@@ -1,0 +1,6 @@
+org/ietf/IEPG:
+    short: IEPG
+    long:
+        en: Internet Engineering and Planning Group
+    notes:
+        en: RFC 1690

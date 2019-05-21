@@ -1,0 +1,4 @@
+org/itu/atm/BECN:
+    short: BECN
+    long:
+        en: Backward Explicit Congestion Notification

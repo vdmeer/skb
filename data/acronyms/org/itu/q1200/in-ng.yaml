@@ -1,0 +1,6 @@
+org/itu/q1200/IN-ng:
+    short: IN-NG
+    long:
+        en: IN Next Generation
+    long-target:
+        latex: \acs{org:itu:q1200:IN} Next Generation

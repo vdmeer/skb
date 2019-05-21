@@ -1,0 +1,4 @@
+org/itu/x200/PSAP:
+    short: PSAP
+    long:
+        en: Presentation Service Access Point

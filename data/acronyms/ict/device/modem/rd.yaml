@@ -1,0 +1,5 @@
+ict/device/modem/RD:
+    short: RD
+    long:
+        en: Receive Data
+

@@ -1,0 +1,6 @@
+org/itu/isdn/CIP:
+    short: CIP
+    long:
+        en: Common ISDN Profile
+    long-target:
+        latex: \Common acs{org:itu:ISDN} Profile

@@ -1,0 +1,5 @@
+ict/comp/cpu/ZISC:
+    short: ZISC
+    long:
+        en: Zero Instruction Set Computer
+

@@ -1,0 +1,5 @@
+com/us/microsoft/ad/PDC:
+    short: PDC
+    long:
+        en: Primary Domain Controller
+

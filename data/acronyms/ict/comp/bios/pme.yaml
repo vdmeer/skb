@@ -1,0 +1,4 @@
+ict/comp/bios/PME:
+    short: PME
+    long:
+        en: Power Management Event

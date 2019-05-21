@@ -1,0 +1,6 @@
+org/ietf/EGP:
+    short: EGP
+    long:
+        en: Exterior Gateway Protocol
+    notes:
+        en: RFC 904

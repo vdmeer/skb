@@ -1,0 +1,6 @@
+org/ietf/ppvpn/C:
+    short: C
+    long:
+        en: Customer device
+    notes:
+        en: RFC 4026

@@ -1,0 +1,7 @@
+org/ansi/ascii/DLE:
+    short: DLE
+    long:
+        en: Data Link Escape
+    description:
+        en: ASCII control character (0o020, d16, 0x10)
+

@@ -1,0 +1,6 @@
+org/ietf/IRTP:
+    short: IRTP
+    long:
+        en: Internet Reliable Transaction Protocol
+    notes:
+        en: RFC 938

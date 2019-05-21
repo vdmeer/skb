@@ -1,0 +1,4 @@
+org/itu/atm/LECID:
+    short: LECID
+    long:
+        en: LAN Emulation Client IDentifier

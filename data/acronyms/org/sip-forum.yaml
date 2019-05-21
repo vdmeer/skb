@@ -1,0 +1,6 @@
+org/SIP-Forum:
+    short: SIP Forum
+    long:
+        en: SIP Forum
+    long-target:
+        latex: \acs{org:ietf:ip:SIP} Forum

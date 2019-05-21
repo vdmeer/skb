@@ -1,0 +1,4 @@
+misc/ISBN:
+    short: ISBN
+    long:
+        en: International Standard Book Number

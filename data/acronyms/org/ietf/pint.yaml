@@ -1,0 +1,8 @@
+org/ietf/PINT:
+    short: PINT
+    long:
+        en: PSTN INTernet Interworking
+    notes:
+        en: IETF Working Group
+    long-target:
+        latex: \acs{org:itu:q1200:PSTN} INTernet Interworking

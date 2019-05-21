@@ -1,0 +1,7 @@
+org/ietf/ip/MOSPF:
+    short: MOSPF
+    long:
+        en: Multicast Open Shortest Path First
+    notes:
+        en: RFC 1584
+

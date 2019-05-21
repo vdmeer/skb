@@ -1,0 +1,4 @@
+org/itu/atm/VBNS:
+    short: VBNS
+    long:
+        en: Very highspeed Backbone Network Service

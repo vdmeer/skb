@@ -1,0 +1,4 @@
+org/itu/isdn/MSRN:
+    short: MSRN
+    long:
+        en: Mobile Station Roaming Number

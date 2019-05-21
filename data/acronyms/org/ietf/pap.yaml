@@ -1,0 +1,7 @@
+org/ietf/PAP:
+    short: PAP
+    long:
+        en: Password Authentication Protocol
+    notes:
+        en: RFC 1334
+

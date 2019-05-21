@@ -1,0 +1,6 @@
+org/omg/XMI:
+    short: XMI
+    long:
+        en: XML Metadata Interchange
+    long-target:
+        latex: \acs{org:w3c:XML} Metadata Interchange

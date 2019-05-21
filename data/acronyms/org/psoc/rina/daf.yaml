@@ -1,0 +1,6 @@
+org/psoc/rina/DAF:
+    short: DAF
+    long:
+        en: Distributed Application Facility
+    description: 
+        en: a layer in a RINA network

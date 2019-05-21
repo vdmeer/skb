@@ -1,0 +1,6 @@
+ict/comp/bios/DIB:
+    short: DIB
+    long:
+        en: DOS Info Block
+    long-target:
+        latex: \acs{ict:os:DOS} Info Block

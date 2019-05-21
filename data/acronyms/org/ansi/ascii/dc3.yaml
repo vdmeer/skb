@@ -1,0 +1,7 @@
+org/ansi/ascii/DC3:
+    short: DC3
+    long:
+        en: Device Control 3
+    description:
+        en: ASCII control character, often XOFF (0o023, d19, 0x13)
+

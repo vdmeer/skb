@@ -1,0 +1,4 @@
+org/itu/atm/CTV:
+    short: CTV
+    long:
+        en: Cell Tolerance Variation

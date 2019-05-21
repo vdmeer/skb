@@ -1,0 +1,4 @@
+org/itu/atm/LCD:
+    short: LCD
+    long:
+        en: Loss of Cell Delineation

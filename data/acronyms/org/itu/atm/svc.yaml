@@ -1,0 +1,4 @@
+org/itu/atm/SVC:
+    short: SVC
+    long:
+        en: Switched Virtual Circuit

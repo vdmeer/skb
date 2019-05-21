@@ -1,0 +1,5 @@
+ict/comp/cpu/PM:
+    short: PM
+    long:
+        en: Protected Mode
+

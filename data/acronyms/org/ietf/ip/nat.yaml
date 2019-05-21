@@ -1,0 +1,7 @@
+org/ietf/ip/NAT:
+    short: NAT
+    long:
+        en: Network Address Translator
+    notes:
+        en: RFC 1631
+

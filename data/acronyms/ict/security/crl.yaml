@@ -1,0 +1,5 @@
+ict/security/CRL:
+    short: CRL
+    long:
+        en: Certificate Revocation List
+

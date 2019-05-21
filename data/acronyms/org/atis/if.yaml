@@ -1,0 +1,6 @@
+org/atis/IIF:
+    short: IIF
+    long:
+        en: IPTV Interoperability Forum
+    long-target:
+        latex: \acs{ict:net:IPTV} Interoperability Forum

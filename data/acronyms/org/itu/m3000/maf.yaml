@@ -1,0 +1,5 @@
+org/itu/m3000/MAF:
+    short: MAF
+    long:
+        en: Management Application Function
+

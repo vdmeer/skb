@@ -1,0 +1,8 @@
+org/eu/FIRE:
+    short: FIRE
+    long:
+        en: Future Internet Research \& Experimentation
+    long-target:
+        html: Future Internet Research &amp; Experimentation
+        latex: Future Internet Research \& Experimentation
+

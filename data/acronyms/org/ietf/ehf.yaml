@@ -1,0 +1,6 @@
+org/ietf/EHF:
+    short: EHF
+    long:
+        en: Encoding Header Field
+    notes:
+        en: RFC 1154

@@ -1,0 +1,5 @@
+ict/comp/cpu/MVI:
+    short: MVI
+    long:
+        en: Motion Video Instructions
+

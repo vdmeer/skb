@@ -1,0 +1,4 @@
+org/itu/atm/SVCI:
+    short: SVCI
+    long:
+        en: Switched Virtual Circuit Identifier

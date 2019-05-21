@@ -1,0 +1,7 @@
+org/ietf/POP3:
+    short: POP3
+    long:
+        en: Post Office Protocol 3
+    notes:
+        en: RFC 1939
+

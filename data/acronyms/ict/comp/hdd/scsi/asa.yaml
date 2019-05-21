@@ -1,0 +1,7 @@
+ict/comp/hdd/scsi/ASA:
+    short: ASA
+    long:
+        en: Advanced SCSI Architecture
+    long-target:
+        latex: Advanced \acs{ict:comp:hdd:SCSI} Architecture
+

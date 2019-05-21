@@ -1,0 +1,7 @@
+ict/os/linux/KVM:
+    short: KVM
+    long:
+        en: Kernel-based Virtual Machine
+    long-target:
+        latex: Kernel-based \acs{ict:VM}
+

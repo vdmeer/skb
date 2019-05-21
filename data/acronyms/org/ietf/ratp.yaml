@@ -1,0 +1,7 @@
+org/ietf/RATP:
+    short: RATP
+    long:
+        en: Reliable Asynchronous Transfer Protocol
+    notes:
+        en: RFC 916
+

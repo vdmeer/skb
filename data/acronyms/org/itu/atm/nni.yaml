@@ -1,0 +1,4 @@
+org/itu/atm/NNI:
+    short: NNI
+    long:
+        en: Network Node Interface

@@ -1,0 +1,4 @@
+org/itu/atm/LE:
+    short: LE
+    long:
+        en: LAN Emulation

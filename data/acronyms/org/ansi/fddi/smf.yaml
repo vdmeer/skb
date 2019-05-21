@@ -1,0 +1,5 @@
+org/ansi/fddi/SMF:
+    short: SMF
+    long:
+        en: Single Mode Fiberoptic cable
+

@@ -1,0 +1,8 @@
+org/3gpp/4G:
+    short: 4G
+    long:
+        en: 4th Generation
+    long-target:
+        latex: 4$^{th}$ Generation
+        html: 4<sup>th</sup> Generation
+

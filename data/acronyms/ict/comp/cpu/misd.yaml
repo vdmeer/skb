@@ -1,0 +1,4 @@
+ict/comp/cpu/MISD:
+    short: MISD
+    long:
+        en: Multiple Instruction (stream), Single Data (stream)

@@ -1,0 +1,5 @@
+org/ansi/fddi/SAC:
+    short: SAC
+    long:
+        en: Single Attachment Concentrator
+

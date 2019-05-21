@@ -1,0 +1,5 @@
+org/itu/isdn/FT1:
+    short: FT1
+    long:
+        en: Fractional T1
+

@@ -1,0 +1,6 @@
+org/ansi/ascii/VT:
+    short: VT
+    long:
+        en: Vertical Tab
+    description:
+        en: ASCII control character (0o013, d11, 0x0B)

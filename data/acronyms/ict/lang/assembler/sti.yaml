@@ -1,0 +1,5 @@
+ict/lang/assembler/STI:
+    short: STI
+    long:
+        en: SeT Interrupt
+

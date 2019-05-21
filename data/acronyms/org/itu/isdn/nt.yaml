@@ -1,0 +1,6 @@
+org/itu/isdn/NT:
+    short: NT
+    long:
+        de: Netzwerk Terminator
+        en: Network Terminator
+

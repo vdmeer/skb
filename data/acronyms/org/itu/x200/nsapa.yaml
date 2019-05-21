@@ -1,0 +1,4 @@
+org/itu/x200/NSAPA:
+    short: NSAPA
+    long:
+        en: Network Service Access Point Address

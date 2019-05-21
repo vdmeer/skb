@@ -1,0 +1,6 @@
+ict/net/IPTV:
+    short: IPTV
+    long:
+        en: IP Television
+    long-target:
+        latex: \acs{org:ietf:IP} \acl{ict:device:TV}

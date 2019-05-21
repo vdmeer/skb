@@ -1,0 +1,5 @@
+org/etsi/gsm/BTS:
+    short: BTS
+    long:
+        en: Base Transceiver Station
+

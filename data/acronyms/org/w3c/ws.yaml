@@ -1,0 +1,5 @@
+org/w3c/WS:
+    short: WS
+    long:
+        en: WebSocket
+

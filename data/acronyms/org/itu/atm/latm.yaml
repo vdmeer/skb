@@ -1,0 +1,4 @@
+org/itu/atm/LATM:
+    short: LATM
+    long:
+        en: Local Asynchronous Transfer Mode

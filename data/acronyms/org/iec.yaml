@@ -1,0 +1,8 @@
+org/IEC:
+    short: IEC
+    long:
+        en: International Electrotechnical Commission
+    urls:
+        Home: >
+            https://www.iec.ch
+

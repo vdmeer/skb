@@ -1,0 +1,8 @@
+org/ieee/ethernet/FOMAU:
+    short: FOMAU
+    long:
+        en: Fiber Optic MAU
+    notes:
+        en: IEEE 802.3 Series, Ethernet
+    long-target:
+        latex: Fiber Optic \acs{org:ieee:ethernet:MAU}

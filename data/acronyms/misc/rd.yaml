@@ -1,0 +1,10 @@
+misc/RD:
+    short: R&D
+    short-target:
+        html: R&amp;D
+        latex: R\&D
+    long:
+        en: Research & Development
+    long-target:
+        html: Research &amp; Development
+        latex: Research \& Development

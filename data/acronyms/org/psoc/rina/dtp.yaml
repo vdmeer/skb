@@ -1,0 +1,6 @@
+org/psoc/rina/DTP:
+    short: DTP
+    long:
+        en: Data Transfer Protocol
+    description: 
+        en: the required part of EFCP

@@ -1,0 +1,6 @@
+ict/comp/hdd/raid/ENF:
+    short: ENF
+    long:
+        en: Embedded NAS Firmware
+    long-target:
+        latex: Embedded \acs{ict:comp:hdd:NAS} Firmware

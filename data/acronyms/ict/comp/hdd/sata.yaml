@@ -1,0 +1,5 @@
+ict/comp/hdd/SATA:
+    short: SATA
+    long:
+        en: Serial Advanced Technology Attachment
+

@@ -1,0 +1,6 @@
+org/ietf/PEP2:
+    short: PEP2
+    long:
+        en: Performance Enhancing Proxy 2
+    long-target:
+        latex: \acs{org:ietf:PEP} 2

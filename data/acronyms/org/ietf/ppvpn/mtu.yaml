@@ -1,0 +1,6 @@
+org/ietf/ppvpn/MTU:
+    short: MTU
+    long:
+        en: Multi-tenant Unit
+    notes:
+        en: RFC 4026

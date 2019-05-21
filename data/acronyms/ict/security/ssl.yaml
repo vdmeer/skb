@@ -1,0 +1,5 @@
+ict/security/SSL:
+    short: SSL
+    long:
+        en: Secure Socket Layer
+

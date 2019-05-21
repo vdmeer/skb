@@ -1,0 +1,5 @@
+org/nist/DES:
+    short: DES
+    long:
+        en: Data Encryption Standard
+

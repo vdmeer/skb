@@ -1,0 +1,7 @@
+org/ansi/ascii/ETB:
+    short: ETB
+    long:
+        en: End of Transmission Block
+    description:
+        en: ASCII control character (0o027, d23, 0x17)
+

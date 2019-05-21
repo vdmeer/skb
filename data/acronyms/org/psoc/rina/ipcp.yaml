@@ -1,0 +1,8 @@
+org/psoc/rina/IPCP:
+    short: IPCP
+    long:
+        en: IPC Process
+    description: 
+        en: part of a distributed application
+    long-target:
+        latex: \acs{ict:IPC} Process

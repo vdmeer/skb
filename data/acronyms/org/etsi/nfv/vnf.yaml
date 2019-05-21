@@ -1,0 +1,4 @@
+org/etsi/nfv/VNF:
+    short: VNF
+    long:
+        en: Virtualized Network Function

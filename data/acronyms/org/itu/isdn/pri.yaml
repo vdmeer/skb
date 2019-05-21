@@ -1,0 +1,5 @@
+org/itu/isdn/PRI:
+    short: PRI
+    long:
+        en: Primary Rate Interface
+

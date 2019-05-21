@@ -1,0 +1,5 @@
+com/us/microsoft/DCOM:
+    short: DCOM
+    long:
+        en: Distributed Component Object Model
+

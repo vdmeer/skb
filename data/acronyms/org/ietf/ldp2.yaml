@@ -1,0 +1,7 @@
+org/ietf/LDP2:
+    short: LDP
+    long:
+        en: Loader Debugger Protocol
+    notes:
+        en: RFC 909
+

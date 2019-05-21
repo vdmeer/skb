@@ -1,0 +1,4 @@
+org/itu/x200/RTSE:
+    short: RTSE
+    long:
+        en: Reliable Transfer Service Element

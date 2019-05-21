@@ -1,0 +1,4 @@
+org/itu/atm/CSPDU:
+    short: CSPDU
+    long:
+        en: Convergence Sublayer Protocol Data Unit

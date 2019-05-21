@@ -1,0 +1,8 @@
+org/ietf/VXLAN:
+    short: VXLAN
+    long:
+        en: Virtual Extensible LAN
+    notes:
+        en: RFC 7348
+    long-target:
+        latex: Virtual Extensible \acs{ict:net:LAN}

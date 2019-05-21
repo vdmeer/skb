@@ -1,0 +1,6 @@
+com/se/ericsson/nm-lab/upt/PM-DSL:
+    short: PM-DSL
+    long:
+        en: Policy Model DSL
+    long-target:
+        latex: Policy Model \acs{ict:lang:DSL}

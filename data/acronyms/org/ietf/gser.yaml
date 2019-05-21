@@ -1,0 +1,6 @@
+org/ietf/GSER:
+    short: GSER
+    long:
+        en: Generic String Encoding Rules
+    notes:
+        en: RFC 3641/342

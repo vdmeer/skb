@@ -1,0 +1,5 @@
+ict/comp/hdd/scsi/BDR:
+    short: BDR
+    long:
+        en: Bus Device Request
+

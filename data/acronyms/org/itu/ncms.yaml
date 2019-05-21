@@ -1,0 +1,4 @@
+org/itu/NCMS:
+    short: NCMS
+    long:
+        en: Network Connection Management Sub-protocol

@@ -1,0 +1,6 @@
+org/psoc/rina/dms/AM-DMS:
+    short: AM-DMS
+    long:
+        en: Application Management DMS
+    long-target:
+        latex: Application Management \acs{org:psoc:rina:DMS}

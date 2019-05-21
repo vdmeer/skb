@@ -1,0 +1,5 @@
+ict/comp/cpu/EA:
+    short: EA
+    long:
+        en: Effective Address
+

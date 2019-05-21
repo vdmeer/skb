@@ -1,0 +1,5 @@
+com/us/microsoft/ad/SDC:
+    short: SDC
+    long:
+        en: Secondary Domain Controller
+

@@ -1,0 +1,5 @@
+ict/security/TEA:
+    short: TEA
+    long:
+        en: Tiny Encryption Algorithm
+

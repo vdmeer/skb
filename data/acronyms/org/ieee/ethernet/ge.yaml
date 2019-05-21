@@ -1,0 +1,7 @@
+org/ieee/ethernet/GE:
+    short: GE
+    long:
+        en: Gigabit Ethernet
+    notes:
+        en: IEEE 802.3 Series, Ethernet
+

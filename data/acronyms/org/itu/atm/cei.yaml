@@ -1,0 +1,4 @@
+org/itu/atm/CEI:
+    short: CEI
+    long:
+        en: Connection Endpoint Identifier

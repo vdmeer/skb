@@ -1,0 +1,6 @@
+ict/security/DDOS:
+    short: DDOS
+    long:
+        en: Distributed Denial of Service
+    long-target:
+        latex: \acs{ict:security:DOS}

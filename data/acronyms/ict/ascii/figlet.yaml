@@ -1,0 +1,9 @@
+ict/ascii/FIGLET:
+    short: FIGLET
+    long:
+        en: Frank, Ian and Glenn's LETters
+    description: 
+        en: a program for making large letters out of ordinary text
+    urls:
+        Home: >
+            http://www.figlet.org/

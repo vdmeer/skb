@@ -1,0 +1,5 @@
+ict/comp/cpu/GPR:
+    short: GPR
+    long:
+        en: General Purpose Register
+

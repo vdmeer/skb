@@ -1,0 +1,7 @@
+org/ieee/ethernet/10Base2:
+    short: 10Base2
+    long:
+        en: Ethernet with 10 MBit/s
+    notes:
+        en: "IEEE 802.3 Series, also known as Cheapernet: Ethernet with 10 MBit/s, Baseband Transmission, 185m segments"
+

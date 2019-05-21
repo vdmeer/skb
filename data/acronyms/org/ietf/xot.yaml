@@ -1,0 +1,8 @@
+org/ietf/XOT:
+    short: XOT
+    long:
+        en: X.25 Over TCP
+    notes:
+        en: RFC 1613
+    long-target:
+        latex: X.25 Over \acs{org:ietf:ip:TCP}

@@ -1,0 +1,5 @@
+ict/comp/hdd/SCSI:
+    short: SCSI
+    long:
+        en: Small Computer Systems Interface
+

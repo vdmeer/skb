@@ -1,0 +1,5 @@
+time/DOY:
+    short: DOY
+    long:
+        en: Day of Year
+

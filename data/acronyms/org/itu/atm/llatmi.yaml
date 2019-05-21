@@ -1,0 +1,4 @@
+org/itu/atm/LLATMI:
+    short: LLATMI
+    long:
+        en: Lower Layer ATM Interface

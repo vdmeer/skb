@@ -1,0 +1,5 @@
+org/itu/isdn/DS2:
+    short: DS2
+    long:
+        en: Digital Signal level 2
+

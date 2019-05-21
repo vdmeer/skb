@@ -1,0 +1,4 @@
+org/ietf/ppp/ACCM:
+    short: ACCM
+    long:
+        en: Asynchronous Character Control Map

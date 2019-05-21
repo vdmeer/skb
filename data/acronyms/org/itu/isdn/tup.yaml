@@ -1,0 +1,4 @@
+org/itu/isdn/TUP:
+    short: TUP
+    long:
+        en: Telephone User Path

@@ -1,0 +1,6 @@
+org/itu/atm/ADSU:
+    short: ADSU
+    long:
+        en: ATM Data Service Unit
+    long-target:
+        latex: \acs{org:itu:ATM} Data Service Unit

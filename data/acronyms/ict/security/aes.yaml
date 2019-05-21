@@ -1,0 +1,5 @@
+ict/security/AES:
+    short: AES
+    long:
+        en: Advanced Encryption Standard
+

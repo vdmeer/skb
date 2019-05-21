@@ -1,0 +1,7 @@
+org/ansi/ascii/FS:
+    short: FS
+    long:
+        en: File Separator
+    description:
+        en: ASCII control character (0o034, d28, 0x1C)
+

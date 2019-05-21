@@ -1,0 +1,7 @@
+org/ietf/PNG:
+    short: PNG
+    long:
+        en: Portable Network Graphics
+    notes:
+        en: RFC 2083
+

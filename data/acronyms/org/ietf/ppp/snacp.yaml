@@ -1,0 +1,7 @@
+org/ietf/ppp/SNACP:
+    short: SNACP
+    long:
+        en: Systems Network Architecture Control Protocol
+    notes:
+        en: RFC 2043
+

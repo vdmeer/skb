@@ -1,0 +1,4 @@
+org/itu/atm/SSCS:
+    short: SSCS
+    long:
+        en: Service Specific Convergence Sublayer

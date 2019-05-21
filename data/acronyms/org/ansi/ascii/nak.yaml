@@ -1,0 +1,7 @@
+org/ansi/ascii/NAK:
+    short: NAK
+    long:
+        en: Negative Acknowledgement
+    description:
+        en: ASCII control character (0o025, d21, 0x15)
+

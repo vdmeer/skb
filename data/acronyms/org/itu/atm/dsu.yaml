@@ -1,0 +1,4 @@
+org/itu/atm/DSU:
+    short: DSU
+    long:
+        en: Digital Service Unit

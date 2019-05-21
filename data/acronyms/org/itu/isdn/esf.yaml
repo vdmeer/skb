@@ -1,0 +1,5 @@
+org/itu/isdn/ESF:
+    short: ESF
+    long:
+        en: Extended Super Frame
+

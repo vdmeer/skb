@@ -1,0 +1,8 @@
+org/TUG:
+    short: TUG
+    long:
+        en: TeX Users Group
+    urls:
+        Home: >
+            https://www.tug.org
+

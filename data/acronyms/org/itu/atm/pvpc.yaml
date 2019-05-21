@@ -1,0 +1,4 @@
+org/itu/atm/PVPC:
+    short: PVPC
+    long:
+        en: Permanent Virtual Path Connection

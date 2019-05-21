@@ -1,0 +1,6 @@
+org/ietf/DDDS:
+    short: DDDS
+    long:
+        en: Dynamic Delegation Discovery System
+    notes:
+        en: RFC 3401/3402/3403/3404/3405

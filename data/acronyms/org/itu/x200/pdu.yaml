@@ -1,0 +1,4 @@
+org/itu/x200/PDU:
+    short: PDU
+    long:
+        en: Protocol Data Unit

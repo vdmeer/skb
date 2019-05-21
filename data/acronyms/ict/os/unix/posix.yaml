@@ -1,0 +1,5 @@
+ict/os/unix/POSIX:
+    short: POSIX
+    long:
+        en: Portable Operating System for unIX
+

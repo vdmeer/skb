@@ -1,0 +1,4 @@
+org/itu/atm/CTD:
+    short: CTD
+    long:
+        en: Cell Transfer Delay

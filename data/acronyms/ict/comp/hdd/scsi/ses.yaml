@@ -1,0 +1,7 @@
+ict/comp/hdd/scsi/SES:
+    short: SES
+    long:
+        en: SCSI Enclosure Services
+    long-target:
+        latex: \acs{ict:comp:hdd:SCSI} Enclosure Services
+

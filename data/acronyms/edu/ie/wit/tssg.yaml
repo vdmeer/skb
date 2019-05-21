@@ -1,0 +1,8 @@
+edu/ie/wit/TSSG:
+    short: TSSG
+    long:
+        en: Telecommunications Software & Systems Group
+    long-target:
+        html: Telecommunications Software &amp; Systems Group
+        latex: Telecommunications Software \& Systems Group
+

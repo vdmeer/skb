@@ -1,0 +1,4 @@
+org/itu/atm/CPCS:
+    short: CPCS
+    long:
+        en: Common Part Convergence Sublayer

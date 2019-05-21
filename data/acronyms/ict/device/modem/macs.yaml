@@ -1,0 +1,5 @@
+ict/device/modem/MACS:
+    short: MACS
+    long:
+        en: MODEM Access Control System
+

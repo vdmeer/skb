@@ -3,6 +3,6 @@ org/3gpp/2G:
     long:
         en: 2nd Generation
     long-target:
-        latex: 2$^{nd}$ Generation
+        adoc: 2^nd^ Generation
         html: 2<sup>nd</sup> Generation
-
+        latex: 2$^{nd}$ Generation

@@ -3,5 +3,6 @@ ict/dev/4GL:
     long:
         en: 4th Generation Language
     long-target:
-        latex: 4$^{th}$ Generation Language
+        adoc: 4^th^ Generation Language
         html: 4<sup>th</sup> Generation Language
+        latex: 4$^{th}$ Generation Language

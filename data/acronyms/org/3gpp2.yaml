@@ -3,8 +3,9 @@ org/3GPP2:
     long:
         en: 3rd Generation Partnership Program 2
     long-target:
-        latex: 3$^{rd}$ Generation Partnership Program 2
+        adoc: 3^rd^ Generation Partnership Program 2
         html: 3<sup>rd</sup> Generation Partnership Program 2
+        latex: 3$^{rd}$ Generation Partnership Program 2
     urls:
         Home: >
             https://www.3gpp2.org

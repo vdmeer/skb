@@ -3,5 +3,6 @@ ict/dev/3GL:
     long:
         en: 3rd Generation Language
     long-target:
-        latex: 3$^{rd}$ Generation Language
+        adoc: 3^rd^ Generation Language
         html: 3<sup>rd</sup> Generation Language
+        latex: 3$^{rd}$ Generation Language

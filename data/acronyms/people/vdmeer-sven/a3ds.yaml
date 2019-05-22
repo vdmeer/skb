@@ -1,6 +1,7 @@
 people/vdmeer-sven/A3DS:
     short: A3DS
     short-target:
+        html: A^3^DS
         html: A<sup>3</sup>DS
         latex: A$^{3}$DS
     long:

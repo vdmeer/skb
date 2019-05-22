@@ -1,0 +1,58 @@
+//
+// ============LICENSE_START=======================================================
+//  Copyright (C) 2018 Sven van der Meer. All rights reserved.
+// ================================================================================
+// This file is licensed under the CREATIVE COMMONS ATTRIBUTION 4.0 INTERNATIONAL LICENSE
+// Full license text at https://creativecommons.org/licenses/by/4.0/legalcode
+// 
+// SPDX-License-Identifier: CC-BY-4.0
+// ============LICENSE_END=========================================================
+//
+// @author Sven van der Meer (vdmeer.sven@mykolab.com)
+//
+
+= SKB Acronyms - Organizations - ITU
+Sven van_der_Meer
+
+:description: acronyms Organizations ITU
+:keywords: SKB, acronyms, Organizations, ITU
+
+:pygments-linenums-mode: table
+:toc:
+:toclevels: 4
+:icons: font
+
+include::{acronyms-adoc}/by-category/org/itu.adoc[]
+
+== ATM
+include::{acronyms-adoc}/by-category/org/itu/atm.adoc[]
+
+== BISDN
+include::{acronyms-adoc}/by-category/org/itu/bisdn.adoc[]
+
+== ISDN
+include::{acronyms-adoc}/by-category/org/itu/isdn.adoc[]
+
+== M.3000 (TMN)
+include::{acronyms-adoc}/by-category/org/itu/m3000.adoc[]
+
+== Q.1200 (IN)
+include::{acronyms-adoc}/by-category/org/itu/q1200.adoc[]
+
+== X.200 (RM-OSI)
+include::{acronyms-adoc}/by-category/org/itu/x200.adoc[]
+
+== X.400 (Mail)
+include::{acronyms-adoc}/by-category/org/itu/x400.adoc[]
+
+== X.500 (Directory)
+include::{acronyms-adoc}/by-category/org/itu/x500.adoc[]
+
+== X.600
+include::{acronyms-adoc}/by-category/org/itu/x600.adoc[]
+
+== X.700 (Management)
+include::{acronyms-adoc}/by-category/org/itu/x700.adoc[]
+
+== X.900 (ODP)
+include::{acronyms-adoc}/by-category/org/itu/x900.adoc[]

@@ -1,0 +1,107 @@
+
+//
+// ============LICENSE_START=======================================================
+//  Copyright (C) 2018 Sven van der Meer. All rights reserved.
+// ================================================================================
+// This file is licensed under the CREATIVE COMMONS ATTRIBUTION 4.0 INTERNATIONAL LICENSE
+// Full license text at https://creativecommons.org/licenses/by/4.0/legalcode
+// 
+// SPDX-License-Identifier: CC-BY-4.0
+// ============LICENSE_END=========================================================
+//
+// @author Sven van der Meer (vdmeer.sven@mykolab.com)
+//
+
+= SKB Acronyms
+Sven van_der_Meer
+
+:description: My acronyms
+:keywords: SKB, acronyms
+
+:pygments-linenums-mode: table
+:toc:
+:toclevels: 4
+:icons: font
+
+
+== 0-9
+include::{acronyms-adoc}/by-character/0-9.adoc[]
+
+== AA
+include::{acronyms-adoc}/by-character/A.adoc[]
+
+== BB
+include::{acronyms-adoc}/by-character/B.adoc[]
+
+== CC
+include::{acronyms-adoc}/by-character/C.adoc[]
+
+== DD
+include::{acronyms-adoc}/by-character/D.adoc[]
+
+== EE
+include::{acronyms-adoc}/by-character/E.adoc[]
+
+== FF
+include::{acronyms-adoc}/by-character/F.adoc[]
+
+== GG
+include::{acronyms-adoc}/by-character/G.adoc[]
+
+== HH
+include::{acronyms-adoc}/by-character/H.adoc[]
+
+== II
+include::{acronyms-adoc}/by-character/I.adoc[]
+
+== JJ
+include::{acronyms-adoc}/by-character/J.adoc[]
+
+== KK
+include::{acronyms-adoc}/by-character/K.adoc[]
+
+== LL
+include::{acronyms-adoc}/by-character/L.adoc[]
+
+== MM
+include::{acronyms-adoc}/by-character/M.adoc[]
+
+== NN
+include::{acronyms-adoc}/by-character/N.adoc[]
+
+== OO
+include::{acronyms-adoc}/by-character/O.adoc[]
+
+== PP
+include::{acronyms-adoc}/by-character/P.adoc[]
+
+== QQ
+include::{acronyms-adoc}/by-character/Q.adoc[]
+
+== RR
+include::{acronyms-adoc}/by-character/R.adoc[]
+
+== SS
+include::{acronyms-adoc}/by-character/S.adoc[]
+
+== TT
+include::{acronyms-adoc}/by-character/T.adoc[]
+
+== UU
+include::{acronyms-adoc}/by-character/U.adoc[]
+
+== VV
+include::{acronyms-adoc}/by-character/V.adoc[]
+
+== WW
+include::{acronyms-adoc}/by-character/W.adoc[]
+
+== XX
+include::{acronyms-adoc}/by-character/X.adoc[]
+
+== YY
+include::{acronyms-adoc}/by-character/Y.adoc[]
+
+== ZZ
+include::{acronyms-adoc}/by-character/Z.adoc[]
+

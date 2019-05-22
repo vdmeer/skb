@@ -1,0 +1,73 @@
+//
+// ============LICENSE_START=======================================================
+//  Copyright (C) 2018 Sven van der Meer. All rights reserved.
+// ================================================================================
+// This file is licensed under the CREATIVE COMMONS ATTRIBUTION 4.0 INTERNATIONAL LICENSE
+// Full license text at https://creativecommons.org/licenses/by/4.0/legalcode
+// 
+// SPDX-License-Identifier: CC-BY-4.0
+// ============LICENSE_END=========================================================
+//
+// @author Sven van der Meer (vdmeer.sven@mykolab.com)
+//
+
+= SKB Acronyms - COM
+Sven van_der_Meer
+
+:description: acronyms COM
+:keywords: SKB, acronyms, COM
+
+:pygments-linenums-mode: table
+:toc:
+:toclevels: 4
+:icons: font
+
+
+== DE, Germany
+include::{acronyms-adoc}/by-category/com/de.adoc[]
+
+=== Springer
+include::{acronyms-adoc}/by-category/com/de/springer.adoc[]
+
+== ES, Spain
+include::{acronyms-adoc}/by-category/com/es.adoc[]
+
+== JP, Japan
+include::{acronyms-adoc}/by-category/com/jp.adoc[]
+
+== SE, Sweden
+=== Ericsson
+include::{acronyms-adoc}/by-category/com/se/ericsson.adoc[]
+
+==== NM-Lab
+include::{acronyms-adoc}/by-category/com/se/ericsson/nm-lab.adoc[]
+
+===== UPT
+include::{acronyms-adoc}/by-category/com/se/ericsson/nm-lab/upt.adoc[]
+
+== UK, United Kingdom
+include::{acronyms-adoc}/by-category/com/uk.adoc[]
+
+== US, United States
+include::{acronyms-adoc}/by-category/com/us.adoc[]
+
+=== AT&T
+include::{acronyms-adoc}/by-category/com/us/att.adoc[]
+
+=== DR
+include::{acronyms-adoc}/by-category/com/us/dr.adoc[]
+
+=== IBM
+include::{acronyms-adoc}/by-category/com/us/ibm.adoc[]
+
+=== Microsoft
+include::{acronyms-adoc}/by-category/com/us/microsoft.adoc[]
+
+==== AD
+include::{acronyms-adoc}/by-category/com/us/microsoft/ad.adoc[]
+
+=== Novell
+include::{acronyms-adoc}/by-category/com/us/novell.adoc[]
+
+=== Xerox
+include::{acronyms-adoc}/by-category/com/us/xerox.adoc[]

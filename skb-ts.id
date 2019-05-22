@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+##
+## Identity for target set skb
+##
+## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
+## @version    v0.0.0
+##
+
+ID=skb
+DESCRIPTION="targets to build SKB distribution/site artifacts"
+TARGETS="clean acronyms acronyms-docs library library-docs sites"

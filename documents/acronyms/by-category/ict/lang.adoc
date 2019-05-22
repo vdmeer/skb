@@ -1,0 +1,37 @@
+//
+// ============LICENSE_START=======================================================
+//  Copyright (C) 2018 Sven van der Meer. All rights reserved.
+// ================================================================================
+// This file is licensed under the CREATIVE COMMONS ATTRIBUTION 4.0 INTERNATIONAL LICENSE
+// Full license text at https://creativecommons.org/licenses/by/4.0/legalcode
+// 
+// SPDX-License-Identifier: CC-BY-4.0
+// ============LICENSE_END=========================================================
+//
+// @author Sven van der Meer (vdmeer.sven@mykolab.com)
+//
+
+= SKB Acronyms - ICT - Lang
+Sven van_der_Meer
+
+:description: acronyms ICT Lang
+:keywords: SKB, acronyms, ICT, Lang
+
+:pygments-linenums-mode: table
+:toc:
+:toclevels: 4
+:icons: font
+
+include::{acronyms-adoc}/by-category/ict/lang.adoc[]
+
+== Assembler
+include::{acronyms-adoc}/by-category/ict/lang/assembler.adoc[]
+
+== Java
+include::{acronyms-adoc}/by-category/ict/lang/java.adoc[]
+
+=== JNDI
+include::{acronyms-adoc}/by-category/ict/lang/java/jndi.adoc[]
+
+== TeX
+include::{acronyms-adoc}/by-category/ict/lang/tex.adoc[]

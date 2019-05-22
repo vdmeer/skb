@@ -1,0 +1,47 @@
+//
+// ============LICENSE_START=======================================================
+//  Copyright (C) 2018 Sven van der Meer. All rights reserved.
+// ================================================================================
+// This file is licensed under the CREATIVE COMMONS ATTRIBUTION 4.0 INTERNATIONAL LICENSE
+// Full license text at https://creativecommons.org/licenses/by/4.0/legalcode
+// 
+// SPDX-License-Identifier: CC-BY-4.0
+// ============LICENSE_END=========================================================
+//
+// @author Sven van der Meer (vdmeer.sven@mykolab.com)
+//
+
+= SKB Acronyms - Organizations - IETF
+Sven van_der_Meer
+
+:description: acronyms Organizations IETF
+:keywords: SKB, acronyms, Organizations, IETF
+
+:pygments-linenums-mode: table
+:toc:
+:toclevels: 4
+:icons: font
+
+include::{acronyms-adoc}/by-category/org/ietf.adoc[]
+
+== DNS
+include::{acronyms-adoc}/by-category/org/ietf/dns.adoc[]
+
+== IP
+include::{acronyms-adoc}/by-category/org/ietf/ip.adoc[]
+
+== Policy
+include::{acronyms-adoc}/by-category/org/ietf/policy.adoc[]
+
+== PPP
+include::{acronyms-adoc}/by-category/org/ietf/ppp.adoc[]
+
+== PPVPN
+include::{acronyms-adoc}/by-category/org/ietf/ppvpn.adoc[]
+
+== SNMP
+include::{acronyms-adoc}/by-category/org/ietf/snmp.adoc[]
+
+== WWW
+include::{acronyms-adoc}/by-category/org/ietf/www.adoc[]
+

@@ -1,0 +1,55 @@
+//
+// ============LICENSE_START=======================================================
+//  Copyright (C) 2018 Sven van der Meer. All rights reserved.
+// ================================================================================
+// This file is licensed under the CREATIVE COMMONS ATTRIBUTION 4.0 INTERNATIONAL LICENSE
+// Full license text at https://creativecommons.org/licenses/by/4.0/legalcode
+// 
+// SPDX-License-Identifier: CC-BY-4.0
+// ============LICENSE_END=========================================================
+//
+// @author Sven van der Meer (vdmeer.sven@mykolab.com)
+//
+
+= SKB Acronyms - ICT - Comp
+Sven van_der_Meer
+
+:description: acronyms ICT Comp
+:keywords: SKB, acronyms, ICT, Comp
+
+:pygments-linenums-mode: table
+:toc:
+:toclevels: 4
+:icons: font
+
+include::{acronyms-adoc}/by-category/ict/comp.adoc[]
+
+== BIOS
+include::{acronyms-adoc}/by-category/ict/comp/bios.adoc[]
+
+=== ACPI
+include::{acronyms-adoc}/by-category/ict/comp/bios/acpi.adoc[]
+
+== CPU
+include::{acronyms-adoc}/by-category/ict/comp/cpu.adoc[]
+
+== DVD
+include::{acronyms-adoc}/by-category/ict/comp/dvd.adoc[]
+
+== FDD
+include::{acronyms-adoc}/by-category/ict/comp/fdd.adoc[]
+
+== HDD
+include::{acronyms-adoc}/by-category/ict/comp/hdd.adoc[]
+
+=== RAID
+include::{acronyms-adoc}/by-category/ict/comp/hdd/raid.adoc[]
+
+=== SATA
+include::{acronyms-adoc}/by-category/ict/comp/hdd/sata.adoc[]
+
+=== SCSI
+include::{acronyms-adoc}/by-category/ict/comp/hdd/scsi.adoc[]
+
+== Memory
+include::{acronyms-adoc}/by-category/ict/comp/memory.adoc[]

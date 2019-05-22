@@ -1,0 +1,42 @@
+#!/usr/bin/env bash
+##
+## Scripts for target set skb
+##
+## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
+## @version    v0.0.0
+##
+
+TsRunTask() {
+    local LINE_INDEN="        "
+
+    case $1 in
+        clean)
+            mvn clean
+            ${DMAP_TASK_EXEC["clean"]} --force
+            ;;
+        acronyms)
+            #touch documents/acronyms/*.adoc ## otherwise Asciidoctor might not rebuild
+            ${DMAP_TASK_EXEC["acronyms-build"]} --all
+            ;;
+        acronyms-docs)
+            ${DMAP_TASK_EXEC["acronyms-adoc"]} --all
+#             $SKB_DASHBOARD -B -e acronyms-adoc   --sq --lq --task-level debug -- --all
+            ;;
+        library)
+            #touch documents/library/*.adoc ## otherwise Asciidoctor might not rebuild
+            ${DMAP_TASK_EXEC["library-ext"]} --all
+#             $SKB_DASHBOARD -B -e library-ext     --sq --lq --task-level debug -- --all
+            ;;
+        library-docs)
+            ${DMAP_TASK_EXEC["library-adoc"]} --all
+#             $SKB_DASHBOARD -B -e library-adoc    --sq --lq --task-level debug -- --all
+            ;;
+        sites)
+            ${DMAP_TASK_EXEC["skb-build-sites"]} --build --all --ad --site --stage
+#             $SKB_DASHBOARD -B -e skb-build-sites --sq --lq --task-level debug -- --build --all --ad --site --stage
+            ;;
+        *)
+            ConsoleWarnStrict "skb:" "nunknown target '$TARGET'\nThis is a programming error in the script"
+            ;;
+    esac
+}

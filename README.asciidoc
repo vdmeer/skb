@@ -1,6 +1,173 @@
-skb
-===
+:release-version: 0.0.0
+= SKB
+v{release-version}
+:page-layout: base
+:toc: preamble
 
-Wiki with collection of information: https://github.com/vdmeer/skb/wiki
+my Knowledge Base, starting point for several projects
 
-Resources in the repo here are of general nature for other SKB projects.
+== SKB
+
+The SKB is the entry point or umbrella for a number of my projects, all open source on Github.
+SKB is short for _Sven's Knowledge Base_.
+I was looking for some acronym (actually abbreviation, since one cannot speak SKB), and this is what I came up with a long time ago (sometimes in 2014 I guess).
+
+This repository contains my databases (acronyms, library, etc.), the source of the SKB website, the source of my personal website, and a Wiki.
+The _pom_ file is set to version 1.0.0, which will not change.
+Its only purpose is to allow an easy import into Eclipse, which I use as a general purpose editor.
+
+This repository has only a `master` branch, i.e. all updates are published immediately.
+No versions are applied.
+The websites are generated and published frequently as well, but not for every single push to the `master`.
+
+
+=== Source Repository
+
+[cols="20,80", frame=none, grid=rows]
+|===
+
+|`https://github.com/vdmeer/skb/tree/master/data[data]`
+| Contains the raw data for acronyms and my research library.
+All data is written in _YAML_.
+The structure of the _YAML_ files, naming conventions, and keys is explained in README files.
+The files can be processed with the `SKB-Framework` and the `SKB-DASHBOARD`, to generate for instance collections in _HTML_ or _PDF_.
+
+The content of acronyms and the library is far from being complete neither perfect.
+Some files still require work, a lot of _BiBTeX_ and _Biblatex_ sources are missing, and the acronym files are missing some information I still have to add.
+
+|`https://github.com/vdmeer/skb/tree/master/documents[documents]`
+| Contains Asciidoctor or _ADOC_ files used to create stand-alone _HTML_ and _PDF_ files and as include files for the SKB-Web.
+Most of these files require external settings, for instance a path to (generated) _ADOC_ collection files.
+The SKB and sub-projects use the `SKB-Framework` and the `SKB-DASHBOARD` to compile these files.
+
+
+|`https://github.com/vdmeer/skb/tree/master/sites[sites]`
+| Contains the source code for the main SKB Website and my personal website (VDM).
+Both websites are written for the Apache Maven plugin `maven-site-plugin`, using the DOXIA renderer and the Asciidoctor plugin.
+I have changed the general style (_CSS_) in parts and changed the font to `Roboto Condensed` from Google.
+The `SKB-DASHBOARD` is used to generate acronym and library files integrated into the sites.
+The sites are then published automatically (SKB) and manually (VDM).
+
+|===
+
+I will add more content whenever I have time and a need for it.
+I still have a few things from older SKB databases to add, but I don't have much time.
+
+=== Links
+
+[cols="20,80", frame=none, grid=rows]
+|===
+
+| http://www.vandermeer.de[vandermeer.de]
+| My personal website, with rather personal information.
+If you want to know more about me, this is the place to start at.
+It also provides a list of a lot of my online handles, emails, and other IDs.
+It is hosted at https://www.powerweb.de/[Powerweb], but without an _SSL_ certificate.
+So only plain _HTTP_ will work on this site.
+The site is build with _Maven_, the sources are in https://github.com/vdmeer/skb/tree/master/sites/vandermeer[sites/vandermeer].
+So the whole site is static, build and published, without any scripts or other interactive means.
+
+| http://vdmeer.github.io/[vdmeer.github.io]
+| The same content as the site above, just hosted on Github (so _HTTPS_ will work here!).
+Updates happening on the https://github.com/vdmeer/vdmeer.github.io[vdmeer.github.io] repository.
+This repository also hosts all other SKB sites, just to make life simple for publishing new information.
+
+| https://vdmeer.github.io/skb/[vdmeer.github.io/skb]
+| This is the SKB website, or `SKB-Web`.
+It is generated from the sources in https://github.com/vdmeer/skb/tree/master/sites/skb[sites/skb] using _Maven_.
+
+| https://github.com/vdmeer/skb/wiki[Wiki]
+| Some pages I can edit fast in a Browser and then pull from Github.
+Not sure if I move any of them into this, more permanent and mature, repository.
+
+|===
+
+
+== Projects
+
+
+
+=== Bash
+
+[cols="20,80", frame=none, grid=rows]
+|===
+
+| SKB-Framework
+| text
+
+| SKB-Dashboard
+| text
+
+|===
+
+
+
+=== Java
+
+[cols="20,80", frame=none, grid=rows]
+|===
+
+
+| SKB Java
+| text
+
+| ASCII Heading
+| text
+
+| ASCII List
+| text
+
+| ASCII Paragraph
+| text
+
+| ASCII Table
+| text
+
+| Char Translation
+| text
+
+| ExecS
+| text
+
+| Interfaces
+| text
+
+
+| UTF Themes
+| text
+
+| SKB Examples
+| text
+
+| SVG 2 Vector
+| text
+
+
+|===
+
+
+=== LaTeX
+
+[cols="20,80", frame=none, grid=rows]
+|===
+
+| SKB LaTeX
+| text
+
+|===
+
+
+
+=== Miscellaneous
+
+[cols="20,80", frame=none, grid=rows]
+|===
+
+| Eclipse Cheat Sheet
+| text
+
+| IPC
+| text
+
+
+|===

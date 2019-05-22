@@ -2,13 +2,13 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>de.vandermeer</groupId>
     <artifactId>skb</artifactId>
-    <version>0.0.0</version>
+    <version>1.0.0</version>
     <packaging>pom</packaging>
 
     <name>${project.artifactId}</name>
     <url></url>
-    <description>SKB Main project</description>
-    <inceptionYear>2018</inceptionYear>
+    <description>SKB Top Level Project</description>
+    <inceptionYear>2014</inceptionYear>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

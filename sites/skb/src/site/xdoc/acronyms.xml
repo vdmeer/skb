@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document>
+    <properties>
+        <title>Acronyms</title>
+        <author email="vdmeer dot sven at mykolab dot com">Sven van der Meer</author>
+    </properties>
+
+    <body>
+        <section name="Acronyms">
+
+            <h4 class="welcome">Alphabetically</h4>
+                <p class="narrow large">All defined acronyms as <a href="acronyms/acronyms.html">full list</a>.</p>
+                <p class="narrow large">
+                    All defined acronyms grouped by the first character of their short form (letters, numbers are separated):<br />
+                    <a href="acronyms/by-character/0-9.html">0-9</a> | 
+                    <a href="acronyms/by-character/A.html">AA</a> | 
+                    <a href="acronyms/by-character/B.html">BB</a> | 
+                    <a href="acronyms/by-character/C.html">CC</a> | 
+                    <a href="acronyms/by-character/D.html">DD</a> | 
+                    <a href="acronyms/by-character/E.html">EE</a> | 
+                    <a href="acronyms/by-character/F.html">FF</a> | 
+                    <a href="acronyms/by-character/G.html">GG</a> | 
+                    <a href="acronyms/by-character/H.html">HH</a> | 
+                    <a href="acronyms/by-character/I.html">II</a> | 
+                    <a href="acronyms/by-character/J.html">JJ</a> | 
+                    <a href="acronyms/by-character/K.html">KK</a> | 
+                    <a href="acronyms/by-character/L.html">LL</a> | 
+                    <a href="acronyms/by-character/M.html">MM</a> | 
+                    <a href="acronyms/by-character/N.html">NN</a> | 
+                    <a href="acronyms/by-character/O.html">OO</a> | 
+                    <a href="acronyms/by-character/P.html">PP</a> | 
+                    <a href="acronyms/by-character/Q.html">QQ</a> | 
+                    <a href="acronyms/by-character/R.html">RR</a> | 
+                    <a href="acronyms/by-character/S.html">SS</a> | 
+                    <a href="acronyms/by-character/T.html">TT</a> | 
+                    <a href="acronyms/by-character/U.html">UU</a> | 
+                    <a href="acronyms/by-character/V.html">VV</a> | 
+                    <a href="acronyms/by-character/W.html">WW</a> | 
+                    <a href="acronyms/by-character/X.html">XX</a> | 
+                    <a href="acronyms/by-character/Y.html">YY</a> | 
+                    <a href="acronyms/by-character/Z.html">ZZ</a>
+                </p>
+
+            <h4 class="welcome">Business (biz)</h4>
+                <p class="narrow large">
+                    <a href="acronyms/by-category/biz.html">biz Acronyms</a>
+                </p>
+
+            <h4 class="welcome">Companies (com)</h4>
+                <p class="narrow large">
+                    <a href="acronyms/by-category/com.html">com Acronyms</a>
+                </p>
+
+            <h4 class="welcome">Education (edu)</h4>
+                <p class="narrow large">
+                    <a href="acronyms/by-category/edu.html">edu Acronyms</a>
+                </p>
+
+            <h4 class="welcome">Eletric Engineering (ee)</h4>
+                <p class="narrow large">
+                    <a href="acronyms/by-category/ee.html">ee Acronyms</a>
+                </p>
+
+            <h4 class="welcome">Information and Communication Technologies (ict)</h4>
+                <p class="narrow large">
+                    <a href="acronyms/by-category/ict.html">ict Acronyms</a>
+
+                    <table class="narrow table table-striped">
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li>
+                                        <a href="acronyms/by-category/ict/algorithm.html">Algorithm</a> 
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="acronyms/by-category/ict/ascii.html">ASCII</a> 
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="acronyms/by-category/ict/cloud.html">Cloud</a> 
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="acronyms/by-category/ict/comp.html">Computer</a> (comp) 
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="acronyms/by-category/ict/concept.html">Concept</a> 
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="acronyms/by-category/ict/db.html">Database</a> (db) 
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="acronyms/by-category/ict/dev.html">Development</a> (dev) 
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="acronyms/by-category/ict/device.html">Device</a> 
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="acronyms/by-category/ict/graphic.html">Graphic</a> 
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="acronyms/by-category/ict/lang.html">Language(s)</a> (lang) 
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="acronyms/by-category/ict/net.html">Networks</a> (net) 
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="acronyms/by-category/ict/os.html">Operating Systems</a> (os)
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="acronyms/by-category/ict/security.html">Security</a> 
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="acronyms/by-category/ict/sound.html">Sound</a> 
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="acronyms/by-category/ict/unicode.html">Unicode</a> 
+                                        
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </p>
+
+            <h4 class="welcome">Jargon</h4>
+                <p class="narrow large">
+                    <a href="acronyms/by-category/jargon.html">jargon Acronyms</a>
+                </p>
+
+            <h4 class="welcome">Miscellaneous (misc)</h4>
+                <p class="narrow large">
+                    <a href="acronyms/by-category/misc.html">misc Acronyms</a>
+                </p>
+
+            <h4 class="welcome">Organizations (org)</h4>
+                <p class="narrow large">
+                    <a href="acronyms/by-category/org.html">org Acronyms</a>
+
+                    <table class="narrow table table-striped">
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li>
+                                        <a href="acronyms/by-category/org/3gpp.html">3GPP</a> - <i>3<sup>rd</sup> Generation Partnership Program</i>,
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="acronyms/by-category/org/ansi.html">ANSI</a> - <i>American National Standards Institute</i>,
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="acronyms/by-category/org/asf.html">ASF</a> - <i>Apache Software Foundation</i>,
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="acronyms/by-category/org/atis.html">ATIS</a> - <i>Alliance for Telecom Industry Solutions</i>,
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="acronyms/by-category/org/dect.html">DECT</a> - <i>Digital Enhanced Cordless Telecommunications</i>,
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="acronyms/by-category/org/dmtf.html">DMTF</a> - <i>Distributed Management Task Force</i>,
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="acronyms/by-category/org/ecma.html">ECMA</a> - <i>ECMA International</i>,
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="acronyms/by-category/org/etsi.html">ETSI</a> - <i>European Telecommunication Standards Institute</i>,
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="acronyms/by-category/org/eu.html">EU</a> - <i>European Union</i>,
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="acronyms/by-category/org/fhg.html">FhG</a> - <i>Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V.</i>,
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="acronyms/by-category/org/gmd.html">GMD</a> - <i>Gesellschaft für Mathematik und Datenverarbeitung</i>,
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="acronyms/by-category/org/gnu.html">GNU</a> - <i>GNU's Not Unix</i>,
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="acronyms/by-category/org/icann.html">ICANN</a> - <i>Internet Corporation for Assigned Names and Numbers</i>,
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="acronyms/by-category/org/iec.html">IEC</a> - <i>International Electrotechnical Commission</i>,
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="acronyms/by-category/org/ieee.html">IEEE</a> - <i>Institute of Electrical and Electronics Engineers</i>,
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="acronyms/by-category/org/ietf.html">IETF</a> - <i>Internet Engineering Task Force</i>,
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="acronyms/by-category/org/ifip.html">IFIP</a> - <i>International Federation for Information Processing</i>,
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="acronyms/by-category/org/iso.html">ISO</a> - <i>International Standardisation Organisation</i>,
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="acronyms/by-category/org/itu.html">ITU</a> - <i>International Telecommunication Unit</i>,
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="acronyms/by-category/org/lf.html">Linux Foundation</a> - <i>Linux Foundation</i>,
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="acronyms/by-category/org/ngmn.html">NGMN</a> - <i>Next Generation Mobile Network alliance</i>,
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="acronyms/by-category/org/nist.html">NIST</a> - <i>National Institute of Standards and Technology</i>,
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="acronyms/by-category/org/nsf.html">NSF</a> - <i>National Science Foundation</i>,
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="acronyms/by-category/org/oasis.html">OASIS</a> - <i>Organization for the Advancement of Structured Information Standards</i>,
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="acronyms/by-category/org/omg.html">OMG</a> - <i>Object Management Group</i>,
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="acronyms/by-category/org/onf.html">ONF</a> - <i>Open Networking Foundation</i>,
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="acronyms/by-category/org/psoc.html">PSOC</a> - <i>Pouzin Society</i>,
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="acronyms/by-category/org/tina-c.html">TINA-C</a> - <i>Telecommunication Information Networking Architecture Consortium</i>,
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="acronyms/by-category/org/tm-forum.html">TM Forum</a> - <i>TeleManagement Forum</i>,
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="acronyms/by-category/org/w3c.html">W3C</a> - <i>World Wide Web Consortium</i>,
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="acronyms/by-category/org/wi-fi.html">Wi-Fi</a> - <i>Wi-Fi Alliance</i>,
+                                        
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </p>
+
+<!-->
+            <h4 class="welcome">People)</h4>
+                <p class="narrow large">
+                    <a href="acronyms/by-category/people.html">people Acronyms</a>
+                </p>
+-->
+
+            <h4 class="welcome">Time</h4>
+                <p class="narrow large">
+                    <a href="acronyms/by-category/time.html">time Acronyms</a>
+                </p>
+        </section>
+    </body>
+</document>
+

@@ -19,4 +19,26 @@ MvnSitePostScript() {
     MvnSiteFixAdoc target/site/research-notes-internet-history      "Research Notes - Internet History"
 
     MvnSiteFixAdoc target/site/research-notes-time-and-date-nm      "Research Notes - Time and Date in NM"
+
+
+    if [[ -d "${CONFIG_MAP["TARGET"]}" ]]; then
+        if [[ -d "${CONFIG_MAP["TARGET"]}/library-docs" ]]; then
+            if [[ ! -d "target/site/library" ]]; then
+                mkdir -p target/site/library
+            fi
+            cp ${CONFIG_MAP["TARGET"]}/library-docs/* target/site/library
+        else
+            ConsoleWarnStrict "site/skb:" "no target/library-docs directory, could not copy library docs"
+        fi
+        if [[ -d "${CONFIG_MAP["TARGET"]}/acronyms-docs" ]]; then
+            if [[ ! -d "target/site/acronyms" ]]; then
+                mkdir -p target/site/acronyms
+            fi
+            cp -r ${CONFIG_MAP["TARGET"]}/acronyms-docs/* target/site/acronyms
+        else
+            ConsoleWarnStrict "site/skb:" "no target/acronyms-docs directory, could not copy acronyms docs"
+        fi
+    else
+        ConsoleWarnStrict "site/skb:" "no target directory, could not copy acronyms/library docs"
+    fi
 }

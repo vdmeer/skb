@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <document>
-
     <properties>
         <title>Library</title>
         <author email="vdmeer dot sven at mykolab dot com">Sven van der Meer</author>
@@ -41,7 +40,7 @@
                 </table>
             </p>
 
-            <h4 class="welcome">BibLaTeX Entry Typess</h4>
+            <h4 class="welcome">BibLaTeX Entry Types</h4>
             <p class="narrow large">
                 <table class="narrow table table-striped">
                     <tr>

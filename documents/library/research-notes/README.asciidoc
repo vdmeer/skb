@@ -15,14 +15,18 @@
 
 Research note grouped by topics.
 Some of these notes are simple citation lists, some come with descriptions and discussions.
-Compiled versions are available on my GH pages and on my website.
+Compiled versions are available on the link:https://vdmeer.github.io/skb/[skb-web] (_HTML_ integrated in the site, standalone _HTML_, standalone _PDF_)
+    and on my website link:http://www.vandermeer.de/research-notes-cybernetics.html[vandermeer.de] (_HTML_ integrated in the site).
 
-[grid=rows, frame=none, %autowidth.stretch]
+[grid=rows, frame=none, %autowidth.stretch, options="header", cols=4]
 |===
-| `rn-cybernetics.adoc`      | cybernetic notes                      | link:https://vdmeer.github.io/skb/library/rn-cybernetics.html[GH Pages]      | link:http://www.vandermeer.de/research-notes-cybernetics.html[vandermeer.de]
-| `rn-ina.adoc`              | introduction to network architecture  | link:https://vdmeer.github.io/skb/library/rn-ina.html[GH Pages]              | link:http://www.vandermeer.de/research-notes-ina.html[vandermeer.de]
-| `rn-internet-history.adoc` | internet history                      | link:https://vdmeer.github.io/skb/library/rn-internet-history.html[GH Pages] | link:http://www.vandermeer.de/research-notes-internet-history.html[vandermeer.de]
-| `rn-policy.adoc`           | policy-based management and APEX      | link:https://vdmeer.github.io/skb/library/rn-policy.html[GH Pages]           | link:http://www.vandermeer.de/research-notes-policy.html[vandermeer.de]
-| `rn-time-and-date-nm.adoc` | time and date in network management   | link:https://vdmeer.github.io/skb/library/rn-time-and-date-nm.html[GH Pages] | link:http://www.vandermeer.de/research-notes-time-and-date-nm.html[vandermeer.de]
+
+| ADOC file | description | on skb-web | on vandermeer.de
+
+| `rn-cybernetics.adoc`      | cybernetic notes                      | link:https://vdmeer.github.io/skb/research-notes-cybernetics.html[site],      link:https://vdmeer.github.io/skb/library/rn-cybernetics.html[html]      | link:http://www.vandermeer.de/research-notes-cybernetics.html[site]
+| `rn-ina.adoc`              | introduction to network architecture  | link:https://vdmeer.github.io/skb/research-notes-ina.html[site],              link:https://vdmeer.github.io/skb/library/rn-ina.html[html]              | link:http://www.vandermeer.de/research-notes-ina.html[site]
+| `rn-internet-history.adoc` | internet history                      | link:https://vdmeer.github.io/skb/research-notes-internet-history.html[site], link:https://vdmeer.github.io/skb/library/rn-internet-history.html[html] | link:http://www.vandermeer.de/research-notes-internet-history.html[site]
+| `rn-policy.adoc`           | policy-based management and APEX      | link:https://vdmeer.github.io/skb/research-notes-policy.html[site],           link:https://vdmeer.github.io/skb/library/rn-policy.html[html]           | link:http://www.vandermeer.de/research-notes-policy.html[site]
+| `rn-time-and-date-nm.adoc` | time and date in network management   | link:https://vdmeer.github.io/skb/research-notes-time-and-date-nm.html[site], link:https://vdmeer.github.io/skb/library/rn-time-and-date-nm.html[html] | link:http://www.vandermeer.de/research-notes-time-and-date-nm.html[site]
 |===
 

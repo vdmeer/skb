@@ -23,3 +23,51 @@
 |===
 
 
+
+
+[appendix]
+== Copyright, License, Attribution
+
+Copyright © 2018-2019 Sven van der Meer. All rights reserved.
+
+This work is licensed under a https://creativecommons.org/licenses/by-sa/4.0/[Creative Commons Attribution-ShareAlike International License].
+
+If you use this work, you can attribute it as follows:
+
+[cols="12,82", frame=none, grid=rows]
+|===
+
+| Reference
+a| Sven van der Meer: 
+_Research Notes - Internet History_, {skb-build-month} {skb-build-day}, {skb-build-date} +
+available: https://vdmeer.github.io/research-notes.html
+
+| Biblatex
+a|
+[source, subs="attributes"]
+----
+@online{vdmeer:skb:rn:ina,
+    author = "van der Meer, Sven",
+    title  = "Research Notes - Internet History",
+    url = "https://vdmeer.github.io/research-notes.html",
+    date = "{skb-build-date}",
+    urldate = "{skb-build-date}"
+}
+----
+
+| BiBTeX
+a|
+[source, subs="attributes"]
+----
+@misc{vdmeer:skb:rn:ina,
+    author = "van der Meer, Sven",
+    title  = "Research Notes - Internet History",
+    howpublished = "online",
+    url = "https://vdmeer.github.io/research-notes.html",
+    year = {skb-build-year}, month = {skb-build-month-lc}, day = {skb-build-day},
+    key = "vdm"
+}
+----
+
+|===
+

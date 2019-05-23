@@ -14,43 +14,49 @@
 == SKB - Research Library (Documents)
 
 These are documents collecting items (data) from my research library.
-The items can be found in the data directory of this repository.
+The items can be found in the `data` directory of this repository.
+Compiled versions are available on the link:https://vdmeer.github.io/skb/[skb-web] (_HTML_ integrated in the site, standalone _HTML_, standalone _PDF_)
+    and on my website link:http://www.vandermeer.de/research-notes-cybernetics.html[vandermeer.de] (_HTML_ integrated in the site).
 
 The main collections are the overall library, my own publications, and my research notes.
 
-[grid=rows, frame=none, %autowidth.stretch]
+[grid=rows, frame=none, %autowidth.stretch, options="header", cols=4]
 |===
-| `library.adoc`  | complete library | link:https://vdmeer.github.io/skb/library/library.html[GH Pages] | 
-| `vdm.adoc`      | my publications  | link:https://vdmeer.github.io/skb/library/vdm.html[GH Pages]     | link:http://www.vandermeer.de/publications.html[vandermeer.de]
 
-| `rn-cybernetics.adoc`      | cybernetic notes                      | link:https://vdmeer.github.io/skb/library/rn-cybernetics.html[GH Pages]      | link:http://www.vandermeer.de/research-notes-cybernetics.html[vandermeer.de]
-| `rn-ina.adoc`              | introduction to network architecture  | link:https://vdmeer.github.io/skb/library/rn-ina.html[GH Pages]              | link:http://www.vandermeer.de/research-notes-ina.html[vandermeer.de]
-| `rn-internet-history.adoc` | internet history                      | link:https://vdmeer.github.io/skb/library/rn-internet-history.html[GH Pages] | link:http://www.vandermeer.de/research-notes-internet-history.html[vandermeer.de]
-| `rn-policy.adoc`           | policy-based management and APEX      | link:https://vdmeer.github.io/skb/library/rn-policy.html[GH Pages]           | link:http://www.vandermeer.de/research-notes-policy.html[vandermeer.de]
-| `rn-time-and-date-nm.adoc` | time and date in network management   | link:https://vdmeer.github.io/skb/library/rn-time-and-date-nm.html[GH Pages] | link:http://www.vandermeer.de/research-notes-time-and-date-nm.html[vandermeer.de]
+| ADOC file | description | on skb-web | on vandermeer.de
+
+| `library.adoc`  | complete library | link:https://vdmeer.github.io/skb/library/library.html[html] | 
+| `vdm.adoc`      | my publications  | link:https://vdmeer.github.io/skb/library/vdm.html[html]     | link:http://www.vandermeer.de/publications.html[site]
+
+| `rn-cybernetics.adoc`      | cybernetic notes                      | link:https://vdmeer.github.io/skb/research-notes-cybernetics.html[site],      link:https://vdmeer.github.io/skb/library/rn-cybernetics.html[html]      | link:http://www.vandermeer.de/research-notes-cybernetics.html[site]
+| `rn-ina.adoc`              | introduction to network architecture  | link:https://vdmeer.github.io/skb/research-notes-ina.html[site],              link:https://vdmeer.github.io/skb/library/rn-ina.html[html]              | link:http://www.vandermeer.de/research-notes-ina.html[site]
+| `rn-internet-history.adoc` | internet history                      | link:https://vdmeer.github.io/skb/research-notes-internet-history.html[site], link:https://vdmeer.github.io/skb/library/rn-internet-history.html[html] | link:http://www.vandermeer.de/research-notes-internet-history.html[site]
+| `rn-policy.adoc`           | policy-based management and APEX      | link:https://vdmeer.github.io/skb/research-notes-policy.html[site],           link:https://vdmeer.github.io/skb/library/rn-policy.html[html]           | link:http://www.vandermeer.de/research-notes-policy.html[site]
+| `rn-time-and-date-nm.adoc` | time and date in network management   | link:https://vdmeer.github.io/skb/research-notes-time-and-date-nm.html[site], link:https://vdmeer.github.io/skb/library/rn-time-and-date-nm.html[html] | link:http://www.vandermeer.de/research-notes-time-and-date-nm.html[site]
 |===
 
 
 The other files are for entry types, mainly.
 Talks are a bit different, here I separate keynotes from tutorials, invited talks, and other presentations.
 
-[grid=rows, frame=none, %autowidth.stretch]
+[grid=rows, frame=none, %autowidth.stretch, options="header", cols=3]
 |===
-| `article.adoc`        | (journal) articles                                             | link:https://vdmeer.github.io/skb/library/article.html[GH Pages]
-| `book.adoc`           | books                                                          | link:https://vdmeer.github.io/skb/library/book.html[GH Pages]
-| `collection.adoc`     | collections, similar to proceedings                            | link:https://vdmeer.github.io/skb/library/collection.html[GH Pages]
-| `inbook.adoc`         | book chapters                                                  | link:https://vdmeer.github.io/skb/library/inbook.html[GH Pages]
-| `inproceedings.adoc`  | conference and workshop papers                                 | link:https://vdmeer.github.io/skb/library/inproceedings.html[GH Pages]
-| `misc.adoc`           | items that don't fit anywhere else                             | link:https://vdmeer.github.io/skb/library/misc.html[GH Pages]
-| `movie.adoc`          | movies, films                                                  | link:https://vdmeer.github.io/skb/library/movie.html[GH Pages]
-| `online.adoc`         | online publications                                            | link:https://vdmeer.github.io/skb/library/online.html[GH Pages]
-| `patent.adoc`         | patents                                                        | link:https://vdmeer.github.io/skb/library/patent.html[GH Pages]
-| `proceedings.adoc`    | conference proceedings                                         | link:https://vdmeer.github.io/skb/library/proceedings.html[GH Pages]
-| `report.adoc`         | technical and project reports, white papers                    | link:https://vdmeer.github.io/skb/library/report.html[GH Pages]
-| `standard.adoc`       | standards and SDO publications                                 | link:https://vdmeer.github.io/skb/library/standard.html[GH Pages]
-| `thesis.adoc`         | thesis, M.Sc., Diplomarbeit, Ph.D., Doktorarbeit, Habilitation | link:https://vdmeer.github.io/skb/library/thesis.html[GH Pages]
-| `talks.adoc`          | keynote, tutorial, lecture note, invited talks presentation    | link:https://vdmeer.github.io/skb/library/talks.html[GH Pages]
-| `unpublished.adoc`    | unpublished or not formally published work                     | link:https://vdmeer.github.io/skb/library/unpublished.html[GH Pages]
+| ADOC file | description | on skb-web
+| `article.adoc`        | (journal) articles                                             | link:https://vdmeer.github.io/skb/library/article.html[html]
+| `book.adoc`           | books                                                          | link:https://vdmeer.github.io/skb/library/book.html[html]
+| `collection.adoc`     | collections, similar to proceedings                            | link:https://vdmeer.github.io/skb/library/collection.html[html]
+| `inbook.adoc`         | book chapters                                                  | link:https://vdmeer.github.io/skb/library/inbook.html[html]
+| `inproceedings.adoc`  | conference and workshop papers                                 | link:https://vdmeer.github.io/skb/library/inproceedings.html[html]
+| `misc.adoc`           | items that don't fit anywhere else                             | link:https://vdmeer.github.io/skb/library/misc.html[html]
+| `movie.adoc`          | movies, films                                                  | link:https://vdmeer.github.io/skb/library/movie.html[html]
+| `online.adoc`         | online publications                                            | link:https://vdmeer.github.io/skb/library/online.html[html]
+| `patent.adoc`         | patents                                                        | link:https://vdmeer.github.io/skb/library/patent.html[html]
+| `proceedings.adoc`    | conference proceedings                                         | link:https://vdmeer.github.io/skb/library/proceedings.html[html]
+| `report.adoc`         | technical and project reports, white papers                    | link:https://vdmeer.github.io/skb/library/report.html[html]
+| `standard.adoc`       | standards and SDO publications                                 | link:https://vdmeer.github.io/skb/library/standard.html[html]
+| `thesis.adoc`         | thesis, M.Sc., Diplomarbeit, Ph.D., Doktorarbeit, Habilitation | link:https://vdmeer.github.io/skb/library/thesis.html[html]
+| `talks.adoc`          | keynote, tutorial, lecture note, invited talks presentation    | link:https://vdmeer.github.io/skb/library/talks.html[html]
+| `unpublished.adoc`    | unpublished or not formally published work                     | link:https://vdmeer.github.io/skb/library/unpublished.html[html]
 |===
 
 

@@ -36,6 +36,19 @@ SPDX-License-Identifier: CC-BY-SA-4.0
             <item href="acronyms.html" name="Acronyms" />
             <item href="library.html" name="Library" />
             <item href="history.html" name="History" />
+            <item href="production-notes.html" name="Production Notes" collapse="true">
+                <item href="production-notes/abstractions-principles-patterns.html" name="Abstractions, Principles &amp; Patterms" />
+                <item href="production-notes/conventions.html" name="Conventions" />
+                <item href="production-notes/languages.html" name="Languages" />
+                <item href="production-notes/operating-systems.html" name="Operating Systens" />
+                <item href="production-notes/virtualization.html" name="Virtualization" />
+                <item href="production-notes/ide-editors.html" name="IDEs and Editors" />
+                <item href="production-notes/build-make.html" name="Build and Make" />
+                <item href="production-notes/graphics.html" name="Graphics" />
+                <item href="production-notes/online.html" name="Online" />
+                <item href="production-notes/miscellaneous.html" name="Miscellaneous" />
+                <item href="production-notes/templates.html" name="Templates" />
+            </item>
         </menu>
 
         <menu name="Projects - Bash">

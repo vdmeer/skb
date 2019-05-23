@@ -1,0 +1,54 @@
+//
+// ============LICENSE_START=======================================================
+// Copyright (C) 2018-2019 Sven van der Meer. All rights reserved.
+// ================================================================================
+// This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 International Public License
+// Full license text at https://creativecommons.org/licenses/by-sa/4.0/legalcode
+// 
+// SPDX-License-Identifier: CC-BY-SA-4.0
+// ============LICENSE_END=========================================================
+//
+// @author Sven van der Meer (vdmeer.sven@mykolab.com)
+//
+
+= Production Notes
+
+Every good movie requires a diverse set of people with different expertise and skills.
+So does a knowledge base, with software and other projects.
+The pages here go through my experience in producing software with software, from all angles I did cover.
+I am certainly no deep expert in everything, I just use _stuff_ :).
+
+The topics here are introduced in the following order:
+
+* link:production-notes/abstractions-principles-patterns.html[Abstractions, Principles, Patterns] -
+     We start with some guiding principles,
+     in form of fundamental abstractions,
+     scientific and best common practice principles,
+     and well-established (i.e. often successfully used) patterns.
+* link:production-notes/conventions.html[Conventions] -
+    Next we look at conventions I am using for my work.
+    This list seems to be long, but is actually not that difficult to follow in general.
+* link:production-notes/languages.html[Languages] -
+    Next we look at the languages involved.
+    There are some, each focusing on a particular purpose, including programming languages and data serialization languages.
+    I am a simple _user_ of most of them, no an _expert_.
+    Some of the languages shown here are past, rather than present.
+* link:production-notes/operating-systems.html[Operating Systems] -
+    There are several operating systems, including versions and flavors I am using.
+    We look at all of them.
+* link:production-notes/virtualization.html[Virtualization] -
+      Operating systems and processes can also run in virtualization environments.
+      Since everything that can be virtualized will, eventually, be virtualized, I am using some of those environments as well (though not all of them, of course).
+* link:production-notes/ide-editors.html[IDEs and Editors] -
+    This page looks at Integrated Development Environments (IDE) and more simple editors that are part of my production.
+* link:production-notes/build-make.html[Build and Make] -
+    Once artifacts are specified in a language, using some IDE or editor, I use a few build- and make frameworks to parse and compile specifications and to generate more (compiled) artifacts.
+* link:production-notes/graphics.html[Graphics] -
+    This page looks at frameworks, tools, and software that deals with all graphical aspects of the production.
+* link:production-notes/online.html[Online] -
+    I am using quite a few online services and website, all discussed here.
+    On some of them I do have an account, some I simply use.
+* link:production-notes/miscellaneous.html[Miscellaneous] -
+    Any tool or software that doesn't fit (maybe just not yet) any other category.
+* link:production-notes/templates.html[Templates] -
+    A few templates that I am using, have designed, for the production

@@ -58,7 +58,6 @@ export SD_MAKE_TARGET_SETS=$PWD
 ## - if any settings are missing, exit
 ##
 GO_AHEAD=true
-printf "\n"
 if [[ -z "${SKB_FRAMEWORK_HOME:-}" ]]; then
     printf "Please set SKB_FRAMEWORK_HOME to home directory\n"
     GO_AHEAD=false
@@ -76,9 +75,12 @@ fi
 ##
 ## Check if we have some command line
 ## - if not, we need help, and then exit
+## - if there's any indication for help, print help
 ##
-if [[ -z "${1:-}" ]]; then
-    printf "No target given\n"
+if [[ -z "${1:-}" || "${1}" == "-h" || "${1}" == "--help" || "${1}" == "help" ]]; then
+    if [[ -z "${1:-}" ]]; then
+        printf "No target given\n"
+    fi
     source skb-ts-scripts.skb
     TsRunTask help
     #$SKB_DASHBOARD -B -e make-target-sets --lq --sq --tq -- --id skb --targets help

@@ -1,0 +1,192 @@
+//
+// ============LICENSE_START=======================================================
+// Copyright (C) 2018-2019 Sven van der Meer. All rights reserved.
+// ================================================================================
+// This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 International Public License
+// Full license text at https://creativecommons.org/licenses/by-sa/4.0/legalcode
+// 
+// SPDX-License-Identifier: CC-BY-SA-4.0
+// ============LICENSE_END=========================================================
+//
+// @author Sven van der Meer (vdmeer.sven@mykolab.com)
+//
+
+:release-version: 1.0.0
+= Abstractions, Principles & Patterns
+v{release-version}
+:page-layout: base
+:toc: preamble
+
+discussion on fundamental and useful _abstractions_, _principles_, and _patterns_
+
+
+== Introduction
+
+An _abstraction_ is "conceptual process where general rules and concepts are derived from the usage and classification of specific examples" link:https://en.wikipedia.org/wiki/Abstraction[wikipedia].
+A _principle_ is a "proposition or value that is a guide for behavior or evaluation" link:https://en.wikipedia.org/wiki/Principle[wikipedia].
+I use the term _pattern_ here as "the re-usable form of a solution to a (design) problem" (see also link:https://en.wikipedia.org/wiki/Design_pattern[wikipedia]).
+
+Using _abstraction_ and _principles_ and _patterns_ can be necessary
+    (for instance in object-oriented software development to deal with its  underlying deficiencies),
+    but is generally very helpful.
+    Quite often, applying the _right_ set of them will help minimizing discontinuities avoiding cumbersome solutions.
+    They are based on science, provided by some sort of _authority_, developed by best common practice (of a community or in some context), or selected using common sense and experience.
+    Except for the scientific origin, hardly every will we find an explanations why _those_ and not _others_ are important.
+    We can also find the negative, for example anti-patterns,
+        See for instance link:https://en.wikipedia.org/wiki/Anti-pattern[wikipedia] or this discussion on link:https://stackoverflow.com/questions/980601/what-is-an-anti-pattern#980616[stackoverflow].
+
+Here are a few things that I consider fundamental, based on my experience in science, research, and development.
+A lot of references and further discussion can be found in my research notes on _Introduction to Network Architecure_, see
+    link:https://vdmeer.github.io/skb/research-notes-ina.html[site] and
+    link:https://vdmeer.github.io/skb/research-notes.html[skb-web] for details.
+
+When looking at _patterns_, the best starting point is the work of Christopher Alexander, _A Pattern Language_ (1977) and _The Timeless Way of Building_ (1979).
+For networks, look at John Day's _Patterns in Network Architecture_ (2007).
+More recently, there is an interesting book by Jason McColm Smith called _Elemental Design Patterns_ (2012).
+See link:https://vdmeer.github.io/skb/research-notes-ina.html[rn-ina] for more details.
+
+
+
+== The Separation of Mechanism and Policy Abstraction
+
+This is _fundamental_.
+_Everywhere_.
+Not just in networks or software development.
+Its origin is in operating systems, namely by Hansen (Nucleus), and Wulf and Levin (Hydra) - see link:https://vdmeer.github.io/skb/research-notes-ina.html[rn-ina] for more details.
+
+This abstraction (or principle) addresses the often essential problem, which is _variance_, not _complexity_.
+Using the principle (or abstraction) of separating _mechanism_ from _policy_ can (usually does) help to minimize variance.
+It does not necessarily minimize complexity.
+
+To avoid _reudctio ad absurdum_, we can use a simple guideline:
+    a _mechanism_ focuses on the purpose (of something) and _policies_ focus on ways to realize it.
+The goal then is to maximize invariance (_mechanisms_) and to minimize variance (_policies_).
+We need to look at commonalities and maximize them, thus reducing OPEX and CAPEX while improving management.
+Again, minimizing discontinuities also helps to avoid cumbersome solutions.
+
+Use it wherever you can!
+
+
+
+== The SOLID Principles
+
+For me, these principles are _fundamental_.
+They are invented most and described all by Robert Martin, better known as _Uncle Bob_ (link:https://en.wikipedia.org/wiki/Robert_C._Martin[wikipedia]).
+There are five of them, as the abbreviation already suggests (link:https://en.wikipedia.org/wiki/SOLID[wikipedia]):
+
+* Single responsibility - A class should have only a single responsibility, that is, only changes to one part of the software's specification should be able to affect the specification of the class.
+* Open–closed principle - "Software entities ... should be open for extension, but closed for modification." (conceived by Brtrand Meyer)
+* Liskov substitution principle - "Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program." (devised by Barbara Liskov)
+* Interface segregation -  "Many client-specific interfaces are better than one general-purpose interface."
+* Dependency inversion principle - One should "depend upon abstractions, [not] concretions."
+
+These principles can be applied to more than just software development!
+
+
+
+== Package Principles
+
+Principles that help to properly organize classes in larger systems link:https://en.wikipedia.org/wiki/Package_principles[wikipedia].
+Or text fragments into larger document.
+Or ... so they are actually more _fundamental_, imho.
+These principles come in twpo groups with three members each:
+
+* Principles of package cohesion
+    ** Reuse-release Equivalence Principle - create packages with re-usable classes (all or none!)
+    ** Common-Reuse Principle - what is to be re-used together belongs to the same package
+    ** Common-Closure Principle - each package should not have more than 1 reason to change
+* Principles of package coupling
+    ** Acyclic Dependencies Principle - there should (i.e. must not) be any cycles in the dependency structure
+    ** Stable-Dependencies Principle - what is volatile should not be the basis for what is difficult to change
+    ** Stable-Abstractions Principle - stable should mean abstract, unstable should mean concrete (a bit similar to mechanism and policy, no?)
+
+
+== Patterns from DDD and DSL
+
+Every time we solve a problem it is related to a particular _domain_.
+These domains tend to come with their own context and models and terminology, or even taxonomy.
+The concepts of Domain-Driven Development (DDD) and Domain-Specific Languages (DSL) try to provide abstractions and more importantly patterns.
+
+=== Fowler (DSL)
+Martin Fowler defines a large set of DSL patterns in hos book _Domain Specific Languages_
+    (link:https://www.martinfowler.com/books/dsl.html[book], link:https://www.martinfowler.com/dslCatalog/[pattern list], link:https://www.martinfowler.com/dsl.html[more information]).
+There are four rather important patterns in this book:
+
+* Expression Builder - "An object, or family of object, that provides a fluent interface over a normal command-query API", pp343
+* Function Sequence - "A combination of function calls as a sequence of statements", pp351
+* Method Chaining - "Make modifiers return the host object", pp373
+* Object Scoping - "Place the DSL script so that bare references will resolve into a single object", pp385
+
+=== Parr (ANTLR)
+The second important work is the book _Language Implementation Patterns_ by Terence Parr (link:https://pragprog.com/book/tpdsl/language-implementation-patterns[pragprog]).
+While naturally heavily focused in link:https://www.antlr.org[ANTLR] (developed by Parr), the book is an excellent source on how to write languages, write software that can automatically parse them, and write compilers.
+Any time you need to parse something, look at this work first!
+
+
+
+== Patterns: CQS and CQRS
+
+Command–query separation
+By Bertrand Meyer
+Well suited for Design by Contract
+Method is either (but not both)
+Command performing an action
+Query returning a result
+I.e.: asking a question does not change the answer
+Requires re-entrant SW design
+
+Command Query Responsibility Segregation
+Use 2 (different) models
+One for update
+One for read
+Might require CRUD being applied
+Might need bounded context
+
+http://martinfowler.com/bliki/CommandQuerySeparation.html
+
+http://martinfowler.com/bliki/CQRS.html
+
+
+
+
+
+
+
+
+
+== More Patterns from Fowler
+
+=== Event Sourced
+Capture every change of state in an event object
+Query the event objects to
+Get the application state at any given moment in time
+Understand how this state was reached
+Play state changes forward and backward
+Side effects
+Extern updates (i.e. from non-event-sourced systems)
+External queries (i.e. time of query determines query result, not time of response)
+Extends to event-driven-architectures
+
+http://martinfowler.com/eaaDev/EventSourcing.html
+
+
+=== Dependency Injection
+Separates configuration from use, aka Inversion of Control
+Similar to the principle of separating interface from implementation
+Several styles possible
+Constructor injection
+Client(Service svc) { this.service=svc; }
+Setter injection
+public void setService(Service svc) {this.service=svc; }
+Interface injection
+Configuration files for assembly / orchestration
+
+http://www.martinfowler.com/articles/injection.html 
+
+
+
+== Patterns: Predicate, Transformer, Classifier
+
+
+== Patterns Gang of Four (GoF)
+

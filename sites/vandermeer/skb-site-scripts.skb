@@ -28,7 +28,7 @@ MvnSitePostScript() {
     MvnSiteFixAdoc target/site/research-notes-cybernetics           "Research Notes - Cybernetics"
     MvnSiteFixAdoc target/site/research-notes-ina                   "Research Notes - INA"
     MvnSiteFixAdoc target/site/research-notes-internet-history      "Research Notes - Internet History"
-    MvnSiteFixAdoc target/site/research-notes-time-and-date-nm      "Research Notes - Time and Date in NM"
+    MvnSiteFixAdoc target/site/research-notes-time-and-date-nm      "Research Notes - Time and Date in Network Management"
 
     MvnSiteFixAdoc target/site/open-source-projects                 "Open Source Projects"
 }

@@ -7,8 +7,6 @@
 ##
 
 TsRunTask() {
-    local LINE_INDEN="        "
-
     case $1 in
         help)
             printf "\n    available targets"
@@ -31,14 +29,14 @@ TsRunTask() {
             ${DMAP_TASK_EXEC["clean"]} --force
             ;;
         acronyms)
-            touch documents/acronyms/*.adoc ## otherwise Asciidoctor might not rebuild
+            touch documents/acronyms/*.adoc ## otherwise Asciidoctor might not fully rebuild
             ${DMAP_TASK_EXEC["acronyms-build"]} --all
             ;;
         acronyms-docs)
             ${DMAP_TASK_EXEC["acronyms-adoc"]} --all
             ;;
         library)
-            touch documents/library/*.adoc ## otherwise Asciidoctor might not rebuild
+            touch documents/library/*.adoc ## otherwise Asciidoctor might not fully rebuild
             ${DMAP_TASK_EXEC["library-ext"]} --all
             ;;
         library-docs)

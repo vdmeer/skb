@@ -1,0 +1,170 @@
+//
+// ============LICENSE_START=======================================================
+// Copyright (C) 2018-2019 Sven van der Meer. All rights reserved.
+// ================================================================================
+// This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 International Public License
+// Full license text at https://creativecommons.org/licenses/by-sa/4.0/legalcode
+// 
+// SPDX-License-Identifier: CC-BY-SA-4.0
+// ============LICENSE_END=========================================================
+//
+// @author Sven van der Meer (vdmeer.sven@mykolab.com)
+//
+
+== Conventions
+One of the main aspects I am looking at when building my artifacts is automation.
+Automate as much as possible, but not more (my apologies to Einstein here).
+And automation requires conventions and standards, with as little edge-cases as possible.
+Here are my conventions, which I am using as rigorous as possible:
+
+* Every source file is encoded in UTF-8 using UNIX line terminators. Full stop. No exceptions.
+    ** So whenever you install an IDE or editor, first thing is to set the default file format!
+* Do not (as in never!) use tabs for indentation in any file.
+    A tab is interpreted by the tool showing the file, e.g. an editor.
+    Use spaces instead.
+    A space is always just that, a space (and in a monotype font all characters have the same width).
+    I use 4 spaces for indentation (2, 6, and 8 are also common, but for me 2 is not wide enough and anything larger than 4 is wasting precious real estate in my screen).
+    Configure your IDE or editor for using spaces when typing a tab, easy to do.
+    ** Exception: if the context requires tabs, then of course use them
+        One example are CSV files with tabulators as separators.
+* All figures are vector images, from source to use
+    ** Exception: when using images on websites I do convert them to _PNG_, a bitmap format
+* Use the same width with whatever height is required for images.
+    This will scale all elements equally over _all_ your figures!
+    For instance, all your text in _all_ your figures will have the _same_ width and height!
+* Everything needs to be documented, as close to the source as possible
+    ** In the source files to understand what code is doing.
+        As good as required to leave the project for six months, come back, read the documentation, and understand it again.
+    ** In generated documentation to explain that to others, e.g. in sites or stand-alone documents.
+    ** With meaningful online help for any tool, so everything should have a `--help` switch with good information
+* Spell check everything, nothing is more embarrassing than spelling errors.
+    ** I know that, because there are still a lot of them in my work...
+    ** This also means to decide on what your write your text in.
+        First, there is the question of language (English or German or Russian or whatever).
+        Than there is the question of flavor.
+        Take for instance UK spelling versus US spelling (and grammar).
+        The publication location might restrict your choices (European projects prefer UK English, many of my conferences prefer US Spelling, etc.).
+* When naming an artifact, readability goes over convenience, always
+    ** Artifact is everything:
+        a parameter or argument,
+        a variable,
+        a CLI switch,
+        a function or method,
+        a class or object,
+        a file,
+        a module or name space or sub-system,
+        a project,
+        a software package,
+        a system or framework,
+        you name it.
+    ** So do not use any meaningless abbreviations or acronyms
+    ** Use the naming right convention in the given context, for example
+        *** Java wants _CamelCase_ link:https://en.wikipedia.org/wiki/Camel_case[wikipedia]
+        *** `bash` usually wants upper case for variables, some other mixed case (better lower case) for functions, no `-` but `_` to separate words.
+            And it is case sensitive!
+        *** Asciidoctor seems not to be case sensitive, but can take `-` as separator.
+        *** Maven is XML-based and likes `-` but by convention only lower case names.
+        *** Python does not like _CamelCase_ neither `-`
+        *** LaTeX is very unusual (probably due to its age).
+            The characters backslash `\` and `@` are important here.
+            _CamelCase_ is often used, no separators (suc has `-` and `_`) are allowed, names are mostly written in one stream of characters.
+    ** When using names, make sure that they either work in all required contexts or provide some translation means, for instance
+        *** A `bash` script might call a variable `SKB_BUILD_DATE` and translate it into `skb-build-date` for Asciidoctor.
+    ** Be extra careful with upper and lower case names for files and directories and the like.
+        Remember that different operating systems interpret them differently!
+    ** Be careful with special characters, such as `#` or `!` or `?` in file or directory names.
+        Yes, they might work, but _might_ is usually not good enough.
+        Stick to letters, plus `-`, `_`, and `.`.
+* Time and date are meaningless without convention and context.
+    Especially time.
+    It requires some idea about a time zone, probably DST, or location.
+    Dates can also be tricky, with for instance different conventions to express a date in the US, the UK, and Central Europe.
+    As a rule of thumb: always use ISO dates (yyy-mm-dd) and time (hh:mm:ss) with a UTC offset (not a time zone name!) or a location from the time zone database.
+    See Wikipedia as general starting point on link:https://en.wikipedia.org/wiki/ISO_8601[ISO 8601] and link:https://en.wikipedia.org/wiki/Tz_database[tz-db].
+    You can also look at my research notes on time (my favorite past-time topic, look at the link:https://vdmeer.github.io/skb/research-notes.html[skb-web] for details).
+* Use the right software or tool to solve a problem.
+    Don't be afraid to install and learn a new tool (if it is worth the effort).
+    Don't fall into the not-developed-here trap (I am talking from experience here, sadly).
+* Try to find open source software for doing a job, if possible and convenient.
+    This allows others to re-use your work freely, investing their time but not necessarily their money.
+    There is of course a large grey zone here, and more often than I like commercial tools are required.
+    You'll see in the tools list below that I am using quite a few commercial products, beside the large range of open source software.
+    ** When choosing open source software, make sure that they have a stable production version and a long shelf life.
+* Avoid any (as much as possible, so all the time) proprietary binary formats for the source of your work.
+    Whatever can be written in a plain (UTF-8, see above) text file is best.
+    There is a trade-off here, of course.
+    For instance, when choosing Microsoft Powerpoint for slides (which I do use), then its own binary format is much more efficient than the also possible open XML format (and files are much smaller).
+    ** Exception: some software allows to use a standard (and _standard_ here is important) compression on otherwise plain text files.
+        For instance, Inkscape can process `.svg` plain text or `.svgz` compressed format.
+        Since the compression is standard (here `gzip`, see link:https://en.wikipedia.org/wiki/Gzip[wikipedia)], that's not really a problem.
+        Archives in a standard format (for instance `zip` or `tar` or `jar`) are also not a problem.
+* Update any software (frameworks, tools, products, plugins, etc.) you are using regularly.
+    To a stable version of course.
+    Then test the impacted artifacts of your work, thoroughly.
+    This can be sometimes painful, involve larger than useful amount of work.
+    For instance, Inkscape changed the encode of graphics from one minor version to another.
+    This meant for me to re-do tons of figures, all manually (the automated translation provided was actually very good, but I did not fully trust it).
+    ** An update in software, and related work on your artifacts, is also a good chance to think _stuff_ over, maybe look at things in a new way.
+        So I see it always as an opportunity rather than a punishment.
+* When writing software (any software, really), help screens and error message are important.
+    Important!
+    Not necessarily for you (though see next bullet as well), but definitely for the people using your work.
+    ** Any help message should provide help _beyond the obvious_. 
+        For instance a switch called `--targets` will obviously set some targets (for a build or make system).
+        More important is (and required in the help):
+            what targets are available,
+            is the sequence given important,
+            do they have side-effects,
+            do they have dependencies,
+            are they expensive, etc.
+    ** Of course you'll avoid a silly "an error occurred" error message.
+        Instead, you will try to
+            state what the detected problem is,
+            where it was found (in the process or in a source file, a location as exact as possible),
+            what your software did do about it (ignore, progress in a different branch, exit, etc.),
+            how to fix it or avoid it later,
+            and whatever other information is or might be useful.
+        There is no harm in providing links to manuals or online information in error message, just make it convenient for a user.
+* Eat your own dog food. Seriously.
+    When offering software, then use it yourself first (at least you'll have one user to start with).
+    You'll find bugs and missing features before everyone else.
+    * Exception: it happens that one wants to explore something or learn or experiment.
+        In that case, maybe using it is not so important.
+        It'll be good to state that in early documentation (early as in people see it early).
+        For instance, when writing an experiment and publishing it on an open source site, state that this is an experiment.
+        At least then people know, and everything else is their choice.
+* State the purpose and the intention of your artifacts as clearly as possible and as early as possible (for others to see).
+    This will help in the long-run, you and everyone else.
+    Also: it is better to _do_ than to _talk_, especially in the open source context.
+    So avoid to say _I will_ (because you did not _do_ yet) and focus on the _I did_ (because you alrady _did_ do it).
+    And yes, I am not following this convention as I should...
+* Think in terms of reusing _fragments_ (single, self-contained, no external dependencies, expressive artifacts) in many different contexts.
+    When developing software using object-orientation, this is quite often used.
+    But the same convention can be applied to for instance documentation and text.
+    For instance, I do write some text in a single _ADOC_ file (no links to other files and the like), mark is as a _fragment_ (in a directory of the same name), and then _import_ it in other documents.
+    Don't over do this, start large and separate later, but do it - it'll safe you a lot of work.
+    ** On the same note: everything should have one (1!) normative source and duplications should be generated by a build or make process.
+        This will avoid problems when forgetting to do the same changes to multiple sources (if that's not automated itself, which means this convention is already applied).
+* Make sure that all your processes (create, change, build or make, run) are re-reproduceable on other systems.
+    ** This starts with another computer, other then the one you develop on.
+        _Other_ can of course be virtual.
+    ** Then do it on a different operating system or main operating system version.
+    ** You'll be surprised how much configuration information is implicit (only on your systems) or very dependent (e.g. on the operating system or version).
+    ** Proving virtual images, for example containers, with your software running can help as well.
+* Leave almost nothing (as little as possible) for _later_.
+    Done is done, and complete (and consistent) is better than any quantity.
+    This is especially true for software features.
+    It is much better to have all provided features complete (with documentation) than to offer tons of half-finished features.
+    Yes, this convention is sometimes not easy to follow...
+* Test, test, test, then maybe test again.
+    Test everything, many times.
+    Including links (they tend to be broken all the time).
+    Automate your testing, write test units or validation classes or functions or methods.
+    For text and figures, testing means _reading_ and _editing_ and _looking at them_.
+    ** Test things individually (without context) _and_ in units.
+        For software, we tend to have small test cased and unit tests.
+        For documentation artifacts, it is always good to for instance read headings and only headings, read paragraphs and only paragraphs, then only then read whole sections, chapters, or documents.
+
+
+
+

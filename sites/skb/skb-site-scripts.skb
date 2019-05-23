@@ -18,9 +18,24 @@ MvnSitePostScript() {
     MvnSiteFixAdoc target/site/research-notes-ina                   "Research Notes - INA"
     MvnSiteFixAdoc target/site/research-notes-internet-history      "Research Notes - Internet History"
 
-    MvnSiteFixAdoc target/site/research-notes-time-and-date-nm      "Research Notes - Time and Date in NM"
+    MvnSiteFixAdoc target/site/research-notes-time-and-date-nm      "Research Notes - Time and Date in Network Management"
 
     MvnSiteFixAdoc target/site/index                                "SKB"
+
+    MvnSiteFixAdoc target/site/production-notes                                             "Production Notes"
+    MvnSiteFixAdoc target/site/production-notes/abstractions-principles-patterns                "Production Notes - Abstractions / Principles / Patterns"
+    MvnSiteFixAdoc target/site/production-notes/conventions                                     "Production Notes - Conventions"
+    MvnSiteFixAdoc target/site/production-notes/languages                                       "Production Notes - Languages"
+    MvnSiteFixAdoc target/site/production-notes/operating-systems                               "Production Notes - Operating Systems"
+    MvnSiteFixAdoc target/site/production-notes/virtualization                                  "Production Notes - Virtualization"
+    MvnSiteFixAdoc target/site/production-notes/ide-editors                                     "Production Notes - IDEs and Editors"
+    MvnSiteFixAdoc target/site/production-notes/build-make                                      "Production Notes - Build and Make"
+    MvnSiteFixAdoc target/site/production-notes/graphics                                        "Production Notes - Graphics"
+    MvnSiteFixAdoc target/site/production-notes/online                                          "Production Notes - Online"
+    MvnSiteFixAdoc target/site/production-notes/miscellaneous                                   "Production Notes - Miscellaneous"
+    MvnSiteFixAdoc target/site/production-notes/templates                                       "Production Notes - Templates"
+
+
 
     if [[ -d "${CONFIG_MAP["TARGET"]}" ]]; then
         if [[ -d "${CONFIG_MAP["TARGET"]}/library-docs" ]]; then
@@ -28,6 +43,12 @@ MvnSitePostScript() {
                 mkdir -p target/site/library
             fi
             cp ${CONFIG_MAP["TARGET"]}/library-docs/* target/site/library
+            if [[ -f target/site/library/README.html ]]; then
+                mv target/site/library/README.html target/site/library/index.html
+            fi
+            if [[ -f target/site/library/README.pdf ]]; then
+                mv target/site/library/README.pdf target/site/library/index.pdf
+            fi
         else
             ConsoleWarnStrict "site/skb:" "no target/library-docs directory, could not copy library docs"
         fi
@@ -36,6 +57,12 @@ MvnSitePostScript() {
                 mkdir -p target/site/acronyms
             fi
             cp -r ${CONFIG_MAP["TARGET"]}/acronyms-docs/* target/site/acronyms
+            if [[ -f target/site/acronyms/README.html ]]; then
+                mv target/site/acronyms/README.html target/site/acronyms/index.html
+            fi
+            if [[ -f target/site/acronyms/README.pdf ]]; then
+                mv target/site/acronyms/README.pdf target/site/acronyms/index.pdf
+            fi
         else
             ConsoleWarnStrict "site/skb:" "no target/acronyms-docs directory, could not copy acronyms docs"
         fi

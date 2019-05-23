@@ -11,11 +11,59 @@
 // @author Sven van der Meer (vdmeer.sven@mykolab.com)
 //
 
-== SKB Website
+== Languages
 
-This is my personal website, generated and published.
+bash
 
-The source is in the SKB project link:https://github.com/vdmeer/skb/tree/master/sites/vandermeer[github].
-The final site is published on my own webserver at link:http://www.vandermeer.de/[vandermeer.de] (*no* _HTTPS_) and
- on the link:https://vdmeer.github.io/[skb-web] (+*with* _HTTPS_).
+adoc
+
+json
+
+yaml
+
+java
+
+python
+
+antlr
+
+ebnf
+
+stringtemplate
+
+XML
+
+Maven-Pom
+
+gradle/??
+
+LaTeX / TeX
+
+text
+
+CSV
+
+XDOC
+
+BibTeX, Biblatex
+
+UML
+
+CSS
+
+HTML
+
+JDOC
+
+GraphML
+
+SVG
+
+JavaScript
+
+Python
+
+PHP
+
+Markdown
 

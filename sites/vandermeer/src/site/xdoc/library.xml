@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+============LICENSE_START=======================================================
+Copyright (C) 2018-2019 Sven van der Meer. All rights reserved.
+================================================================================
+This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 International Public License
+Full license text at https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+============LICENSE_END=========================================================
+
+@author Sven van der Meer (vdmeer.sven@mykolab.com)
+
+-->
 
 <document>
     <properties>
@@ -25,16 +38,16 @@
                         <td>Complete library</td>
                         <td>All items I have in my library, frequently updated when I add items or fix errors.</td>
                         <td>
-                            <a href="https://vdmeer.github.io/skb/library/library.html">html</a>,
-                            <a href="https://vdmeer.github.io/skb/library/library.pdf">pdf</a>
+                            <a href="library/library.html">html</a>,
+                            <a href="library/library.pdf">pdf</a>
                         </td>
                     </tr>
                     <tr>
                         <td>My own publications</td>
                         <td>Complete set of my own publications.</td>
                         <td>
-                            <a href="https://vdmeer.github.io/skb/library/vdm.html">html</a>, 
-                            <a href="https://vdmeer.github.io/skb/library/vdm.pdf">pdf</a>
+                            <a href="library/vdm.html">html</a>, 
+                            <a href="library/vdm.pdf">pdf</a>
                         </td>
                     </tr>
                 </table>
@@ -47,120 +60,120 @@
                         <td>Articles</td>
                         <td>(journal) articles</td>
                         <td>
-                            <a href="https://vdmeer.github.io/skb/library/article.html">html</a>, 
-                            <a href="https://vdmeer.github.io/skb/library/article.html">pdf</a>
+                            <a href="library/article.html">html</a>, 
+                            <a href="library/article.html">pdf</a>
                         </td>
                     </tr>
                     <tr>
                         <td>Book</td>
                         <td>books, sorted by century and decade</td>
                         <td>
-                            <a href="https://vdmeer.github.io/skb/library/book.html">html</a>, 
-                            <a href="https://vdmeer.github.io/skb/library/book.html">pdf</a>
+                            <a href="library/book.html">html</a>, 
+                            <a href="library/book.html">pdf</a>
                         </td>
                     </tr>
                     <tr>
                         <td>Collection</td>
                         <td>collections, similar to proceedings, books with chapters written by different authors</td>
                         <td>
-                            <a href="https://vdmeer.github.io/skb/library/collection.html">html</a>, 
-                            <a href="https://vdmeer.github.io/skb/library/collection.html">pdf</a>
+                            <a href="library/collection.html">html</a>, 
+                            <a href="library/collection.html">pdf</a>
                         </td>
                     </tr>
                     <tr>
                         <td>in Book</td>
                         <td>book chapters that can be attributed to individual authors, like chapters of a collection or proceeding</td>
                         <td>
-                            <a href="https://vdmeer.github.io/skb/library/inbook.html">html</a>, 
-                            <a href="https://vdmeer.github.io/skb/library/inbook.html">pdf</a>
+                            <a href="library/inbook.html">html</a>, 
+                            <a href="library/inbook.html">pdf</a>
                         </td>
                     </tr>
                     <tr>
                         <td>in Proceedings</td>
                         <td>chapters (or sections) of a proceeding, i.e. conference papers</td>
                         <td>
-                            <a href="https://vdmeer.github.io/skb/library/inproceedings.html">html</a>, 
-                            <a href="https://vdmeer.github.io/skb/library/inproceedings.pdf">pdf</a>
+                            <a href="library/inproceedings.html">html</a>, 
+                            <a href="library/inproceedings.pdf">pdf</a>
                         </td>
                     </tr>
                     <tr>
                         <td>Misc</td>
                         <td>items that do not fit into any other category</td>
                         <td>
-                            <a href="https://vdmeer.github.io/skb/library/misc.html">html</a>, 
-                            <a href="https://vdmeer.github.io/skb/library/misc.pdf">pdf</a>
+                            <a href="library/misc.html">html</a>, 
+                            <a href="library/misc.pdf">pdf</a>
                         </td>
                     </tr>
                     <tr>
                         <td>Movie</td>
                         <td>movies, films</td>
                         <td>
-                            <a href="https://vdmeer.github.io/skb/library/movie.html">html</a>, 
-                            <a href="https://vdmeer.github.io/skb/library/movie.pdf">pdf</a>
+                            <a href="library/movie.html">html</a>, 
+                            <a href="library/movie.pdf">pdf</a>
                         </td>
                     </tr>
                     <tr>
                         <td>Online</td>
                         <td>publications that are made online, such as websites or online manuals</td>
                         <td>
-                            <a href="https://vdmeer.github.io/skb/library/online.html">html</a>, 
-                            <a href="https://vdmeer.github.io/skb/library/online.pdf">pdf</a>
+                            <a href="library/online.html">html</a>, 
+                            <a href="library/online.pdf">pdf</a>
                         </td>
                     </tr>
                     <tr>
                         <td>Patent</td>
                         <td>simply patents</td>
                         <td>
-                            <a href="https://vdmeer.github.io/skb/library/patent.html">html</a>, 
-                            <a href="https://vdmeer.github.io/skb/library/patent.pdf">pdf</a>
+                            <a href="library/patent.html">html</a>, 
+                            <a href="library/patent.pdf">pdf</a>
                         </td>
                     </tr>
                     <tr>
                         <td>Proceedings</td>
                         <td>proceedings (as an alias for collection), usually the proceeding of a conference</td>
                         <td>
-                            <a href="https://vdmeer.github.io/skb/library/proceedings.html">html</a>, 
-                            <a href="https://vdmeer.github.io/skb/library/proceedings.pdf">pdf</a>
+                            <a href="library/proceedings.html">html</a>, 
+                            <a href="library/proceedings.pdf">pdf</a>
                         </td>
                     </tr>
                     <tr>
                         <td>Report</td>
                         <td>a technical report, or a project report</td>
                         <td>
-                            <a href="https://vdmeer.github.io/skb/library/report.html">html</a>, 
-                            <a href="https://vdmeer.github.io/skb/library/report.pdf">pdf</a>
+                            <a href="library/report.html">html</a>, 
+                            <a href="library/report.pdf">pdf</a>
                         </td>
                     </tr>
                     <tr>
                         <td>Standard</td>
                         <td>standards and other publications by a Standard Defining Organisation (SDO)</td>
                         <td>
-                            <a href="https://vdmeer.github.io/skb/library/standard.html">html</a>, 
-                            <a href="https://vdmeer.github.io/skb/library/standard.pdf">pdf</a>
+                            <a href="library/standard.html">html</a>, 
+                            <a href="library/standard.pdf">pdf</a>
                         </td>
                     </tr>
                     <tr>
                         <td>Talks</td>
                         <td>talks as an uber-category for keynotes, tutorials, lecture notes, invited talks, presentations</td>
                         <td>
-                            <a href="https://vdmeer.github.io/skb/library/talks.html">html</a>, 
-                            <a href="https://vdmeer.github.io/skb/library/talks.pdf">pdf</a>
+                            <a href="library/talks.html">html</a>, 
+                            <a href="library/talks.pdf">pdf</a>
                         </td>
                     </tr>
                     <tr>
                         <td>Thesis</td>
                         <td>an M.Sc. thesis, Diploamarbeit, Ph.D. thesis, Doktorarbeit, Habilitation</td>
                         <td>
-                            <a href="https://vdmeer.github.io/skb/library/thesis.html">html</a>, 
-                            <a href="https://vdmeer.github.io/skb/library/thesis.pdf">pdf</a>
+                            <a href="library/thesis.html">html</a>, 
+                            <a href="library/thesis.pdf">pdf</a>
                         </td>
                     </tr>
                     <tr>
                         <td>Unpublished</td>
                         <td>an item that is not formally published (or not published at all)</td>
                         <td>
-                            <a href="https://vdmeer.github.io/skb/library/unpublished.html">html</a>, 
-                            <a href="https://vdmeer.github.io/skb/library/unpublished.pdf">pdf</a>
+                            <a href="library/unpublished.html">html</a>, 
+                            <a href="library/unpublished.pdf">pdf</a>
                         </td>
                     </tr>
                 </table>

@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+============LICENSE_START=======================================================
+Copyright (C) 2018-2019 Sven van der Meer. All rights reserved.
+================================================================================
+This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 International Public License
+Full license text at https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+============LICENSE_END=========================================================
+
+@author Sven van der Meer (vdmeer.sven@mykolab.com)
+
+-->
+
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>de.vandermeer</groupId>
     <artifactId>site-skb</artifactId>
-    <version>0.0.0</version>
+    <version>1.0.0</version>
     <packaging>pom</packaging>
 
     <name>${project.artifactId}</name>
@@ -24,6 +38,12 @@
         <release-version>${project.version}</release-version>
         <library-docs>${env.SKB_LIBRARY_DOCS}</library-docs>
         <library-adoc>${env.SKB_LIBRARY_ADOC}</library-adoc>
+
+        <skb-build-day>${env.SKB_BUILD_DAY}</skb-build-day>
+        <skb-build-month>${env.SKB_BUILD_MONTH}</skb-build-month>
+        <skb-build-month-lc>${env.SKB_BUILD_MONTH_LC}</skb-build-month-lc>
+        <skb-build-year>${env.SKB_BUILD_YEAR}</skb-build-year>
+        <skb-build-date>${env.SKB_BUILD_DATE}</skb-build-date>
     </properties>
 
     <distributionManagement>

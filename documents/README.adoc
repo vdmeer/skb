@@ -1,0 +1,33 @@
+//
+// ============LICENSE_START=======================================================
+// Copyright (C) 2018-2019 Sven van der Meer. All rights reserved.
+// ================================================================================
+// This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 International Public License
+// Full license text at https://creativecommons.org/licenses/by-sa/4.0/legalcode
+// 
+// SPDX-License-Identifier: CC-BY-SA-4.0
+// ============LICENSE_END=========================================================
+//
+// @author Sven van der Meer (vdmeer.sven@mykolab.com)
+//
+
+:release-version: 1.0.0
+= SKB Documents
+v{release-version}
+:page-layout: base
+:toc: preamble
+
+Here are the Asciidoctor or _ADOC_ files used to create stand-alone _HTML_ and _PDF_ files and as include files for the SKB-Web.
+Most of these files require external settings, for instance a path to (generated) _ADOC_ collection files.
+The SKB and sub-projects use the `SKB-DASHBOARD` to compile these files.
+
+[cols="20,80", frame=none, grid=rows]
+|===
+
+|`https://github.com/vdmeer/skb/tree/master/documents/acronyms[acronyms]`
+| Files to create various acronym lists.
+
+|`https://github.com/vdmeer/skb/tree/master/documents/library[library]`
+| Files to create various documents from my research library, such as list of items and research notes.
+
+|===

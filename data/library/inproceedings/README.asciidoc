@@ -1,20 +1,24 @@
 //
 // ============LICENSE_START=======================================================
-//  Copyright (C) 2018 Sven van der Meer. All rights reserved.
+// Copyright (C) 2018-2019 Sven van der Meer. All rights reserved.
 // ================================================================================
-// This file is licensed under the CREATIVE COMMONS ATTRIBUTION 4.0 INTERNATIONAL LICENSE
-// Full license text at https://creativecommons.org/licenses/by/4.0/legalcode
+// This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 International Public License
+// Full license text at https://creativecommons.org/licenses/by-sa/4.0/legalcode
 // 
-// SPDX-License-Identifier: CC-BY-4.0
+// SPDX-License-Identifier: CC-BY-SA-4.0
 // ============LICENSE_END=========================================================
 //
 // @author Sven van der Meer (vdmeer.sven@mykolab.com)
 //
 
-== SKB - Research Library - in Proceedings
+== SKB - Research Library (Data) - in Proceedings
 
-Conference papers published in a procceding.
+Conference papers published in a proceeding.
 Entries are grouped by century and decade.
-A compiled version of all conference papers is hosted on link:https://vdmeer.github.io/skb/library/inproceedings.html[GH Pages].
 
 The naming scheme for in-proceedings items is `[author family name]-[year]-[conference acronym]`.
+
+For compiled versions, stand-alone documents, and more information see:
+
+* `document` directory in this repository https://github.com/vdmeer/skb/tree/master/documents/library[documents/library]
+* compiled versions are also linked in the link:https://vdmeer.github.io/skb/library.html[skb-web] (_HTML_ and _PDF_ versions)

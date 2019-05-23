@@ -1,0 +1,33 @@
+//
+// ============LICENSE_START=======================================================
+// Copyright (C) 2018-2019 Sven van der Meer. All rights reserved.
+// ================================================================================
+// This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 International Public License
+// Full license text at https://creativecommons.org/licenses/by-sa/4.0/legalcode
+// 
+// SPDX-License-Identifier: CC-BY-SA-4.0
+// ============LICENSE_END=========================================================
+//
+// @author Sven van der Meer (vdmeer.sven@mykolab.com)
+//
+
+:release-version: 1.0.0
+= SKB - Sites
+v{release-version}
+:page-layout: base
+:toc: preamble
+
+This is the source directory for the main SKB websites.
+All sites are build using Maven and the Maven site plugin, plus Asciidoctor to render _ADOC_ files.
+
+[cols="20,80", frame=none, grid=rows]
+|===
+
+|`https://github.com/vdmeer/skb/tree/master/sites/skb[skb]`
+| Contains the sources for my personal website, with rather personal information.
+
+|`https://github.com/vdmeer/skb/tree/master/sites/vandermeer[vandermeer]`
+| Contains the sources for the SKB website, or `SKB-Web`.
+
+|===
+

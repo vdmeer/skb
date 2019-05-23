@@ -29,6 +29,11 @@ TsRunTask() {
             ${DMAP_TASK_EXEC["library-adoc"]} --all
             ;;
         sites)
+            export SKB_BUILD_DAY=$(date +"%d")
+            export SKB_BUILD_MONTH=$(date +"%b")
+            export SKB_BUILD_MONTH_LC=${SKB_BUILD_MONTH,,}
+            export SKB_BUILD_YEAR=$(date +"%Y")
+            export SKB_BUILD_DATE=$(date -I)
             ${DMAP_TASK_EXEC["skb-build-sites"]} --build --all --ad --site --stage
             ;;
         *)

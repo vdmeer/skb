@@ -1,11 +1,11 @@
 //
 // ============LICENSE_START=======================================================
-//  Copyright (C) 2018 Sven van der Meer. All rights reserved.
+// Copyright (C) 2018-2019 Sven van der Meer. All rights reserved.
 // ================================================================================
-// This file is licensed under the CREATIVE COMMONS ATTRIBUTION 4.0 INTERNATIONAL LICENSE
-// Full license text at https://creativecommons.org/licenses/by/4.0/legalcode
+// This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 International Public License
+// Full license text at https://creativecommons.org/licenses/by-sa/4.0/legalcode
 // 
-// SPDX-License-Identifier: CC-BY-4.0
+// SPDX-License-Identifier: CC-BY-SA-4.0
 // ============LICENSE_END=========================================================
 //
 // @author Sven van der Meer (vdmeer.sven@mykolab.com)
@@ -13,25 +13,21 @@
 
 == SKB - Research Library (Data)
 
-This is my research library.
-I used to have several places for references and notes, from SQL databases to JSON and YAML files, and of course hand-written notes.
-Now I am consolidating all of that in this library.
-
+This is the raw data of my research library.
 The organization is relatively easy.
 All library items are in directories.
-Directory names are mostly BibLaTeX entry types.
+Directory names are mostly Biblatex entry types.
 Larger collections, for instance _in-proceedings_, have sub-directories for decades.
 
-Individual items have a YAML files with all details.
-From the YAML file, ADOC, BiBTeX, and Biblatex files are created using the SKB-Dashboard.
+Individual items have a YAML file with all details.
+From the YAML file, ADOC, BiBTeX, and Biblatex files are created using the `SKB-Dashboard`.
 Other output formats can be added easily.
 
 This library data is then used in documents and sites to build lists and collections.
 This is done using the Asciidoctor tool chain.
-I take my own publications for instance for my personal website.
-Some of the topics I use there as well, as research notes.
-And I do generate HTML versions and host them on my GH pages.
-On my local server I also have a library with PDFs and other artifacts.
-The build script `_build.sh` builds the files for me.
+I take my own publications for instance for my personal website, and also generate standalone _HTML_ and _PDF_ documents.
 
-For compiled versions see the document directory in this repository.
+For compiled versions, stand-alone documents, and more information see:
+
+* `document` directory in this repository https://github.com/vdmeer/skb/tree/master/documents/library[documents/library]
+* compiled versions are also linked in the link:https://vdmeer.github.io/skb/library.html[skb-web] (_HTML_ and _PDF_ versions)

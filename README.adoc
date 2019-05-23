@@ -1,4 +1,17 @@
-:release-version: 0.0.0
+//
+// ============LICENSE_START=======================================================
+// Copyright (C) 2018-2019 Sven van der Meer. All rights reserved.
+// ================================================================================
+// This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 International Public License
+// Full license text at https://creativecommons.org/licenses/by-sa/4.0/legalcode
+// 
+// SPDX-License-Identifier: CC-BY-SA-4.0
+// ============LICENSE_END=========================================================
+//
+// @author Sven van der Meer (vdmeer.sven@mykolab.com)
+//
+
+:release-version: 1.0.0
 = SKB
 v{release-version}
 :page-layout: base
@@ -44,13 +57,13 @@ Some files still require work, a lot of _BiBTeX_ and _Biblatex_ sources are miss
 |`https://github.com/vdmeer/skb/tree/master/documents[documents]`
 | Contains Asciidoctor or _ADOC_ files used to create stand-alone _HTML_ and _PDF_ files and as include files for the SKB-Web.
 Most of these files require external settings, for instance a path to (generated) _ADOC_ collection files.
-The SKB and sub-projects use the `SKB-Framework` and the `SKB-DASHBOARD` to compile these files.
+The SKB and sub-projects use the `SKB-DASHBOARD` to compile these files.
 
 
 |`https://github.com/vdmeer/skb/tree/master/sites[sites]`
 | Contains the source code for the main SKB Website and my personal website (VDM).
 Both websites are written for the Apache Maven plugin `maven-site-plugin`, using the DOXIA renderer and the Asciidoctor plugin.
-I have changed the general style (_CSS_) in parts and changed the font to `Roboto Condensed` from Google.
+I have changed the general style (_CSS_) in parts and changed some font families.
 The `SKB-DASHBOARD` is used to generate acronym and library files integrated into the sites.
 The sites are then published automatically (SKB) and manually (VDM).
 
@@ -75,26 +88,20 @@ So only plain _HTTP_ will work on this site.
 The site is build with _Maven_, the sources are in https://github.com/vdmeer/skb/tree/master/sites/vandermeer[sites/vandermeer].
 So the whole site is static, build and published, without any scripts or other interactive means.
 
-The content of the site is licensed as CC-BY-NC, see https://creativecommons.org/licenses/by-nc/4.0/[license] for details.
-I added _NC_ because I don't want anyone to make money with my personal information, or my research notes.
+The content of the site is licensed as CC-BY-SA, see https://creativecommons.org/licenses/by-sa/4.0/[license] for details.
 
 | http://vdmeer.github.io/[vdmeer.github.io]
 | The same content as the site above, just hosted on Github (so _HTTPS_ will work here!).
 Updates happening on the https://github.com/vdmeer/vdmeer.github.io[vdmeer.github.io] repository.
 This repository also hosts all other SKB sites, just to make life simple for publishing new information.
 
-The content of the site is licensed as CC-BY-NC, see https://creativecommons.org/licenses/by-nc/4.0/[license] for details.
-I added _NC_ because I don't want anyone to make money with my personal information, or my research notes.
-Should you have a commercial interest in using any content, please contact me.
+The content of the site is licensed as CC-BY-SA, see https://creativecommons.org/licenses/by-sa/4.0/[license] for details.
 
 | https://vdmeer.github.io/skb/[vdmeer.github.io/skb]
 | This is the SKB website, or `SKB-Web`.
 It is generated from the sources in https://github.com/vdmeer/skb/tree/master/sites/skb[sites/skb] using _Maven_.
 
-The content of the site is licensed as CC-BY-NC, see https://creativecommons.org/licenses/by-nc/4.0/[license] for details.
-As long as you don't sell the content, feel free to to use the research notes, acronyms, and references (research library).
-The content of the site is licensed as CC-BY-NC, see https://creativecommons.org/licenses/by-nc/4.0/[license] for details.
-I added _NC_ because I don't want anyone to make money with my personal information, or my research notes.
+The content of the site is licensed as CC-BY-SA, see https://creativecommons.org/licenses/by-sa/4.0/[license] for details.
 
 | https://github.com/vdmeer/skb/wiki[Wiki]
 | Some pages I can edit fast in a Browser and then pull from Github.
@@ -134,7 +141,7 @@ http://vdmeer.github.io/skb/framework/[skb-web/framework]
 
 | SKB Java
 | A POM and a set of shell scripts, ant tasks/macros, settings, to maintain the Java port of the SKB.
-| [repo]
+| https://github.com/vdmeer/skb-java[repo]
 
 | ASCII Heading
 | A simple tool to format headings with various options.
@@ -215,7 +222,7 @@ https://ctan.org/pkg/skb?lang=en[CTAN]
 |===
 
 | IPC
-| Artifacts (graphics, pptz, text, et.) for InterProcess Communication, aka networking
+| Artifacts (graphics, pptx, text, et.) for Inter-Process Communication, aka networking
 | https://github.com/vdmeer/ipc[repo], 
 http://vdmeer.github.io/skb/ipc/[skb-web/ipc]
 

@@ -3,5 +3,5 @@
 This is the source for generating the SKB project website.
 It uses the Maven site plugin and Asciidoctor.
 
-The final site is published at link:https://vdmeer.github.io/skb[skb site].
+The final site is published in the link:https://vdmeer.github.io/skb[skb-web].
 

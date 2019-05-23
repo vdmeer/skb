@@ -14,5 +14,5 @@ So I transfered my old site (and related notes) inot a Maven site.
 I also wrote more text and thought a bit about structuring.
 My research library is fully included as well (include from the library folder one level up).
 
-The final site is published at link:http://www.vandermeer.de[vandermeer.de].
-
+The final site is published at link:http://www.vandermeer.de[vandermeer.de] (*no* _HTTPS_)
+    and on the link:https://vdmeer.github.io/[skb-web] (*with* _HTTPS_)

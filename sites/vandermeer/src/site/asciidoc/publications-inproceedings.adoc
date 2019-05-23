@@ -2,6 +2,7 @@
 
 == in Proceedings
 
+link:#2019[2019] ┃
 link:#2018[2018] ┃
 link:#2017[2017] ┃
 link:#2016[2016] ┃
@@ -23,7 +24,7 @@ link:#2000[2000]
 
 link:#1998_99[1998/1999]
 
-
+include::{library-docs}/vdm/in-proceedings-2019.adoc[]
 include::{library-docs}/vdm/in-proceedings-2018.adoc[]
 include::{library-docs}/vdm/in-proceedings-2017.adoc[]
 include::{library-docs}/vdm/in-proceedings-2016.adoc[]

@@ -21,41 +21,85 @@
 #-------------------------------------------------------------------------------
 
 ##
-## Build script for the SKB
-## - builds acronyms, library, and sites
+## make script for the SKB
+## - runs the SKB_DASHBOARD with task make-target-sets
 ##
 ## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
-## @version    v0.0.0
+## @version    v1.0.0
 ##
 
 set -o errexit -o pipefail -o noclobber -o nounset
 shopt -s globstar
 
-GO_AHEAD=true
 
 
-
+##
+## Basic settings
+##
 SKB_HOME=$PWD
-export SD_TARGET=/tmp/sd
 
+
+
+##
+## SKB_DASHBAORD settings (SD)
+##
+export SD_TARGET=/tmp/sd
 export SD_LIBRARY_YAML=${SKB_HOME}/data/library
 export SD_LIBRARY_DOCS=${SKB_HOME}/documents/library
 export SD_LIBRARY_URL=https://github.com/vdmeer/skb/tree/master/data/library
-
 export SD_ACRONYM_DOCS=${SKB_HOME}/documents/acronyms
-
 export SD_MVN_SITES="$PWD/sites/vandermeer $PWD/sites/skb"
-
 export SD_MAKE_TARGET_SETS=$PWD
 
 
+
+##
+## Check if we know where to find SKB_FRAMEWORK (home dir) and SKB_DASHBOARD (executable)
+## - if any settings are missing, exit
+##
+GO_AHEAD=true
+printf "\n"
 if [[ -z "${SKB_FRAMEWORK_HOME:-}" ]]; then
-    printf "\n\nPlease set SKB_FRAMEWORK_HOME\n\n"
+    printf "Please set SKB_FRAMEWORK_HOME to home directory\n"
     GO_AHEAD=false
 fi
 if [[ -z "${SKB_DASHBOARD:-}" ]]; then
-    printf "\n\nPlease set SKB_DASHBOARD\n\n"
+    printf "Please set SKB_DASHBOARD to executable\n"
     GO_AHEAD=false
 fi
+if [[ ${GO_AHEAD} == false ]]; then
+    exit 1
+fi
 
-$SKB_DASHBOARD -B -e make-target-sets --snp --task-level debug -- --all -t $1
+
+
+##
+## Check if we have some command line
+## - if not, we need help, and then exit
+##
+if [[ -z "${1:-}" ]]; then
+    printf "No target given\n"
+    source skb-ts-scripts.skb
+    TsRunTask help
+    #$SKB_DASHBOARD -B -e make-target-sets --lq --sq --tq -- --id skb --targets help
+    #make-target-sets --id skb --targets help
+    exit 1
+fi
+
+
+
+##
+## Everything looks ok, run SD and call 'make-target-sets' for our target set 'skb'
+##
+$SKB_DASHBOARD -B -e make-target-sets --snp --task-level debug -- --id skb --targets $1
+
+
+
+##
+## Finished, should all be build now
+## - sites/skb/target/site                      - for the plain SKB site
+## - sites/skb/target/site-skb                  - for the staged SKB site
+## - sites/vandermeer/target/site               - for the plain SKB site
+## - sites/vandermeer/target/site-vandermeer    - for the staged SKB site
+## - /tmp/sd                                    - created and compiled acronym/library artifacts
+##

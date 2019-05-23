@@ -8,4 +8,4 @@
 
 ID=skb
 DESCRIPTION="targets to build SKB distribution/site artifacts"
-TARGETS="clean acronyms acronyms-docs library library-docs sites"
+TARGETS="help clean acronyms acronyms-docs library library-docs sites"

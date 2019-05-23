@@ -10,19 +10,35 @@ TsRunTask() {
     local LINE_INDEN="        "
 
     case $1 in
+        help)
+            printf "\n    available targets"
+            printf "\n       all           - runs all targets, except help"
+            printf "\n       clean         - removes all created artifacts"
+            printf "\n       help          - prints this help"
+            printf "\n"
+            printf "\n       acronyms      - creates ADOC files from YAML sources for acronyms"
+            printf "\n       acronyms-docs - compiles created acronym ADOC files"
+            printf "\n       library       - creates ADOC files from YAML sources for the library"
+            printf "\n       library-docs  - compiles created library ADOC files to HTML and PDF"
+            printf "\n       sites         - creates the sites for 'skb' and 'vandermeer'"
+            printf "\n\n    Notes: "
+            printf "\n       - separate all required targets using a comma."
+            printf "\n       - sequence of given targets is not critical, they are always build in the right order."
+            printf "\n"
+            ;;
         clean)
-            mvn clean
+            #mvn clean
             ${DMAP_TASK_EXEC["clean"]} --force
             ;;
         acronyms)
-            #touch documents/acronyms/*.adoc ## otherwise Asciidoctor might not rebuild
+            touch documents/acronyms/*.adoc ## otherwise Asciidoctor might not rebuild
             ${DMAP_TASK_EXEC["acronyms-build"]} --all
             ;;
         acronyms-docs)
             ${DMAP_TASK_EXEC["acronyms-adoc"]} --all
             ;;
         library)
-            #touch documents/library/*.adoc ## otherwise Asciidoctor might not rebuild
+            touch documents/library/*.adoc ## otherwise Asciidoctor might not rebuild
             ${DMAP_TASK_EXEC["library-ext"]} --all
             ;;
         library-docs)

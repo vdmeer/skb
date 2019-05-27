@@ -13,12 +13,122 @@
 
 == Operating Systems
 
+[cols="10,10,10,70", grid=rows, frame=none, %autowidth.stretch, options="header"]
+|===
+| Item | Version | License | Notes
 
-W10
+| Windows | 10 | commercial |
+As it happens, most of my daily work is on Windows, so this is the starting point.
 
-WSL
+| link:https://blogs.msdn.microsoft.com/wsl/[WSL] | n/a | commercial |
+Inside Windows, I run the Windows Subsystem for Linux with a simple Ubuntu 18.04 LTS installation.
+Good to test if software and build processes work here, also a good alternative to run a UNIX system on th Windows platform.
+link:https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux[Wikipedia] has also more information and links.
 
-Ubuntu (more Linux: redhat, alpine, debian, PI)
+| link:https://cygwin.com/[Cygwin]  | 2.897 | various: GPL, LGPL, X11 |
+I use that as an easy and fast way to run UNIX software, and to write scripts.
+Most of my makes/builds are run on Cygwin first.
+Requires some attention to file/directory names, since some programs are executed in the UNIX world and some in the Windows world.
 
-Cygwin
+| Ubuntu | 18.04 LTS | various FOSS |
+My preferred Linux distribution.
+I only run Long-Term Support versions.
+My usual install is a simple client with simple X11, then a lot of extra packages.
+I run most of my `bash` and LaTeX processes here.
+
+| Other UNIX | n/a | FOSS a| 
+There are more UNIX/Linux distribution I am using, most of them in specific contexts
+
+* link:https://alpinelinux.org/[Alpine], for use in containers
+* link:https://www.debian.org/[Debian], to build PPA distributions and to test software
+* Redhat, to test software
+* Raspian, on my PIs of course
+
+|===
+
+
+
+== My Ubuntu Installation
+
+I use Xubuntu desktop, 64-bit, as the start of an installation.
+This comes with a lighter X11 than the normal client/desktop version.
+I usually use a 30GB main partition plus 20GB fur `/usr/local`. 
+The main partition takes all standard installations, the other my own work and software.
+
+After installation, add the universa PPA and the important packages:
+
+[source%nowrap,bash]
+----
+sudo apt install firefox
+
+sudo add-apt-repository universe
+sudo apt update
+sudo apt upgrade
+----
+
+For TeX/LaTeX, install PerlTK first, then download Texlive and install.
+link:https://www.tug.org/texlive/acquire-netinstall.html[Texlive installation notes] are good further help.
+TexStudio as editor (or LaTeX IDE).
+
+[source%nowrap,bash]
+----
+sudo apt install perl-tk
+# get Texlive, then
+intall-tl --gui -> create links at end
+sudo apt install texstudio --no-install-recommends
+----
+
+More important software for development: maven, git, gradle, asciidoctor.
+
+[source%nowrap,bash]
+----
+sudo apt install maven git
+sudo add-apt-repository ppa:cwchien/gradle
+sudo apt-get update
+sudo apt upgrade gradle
+sudo apt install asciidoctor
+----
+
+Some good tools for terminals.
+
+[source%nowrap,bash]
+----
+sudo apt install xfce4 xfce4-terminal
+sudo apt install gnome-terminal terminator
+----
+
+Sometimes I do need keyboard settings:
+
+[source%nowrap,bash]
+----
+sudo dpkg-reconfigure keyboard-configuration
+sudo dpkg-reconfigure console-setup
+sudo udevadm trigger --subsystem-match=input --action=change
+----
+
+Sometimes I need timezone settings:
+
+[source%nowrap,bash]
+----
+echo "Europe/Dublin" | sudo tee /etc/timezone
+sudo dpkg-reconfigure --frontend noninteractive tzdata
+----
+
+Usually, I use OpenJDK for Java on Ubuntu (and Oracle JDK on Windows).
+Some Ubuntu's get Oracle, for testing (Java 8):
+
+[source%nowrap,bash]
+----
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get -y install --no-install-recommends oracle-java8-installer
+java -version
+----
+
+
+
+//sudo apt install menulibre
+//https://askubuntu.com/questions/254424/how-can-i-change-what-keys-on-my-keyboard-do-how-can-i-create-custom-keyboard
+//sudo apt install xbindkeys
+//sudo apt install xautomation
 

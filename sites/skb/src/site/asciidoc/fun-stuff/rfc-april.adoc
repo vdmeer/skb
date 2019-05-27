@@ -1,0 +1,128 @@
+//
+// ============LICENSE_START=======================================================
+// Copyright (C) 2018-2019 Sven van der Meer. All rights reserved.
+// ================================================================================
+// This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 International Public License
+// Full license text at https://creativecommons.org/licenses/by-sa/4.0/legalcode
+// 
+// SPDX-License-Identifier: CC-BY-SA-4.0
+// ============LICENSE_END=========================================================
+//
+// @author Sven van der Meer (vdmeer.sven@mykolab.com)
+//
+
+== RFC April Fool's Day
+
+Here is a list of RFCs published on April fool’s day.
+
+Almost every year there is one (or more) RFCs for April fool’s day.
+Watch out for the publication on "April 1" in the link:https://www.rfc-editor.org/rfc-index.html[RFC index], all normal RFCs do not carry the day of publication, only the month.
+
+Here is a list of RFCs published on April fool's day between 1971 and 2014.
+
+Almost every year there is one (or more) RFCs for April fool’s day. Watch out for the publication on "April 1" in the https://www.rfc-editor.org/rfc-index.html[RFC index], all _normal_ RFCs do not carry the day of publication, only the month.
+
+=== 1971
+* *RFC 112* _User/Server Site Protocol: Network Host Questionnaire_, by T.C. O’Sullivan, 1971 - [ http://tools.ietf.org/html/rfc112[html] | http://tools.ietf.org/rfc/rfc112.txt[txt] ]
+
+=== 1978
+* *RFC 748* _Telnet randomly-lose option_, by M.R. Crispin, 1978 [ http://tools.ietf.org/html/rfc748[html] | http://tools.ietf.org/rfc/rfc748.txt[txt] ]
+
+=== 1989
+* *RFC 1097* _Telnet subliminal-message option_, by B. Miller, 1989 [ http://tools.ietf.org/html/rfc1097[html] | http://tools.ietf.org/rfc/rfc1097.txt[txt] ]
+
+=== 1990
+* *RFC 1149* _Standard for the transmission of IP datagrams on avian carriers_, by D. Waitzman, 1990 [ http://tools.ietf.org/html/rfc1149[html] | http://tools.ietf.org/rfc/rfc1149.txt[txt] ]
+
+=== 1991
+* *RFC 1216* _Gigabit network economics and paradigm shifts_, by P. Richard, P. Kynikos, 1991 [ http://tools.ietf.org/html/rfc1216[html] | http://tools.ietf.org/rfc/rfc1216.txt[txt] ]
+* *RFC 1217* _Memo from the Consortium for Slow Commotion Research (CSCR)_, by V.G. Cerf, 1991 [ http://tools.ietf.org/html/rfc1217[html] | http://tools.ietf.org/rfc/rfc1217.txt[txt] ]
+
+=== 1992
+* *RFC 1313* _Today’s Programming for KRFC AM 1313 Internet Talk Radio_, by C. Partridge, 1992 [ http://tools.ietf.org/html/rfc1313[html] | http://tools.ietf.org/rfc/rfc1313.txt[txt] ]
+
+=== 1993
+* *RFC 1437* _The Extension of MIME Content-Types to a New Medium_, by N. Borenstein, M. Linimon, 1993 [ http://tools.ietf.org/html/rfc1437[html] | http://tools.ietf.org/rfc/rfc1437.txt[txt] ]
+* *RFC 1438* _Internet Engineering Task Force Statements Of Boredom (SOBs)_, by A. Lyman Chapin, C. Huitema, 1993 [ http://tools.ietf.org/html/rfc1438[html] | http://tools.ietf.org/rfc/rfc1438.txt[txt] ]
+
+=== 1994
+* *RFC 1605* _SONET to Sonnet Translation_, by W. Shakespeare, 1994 [ http://tools.ietf.org/html/rfc1605[html] | http://tools.ietf.org/rfc/rfc1605.txt[txt] ]
+* *RFC 1606* _A Historical Perspective On The Usage Of IP Version 9_, by J. Onions, 1994 [ http://tools.ietf.org/html/rfc1606[html] | http://tools.ietf.org/rfc/rfc1606.txt[txt] ]
+* *RFC 1607* _A VIEW FROM THE 21ST CENTURY_, by V. Cerf, 1994 [ http://tools.ietf.org/html/rfc1607[html] | http://tools.ietf.org/rfc/rfc1607.txt[txt] ]
+
+=== 1995
+* *RFC 1776* _The Address is the Message_, by S. Crocker, 1995 [ http://tools.ietf.org/html/rfc1776[html] | http://tools.ietf.org/rfc/rfc1776.txt[txt] ]
+
+=== 1996
+* *RFC 1924* _A Compact Representation of IPv6 Addresses_, by R. Elz, 1996 [ http://tools.ietf.org/html/rfc1924[html] | http://tools.ietf.org/rfc/rfc1924.txt[txt] ]
+* *RFC 1925* _The Twelve Networking Truths_, by R. Callon, 1996 [ http://tools.ietf.org/html/rfc1925[html] | http://tools.ietf.org/rfc/rfc1925.txt[txt] ]
+* *RFC 1926* _An Experimental Encapsulation of IP Datagrams on Top of ATM_, by J. Eriksson, 1996 [ http://tools.ietf.org/html/rfc1926[html] | http://tools.ietf.org/rfc/rfc1926.txt[txt] ]
+* *RFC 1927* _Suggested Additional MIME Types for Associating Documents_, by C. Rogers, 1996 [ http://tools.ietf.org/html/rfc1927[html] | http://tools.ietf.org/rfc/rfc1927.txt[txt] ]
+
+=== 1997
+* *RFC 2100* _The Naming of Hosts_, by J. Ashworth, 1997 [ http://tools.ietf.org/html/rfc2100[html] | http://tools.ietf.org/rfc/rfc2100.txt[txt] ]
+
+=== 1998
+* *RFC 2321* _RITA — The Reliable Internetwork Troubleshooting Agent_, by A. Bressen, 1998 [ http://tools.ietf.org/html/rfc2321[html] | http://tools.ietf.org/rfc/rfc2321.txt[txt] ]
+* *RFC 2322* _Management of IP numbers by peg-dhcp_, by K. van den Hout, A. Koopal, R. van Mook, 1998 [ http://tools.ietf.org/html/rfc2322[html] | http://tools.ietf.org/rfc/rfc2322.txt[txt] ]
+* *RFC 2323* _IETF Identification and Security Guidelines_, by A. Ramos, 1998 [ http://tools.ietf.org/html/rfc2323[html] | http://tools.ietf.org/rfc/rfc2323.txt[txt] ]
+* *RFC 2324* _Hyper Text Coffee Pot Control Protocol (HTCPCP/1.0)_, by L. Masinter, 1998 [ http://tools.ietf.org/html/rfc2324[html] | http://tools.ietf.org/rfc/rfc2324.txt[txt] ]
+* *RFC 2325* _Definitions of Managed Objects for Drip-Type Heated Beverage Hardware Devices using SMIv2_, by M. Slavitch, 1998 [ http://tools.ietf.org/html/rfc2325[html] | http://tools.ietf.org/rfc/rfc2325.txt[txt] ]
+
+=== 1999
+* *RFC 2549* _IP over Avian Carriers with Quality of Service_, by D. Waitzman, 1999 [ http://tools.ietf.org/html/rfc2549[html] | http://tools.ietf.org/rfc/rfc2549.txt[txt] ]
+* *RFC 2550* _Y10K and Beyond_, by S. Glassman, M. Manasse, J. Mogul, 1999 [ http://tools.ietf.org/html/rfc2550[html] | http://tools.ietf.org/rfc/rfc2550.txt[txt] ]
+* *RFC 2551* _The Roman Standards Process — Revision III_, by S. Bradner, 1999 [ http://tools.ietf.org/html/rfc2551[html] | http://tools.ietf.org/rfc/rfc2551.txt[txt] ]
+
+=== 2000
+* *RFC 2795* _The Infinite Monkey Protocol Suite (IMPS)_, by S. Christey, 2000 [ http://tools.ietf.org/html/rfc2795[html] | http://tools.ietf.org/rfc/rfc2795.txt[txt] ]
+
+=== 2001
+* *RFC 3091* _Pi Digit Generation Protocol_, by H. Kennedy, 2001 [ http://tools.ietf.org/html/rfc3091[html] | http://tools.ietf.org/rfc/rfc3091.txt[txt] ]
+* *RFC 3092* _Etymology of "Foo"_, by D. Eastlake 3rd, C. Manros, E. Raymond, 2001 [ http://tools.ietf.org/html/rfc3092[html] | http://tools.ietf.org/rfc/rfc3092.txt[txt] ]
+* *RFC 3093* _Firewall Enhancement Protocol (FEP)_, by M. Gaynor, S. Bradner, 2001 [ http://tools.ietf.org/html/rfc3093[html] | http://tools.ietf.org/rfc/rfc3093.txt[txt] ]
+
+=== 2002
+* *RFC 3251* _Electricity over IP_, by B. Rajagopalan, 2002 [ http://tools.ietf.org/html/rfc3251[html] | http://tools.ietf.org/rfc/rfc3251.txt[txt] ]
+* *RFC 3252* _Binary Lexical Octet Ad-hoc Transport_, by H. Kennedy, 2002 [ http://tools.ietf.org/html/rfc3252[html] | http://tools.ietf.org/rfc/rfc3252.txt[txt] ]
+
+=== 2003
+* *RFC 3514* _The Security Flag in the IPv4 Header_, by S. Bellovin, 2003 [ http://tools.ietf.org/html/rfc3514[html] | http://tools.ietf.org/rfc/rfc3514.txt[txt] ]
+
+=== 2004
+* *RFC 3751* _Omniscience Protocol Requirements_, by S. Bradner, 2004 [ http://tools.ietf.org/html/rfc3751[html] | http://tools.ietf.org/rfc/rfc3751.txt[txt] ]
+
+=== 2005
+* *RFC 4041* _Requirements for Morality Sections in Routing Area Drafts_, by A. Farrel, 2005 [ http://tools.ietf.org/html/rfc4041[html] | http://tools.ietf.org/rfc/rfc4041.txt[txt] ]
+* *RFC 4042* _UTF-9 and UTF-18 Efficient Transformation Formats of Unicode_, by M. Crispin, 2005 [ http://tools.ietf.org/html/rfc4042[html] | http://tools.ietf.org/rfc/rfc4042.txt[txt] ]
+
+=== 2007
+* *RFC 4824* _The Transmission of IP Datagrams over the Semaphore Flag Signaling System (SFSS)_, by J. Hofmueller, Ed., A. Bachmann, Ed., IO. zmoelnig, Ed., 2007 [ http://tools.ietf.org/html/rfc4824[html] | http://tools.ietf.org/rfc/rfc4824.txt[txt] ]
+
+=== 2008
+* *RFC 5241* _Naming Rights in IETF Protocols_, by A. Falk, S. Bradner, 2008 [ http://tools.ietf.org/html/rfc5241[html] | http://tools.ietf.org/rfc/rfc5241.txt[txt] ]
+* *RFC 5242* _A Generalized Unified Character Code: Western European and CJK Sections_, by J. Klensin, H. Alvestrand, 2008 [ http://tools.ietf.org/html/rfc5242[html] | http://tools.ietf.org/rfc/rfc5242.txt[txt] ]
+
+=== 2009
+* *RFC 5513* _IANA Considerations for Three Letter Acronyms_, by A. Farrel, 2009 [ http://tools.ietf.org/html/rfc5513[html] | http://tools.ietf.org/rfc/rfc5513.txt[txt] ]
+* *RFC 5514* _IPv6 over Social Networks_, by E. Vyncke, 2009 [ http://tools.ietf.org/html/rfc5514[html] | http://tools.ietf.org/rfc/rfc5514.txt[txt] ]
+
+=== 2010
+* *RFC 5841* _TCP Option to Denote Packet Mood_, by R. Hay, W. Turkal, 2010 [ http://tools.ietf.org/html/rfc5841[html] | http://tools.ietf.org/rfc/rfc5841.txt[txt] ]
+
+=== 2011
+* *RFC 5984* _Increasing Throughput in IP Networks with ESP-Based Forwarding: ESPBasedForwarding, by  K-M. Moller, 2011 [ http://tools.ietf.org/html/rfc5984[html] | http://tools.ietf.org/rfc/rfc5984.txt[txt] ]
+* *RFC 6214* _Adaptation of RFC 1149 for IPv6, by B. Carpenter, R. Hinden, 2011 [ http://tools.ietf.org/html/rfc6214[html] | http://tools.ietf.org/rfc/rfc6214.txt[txt] ]
+* *RFC 6217* _Regional Broadcast Using an Atmospheric Link Layer, by T. Ritter, 2011 [ http://tools.ietf.org/html/rfc6217[html] | http://tools.ietf.org/rfc/rfc6217.txt[txt] ]
+
+=== 2012
+* *RFC 6592* _The Null Packet_, by C. Pignataro, 2012 [ http://tools.ietf.org/html/rfc6592[html] | http://tools.ietf.org/rfc/rfc6592.txt[txt] ]
+* *RFC 6593* _Service Undiscovery Using Hide-and-Go-Seek for the Domain Pseudonym System (DPS)_, by C. Pignataro, J. Clarke, G. Salgueiro, 2012 [ http://tools.ietf.org/html/rfc6593[html] | http://tools.ietf.org/rfc/rfc6593.txt[txt] ]
+
+=== 2013
+* *RFC 6919* _Further Key Words for Use in RFCs to Indicate Requirement Levels_, by R. Barnes, S. Kent, E. Rescorla, April 2013 [ http://tools.ietf.org/html/rfc6919[html] | http://tools.ietf.org/rfc/rfc6919.txt[txt] ]
+* *RFC 6921* _Design Considerations for Faster-Than-Light (FTL)_, by Communication R. Hinden, April 2013 [ http://tools.ietf.org/html/rfc6921[html] | http://tools.ietf.org/rfc/rfc6921.txt[txt] ]
+
+=== 2014
+* *RFC 7168* _The Hyper Text Coffee Pot Control Protocol for Tea Efflux Appliances (HTCPCP-TEA)_, by I. Nazar, April 2014 [ http://tools.ietf.org/html/rfc7168[html] | http://tools.ietf.org/rfc/rfc7168.txt[txt] ]
+* *RFC 7169* _The NSA (No Secrecy Afforded) Certificate Extension_, by S. Turner, April 2014 [ http://tools.ietf.org/html/rfc7169[html] | http://tools.ietf.org/rfc/rfc7169.txt[txt] ]

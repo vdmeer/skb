@@ -13,13 +13,24 @@
 
 == Graphics
 
-Inkscape
+[cols="10,10,10,70", grid=rows, frame=none, %autowidth.stretch, options="header"]
+|===
+| Item | Version | License | Notes
 
-yED
+| link:https://www.acdsee.com/en/products/photo-studio-ultimate[ACDSee Ultimate] | 9 | |
+I started using ACDSee when many other graphic tools were either too simple ot too expensive.
+Staid with it over the years, still using it for manipulating bitmaps.
 
-ACDSee
+| link:https://www.microsoft.com/en-us/research/product/computational-photography-applications/image-composite-editor/?from=http%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fum%2Fredmond%2Fprojects%2Fice%2F[ICE] | 2 | commercial |
+_Microsoft Image Composer_, excellent application to combine multiple images (photos) into a larger composition.
+License is commercial, but application is free to use.
 
-fonts
+| link:https://inkscape.org/[Inkscape] | 0.92 | GPL |
+In my opinion the best application to draw SVG vector graphics.
+I use it for years now, and exclusively for all SVG graphics.
 
-ImageComposer
+| link:https://www.yworks.com/products/yed[yED] | 3.19 | yED |
+A nice graphic editor with lots of features and functions.
+I usually take yED to show graphs, and to edit GraphML.
 
+|===

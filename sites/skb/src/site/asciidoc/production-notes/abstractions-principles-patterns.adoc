@@ -11,16 +11,8 @@
 // @author Sven van der Meer (vdmeer.sven@mykolab.com)
 //
 
-:release-version: 1.0.0
-= Abstractions, Principles & Patterns
-v{release-version}
-:page-layout: base
-:toc: preamble
 
-discussion on fundamental and useful _abstractions_, _principles_, and _patterns_
-
-
-== Introduction
+== Abstractions, Principles & Patterns
 
 An _abstraction_ is "conceptual process where general rules and concepts are derived from the usage and classification of specific examples" link:https://en.wikipedia.org/wiki/Abstraction[wikipedia].
 A _principle_ is a "proposition or value that is a guide for behavior or evaluation" link:https://en.wikipedia.org/wiki/Principle[wikipedia].
@@ -124,69 +116,58 @@ Any time you need to parse something, look at this work first!
 
 
 
-== Patterns: CQS and CQRS
-
-Command–query separation
-By Bertrand Meyer
-Well suited for Design by Contract
-Method is either (but not both)
-Command performing an action
-Query returning a result
-I.e.: asking a question does not change the answer
-Requires re-entrant SW design
-
-Command Query Responsibility Segregation
-Use 2 (different) models
-One for update
-One for read
-Might require CRUD being applied
-Might need bounded context
-
-http://martinfowler.com/bliki/CommandQuerySeparation.html
-
-http://martinfowler.com/bliki/CQRS.html
+//== Patterns: CQS and CQRS
+//Command–query separation
+//By Bertrand Meyer
+//Well suited for Design by Contract
+//Method is either (but not both)
+//Command performing an action
+//Query returning a result
+//I.e.: asking a question does not change the answer
+//Requires re-entrant SW design
+//
+//Command Query Responsibility Segregation
+//Use 2 (different) models
+//One for update
+//One for read
+//Might require CRUD being applied
+//Might need bounded context
+//http://martinfowler.com/bliki/CommandQuerySeparation.html
+//http://martinfowler.com/bliki/CQRS.html
 
 
 
 
+//== More Patterns from Fowler
+//=== Event Sourced
+//Capture every change of state in an event object
+//Query the event objects to
+//Get the application state at any given moment in time
+//Understand how this state was reached
+//Play state changes forward and backward
+//Side effects
+//Extern updates (i.e. from non-event-sourced systems)
+//External queries (i.e. time of query determines query result, not time of response)
+//Extends to event-driven-architectures
+//http://martinfowler.com/eaaDev/EventSourcing.html
+
+
+//=== Dependency Injection
+//Separates configuration from use, aka Inversion of Control
+//Similar to the principle of separating interface from implementation
+//Several styles possible
+//Constructor injection
+//Client(Service svc) { this.service=svc; }
+//Setter injection
+//public void setService(Service svc) {this.service=svc; }
+//Interface injection
+//Configuration files for assembly / orchestration
+//http://www.martinfowler.com/articles/injection.html 
 
 
 
+//== Patterns: Predicate, Transformer, Classifier
 
 
-== More Patterns from Fowler
-
-=== Event Sourced
-Capture every change of state in an event object
-Query the event objects to
-Get the application state at any given moment in time
-Understand how this state was reached
-Play state changes forward and backward
-Side effects
-Extern updates (i.e. from non-event-sourced systems)
-External queries (i.e. time of query determines query result, not time of response)
-Extends to event-driven-architectures
-
-http://martinfowler.com/eaaDev/EventSourcing.html
-
-
-=== Dependency Injection
-Separates configuration from use, aka Inversion of Control
-Similar to the principle of separating interface from implementation
-Several styles possible
-Constructor injection
-Client(Service svc) { this.service=svc; }
-Setter injection
-public void setService(Service svc) {this.service=svc; }
-Interface injection
-Configuration files for assembly / orchestration
-
-http://www.martinfowler.com/articles/injection.html 
-
-
-
-== Patterns: Predicate, Transformer, Classifier
-
-
-== Patterns Gang of Four (GoF)
+//== Patterns Gang of Four (GoF)
 

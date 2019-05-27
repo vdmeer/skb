@@ -36,7 +36,7 @@ shopt -s globstar
 ##
 ## Basic settings
 ##
-SKB_HOME=$PWD
+export SKB_HOME=$PWD
 
 
 
@@ -47,6 +47,7 @@ export SD_TARGET=/tmp/sd
 export SD_LIBRARY_YAML=${SKB_HOME}/data/library
 export SD_LIBRARY_DOCS=${SKB_HOME}/documents/library
 export SD_LIBRARY_URL=https://github.com/vdmeer/skb/tree/master/data/library
+export SD_ACRONYM_YAML=${SKB_HOME}/data/acronyms
 export SD_ACRONYM_DOCS=${SKB_HOME}/documents/acronyms
 export SD_MVN_SITES="$PWD/sites/vandermeer $PWD/sites/skb"
 export SD_MAKE_TARGET_SETS=$PWD

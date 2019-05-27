@@ -11,14 +11,15 @@
 // @author Sven van der Meer (vdmeer.sven@mykolab.com)
 //
 
-= Production Notes
+== Production Notes
 
 Every good movie requires a diverse set of people with different expertise and skills.
 So does a knowledge base, with software and other projects.
 The pages here go through my experience in producing software with software, from all angles I did cover.
 I am certainly no deep expert in everything, I just use _stuff_ :).
 
-The topics here are introduced in the following order:
+I write those notes as much for myself as to share it with you.
+The topics are discussed in the following order:
 
 * link:production-notes/abstractions-principles-patterns.html[Abstractions, Principles, Patterns] -
      We start with some guiding principles,
@@ -52,3 +53,16 @@ The topics here are introduced in the following order:
     Any tool or software that doesn't fit (maybe just not yet) any other category.
 * link:production-notes/templates.html[Templates] -
     A few templates that I am using, have designed, for the production
+
+Some general links:
+[cols="10,90", grid=rows, frame=none, %autowidth.stretch, options="header"]
+|===
+| Item | Notes
+
+| link:https://spdx.org/[SPDX] |
+Standards for describing software.
+I am using their license identifiers, see link:https://spdx.org/licenses/[license list].
+
+|===
+
+

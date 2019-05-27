@@ -125,6 +125,9 @@ Here are my conventions, which I am using as rigorous as possible:
             how to fix it or avoid it later,
             and whatever other information is or might be useful.
         There is no harm in providing links to manuals or online information in error message, just make it convenient for a user.
+* Use _https_, everywhere, when providing links.
+    There should be no plain _http_ anymore.
+    (Yes, I know that my own webserver doesn't have a certificate, yet).
 * Eat your own dog food. Seriously.
     When offering software, then use it yourself first (at least you'll have one user to start with).
     You'll find bugs and missing features before everyone else.

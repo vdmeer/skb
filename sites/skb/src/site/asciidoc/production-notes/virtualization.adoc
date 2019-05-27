@@ -14,6 +14,75 @@
 == Virtualization
 
 
-VirtualBox
+[cols="10,10,10,70", grid=rows, frame=none, %autowidth.stretch, options="header"]
+|===
+| Item | Version | License | Notes
 
-Docker
+| link:https://www.virtualbox.org/[VirtualBox] | 5.2.30 | GPL |
+Main environment to run Ubuntu and other OSs in.
+
+| link:https://www.docker.com/[Docker] | various | Apache 2 |
+Containers for testing and continuous integration processes.
+
+|===
+
+
+== Working with VirtualBox
+
+I usually have a Ubuntu running in VirtualBox.
+My system then gets the following configuration:
+
+* General/Advanced with _Shared Clipboard_ and _Drag'n Drop_ both set to _bi-directional_
+* System with 8GB RAM, PIIX3 chipset, clock on UTC, 2 CPUs (no PAE/NX), full acceleration
+* Display with 16MB RAM, 100% scaling, no remote display, no video capture
+* Audio enabled for output, not input (I am not doing conferencing on these systems)
+* Network NAT, sometimes I change that to a bridge when I need direct access, but for most work NAT is good enough
+* Serial ports: none (
+* USB set to USB1, don't use it
+* Shared folder: my windows work folder mounted as `V_DRIVE`
+* User Interface: full screen and seamless, show on top of screen
+
+I don't mount my Windows drive(s) automatically.
+I am just running it manually:
+
+[source%nowrap,bash]
+----
+sudo mount.vboxsf -w V_DRIVE /usr/local/v-drive
+----
+
+My `bash` settings are coming from the mounted drive, since I am using them also in WSL and Cygwin and other systems.
+`bashrc` then sources them in:
+
+[source%nowrap,bash]
+----
+_VDM_HOME=/usr/local/v-drive/home
+DOT_BASH=${_VDM_HOME}/dotfiles/dotbash
+source ${DOT_BASH}/bash.rc
+----
+
+Important is to have the VBoxGuest tools installed, to allow graphic handling (seamless desktop integration) and proper clipboard translation.
+The tools are actually kernel modules, so they require the build essentials.
+
+[source%nowrap,bash]
+----
+sudo apt install gcc build-essential
+----
+
+Then download the ISO image required (for the VirtualBox version you are running) from the link:http://download.virtualbox.org/virtualbox[download site].
+Then mount the ISO and install the tools.
+
+[source%nowrap,bash]
+----
+sudo -i
+mkdir /media/ga
+mount /usr/share/virtualbox/VBoxGuestAdditions.iso /media/ga
+cd /media/ga
+./VBoxLinuxAdditions.run
+----
+
+Sometimes I have problems with the `vboxfs`, which mounts Windows images into Ubuntu.
+Usually, the link for `mount.vboxsf`in `/sbin` is wrong.
+I had it pointing to `/usr/lib/...` a few times, which does not exist.
+Setting it to `/opt/VBoxGuestAdditions-4.3.10/lib/VBoxGuestAdditions/mount.vboxsf` should do the trick
+    (change the version to the VBox version you are using).
+

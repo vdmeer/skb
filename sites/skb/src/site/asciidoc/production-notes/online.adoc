@@ -13,11 +13,38 @@
 
 == Online
 
-Wikipedia
+[cols="20,80", grid=rows, frame=none, %autowidth.stretch, options="header"]
+|===
+| Site |Notes
 
-Github
+| link:https://github.com/[Github] |
+One of the dominating sites to host open source projects.
+All my projects are hosted here
 
-Stackoverflow
+| link:https://www.researchgate.net/[ResearchGate] |
+Excellent source for academic papers.
 
-ResearchGate
+| link:https://stackoverflow.com/[stackoverflow] |
+For all questions on programming, development, coding.
 
+| link:https://tex.stackexchange.com/[tex.stackexchange] |
+The top site for all topics on TeX and LaTeX.
+
+| link:https://en.wikipedia.org[Wikipedida] |
+One of the top sites in the Internet, a good source of information, especially for ICT.
+
+|===
+
+
+=== Some interesting Github Projects
+
+* ANTLR & ST: the actual link:ttps://github.com/antlr/antlr4[ANTLR project],
+    an ANTLR 4 link:https://github.com/jknack/antlr4ide[Eclipse plugin]
+* Graphics: link:https://github.com/freehep/freehep-vectorgraphics[FreeHep] everything you need for vector graphics
+* Java libraries:
+    link:https://github.com/jline/jline2[Jline 2],
+    link:https://github.com/mvel/mvel[MVEL], 
+    link:https://github.com/TooTallNate/Java-WebSocket[Websocket]
+* JSON: an implementation for link:https://github.com/fge/json-schema-validator[JSON Schema] and a link:https://github.com/jdorn/json-editor[JSON Editor]
+* Security: a secure link:https://github.com/signalapp/Signal-Android[text system]
+* Time & Data: link:https://github.com/moment/moment[Moment] is the best time library out there

@@ -11,59 +11,158 @@
 // @author Sven van der Meer (vdmeer.sven@mykolab.com)
 //
 
-== Languages
+== Languages & Formats
 
-bash
+[cols="10,90", grid=rows, frame=none, %autowidth.stretch, options="header"]
+|===
+| Item |Notes
 
-adoc
+| link:https://tools.ietf.org/html/rfc5234[abnf] |
+_Augmented Backus-Naur Form_, is based on ENBF but defines its own syntax and derivation rules.
+It is used in many IETF RFCs (the standards in the Internet).
 
-json
+| link:http://asciidoc.org/[asciidoc] |
+The original Asciidoc.
+Superseded, at leaat in my work, by the _Asciidoctor_ dialect and tool chain
 
-yaml
+| link:https://asciidoctor.org/[asciidoctor] |
+The newer version of Asciidoc.
+There are some changes to the actual language.
+It still is a great combination of initial simplicity (write documents fast) and functionality (a lot of features).
+Tool chain works very well, very good for automation.
 
-java
+| link:https://github.com/antlr/antlr4/blob/master/doc/index.md/[antlr] |
+The language to define a grammar (lexer and parser) of the tool of the same name.
+I use it since version 2, current version is 4.
+It is based on EBNF.
 
-python
+| link:https://www.gnu.org/software/bash/manual/[bash] |
+Here is a discussion on `bash` as a programming language link:https://stackoverflow.com/questions/28693737/is-bash-a-programming-language[stackoverflow].
 
-antlr
+| link:https://www.ctan.org/pkg/bibtex[bibtex] |
+Language to define reference entries in a bibliographic database, which is then processed by BibTeX or Biber.
+Use for TeX and LaTeX documents.
+See also link:https://en.wikipedia.org/wiki/BibTeX[wikipedia].
 
-ebnf
+| link:https://www.w3.org/Style/CSS/[css] |
+Occasionally, I need to edit style sheets for HTML documents, e.g. this site.
 
-stringtemplate
+| link:https://en.wikipedia.org/wiki/Comma-separated_values[csv] |
+More a format than a language, simply lines with entries separated by an a priori defined character (usually a `tab` or `comma`).
 
-XML
+| link:https://en.wikipedia.org/wiki/Extended_Backus%E2%80%93Naur_form[ebnf] |
+_Extended Backus-Naur Form_, a notation used to specify context-free grammars.
+It is the basis for _antlr_ and other parser-generation environments.
+It is also used widely to express grammars outside tools.
 
-Maven-Pom
+| link:https://gradle.org/[gradle] |
+Internal DSL in Groovy.
+Base for the _gradle_ build/make system.
+Of course used in the gradle specifications for several builds
 
-gradle/??
+| link:http://graphml.graphdrawing.org/[graphml] |
+XML-based language to describe graphs in terms of nodes and edges.
+I use that as an intermediate langauge, created from specifications, then process it with graphic tools (such as yED).
 
-LaTeX / TeX
+| link:https://www.w3.org/html/[html] |
+I use _html_ in many cases and parts of my work, for example 
+    if it is the easiest to just write a document in it or
+    generating _html_ for documentation.
+See also link:https://whatwg.org/[whatwg].
 
-text
+| link:https://en.wikipedia.org/wiki/Java_(programming_language)[java] |
+My Main programming langauge.
+I had started with assembler, then did _C_, then _C++_ (in the middle also some functional programming, but not very successful), then moved to _Java_.
+Still with it.
 
-CSV
+| link:https://www.jcp.org/en/jsr/detail?id=260[javadoc] |
+More a notation or format than a language, to write in-file documentation for _Java_ classes.
+In some projects I am using the _Asciidoctor_ Doclet.
 
-XDOC
+| link:https://developer.mozilla.org/en-US/docs/Web/JavaScript[javascript] |
+I wrote full applications, some libraries, and actionable functions in JavaScript.
+But more out of necessity than of actual interest.
 
-BibTeX, Biblatex
+| link:https://json.org/[json] |
+Data serialization language.
+Simple, easy to use (edit, exchange, process), supported everywhere.
+Still using it a lot.
 
-UML
+| link:https://www.latex-project.org/[latex] |
+Wrote my first LaTeX document a very long time ago, and it still compiles the same way it did on the first day.
+This longevity is one interesting aspect of LaTeX.
+The others:
+    start simple but never be limited by the system later,
+    superior type setting (including fonts, tables, layout),
+    superior for automation (and extension),
+    superior for references in documents (including headings, references, acronyms, index).
+Some drawbacks: the language looks, today, rather strange and there is a learning curve for using the tool chain.
 
-CSS
+| link:https://daringfireball.net/projects/markdown/[md] |
+_Markdown_, used in some Wiki pages and project documents.
+Simple language, but I prefer _Asciidoctor_.
 
-HTML
+| link:https://php.net/[php] |
+Started with _php_ for interactive web pages, wrote an online shop in it once, then a framework for the SKB.
+Still using it for some smaller tasks, but generally not anymore for larger projects.
 
-JDOC
+| link:https://maven.apache.org/pom.html[pom] |
+More a notation than a language: the internal of a Maven _POM_ file.
+Can be a bit messy, and requires understanding of the build process as well.
+Overall not that hard to write even complicated workflows.
+The main problems are usually in the plugins, not the POM file.
 
-GraphML
+| link:https://www.python.org/[python] |
+For everything that is too hard in `bash`, e.g. processing _YAML_ and _JSON_ files.
 
-SVG
+| link:https://www.iso.org/standard/16387.html[sgml] |
+Started with SGML as intermediate document language.
+It was superseded then by XML.
+The W3C maintains a link:https://www.w3.org/MarkUp/SGML/[page] with SGML resources.
 
-JavaScript
+| link:https://github.com/antlr/stringtemplate4/blob/master/doc/index.md[st] |
+Actually _ST_ or _stringtemplate_, the notation beyond the library (or tool) of the same name.
+Probably the best template system there is (language and library).
 
-Python
+| link:https://www.w3.org/Graphics/SVG/[svg] |
+The webs main vector graphic language, XML-based.
+I draw everything in SVG, sometimes also editing the XML base document.
 
-PHP
+| link:https://www.tug.org/[tex] |
+The system underlying LaTeX.
+I use some commands from TeX, but usally stay in the LaTeX level.
 
-Markdown
+| link:http://uml.org/[uml] |
+I use UML mainly for class diagrams and sequence charts, no longer for larger systems or code generation.
 
+| link:https://maven.apache.org/doxia/references/xdoc-format.html[xdoc] |
+One of the document language supported by the Apache Maven Site plugin.
+I use this one for the main static sites, where no includes are required.
+It is essentially XML-based but also allows inline-HTML.
+
+| link:https://www.w3.org/XML/[xml] |
+The dominant language for documents of all sorts, right?
+
+| link:https://www.eclipse.org/xtend/[xtend] |
+As they say: Java just better.
+This is the programming language used in _XText_.
+Integrates nicely in any Java project (seamless!).
+
+| link:https://www.eclipse.org/xtext/[xtext] |
+A DSL generation framework.
+It comes with their own language, essentially based on _EBNF_ and _ANTLR_.
+I use it for some DSL projects.
+
+| link:https://yaml.org/[yaml] |
+A data serialization (or definition) language, superset of _JSON_.
+I use it exclusively in the data for my SKB (acronyms, references).
+Easy to author and process.
+
+|===
+
+
+
+=== Links
+
+* BASH:
+    link:http://www.tldp.org/LDP/abs/html/abs-guide.html#SOURCEREF[Advanced Bash-Scripting Guide]

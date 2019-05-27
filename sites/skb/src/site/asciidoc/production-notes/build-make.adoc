@@ -13,13 +13,44 @@
 
 == Build & Make Systems
 
-Maven
+[cols="10,10,10,70", grid=rows, frame=none, %autowidth.stretch, options="header"]
+|===
+| Item | Version | License | Notes
 
-Gradle
+| link:https://ant.apache.org/[Ant] | 1.9.3 | Apache |
+A Java-based build system.
+Low level: it provides tasks and lets you design your workflow.
+Still using it for massive source file edits, to change version numbers using regular expressions.
+This task is super fast and easy to configure.
 
-Latexmk
+| link:https://gradle.org/[gradle] | 5.4.1 | Apache 2 |
+A build framework based on Groovy.
+Easy to write workflows and build processes.
+Can use _Maven_ and other plugins.
+I use it to create distribution artifacts, and sometimes for Java projects as well.
 
-SF / SD
+| link:https://www.ctan.org/pkg/latexmk/[latexmk] | 4.6.3b | GPL2 |
+Fully automates the build of LaTeX documents.
+It handles all tools (latex, bibtex/biber, makeidx, etc.) in the right order and number of calls.
+Can be configured for specific needs.
 
-gmake
+| link:https://en.wikipedia.org/wiki/Make_(software)[make] | | |
+Build automation system using macros.
+This first one I ever used, still writing `makefile`, sometimes.
+I am using `gmake`, the GNU version of make.
 
+| link:https://maven.apache.org/[Maven] | 3.5.4 | Apache 2 |
+Framework to manage software projects, main focus on building artifacts (including reports and websites and documentation).
+Main strength is in the extensibility with plugins.
+The sites for the SKB projects are all build using _Maven_ and the site plugin.
+
+| SKB-Dashboard | 0.0.0 | Apache 2 |
+An extension to the SKB-Framework, with tasks for processing acronyms and references (from the SKB data).
+
+| link:https://vdmeer.github.io/skb/framework/index.html[SKB-Framework] | 0.0.3 | Apache 2 |
+My own automation framework.
+It is based on the concept of tasks, which can require parameters and have dependencies.
+Combinations of tasks can form a flow, described by a scenario.
+The framework is written in `bash`, runs on any UNIX system (though not on standard DOS or Windows, use WSL or Cygwin in that case).
+
+|===

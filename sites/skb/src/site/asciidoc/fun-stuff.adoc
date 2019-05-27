@@ -11,16 +11,12 @@
 // @author Sven van der Meer (vdmeer.sven@mykolab.com)
 //
 
-== Templates
+== Fun Stuff
 
 
-[cols="15,15,70", grid=rows, frame=none, %autowidth.stretch, options="header"]
-|===
-| Type | File | Notes
+=== Movies to Watch before they close YouTube
 
-| Graphic | link:https://github.com/vdmeer/skb/blob/master/data/templates/svg.svg[svg.svg] |
-My main SVG template.
-Use layers for all elements.
-The layer in the template is the frame, don't change its width, only its height.
-
-|===
+* Cowboys herding cats: https://www.youtube.com/watch?v=Pk7yqlTMvp8
+* i-Diots: https://www.youtube.com/watch?v=NCwBkNgPZFQ
+* The Expert (Short Comedy Sketch): https://www.youtube.com/watch?v=BKorP55Aqvg&feature=youtu.be
+* The coolest, sleekest new gadget on the market, the IKEA bookbook: https://www.youtube.com/watch?v=MOXQo7nURs0

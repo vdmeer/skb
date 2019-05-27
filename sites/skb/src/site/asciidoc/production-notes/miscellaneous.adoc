@@ -13,4 +13,28 @@
 
 == Miscellaneous
 
-7Z
+[cols="10,10,10,70", grid=rows, frame=none, %autowidth.stretch, options="header"]
+|===
+| Item | Version | License | Notes
+
+| link:https://www.7-zip.org/[7-Zip] | 18.05 | Free |
+Main tool for compressed archives, in either `7z` or `zip` format.
+Also works with `tar` and `tgz`.
+
+| link:https://github.com/AlDanial/cloc[cloc] | 1.8 | GPL 2 |
+Tool to count lines of code, supporting many different languages, with very good configuration and exception handling.
+
+| link:https://github.com/doxygen/doxygen:[Doxygen] | | |
+Framework to generate documentation from annotated source files.
+Originally written for _C++_, but can be used for other source files as well.
+Generates large documents (if required), with complete API references, even including UML diagrams.
+
+| link:https://pandoc.org/[Pandoc] | | |
+Swiss Army Knife for document conversions.
+Can virtually convert any document (source) into any other document (source).
+
+| link:https://winscp.net/eng/index.php[WinsCP] | | |
+Free application to handle remote copy and FTP.
+Windows only.
+
+|===

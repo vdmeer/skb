@@ -13,7 +13,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 -->
 
-<project name="VDMEER-SKB">
+<project name="SKB">
     <bannerLeft>
         <name/>
         <title/>
@@ -26,6 +26,15 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
         <menu name="skb">
             <item href="index.html" name="Welcome" />
+
+            <item href="acronyms.html" name="Acronyms" />
+
+            <item href="fun-stuff.html" name="Fun Stuff" collapse="true">
+                <item href="fun-stuff/rfc-april.html" name="RFCs: April 1st" />
+            </item>
+
+            <item href="library.html" name="Research Library" />
+
             <item href="research-notes.html" name="Research Notes" collapse="true">
                 <item href="research-notes-policy.html" name="Policy-based Management" />
                 <item href="research-notes-ina.html" name="INA" />
@@ -33,13 +42,11 @@ SPDX-License-Identifier: CC-BY-SA-4.0
                 <item href="research-notes-internet-history.html" name="Internet History" />
                 <item href="research-notes-time-and-date-nm.html" name="Time and Date in NM" />
             </item>
-            <item href="acronyms.html" name="Acronyms" />
-            <item href="library.html" name="Library" />
-            <item href="history.html" name="History" />
+
             <item href="production-notes.html" name="Production Notes" collapse="true">
                 <item href="production-notes/abstractions-principles-patterns.html" name="Abstractions, Principles &amp; Patterms" />
                 <item href="production-notes/conventions.html" name="Conventions" />
-                <item href="production-notes/languages.html" name="Languages" />
+                <item href="production-notes/languages.html" name="Languages &amp; Formats" />
                 <item href="production-notes/operating-systems.html" name="Operating Systens" />
                 <item href="production-notes/virtualization.html" name="Virtualization" />
                 <item href="production-notes/ide-editors.html" name="IDEs and Editors" />
@@ -47,8 +54,10 @@ SPDX-License-Identifier: CC-BY-SA-4.0
                 <item href="production-notes/graphics.html" name="Graphics" />
                 <item href="production-notes/online.html" name="Online" />
                 <item href="production-notes/miscellaneous.html" name="Miscellaneous" />
+                <item href="production-notes/utf8-support.html" name="Configure UTF-8 Support" />
                 <item href="production-notes/templates.html" name="Templates" />
             </item>
+
         </menu>
 
         <menu name="Projects - Bash">

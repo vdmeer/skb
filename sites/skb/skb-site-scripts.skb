@@ -25,7 +25,7 @@ MvnSitePostScript() {
     MvnSiteFixAdoc target/site/production-notes                                             "Production Notes"
     MvnSiteFixAdoc target/site/production-notes/abstractions-principles-patterns                "Production Notes - Abstractions / Principles / Patterns"
     MvnSiteFixAdoc target/site/production-notes/conventions                                     "Production Notes - Conventions"
-    MvnSiteFixAdoc target/site/production-notes/languages                                       "Production Notes - Languages"
+    MvnSiteFixAdoc target/site/production-notes/languages                                       "Production Notes - Languages &amp; Formats"
     MvnSiteFixAdoc target/site/production-notes/operating-systems                               "Production Notes - Operating Systems"
     MvnSiteFixAdoc target/site/production-notes/virtualization                                  "Production Notes - Virtualization"
     MvnSiteFixAdoc target/site/production-notes/ide-editors                                     "Production Notes - IDEs and Editors"
@@ -33,8 +33,11 @@ MvnSitePostScript() {
     MvnSiteFixAdoc target/site/production-notes/graphics                                        "Production Notes - Graphics"
     MvnSiteFixAdoc target/site/production-notes/online                                          "Production Notes - Online"
     MvnSiteFixAdoc target/site/production-notes/miscellaneous                                   "Production Notes - Miscellaneous"
+    MvnSiteFixAdoc target/site/production-notes/utf8-support                                    "Production Notes - Configure UTF-8 Support"
     MvnSiteFixAdoc target/site/production-notes/templates                                       "Production Notes - Templates"
 
+    MvnSiteFixAdoc target/site/fun-stuff                            "Fun Stuff"
+    MvnSiteFixAdoc target/site/fun-stuff/rfc-april                      "RFC April Fool's Day"
 
 
     if [[ -d "${CONFIG_MAP["TARGET"]}" ]]; then

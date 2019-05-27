@@ -138,3 +138,22 @@ http://vdmeer.github.io/skb/ipc/[skb-web/ipc]
 |===
 
 
+== SKB History
+It all started sometimes in the late 1990s, when I got my own domain (as a birthday present from very good friends).
+We started web development, first static HTML, then PHP.
+While working as a researcher and PhD student, I wanted to have a list of publications on my website.
+Later acronyms, foto collection, diaries, and other 'stuff'.
+
+Later in Ireland, I started programming and developing in Java.
+Github became available, and I started hosting some projects on Github.
+Those projects (PHP and Java), evolved, some I did not continue.
+The PHP backend for my site was a lot of work.
+It was very good for processing data at runtime, but it turned out to be hard to add new data (for instanc a new publication).
+So sometimes around 2011 I stopped maintaining the data, thus the whole project and site hibernated.
+
+In 2018 then I turned back to this problem, partially because I had an idea how to realize the whole set differently.
+for our APEX engine (and earlier in some SKB Java projects), I had experimented with the Maven Site plugin.
+I also used the Asciidoctor toolchain heavily.
+Combining both seemed a good idea.
+Then I found a way to maintain my data in a non-proprietary form (text files) that also allows to process them for other purposes (such as a website).
+And now we are here.

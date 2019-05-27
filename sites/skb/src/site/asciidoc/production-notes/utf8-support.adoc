@@ -1,0 +1,62 @@
+//
+// ============LICENSE_START=======================================================
+// Copyright (C) 2018-2019 Sven van der Meer. All rights reserved.
+// ================================================================================
+// This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 International Public License
+// Full license text at https://creativecommons.org/licenses/by-sa/4.0/legalcode
+// 
+// SPDX-License-Identifier: CC-BY-SA-4.0
+// ============LICENSE_END=========================================================
+//
+// @author Sven van der Meer (vdmeer.sven@mykolab.com)
+//
+
+== Configure UTF-8 Support
+
+
+
+=== IDEs and Editors
+Editing source files requires an IDE or editor that can handle UTF-8 and being configured to do so.
+Otherwise all UTF-8 characters will be scrambled.
+
+In Eclipse, one can set the respective file, the project or the complete workspace to use UTF-8 encoding.
+The default on Windows is CP1252, so make sure to change that before opening any UTF-8 file.
+Simply change the text file encoding on the resource.
+This will also change the output of the Eclipse console to UTF.
+
+Other editors will have their specific way to configure for UTF file handling.
+
+
+=== Console
+Console settings depend very much on the operating system and the terminal program used.
+
+In Windows (using `cmd` as shell), change the code page using this command: `chcp 65001`.
+In Cygwin, use a terminal that supports UTF-8, for instance the popular `mintty`.
+For both, the font `Lucida Console` supports almost all UTF-8 box drawing characters.
+
+Unix and Apple systems are usually better for UTF support.
+
+
+
+=== Java
+The java compiler might need a reminder to use UTF-8.
+The option `-encoding UTF-8` should do the trick.
+
+
+
+=== Javadoc
+Javadoc has 3 options for dealing with UTF-8 characters.
+Encoding for the source (i.e. reading UTF-8 encoded java files),
+    `docencoding` for the output (i.e. the html encoding) and
+    `charset` for the output (i.e. to tell the browser what character set to use).
+All of these options need to be set to UTF-8.
+
+The ANT task for Javadoc has those options.
+So using `encoding="UTF-8"`, `docencoding="UTF-8"` and `charset="UTF-8"` should create UTF-8 HTML.
+
+
+
+=== JVM
+Running a Java program with UTF output might require to set the JVM to UTF as well.
+`-Dfile.encoding=UTF-8` should do the trick.
+

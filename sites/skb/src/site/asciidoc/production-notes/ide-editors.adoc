@@ -13,11 +13,70 @@
 
 == IDEs & Editors
 
-Eclipse
+[cols="10,10,10,70", grid=rows, frame=none, %autowidth.stretch, options="header"]
+|===
+| Item | Version | License | Notes
 
-Ultra
+| link:https://www.eclipse.org/[Eclipse] | 2019-03 | Eclipse |
+My main IDE for Java development. I use it also for managing projects, and editing other source files (`bash`, `json`, `yaml`).
+The plugins I am using are listed in the table below.
+For some projects I created otherwise empty `POM` files to simplify import into Eclipse.
 
-TeXStudio
+| link:https://www.texstudio.org/[TeXStudio] | 2.12.6 | GPL 3 |
+For everything TeX and LaTeX.
+It comes with everything you need for large documents: code completion, spell-checking, build (including BibTeX, biber, and makeidx).
 
-VI
+| link:https://www.ultraedit.com/products/uestudio/[UltraStudio] | 19 | commercial |
+My general purpose text editor, with a few nice functions such as column editing, data sort, and support for coding.
+Comes also with an excellent compare and find tool for Windows.
+
+| link:https://www.vim.org/[vi(m)] | 8 | |
+On Linux systems, the main editor I am using.
+I don't have much configuration or functions for it though.
+
+|===
+
+
+=== Eclipse Plguins
+
+[cols="10,10,10,70", grid=rows, frame=none, %autowidth.stretch, options="header"]
+|===
+| Item | Version | From | Notes
+
+| link:https://github.com/de-jcup/eclipse-asciidoctor-editor/wiki[Asciidoctor Editor] | 1.4.4 | Marketplace |
+Editor for Asciidoctor files, with life preview.
+Also supports a few text-based graphic formats.
+
+| link:https://github.com/de-jcup/eclipse-bash-editor/wiki[Bash Editor] | 2.1.12 | Marketplace |
+A very nice editor for `bash` files.
+
+| link:http://www.liclipse.com/text/[LiClipse Text] | 2.1.12 | Marketplace |
+All purpose text editor (free version), supporting every language I am using.
+
+| link:https://www.sonarlint.org/[SonarLint] | 4.1 | Marketplace |
+Quality check and bug find for development.
+
+| link:https://spotbugs.github.io/[SpotBugs] | 4.0 | Marketplace |
+The name says it all: static code analysis for Java code.
+
+| link:https://github.com/de-jcup/eclipse-yaml-editor/wiki[Yaml Editor] | 1.4.2 | Marketplace |
+Editor for `yaml` files, with syntax check.
+
+| link:http://scg.unibe.ch/research/softwarecartography[Code Map] | | link:http://scg.unibe.ch/download/codemap/[unibe.ch] |
+A very neat tool to create a geographic (topological) map from your (Java) code.
+
+| link:https://github.com/hallvard/plantuml[Plant UML] | | link:https://github.com/hallvard/plantuml[github] |
+Write UML diagrams as text, and Plant UML will create the image for you.
+Comes with SVG and PNG export.
+This is the Eclipse plugin, rendering images as you type.
+
+|===
+
+
+
+// Green UML - http://www.cse.buffalo.edu/faculty/alphonce/green
+// ObjectAid - http://www.objectaid.com/update
+// StringTemplate Editor - http://hastee.sourceforge.net/eclipse/
+// Structure 101 - http://www.headwaysoftware.com/downloads/structure101/ideplugin/eclipse/
+// https://github.com/rtomayko/shocco
 

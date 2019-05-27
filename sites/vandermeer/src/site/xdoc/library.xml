@@ -15,12 +15,12 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 <document>
     <properties>
-        <title>Library</title>
+        <title>Research Library</title>
         <author email="vdmeer dot sven at mykolab dot com">Sven van der Meer</author>
     </properties>
 
     <body>
-        <section name="Library">
+        <section name="Research Library">
             <p class="narrow large">
                 I do maintain my own research library.
                 Essentially published (and some not formally published) items.

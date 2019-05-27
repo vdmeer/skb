@@ -1,0 +1,5 @@
+com/us/microsoft/WSL:
+    short: WSL
+    long:
+        en: Windows Subsystem for Linux
+

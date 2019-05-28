@@ -11,7 +11,7 @@
 // @author Sven van der Meer (vdmeer.sven@mykolab.com)
 //
 
-== Configure UTF-8 Support
+== UTF-8 Support
 
 
 
@@ -27,8 +27,8 @@ This will also change the output of the Eclipse console to UTF.
 Other editors will have their specific way to configure for UTF file handling.
 
 
-=== Console
-Console settings depend very much on the operating system and the terminal program used.
+=== Console and Terminal
+Console settings depend very much on the operating system, the terminal program, and the actual font that is used.
 
 In Windows (using `cmd` as shell), change the code page using this command: `chcp 65001`.
 In Cygwin, use a terminal that supports UTF-8, for instance the popular `mintty`.
@@ -36,6 +36,29 @@ For both, the font `Lucida Console` supports almost all UTF-8 box drawing charac
 
 Unix and Apple systems are usually better for UTF support.
 
+
+==== Testing the Console
+There are several UTF-8 encoded files one can use to test a console or terminal.
+A few of them are listed in the table below.
+Simply copy the text of the files into your console and see if the output is as expected.
+
+[cols="30,70", grid=rows, frame=none, %autowidth.stretch, options="header"]
+|===
+| Source | Description
+
+| link:https://www.w3.org/2001/06/utf-8-test/[W3C] |
+A large set of files, all in UTF-8, that can be used to test UTF-8 terminal capabilities.
+
+| link:https://www.w3.org/2001/06/utf-8-test/UTF-8-demo.html[W3C UTF-8 Demo] |
+This is an example from the W3C using a lot of commonly used UTF-8 characters.
+
+| link:https://www.w3.org/2001/06/utf-8-test/postscript-utf-8.html[W3C UTF-8 PS] |
+List of 271 Unicode characters that represent a minimum repertoire that any modern Postscript printer driver receiving plaintext should be able to render.
+
+| link:https://www.cl.cam.ac.uk/~mgk25/ucs/examples/[mgk25] |
+Set of UTF-8 files maintained by _Dr Markus Kuhn_, most of which are also hosted on the W3C links shown above.
+
+|===
 
 
 === Java

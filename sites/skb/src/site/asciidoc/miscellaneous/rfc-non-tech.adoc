@@ -1,0 +1,56 @@
+//
+// ============LICENSE_START=======================================================
+// Copyright (C) 2018-2019 Sven van der Meer. All rights reserved.
+// ================================================================================
+// This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 International Public License
+// Full license text at https://creativecommons.org/licenses/by-sa/4.0/legalcode
+// 
+// SPDX-License-Identifier: CC-BY-SA-4.0
+// ============LICENSE_END=========================================================
+//
+// @author Sven van der Meer (vdmeer.sven@mykolab.com)
+//
+
+== RFCs: None-Technical
+
+Some RFCs are not as serious as others. Beside the early stages, where poems made it into the internet standards, almost every year there is one (or more) RFCs for April fool’s day. Look out for the publication on "April 1" in the https://www.rfc-editor.org/rfc-index.html[RFC index], all _normal_ RFCs do not carry the day of publication but only the month. And some RFCs are provide guidance and principles beyond the technical standards. Here is a list of them.
+
+=== Poems
+* *RFC 527* _ARPAWOCKY_, by R. Merryman, May 1973 - [ http://tools.ietf.org/html/rfc527[html] | http://tools.ietf.org/rfc/rfc527.txt[txt] ]
+* *RFC 968* _Twas the night before start-up_, by V.G. Cerf, December 1985 - [ http://tools.ietf.org/html/rfc968[html] | http://tools.ietf.org/rfc/rfc968.txt[txt] ]
+* *RFC 1121* _Act one - the poems_, by J. Postel, L. Kleinrock, V.G. Cerf, B. Boehm, September 1989 - [ http://tools.ietf.org/html/rfc1121[html] | http://tools.ietf.org/rfc/rfc1121.txt[txt] ]
+* *RFC 1300* _Remembrances of Things Past_, by S. Greenfield, February 1992 - [ http://tools.ietf.org/html/rfc1300[html] | http://tools.ietf.org/rfc/rfc1300.txt[txt] ]
+
+=== Fun
+* *RFC 439* _PARRY encounters the DOCTOR_, by V. Cerf, January 1973 - [ http://tools.ietf.org/html/rfc439[html] | http://tools.ietf.org/rfc/rfc439.txt[txt] ]
+* *RFC 1882* _The 12-Days of Technology Before Christmas_, by B. Hancock, December 1995 - [ http://tools.ietf.org/html/rfc1882[html] | http://tools.ietf.org/rfc/rfc1882.txt[txt] ]
+
+=== Half and half
+* *RFC 1178* _Choosing a name for your computer_, by D. Libes, August 1990 - [ http://tools.ietf.org/html/rfc1178[html] | http://tools.ietf.org/rfc/rfc1178.txt[txt] ]
+* *RFC 1925* _The Twelve Networking Truths_, by R. Callon, April 1 1996 (also in the april fool’s day list) - [ http://tools.ietf.org/html/rfc1925[html] | http://tools.ietf.org/rfc/rfc1925.txt[txt] ]
+* *RFC 3254* _Definitions for talking about directories_, by H. Alvestrand, April 2002 - [ http://tools.ietf.org/html/rfc3254[html] | http://tools.ietf.org/rfc/rfc3254.txt[txt] ]
+
+=== Anecdotal
+* *RFC 1287* the first RFC to address the Future Internet (in 2009/2010 one of the hot topics) dates December 1991 (RFC 1287) - [ http://tools.ietf.org/html/rfc1287[html] | http://tools.ietf.org/rfc/rfc1287.txt[txt] ]
+* *RFC 5143* dated February 2008 is obsoleted by RFC 4842 dated April 2007 - [ http://tools.ietf.org/html/rfc5143[html] | http://tools.ietf.org/rfc/rfc5143.txt[txt] ]
+
+=== Miscellaneous
+* *RFC 3271* _The Internet is for Everyone_, by V. Cerf, 2002 - [ http://tools.ietf.org/html/rfc3271[html] | http://tools.ietf.org/rfc/rfc3271.txt[txt] ]
+
+=== Guideliness
+* *RFC 1118* _The Hitchhikers Guide to the Internet_, by E. Krol, 1989 - [ http://tools.ietf.org/html/rfc1118[html] | http://tools.ietf.org/rfc/rfc1118.txt[txt] ]
+* *RFC 1855* _Netiquette Guidelines_, by S. Hambridge, 1995 - [ http://tools.ietf.org/html/rfc1855[html] | http://tools.ietf.org/rfc/rfc1855.txt[txt] ]
+* *RFC 2901* _Guide to Administrative Procedures of the Internet Infrastructure_, by Z. Wenzel, J. Klensin, R. Bush, S. Huter, 2002 - [ http://tools.ietf.org/html/rfc2901[html] | http://tools.ietf.org/rfc/rfc2901.txt[txt] ]
+* *RFC 3184* _IETF Guidelines for Conduct_, by S. Harris, 2001 - [ http://tools.ietf.org/html/rfc3184[html] | http://tools.ietf.org/rfc/rfc3184.txt[txt] ]
+* *RFC 3227* _Guidelines for Evidence Collection and Archiving_, by D. Brezinski, T. Killalea, 2002 - [ http://tools.ietf.org/html/rfc3227[html] | http://tools.ietf.org/rfc/rfc3227.txt[txt] ]
+* *RFC 3283* _Guide to Internet Calendaring_, by B. Mahoney, G. Babics, A. Taler, 2002 - [ http://tools.ietf.org/html/rfc3283[html] | http://tools.ietf.org/rfc/rfc3283.txt[txt] ]
+* *RFC 3439* _Some Internet Architectural Guidelines and Philosophy_, by D. Meyer, 2002 - [ http://tools.ietf.org/html/rfc3439[html] | http://tools.ietf.org/rfc/rfc3439.txt[txt] ]
+* *RFC 3470* _Guidelines for the Use of Extensible Markup Language (XML) within IETF Protocols_, by S. Hollenbeck, M. Rose, L. Masinter, 2003 - [ http://tools.ietf.org/html/rfc3470[html] | http://tools.ietf.org/rfc/rfc3470.txt[txt] ]
+* *RFC 4181* _Guidelines for Authors and Reviewers of MIB Documents_, by C. Heard, Ed., 2005 - [ http://tools.ietf.org/html/rfc4181[html] | http://tools.ietf.org/rfc/rfc4181.txt[txt] ]
+* *RFC 4677* _The Tao of IETF: A Novice’s Guide to the Internet Engineering Task Force_, by P. Hoffman, S. Harris, 2006 - [ http://tools.ietf.org/html/rfc4677[html] | http://tools.ietf.org/rfc/rfc4677.txt[txt] ]
+* *RFC 5411* _A Hitchhiker’s Guide to the Session Initiation Protocol (SIP)_, by J. Rosenberg, 2009 - [ http://tools.ietf.org/html/rfc5411[html] | http://tools.ietf.org/rfc/rfc5411.txt[txt] ]
+* *RFC 5564* _Linguistic Guidelines for the Use of the Arabic Language in Internet Domains_, by A. El-Sherbiny, M. Farah, I. Oueichek, A. Al-Zoman, 2010 - [ http://tools.ietf.org/html/rfc5564[html] | http://tools.ietf.org/rfc/rfc5564.txt[txt] ]
+* *RFC 5706* _Guidelines for Considering Operations and Management of New Protocols and Protocol Extensions_, by D. Harrington, 2009 - [ http://tools.ietf.org/html/rfc5706[html] | http://tools.ietf.org/rfc/rfc5706.txt[txt] ]
+
+=== Remembrance
+* *RFC 2468* _I REMEMBER IANA_, by V. Cerf, October 1998, in memory of Jonathan B. Postel - [ http://tools.ietf.org/html/rfc2468[html] | http://tools.ietf.org/rfc/rfc2468.txt[txt] ]

@@ -11,7 +11,7 @@
 // @author Sven van der Meer (vdmeer.sven@mykolab.com)
 //
 
-== RFC April Fool's Day
+== RFCs: April Fool's Day
 
 Here is a list of RFCs published on April fool’s day.
 

@@ -22,7 +22,7 @@
 
 ##
 ## make script for the SKB
-## - runs the SKB_DASHBOARD with task make-target-sets
+## - runs the SKB-Dashboard with task make-target-sets
 ##
 ## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
 ## @version    v1.0.0
@@ -41,7 +41,7 @@ export SKB_HOME=$PWD
 
 
 ##
-## SKB_DASHBAORD settings (SD)
+## SKB-Dashboard settings (SD)
 ##
 export SD_TARGET=/tmp/sd
 export SD_LIBRARY_YAML=${SKB_HOME}/data/library
@@ -94,7 +94,7 @@ fi
 ##
 ## Everything looks ok, run SD and call 'make-target-sets' for our target set 'skb'
 ##
-$SKB_DASHBOARD -B -e make-target-sets --snp --task-level debug -- --id skb --targets $1
+$SKB_DASHBOARD --build-mode --execute-task make-target-sets --snp --task-level debug -- --id skb --targets $1
 
 
 

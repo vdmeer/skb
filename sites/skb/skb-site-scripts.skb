@@ -12,18 +12,20 @@ MvnSitePreScript() {
 
 
 MvnSitePostScript() {
+    MvnSiteFixAdoc target/site/index                                "SKB"
+
     MvnSiteFixAdoc target/site/research-notes-policy                "Research Notes - Policy-based Management"
     MvnSiteFixAdoc target/site/research-notes-cybernetics           "Research Notes - Cybernetics"
-
     MvnSiteFixAdoc target/site/research-notes-ina                   "Research Notes - INA"
     MvnSiteFixAdoc target/site/research-notes-internet-history      "Research Notes - Internet History"
-
     MvnSiteFixAdoc target/site/research-notes-time-and-date-nm      "Research Notes - Time and Date in Network Management"
-
-    MvnSiteFixAdoc target/site/index                                "SKB"
 
     MvnSiteFixAdoc target/site/technical-notes                                              "Technical Notes"
     MvnSiteFixAdoc target/site/technical-notes/utf8-support                                     "Technical Notes - UTF-8 Support"
+        MvnSiteFixAdoc target/site/technical-notes/utf-8/ide-editors                                "Technical Notes - UTF-8 Support - IDEs and Editors"
+        MvnSiteFixAdoc target/site/technical-notes/utf-8/java                                       "Technical Notes - UTF-8 Support - Java"
+        MvnSiteFixAdoc target/site/technical-notes/utf-8/console                                    "Technical Notes - UTF-8 Support - Console and Terminals"
+        MvnSiteFixAdoc target/site/technical-notes/utf-8/testing-console                            "Technical Notes - UTF-8 Support - Testing the Console"
     MvnSiteFixAdoc target/site/technical-notes/ansi-terminal-support                            "Technical Notes - ANSI Terminal Support"
 
     MvnSiteFixAdoc target/site/production-notes                                             "Production Notes"
@@ -40,7 +42,7 @@ MvnSitePostScript() {
     MvnSiteFixAdoc target/site/production-notes/templates                                       "Production Notes - Templates"
 
     MvnSiteFixAdoc target/site/miscellaneous                            "Miscellaneous"
-    MvnSiteFixAdoc target/site/miscellaneous/youtube                        "Misc - Video Clips, YouTube"
+    MvnSiteFixAdoc target/site/miscellaneous/youtube                        "Misc - Fun Video Clips - YouTube"
     MvnSiteFixAdoc target/site/miscellaneous/rfc-april                      "Misc - RFCs: April Fool's Day"
     MvnSiteFixAdoc target/site/miscellaneous/rfc-non-tech                   "Misc - RFCs: Non-technical"
 

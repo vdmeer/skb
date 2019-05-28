@@ -11,8 +11,17 @@
 // @author Sven van der Meer (vdmeer.sven@mykolab.com)
 //
 
-== UTF-8 Support
+== Java
+The java compiler might need a reminder to use UTF-8 using the option `-encoding UTF-8`.
 
-UTF-8 should be the default, standard character set being used everywhere today.
-However, in many contexts this - still - requires special settings and configurations.
-The pages here provide some information on how to gain UTF-8 support in different contexts.
+
+Javadoc has 3 options for dealing with UTF-8 characters.
+Encoding for the source (i.e. reading UTF-8 encoded java files),
+    `docencoding` for the output (i.e. the html encoding) and
+    `charset` for the output (i.e. to tell the browser what character set to use).
+All of these options need to be set to UTF-8.
+
+
+Running a Java program with UTF output might require to set the JVM to UTF as well.
+`-Dfile.encoding=UTF-8` should do the trick.
+

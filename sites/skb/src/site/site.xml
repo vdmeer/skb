@@ -40,13 +40,18 @@ SPDX-License-Identifier: CC-BY-SA-4.0
             </item>
 
             <item href="technical-notes.html" name="Technical Notes" collapse="true">
-                <item href="technical-notes/utf8-support.html" name="UTF-8 Support" />
+                <item href="technical-notes/utf8-support.html" name="UTF-8 Support" collapse="true">
+                    <item href="technical-notes/utf-8/ide-editors.html" name="IDEs and Editors" />
+                    <item href="technical-notes/utf-8/java.html" name="Java" />
+                    <item href="technical-notes/utf-8/console.html" name="Console and Terminals" />
+                    <item href="technical-notes/utf-8/testing-console.html" name="Testing the Console" />
+                </item>
                 <item href="technical-notes/ansi-terminal-support.html" name="ANSI Terminal Support" />
             </item>
 
             <item href="miscellaneous.html" name="Miscellaneous" collapse="true">
                 <item href="miscellaneous/youtube.html" name="Fun Video Clips, Youtube" />
-                <item href="miscellaneous/rfc-april.html" name="RFCs: April Fools' Day" />
+                <item href="miscellaneous/rfc-april.html" name="RFCs: April Fool's Day" />
                 <item href="miscellaneous/rfc-non-tech.html" name="RFCs: None-technical" />
             </item>
 

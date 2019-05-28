@@ -11,8 +11,13 @@
 // @author Sven van der Meer (vdmeer.sven@mykolab.com)
 //
 
-== UTF-8 Support
+== IDEs and Editors
+Editing source files requires an IDE or editor that can handle UTF-8 and being configured to do so.
+Otherwise all UTF-8 characters will be scrambled.
 
-UTF-8 should be the default, standard character set being used everywhere today.
-However, in many contexts this - still - requires special settings and configurations.
-The pages here provide some information on how to gain UTF-8 support in different contexts.
+In Eclipse, one can set the respective file, the project or the complete workspace to use UTF-8 encoding.
+The default on Windows is CP1252, so make sure to change that before opening any UTF-8 file.
+Simply change the text file encoding on the resource.
+This will also change the output of the Eclipse console to UTF.
+
+Other editors will have their specific way to configure for UTF file handling.

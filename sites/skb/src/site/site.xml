@@ -45,7 +45,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
             </item>
 
             <item href="miscellaneous.html" name="Miscellaneous" collapse="true">
-                <item href="miscellaneous/youtube.html" name="Fun Video Clips" />
+                <item href="miscellaneous/youtube.html" name="Fun Video Clips, Youtube" />
                 <item href="miscellaneous/rfc-april.html" name="RFCs: April Fools' Day" />
                 <item href="miscellaneous/rfc-non-tech.html" name="RFCs: None-technical" />
             </item>

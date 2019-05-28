@@ -13,7 +13,25 @@
 
 == Video Clips to watch before they close YouTube
 
-* Cowboys herding cats: https://www.youtube.com/watch?v=Pk7yqlTMvp8
 * i-Diots: https://www.youtube.com/watch?v=NCwBkNgPZFQ
 * The Expert (Short Comedy Sketch): https://www.youtube.com/watch?v=BKorP55Aqvg&feature=youtu.be
-* The coolest, sleekest new gadget on the market, the IKEA bookbook: https://www.youtube.com/watch?v=MOXQo7nURs0
+
+
+=== Ads & Commercials
+
+[cols="30,70", grid=rows, frame=none, %autowidth.stretch, options="header"]
+|===
+| Short Title | Notes
+
+| link:https://www.youtube.com/watch?v=jAOlODdyYRQ&has_verified=1[Guinness Clear] |
+Helping people to drink responsible :)
+
+| link:https://www.youtube.com/watch?v=Pk7yqlTMvp8[EDS] |
+Cowboys herding cats
+
+| link:https://www.youtube.com/watch?v=MOXQo7nURs0[IKEA bookbook] |
+The coolest, sleekest new gadget on the market, the IKEA bookbook
+
+|===
+
+

@@ -40,7 +40,7 @@ MvnSitePostScript() {
     MvnSiteFixAdoc target/site/production-notes/templates                                       "Production Notes - Templates"
 
     MvnSiteFixAdoc target/site/miscellaneous                            "Miscellaneous"
-    MvnSiteFixAdoc target/site/miscellaneous/youtube                        "Misc - Video Clips to watch before they close YouTube"
+    MvnSiteFixAdoc target/site/miscellaneous/youtube                        "Misc - Video Clips, YouTube"
     MvnSiteFixAdoc target/site/miscellaneous/rfc-april                      "Misc - RFCs: April Fool's Day"
     MvnSiteFixAdoc target/site/miscellaneous/rfc-non-tech                   "Misc - RFCs: Non-technical"
 
